@@ -1,0 +1,91 @@
+intro.start@0@story-max@Меня зовут Макс. Я обычный парень из обычной семьи. Ну как обычной... нормальной. Хотя, кого я обманываю. Нормального в моей семье мало. Но обо всём по порядку.|Hi. Mein Name ist Max. Ich bin nur ein normaler Kerl aus einer normalen Familie. Naja, meistens normal.... wer bin ich, der scherzt, da ist nichts Normales an meiner Familie. Aber fangen wir am Anfang an....
+	intro.me^				<i>далее</i>|<i>fortsetzen</i>
+	bf.1^					<i>пропустить</i>|<i>Intro überspringen</i>
+
+intro.me@3@Недавно меня выперли из школы. Официально - за низкую успеваемость. Хотя оценки были так себе, но настоящая причина в математичке. Говорят, я приставал... Да она сама глазки строила! Директору, её мужу, это почему-то не понравилось...|Vor kurzem wurde ich von der Schule geworfen. Offizieller Grund: geringe Studienleistungen. Und während ich nicht gerade ein Schüler war, ist der wahre Grund meine Mathelehrerin. Sie sagte, ich belästige sie.... Aber sie hat zuerst mit mir geflirtet! Der Schuldirektor - die zufällig auch ihr Ehemann war - mochte meine Seite der Geschichte nicht....
+	intro.me2^				<i>далее</i>|<i>fortsetzen</i>
+
+intro.me2@0@В общем, сейчас я с неоконченным средним образованием. Без работы и конкретных планов на будущее... Но всё должно измениться, обязательно!|Also, ich bin ein Schulabbrecher, keine Arbeit oder Pläne für die Zukunft.... Aber die Dinge werden sich ändern, sie müssen!
+	intro.mom^				<i>далее</i>|<i>fortsetzen</i>
+
+intro.mom@4@story-mom@Это Анна, моя мама. Сама воспитывает нас с двумя сёстрами уже несколько лет. Работает в офисе какой-то компании. Хотя, зарплата у неё вполне приличная, но почти всё уходит на оплату съёмного жилья, еду и одежду.|Das ist Ann, meine Mutter. Sie erzieht mich und meine beiden Schwestern. Sie arbeitet in irgendeinem Büro. Sie verdient genug, um zu überleben, aber Miete, Essen, Kleidung und andere verschiedene Ausgaben fressen den größten Teil ihres Gehalts auf.
+	intro.dorm^				<i>далее</i>|<i>fortsetzen</i>
+
+intro.dorm@0@story-oldroom@Ну а это наша квартира. Тот ещё тараканник! Мама пытается заработать на первый взнос, чтобы взять ипотеку, но пока что-то не получается. Все мы мечтаем отсюда съехать, но куда?|Das ist unsere Wohnung. Es ist ein bisschen hässlich, aber das ist alles, was wir haben. Mamma versucht, Geld für die erste Hypothekenzahlung zu sparen, aber es scheint, für jetzt unmöglich zu sein. Wir hoffen, eines Tages an einen besseren Ort zu ziehen, aber wo?
+	intro.alisa^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.alisa@5@story-alisa@Алиса, моя старшая сестра. Недавно закончила школу и, так же, как и я, ищет свой путь. Целыми днями сидит в ноутбуке и занимается каким-то своим блогом. Как это часто бывает с братьями и старшими сёстрами, мы не очень ладим...|Das ist Alice, meine ältere Schwester. Sie hat vor kurzem die High School abgeschlossen und sucht, genau wie ich, einen Job. Sie verbringt den ganzen Tag auf ihrem Laptop und bloggt. Wie es bei zickigen älteren Schwestern üblich ist, hält sie mich für einen Idioten und wir stehen uns nicht sehr nahe.
+	intro.liza^				<i>далее</i>|<i>fortsetzen</i>
+
+intro.liza@0@story-liza@Лиза, младшая сестрёнка, ещё учится в школе. Не знаю как учится, но если не выгнали как меня, значит всё в порядке. С Лизой мы общаемся на одной волне, хотя изредка ссоримся. Но если что-то случается, защиты ищет именно у меня.|Das ist Lisa, meine jüngere Schwester. Sie ist noch in der High School. Ich glaube nicht, dass sie gute Noten hat, aber sie wurde nicht wie ich ausgewiesen, also schätze ich, dass es ihr gut genug geht. Trotz gelegentlicher Streitereien stehen wir uns sehr nahe. Wenn etwas passiert, rennt Lisa immer zu mir um Unterstützung.
+	intro.dad^				<i>далее</i>|<i>fortsetzen</i>
+
+intro.dad@2@story-max@Отца я плохо помню. Он ушёл, когда мне было лет пять. Мама не хочет рассказывать, что тогда случилось... Ходили слухи, что дела у него пошли в гору. С тех пор мы о нём ничего не слышали. До прошлого месяца, когда пришла та девушка...|Ich erinnere mich nicht an meinen Vater. Er ging, als ich ungefähr fünf Jahre alt war. Mom will uns nicht erzählen, was passiert ist.... Es gab Gerüchte, dass es für ihn bergauf gegangen sei. Seitdem haben wir bis letzten Monat nichts von ihm gehört....
+	intro.layer^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer@139@story-layer@Здравствуйте, меня зовут Майя, я адвокат вашего бывшего мужа. У вас найдётся для меня минутка?|Hallo, mein Name ist Maya, ich bin der Anwalt ihres Ex-Mann. Haben Sie eine Minute für mich?
+	intro.layer.2^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.2@60@Здравствуйте, да, конечно. Меня зовут Анна, но вы и так это знаете похоже. Так в чём дело? С ним что-то случилось?|Ja, natürlich. Mein Name ist Ann, aber das wissen Sie wahrscheinlich schon. Ist etwas passiert?
+	intro.layer.3^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.3@139@Не переживайте, он жив-здоров, но сам приехать не смог. Сказал, что вы будете не очень рады, хотя новости у меня для вас отличные!|Keine Sorge, er ist am Leben, aber er konnte nicht selbst kommen. Er sagte, Sie würden sich nicht freuen, mich zu sehen, aber ich habe gute Neuigkeiten für Sie.
+	intro.layer.4^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.4@62@Любопытно. И что же это за новости спустя столько лет?|Huh. Nach so vielen Jahren.... Was für Neuigkeiten?
+	intro.layer.5^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.5@139@Я принесла документы на недвижимость, которую он решил передать вам. Если вы их подпишите, то станете полноправным владельцем.|Ich habe die Unterlagen für die Immobilie mitgebracht, die er Ihnen übergeben wollte. Wenn Sie es unterschreiben, werden Sie sein voller Besitzer.
+	intro.layer.6^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.6@72@Что-то я не поняла. Это совсем на него не похоже. Какая недвижимость? О чём речь?|Ich bin mir nicht sicher, ob ich Sie richtig verstehe. Das sieht ihm nicht ähnlich. Welche Immobilie?
+	intro.layer.7^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.7@139@Это двухэтажный дом на юге страны, который построила его компания. А насчёт того, что это на него не похоже... В последние пару лет он очень изменился. Не уверена, что эти изменения пошли на пользу бизнесу.|Es ist ein zweistöckiges Haus, gebaut von seiner Firma. Und über den Teil "nicht wie er".... Er hat sich in den letzten Jahren verändert. Ich kann nicht sagen, dass es das Beste für sein Geschäft war.
+	intro.layer.8^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.8@62@Что-то вы меня озадачили. В чём подвох? Я что-то должна? Столько лет никаких вестей, ничего, и тут... дом. И что там с его бизнесом?|Wo ist der Haken? Ich habe so viele Jahre nichts von ihm gehört und jetzt das? Und was ist mit seinem Geschäft?
+	intro.layer.9^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.9@139@В данный момент он продал большую часть недвижимости, чтобы погасить налоговую задолженность, но этот дом решил передать вам. Я не знаю причин, да они меня и не касаются.|Im Moment hat er den größten Teil seines Besitzes verkauft, um die Schulden zu begleichen, aber er hat beschlossen, dieses Haus an Sie weiterzugeben. Ich kenne seine persönlichen Gründe nicht, ich bin nur ein Anwalt.
+	intro.layer.10^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.10@60@Вы знаете, Майя, я не могу принять такой... подарок. Во-первых, я не в курсе его махинаций или что он там придумал, а во-вторых, мы с ним уже столько лет не общались, и мне не нужно от него ничего!|Ich kann das nicht akzeptieren.... Erstens, ich kenne seine Gründe für diese Entscheidung nicht, und zweitens, wir nach so vielen Jahren des Schweigens, will ich einfach nichts von ihm.
+	intro.layer.11^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.11@139@Да, он предупреждал меня о такой вашей реакции... С юридической точки зрения дом абсолютно чист, и вы ничем не рискуете. Кроме того, ваши дети растут и им нужно место, своё личное пространство...|Ja, er sagte mir, Sie könnten das sagen.... Aus rechtlicher Sicht ist das Haus absolut klar, und Sie riskieren gar nichts. Darüber hinaus werden Ihre Kinder erwachsen und brauchen etwas persönlichen Freiraum....
+	intro.layer.12^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.12@69@С этим не поспоришь. У меня есть время подумать обо всём?|Ja, das ist wahr. Kann ich etwas Zeit zum Nachdenken haben?
+	intro.layer.13^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.layer.13@139@Конечно, Анна. Вот моя визитка. Позвоните, когда будете готовы принять решение. Также я оставлю копии всех документов. До свидания.|Natürlich, Ann, hier ist meine Karte. Rufen Sie mich an, wenn Sie bereit sind, eine Entscheidung zu treffen.
+	intro.later.1^			<i>пару недель спустя...</i>|<i>ein paar Wochen später....</i>
+
+intro.later.1@4@loc-20@К счастью, мама приняла верное решение. Когда мы увидели дом, не поверили своим глазам! Вживую он оказался гораздо больше и красивее, чем на фотографиях. Но самым приятным сюрпризом оказался бассейн!|Zum Glück hat meine Mutter die richtige Entscheidung getroffen. Als wir das Haus sahen, trauten wir unseren Augen nicht! Es war viel größer und schöner als auf den Bildern. Aber die beste Überraschung war der Pool!
+	intro.later.2^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.later.2@0@loc-4@Алиса сразу заняла одну из спален. Кстати, их оказалось всего две. Несмотря на огромную гостиную с кухней и просторную ванную, в доме всего три отдельные комнаты: две спальни и кабинет.|Alice nahm sofort eines der Schlafzimmer. Übrigens, es waren nur zwei. Trotz des großen Wohnzimmers mit Küche und großem Bad hat das Haus nur drei getrennte Räume: zwei Schlafzimmer und das Büro.
+	intro.later.3^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.later.3@5@story-emptyroom@В кабинете мебели почти не оказалось, и мне пришла в голову отличная идея разместить здесь наши с Лизой кровати из старой квартиры.|Das Büro hatte keine Möbel, also kam ich auf die Idee, es in mein und Lisas Zimmer zu verwandeln.
+	intro.later.4^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.later.4@62@Что-то мне не нравится эта твоя идея, Макс. Вы уже взрослые, чтобы спать в одной комнате. Давай этот офис выделим тебе, а вторую спальню - Лизе. Ну а я буду спать в гостиной. Там отличные диванчики...|Ich bin mir nicht sicher mit deiner Idee, Max. Ihr zwei seid zu alt, um im selben Zimmer zu schlafen. Machen wir dieses Büro zu deinem und das zweite Schlafzimmer zu Lisas. Ich schätze, ich muss im Wohnzimmer schlafen. Es gibt dort anständige Sofas....
+	intro.aboutroom1^		<i>далее</i>|<i>fortsetzen</i>
+
+intro.aboutroom1@3@Мам, мы и так все жили как селёдки в бочке, нам не привыкать. А тут такие огромные комнаты. Нам с Лизой места хватит. Правда, сестрёнка?|Keine Sorge, Mom, wir sind es gewohnt. Der Raum ist riesig, wir werden viel Platz haben. Stimmt's, Schwesterchen?
+	intro.aboutroom2^		<i>далее</i>|<i>fortsetzen</i>
+
+intro.aboutroom2@41@Конечно! Мам, мы нормально с Максом уживаемся. А если будет косячить, выгоню его в эту самую гостиную! А ты свою комнату точно заслужила. И не спорь. Мы все так думаем.|Natürlich! Mom, mir geht es gut mit Max, und wenn er jemals irgendwelche lustigen Ideen hat, werfe ich ihn einfach ins Wohnzimmer! Du verdienst definitiv dein eigenes Zimmer. Und streite nicht.
+	intro.aboutroom3^		<i>далее</i>|<i>fortsetzen</i>
+
+intro.aboutroom3@67@Ну хорошо. Транспортная компания сообщила, что наши вещи задерживаются. Что-то я уже жалею, что с ними связалась... Так или иначе, через неделю переезжаем!|Gut. Die Umzugsfirma sagt, es wird eine Verzögerung geben. Ich hätte jemand anderen einstellen sollen.... Wie auch immer, wir ziehen nächste Woche ein!
+	intro.next1^			<i>Спустя неделю...</i>|<i>next week...</i>
+
+intro.next1@0@story-max@Спустя неделю часть наших вещей из старой квартиры доставили. Но только часть. Как я понял, кое-что потерялось в пути. Надеюсь, компенсируют это как-то...|Eine Woche später bekamen wir ein paar Sachen aus unserer alten Wohnung, aber weit weg von allem. Die Umzugsfirma hat die meisten unserer Sachen verloren. Hoffentlich bekommen wir eine Entschädigung....
+	intro.next2^			<i>далее</i>|<i>fortsetzen</i>
+
+intro.next2@4@Мама устроилась на новую работу. Лиза пошла в местную школу. Алиса так и сидит в своём ноуте, а я... На этом мой рассказ заканчивается и начинается что-то новое и интересное!|Mutter bekam einen neuen Job, Lisa wechselte zur örtlichen Schule, Alice macht immer noch etwas auf ihrem Laptop und ich.... Meine Einleitung endet hier und etwas Neues und Interessantes beginnt!
+	bf.1^					<i>начать игру</i>|<i>Speil starten</i>
+	intro.start^			<i>повторить историю</i>|<i>Geschichte wiederholen</i>

@@ -1,0 +1,1367 @@
+# --- Разговор с мамой по поводу инцидента в ванной|Gespräch über die Veranstaltung im Bad
+
+	mom.talk.mombathinc.1.init@0@Насчёт того случая в ванной...|Wegen der Zeit im Badezimmer ...
+	mom.talk.mombathinc.1@73@Макс, давай не будем об этом вспоминать, хорошо?|Max, können wir diesen Vorfall nicht einfach nie wieder erwähnen?
+		mom.talk.mombathinc.1.sorry^										Я хотел извиниться...|Ich wollte mich entschuldigen....
+		mom.talk.mombathinc.1.fun^											Но было же весело?|Aber es hat Spaß gemacht, nicht wahr?
+		mom.talk.mombathinc.1.again^										Зато мы стали ближе|Es brachte uns näher zusammen.
+
+	mom.talk.mombathinc.1.sorry@62@Извинения принимаются. Вообще, как ты додумался до такого, находясь в метре от меня?|Ich akzeptiere deine Entschuldigung. Wie konntest du das überhaupt tun, direkt vor deiner Mutter?
+		mom.talk.mombathinc.1.sorry.dono^									Это само получилось...|Es war nicht wirklich eine bewusste Entscheidung....
+		mom.talk.mombathinc.1.sorry.nice^									Просто, я не видел голых женщин так близко...|Ich habe noch nie nackte Frauen so nah gesehen.
+
+	mom.talk.mombathinc.1.sorry.dono@69@Видимо, гормоны играют в столь юном теле... Ну тебе хоть было стыдно?|Ich schätze, wir können es mit Hormonen begründen.... Schämst du dich für dein Verhalten?
+		mom.talk.mombathinc.1.sorry.dono.shy^								Мне, правда, очень стыдно!|Natürlich tue ich das!
+		mom.talk.mombathinc.1.sorry.dono.dontshy^							Разве надо стесняться своей мамы?|Warum sollte ich mich schämen, du bist meine Mutter!
+
+	mom.talk.mombathinc.1.sorry.dono.shy@60@Я рада, что хорошо тебя воспитала! Ладно, давай постараемся обо всём забыть. Ничего страшного не произошло.|Ich bin froh, dass ich dich richtig erzogen habe. Wie auch immer, lass uns einfach versuchen, das alles zu vergessen.
+		mom.talk.mombathinc.1.forgot^										Хорошо, мам!|Okay, Mom
+
+	mom.talk.mombathinc.1.sorry.dono.dontshy@69@Ты прав, Макс. Но... одно дело раздеться и другое - делать такое... Ладно, давай об этом забудем.|Du hast Recht, aber es gibt einen großen Unterschied zwischen nackt vor deiner Mutter und dem, was du damals gemacht hast.... Wie auch immer, vergessen wir es einfach.
+		mom.talk.mombathinc.1.forgot^										Ты права, давай|Du hast Recht, lass uns das machen.
+
+	mom.talk.mombathinc.1.sorry.nice@67@И правильно. В твоём возрасте рано о таком думать.|Es ist okay, du solltest sowieso nicht über solche Sachen nachdenken.
+		mom.talk.mombathinc.1.sorry.nice.find^								Ты же сама сказала, чтобы я нашёл себе девушку?|Hast du mir nicht gesagt, ich soll eine Freundin finden?
+		mom.talk.mombathinc.1.sorry.nice.you^								А ты в каком возрасте начала думать о мужчинах?|Mom, wie alt warst du, als du angefangen hast, an Jungs zu denken?
+
+	mom.talk.mombathinc.1.sorry.nice.find@62@Да, но... я немного погорячилась. Ты ещё слишком молод для такого.|Ja, aber.... Es war spontan. Du bist zu jung dafür.
+		mom.talk.mombathinc.1.sorry.nice.find.what^							И что мне делать тогда?|Was soll ich dann tun?
+
+	mom.talk.mombathinc.1.sorry.nice.find.what@60@В каком смысле?|Was meinst du damit?
+		mom.talk.mombathinc.1.sorry.nice.find.what.if^						Ну, когда я возбуждаюсь...|Ich meine, wenn ich aufgeregt bin.
+		mom.talk.mombathinc.1.sorry.nice.find.what.if^						В смысле, когда член встаёт!|Ich meine, wenn ich hart werde.
+
+	mom.talk.mombathinc.1.sorry.nice.find.what.if@69@Ну, воспользуйся руками, как все парни в твоём возрасте... Эх, и почему мне приходится это объяснять... Думаю, ты разберёшься. Ладно, давай постараемся обо всём забыть, ничего страшного не произошло, на самом деле.|Ich weiß nicht, benutze deine Hand, wie jeder in deinem Alter.... Warum muss ich dir das alles erklären? Ich bin sicher, du wirst es herausfinden. Versuchen wir einfach alles zu vergessen, es ist nicht so, als wäre etwas Schreckliches passiert, es war keine große Sache.
+		mom.talk.mombathinc.1.forgot^										Ты права, давай|Du hast Recht, lass uns das machen.
+
+	mom.talk.mombathinc.1.sorry.nice.you@60@В смысле? Ты о чём, Макс?|Was meinst du, Max?
+		mom.talk.mombathinc.1.sorry.nice.you.born^							Ты когда Алису родила? В каком возрасте?|Wie alt warst du, als Alice geboren wurde?
+		mom.talk.mombathinc.1.sorry.nice.you.born^							Сомневаюсь, что ты поцеловалась только в 18...|Wie alt warst du, als du deinen ersten Freund hattest?
+
+	mom.talk.mombathinc.1.sorry.nice.you.born@67@Так, всё, хватит. Моё прошлое это отдельная история. Мы тебя обсуждаем. В общем, давай всё забудем.|Wir reden nicht über meine Vergangenheit, Max. Wie auch immer, vergessen wir die ganze Sache.
+		mom.talk.mombathinc.1.forgot^										Как скажешь, мам|Okay mom
+
+	mom.talk.mombathinc.1.fun@64@Нет, Макс. Это было не весело, а неправильно!|Nein, Max, es war nicht lustig, es war falsch!
+		mom.talk.mombathinc.1.sorry^										Извини, мам...|Es tut mir leid, Mom
+
+	mom.talk.mombathinc.1.again@68@В каком смысле?|Was meinst du damit?
+		mom.talk.mombathinc.1.again.naked^									Ну, мы увидели друг друга голыми|Nun, wir haben uns nackt gesehen.
+		mom.talk.mombathinc.1.again.intim^									Согласись, это был... интимный момент|Du musst zustimmen, dass der Moment sehr.... intim war.
+
+	mom.talk.mombathinc.1.again.naked@67@Макс! Как тебе не стыдно? Я твоя мама, это нормально, когда родители видят своих детей голыми. А вот дети не должны...|Wie konntest du das sagen, Max? Es ist nicht normal, wenn Kinder ihre Eltern nackt sehen.
+		mom.talk.mombathinc.1.sorry^										Ты права, извини...|Du hast Recht, es tut mir leid.
+
+	mom.talk.mombathinc.1.again.intim@64@Макс! Что за разговоры?! Тебе бы стоило извиниться за своё поведение, а не болтать всякую ерунду...|Max, du solltest um Vergebung für dein Verhalten bitten, nicht solche Dinge sagen....
+		mom.talk.mombathinc.1.sorry^										Извини, мам...|Es tut mir leid, Mom
+
+	mom.talk.mombathinc.1.forgot@69@Я забуду, что видела твой... тебя голым. А ты постараешься так больше не делать, хорошо?|Ich werde vergessen, dass ich dich nackt gesehen habe, und du wirst versuchen, das in Zukunft nicht mehr zu tun.
+		leave!set_talk.mombathinc_2!time^									Конечно!|Sicher!
+
+
+
+
+# --- Разговор с мамой после утреннего инцидента|Gespräch nach der Morgenveranstaltung mit Lisa
+
+	talk.mom.aboutmorning.init@0@Насчёт случая с Лизой...|Wegen der Zeit mit Lisa....
+	talk.mom.aboutmorning@62@Макс, не переживай ты так. Я всё прекрасно понимаю, у мальчиков это бывает...|Keine Sorge, Max, ich verstehe. Das ist normal für Männer.
+		talk.mom.aboutmorning.1!set_talk.mom.morningops_2^		Я рад, что ты понимаешь|Ich bin froh, dass du das verstehst.
+
+	talk.mom.aboutmorning.1@69@Но Макс. Лиза ещё маленькая и постарайся, чтобы она не видела твой... тебя. В общем, ты меня понял, да?|Aber trotzdem, Max, versuch nicht, Lisa deinen.... dich selbst zu zeigen.
+		talk.mom.aboutmorning.2.so^								А что такого?|Warum?
+		talk.mom.aboutmorning.2.ok^								Хорошо, постараюсь...|Ich werde es versuchen....
+
+	talk.mom.aboutmorning.2.so@71@Что такого? Да то, что девочка не должна видеть здоровенный член своего брата, когда просыпается утром!|Weil sie nicht jeden Morgen den riesigen Schwanz ihres Bruders sehen soll!
+		talk.mom.aboutmorning.2.so.wow^							Ого, мам...|Wow, Mom...
+		talk.mom.aboutmorning.2.so.shy^							Разве это должно пугать?|Warum, glaubst du, wird es ihr Angst machen?
+
+	talk.mom.aboutmorning.2.ok@75@Вот и молодец. А если такое повторится, просто прикройся, как будто ничего нет...|Gut. Nächstes Mal versuch dich zu bedecken....
+		talk.mom.aboutmorning.2.ok.size^						Ну, ты же знаешь, что мне с моим размером это трудно сделать...|Weißt du, es ist nicht so einfach mit meiner Größe....
+
+	talk.mom.aboutmorning.2.ok.size@73@Да, понимаю, конечно... Но беседа ушла куда-то не туда. В общем, постарайся не травмировать её психику, хорошо?|Ja, ich denke schon.... Dieses Gespräch geht in eine seltsame Richtung. Wie auch immer, versuch einfach, deine Schwester nicht zu traumatisieren, okay?
+		leave!time^												Хорошо, мам...|Okay, Mom
+
+	talk.mom.aboutmorning.2.so.wow@67@Извини, что-то меня занесло. Просто, даже я в шоке была, когда увидела, а что уж говорить про Лизу...|Es tut mir leid, ich habe zu viel gesagt. Selbst ich war schockiert, als ich dich sah, ich kann mir nicht vorstellen, woran Lisa gedacht hat....
+		talk.mom.aboutmorning.2.so.wow.like^					Значит, тебе понравилось?|Dir hat also gefallen, was du gesehen hast?
+		leave!time^												Ладно, я всё понял...|Okay, ich verstehe
+
+	talk.mom.aboutmorning.2.so.wow.like@73@Макс! Я конечно рада, что ты у меня уже такой... большой... Но вообще, я всё сказала. Постарайся ей не показываться в таком виде, ладно?|Max! Natürlich bin ich froh, dass du so.... groß bist, aber.... Aber das reicht jetzt. Versuch, dich deiner Schwester in Zukunft nicht so zu zeigen, okay?
+		leave!time^												Ладно, мам...|Okay, Mom...
+
+	talk.mom.aboutmorning.2.so.shy@73@Ну, взрослую женщину это даже притягивает, но девочке явно рано на такое смотреть, ты меня понял?|Nun, Frauen mögen es eigentlich, aber deine Schwester sollte so etwas nicht sehen, verstehst du?
+		talk.mom.aboutmorning.2.so.shy.att^						Взрослую женщину притягивает?|Heißt das, du magst es auch?
+		leave!time^												Да, я всё понял!|Ja, ich verstehe.
+
+	talk.mom.aboutmorning.2.so.shy.att@75@Ну, Макс! Я же не это имела в виду... В общем, этот разговор окончен. Постарайся не травмировать психику Лизы, хорошо?|Das meinte ich nicht, Max.... Okay, das ist genug von diesem Gespräch. Versuch Lisa nicht zu traumatisieren, okay?
+		leave!time^												Хорошо, мам...|Okay, Mom
+
+
+
+# --- Макс просит деньги у мамы на карманные расходы|aum Erlaubnis bittend
+
+	talk.mom.pocketmoney.init@0@Мам, дай денег, пожалуйста...|Kannst du mir etwas Geld geben, Mom?
+	talk.mom.pocketmoney@60@Макс, тебе не стыдно просить деньги у мамы, хотя сам целыми днями дома сидишь и ничего не делаешь?|Schämst du dich nicht, Mom um Geld zu bitten, wenn du nur zu Hause bleibst und nichts tust?
+		paid=0&talk.mom.pocketmoney.need!pocketmoney!set_dcd.paymom_0!add_mom.inf_5^											Мне стыдно, но очень нужны деньги...|Es tut mir leid, aber ich brauche das Geld wirklich....
+		talk.mom.pocketmoney.2!set_can.askmoney_0^																				Я могу сделать какую-то работу, чтобы не просто так выпрашивать деньги...|Ich könnte ein paar Aufgaben erledigen, anstatt nur nach Geld zu fragen....
+		leave!set_can.askmoney_0^																								Ты права, стыдно. В другой раз...|Du hast Recht, es tut mir leid. Ein anderes Mal....
+	talk.mom.pocketmoney.need@71@Ладно, держи. И найди себе уже работу, хотя бы через интернет. Нам лишние деньги не помешают...|Gut, hier. Du solltest dir einen Job suchen. Vielleicht versuchen, im Internet nach etwas zu suchen? Wir könnten etwas mehr Geld gebrauchen....
+		leave^																													Ага! Спасибо, мам!|Okay, danke, Mom!
+		talk.mom.pocketmoney.2^																									Может быть, я могу что-то сделать?|Vielleicht könnte ich ein paar Aufgaben erledigen, um Geld zu verdienen?
+	talk.mom.pocketmoney.2@62@И что же, например?|Was schwebt Dir vor?
+		task.clearpool=0&talk.mom.pocketmoney.2.pool!set_task.clearpool_1!add_money_40!add_mom.inf_-10!add_mom.mood_25^			Может быть, почистить бассейн?|Vielleicht könnte ich den Pool reinigen?
+		task.buyfood=0&talk.mom.pocketmoney.2.food!set_task.buyfood_1!add_money_60!add_mom.inf_-5!add_mom.mood_25^				Ну, могу заказать продукты|Ich könnte Lebensmittel online bestellen!
+		task.ordercosm=0&talk.mom.pocketmoney.2.order!set_task.ordercosm_1!add_money_115!add_mom.inf_-5!add_mom.mood_25^		Может быть, тебе что-то нужно из косметики?	|Vielleicht brauchst Du ein paar Kosmetika, die ich online bestellen kann?
+		leave^																													Не знаю. Видимо, ничего...|Nichts, schätze ich....
+	talk.mom.pocketmoney.2.pool@71@Отличная идея, Макс! Лучше уж я заплачу тебе $40, чем нанимать какого-то человека. Держи. Да, лучше это делать пока светло и никого нет.|Tolle Idee, Max! Es ist besser, als einen Fremden einzustellen. Hier. Oh, und du solltest es bei Tageslicht tun, wenn niemand am Pool ist.
+		leave^																													Конечно!|Sicher!
+		talk.mom.pocketmoney.2^																									Может быть, я могу ещё что-то сделать?|Sicher. Was sollte ich sonst tun?
+	talk.mom.pocketmoney.2.food@71@Хорошая мысль, Макс. Я дам тебе $50 на продукты и авансом $10 за твои услуги, так сказать. Устроит?|Gute Idee. Ich gebe dir $50 für die Lebensmittel und $10 Vorschuss für deine Arbeit, ist das okay?
+		leave^																													Конечно, спасибо!|Okay, Danke!
+		talk.mom.pocketmoney.2^																									Может быть, я могу ещё что-то сделать?|Sicher. Was sollte ich sonst tun?
+	talk.mom.pocketmoney.2.order@71@Ты знаешь, мне и правда нужно кое-что заказать. Купи для меня набор косметики, вот $100 и $15 сверху за твои труды, хорошо?|Weißt du, das tue ich tatsächlich. Kauf mir ein Kosmetikset, hier sind $100 für ein Set und $15 für deine Arbeit, okay?
+		leave^																													Конечно, спасибо!|Okay, Danke!
+		talk.mom.pocketmoney.2^																									Может быть, я могу ещё что-то сделать?|Sicher. Was sollte ich sonst tun?
+
+
+
+# --- Макс отдаёт маме набор косметики, который она заказывала|Kosmetikbericht
+
+	talk.mom.aboutcosm.init@0@Вот косметика, которую ты заказывала|Hier ist die Kosmetik, um die Du gebeten habst.
+	talk.mom.aboutcosm@75@Ой, спасибо Макс! Ты у меня такой внимательный...|Danke, Max, du bist so aufmerksam....
+		leave!set_dcd.ordercosm_8!set_task.ordercosm_3!set_item.cosm_-4!add_mom.inf_-10!add_mom.mood_50!add_mom.help.score_10^			Да не за что, мам!|Gern geschehen, Mom!
+
+
+
+# --- Макс отчитывается о бассейне|Pool-Bericht
+	talk.mom.aboutpool.init@0@Мам, бассейн чист!|Ich habe den Pool gereinigt, Mom!
+	talk.mom.aboutpool@75@Спасибо, Макс. Надеюсь, ещё пару недель его чистить не придётся|Danke, Max. Hoffen wir, dass es für ein paar Wochen sauber bleibt.
+		leave!set_task.clearpool_3!add_mom.inf_-5!add_mom.mood_50^												Ага...|Ja...
+
+
+
+# --- Макс отчитывается о заказе продуктов|Lebensmittelbericht
+	talk.mom.aboutfood.init@0@Я продукты заказал!|Ich habe die Lebensmittel bestellt, Mom!
+	talk.mom.aboutfood@75@Спасибо, Макс. Продукты я или Алиса заберём, когда привезут. Об этом не беспокойся.|Danke, Max. Alice oder ich werde sie nehmen, wenn es geliefert wird, keine Sorge.
+		leave!set_task.buyfood_3!add_mom.inf_-5!add_mom.mood_50^													Супер!|Super!
+
+
+
+# --- Макс просит деньги у мамы в неподходящий момент|zur falschen Zeit nach Geld fragend
+
+	talk.mom.askmoneybadplace.init@0@Мам, дай денег, пожалуйста...|Kannst du mir etwas Geld geben, Mom?
+	talk.mom.askmoneybadplace@75@Очень смешно, Макс. Ты видишь у меня карманы? Нет? Выбери более подходящий момент, пожалуйста...|Siehst du nicht, dass ich gerade keine bei mir habe? Frag mich ein anderes Mal, okay?
+		leave!add_mom.inf_2^																					Точно, извини...|Richtig, es tut mir leid.
+
+
+
+# --- Мама замечает запах дыма и спрашивает у Макса что он об этом знает|Ann bemerkt Rauch und fragt Max danach.
+
+	specialevent.1@63@e-momabouts-1@Макс. Я не уверена, но мне кажется, что чувствую запах сигаретного дыма. К нам кто-то приходил?|Max, ich bin nicht sicher, aber ich glaube, ich rieche Zigarettenrauch. Hatten wir Gäste?
+		mom.suspect.smoke.no^											Нет, никого не было...|Nein
+		mom.suspect.smoke.no^											Может быть, показалось?|Ich denke, du hast es dir vorgestellt.
+		mom.suspect.smoke.alisa!set_com.smoke_5!set_poss.smoke_2^		Да это просто Алиса курила!|Nein, es war Alice.
+
+	mom.suspect.smoke.no@62@Точно? Макс, ты ничего не хочешь рассказать?|Bist du sicher, dass du mir nichts sagen willst?
+		mom.suspect.smoke.no.nothing^									Нет, мам, нечего рассказывать|Nein, Mom, da gibt es nichts zu erzählen.
+		mom.suspect.smoke.alisa!set_com.smoke_5!set_poss.smoke_2^		Вообще-то, Алиса курила...|Okay, es war Alice. Sie hat geraucht
+
+	mom.suspect.smoke.no.nothing@69@Да? Ну, может и правда показалось. Или от соседей надуло... Ладно, давайте ужинать...|Huh, vielleicht hast du Recht. Oder vielleicht kam es nur von den Nachbarn oder so.... Wie auch immer, lass uns essen gehen.
+		mom.suspect.smoke.no.nothing.next!set_poss.smoke_3!set_dcd.alisasmoke_1^			<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.no.nothing.next@33@e-ms-good@Спасибо, Макс, что не сдал меня... Я это ценю.|Danke, dass du mich nicht verpfiffen hast, Max. Ich weiß das zu schätzen.
+		mom.suspect.smoke.no.nothing.next.ok!add_alisa.mood_100^							Всегда пожалуйста, сестрёнка!|Gern geschehen, Schwesterchen.
+		mom.suspect.smoke.no.nothing.next.maybe^											Может, ещё сдам...|Vielleicht werde ich...
+		mom.suspect.smoke.no.nothing.next.do^												Если сделаешь кое-что, то и не сдам...|Und das werde ich nicht, wenn du etwas für mich tust....
+
+	mom.suspect.smoke.no.nothing.next.ok@25@Вот можешь же быть не полным придурком... иногда...|Hey, du kannst ab und zu ein anständiger Bruder sein.
+		dinner.default^													Ага. Ладно, давай ужинать|Ja. Okay, lasst uns essen.
+
+	mom.suspect.smoke.no.nothing.next.maybe@28@Макс! Ты невыносим. Я уже подумала, что ты нормальный брат, а ты...|Ugh, Max! Gerade als ich dachte, du wärst ein anständiger Bruder, musstest du mir das sofort beweisen....
+		mom.suspect.smoke.no.nothing.next.joke^							Да я пошутил...|Ich mache nur Spaß.
+		mom.suspect.smoke.no.nothing.next.sorry^						Извини...|Es tut mir leid.
+		mom.suspect.smoke.no.nothing.next.sorry^						Всё в твоих руках...|Es liegt alles in deinen Händen....
+
+	mom.suspect.smoke.no.nothing.next.do@28@Макс! Опять ты за своё? Не будь придурком!|Fängst Du schon wieder an? Sei kein Idiot, Max!
+		mom.suspect.smoke.no.nothing.next.joke^							Да я пошутил...|Ich mache nur Spaß.
+		mom.suspect.smoke.no.nothing.next.sorry^						Извини...|Es tut mir leid.
+		mom.suspect.smoke.no.nothing.next.sorry^						Всё в твоих руках...|Es liegt alles in deinen Händen....
+
+	mom.suspect.smoke.no.nothing.next.joke@23@Шутник... В общем, я надеюсь, что с этим вопросом разобрались. Уже пора ужинать!|Verdammter Komiker.... Wie auch immer, ich hoffe, wir sind uns einig, lasst uns essen.
+		dinner.default^													Ага, пора.|Sicher, lass uns gehen
+
+	mom.suspect.smoke.no.nothing.next.sorry@23@Макс... А, ничего не буду говорить, бесполезно. Давай ужинать...|Max.... Ich will nicht darüber reden, lass uns einfach essen....
+		dinner.default^													Ага, пора.|Sicher, lass uns gehen.
+
+	mom.suspect.smoke.alisa@68@Что?! Ты уверен?|Was!? Sind Sie sicher?
+		mom.suspect.smoke.alisa.yes^									Да, но ей не говори, что это я её сдал!|Ja, aber sag ihr nicht, dass ich sie verpfiffen habe!
+		mom.suspect.smoke.alisa.yes^									Абсолютно. Сам видел. Днём курила у бассейна!|Ich habe sie selbst gesehen, sie hat am Pool geraucht.
+		mom.suspect.smoke.alisa.yes^									Может быть, мне показалось...|Vielleicht habe ich es mir vorgestellt....
+
+	mom.suspect.smoke.alisa.yes@72@Алиса! Иди сюда, бегом!|Komm her, Alice!
+		mom.suspect.smoke.alisa.yes.1^									Мам, ну не так же...|Nicht so, Mom....
+		mom.suspect.smoke.alisa.yes.1^									Мам, меня не сдавай...|Verpfeif mich nicht, Mom....
+
+	mom.suspect.smoke.alisa.yes.1@23@Что случилось, мам?|Was ist passiert, Mom?
+		mom.suspect.smoke.alisa.yes.2!set_status.smoke_2^				<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.alisa.yes.2@64@Что случилось?! Не притворяйся тут невинной овечкой! Макс говорит, что видел, как ты курила!|Was ist passiert? Spiel nicht die Unschuldige! Max hat mir erzählt, dass du geraucht hast!
+		com.smoke<2&mom.suspect.smoke.alisa.yes.3.a^					?у...|Tja....
+		com.smoke>1&mom.suspect.smoke.alisa.yes.3.b^					Ну...|Tja....
+
+	mom.suspect.smoke.alisa.yes.3.a@27@Ну и придурок же ты, Макс! Стукач!|Du bist ein Arschloch, Max!
+		mom.suspect.smoke.alisa.yes.4!add_alisa.mood_-200^				Сама виновата...|Es ist deine eigene Schuld.
+
+	mom.suspect.smoke.alisa.yes.3.b@27@Ну и придурок же ты, Макс! Мы же договорились, а ты...|Was zum Teufel, Max!? Hatten wir nicht eine Abmachung?
+		mom.suspect.smoke.alisa.yes.4!add_alisa.mood_-300^				Я передумал...|Ich habe meine Meinung geändert....
+
+	mom.suspect.smoke.alisa.yes.4@62@Так, всё, Алиса, сейчас я тебя накажу! Снимай свои джинсы!|Das reicht, Alice. Zieh deine Hose aus, ich werde dich jetzt bestrafen.
+		mom.suspect.smoke.alisa.yes.5^									Ого...|Wow
+
+	mom.suspect.smoke.alisa.yes.5@32@Что?! Я уже взрослая! Могу делать что хочу, даже курить!|Was!? Ich bin erwachsen und kann tun, was ich will, sogar rauchen!
+		mom.suspect.smoke.alisa.yes.6^									Ой, плохой ответ...|Falsche Antwort....
+
+	mom.suspect.smoke.alisa.yes.6@64@Взрослая? С каких пор? Пока ты живёшь со мной под одной крышей, ты моя дочь! Без разговоров, быстро снимай и ложись на мои колени!|Solange du in meinem Haus wohnst, wirst du meinen Regeln folgen! Jetzt hör auf zu reden und lass die Hosen runter!
+		mom.suspect.smoke.alisa.yes.7^									<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.alisa.yes.7@20@Мам, но тут же Макс... Что, прямо при нём будешь? Пусть он уйдёт!|Aber Mom, Max ist hier.... Wirst du mich direkt vor seinen Augen bestrafen? Sag ihm, er soll gehen!
+		mom.suspect.smoke.alisa.yes.8^									<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.alisa.yes.8@64@Нет, Алиса, пусть смотрит. Это ждёт любого, кто меня разозлит. Быстро снимай штаны и ложись на мои колени, кому сказала!|Nein, er wird bleiben. Das wird jedem passieren, der sich nicht an meine Regeln hält. Zieh deine Hose aus und leg dich auf meine Knie!
+		mom.suspect.smoke.alisa.yes.9^									<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.alisa.yes.9@23@e-alisa-p-p-1@Ладно... Только не больно, чтобы, ладно? Ай! Ма-ам!|Okay.... Aber schlag mich nicht zu sehr, okay? Au! Mooom!
+		mom.suspect.smoke.alisa.yes.10^									<i>смо?реть</i>|<i>zusehen</i>
+
+	mom.suspect.smoke.alisa.yes.10@62@Давай не мамкай тут! Ты знаешь, что я ненавижу сигареты и мои дети точно курить не будут. Особенно, в моём доме, ясно?!|Nenn mich nicht "Mom"! Du weißt, dass ich das Rauchen hasse, ich werde meine Kinder nicht rauchen lassen, besonders nicht in meinem Haus!
+		mom.suspect.smoke.alisa.yes.11^									<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.alisa.yes.11@23@Да, ясно, мам... Ай! Я всё поняла! Я больше не буду!|Okay, Mom.... Au! Ich verstehe! Ich werde es nie wieder tun!
+		mom.suspect.smoke.alisa.yes.12^									<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.alisa.yes.12@62@e-momabouts-1@Очень на это надеюсь. Так, теперь надевай штаны и садимся ужинать.|Ich hoffe es. Jetzt zieh deine Hose an und lass uns mit dem Essen anfangen.
+		mom.suspect.smoke.alisa.yes.13!add_count.alisa.spanked_1^		<i>далее</i>|<i>fortsetzen</i>
+
+	mom.suspect.smoke.alisa.yes.13@27@e-ms-bad@Ну ты и гад, Макс. Доволен? Ну теперь держись...|Du bist ein Arschloch, Max. Bist du jetzt glücklich? Du weißt, was jetzt auf dich zukommt....
+		mom.suspect.smoke.alisa.yes.angry.sorry!add_alisa.mood_50^		Извини, я не хотел, чтобы так...|Es tut mir leid, das ist nicht das, was ich wollte.
+		mom.suspect.smoke.alisa.yes.angry.next^							И что ты сделаешь? Я тебя не боюсь!|Und was wirst du tun? Ich habe keine Angst vor dir.
+
+	mom.suspect.smoke.alisa.yes.angry.sorry@23@Не хочу тебя больше видеть. Жаль, что придётся...|Ich will dich nicht mehr sehen. Schade, dass ich dich nicht loswerde....
+		dinner.default^													<i>на?ать ужин</i>|<i>Essen anfangen</i>
+
+	mom.suspect.smoke.alisa.yes.angry.next@23@Я не буду тебе ничего говорить, сам всё поймёшь в своё время. Карма штука жестокая, но справедливая...|Wie man in den Wald reinruft, so schallt es zurück. Ich werde dir nichts sagen, du wirst die Konsequenzen deiner Handlungen früh genug erkennen.
+		dinner.default^													<i>начать ужин</i>|<i>Essen anfangen</i>
+
+
+
+# --- Основной вариативный эвент с наказаниями|Hauptstrafveranstaltung
+
+	punishment.event@63@e-momabouts-1@Прежде, чем мы начнём, кое-кто заслужил наказание и сейчас все на это посмотрят...|Bevor wir anfangen, hat jemand eine öffentliche Strafe verdient....
+		pun=0&pun.start^															<i>далее</i>|<i>fortsetzen</i>
+		first.newpun=0&pun>0&newpun.1st^											<i>далее</i>|<i>fortsetzen</i>
+		first.newpun=1&pun>0&newpun.start^											<i>далее</i>|<i>fortsetzen</i>
+
+
+	pun.start@74@Итак, начнём...|Lass uns anfangen
+		max.pun=1&max.warning<2&pun.max.check!set_max.pun_0^						<i>Макс</i>|<i>Max</i>
+		max.pun=1&max.warning>1&pun.max.start!set_max.pun_0^						<i>Макс</i>|<i>Max</i>
+
+		alisa.pun=1&pun.alisa.1!set_alisa.pun_0!max_cam.5.grow_150^					<i>Алиса</i>|<i>Alice</i>
+		liza.pun=1&pun.liza.1!set_liza.pun_0!max_cam.5.grow_150^					<i>Лиза</i>|<i>Lisa</i>
+		needpunish=0&hour=9&breakfast.default^										<i>на?ать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+	pun.max.check@60@e-momabouts-1@Макс! Я вынуждена отчитать тебя перед всеми, так как у нас в семье не должно быть никаких секретов.|Max. Ich werde dich vor allen Leuten zur Schule schicken, weil wir keine Geheimnisse haben sollen.
+		max.warning=0&pun.max.check.1st!add_max.warning_1^							Я не виноват!|Es war nicht meine Schuld!
+		max.warning=1&pun.max.check.2nd!add_max.warning_1^							Я снова не виноват!|Es war nicht schon wieder meine Schuld!
+
+	pun.max.check.2nd@62@Не виноват, значит? Снова? Кажется, ты не осознаёшь, что это последнее предупреждение и в следующий раз я тебя выпорю на глазах у сестёр. Ты меня понял? А теперь рассказывай, что натворил, чтобы все были в курсе!|Es war nicht deine Schuld? Schon wieder? Das ist deine letzte Warnung, wenn ich dich das nächste Mal vor deinen Schwestern versohle, verstehst du? Jetzt sag allen, was du getan hast, damit es jeder weiß!
+		max.punreason=0&pun.max.check.reason.0^										Ну, я подглядывал за Лизой...|Ich habe Lisa beobachtet.
+		max.punreason=1&pun.max.check.reason.1^										Ну, я подглядывал за Алисой...|Ich habe Alice beobachtet.
+		max.punreason=2&pun.max.check.reason.2^										Ну, я подглядывал за тобой, мам...|Ich habe dich beobachtet, Mom.
+		max.punreason=3&pun.max.check.reason.3^										Ну, я подглядывал за вами с Эриком...|Ich habe Eric und dich beobachtet.
+		max.punreason=4&pun.max.check.reason.4^										Ну, я оказался случайно рядом с душем, где мылась Алиса...|Ich ging zufällig am Badezimmer vorbei, als Alice da drin war....
+		max.punreason=5&pun.max.check.reason.5^										Ну, я плохо себя вёл...|Ich habe mich schlecht benommen.
+
+	pun.max.check.1st@62@Не виноват, значит? А я думаю, что ещё как виноват. В этот раз тебе повезло, это всего лишь первое предупреждение.Ich habe Lisa beobachtet. Надеюсь, второго не потребуется... Кстати, можешь всем рассказать, что ты натворил...|Nicht deine Schuld? Das glaube ich nicht. Du hast Glück, dass es deine erste Warnung ist. Ich hoffe, es wird keine weitere geben. Jetzt erzähl allen, was du getan hast.
+		max.punreason=0&pun.max.check.reason.0^										Ну, я подглядывал за Лизой...|Ich habe Lisa beobachtet.
+		max.punreason=1&pun.max.check.reason.1^										Ну, я подглядывал за Алисой...|Ich habe Alice beobachtet.
+		max.punreason=2&pun.max.check.reason.2^										Ну, я подглядывал за тобой, мам...|Ich habe dich beobachtet, Mom.
+		max.punreason=3&pun.max.check.reason.3^										Ну, я подглядывал за вами с Эриком...|Ich habe Eric und dich beobachtet.
+		max.punreason=4&pun.max.check.reason.4^										Ну, я оказался случайно рядом с душем, где мылась Алиса...|Ich ging zufällig am Badezimmer vorbei, als Alice da drin war....
+		max.punreason=5&pun.max.check.reason.5^										Ну, я плохо себя вёл...|Ich habe mich schlecht benommen.
+
+	pun.max.check.reason.0@42@Что?! Ты видел меня голую?! Мам! Накажи его! Почему ему предупреждения? Пусть получит что заслужил!|Was!? Er hat mich nackt gesehen? Bestraf ihn, Mom! Warum bekommt er eine Warnung? Gib ihm, was er verdient!
+		pun.max.check.relax^														Да ничего я не заслужил!|Ich verdiene keine Strafe!
+
+	pun.max.check.reason.1@27@Что? Ах ты мелкий извращенец! Сейчас получишь у меня!|Was!? Du kleiner Perverser! Du kriegst es jetzt!
+		pun.max.check.relax^														Я не извращенец!|Ich bin kein Perverser!
+
+	pun.max.check.reason.2@69@Очень хочу надеяться, что это было случайно. Тем не менее, ты пойман и как уже сказала, получаешь предупреждение.|Ich hoffe, es war ein Missgeschick, aber du wurdest erwischt, also bekommst du eine Warnung.
+		pun.max.check.relax^														Больше это не повторится!|Es wird nicht wieder vorkommen!
+
+	pun.max.check.reason.3@69@Очень хочу надеяться, что ты это сделал не специально и просто проходил мимо. Тем не менее, ты пойман и как уже сказала, получаешь предупреждение.|Ich hoffe wirklich, dass du es nicht absichtlich getan hast, aber auf jeden Fall wurdest du erwischt, also bekommst du eine Warnung.
+		pun.max.check.relax^														Да, я мимо проходил!|Ich kam gerade vorbei!
+
+	pun.max.check.reason.4@24@Случайно? Мам! Он всё врёт! Он подглядывал и может быть даже паука подбросил! А ты знаешь, как я боюсь пауков...|Er lügt, Mom! Er hat mich beobachtet und vielleicht hat er sogar eine Spinne nach mir geworfen! Du weißt, dass ich Angst vor Spinnen habe....
+		pun.max.check.relax^														Трусиха!|Feigling!
+
+	pun.max.check.reason.5@63@У тебя есть ещё время подумать над своим поведением. Надеюсь, следующего раза не будет!|Denk an dein Verhalten, ich hoffe, das passiert nicht wieder!
+		pun.max.check.relax^														Да, мам...|Ja, Mom
+
+	pun.max.check.relax@60@В общем, на этот раз вопрос уладили. Все сделали выводы, а кое-кто и серьёзно задумается. Да, Макс? Можешь не отвечать. |Nun, ich bin froh, dass wir das geklärt haben. Ich hoffe, alle werden daraus lernen und ihre Fehler nicht wiederholen. Stimmt's, Max?
+		needpunish>0&pun.start^														<i>продолжить</i>|<i>fortsetzen</i>
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+
+	pun.max.start@60@e-momabouts-1@Макс! Сейчас ты будешь наказан, сам знаешь за что!|Max! Du wirst bestraft werden, weißt du wofür?
+		random.social.2=1&pun.max.nopun^											Я же не виноват! [skill.social_2]|Es war nicht meine Schuld! [skill.social_2]
+		random.social.2=0&pun.max.1^												Я же не виноват! [skill.social_2]|Es war nicht meine Schuld! [skill.social_2]
+
+	pun.max.nopun@69@<color=lime><i>Убеждение удалось!</i></color>\nТы знаешь, Макс, всё говорит о том, что ты виноват и должен быть наказан. Но поверю тебе на слово, что это была какая-то ошибка. Надеюсь, я не пожалею о св?ём решении...|<color=lime><i>Überzeugung Erfolgreich!</i></color>\nDie Umstände sind gegen dich, Max, aber ich bin bereit, dir zu glauben. Ich hoffe, ich werde diese Entscheidung nicht bereuen.
+		needpunish>0&pun.start^														Спасибо, мам!|Danke, Mom!
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+	pun.max.1@63@<color=orange><i>Убеждение не удалось!</i></color>\nВот так просто? «Я не виноват» и всё забудем? Нет, Макс, со мной эти шуточки не прокатят. Давай, снимай штаны и ложись на мои колени. Надеюсь, ты сегодня в трусах...|<color=orange><i>Überzeugung fehlgeschlagen!</i></color>\nEinfach so? Wir sollen einfach alles vergessen? Nein, Max, diesmal nicht. Zieh deine Hose runter und geh auf meine Knie. Ich hoffe, du trägst heute Unterwäsche....
+		max.punreason=0&pun.max.1.why.0^											<i>?нять штаны</i>|<i>Hosen runterziehen</i>
+		max.punreason=1&pun.max.1.why.1^											<i>снять штаны</i>|<i>Hosen runterziehen</i>
+		max.punreason=2&pun.max.1.why.2^											<i>снять штаны</i>|<i>Hosen runterziehen</i>
+		max.punreason=3&pun.max.1.why.3^											<i>снять штаны</i>|<i>Hosen runterziehen</i>
+		max.punreason=4&pun.max.1.why.4^											<i>снять штаны</i>|<i>Hosen runterziehen</i>
+		max.punreason=5&pun.max.1.why.5^											<i>снять штаны</i>|<i>Hosen runterziehen</i>
+
+	pun.max.1.why.0@71@e-max-pun-1@Для тех, кто не в курсе: Макс будет наказан за то, что подглядывал за Лизой. Я уже предупреждала, что не люблю, когда кто-то нарушает личное пространство...|Für den Fall, dass es jemand nicht weiß: Max wird dafür bestraft werden, dass er Lisa beobachtet hat. Ich habe Dich gewarnt, die Privatsphäre der Menschen zu respektieren.
+		pun.max.1.begin^															<i>далее</i>|<i>fortsetzen</i>
+
+	pun.max.1.why.1@71@e-max-pun-1@Для тех, кто не в курсе: Макс будет наказан за то, что подглядывал за Алисой. Я уже предупреждала, что не люблю, когда кто-то нарушает личное пространство...|Für den Fall, dass es jemand nicht weiß: Max wird dafür bestraft werden, dass er Alice beobachtet hat. Ich habe Dich gewarnt, die Privatsphäre der Menschen zu respektieren.
+		pun.max.1.begin^															<i>далее</i>|<i>fortsetzen</i>
+
+	pun.max.1.why.2@71@e-max-pun-1@Для тех, кто не в курсе: Макс будет наказан за то, что подглядывал за мной. Я уже предупреждала, что не люблю, когда кто-то нарушает личное пространство...|Für den Fall, dass es jemand nicht weiß: Max wird dafür bestraft werden, dass er Mich beobachtet hat. Ich habe Dich gewarnt, die Privatsphäre der Menschen zu respektieren.
+		pun.max.1.begin^															<i>далее</i>|<i>fortsetzen</i>
+
+	pun.max.1.why.3@71@e-max-pun-1@Для тех, кто не в курсе: Макс будет наказан за то, что подглядывал за мной... с Эриком. Я уже предупреждала, что такое недопустимо!|Für den Fall, dass es jemand nicht weiß: Max wird dafür bestraft werden, dass er Mich und Eric beobachtet hat. Ich habe Dich gewarnt, die Privatsphäre der Menschen zu respektieren.
+		pun.max.1.begin^															<i>далее</i>|<i>fortsetzen</i>
+
+	pun.max.1.why.4@71@e-max-pun-1@Для тех, кто не в курсе: Макс будет наказан за то, что подглядывал за Алисой в душе и, возможно, даже подбросил паука. Ты знаешь, что такое я не потерплю!|Für den Fall, dass es jemand nicht weiß: Max wird dafür bestraft werden, dass er Alice in der Dusche beobachtet und möglicherweise eine Spinne auf sie geworfen hat. Ich habe Dich gewarnt, das ist inakzeptables Verhalten.
+		pun.max.1.begin^															<i>далее</i>|<i>fortsetzen</i>
+
+	pun.max.1.why.5@71@e-max-pun-1@Для тех, кто не в курсе: Макс будет наказан за своё отвратительное поведение. Надеюсь, теперь будешь думать о том, что делать и что говорить!|Für den Fall, dass es jemand nicht weiß: Max wird für ein schreckliches Verhalten bestraft werden. Ich hoffe, du denkst darüber nach, was du tust und sagst.
+		pun.max.1.begin^															<i>далее</i>|<i>fortsetzen</i>
+
+	pun.max.1.begin@15@<i>Мама наказывает меня прямо перед сёстрами... Это так унизительно...\n\n<color=orange><b>Внимание:</b> Ваш авторитет среди присутствующих снизился!</color></i>|<i>Mom bestraft mich vor allen.... Das ist so demütigend...</i>\n\n\n<i><b>Warnung:</b> Deine Autorität bei alle Anwesenden hat abgenommen.</i>
+		pun.max.1.next!add_alisa.dom_-50!add_liza.dom_-50!add_mom.dom_-50!add_count.max.spanked_1!max_cam.5.grow_130^			<i>далее</i>|<i>fortsetzen</i>
+
+	pun.max.1.next@69@e-momabouts-1@Ну вот. Теперь все всё поняли? Ведите себя хорошо и вас не ждёт эта учесть...|Ich hoffe, das wird dich lehren, dich so zu verhalten, dass du in Zukunft nicht mehr an diesem Ort sein wirst.
+		needpunish>0&pun.start^														<i>продолжить</i>|<i>fortsetzen</i>
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+
+	pun.alisa.1@63@Алиса, иди сюда, снимай штаны, есть разговор!|Komm her, Alice. Zieh deine Hose aus.
+		alisa.punreason=6&pun.alisa.1.why.6^										<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.why.6@23@Мам, за что? Что я такого сделала?|Wofür, Mom? Was habe ich getan?
+		pun.alisa.1.why.6.next!set_dcd.alisasmoke_2^								<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.why.6.next@62@Алиса, ты издеваешься? Я нашла сигареты у тебя в комнате! Ты опять куришь! Быстро сняла штаны и легла на мои колени, кому сказала!|Ich habe Zigaretten in deinem Zimmer gefunden! Du rauchst schon wieder! Zieh deine Hose aus und leg dich auf meine Knie!
+		nopants.alisa=1&pun.alisa.1.nopants^										<i>далее</i>|<i>fortsetzen</i>
+		nopants.alisa=0&pun.alisa.1.punish^											<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.nopants@20@Мам, но я сегодня без трусов... Пусть Макс уйдёт или отвернётся, хотя бы...|Aber Mom, ich trage jetzt kein Höschen.... Sag Max, er soll gehen oder sich wenigstens wegsehen, bitte....
+		pun.alisa.1.nopants.next^													<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.nopants.next@63@Ты ещё и без трусов?! Сейчас ещё и за это получишь! Макс пусть смотрит, а тебе будет стыдно. Может тогда за ум возьмёшься!|Du wirst auch dafür bestraft, dass du keinen Slip trägst! Und Max wird zusehen, es wird die Strafe effektiver machen.
+		pun.alisa.1.nopants.punish^													<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.nopants.punish@23@e-alisa-p-n-1@Ай, больно же! Мам, я больше не буду!!!\n\n<color=lime><i><b>Внимание:</b> Ваш авторитет у Алисы немного повысился!</i></color>|Au, es tut weh! Ich werde es nicht wieder tun, Mom!\n\n<color=lime><i><b>Warnung:</b> Deine Autorität bei Alice hat zugenommen!</i></color>
+		pun.alisa.1.endpunish!add_alisa.dom_50^										<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.punish@23@e-alisa-p-p-1@Ай, больно же! Мам, я больше не буду!!!\n\n<color=lime><i><b>Внимание:</b> Ваш авторитет у Алисы немного повысился!</i></color>|Au, es tut weh! Ich werde es nicht wieder tun, Mom!\n\n<color=lime><i><b>Warnung:</b> Deine Autorität bei Alice hat zugenommen!</i></color>
+		pun.alisa.1.endpunish!add_alisa.dom_75^										<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.endpunish@60@Я знаю, что не будешь. Заслужила наказание, терпи!|Ich weiß, dass du das nicht tun wirst. Nimm die Strafe, die du verdienst.
+		pun.alisa.1.endpunish.2!add_count.alisa.spanked_1^							<i>далее</i>|<i>fortsetzen</i>
+
+	pun.alisa.1.endpunish.2@62@e-momabouts-1@Так, всё, надевай свои джинсы. Надеюсь, ты осознала свои поступки и следующего раза не будет...|Okay, du kannst deine Hose anziehen. Ich hoffe, du hast deine Lektion gelernt und es wird nicht wieder vorkommen.
+		needpunish>0&pun.start^														<i>продолжить</i>|<i>fortsetzen</i>
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+	pun.liza.1@63@Лиза, подойди-ка ко мне. И да, штаны снимай, ты заслужила!|Komm her, Lisa.
+		liza.punreason=2&pun.liza.1.why.2^											<i>далее</i>|<i>fortsetzen</i>
+
+	pun.liza.1.why.2@49@Мам... Я не специально... Просто, задание было сложное...|Ich habe es nicht mit Absicht getan, Mom.... Die Hausaufgaben waren zu kompliziert....
+		pun.liza.1.why.2.next^														<i>далее</i>|<i>fortsetzen</i>
+
+	pun.liza.1.why.2.next@62@Сложное? У тебя была куча времени, чтобы подготовиться! Сидишь в своём телефоне вечно вместо того, чтобы учиться. Быстро снимай штаны!|Du hattest genug Zeit, um alles richtig zu machen! Du sitzt nur da, mit dein Handy, anstatt die ganze Zeit deine Hausaufgaben zu machen. Hosen runter!
+		pun.liza.1.pun^																<i>далее</i>|<i>fortsetzen</i>
+
+	pun.liza.1.pun@46@e-liza-p-n-1@Ма-ам, я больше не буду... Ай... Всмысле буду лучше учиться. Извини...\n\n<color=lime><i><b>Внимание:</b> Ваш авторитет у Лизы немного повысился!</i></color>|Es wird nicht wieder vorkommen, Mom.... Au! Nächstes Mal geht es mir besser. Es tut mir leid.\n\n<color=lime><i><b>Warnung:</b> Deine Autorität bei Lisa hat zugenommen!</i></color>
+		pun.liza.1.pun.step2!add_liza.dom_50^										<i>далее</i>|<i>fortsetzen</i>
+
+	pun.liza.1.pun.step2@60@Конечно, будешь. Поразительно. Тебе даже Макс помогает, а ты двойки хватаешь! Совсем расслабилась.|Natürlich wirst du das. Du bekommst sogar Hilfe von Max und du versagst immer noch! Gib dir mehr Mühe!
+		pun.liza.1.pun.step3!add_count.liza.spanked_1!max_liza.hw.status_3^			<i>далее</i>|<i>fortsetzen</i>
+
+	pun.liza.1.pun.step3@62@e-momabouts-1@Так, всё. Иди садись за стол и что-бы это был последний раз!|Okay, das reicht jetzt. Geh an den Tisch und es ist besser das letzte Mal!
+		needpunish>0&pun.start^														<i>продолжить</i>|<i>fortsetzen</i>
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+
+
+# --- Мама смотрит телевизор. Самый первый эвент|Mom schaut fern, erste Veranstaltung
+
+	mom.tv.next.0.init@0@Что смотришь?|Was schaust du dir an?
+	mom.tv.next.0@60@Да так, всякую ерунду. Хотела какой-нибудь фильм посмотреть. Садись рядом, если тоже делать нечего...|Noch nichts, ich wollte mir einen Film ansehen. Du kannst dich mir anschließen, wenn du willst.
+		mom.tv.next.0.Sicher!add_mom.tv_1^			Конечно! Что смотреть будем?|Klar, was sehen wir uns an?
+		mom.tv.next.0.nexttime^						В другой раз...|Ein anderes Mal....
+
+	mom.tv.next.0.nexttime@75@Ну, как хочешь!|Okay, es ist deine Entscheidung.
+		leave!lock^									Не будут тебе мешать...|Okay, ich überlasse es dir.
+
+	mom.tv.next.0.sure@69@e-mom-max-tv-start-1@Я не знаю. Мне вот подруга посоветовала фильм с Томом Крузом и Николь Кидман, называется «С широко закрытыми глазами». Смотрел?|Ich weiß nicht, wirklich. Mein Freund hat mir einen Film mit Tom Cruise und Nicole Kidman empfohlen, er heißt "Eyes wide shut". Hast du es gesehen?
+		mom.tv.next.0.sure.no^						Нет, не слышал о таком. Давай смотреть!|Nein, noch nie davon gehört. Lasst uns zusehen!
+		mom.tv.next.0.sure.ero^						Да это же эротика!|Es ist Erotik!
+		mom.tv.next.0.sure.smt^						Да, слышал кое-что о нём...|Ja, ich habe etwas gehört....
+
+	mom.tv.next.0.sure.no@75@Отлично! Вот сейчас и посмотрим, что там подруга насоветовала...|Toll, mal sehen, was sie uns empfohlen hat....
+		mom.tv.next.0.start.0^						<i>начат? просмотр</i>|<i>den Film ansehen</i>
+
+	mom.tv.next.0.sure.ero@68@Правда?! Ой, Макс, извини, я не знала. Тогда, нам с тобой его точно смотреть вместе не следует. А подруге я всё скажу, за то что не предупредила...|Das ist es!? Tut mir leid, Max, das wusste ich nicht. Dann werden wir es uns jetzt definitiv nicht ansehen. Ich werde meinem Freund sagen, dass er mich nicht gewarnt hat....
+		mom.tv.next.0.sure.ero.nevermind^			Да всё в порядке, я уже взрослый!|Es ist okay, Mom, es macht mir nichts aus!
+		leave!lock^									Ну, как скажешь. Я тогда пойду...|Wenn du es sagst. Ich werde gehen
+
+	mom.tv.next.0.sure.ero.nevermind@62@Нет, Макс. Не в этот раз. Я лучше посмотрю новости или какой-нибудь сериал... Извини, что тебя обнадёжила...|Nein, Max, diesmal nicht. Ich schaue mir nur eine zufällige Show oder Nachrichten an.... Es tut mir leid, dass ich dich enttäuscht habe.
+		leave!lock^									Ладно, не буду мешать...|Okay, dann lasse ich dich in Ruhe.
+
+	mom.tv.next.0.sure.smt@60@Да? И что ты о нём слышал? Хороший фильм? Стоит смотреть?|Und was hast du gehört? Ist es ein guter Film? Ist es wert, angesehen zu werden?
+		mom.tv.next.0.sure.smt.yeah^				Да, отзывы отличные|Ja, es hat tolle Kritiken!
+		mom.tv.next.0.sure.ero^						Ну, это эротика...|Es ist Erotik!
+
+	mom.tv.next.0.sure.smt.yeah@75@Ну, раз отзывы хорошие, тогда, давай смотреть!|Dann lass uns zusehen!
+		mom.tv.next.0.start.0^						<i>начать просмотр</i>|<i>den Film ansehen</i>
+
+	mom.tv.next.0.start.0@1@e-mom-max-tv-ews-0@<i>Интересно, мама хотя бы подозревает, что это эротика?... Посмотрим...</i>|<i>Ob Sie wohl weiß, das es Erotik ist!...?</i>
+		mom.tv.next.0.start.1^						<i>далее</i>|<i>fortsetzen</i>
+
+	mom.tv.next.0.start.1@73@e-mom-max-tv-ews-1@Ой, кажется, я не посмотрела какой возрастной рейтинг у фильма...|Ich hätte die Bewertung des Films nachschlagen sollen....
+		mom.tv.next.0.start.2^						Да всё в порядке!|Es ist in Ordnung.
+
+	mom.tv.next.0.start.2@69@e-mom-max-tv-ews-2@Да уж... В порядке. Ну, если ты стесняешься, можешь закрыть глаза...|Ja, richtig.... Du kannst deine Augen schließen, wenn du willst.
+		poss.control=0&mom.tv.next.0.start.3^					Я уже взрослый! И не такое видел!|Ich bin erwachsen, das ist nicht das Vulgärste, was ich in meinem Leben gesehen habe.
+		poss.control>0&ericplace<2&mom.tv.next.0.start.alt.1^	Я уже взрослый! И не такое видел!|Ich bin erwachsen, das ist nicht das Vulgärste, was ich in meinem Leben gesehen habe.
+		poss.control>0&ericplace>1&mom.tv.next.0.start.3^		Я уже взрослый! И не такое видел!|Ich bin erwachsen, das ist nicht das Vulgärste, was ich in meinem Leben gesehen habe.
+
+	mom.tv.next.0.start.alt.1@69@Ты... Про нас с Эриком? До сих пор очень стыдно. Но он прав, лучше уж на нас смотреть, чем неизвестно какое порно в интернете...|Redest du von Eric und mir? Ich schäme mich immer noch dafür. Aber er hat Recht, uns zuzusehen ist besser als Gott weiß was im Netz....
+		mom.tv.next.0.start.alt.2^					Ты правда так считаешь?|Meinst Du wirklich?
+		mom.tv.next.0.start.alt.3^					И это не кажется тебе странным?|Und du findest es nicht seltsam?
+		mom.tv.next.0.start.alt.4^					Тебе не кажется, что Эрик тобой управляет?|Denkst du nicht, dass Eric dich kontrolliert?
+
+	mom.tv.next.0.start.alt.2@60@Да. Я полностью согласна с Эриком. Он знает, о чём говорит...|Ja, ich stimme Eric zu, er weiß, wovon er redet....
+		mom.tv.next.0.start.alt.4^					Тебе не кажется, что Эрик тобой управляет?|Denkst du nicht, dass Eric dich kontrolliert?
+
+	mom.tv.next.0.start.alt.3@60@Странным? Почему? Конечно, я бы не хотела, чтобы ты смотрел, но если уж смотришь, значит интересно. А раз так, то пусть лучше мы, чем что-то другое...|Warum? Ich würde es vorziehen, wenn Er nicht zuschauen würden, aber wenn er schauen, dann ist er neugierig. Und das ist besser, als Gott weiß was im Web zu sehen....
+		mom.tv.next.0.start.alt.4^					Тебе не кажется, что Эрик тобой управляет?|Denkst du nicht, dass Eric dich kontrolliert?
+
+	mom.tv.next.0.start.alt.4@62@Макс! Ты говоришь так, как будто я не в своём уме. Никто мной не управляет! И, вообще, давай вернёмся к фильму, а то что-то мы пропустили всё...|Max! Du sagst es wie eine Gehirnwäsche. Niemand kontrolliert mich! Und zurück zum Film, wir haben die ganze Sache verpasst....
+		mom.tv.next.0.start.8^						А что, уже конец?|Was, ist es schon vorbei?
+
+	mom.tv.next.0.start.3@62@e-mom-max-tv-ews-3@Да ты что? И где, интересно мне знать? Я когда подключала интернет, выбрала самый безопасный вариант, чтобы оградить вас от такого... Так где ты что там видел?|Und wo würdest du das tun? Ich habe den am meisten eingeschränkten Internet-Provider gewählt, damit Sie so etwas nicht sehen können.... Wo würden Sie so etwas sehen?
+		mom.tv.next.0.start.4^						Да это не важно. В любом случае, это же популярный фильм с известными актёрами, что тут такого может быть...|Das spielt keine Rolle. Und in irgendeiner Weise ist dies ein beliebter Film mit berühmten Schauspielern, wie schlimm könnte es sein?
+
+	mom.tv.next.0.start.4@60@e-mom-max-tv-ews-4@Да, ты прав. Действительно, что... Макс! Чем дальше, тем больше я уверена, что этот фильм не для тебя...|Ich schätze, Du hast Recht.... Max! Ich glaube nicht, dass du dir solche Filme ansehen sollst!
+		mom.tv.next.0.start.5^						Ну сама подумай, стали бы Том Круз и Николь Кидман сниматься в эротике?|Denken Sie einfach darüber nach, ob Tom Cruise und Nicole Kidman in etwas zu dreckigem mitspielen würden?
+
+	mom.tv.next.0.start.5@62@e-mom-max-tv-ews-5@Надеюсь, ты закрыл глаза, потому-что это уже слишком!|Ich hoffe, du hast deine Augen geschlossen, denn das ist zu viel!
+		mom.tv.next.0.start.6^						Я не смотрю, а что там?|Ich schaue nicht zu.
+		mom.tv.next.0.start.6^						Я уже взрослый!|Ich bin kein kleines Kind mehr!
+
+	mom.tv.next.0.start.6@69@e-mom-max-tv-ews-6@Я уже десять раз пожалела, что выбрала этот фильм. Подруге ещё нужно будет сказать «спасибо» за то, что не предупредила...|Ich hätte diesen Film nicht sehen sollen. Ich werde meinem Freund meine Meinung dazu sagen, dass er so etwas empfiehlt....
+		mom.tv.next.0.start.7^						Ты до 30 лет будешь меня оберегать от такого?|Wirst du solche Sachen vor mir verstecken, auch wenn ich 30 bin?
+
+	mom.tv.next.0.start.7@62@e-mom-max-tv-ews-7@Ты знаешь, может быть... Но да, ты прав. Фильм и правда хороший оказался. Хотя и не для детей, однозначно...|Ich weiß nicht.... Ich schätze, du hast Recht. Und es war ein guter Film. Aber definitiv nicht für Kinder.
+		mom.tv.next.0.start.8^						Мне тоже понравилось!|Ich mochte es auch!
+
+	mom.tv.next.0.start.8@75@e-mom-max-tv-start-1@Жаль, что мы редко с тобой вместе вот так сидим, что-то смотрим. Ну, надеюсь, начало традиции положено. И пусть в следующий раз будет нечто менее... волнующее...|Schade, dass wir das nicht sehr oft machen. Nun, hoffentlich haben wir gerade eine neue Tradition begonnen. Hoffentlich wird der nächste Film nicht so.... aufregend.
+		leave!add_mom.mood_100!max_cam.4.grow_160!time^			Конечно, мам!|Natürlich, Mom!
+
+
+
+# --- Нейтральный просмотр фильмов с мамой|Neutrale Filmvorführung
+
+	mom.tv.next.1.init@0@Что смотришь?|Was schaust du dir an?
+	mom.tv.next.1@60@Да так, всё подряд. Садись рядом, если хочешь...|Nicht viel. Du kannst mir Gesellschaft leisten, wenn du willst.
+		msex=0&motv=0&kiratvcan>0&08.bn.0^										Тётя Кира сегодня же придёт?|Wird Tante Kira vorbeikommen?
+		msex=0&motv=0&kiratvcan=0&mom.tv.next.1.sure!max_cam.4.grow_150^		Конечно! Что смотреть будем?|Klar, was sehen wir uns an?
+		msex=0&motv=0&kiratvcan=0&item.roma=-5&07.adb.0^						А у меня и фильм есть...|Ich habe einen Film dabei.
+		msex=0&motv=0&kiratvcan=0&mom.tv.next.1.nexttime^						В другой раз...|Ein anderes Mal....
+		msex=0&motv>0&10.ca.0^													Конечно!|Sicher!
+		msex=1&13.ca.0!set_nottoday_1^											Хочу... Очень хочу, но кое-что другое...|Ich will etwas anderes....
+		motv>0&mom.tv.next.1.nexttime^											В другой раз...|Ein anderes Mal....
+
+
+	mom.tv.next.1.nexttime@75@Как хочешь, дорогой. А я что-нибудь посмотрю...|Okay, ich werde da sein, wenn du mich brauchst....
+		leave!lock^									Не буду тебе мешать...|Dann überlasse ich es dir.
+
+	mom.tv.next.1.sure@75@e-mom-max-tv-start-1@Да вот, по кабельному какой-то фильм сейчас начнётся...|Ein Film fängt gleich an....
+		mom.tv.next.1.start^						<i>начать просмотр</i>|<i>den Film ansehen</i>
+
+	mom.tv.next.1.start@4@e-mom-max-tv-default-1@<i>Мама так близко... В одном полотенце... Даже не знаю о чём фильм, о нём я думать точно не могу...</i>|<i>Mom ist so nah dran.... in nichts als einem Handtuch.... Ich weiß nicht mal, worum es im Film geht....</i>
+		mom.tv.next.1.end^							<i>закончить</i>|<i>beenden</i>
+
+	mom.tv.next.1.end@75@e-mom-max-tv-start-1@Ну что, отличный фильм, как мне кажется! А тебе понравилось, Макс?|Das war ein toller Film! Hat es dir gefallen, Max?
+		mom.tv.next.1.end.yeah!add_mom.mood_50^		Да, очень!|Ja!
+		mom.tv.next.1.end.so!add_mom.mood_40^		Почти также, как сидеть рядом с тобой...|Fast so viel wie direkt neben dir zu sitzen....
+
+	mom.tv.next.1.end.so@73@Что, прости? Не поняла...|Es tut mir leid, was?
+		mom.tv.next.1.end.so.nothing^				Не бери в голову, это я так, пошутил неудачно...|Vergiss es, ich habe nur versucht, einen Witz zu machen.
+
+	mom.tv.next.1.end.yeah@67@Ну я рада. Ладно, спасибо что посидел со мной. Пойду в свою комнату, хватит фильмов на сегодня...|Ich bin froh, dass es dir gefallen hat. Und danke, dass du hier bei mir sitzt. Ich gehe auf mein Zimmer, das sind genug Filme für heute.
+		leave!time^									Ага, давай...|Okay, gute Nacht
+
+	mom.tv.next.1.end.so.nothing@75@Ясно. Ну, спасибо за компанию. Пойду в свою комнату, хватит с меня фильмов на сегодня...|Oh, okay. Nun, danke für deine Gesellschaft. Ich gehe auf mein Zimmer, das sind genug Filme für heute.
+		leave!time^									Ага, хорошо посидели...|Ja, ich hatte einen schönen Abend.
+
+
+
+# --- Мама с Эриком сидят перед телевизором|Eric und Ann sehen fern.
+
+	mom.eric.tv@120@Кажется, мама с Эриком смотрят какую-то эротику. Видимо, классика...|Sieht aus, als würden Eric und Mom etwas Erotik sehen. Ich schätze, es sind Klassiker.
+		mom.eric.tv.voyeur^								<i>наблюдать за ними</i>|<i>beobachte Sie</i>
+		mom.eric.tv.come^								<i>подойти к ним</i>|<i>auf sie zugehen</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	mom.eric.tv.come@73@Ой, Макс... Мы тут с Эриком фильмы смотрим. Я бы тебя пригласила, но они не для детей. Ты не мог бы погулять где-то? И, пожалуйста, не подглядывай. Хорошо?|Oh, Max.... Eric und ich schauen einen Film. Ich würde dich auch einladen, der Film ist zu erwachsen für dich. Könntest du etwas anderes machen? Und bitte nicht spannen, okay?
+		leave!lock^										Конечно, мам! <i>(уйти)</i>|Natürlich, Mom! <i>(verlassen)</i>
+		mom.eric.tv.voyeur^								Конечно, мам! <i>(спрятаться)</i>|Natürlich, Mom! <i>(verstecken)</i>
+
+	mom.eric.tv.voyeur@120@e-momeric-tv-1-0@Ого! На экране стало интереснее! А куда это мама так наклонилась?|Wow! Es gibt einige interessante Aktionen in dem Bildschirm! Warte, hat sich Mom gerade gebeugt?
+		mom.eric.tv.voyeur.2^							<i>смотреть ещё</i>|<i>weiter beobachten</i>
+
+	mom.eric.tv.voyeur.2@120@e-momeric-tv-2-0@Ничего себе! У мамы полотенце свалилось на пол! Я вижу её голую попку? Может быть, подойти ближе?|Wow! Moms Handtuch fiel auf den Boden! Ich kann ihren nackten Arsch sehen! Soll ich näher kommen?
+		mom.eric.tv.closer.1^							<i>Что за вопрос? Конечно!</i>|<i>Warum ist das überhaupt eine Frage? Natürlich!</i>
+		mom.eric.tv.voyeur.3^							<i>продолжать смотреть</i>|<i>weiter beobachten</i>
+
+	mom.eric.tv.voyeur.3@120@e-momeric-tv-3-0@Ого! Если меня заметят, пока я подглядываю за ТАКИМ, меня точно накажут. Нужно срочно уходить!|Wow! Wenn sie mich fangen, <i>das</i> zu sehen, werde ich definitiv bestraft. Ich gehe jetzt besser!
+		mom.eric.tv.closer.1^							<i>подойти ближе</i>|<i>näher kommen</i>
+		leave!set_cd.lizamomerictv_1!art_e-momeric-tv-0-0_e-momeric-tv-2-0_1!lock^				<i>тихо уйти</i>|<i>leise verlassen</i>
+
+	mom.eric.tv.closer.1@120@e-momeric-tv-suck-1@Что она делает?! Нужно это срочно прекратить! Может быть, включить свет, чтобы подумали, что я их не заметил?|Was macht sie da!? Ich muss das sofort beenden! Vielleicht könnte ich das Licht anmachen, damit sie denken, ich hätte sie nicht bemerkt?
+		eric.voy.stage>5&mom.eric.tv.can^				Ма-а-ам?|Mom?
+		eric.voy.stage<6&mom.eric.tv.closer.1.light^	<i>включить свет</i>|<i>Licht anschalten</i>
+		leave!set_cd.lizamomerictv_1!art_e-momeric-tv-0-0_e-momeric-tv-3-0_1!lock^				<i>тихо уйти</i>|<i>leise verlassen</i>
+
+	mom.eric.tv.can@81@Макс! Чего хотел? Не видишь, мы заняты? Если хочешь смотреть, делай это тихо и нам не мешай. А ты, Ань, не отвлекайся...|Was willst du, Max? Siehst du nicht, dass wir beschäftigt sind? Wenn Du zusehen willst, mach das ruhig, ohne uns zu unterbrechen. Mach weiter, Ann.
+		leave!set_cd.lizamomerictv_1!art_e-momeric-tv-0-0_e-momeric-tv-3-0_1!lock^		Охренеть!|Heilige Scheiße!
+
+	mom.eric.tv.closer.1.light@68@e-momeric-tv-light-1@Что? Кто здесь? Макс?! Выйди немедленно, не видишь...|Was? Wer ist da? Max!? Verschwinde sofort, siehst du das nicht?
+		mom.eric.tv.closer.1.light.stay^		Как раз всё вижу. Не стыдно?|Ich kann alles sehen, schämst du dich nicht?
+		mom.eric.tv.closer.1.light.stay^		Хорошо. А вы тут продолжайте...|Okay, weitermachen....
+		mom.eric.tv.closer.1.light.good^		Извини, мам. Я не заметил вас...|Es tut mir leid, Mom, ich habe dich nicht gesehen.
+
+	mom.eric.tv.closer.1.light.stay@69@e-momeric-tv-light-2@Макс, нам надо поговорить...|Wir müssen reden, Max.
+		mom.eric.tv.closer.1.light.stay.about^	О чём?|Worüber?
+
+	mom.eric.tv.closer.1.light.stay.about@73@Понимаешь, взрослым иногда нужно уединяться. Мы думали, что все наверху и что мы тут всем и так понятно... В общем...|Sieh, manchmal brauchen Erwachsene etwas Privatsphäre. Wir dachten, alle wären im zweiten Stock und ihr wisst alle, dass wir hier sind.... also....
+		mom.eric.tv.closer.1.light.stay.about.room^		Хотите потрахаться - идите в свою комнату. Нечего этим на виду у всех заниматься!|Wenn du ficken willst, dann geh einfach auf dein Zimmer, tu das nicht im Wohnzimmer!
+		mom.eric.tv.closer.1.light.stay.about.ok^		Да всё в порядке. Это ты извини, что включил свет...|Es ist okay, Mom. Es tut mir leid, dass ich das Licht angemacht habe.
+		mom.eric.tv.closer.1.light.stay.about.see^		А вы не против, если я посмотрю?|Darf ich zusehen?
+
+	mom.eric.tv.closer.1.light.stay.about.room@68@Макс! Что за слова? И как ты со мной разговариваешь? А ну-ка марш в свою комнату. Чтобы не видела тебя тут, пока мы смотрим фильмы!|So redest du nicht mit mir, Max! Geh auf dein Zimmer! Ich will nicht, dass Du hier bist, während wir uns Filme ansehen!
+		leave!lock^										Ладно, ладно. Так бы сразу и сказала...|Gut, gut
+
+	mom.eric.tv.closer.1.light.stay.about.ok@75@Макс! Ты у меня такой умница. Хорошо, что ты всё понимаешь. Ладно, иди в свою комнату, мы больше не будем... Тебя смущать...|Schön, dass du das verstehst, Max. Jetzt geh bitte in dein Zimmer, das werden wir nicht mehr .... machen.
+		leave!lock^										Хорошо, мам...|Okay, Mom
+
+	mom.eric.tv.closer.1.light.stay.about.see@68@Посмотришь? На что? На нас? Или фильм? В любом случае нет! Ты ещё маленький. И, вообще, почему я перед тобой отчитываюсь. Дай взрослым отдохнуть. А ты иди в свою комнату!|Was soll ich mir ansehen? Wir? Oder den Film? Auf jeden Fall ist die Antwort nein! Und ich muss dir nicht antworten, Eric und ich wollen uns entspannen, also geh in dein Zimmer!
+		leave!lock^										Ладно, уже ухожу...|Gut, ich gehe.
+
+	mom.eric.tv.closer.1.light.good@75@e-momeric-tv-light-2@Я рада, Макс, что ты всё понимаешь. Сделаем вид, что ничего не было и ты ничего не видел, хорошо?|Schön, dass du das verstehst, Max. Lass uns so tun, als hättest du nichts gesehen, okay?
+		leave!lock^										Конечно, мам!|Natürlich, Mom!
+
+
+
+# --- Макс разговаривает с мамой о планах Эрика|Max erzählt Ann von Erics Plänen
+
+	talk.mom.aboutericplans.init@0@Я хотел поговорить об Эрике...|Ich wollte über Eric reden....
+	talk.mom.aboutericplans@60@Да, Макс, слушаю...|Klar, Max, ich höre zu.
+		talk.mom.aboutericplans.next.1^						Ты знаешь, что он задумал?|Weißt du, was er vorhat?
+
+	talk.mom.aboutericplans.next.1@62@Кроме того, чтобы сделать меня счастливой? Нет, не знаю. Расскажи...|Außer mich glücklich zu machen? Nein, tue ich nicht, sag es mir.
+		talk.mom.aboutericplans.next.2a^					Он собирается вас всех настроить против меня!|Er wird euch alle gegen mich aufbringen!
+		talk.mom.aboutericplans.next.2b^					Он собирается поиметь вас всех!|Er wird euch alle ficken!
+
+	talk.mom.aboutericplans.next.2b@64@Макс! Что за слова?! И что за бред ты тут несёшь?! Ещё раз услышу что-то такое от тебя, накажу! У тебя есть какие-то доказательства своих слов или это просто домыслы?|Wovon zum Teufel redest du, Max!? Wenn ich so etwas noch einmal höre, werde ich dich bestrafen! Habst Du irgendwelche Beweise?
+		talk.mom.aboutericplans.next.3^						Ну он мне сам говорил, что...|Er hat es mir selbst gesagt.
+
+	talk.mom.aboutericplans.next.2a@75@Макс, ну что за ерунда? Эрик очень чуткий, отзывчивый мужчина. Ему очень понравилась вся наша семья и о тебе он хорошо отзывался. Даже вот лагерь нашёл для тебя...|Das ergibt keinen Sinn. Er ist sehr nachdenklich und sanftmütig. Er mag unsere Familie und hat Gutes über dich gesagt. Er hat sogar das Lager für Dich gefunden....
+		talk.mom.aboutericplans.next.3^						Вот именно! Он хочет от меня избавиться!|Genau! Er will mich loswerden!
+		talk.mom.aboutericplans.next.3^						Он всё врёт!|Er ist ein verlogener Bastard!
+
+	talk.mom.aboutericplans.next.3@62@Так, всё, Макс. Не хочу больше об этом слышать. Ты вбил себе в голову какую-то ерунду и теперь пытаешься всех в этом убедить. Я знаю какой Эрик и не надо мне тут рассказывать сказки. Всё, разговор окончен.|Das reicht, Max, ich will nichts davon hören. Du hast dir irgendeinen Unsinn eingebildet und jetzt versuchst du, es allen aufzuzwingen. Ich weiß, dass Eric und ich das nicht mehr hören wollen. Diese Unterhaltung ist vorbei.
+		leave!set_tell.mom.eric.plan_2!add_mom.mood_-50!add_mom.talkcooldown_5^			Но мам...|Aber Mom...
+
+
+
+# --- Разговор с мамой насчёт последней сцены (с Эриком)|Gespräch über Eric und Handschellen
+
+	talk.mom.abouthard.init@0@Тебя Эрик не обижает?|Missbraucht Eric dich?
+	talk.mom.abouthard@60@В каком смысле, Макс?|Wovon redest du, Max?
+		talk.mom.abouthard.see^							Ну, я видел вас ночью, ты была в наручниках...|Nun, ich habe dich nachts gesehen und du warst in Handschellen....
+
+	talk.mom.abouthard.see@69@Нет, Макс, всё в порядке... Это часть игры...|Nein, Max, es ist okay.... Es war nur ein Spiel....
+		talk.mom.abouthard.see.game^					Часть какой игры?|Was für ein Spiel?
+
+	talk.mom.abouthard.see.game@73@Ну, взрослые иногда играют в такие... игры. Эрик был главным, а я... Ну ты сам всё видел, видимо...|Nun, es ist die Art von Spiel, das Erwachsene in ihren Schlafzimmern spielen.... Eric dominierte, und ich.... Nun, du hast es selbst gesehen....
+		talk.mom.abouthard.see.game.wtf^				Какая-то странная игра, мам...|Das war ein seltsames Spiel, Mom....
+
+	talk.mom.abouthard.see.game.wtf@69@Мне жутко стыдно за всё это, Макс, но не могу ничего с собой поделать...|Es ist mir furchtbar peinlich, Max, aber ich kann mir nicht helfen....
+		talk.mom.abouthard.see.game.wtf.dom^			Он тебя заставляет? Чем-то угрожает? Почему ты это делаешь?|Zwingt er dich dazu? Droht er Dir? Warum tust Du das?
+
+	talk.mom.abouthard.see.game.wtf.dom@73@Ну, мне это всё нравится, если честно. О боже... Неужели я об этом говорю с тобой, Макс? Кажется, я во сне...|Ich mag es eigentlich, um ehrlich zu sein.... Warum führe ich dieses Gespräch mit dir, Max? Das ist ein Alptraum....
+		talk.mom.abouthard.see.game.wtf.dom.drug^		Он тебе таблетки не давал никакие? Или уколы не делал?|Hat er dir Drogen gegeben?
+		talk.mom.abouthard.see.game.wtf.dom.drug^		Может быть, он тебя загипнотизировал? Ты в трансе?|Vielleicht bist du hypnotisiert?
+
+	talk.mom.abouthard.see.game.wtf.dom.drug@69@Нет, Макс, ничего такого. Я же говорю, мне нравится ему подчиняться. Не знаю. Как будто я создана для этого...|Nein, Max, nichts dergleichen. Ich sage dir, ich gehorche ihm gern. Ich weiß nicht, ich fühle mich, als wäre ich dafür geboren....
+		talk.mom.abouthard.see.us^						Постой, если тебе нравится подчиняться, то почему ты нас наказываешь?|Warte, wenn du dich unterwerfen willst, warum bestrafst du uns?
+		talk.mom.abouthard.see.bad^						Это всё очень плохо. Может быть, к врачу обратиться?|Das ist sehr schlimm. Vielleicht solltest du zum Arzt gehen?
+
+	talk.mom.abouthard.see.us@62@А что я по твоему должна делать, Макс? Давать вам меня наказывать, что ли? Не говори глупостей. Я ваша мать и должна вас воспитывать. Это не имеет ничего общего с нашими с Эриком... играми.|Welche anderen Möglichkeiten habe ich? Mich bestrafen lassen? Sei nicht albern, Max. Ich bin deine Mutter und ich muss dich großziehen. Es hat nichts mit Eric und meinen.... Spielen zu tun.
+		talk.mom.abouthard.see.bad^						Это всё очень плохо. Может быть, к врачу обратиться?|Das ist sehr schlimm. Vielleicht solltest du zum Arzt gehen?
+
+	talk.mom.abouthard.see.bad@60@Макс, хватит. Я тебе пытаюсь объяснить, а ты всё заладил. Я себя контролирую и осознаю всё, что происходит. И мне нравится, то что у нас происходит с Эриком. Жаль, что это вас коснулось...|Das reicht, Max. Ich versuche, die Situation zu erklären, aber Du hörst nicht zu. Ich kontrolliere mich selbst und verstehe alles, was passiert. Und mir gefällt, was ich mit Eric haben. Es tut mir leid, dass du es sehen musstest, aber....
+		talk.mom.abouthard.see.bad.plan^				Ещё как! Он собирается трахнуть и моих сестёр!|Das ist schrecklich, er will auch meine Schwestern ficken!
+
+	talk.mom.abouthard.see.bad.plan@63@Макс! Опять ты начинаешь? Всё, не хочу больше об этом разговаривать! И ещё раз начнёшь наговаривать на Эрика, накажу! То что ты видел ещё цветочками покажется!|Starrst du wieder, Max? Ich will nicht mehr darüber reden! Das nächste Mal, wenn du das über Eric sagst, werde ich dich bestrafen, und es wird schlimmer als das, was du gesehen hast!
+		leave!set_talk.mom.abouthard_2^					Ого, мам... Хорошо...|Wow, Mom...
+
+
+
+# --- 0.3: Пытаемся попросить маму, чтобы она научила Макса целоваться|Mom nach dem Kussunterricht zu fragen.
+
+	mom.ask.kiss.init@0@Мам, а как учатся целоваться?|Mom, wie lernen die Leute, wie man küsst?
+	mom.ask.kiss@62@Вот это вопрос, Макс. Неожиданный, я бы сказала... А зачем тебе? Нашёл девушку и хочешь её впечатлить?|Warum fragst du? Hast du eine Freundin?
+		mom.ask.kiss.next.1^				Да, точно!|Yep, das ist richtig!
+
+	mom.ask.kiss.next.1@75@Ого! Поздравляю, Макс. Наконец-то ты нашёл кого-то. Расскажи, какая она?|Wow! Glückwunsch, Max. Endlich hast du jemanden gefunden. Erzählen Sie mir von ihr.
+		mom.ask.kiss.next.2a^				Да это не важно...|Es ist nicht wichtig.
+		mom.ask.kiss.next.2b^				Ну, красивая...|Nun, sie ist hübsch.
+
+	mom.ask.kiss.next.2a@72@Макс, что-то ты хитришь. Кстати, а где ты с нею познакомился? Ты же всё время дома сидишь... Через интернет?|Hm, scheint so, als ob du etwas vor mir verheimlichst. Übrigens, wo hast du sie getroffen? Du verlässt nie das Haus.... Im Internet?
+		mom.ask.kiss.next.3^				Типа того...|So was Ähnliches....
+
+	mom.ask.kiss.next.2b@71@И где ты с этой девушкой познакомился? В интернете?|Und wo hast du sie getroffen? Im Internet?
+		mom.ask.kiss.next.3^				Типа того...|So was Ähnliches....
+
+	mom.ask.kiss.next.3@60@Понятно. Ну что я могу тебе сказать. Буть естественным, будь самим собой. Девушки это ценят. Если ты попытаешься выдавать себя за ловеласа, она это раскусит и бросит тебя...|Ich verstehe. Nun, was soll ich sagen.... Verhalte dich natürlich, sei du selbst, bei Mädchen. Wenn du vorgibst, ein Frauenheld zu sein, wird sie dich durchschauen und dann wird sie dich abservieren.
+		mom.ask.kiss.next.4^				Ну мне всё равно надо научиться...|Okay, aber ich muss noch lernen, wie man küsst....
+
+	mom.ask.kiss.next.4@62@Ну вот с этой девушкой и научишься целоваться. Лучше учителя тебе всё равно не найти!|Und das kannst du mit deiner Freundin machen. Du wirst keinen besseren Lehrer finden!
+		mom.ask.kiss.next.5^				Эх... Спасибо, мам...|Oh... Danke, Mom
+
+	mom.ask.kiss.next.5@75@Не за что, Макс. Обращайся, если будет нужен ещё какой-то совет...|Gern geschehen, Max. Du Kannst mich jederzeit um Rat fragen.
+		leave!set_ask.mom.teachkiss_2^		Ага, обязательно...|Sicher, sicher
+
+
+
+# --- 0.3: Разговор с мамой во время йоги|erstes Gespräch während des Yoga
+
+	mom.yoga.together.init@0@Учеников берёшь?|Nimmst Du Schühler?
+	mom.yoga.together@75@Учеников? Ты решил заняться йогой? Вот это да, Макс! Не ожидала! Но я буду рада твоей компании... Прямо сейчас планируешь начать?|Schüler? Hast du dich entschieden, Yoga zu machen? Wow, Max, das habe ich nicht von dir erwartet! Ich helfe Dir gerne. Willst du jetzt gleich anfangen?
+		tier=1&mom.yoga.together.next.1a^			Ага. Что для этого нужно?|Ja. Was brauche ich dafür?
+		tier=2&mom.yoga.together.next.1b^			Ага. Что для этого нужно?|Ja. Was brauche ich dafür?
+
+	mom.yoga.together.next.1a@62@Ну мне кажется, что тебе лучше заниматься в шортах, а то жарко будет в этой одежде.|Ich denke, du solltest dich in Shorts umziehen, es wirst dir zu heiß in deinen aktuellen Sachen werden.
+		mom.yoga.together.next.1c^					<i>сбегать переодеться</i>|<i>in Shorts umziehen</i>
+
+	mom.yoga.together.next.1c@75@Ну вот, молодец. В шортах тебе будет комфортно. Ну что, приступим? Только старайся не разговаривать. Просто смотри на меня и повторяй...|Toll, du wirst dich in kurzen Hosen viel wohler fühlen. Also, sollen wir anfangen? Versuch nicht zu reden, sprich mir einfach nach.
+		mom.yoga.start^								Хорошо!|Okay!
+
+	mom.yoga.together.next.1b@60@Да ничего. Можно в таком виде заниматься, вполне. Ну что, приступим? Только старайся не разговаривать. Просто смотри на меня и повторяй...|Du brauchst wirklich nichts. Du bist schon gut angezogen. Also, soll es losgehen? Versuch nicht zu reden, sprich mir einfach nach.
+		mom.yoga.start^								Хорошо!|Okay!
+
+
+
+# --- 0.3: Периодический разговор с мамой насчёт совместной йоги|Periodische Konversation während des Yoga
+
+	mom.yoga.again.init@0@С тобой можно?|Kann ich mich Dir anschließen?
+	mom.yoga.again@75@Конечно, Макс, зачем спрашиваешь... Ты уже всё знаешь, как будешь готов, приступим... Только не разговаривать во время занятия. Смотри на меня и повторяй движения...|Natürlich, Max, du musst nicht fragen. Komm einfach dazu, wenn du bereit bist. Und rede nicht während des Yoga. Versuchen, mir alles nachahmen.
+		momy=1&07.aga.0^							Тебе не жарко, мам?|Ist Dir nicht heiß, Mom?
+		tier=1&mom.yoga.start^						<i>переодеться и начать</i>|<i>beginnen</i>
+		tier=2&yocan=0&mom.yoga.start^				Я готов!|Ich bin bereit!
+		tier=2&yocan>0&13.ga.0^						Я готов!|Ich bin bereit!
+
+
+
+# --- 0.3: Макс занимается йогой с мамой|Yoga mit Mom
+
+	mom.yoga.start@4@e-yoga-x@<i>Ох и долгий же это будет час... Ну ничего, когда цель - впечатлить Лизу своими мышцами, это того стоит!</i>|<i>Das wird eine lange Stunde. Aber wenn ich es schaffe, Lisa mit meinen Muskeln zu beeindrucken, ist es das alles wert!</i>
+		leave!add_mom.inf_-10!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_130!time^		<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- 0.3: Новые наказания: Первый диалог на эту тему перед наказанием кого-то|neue Strafen, erster Dialog
+
+	newpun.1st@60@e-momabouts-1-t2@Да, напоминаю всем. С сегодняшнего дня все наказания будут в обнажённом виде. Да, я понимаю, что это непедагогично, но очень эффективно.|Übrigens, ich erinnere daran, dass Ihr von jetzt an nackt bestraft werden. Ich verstehe, dass es erniedrigend ist, aber das macht es extrem effektiv.
+		newpun.1st.next.1^		Но мам...|Aber Mom...
+
+	newpun.1st.next.1@62@Я знаю, Макс, но уговаривать и пытаться вас убедить другим способом у меня нет ни сил ни времени. Чем более унизительно наказание, тем у вас будет меньше желания нарушить правила.|Ich weiß, Max, aber ich habe keine Zeit, dich davon zu überzeugen, deine Fehler nicht zu wiederholen. Peinlichere Bestrafung bedeutet mehr Grund, keine Regeln zu brechen.
+		newpun.1st.next.2^		<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.1st.next.2@46@Мам, и что, нам с Алисой придётся раздеваться догола прямо перед Максом? А если он разденется, нам смотреть на этот... его... ну...|Also was, jetzt sollen Alice und ich uns vor Max komplett ausziehen? Und wenn er sich auszieht, müssen wir uns seine.... du weißt schon.
+		newpun.1st.next.3^		Что, страшно?|Was, hast du Angst?
+
+	newpun.1st.next.3@60@Да, Лиза. Видишь, ты уже боишься. Значит, приложишь все усилия, чтобы тебя не наказали. Уже правила работают, а стоит один раз вам быть униженными перед всей семьёй...|Ja, Lisa, das ist genau der Punkt. Siehst du, wie viel Angst du hast? Es bedeutet, dass du dein Bestes versuchst, nicht bestraft zu werden. Das System funktioniert bereits, und ich denke, nach Ihrer ersten Bestrafung wird es noch besser funktionieren.
+		newpun.1st.next.4^		А если ты накосячишь? Кто тебя будет наказывать?|Und was ist, wenn du es vermasselst?
+
+	newpun.1st.next.4@62@Макс, ну что за ерунда. Что я могу нарушить? Я же ваша мама и всегда даю вам пример для подражания...|Wovon redest du, Max? Welche Regeln könnte ich brechen? Ich bin deine Mutter, ich bin ein Vorbild.
+		newpun.1st.next.5^		Э... Ты уверена?|Bist Du sicher?
+
+	newpun.1st.next.5@60@Да, Макс, я уверена. Но даже если я и совершу ошибку, то меня сможет наказать, допустим, Эрик... Но этого не случится. Я соблюдаю свои же правила!|Ja, Max, ich bin sicher. Und wenn ich etwas falsch mache, dann könnte ich von Eric bestraft werden.... Aber das wird nicht passieren. Ich folge meinen eigenen Regeln.
+		newpun.1st.next.6!set_first.newpun_1^		Ага, уж он то накажет...|Ja, er wird dich bestrafen....
+
+	newpun.1st.next.6@62@Макс, ты слишком много говоришь... И вот ещё что... Больше никаких предупреждений. С сегодняшнего дня всё строго.|Max, du redest zu viel. Und nebenbei bemerkt. Es wird keine Warnungen mehr geben. Wenn du es vermasselst, bekommst du die Strafe.
+		needpunish>0&newpun.start^						Эх...|Oh...
+		needpunish=0&hour=9&breakfast.default^			Эх...|Oh...
+		needpunish=0&hour=19&dinner.default^			Э?...|Oh...
+
+
+# --- 0.3: Новые наказания: универсальный эвент|neue Strafe, universelles Ereignis
+
+	newpun.start@60@e-momabouts-1-t2@Итак...|So...
+		dcd.paymom=0&max.pun=1&puntabu=0&newpun.max.start!set_max.pun_0!add_count.max.spanked_1!max_cam.5.grow_150^			<i>Макс</i>|<i>Max</i>
+		dcd.paymom>0&max.pun=1&puntabu=0&newpun.max.start.private!set_max.pun_0!add_count.max.spanked_1!max_cam.2.grow_200^	<i>Макс</i>|<i>Max</i>
+		alisa.pun=1&newpun.alisa!set_alisa.pun_0!add_count.alisa.spanked_1!max_cam.5.grow_250^						<i>Алиса</i>|<i>Alice</i>
+		liza.pun=1&newpun.liza!set_liza.pun_0!add_count.liza.spanked_1!max_cam.5.grow_250^							<i>Лиза</i>|<i>Lisa</i>
+		needpunish=0&hour=9&breakfast.default^																		<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^																		<i>начать ужин</i>|<i>Essen anfangen</i>
+
+	newpun.max.start.private@62@e-nsp-max-0@Так, Макс... Пойдём в комнату, поговорим с тобой наедине...|Max, lass uns auf mein Zimmer gehen und ein privates Gespräch führen.
+		random.luck.50=0&newpun.max.start.private.1a^		Ну, пойдём...|Okay...
+		random.luck.50=1&newpun.max.start.private.1b^		Ну, пойдём...|Okay...
+
+	newpun.max.start.private.1a@32@Мам, а почему это нас ты наказываешь перед Максом, а ему какие-то особые условия? Так не честно!|Mom, warum bestrafst du uns in der Öffentlichkeit, aber Max darf das privat machen? Das ist nicht fair!
+		newpun.max.start.private.2^							Всё честно!|Ja, das ist es!
+
+	newpun.max.start.private.1b@49@Мам, а куда вы пошли? Нас же шлёпают у всех на глазах, а Макса наедине? Это же не честно!|Wo gehst du hin, Mom? Warum müssen wir in der Öffentlichkeit versohlt werden und Max darf das privat machen? Das ist nicht fair!
+		newpun.max.start.private.2^							Всё честно!|Ja, das ist es!
+
+	newpun.max.start.private.2@62@Это наше с Максом дело и я бы на вашем месте не завидовала ему. Ну всё, Макс, пойдём, сейчас получишь...|Es ist unsere Sache und an deiner würde ich ihn nicht Stelle beneiden. Okay, Max, mach dich bereit.
+		newpun.max.start.private.3^							Эх...|Oh...
+
+	newpun.max.start.private.3@60@e-mpr-1@Так, Макс, снимай шорты. Быстро! Нас все ждут...|Okay, Max, zieh deine Hose runter. Schnell, alle warten.
+		newpun.max.start.private.4^							<i>Снять шорты</i>|<i>Hose runter ziehen</i>
+
+	newpun.max.start.private.4@62@e-mpr-2@Что прикрываешься? Я твоя мама и видела тебя голым кучу раз. Давай, ложись на колени, я тебя отшлёпаю.|Warum bedeckst Du Dich? Ich bin deine Mutter und ich habe dich schon eine Million Mal nackt gesehen. Jetzt leg dich auf meine Knie, damit ich dich versohlen kann.
+		max.imp=0&newpun.max.start.private.5^				Но... мам...|Aber... Mom...
+		max.imp>0&newpun.max.start.private.new.1^			Но... мам...|Aber... Mom...
+
+	newpun.max.start.private.new.1@15@n-msp-1@<i>Блин... Что-то сегодня меня даже не возбуждает вся эта ситуация... Да ещё так больно... Эх...</i>|<i>Mist.... Diese Situation erregt mich heute nicht einmal.... Und es tut auch sehr weh....</i>
+		newpun.max.start.private.new.2^						<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.max.start.private.new.2@62@n-msp-2@Ну вот, с тобой закончили. А теперь надевай шорты и пойдём, а то нас там все ждут...|Okay, wir sind hier fertig. Zieh deine Hose an und lass uns gehen, alle warten auf uns....
+		needpunish>0&newpun.start^							Да, мам...|Ja, Mom
+		needpunish=0&hour=9&breakfast.default^				<i>ид?и к столу</i>|<i>zum Tisch gehen</i>
+		needpunish=0&hour=19&dinner.default^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+
+	newpun.max.start.private.5@69@e-mpr-3@Что мам? Ах... Макс! Ты почему так возбудился?! Когда куча зрителей была, ты не так реагировал... Что случилось?|Was? Oh.... Max! Warum bist du so hart!? Du hattest diese Reaktion nicht, als du das Publikum hattest.... Was hat sich geändert?
+		newpun.max.start.private.6a^						Ну, тут такая обстановка...|Ich schätze, es ist die Atmosphäre....
+		newpun.max.start.private.6b^						Просто, мы тут наедине...|Wir sind allein
+		newpun.max.start.private.6c^						Я не знаю...|Ich weiß es nicht.
+
+	newpun.max.start.private.6a@62@Какая обстановка? Я тебя наказывать собираюсь, а не что ты тут себе вообразил...|Welche Atmosphäre? Ich werde dich bestrafen, nicht.... was auch immer du dir vorgestellt hast.
+		newpun.max.start.private.7^							Ничего не вообразил... Хотя...|Ich habe mir nichts vorgestellt.... bis jetzt, als du das gesagt hast....
+
+	newpun.max.start.private.6b@62@И что с того, что наедине, Макс? Ты сам этого хотел, даже семейный бюджет пополняешь... Надеюсь, не только ради таких вот наказаний...|Na und? Du bist derjenige, der darum gebeten hat, du gibst sogar etwas Geld für das Familienbudget.... Ich hoffe, du gibst mir kein Geld, nur damit ich dich privat bestrafe....
+		newpun.max.start.private.7^							Нет, что ты...|Nein, natürlich nicht.
+
+	newpun.max.start.private.6c@62@Макс, я же твоя мама! Тебя не должно смущать и тем более возбуждать моё присутствие... Ну, будем считать, гормоны шалят...|Ich bin deine Mutter, Max! Du solltest dich nicht schämen und du solltest definitiv nicht.... aufgeregt sein... nur weil ich da bin. Lassen Sie es uns auf die Hormone anrechnen, schätze ich.
+		newpun.max.start.private.7^							Да, да, они...|Ja, lass uns das machen.
+
+	newpun.max.start.private.7@60@Так, ладно. На колени я тебя не могу положить, будешь упираться своим... ну ты понял. Так что, подходи к столу и повернись ко мне спиной.|Okay, genug. Ich will nicht, dass du mich mit deinem Ding berüherst, also kannst du nicht auf meinen Knien liegen.... Leg deine Hände auf diesen Tisch und wir können anfangen.
+		newpun.max.start.private.8^							Хорошо...|Schön
+
+	newpun.max.start.private.8@4@e-mpr-4@<i>Ух... Мама меня не щадит. Но эта обстановка и ситуация... Так возбуждает... И маму уже почти не смущает мой стояк на неё... Это всё так классно! Ух... Но больно!</i>|<i>Wow, Mom geht wirklich nicht nachsichtig mit mir um. Aber diese Atmosphäre und Situation ist so mitreißend.... Und Mom reagiert nicht mehr auf meine harte Tour.... Das ist ziemlich cool! Autsch! Und schmerzhaft....</i>
+		can.momhj=0&newpun.max.start.private.9^				<i>далее</i>|<i>fortsetzen</i>
+		can.momhj>0&05.mpun.0^								<i>далее</i>|<i>fortsetzen</i>
+
+
+	newpun.max.start.private.9@69@e-mpr-5@Ну всё, Макс, мы закончили... Постой, ты всё ещё возбуждён? Мне начинает казаться, что ты получаешь какое-то извращённое удовольствие от этих наказаний...|Okay, Max, wir sind fertig.... Wie kannst du immer noch hart sein? Ich fange an zu glauben, dass du etwas perverses Vergnügen an dieser ganzen Situation hast.
+		newpun.max.start.private.10a^						Нет, ты что, просто я голый, перед тобой...|Nein, es ist nur.... Ich bin nackt, vor dir....
+		newpun.max.start.private.10b^						Ну, может быть и так...|Well, maybe I do
+		newpun.max.start.private.10a^						<i>Промолчать</i>|<i>sei ruhig</i>
+
+	newpun.max.start.private.10a@62@И что мне с тобой делать? Нас все заждались там за столом... И так слишком долго с тобой провозилась, ещё подумают что-то... В общем, приводи себя в порядок и выходи к столу.|Und was soll ich mit dir machen? Alle warten auf uns.... Wir nehmen uns schon zu viel Zeit, was werden die denken.... Du solltest dich vorzeigbar machen und an den Tisch gehen.
+		needpunish>0&newpun.start^							Да, мам...|Ja, Mom
+		needpunish=0&hour<17&breakfast.default^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+		needpunish=0&hour>16&dinner.default^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+
+	newpun.max.start.private.10b@68@Что? Макс, надеюсь, у тебя такой странный юмор. Я тебя наказываю не для того, чтобы ты получал удовольствие, а наоборот! В этом весь смысл...|Was? Ich hoffe, das war ein schlechter Witz, Max. Ich bestrafe dich nicht, damit du Freude daran hast, du sollst davon abgehalten werden, in dieser Situation zu sein, nicht umgekehrt.
+		newpun.max.start.private.11^						Значит, система дала сбой и меня не надо наказывать...|Dann funktioniert das System nicht und du solltest mich nicht mehr bestrafen.
+
+	newpun.max.start.private.11@62@Вот уж  нет, даже не надейся. Я тебя раскусила. Просто, буду пороть ещё сильнее, раз ты так храбришься...|Fette Chance, träum nicht mal davon. Ich sehe, was los ist. Ich werde dich nur noch härter verhauen, um das aus dir rauszuprügeln.
+		newpun.max.start.private.10a^						Это не поможет...|Es wird nicht helfen.
+
+	newpun.max.start.private.12@68@e-mpr-6@Помогу? С чем? С этим? Ты издеваешься? Быстро приводи себя в порядок и бегом к столу! Тоже мне, нашёл «помощницу»...|Hilfe womit? Mit deinem....? Willst du mich verarschen? Machen Sie sich salonfähig und geh sofort an den Tisch! Du können jemand anderen um "Hilfe" bitten.
+		needpunish>0&newpun.start^							<i>идти к столу</i>|<i>zum Tisch gehen</i>
+		needpunish=0&hour=9&breakfast.default^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+		needpunish=0&hour=19&dinner.default^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+
+	newpun.max.start@62@e-nsp-max-0@Ну, Макс, снимай шорты. Остальные просто посмотрят, что бывает, когда кто-то косячит...|Nun, Max, zieh deine Hose runter. Der Rest kann zusehen und sehen, was passiert, wenn man Mist baut.
+		newpun.max.next.1^		<i>Снять шорты</i>|<i>Hose herunter ziehen</i>
+
+	newpun.max.next.1@69@e-nsp-max-1@Хорошо. А теперь, ложись на мои колени и приступим, а то все голодные сидят...|Gut. Jetzt leg dich auf meine Knie und lass uns anfangen, alle warten.
+		newpun.max.next.2^		<i>Лечь на её колени</i>|<i>Leg dich auf die Knie.</i>
+
+	newpun.max.next.2@8@e-nsp-max-2@<i>Блин... Какой позор! И все с таким интересом меня разглядывают... Кажется, так можно весь авторитет потерять...\n<color=orange><b>Внимание:</b> Ваш авторитет среди присутствующих снизился!</color></i>|Das ist so peinlich! Alle schauen mich an.... Das kann nicht gut für meine Autorität sein\n<color=orange><i><b>Achtung:</b> Deine Autorität beir allen Anwesenden hat sich stark verringert!</i></color>
+		newpun.max.next.3!add_alisa.dom_-100!add_liza.dom_-100!add_mom.dom_-100!add_count.max.spanked_1^	<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.max.next.3@62@e-nsp-max-3@Ну всё, Макс, одевайся. Надеюсь, ты сделал выводы и постараешься больше не попадать в эту унизительную ситуацию...|Okay, Max, du kannst jetzt deine Hose hochziehen. Ich hoffe, du hast deine Lektion gelernt und du wirst versuchen, nicht wieder in diese Situation zu kommen.
+		needpunish>0&newpun.start^						Да, м?м...|Ja, Mom
+		needpunish=0&hour=9&breakfast.default^			Да, мам...|Ja, Mom
+		needpunish=0&hour=19&dinner.default^			Да, мам...|Ja, Mom
+
+	newpun.alisa@62@e-nsp-alisa-0@Так, Алиса, раздевайся догола. Надеюсь, не надо объяснять, за что я тебя сейчас буду наказывать и сама всё понимаешь...|Jetzt, bist du dran, Alice, zieh dich aus. Ich hoffe, ich muss dir nicht sagen, warum Du bestraft wirst.
+		erictaboo=0&eric.athome=0&newpun.alisa.next.1^						<i>далее</i>|<i>fortsetzen</i>
+		erictaboo=0&eric.athome=1&alisa.inf>69&newpun.alisa.next.eric.1^	<i>далее</i>|<i>fortsetzen</i>
+		erictaboo=0&eric.athome=1&alisa.inf<70&newpun.alisa.next.1^			<i>далее</i>|<i>fortsetzen</i>
+		erictaboo>0&newpun.alisa.next.1^									<i>далее</i>|<i>fortsetzen</i>
+		sispun>0&dcd.sispun=0&weekneed=0&06.npna.1^							Мам, давай сегодня я это сделаю!|Lass mich das heute für dich tun, Mom.
+		spun=2&dcd.spun=0&08.dc.0!set_dcd.spun_1!set_spun.alisa_1^			Мам, я накажу Алису после ужина, хорошо?|Lass mich Alice nach dem Essen bestrafen, Mom.
+		momcon=1&13.fa.0^													Нет, мам, ты неправа...|Nein, Mom, du liegst falsch.
+
+	newpun.alisa.next.1@60@e-nsp-alisa-1@Ну как, Алиса, стыдно тебе? Молчишь? Вот подумай о своём поступке, пока я буду наказывать тебя на глазах у всех... Ложись на мои колени!|Also, Alice, schämst du dich jetzt? Nichts zu sagen? Denk darüber nach, was du getan hast, während ich dich vor allen bestrafen werde. Leg dich auf meine Knie.
+		newpun.alisa.next.2^	<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.alisa.next.2@4@e-nsp-alisa-2@<i>Вот в такие моменты я не жалею, что нас наказывают голыми на глазах друг у друга! Даже порно не надо, когда такое шоу в паре метров от меня!</i>\n\n<color=lime><i><b>Внимание:</b> Ваш авторитет у Алисы немного повысился!</i></color>|<i>Momente wie dieser lassen mich denken, dass diese ganze Idee, uns nackt zu bestrafen, vielleicht doch nicht so schlimm ist! Ich brauche keinen Porno, wenn es so einen Anblick direkt vor mir gibt!</i>\n\n<color=lime><i><b>Achtung:</b> Deine Autorität bei Alice hat sich verbessert!</i></color>
+		newpun.alisa.next.3!add_alisa.dom_100^	<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.alisa.next.3@62@e-nsp-alisa-3@Ну что, получила урок? Стыдно? Правильно. Должно быть стыдно. Надеюсь, это больше не повторится. А теперь, одевайся...|Hast du deine Lektion gelernt? Schämst du dich? Das solltest du auch. Ich hoffe, ich muss das nicht noch mal machen. Jetzt zieh dich an.
+		needpunish>0&newpun.start^													<i>продолжить</i>|<i>fortsetzen</i>
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+	newpun.liza@62@e-nsp-liza-0@Лиза. Мне нужно всем объяснять за что ты сейчас будешь наказана? Молчишь? Значит, знаешь... Всё, давай раздевайся догола и быстро, без разговоров!|Lisa. Muss ich allen sagen, warum du jetzt bestraft wirst? Nichts zu sagen? Gut. Jetzt raus aus allen deinen Sachen.
+		newpun.liza.next.1^		<i>далее</i>|<i>fortsetzen</i>
+		can.lizabj>0&05.mlpu.0^														Лиза не виновата! Это всё моя вина!|Das ist meine Schuld, nicht die von Lisa!
+		sispun>0&dcd.sispun=0&weekneed=0&06.npnl.1^									Мам, давай сегодня я это сделаю!|Lass mich das heute für dich tun, Mom.
+		spun=2&dcd.spun=0&08.dc.0!set_dcd.spun_1!set_spun.liza_1^					Мам, я накажу Лизу после ужина, хорошо?|Lass mich Lisa nach dem Essen bestrafen, okay?
+
+	newpun.liza.next.1@60@e-nsp-liza-1@Что прикрываешься, Лиза? Стесняешься? Стыдно? Вот и хорошо... А теперь ложись на мои колени. Быстро!|Warum versuchst du, Dich zu schützen? Schämst du dich? Das solltest du auch. Leg dich auf meine Knie!
+		newpun.liza.next.2^		<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.liza.next.2@4@e-nsp-liza-2@<i>Обожаю такие моменты... Голые сёстры сверкают попками и сиськами... Можно смотреть и за это ничего не будет! Красота!</i>\n\n<color=lime><i><b>Внимание:</b> Ваш авторитет у Лизы немного повысился!</i></color>|<i>Ich liebe solche Momente! Ich kann auf die Titten und Ärsche meiner nackten Schwestern schauen, ohne Angst vor Strafe!</i>\n\n<color=lime><i><b>Achtung:</b> Deine Autorität bei Lisa hat sich verbessert!</i></color>
+		newpun.liza.next.3!add_liza.dom_100^		<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.liza.next.3@62@e-nsp-liza-3@Лиза, надеюсь, ты извлекла урок из этого наказания. Да, тебе было стыдно и неприятно, что все пялились на тебя, но надеюсь, ты всё поняла и больше это не повторится. А теперь одевайся!|Ich hoffe, du hast daraus gelernt, Lisa. Ich verstehe, dass es erniedrigend und schmerzhaft war, aber ich hoffe, es wird Dich motivieren, meinen Regeln zu folgen, damit Ich dich nicht wieder bestrafen muss.
+		needpunish>0&newpun.start^													<i>продолжить</i>|<i>fortsetzen</i>
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+	newpun.alisa.next.eric.1@83@Ань, давай я сам побеседую с Алисой наедине и, если потребуется, то накажу... Тоже сам...|Ann, lass mich mit Alice allein. Ich werde sie selbst bestrafen, wenn sie es braucht.
+		newpun.alisa.next.eric.2a^			Алиса, не соглашайся!|Alice, stimme dem nicht zu!
+		newpun.alisa.next.eric.2b^			<i>Пром?лчать</i>|<i>sei ruhig</i>
+
+	newpun.alisa.next.eric.2a@23@e-ea-pun-1@Да всё в порядке, Макс... В любом случае, Эрик... не больно наказывает...|Es ist okay, Max. Erics Strafen.... tun nicht weh.
+		newpun.alisa.next.eric.3^			<i>Жд?ть...</i>|<i>Warten</i>
+
+	newpun.alisa.next.eric.2b@62@e-ea-pun-1@Эрик, только не жалей её. Заслужила, должна быть наказана... Хотя, ты сам разберёшься...|Bemitleide sie nicht, Eric. Sie verdient es, bestraft zu werden.... Aber ich vertraue deinem Urteilsvermögen.
+		newpun.alisa.next.eric.3^			<i>Ждать...</i>|<i>Warten</i>
+
+	newpun.alisa.next.eric.3@60@e-ea-pun-2@Что, уже? Ну как, Алиса, ты усвоила урок?|Was, jetzt schon? Hast du deine Lektion gelernt, Alice?
+		newpun.alisa.next.eric.4^			<i>далее</i>|<i>fortsetzen</i>
+
+	newpun.alisa.next.eric.4@23@Да, мам... Я всё поняла...|Ja, Mom.... Eric machte es klar....
+		needpunish>0&newpun.start^													<i>продолжить</i>|<i>fortsetzen</i>
+		needpunish=0&hour=9&breakfast.default^										<i>начать завтрак</i>|<i>Frühstück anfangen</i>
+		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
+
+
+
+# --- 0.3: Макс рассказывает маме о том, как видел, как Эрик дрочил возле комнаты Алисы|Max erzähle Ann, dass sie Eric vor dem Zimmer der Alice beim Wichsen erwischt hat.
+
+	mom.ericnight.init@0@Мам, я хочу кое-что рассказать...|Mom, ich möchte dir etwas sagen.
+	mom.ericnight@60@О чём, Макс?|Was, Max?
+		mom.ericnight.tell^								Я видел Эрика ночью...|Ich habe Eric nachts gesehen....
+		leave^											Ой, это не важно... В другой раз...|Es spielt keine Rolle.... Ein anderes Mal
+
+	mom.ericnight.tell@62@Опять сказки про Эрика выдумываешь? Что ты там видел?|Wirst du wieder über Eric lügen? Was hast du gesehen?
+		mom.ericnight.tell.1^							Он стоял возле комнаты Алисы, смотрел на неё и дрочил!|Er hat in Alices Zimmer geguckt und sich einen runtergeholt!
+
+	mom.ericnight.tell.1@64@Макс! Ты же знаешь, как я ненавижу враньё! Иди с глаз моих долой, пока я не решила тебя наказать за это!|Max! Du weißt, dass ich es hasse, wenn du mich anlügst, besonders bei solchen Sachen! Geh mir aus den Augen, bevor ich dich dafür bestrafe!
+		com.ericnight=2&mom.ericnight.tell.2^			У меня есть фото, я сам сфотографировал, смотри!|Ich habe einen Fotobeweis, schau!
+		leave!set_com.ericnight_0^						Эх...|Oh...
+
+	mom.ericnight.tell.2@62@Макс, а какого чёрта ты делал ночью на нашем балконе, да ещё и с фотоаппаратом? Одно это уже заслуживает наказания...|Max, was hast du überhaupt auf dem Balkon mit einer Kamera gemacht? Du verdienst es, dafür bestraft zu werden!
+		mom.ericnight.tell.3^							Ты же видишь, что он на фото делает?|Siehst du nicht, was er auf dem Foto macht?
+
+	mom.ericnight.tell.3@60@Макс, тут ничего не разобрать. Может быть, он пошёл посмотреть всё ли в порядке, а может быть, это фотошоп. В любом случае, я не хочу больше об этом ничего слышать!|Es ist zu dunkel, Max. Vielleicht überprüft er nur, ob alles in Ordnung ist, oder es ist Photoshopping. Ich will überhaupt nicht darüber reden!
+		leave!set_com.ericnight_0!add_mom.mood_-50^		Да что же это такое...|Das ist lächerlich....
+
+
+
+# --- 0.3: Макс просит маму не наказывать его публично при всех|Max bittet darum, ihn nicht öffentlich zu bestrafen.
+
+	mom.nop.init@0@Мам, я хотел тебя попросить не наказывать меня при сёстрах...|Mom, ich wollte dich bitten, mich vor meinen Schwestern nicht mehr zu bestrafen.
+	mom.nop@62@И с чего мне сделать для тебя такое щедрое исключение? Стыдно?|Und warum sollte ich eine solche Ausnahme für Sie machen wollen? Schämst du dich?
+		mom.nop.1^		Очень!|Ja!
+
+	mom.nop.1@60@Значит, наказания работают. И какой смысл мне их отменять или не делать публичными?|Das bedeutet, dass die Bestrafung funktioniert. Warum sollte ich sie weg lassen oder privat machen wollen?
+		mom.nop.2^		Я уже взрослый!|Ich bin kein kleines Kind mehr!
+
+	mom.nop.2@75@И в чём эта взрослость проявляется? Ну, кроме понятно чего... Почему я должна относиться к тебе как к взрослому? Ты целыми днями сидишь дома, у меня на шее, полезного минимум... Ты точно взрослый?|Du zeigst das nicht wirklich.... nun, außer dem, den du nicht zeigen solltest. Warum sollte ich dich wie einen Erwachsenen behandeln? Du bleibst den ganzen Tag zu Hause, Du tust nichts Nützliches.... Bist du sicher, dass du kein Kind bist?
+		mom.nop.3^		Хорошо. Как я могу тебя убедить?|Okay, wie soll ich mich dir gegenüber beweisen?
+
+	mom.nop.3@62@Не знаю, не знаю, Макс... Это ты мне скажи. Денег в дом ты не приносишь. По дому если и делаешь, то только бассейн и заказываешь что-то в интернете, но это никак не тянет на статус взрослого...|Ich weiß nicht, Max, sag du es mir. Du bringst nichts mit auf den Tisch. Du erledigst kaum Hausarbeiten, schon gar nicht genug, um als Erwachsener zu gelten.
+		mom.nop.5^		Я могу зарабатывать!|Ich kann Geld verdienen!
+
+	mom.nop.5@67@Да ты что? И каким же это, интересно, образом? Ты же дома сидишь!|Oh, wirklich? Und wie wollen Sie das machen? Du verlässt nie das Haus!
+		mom.nop.6^		У меня есть один проект в интернете...|Ich habe ein Projekt im Internet....
+
+	mom.nop.6@62@Ого! Звучит как грандиозный план! И что же это за проект?|Wow! Hört sich groß an! Was für ein Projekt habst Du?
+		mom.nop.7^		Я не могу сказать, но иногда он приносит деньги...|Ich kann es noch nicht sagen, aber ich habe eine Einnahmequelle.
+
+	mom.nop.7@60@А этот твой проект, он законен?|Ist Dein Projekt legal?
+		mom.nop.8^		Абсолютно!|Hundertprozentig!
+
+	mom.nop.8@62@Ну ладно, допустим, поверю. Всё равно я в компьютерах этих ваших не разбираюсь. И что ты хочешь сказать, что ты сможешь зарабатывать деньги для семьи на этом своём проекте?|Gut, ich glaube dir. Es ist ja nicht so, als ob ich etwas über Computer wüsste. Wisst Du damit sagen, dass Du mit Ihrem Projekt Geld für die Familie verdienen kannst?
+		mom.nop.9^		Ага! И тогда ты не будешь зависеть от Эрика!|Ja! Und du wirst dich nicht mehr auf Eric verlassen!
+
+	mom.nop.9@75@Ты знаешь, у меня нет никаких проблем с Эриком. Но дополнительные деньги в семейный бюджет не помешают. Хорошо, я дам тебе шанс. Но я не могу тебя не наказывать совсем... Так что...|Ich habe keine Probleme mit Eric, aber ich habe nichts gegen etwas mehr Geld im Familienbudget. Gut, ich gebe dir eine Chance. Aber ich kann deine Bestrafungen nicht ganz aufhalten, also....
+		mom.nop.10a^	Делай это в комнате!|Mach es in deinem Zimmer!
+		mom.nop.10b^	А если много денег?|Was, wenn ich dir mehr Geld gebe?
+
+	mom.nop.10b@62@Макс! Дело же не в деньгах... Я обязана тебя наказывать, если ты заслуживаешь это. Иначе какая я мать... Но я соглашусь делать это без свидетелей. Например, в комнате...|Es geht nicht ums Geld. Es geht darum, eine Nachricht zu senden. Ich bin deine Mutter, Max, ich muss dich bestrafen, wenn du meine Regeln brichst. Aber ich stimme zu, dich allein zu bestrafen. Ich kann es in meinem Zimmer machen.
+		mom.nop.11^		От?ично!|Großartig!
+	mom.nop.10a@62@Это можно. Конечно, это будет не так эффективно, но если ты ещё и пользу будешь приносить, то почему нет...|Ja, das würde funktionieren. Es wird nicht so effektiv sein, aber wenn Du dich nützlich machst, wird es sich lohnen.
+		mom.nop.11^		Отлично!|Großartig!
+
+	mom.nop.11@75@А что отличного? Ты так и не сказал, сможешь ли ты зарабатывать, допустим, $350 в неделю? Если принесёшь, то следующие 7 дней я тебя наказываю наедине. Ну а если нет, то... как всех. Ты согласен?|Zieh nicht zu schnell voreilige Schlüsse, Max, ich habe dir nicht gesagt, wie viel es dich kosten wird. Wie wäre es mit.... $350 pro Woche? Kannst du es bewältigen? Wenn Du mir $500 gibst, werde ich dich die nächsten 7 Tage unter vier Augen bestrafen. Und wenn nicht.... Keine besondere Behandlung für Dich. Abgemacht?
+		mom.nop.12^		Я постараюсь...|Ich werde es versuchen.
+
+	mom.nop.12@62@Хорошо, посмотрим на этот твой проект. Кстати, если ты такой богатый, то не стоит просить у меня карманные деньги. Если попросишь, то я аннулирую твой вклад за неделю. Договорились?|Gut, wir werden sehen, wie gut dein Projekt wird. Und da du so reich bist, bekommst du kein Taschengeld mehr. Wenn Du mich um Geld bitten, annulliere ich deinen wöchentlichen Beitrag. Abgemacht?
+		mom.nop.13a^	Ты очень меркантильная, мама!|Du bist sehr kaufmännisch, Mom!
+		mom.nop.13b^	Договорились!|Deal!
+
+	mom.nop.13a@68@Ах... Макс! Надеюсь, это была шутка. Я же не для себя прошу деньги и это ты ко мне пришёл. Я даю тебе шанс доказать, что ты можешь помогать семье за особое к себе отношение...|Max! Ich hoffe, es war ein Witz. Ich bin nicht derjenige, der diese ganze Idee hatte, du bist zu mir gekommen. Ich gebe dir die Chance, dich zu beweisen, zeig mir, dass du ein verantwortungsvoller Erwachsener bist. Du bekommst eine Sonderbehandlung, wenn du der Familie hilfst.
+		mom.nop.13b^	Хорошо, договорились!|Schön, deal!
+
+	mom.nop.13b@67@Ну, я рада, что мы уладили этот вопрос...|Nun, ich bin froh, dass wir uns darauf geeinigt haben.
+		leave!set_can.paymom_1^		Ага, супер!|Ja, Großartig!
+
+
+
+# --- 0.3: Макс пытается оплатить неделю без публичных наказаний|Max versucht, für eine Woche privater Bestrafung zu bezahlen.
+
+	mom.pay.init@0@Мам, я принёс деньги...|Hier ist das Geld, Mom....
+	mom.pay@60@Хорошо. За что они?|Okay, aber wofür?
+		mom.pay.1^		Ну, мы договаривались, что ты не будешь меня публично наказывать...|Hatten wir nicht eine Abmachung über private Strafen?
+
+	mom.pay.1@67@Ага, значит, твой проект успешен? Я очень рада за тебя...|Dein Projekt ist also erfolgreich? Ich freue mich für dich.
+		money>349&mom.pay.give.500!add_money_-350!set_paidnow_350^		Держи $350|Hier sind $350
+		money>699&mom.pay.give.1000!add_money_-700!set_paidnow_700^		Держи $700|Hier sind $700
+		money>999&mom.pay.give.2000!add_money_-1000!set_paidnow_1000^	Держи $1000|Hier sind $1000
+		mom.pay.1.no^									Ой, я что-то напутал. В другой раз...|Oh, tut mir leid, ich erinnere mich gerade an etwas.... Ein anderes Mal
+
+	mom.pay.1.no@62@Так и знала, что не всё так просто... Ладно, как будут, приноси, обсудим твои наказания...|Okay, wir besprechen deine Strafen, wenn du das Geld hast.
+		leave!set_dcd.nextpaymom_1!add_mom.inf_-20^						Ага...|Ja...
+
+	mom.pay.give.500@75@Хорошо, Макс. Будем считать, ты купил себе дополнительную неделю без публичных наказаний. Кажется, ты и правда умеешь деражть своё слово...|Okay, Max, du hast dir eine zusätzliche Woche ohne öffentliche Strafen verschafft. Sieht so aus, als ob du dein Wort halten kannst.
+		leave!processpaid!set_dcd.nextpaymom_3!add_dcd.paymom_7!add_mom.inf_-30^	Конечно!|Sicher!
+
+	mom.pay.give.1000@62@Макс, ты точно никого не ограбил? Такие деньги и сидя дома... Хотя, ты же никуда не выходишь... Ну что же, ты купил себе две дополнительные недели без наказаний...|Du hast doch niemanden ausgeraubt, oder, Max? Wie kannst du so viel Geld bekommen, wenn du zu Hause bleibst.... Andererseits ist es nicht so, dass man jemanden ausrauben könnte, ohne das Haus zu verlassen.... Nun, du hast dir weitere zwei Wochen Privatstrafe erkauft.
+		leave!processpaid!set_dcd.nextpaymom_5!add_dcd.paymom_14!add_mom.inf_-40^	Супер!|Super!
+
+	mom.pay.give.2000@68@Ничего себе, какие деньги у тебя! Видимо, твой проект и правда успешен... Ну что же, ты купил себе месяц без публичных наказаний... Поздравляю!|Wow, du hast so viel Geld, Max! Ich denke, dein Projekt ist wirklich erfolgreich.... Nun, du hast dir einen weiteren Monat privater Bestrafung erkauft, Glückwunsch!
+		leave!processpaid!set_dcd.nextpaymom_7!add_dcd.paymom_30!add_mom.inf_-50^	Спасиб?, мам!|Danke, Mom!
+
+
+# --- 0.3: Попытка разузнать у мамы её секрет|um nach dem Ereignis aus der Vergangenheit zu fragen.
+
+	mom.aboutstory.init@0@Мам, Кира отправила меня к тебе...|Mom, Tante Kira hat mich zu Dir geschickt....
+	mom.aboutstory@60@Кира? Для чего, я не понимаю...|Tante Kira dich geschickt? Warum?
+		mom.aboutstory.1^		Она сказала, что знает почему ты так себя ведёшь и она может что-то рассказать...|Sie sagte mir, sie weiß, warum du dich so verhältst, und sie könnte es mir sagen, wenn es dir nichts ausmacht.
+
+	mom.aboutstory.1@62@Макс, что за бред. Как я себя веду? И что она может рассказать?|Das ist lächerlich, Max. Wie verhalte ich mich? Was könnte sie wohl sagen?
+		mom.aboutstory.2^		Про какой-то случай из твоего детства...|Sie sagte, es gab einen Vorfall aus deiner Kindheit....
+
+	mom.aboutstory.2@68@Кира совсем не умеет держать язык за зубами... Макс, это точно не та история, которую я хочу тебе рассказать. Давай сменим тему.|Kira sollte ihren Mund halten. Max, das ist nicht die Art von Geschichte, die ich dir erzählen möchte. Lass uns das Thema wechseln.
+		mom.aboutstory.3^		Вот теперь мне ещё больше интересно!|Jetzt will ich es wirklich wissen!
+
+	mom.aboutstory.3@69@Макс! Я же сказала, что не хочу об этом. А теперь иди, занимайся своими делами!|Ich sagte doch, ich will nicht darüber reden. Geh und beschäftige dich woanders!
+		mom.aboutstory.4^		Ну а тётя может мне рассказать об этом?|Kann mir Tante Kira diese Geschichte erzählen?
+
+	mom.aboutstory.4@62@Нет, Макс. Это тебя не касается и я не хочу возвращаться к этой теме!|Nein, Max. Das geht dich nichts an und ich will dieses Gespräch nicht noch einmal führen!
+		leave!set_poss.aunt_11^	Я понял...|Ich verstehe
+
+
+
+# --- 0.4: Разговор с мамой по просьбе Кати|Gespräch mit Ann über Lesben
+
+	mom.aboutlesbi.init@0@Мам, я хотел узнать твоё мнение кое о чём...|Mom, ich wollte dich um deine Meinung zu etwas bitten....
+	mom.aboutlesbi@60@Да, Макс, слушаю тебя...|Klar, Max, ich höre zu.
+		mom.aboutlesbi.step.2^		Что ты думаешь об однополой любви?|Was hältst du von gleichgeschlechtlicher Liebe?
+
+	mom.aboutlesbi.step.2@68@О нет, Макс... Только не это!|Nein, Max.... Alles andere als das!
+		mom.aboutlesbi.step.3^		Что?!|Warum?
+
+	mom.aboutlesbi.step.3@69@Я так и знала, что плохо вас воспитывала... Это моя ошибка... И ведь ты мой единственный сын. Какое горе...|Ich wusste, dass ich dich falsch erzogen habe.... Es ist alles meine Schuld.... Du bist mein einziger Sohn, das ist so schrecklich....
+		mom.aboutlesbi.step.4^		Мам! Я не гей!|Ich bin nicht schwul, Mom!
+
+	mom.aboutlesbi.step.4@75@Правда?! О, Макс. Как ты меня напугал. Ты не представляешь! А то сейчас куда ни плюнь, везде эти... это... извращение. То геи, то лесбиянки. Фу, какая гадость...|Wirklich!? Oh, Max, du hast mich so erschreckt, du hast keine Ahnung! Es ist jetzt überall, diese.... Perversion. Schwule, Lesben, Ekel erregende....
+		mom.aboutlesbi.step.5^		Хм...|Hmmmm...
+
+	mom.aboutlesbi.step.5@72@Постой, а к чему был этот вопрос? Я что-то пропустила...|Warte, warum hast du mich danach gefragt?
+		mom.aboutlesbi.step.6^		Нет, ничего, мам. Я просто так спросил...|Kein Grund, Mom, ich habe nur gefragt....
+
+	mom.aboutlesbi.step.6@75@Ну ладно. И даже не общайся с ними, если увидишь. Кто знает, что у них на уме...|Gut. Sprich nicht einmal mit ihnen, wenn du sie triffst. Wer weiß, was sie denken....
+		leave!set_poss.guest_2^		Ага, не буду, мам...|Ja, werde ich nicht, Mom.
+
+
+
+# --- 0.4: Общий эвент для массажа мамы|Ann's Massage-Event Intro
+
+	mom.massage.init@0@Мам, устала?|Du siehst müde aus, Mom?
+	mom.massage@60@Ну, так... Немного... А что ты хотел, Макс?|Tja...... Ein bisschen, vielleicht.... Willst du etwas, Max?
+		momas=0&mom.m.1.step.2^				Хочу предложить тебе массаж...|Ich möchte dir eine Massage geben.
+		momas>0&momas<4&mom.m.2.step.2^		Хотел предложить массаж...|Ich möchte dir eine Massage anbieten.
+		momas=4&mom.m.3.step.2^				Может быть, массаж ног?|Wie wäre es mit einer Fußmassage?
+		momas=5&mom.m.5.step.2^				Я вижу, ты готова к массажу...|Ich sehe, du bist bereit für eine Massage....
+		momas=6&mom.m.6.step.2^				Ну что, сегодня готова?|Also, bist du heute fertig?
+		momas=7&mom.m.7.step.2^				Сделать тебе массаж, конечно!|Ich will dir eine Massage geben, natürlich!
+		momas=8&mom.m.8.step.2^				Как всегда, массаж!|wie immer, möchte ich dich massieren.
+
+
+
+# --- 0.4: Первый массаж|Erste Massage
+
+	mom.m.1.step.2@62@n-rest-0@Любопытно. И давно ты научился его делать? Даже больше интересно где?|Interessant. Wo hast du gelernt, eine Massage zu machen? Und wann?
+		mom.m.1.step.3^						Онлайн-курсы!|Online-Kurse
+
+	mom.m.1.step.3@67@Понятно. Чему только в интернете не учат. Лиза рассказывала, что даже есть уроки как правильно складывать футболку, представляешь?|Ich verstehe. Im Internet kann man heute alles lernen. Lisa hat mir mal von einer Lektion erzählt, wie man ein T-Shirt richtig faltet, kannst du dir das vorstellen?
+		mom.m.1.step.4^						Ага. Ну так как?|Ja. Also, wie wäre es mit einer Massage?
+
+	mom.m.1.step.4@62@Ну не знаю, Макс... Ты не выглядишь как... массажист. Да и онлайн-курсы?|Ich weiß nicht, Max.... Du siehst nicht wirklich wie eine Masseuse aus. Und Online-Kurse?
+		mom.m.1.step.5^						Ну не знаю. Алисе понравилось...|Ich weiß nicht, Alice hat es genossen....
+
+	mom.m.1.step.5@67@Верно, она говорила, что у тебя талант... Ладно, давай посмотрим, на что ты способен... У меня немного устали ножки. Может быть, их и помассируешь?|Oh, ja, sie sagte, du hättest ein Talent.... Gut, mal sehen, wie das ist.... Meine Beine sind müde, willst du sie massieren?
+		mom.m.1.step.6^						Конечно, мам!|Natürlich, Mom!
+
+	mom.m.1.step.6@69@n-mm-0-0@Ну, давай... Только не перестарайся. Не хочу, чтобы потом у тебя руки болели, а то придётся уже мне делать для тебя массаж...|Okay. Aber ich will nicht, dass du dich überanstrengst, sonst muss ich dich massieren....
+		random.massage.5=1&mom.m.1.step.7.good^			<i>продолжить</i> [skill.massage_5]|<i>fortsetzen</i> [skill.massage_5]
+		random.massage.5=0&mom.m.1.step.7.bad^			<i>продолжить</i> [skill.massage_5]|<i>fortsetzen</i> [skill.massage_5]
+
+	mom.m.1.step.7.bad@60@<color=orange><i>Маме не понравился массаж!</i></color>\nОй, Макс... Нет, что-то не то. Кажется, тебе нужно больше учиться в этом своём интернете... Давай в другой раз...|<color=orange><i>Mom mochte die Massage nicht!</i></color>\nAu, Max.... Irgendwas stimmt nicht. Ich denke, Du musst mehr in deinem Kurse lernen.... Versuchen wir es später noch einmal.....
+		leave!set_dcd.momas_1!set_poss.guest_8^			Ладно, извини...|Okay, sorry...
+
+	mom.m.1.step.7.good@75@n-mm-0-1@<color=lime><i>Маме понравился массаж!</i></color>\nОго, Макс... Алиса была права. Ты делаешь это и правда очень хорошо...|<color=lime><i>Mom mochte die Massage!</i></color>\nMax.... Alice hatte Recht. Du bist wirklich gut....
+		mom.m.1.step.8!set_poss.guest_9^				Спасибо!|Danke!
+
+	mom.m.1.step.8@67@Это здорово, Макс! Я очень рада, что ты умеешь кое-что, что в жизни может пригодится. Конечно, работа массажистом это не то, о чём я думаю, ты мечтаешь, но...|Das ist toll, Max! Ich bin froh, dass du etwas Nützliches gelernt hast. Ich bin nicht sicher, ob Masseur eine Karriere für Dich ist, von der du träumst, aber....
+		mom.m.1.step.9^						Это просто хобби...|Es ist nur ein Hobby.
+
+	mom.m.1.step.9@75@А, ну если так... То... Молодец, Макс. Кажется, мои ножки отдохнули, как будто я спала несколько часов... Я буду рада, если ты будешь делать мне такой массаж иногда...\n\n<color=lime><i><b>Внимание:</b> Ваши отношения улучшились</i></color>|In diesem Fall.... Gute Arbeit, Max. Ich glaube, meine Beine haben sich ausgeruht, als hätte ich mehrere Stunden geschlafen.... Ich würde mich freuen, wenn du das ab jetzt öfters mal machst....\n\n<color=lime><i><b>Achtung:</b> Deine Beziehungen haben sich verbessert!</i></color>
+		leave!set_dcd.momas_1!set_momas_1!add_mom.mood_100!add_mom.rep_1^			С удовольствием, мам!|Mit Vergnügen, Mom!
+
+
+
+# --- 0.4: Массаж для мамы, она в одежде, повторяем пока у Макс не получится 3 раза удачно сделать массаж с высоким шансом.|regelmäßige Beinmassage, wird wiederholt, bis Max es dreimal macht.
+
+	mom.m.2.step.2@75@n-rest-0@Ой, я думала, ты и не предложишь. Ты в прошлый раз так хорошо мне ножки помассировал, что я буду очень рада, если ты это повторишь...|Ich dachte nicht, dass du es anbieten würdest. Du warst letztes Mal so toll, dass ich froh bin, wenn du es wieder tust....
+		mom.m.2.step.3^				С удовольствием, мам!|Mit Vergnügen, Mom!
+
+	mom.m.2.step.3@67@n-mm-0-0@Ну, давай, посмотрим на что ты способен...|Okay, mal sehen, was du hast....
+		random.massage.5=1&mom.m.2.step.4.good^			<i>продолжить</i> [skill.massage_5]|<i>fortsetzen</i> [skill.massage_5]
+		random.massage.5=0&mom.m.2.step.4.bad^			<i>продолжить</i> [skill.massage_5]|<i>fortsetzen</i> [skill.massage_5]
+
+	mom.m.2.step.4.bad@69@<color=orange><i>Маме не понравился массаж!</i></color>\nОй, Макс... Нет, в этот раз не так хорошо... Что-то даже мышцы немного больно стало. Давай в другой раз продолжим... Но всё равно спасибо!|<color=orange><i>Mom mochte die Massage nicht!</i></color>\nAu, Max.... Diesmal nicht so gut, fürchte ich.... Ich glaube, meine Muskeln tun jetzt sogar ein bisschen weh. Vielleicht machst du es nächstes Mal besser.... Aber trotzdem vielen Dank!
+		leave!set_dcd.momas_1^			Извини...|I'm sorry
+
+	mom.m.2.step.4.good@75@<color=lime><i>Маме понравился массаж!</i></color>\nОй, Макс! Это чудесно... Как хорошо, что ты у меня есть... Мне очень понравилось... Буду ждать следующего раза!|<color=lime><i>Mom mochte die Massage!</i></color>\nOh, Max! Das ist wunderbar.... Ich bin so froh, dich zu haben.... Ich habe es sehr genossen.... Ich warte auf ein nächstes Mal!
+		leave!add_momas_1!set_dcd.momas_1^			Я тоже!|Ich auch!
+
+
+
+# --- 0.4: Макс предлагает массаж не только ног|Max schlägt etwas anderes als eine Beinmassage vor.
+
+	mom.m.3.step.2@75@n-rest-0@Идея отличная, Макс! Но сегодня что-то не хочется. Моим ножкам уже хорошо...|Das ist eine tolle Idee, Max, aber meine Beine sind schon in Ordnung.
+		mom.m.3.step.3^				Я умею не только ножки массировать!|Ich kann etwas anderes massieren, wenn du willst!
+
+	mom.m.3.step.3@62@И чему ещё тебя могли научить в этом твоём интернете? Боюсь представить даже...|Was zum Beispiel? Ich habe Angst, mir vorzustellen, was Du im Internet gelernt haben....
+		mom.m.3.step.4^				Массаж спины, например...|Wie wär's mit einer Rückenmassage?
+
+	mom.m.3.step.4@73@Обожаю массаж спины... Но я не уверена, что у тебя хватит силы, да и тут нужна долгая практика, как мне кажется... Но хорошо, в следующий раз попробуем, раз ты говоришь, что и это умеешь.|Ich liebe es.... Aber ich bin mir nicht sicher, ob du stark genug bist, und ich denke, du solltest zuerst viel Übung haben.... Aber wir versuchen es nächstes Mal, okay?
+		leave!set_momas_5!set_dcd.momas_1!momtowelrest!set_poss.guest_10!time^		Ты не пожалеешь!|Du wirst es nicht bereuen.
+
+
+
+# --- 0.4: Мама отдыхает в полотенце|Mom ruht sich in einem Handtuch aus.
+
+	mom.m.5.step.2@75@n-rest-2@Ты говорил, что можешь сделать массаж спины. Вот я и подумала, что не стоит переодеваться после ванной... Но если я тебя смущаю в таком виде, могу одеться...|Du hast gesagt, du willst meinen Rücken massieren, also habe ich mich nach dem Baden nicht umgezogen.... Aber wenn du dich unwohl fühlst, kann ich das ändern.
+		mom.m.5.step.3^				Всё в порядке, мам!|Alles in Ordnung, Mom!
+
+	mom.m.5.step.3@67@Очень хорошо. Тогда я готова. Но можешь начать с ножек. Мне нравится, как ты это делаешь...|Okay, dann bin ich bereit. Du kannst mit meinen Beinen anfangen, ich mag es wirklich, wie du sie massierst....
+		mom.m.5.step.4^				Конечно!|Natürlich!
+
+	mom.m.5.step.4@4@n-mm-1-1@<i>Обалдеть! Мама в одном полотенце! Интересно, на ней есть хотя бы трусики? Как бы заглянуть так, чтобы она не заметила... А ведь смотрит прямо на меня...</i>|<i>Mom ist unter einem Handtuch! Ich frage mich, ob sie Unterwäsche bei sich hat. Ich würde gerne gucken, aber sie schaut mich an....</i>
+		random.massage.5=1&mom.m.5.step.5.good!max_poss.guest_12^			<i>продолжить</i> [skill.massage_5]|<i>fortsetzen</i> [skill.massage_5]
+		random.massage.5=0&mom.m.5.step.5.bad!max_poss.guest_11^			<i>продолжить</i> [skill.massage_5]|<i>fortsetzen</i> [skill.massage_5]
+
+	mom.m.5.step.5.bad@62@<color=orange><i>Маме не понравился массаж!</i></color>\nКажется, ты сегодня не в духе... Что-то отвлекаешься не на то. Давай в другой раз продолжим. Хорошо?|<color=orange><i>Mom mochte die Massage nicht!</i></color>\nSieht aus, als wärst du heute zu abgelenkt. Lass es uns ein anderes Mal versuchen, okay?
+		leave!set_dcd.momas_1^							Хорошо...|Okay...
+
+	mom.m.5.step.5.good@75@<color=lime><i>Маме понравился массаж!</i></color>\nОх, Макс... Очень хорошо... Такая лёгкость. Да, у тебя талант!|<color=lime><i>Mom mochte die Massage!</i></color>\nOh, Max.... Sehr gut.... Ich fühle mich so leicht. Du bist ein Naturtalent!
+		mom.m.5.step.6^									Ну что, теперь спина? Я делаю это превосходно!|Also, machen wir jetzt deinen Rücken? Du wirst es lieben!
+
+	mom.m.5.step.6@69@Даже так? Ого... Но нет, Макс. Я передумала... Я почти голая под полотенцем и не хочу тебя смущать. Вообще, надо было одеться... Давай в другой раз...|Sehr verlockend, aber.... Nein, Max. Ich habe meine Meinung geändert.... Ich bin fast nackt unter dem Handtuch und ich will dich nicht in eine unangenehme Lage bringen. Ich sollte mich anziehen.... Versuchen wir ein anderes Mal......
+		mom.m.5.step.7^									Мам! Массаж только так и делают. Я точно знаю!|Mom, so soll die Massage sein, das sage ich dir!
+
+	mom.m.5.step.7@73@Откуда? Разве тебе делали массаж где-то? Ах да, интернет, онлайн, всё такое... Ладно. В любом случае, всё получается у тебя просто отлично. Может быть я и созрею попробовать твой знаменитый массаж спины...|Woher weißt du das? Habst Du dich schon mal massieren lassen? Oh, richtig, das Internet.... Gut. Du machst das toll, vielleicht stimme ich deiner sagenhaften Massage eines Tages zu....
+		leave!set_momas_6!set_dcd.momas_1^				Хорошо...|Okay...
+
+
+
+# --- 0.4: Повторная попытка сделать массаж спины|ein weiterer Versuch, Anns Rücken zu massieren.
+
+	mom.m.6.step.2@75@n-rest-2@Ну, давай попробуем... Я могу одеться, если тебя смущаю, а то в прошлый раз ты... отвлекался...|Okay, versuchen wir es. Ich kann etwas anziehen, wenn du willst. Letztes Mal warst du.... abgelenkt....
+		mom.m.6.step.3^			Да не надо, всё в порядке!|Nee, ist schon gut.
+
+	mom.m.6.step.3@67@Точно? Ну хорошо, давай приступим... Пожалуй, ножки, как всегда...|Wenn Du meinen.... Beginnen wir mit den Beinen, wie immer....
+		mom.m.6.step.4^			С радостью!|Gerne!
+
+	mom.m.6.step.4@75@n-mm-1-1@Ой, как здорово... Такие нежные, но сильные руки. Ты уже настоящий мужчина!|Das ist großartig.... Deine Hände sind weich, aber stark. Du bist zu einem guten Mann herangewachsen, Max!
+		mom.m.6.step.5^			Ну что, теперь спину?|Also, was ist jetzt mit der Rückseite?
+
+	mom.m.6.step.5@69@Ну... Ладно, уговорил. Только не глазей на меня, пожалуйста, я смущаюсь. Хорошо?|Gut, du hast mich überzeugt. Aber starre nicht zu sehr, bitte, ich bin schüchtern.
+		mom.m.6.step.6^			Хорошо, мам. Ложись на живот и снимай полотенце.|Okay, Mom. Leg dich auf den Bauch und lass das Handtuch fallen.
+
+	mom.m.6.step.6@4@n-mms-2a@<i>Вау... Какой шикарный зад у моей мамы! А ещё я могу не только на него смотреть, но и трогать! Правда, всё может сразу закончится, если мама поймёт, что я её лапаю... но могу же!</i>|<i>Wow.... Mom hat so einen schönen Arsch! Und ich kann nicht nur sehen, was ich will, sondern auch anfassen! Mom wird alles aufhalten, wenn sie merkt, dass ich sie nur betatschen will, aber ich muss vorsichtig sein.</i>
+		random.eromas.4=1&max.imp=0&mom.m.6.step.7.good.s!add_skill.eromas_5^		<i>массаж спины</i> [skill.eromas_4]|<i>massiere Mom's Rücken </i> [skill.eromas_4]
+		random.eromas.4=1&max.imp=1&mom.m.6.step.7.good.i!add_skill.eromas_5^		<i>массаж спины</i> [skill.eromas_4]|<i>massiere Mom's Rücken </i> [skill.eromas_4]
+		random.eromas.4=0&max.imp=0&mom.m.6.step.7.bad.s^							<i>массаж спины</i> [skill.eromas_4]|<i>massiere Mom's Rücken </i> [skill.eromas_4]
+		random.eromas.4=0&max.imp=1&mom.m.6.step.7.bad.i^							<i>массаж спины</i> [skill.eromas_4]|<i>massiere Mom's Rücken </i> [skill.eromas_4]
+
+	mom.m.6.step.7.bad.s@62@n-mms-3a@<color=orange><i>Маме не понравился массаж!</i></color>\nОй, нет, Макс... Твой хвалёный массаж не так хорош, как ты рекламировал... Думаю, надо прекратить...|<color=orange><i>Mom mochte die Massage nicht!</i></color>\nAu, hör auf, Max. Deine Massage ist nicht so gut, wie du gesagt hast.... Ich denke, wir sollten aufhören.
+		mom.m.6.step.8.s^				Как скажешь...|Wenn du das sagst....
+
+	mom.m.6.step.7.bad.i@62@<color=orange><i>Маме не понравился массаж!</i></color>\nОй, нет, Макс... Твой хвалёный массаж не так хорош, как ты рекламировал... Думаю, надо прекратить...|<color=orange><i>Mom mochte die Massage nicht!</i></color>\nAu, hör auf, Max. Deine Massage ist nicht so gut, wie du gesagt hast.... Ich denke, wir sollten aufhören.
+		mom.m.6.step.8.i^				Как скажешь...|Wenn du das sagst....
+
+	mom.m.6.step.7.good.s@75@n-mms-3a@<color=lime><i>Маме понравился массаж!</i></color>\nДа, Макс... Ты знаешь как сделать приятно... Всмысле, у тебя получается очень хорошо... Как будто сходила к профессионалу...|<color=lime><i>Mom mochte die Massage!</i></color>\nJa, Max.... Du weißt, wie es gefällt.... Ich meine, deine Massage ist sehr gut.... Fühlt sich an wie eine professionelle Massage....
+		mom.m.6.step.8.s^				Спасибо...|Danke
+
+	mom.m.6.step.7.good.i@75@<color=lime><i>Маме понравился массаж!</i></color>\nДа, Макс... Ты знаешь как сделать приятно... Всмысле, у тебя получается очень хорошо... Как будто сходила к профессионалу...|<color=lime><i>Mom mochte die Massage!</i></color>\nJa, Max.... Du weißt, wie es gefällt.... Ich meine, deine Massage ist sehr gut.... Fühlt sich an wie eine professionelle Massage....
+		mom.m.6.step.8.i^				Спасибо...|Danke
+
+	mom.m.6.step.8.s@68@n-mm-2-2@Макс! Это что такое?! Как тебе не стыдно! У тебя встал на собственную маму! И что у тебя только в голове? Так, ладно, потом поговорим.|Max! Was ist das denn!? Schämen Sie sich nicht? Du bist hart bei deiner eigenen Mutter geworden! Was hast du dir dabei gedacht? Geh, wir reden später darüber.
+		leave!add_mom.mood_-100!set_dcd.momas_1!set_can.momtalk.momas_1!set_mom.talkcooldown_5!lock_momroom_2!time^			Ладно, извини, я не специально...|Okay. Es tut mir leid, Mom, ich mache das nicht mit Absicht.
+
+	mom.m.6.step.8.i@67@Ну всё, Макс. Думаю, на сегодня хватит. Спасибо тебе за помощь!|Okay, Max, ich denke, es reicht für heute. Danke für Ihre Hilfe!
+		leave!set_dcd.momas_1!time^			Конечно, мам...|Natürlich, Mom.
+
+
+
+# --- 0.4: Первый массаж, где мама без нижнего белья|erste Massage ohne Höschen
+
+	mom.m.7.step.2@75@n-rest-2@Хорошо, я готова. Только хочу тебя сразу предупредить, я сегодня не надела трусики. Так что, не удивляйся и старайся не смотреть под полотенце. Хорошо?|Okay, ich bin bereit. Aber ich will dich nur warnen, ich trage heute kein Höschen. Also sei nicht überrascht und versuche nicht unter mein Handtuch zu schauen, okay?
+		mom.m.7.step.3!max_poss.guest_13^				Э... А... Ну... Да...|Emmm.... Ohhhh.... Ja.... Sicher.
+
+	mom.m.7.step.3@67@Макс, с тобой точно всё в порядке? Мы же с тобой об этом говорили, помнишь? Если ты передумал, я могу полностью одеться, чтобы тебя не смущать... Видимо, это была плохая идея...|Bist du sicher, dass es dir gut geht, Max? Erinnerst du dich an unser Gespräch? Ich kann etwas anziehen, wenn es dir peinlich ist. Ich schätze aber, es war eine schlechte Idee....
+		mom.m.7.step.4^				Нет, нет, мам, всё в порядке!|Nein, nein, nein, alles in Ordnung, Mom!
+
+	mom.m.7.step.4@69@Точно? Просто я себя чувствую как-то необычно... Смесь стыда и... Не важно. В общем, давай приступим...|Bist Du sicher? Ich fühle mich seltsam.... Mischung aus Scham und.... Vergiss es. Wie auch immer, fangen wir an....
+		mom.m.7.step.5^				<i>начать массаж</i>|<i>Massage beginnen</i>
+
+	mom.m.7.step.5@4@n-mm-1-2@<i>Вот это да! Мама абсолютно голая, в одном полотенце и я почти всё вижу! Это просто праздник какой-то! Ну-ка, что там у неё...</i>|<i>Ich kann es nicht glauben! Mom ist nichts weiter als ein Handtuch und ich kann fast alles sehen! Das ist ein Wunder! Ich möchte einen Blick darauf werfen....</i>
+		max.imp=0&mom.m.7.step.6a^				<i>заглянуть под полотенце</i>|<i>schau unter das Handtuch</i>
+		max.imp=1&mom.m.7.step.6b^				<i>заглянуть под полотенце</i>|<i>schau unter das Handtuch</i>
+
+	mom.m.7.step.6a@62@n-mm-3-2@Макс! Ну я же тебя просила не заглядывать под полотенце! Как тебе не стыдно! Всё, на сегодня массаж окончен! Ещё и перевозбудился опять...|Max! Ich habe dir gesagt, du sollst nicht unter das Handtuch schauen! Wie konntest du das tun? Das war's, die Massage ist vorbei! Und du bist wieder hart....
+		mom.m.7.step.7^							Я не заглядывал!|Ich habe nicht geguckt!
+
+	mom.m.7.step.6b@62@n-mm-3-1@Макс! Ну я же тебя просила не заглядывать под полотенце! Как тебе не стыдно! Всё, на сегодня массаж окончен!|Max! Ich habe dir gesagt, du sollst nicht unter das Handtuch schauen! Wie konntest du das tun? Das war's, die Massage ist vorbei!
+		mom.m.7.step.7^							Я не заглядывал!|Ich habe nicht geguckt!
+
+	mom.m.7.step.7@72@А мне вот показалось, что очень даже заглядывал...|Da bin ich mir ziemlich sicher.
+		mom.m.7.step.8^							Если ты сама всё скрываешь, конечно мне будет интересно! Ты же сама говорила!|Hast du nicht gesagt, dass du wirklich alles zeigen willst? Wenn du alles unter dem Handtuch versteckst, werde ich natürlich neugierig sein!
+
+	mom.m.7.step.8@69@Хм... Ладно. Кажется, ты прав. Ну что, увидел меня голой? Доволен? Это как-то поможет тебе больше не думать всякое такое?|Hmmm.... Gut, vielleicht hast du Recht. Also, hast du mich nackt gesehen? Wird es dir helfen, nicht ständig an alles Mögliche zu denken?
+		mom.m.7.step.9^							К-конечно!|Na-Natürlich!
+
+	mom.m.7.step.9@67@Ну, хорошо. На сегодня, думаю, мы закончили. Спасибо за массаж. И... извини меня, я по привычке так реагирую. Не хотела тебя задеть...|Nun, okay. Ich denke, das reicht für heute. Danke für die Massage. Und.... Es tut mir leid für meine übliche Reaktion, ich wollte dir nicht wehtun....
+		mom.m.7.step.10^						Да всё в порядке, мам! Кстати, отлично выглядишь!|Alles in Ordnung, Mom! Du bist übrigens wunderschön!
+
+	mom.m.7.step.10@75@Отлично. Я рада, что мы разобрались... И спасибо тебе за комплимент. Не представляю что подумал бы тот, кто нас увидел бы вот так...|Okay. Ich bin froh, dass wir das alles hinter uns lassen können.... Und danke für das Kompliment. Ich kann mir nicht vorstellen, was die Leute denken würden, wenn sie uns jetzt sehen würden....
+		leave!set_momas_8!set_dcd.momas_1!time^			Хорошо, что нас никто не видит...|Es ist gut, dass uns dann niemand sehen kann.
+
+
+
+# --- 0.4: Основной периодический эвент с массажем|Hauptperiodische Massage
+
+	mom.m.8.step.2@75@n-rest-2@Жду не дождусь, Макс!|Ich kann es kaum erwarten, Max!
+		mom.m.8.step.3^			Тогда не будем терять время|Dann lass uns keine Zeit verschwenden.
+
+	mom.m.8.step.3@67@Ты прав. На всякий случай сразу говорю, что я трусики не надела после душа, так что...|Du hast Recht. Wie immer trage ich kein Höschen, also....
+		mom.m.8.step.4^			Без проблем!|Kein Problem!
+
+	mom.m.8.step.4@4@n-mm-1-2@<i>Кажется, мне любой массажист позавидовал бы... Только подумать! Голая мама не стесняется своего сына... А ведь я ещё и потрогать всё могу... И не только могу, но и должен!</i>|<i>Jede Masseuse wäre gerne an meiner Stelle.... Denk einfach darüber nach! Nackte Mutter schämt sich nicht für ihren Sohn.... Und ich kann sie anfassen! Und das tue ich!</i>
+		max.imp=0&mom.m.8.s.1^				Ложись на живот...|Leg dich auf den Bauch.
+		max.imp=1&mom.m.8.i.1^				Ложись на живот...|Leg dich auf den Bauch.
+
+	mom.m.8.i.1@6@n-mms-2b@<i>Блин... Полностью голая мама! Это ж то, о чём я мечтал... Вот только почему меня это не возбуждает? Фигня какая-то...</i>|<i>Meine Mutter ist völlig nackt! Das ist alles, wovon ich geträumt habe.... Warum bin ich dann nicht hart? Das ist Blödsinn....</i>
+		mom.m.8.i.2^						<i>закончить</i>|<i>beenden</i>
+
+	mom.m.8.i.2@75@n-mm-3-1@Спасибо тебе, Макс! Массаж был просто чудесный! О. Я смотрю, совет Киры действует... Ты ни капли не возбуждён, несмотря на то, что я перед тобой абсолютно голая! Отличный прогресс!|Danke, Max. Das ist wunderbar! Sieht so aus, als ob Kiras Ratschlag funktioniert. Obwohl ich ganz nackt vor dir stehe, bist du gar nicht aufgeregt! Das ist ein großer Fortschritt!
+		mom.m.8.i.3^						Да, видимо...|Ich schätze....
+
+	mom.m.8.i.3@67@Ну, я рада. Ещё раз спасибо тебе большое за твой массаж. Буду ждать следующего раза!|Nun, ich bin froh. Nochmals vielen Dank für deine Massage, ich warte auf das nächsten Mal!
+		leave!set_dcd.momas_1^				Не за что!|Gern geschehen
+
+	mom.m.8.s.1@3@n-mms-3b@<i>О да... Киска моей мамы... Интересно, если я к ней прикоснусь как бы случайно, мне влетит? Или... Не, не стоит. Но я могу попробовать помассировать её аппетитную попку!</i>|<i>Oh, ja.... Moms Muschi.... Ich frage mich, ob ich ihn "zufällig" anfassen werde, werde ich in Schwierigkeiten sein....? Ich sollte es nicht riskieren. Aber ich kann ihren saftigen Arsch massieren!</i>
+		mom.m.8.s.2^						<i>массировать попку</i>|<i>massiere Mom's Arsch</i>
+
+	mom.m.8.s.2@73@n-mms-1b@Макс, ты там не слишком увлёкся? Спина немножко выше...|Hast du etwas vergessen, Max? Mein Rücken ist etwas höher....
+		mom.m.8.s.3^						Это тоже часть позвоночника...|Hier ist auch ein Teil deines Rückens....
+
+	mom.m.8.s.3@72@Хорошо... Но смотри - сделаешь что-то не то, это будет последний массаж, который ты для меня делаешь... Не мог бы ты вернуться снова к спинке?|Okay.... Aber denke daran: Eine falsche Bewegung und es wird die letzte Massage sein, die Du mir geben hast. Könntest du bitte zu meinem Rücken zurückkehren?
+		mom.m.8.s.4^						Конечно, конечно...|Sicher
+
+	mom.m.8.s.4@75@n-mms-3b@Да, молодец, Макс... Мне очень нравится то что ты делаешь и как ты это делаешь... Тебе определённо нужно идти работать массажистом куда-нибудь. И польза и такой талант раскроешь людям...|Du machst das toll, Max, es macht mir wirklich Spaß, was du tust.... Du solltest deinen Lebensunterhalt als Masseur verdienen. Du solltest dein Talent mit anderen teilen....
+		can.momhj=0&mom.m.8.s.5^			Всё это только для тебя!|Es ist alles nur für dich!
+		can.momhj>0&momhj=0&05.mmas.0^		Всё это только для тебя!|Es ist alles nur für dich!
+		can.momhj>0&momhj>0&05.mmas2.0^	Всё это только для тебя!|Es ist alles nur für dich!
+
+	mom.m.8.s.5@68@n-mm-3-2@Спасибо, конечно... Ну, я думаю хватит... Ой, Макс... Ты опять?|Danke, Max.... Nun, ich denke, das reicht für heute.... Oh, Max.... Schon wieder?
+		mom.m.8.s.6^						Гормоны, помнишь?|Hormone, weißt du noch?
+
+	mom.m.8.s.6@62@Да про них забудешь тут... Ладно. Ещё раз спасибо. Мне очень понравилось... И прикройся, а то... Ой, да и мне самой тоже не помешает что-то накинуть...|Wie konnte ich vergessen, dass diese Erinnerung die ganze Zeit auftauchte.... Gut, danke nochmal, es hat mir sehr gut gefallen.... Bedecken dich, bitte. Und ich sollte auch etwas anziehen....
+		leave!add_mom.mood_100!set_dcd.momas_1!time^			Ага...|Ja
+
+
+
+# --- 0.4: Разговор с мамой насчёт стояка Макса во время массажа|Gespräch über einen Massageständer
+
+	mom.talkaboutmomas.init@0@Мам, я хотел извиниться за массаж...|Ich wollte mich für die Massage entschuldigen....
+	mom.talkaboutmomas@62@Макс, давай не будем об этом...|Lass uns einfach nicht darüber reden, Max.
+		momtalk.momas=0&mom.talkaboutmomas.1.step.2^						Просто, я...|Es ist nur, ich....
+		momtalk.momas>0&momtalk.momas<4&mom.talkaboutmomas.2.step.2^		Я не смог ничего поделать...|Es gab nichts, was ich tun konnte....
+		momtalk.momas=4&mom.talkaboutmomas.3.step.2^						Но...|Aber...
+
+
+
+# --- 0.4: Первый разговор после массажа, у Макса стояк|Erstes Gespräch nach der Massage, Max hat einen Ständer.
+
+	mom.talkaboutmomas.1.step.2@60@Макс, я думаю, что тебе не следует больше делать массаж. Я практически голая перед своим сыном - это очень неправильно!|Ich denke nicht, dass du eine Massage machen solltest, Max. Ich bin praktisch nackt vor meinem Sohn, das ist sehr falsch!
+		mom.talkaboutmomas.1.step.3^		Да тут дело не в тебе...|Es ist nicht deine Schuld....
+
+	mom.talkaboutmomas.1.step.3@62@Не во мне? Значит, в тебе? И что мы будем с этим делать? Закроем глаза на то, что мой сын возбуждается при виде своей мамы?|Heißt das, es ist deine Schuld? Was sollen wir dann tun? Ich kann nicht einfach ignorieren, dass du hart wirst, nachdem du mich gesehen hast.
+		mom.talkaboutmomas.1.step.4^		Это гормоны!|Es sind nur Hormone!
+
+	mom.talkaboutmomas.1.step.4@60@Допустим. Но что это меняет? Нет, Макс, это всё плохая идея...|Okay. Aber das ändert nichts. Das ist eine schlechte Idee, Max....
+		mom.talkaboutmomas.1.step.5^		Ну у меня же нет девушки... И это всё как-то само...|Ich habe einfach keine Freundin, das passiert automatisch....
+
+	mom.talkaboutmomas.1.step.5@69@Понимаю тебя, Макс... Но это никак не влияет на ситуацию. Ты возбуждаешься, а я чувствую себя очень неловко...|Ich verstehe dich, Max, aber das ändert nichts an der Situation, du wirst hart und ich fühle mich peinlich....
+		mom.talkaboutmomas.1.step.6^		Да я всё время и на всё возбуждаюсь. Что, теперь ни с кем не общаться?|Ich werde die ganze Zeit hart! Was soll ich tun, mit niemandem interagieren?
+
+	mom.talkaboutmomas.1.step.6@62@Ну, хорошо. Что ты предлагаешь мне делать? Просто закрывать глаза на твой... на твоё... Кроме того, это же очень вредно, когда ты так возбуждаешься и не получаешь необходимую разрядку...|Okay, ich verstehe was du meinst. Aber was soll ich tun? Ich kann nicht einfach deine.... Und übrigens, ist es nicht schlecht für die Gesundheit? Hart werden und den Druck nicht ablassen?
+		mom.talkaboutmomas.1.step.7^		Ну, это другой вопрос...|Nun, es ist eine andere Frage....
+
+	mom.talkaboutmomas.1.step.7@60@Ты знаешь, это вопрос твоего здоровья. И если этот массаж - лишний повод для твоего перевозбуждения, то... Я не знаю, Макс...|Ich sorge mich um deine Gesundheit, Max. Wenn dich diese Massage erregt, dann ist es meine Schuld, wenn du krank wirst oder so....
+		mom.talkaboutmomas.1.step.8^		Может быть, если я привыкну, то не буду так возбуждаться...|Vielleicht gewöhne ich mich daran und höre auf, aufgeregt zu sein....
+
+	mom.talkaboutmomas.1.step.8@62@Привыкнешь видеть меня почти голой? Да уж, сомнительное лечение... Но может быть ты и прав. Ладно, убедил. Давай ещё попробуем, но если это будет повторяться, то мы прекратим это всё. Хорошо?|Das ist eine zweifelhafte Lösung, aber vielleicht hast Du recht.... Gut, du hast mich überzeugt. Versuchen wir's noch mal. Aber wenn du weiter so hart wirst, hören wir auf, okay?
+		leave!set_can.momtalk.momas_0!set_momtalk.momas_1!add_mom.mood_50^		Конечно, мам!|Sicher, Mom!
+
+
+
+# --- 0.4: Периодический разговор после массажа, у Макса стояк|Periodische Konversation nach der Massage, Max hart ist.
+
+	mom.talkaboutmomas.2.step.2@60@Макс. Я тебе уже говорила, что это всё очень неправильно. Похоже, идея насчёт того, что ты можешь привыкнуть, не работает...|Ich habe dir schon gesagt, dass das sehr falsch ist, Max. Ich glaube nicht, dass deine Idee mit der Gewöhnung funktioniert....
+		mom.talkaboutmomas.2.step.3^		Ну это же не сразу... Нужно время...|Es kann nicht einfach über Nacht passieren, ich brauche mehr Zeit....
+
+	mom.talkaboutmomas.2.step.3@62@Ну не знаю, Макс... Мне кажется, надо всё это прекратить...|Ich weiß nicht, Max, ich denke daran, das alles zu beenden....
+		random.social.2=1&mom.talkaboutmomas.2.step.4.good^		Мам, ну ещё один шанс! [skill.social_2]|Gib mir noch eine Chance, Mom! [skill.social_2]
+		random.social.2=0&mom.talkaboutmomas.2.step.4.bad^		Мам, ну ещё один шанс! [skill.social_2]|Gib mir noch eine Chance, Mom! [skill.social_2]
+
+	mom.talkaboutmomas.2.step.4.bad@60@<color=orange><i>Убеждение не удалось!</i></color>\nНет, Макс. Я ещё подумаю. Но что-то сомневаюсь, что это всё хорошая идея...|<color=orange><i>Überzeugung fehlgeschlagen!</i></color>\nNein, Max. Ich werde noch etwas nachdenken, aber ich bezweifle, dass das eine gute Idee ist....
+		leave!set_mom.talkcooldown_12^		Ну, подумай ещё...|Okay, ich gebe dir etwas Zeit....
+
+	mom.talkaboutmomas.2.step.4.good@73@<color=lime><i>Убеждение удалось!</i></color>\nНу ладно, дам тебе шанс. В конце концов, рано или поздно ты перестанешь перевозбуждаться в моём присутствии, верно?|<color=lime><i>Überzeugung erfolgreich!</i></color>\nOkay, du kannst es versuchen. Früher oder später musst du dich an mich gewöhnen, oder?
+		mom.talkaboutmomas.2.step.4.good.2^		Верно!|Richtig!
+
+	mom.talkaboutmomas.2.step.4.good.2@62@Хорошо. Тогда попробуем ещё, как будет подходящий момент...|Okay, wir versuchen es weiter, wenn die Zeit reif ist....
+		leave!set_can.momtalk.momas_0!add_momtalk.momas_1!add_mom.mood_50^		Конечно, мам!|Natürlich, Mom!
+
+
+
+# --- 0.4: Мама смиряется с тем, что у Макса стояк на неё|Ann gewöhnt sich an Max' Ständer.
+
+	mom.talkaboutmomas.3.step.2@60@Макс. Я уже общалась с Кирой по поводу этого всего... Конечно, тогда мне её идея показалась глупой, но потом я подумала ещё и...|Max, ich habe mit Kira über all das gesprochen.... Ursprünglich dachte ich, dass ihre Idee dumm ist, aber dann habe ich ihr etwas gegeben und....
+		mom.talkaboutmomas.3.step.3^		И?|Und?
+
+	mom.talkaboutmomas.3.step.3@62@Кира сказала, что мужчины считают, что нет ничего менее сексуального, чем полностью голая женщина... И возбуждает сам факт, что что-то скрыто. Сексуальная одежда и прочее...|Kira sagte, Männer denken, es gibt nichts weniger sexy als eine komplett nackte Frau. Die Sexualität kommt von etwas Verborgenem, wie sexy Kleidung und so....
+		mom.talkaboutmomas.3.step.4^		О как... Ну да, да, Кира права!|Huh.... ja-ja-ja-ja, Kira hat Recht!
+
+	mom.talkaboutmomas.3.step.4@69@Кроме того, я подумала, что не буду тебя больше ругать за твою естественную реакцию. Однако, ты должен стараться держать себя в руках. Ты меня понимаешь?|Außerdem werde ich versuchen, nicht böse zu sein, weil du noch eine natürliche Reaktion hast. Aber du solltest trotzdem versuchen, dich in Schach zu halten, verstehst du?
+		mom.talkaboutmomas.3.step.5^		Ну... да!|Oh... Ja!
+
+	mom.talkaboutmomas.3.step.5@67@Хорошо. Я рада, что мы разобрались с этим.\n\n<color=lime><i><b>Внимание:</b> Ваши отношения улучшились</i></color>|Gut. Ich bin froh, dass wir uns darum gekümmert haben.\n\n<color=lime><i><b>Achtung:</b> Eure Beziehungen haben sich verbessert</i></color>
+		leave!set_can.momtalk.momas_0!set_momas_7!add_mom.mood_100!add_mom.rep_1^			Я тоже очень рад!|Ich bin auch sehr froh!
+
+
+
+# --- 0.4: Мама с Эриком смотрят телевизор, у Эрика не стоит|Eric und Ann schauen fern, Eric kann nicht hart werden.
+
+	mom.eric.tvimp@120@Мама с Эриком смотрят эротику... Вот только сомневаюсь, что сегодня Эрику это поможет...|Eric und Mom schauen Erotik.... Ich bezweifle allerdings, dass es Eric helfen wird.
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Конец игры из-за влияния Эрика|Spiel vorbei von Eric's Einfluss
+
+	specialevent.10@60@e-momabouts-1@Макс, пришло время поговорить. Надеюсь, ты не будешь возражать и отнесёшься ко всему с пониманием...|Max, wir müssen reden. Ich hoffe, Du nimmst das ernst....
+		specialevent.10.step.2^										Блин, ну что такое?|Was jetzt?
+
+	specialevent.10.step.2@62@Я поговорила с твоими сёстрами, Кирой и большинством голосов мы приняли решение, что в твоей жизни пора кое-что изменить.|Deine Schwestern, Kira und ich hatten ein Gespräch, und die Mehrheit hat beschlossen, dass du dein Leben ändern musst.
+		specialevent.10.next.1^										Я не хочу ничего менять!|Ich will nichts ändern!
+
+	specialevent.10.next.1@62@Макс! Ты целыми днями ничего не делаешь, кроме как подглядываешь за мной и сёстрами. Это больше продолжаться не может и сегодня ты едешь в специальный военный лагерь.|Max! Du verbringst Tage damit, mich und deine Schwestern auszuspionieren. Das kann nicht so weitergehen und heute gehst du in ein spezielles Militärlager.
+		specialevent.10.next.2a^									Что? Нет, ты не можешь!|Was? Nein, kannst du nicht!
+		specialevent.10.next.2b^									Это всё Эрик!|Hat Eric dich dazu angestiftet?
+
+	specialevent.10.next.2a@63@Ещё как могу, Макс. Более того, я уже договорилась, а Эрик оплатил всё время твоего обучения в лагере.|Doch, das kann ich, Max. Außerdem habe ich schon alles arrangiert, und Eric hat für die gesamte Zeit deiner Ausbildung im Camp bezahlt.
+		specialevent.10.next.2b^									Так и знал, что в этом Эрик виноват!|Ich wusste, dass er es war!
+
+	specialevent.10.next.2b@64@Причём тут Эрик? Речь о тебе и о твоём поведении! Всё уже решено, собирай свои вещи.|Es geht nicht um Eric, es geht um dich und dein Verhalten! Alles ist schon entschieden, pack deinen Koffer.
+		last.chance=0&specialevent.10.next.last^					Мам! Дай мне последний шанс!|Mom! Gib mir eine letzte Chance!
+		last.chance=1&specialevent.10.next.try^						Мам! Дай мне последний шанс!|Mom! Gib mir eine letzte Chance!
+		last.chance>1&specialevent.10.next.end^						Мам! Дай мне последний шанс!|Mom! Gib mir eine letzte Chance!
+
+	specialevent.10.next.last@62@О каком последнем шансе может быть речь? Я тебя предупреждала, что такое поведение недопустимо. Кроме того, ты ничего не делаешь, чтобы получить образование!|Von welcher Chance redest Du? Ich habe Dich gewarnt, dass ein solches Verhalten inakzeptabel ist. Außerdem tunst Du nichts, um eine Ausbildung zu bekommen!
+		specialevent.10.next.last.me^								Значит, вот так избавишься от своего сына...|Also wirst du einfach deinen Sohn los?
+
+	specialevent.10.next.last.me@69@Макс... Но всё же решено. Хотя, если ты обещаешь исправиться, то так уж и быть, я дам тебе последний шанс...|Max.... alles ist schon arrangiert. Wenn du versprichst, gut zu sein, dann gebe ich dir eine letzte Chance....
+		specialevent.10.next.last.me.promice^						Обещаю, мам!|Ich verspreche es, Mom!
+
+	specialevent.10.next.last.me.promice@62@Ну, посмотрим на твоё поведение. Но учти, я в любой момент могу передумать. Так что, постарайся как следует.|Okay, wir sehen uns dein Verhalten an. Aber denke daran, ich kann meine Meinung jederzeit ändern. Also versuche lieber alles richtig zu machen.
+		breakfast.default!add_last.chance_1!add_mom.inf_-10!add_alisa.inf_-10!add_liza.inf_-10!add_kira.inf_-10!set_dcd.endgame_7^		Спасибо, мам!|Danke, Mom!
+
+	specialevent.10.next.try@62@Макс! Ты издеваешься? Я тебе уже давала последний шанс и ты обещал, что возьмёшься за ум и что-то сделаешь!|Max! Machst du Witze? Ich habe dir bereits deine letzte Chance gegeben und du hast es versaut!
+		specialevent.10.next.try.eric^								Это всё Эрик тебя настраивает против меня!|Das ist Eric, der dich gegen mich aufbringt!
+		random.luck.50=1&specialevent.10.next.try.ok^				Ну мам, ну самый самый самый последний шанс... [skill.luck_50]|Mom, bitte, gib mir noch eine Chance.... [skill.luck_50]
+		random.luck.50=0&specialevent.10.next.try.no^				Ну мам, ну самый самый самый последний шанс... [skill.luck_50]|Mom, bitte, gib mir noch eine Chance.... [skill.luck_50]
+
+	specialevent.10.next.try.eric@63@Всё, Макс. Не хочу ничего больше об этом слышать. Идти собирай свои вещи. На этом всё!|Nein, Max. Ich will es nicht hören. Geh und pack deine Sachen. Dieses Gespräch ist beendet!
+		endgame.1^													Ну мам...|Aber määähhh....!
+
+	specialevent.10.next.try.ok@73@<color=lime><i>Сегодня вам повезло!</i></color>\nТы знаешь, Макс... Я могу допустить, что против тебя просто так всё сложилось и ты не виноват, однако, очень в этом сомневаюсь. Но самый самый последний шанс, всё-таки, тебе дам...|<color=lime><i>Du hast Glück heute!</i></color>\n Weißt du, Max.... Es besteht die Möglichkeit, dass alles nur ein paar schlechte Entscheidungen getroffen hat, und es ist nicht deine Schuld. Aber ich gebe dir die allerletzte Chance....
+		breakfast.default!add_last.chance_1!add_mom.inf_-10!add_alisa.inf_-10!add_liza.inf_-10!add_kira.inf_-10!set_dcd.endgame_7^		Спасибо, мам!|Danke, Mom!
+
+	specialevent.10.next.try.no@64@<color=orange><i>Удача отвернулась от вас...</i></color>\nВсё, Макс. Никаких вторых последних шансов. Хватит с меня. Иди собирай свои вещи. На этом всё.|<color=orange><i>Das Glück hat dich verlassen....</i></color>\nNein, Max. Keine letzten Chancen mehr für dich. Ich habe es satt. Geh und pack deine Sachen. Dieses Gespräch ist beendet.
+		endgame.1^													Ну мам...|Aber määähhh....!
+
+	specialevent.10.next.end@64@Макс! Ты издеваешься? Я тебе уже давала последний шанс и ты обещал, что возьмёшься за ум и что-то сделаешь! Всё. На этот раз точно всё. Иди собирай вещи.|Willst du mich verarschen, Max? Ich habe dir schon die letzte Chance gegeben, als du versprochen hast, dass du zur Vernunft kommst und etwas tust! Diesmal ist es vorbei. Geh und pack deine Sachen.
+		endgame.1^													Ну мам...|Aber määähhh....!
+
+	endgame.1@2@e-endgame-1@Вот так и закончилась моя история. Конечно, если бы не Эрик, всё было бы хорошо, но этот гад... Теперь ему ничто не помешает сделать с моей семьёй всё, что он задумал... Вот если бы я мог вернуться в прошлое...|Und das ist das Ende meiner Geschichte. Dieser verdammte Eric hat mir alles ruiniert. Jetzt kann er mit meiner Familie machen, was er will, und nichts steht ihm im Weg. Wenn ich nur zurückgehen könnte....
+		loadlastsave^												<i>вернуться в прошлое</i>|<i>in die Vergangenheit zurückgehen</i>

@@ -1,0 +1,1568 @@
+# --- Алиса спит|Alice schläft.
+
+	alisa.sleep@121@Кажется, Алиса спит. Стучать в дверь точно не стоит.\nДа и входить опасно для здоровья...|Sieht aus, als ob Alice schläft. Ich denke nicht, dass ich klopfen sollte.\nEs scheint auch keine gute Idee zu sein.
+		spc.bustederic=0&alisa.sleep.voyeur^								<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		spc.bustederic=1&alisa.beric^										<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		leave!lock^															<i>уйти</i>|<i>verlassen</i>
+
+	alisa.sleep.voyeur@120@e-alisa-sleep-1@Какая интересная поза... Кажется, она спит при свете включенного ноутбука. Да, хороша сестрёнка!|Das ist eine interessante Position.... Ich glaube, sie ist eingeschlafen, mit eingeschaltetem Notebook. Gott, sie ist heiß!
+		leave!lock^															<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Мама спит|Ann schläft.
+
+	mom.sleep@121@В это время мама обычно спит.\nМне кажется, не стоит её будить...|Mom schläft normalerweise um diese Zeit.\nIch sollte sie nicht aufwecken....
+		Moms=0&mom.sleep.voyeur^											<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		Moms=1&dcd.Moms=0&09.bf.0^											<i>вой?и в комнату</i>|<i>das Zimmer betreten</i>
+		Moms=2&dcd.Moms=0&09.bg.0^											<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		Moms=3&dcd.Moms=0&09.bh.0^											<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		Moms=4&dcd.Moms=0&09.bi.0^											<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		Moms=5&msh<6&dcd.Moms=0&09.bj.0^									<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		Moms=5&msh>5&dcd.Moms=0&random.luck.50=0&09.bj.0^					<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		Moms=5&msh>5&dcd.Moms=0&random.luck.50=1&09.bl.0^					<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		leave!lock^															<i>уйти</i>|<i>verlassen</i>
+
+	mom.sleep.voyeur@120@z-Mom-sleep-1@Какая попка! Всё-таки хорошо, что здесь так жарко и все спят не укрываясь...|Was für ein Arsch! Es ist gut, dass wir in einem warmen Klima leben....
+		leave!lock^															<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Мама в душе, 6:00|Ann ist unter der Dusche., 6:00
+
+	mom.shower@121@Похоже, мама принимает душ...|Sieht aus, als würde Mom duschen....
+		random.dex.3=1&count.mom.hj=0&mom.shower.voyeur.ok^						<i>заглянуть с ?лицы</i> [skill.dex_3]|<i>von außen spionieren</i>  [skill.dex_3]
+		random.dex.3=0&count.mom.hj=0&mom.shower.voyeur.busted^					<i>заглянуть с улицы</i> [skill.dex_3]|<i>von außen spionieren</i> [skill.dex_3]
+		count.mom.hj>0&05.sho.0^												<i>заглянуть с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^																<i>уйти</i>|<i>verlassen</i>
+
+	mom.shower.voyeur.ok@120@e-Mom-shower-1@<color=lime><i>Удалось незаметно подкрасться!</i></color>\nУх, аж завораживает! Хоть бы меня не заметила...|<color=lime><i>Schleichversuch gelungen!</i></color>\n Wow, sie ist faszinierend!  Ich sollte mich jetzt wirklich nicht schnappen lassen.
+		leave!lock^																<i>уйти</i>|<i>verlassen</i>
+
+	mom.shower.voyeur.busted@68@e-Mom-seeyou-1@<color=orange><i>Не удалось подкрасться незаметно!</i></color>\nЧто?! Кто там за углом?\n\n<i>Упс... надо бежать</i>|<color=orange><i>Schleichversuch misslungen!</i></color>\nWer ist da?\n\n<i>Oops.... Ich sollte laufen</i>
+		random.dex.2=1&leave!lock^												<i>бежать!</i> [skill.dex_2]|<i>Lauf!</i> [skill.dex_2]
+		random.dex.2=0&mom.shower.voyeur.busted.bad^							<i>бежать!</i> [skill.dex_2]|<i>Lauf!</i> [skill.dex_2]
+
+	mom.shower.voyeur.busted.bad@64@e-Mom-busted-1@<color=orange><i>Побег не удался!</i></color>\nМакс! Подглядываешь за мной? Как тебе не стыдно?!|<color=orange><i>Flucht fehlgeschlagen!</i></color>\nMax! Hast du mir nachspioniert?
+		random.social.3=1&mom.shower.voyeur.more.busted.denied.ok^				Я не подглядывал. Это случайность!  [skill.social_3]|Ich habe nicht spioniert, es war ein Missgeschick! [skill.social_3]
+		random.social.3=0&mom.shower.voyeur.more.busted.denied.bad^				Я не подглядывал. Это случайность!  [skill.social_3]|Ich habe nicht spioniert, es war ein Missgeschick! [skill.social_3]
+		Momas>6&mom.shower.voyeur.more.busted.can^								Ты голая, когда я делаю тебе массаж, а сейчас стесняешься?|Du bist nackt, wenn ich dir eine Massage gebe, warum schämst du dich jetzt?
+		eric.voy.stage>5&mom.shower.voyeur.more.busted.can^						Можно смотреть, как тебя трахает Эрик, но нельзя смореть на тебя в душе?|Damit ich dir beim Sex mit Eric zusehen kann, aber nicht beim Duschen?
+		mom.shower.voyeur.more.busted.sorry^									Мам, извини...|Es tut mir leid, Mom....
+		mom.shower.voyeur.more.busted.goodass^									Задница у тебя - что надо!|Du hast einen tollen Arsch!
+
+	mom.shower.voyeur.more.busted.can@69@Макс... я. Не знаю что тебе сказать. Хорошо, я не буду тебя наказывать, но пожалуйста, уйди в этот раз. Хорошо?|Max, ich.... Ich weiß nicht, was ich dir sagen soll. Ich werde dich nicht bestrafen, aber bitte geh diesmal weg, okay?
+		leave!lock^																Хорошо...|Schön
+
+	mom.shower.voyeur.more.busted.denied.ok@62@<color=lime><i>Убеждение удалось!</i></color>\nСлучайность, говоришь? Ну ладно, поверю. А теперь бегом отсюда!|<color=lime><i>Die Überredung hat funktioniert!</i></color>\nNur ein Zufall? Schön, ich glaube dir. Und jetzt raus hier!
+		leave!lock^																Ага, хорошо, мам!|Okay, Mom
+
+	mom.shower.voyeur.more.busted.denied.bad@63@<color=orange><i>Убеждение не удалось!</i></color>\nСлучайно пробрался сюда, спрятался и глазеешь тут? Случайно?! А ну-ка марш отсюда! Перед завтраком поговорим!|<color=orange><i>Die Überredung hat nicht funktioniert!</i></color>\nDu hast dich also "versehentlich" eingeschlichen, dich versteckt und mich angestarrt? Geh auf dein Zimmer! Wir reden vor dem Frühstück!
+		leave!set_max.pun_1!set_max.punreason_2!lock^			Хорошо...|Schön
+
+	mom.shower.voyeur.more.busted.sorry@62@Что, думаешь извинился и всё, можно снова подглядывать? Нет, Макс. В этот раз всё так просто не пройдёт. Сейчас иди отсюда, а перед завтраком поговорим!|Denkst du, wenn du dich entschuldigst, kannst du spionieren, so viel du willst? Nein, Max. Diesmal werde ich nicht nachsichtig mit dir sein. Jetzt geh weg, wir reden vor dem Frühstück!
+		leave!set_max.pun_1!set_max.punreason_2!lock^							Хорошо...|Schön
+
+	mom.shower.voyeur.more.busted.goodass@68@Что?! Ну всё, Макс, ты попал! Быстро вернулся в дом, а перед завтарком поговорим ещё на эту тему!|Was?! Du bist in Schwierigkeiten, Max! Geh sofort auf dein Zimmer, wir reden vor dem Frühstück!
+		leave!set_max.pun_1!set_max.punreason_2!lock^			Хорошо...|Schön
+
+
+
+# --- Лиза в душе, 7:00|Lisa ist unter der Dusche., 7:00
+
+	liza.shower@121@Кажется, Лиза что-то делает в ванной...|Sieht aus, als wäre Lisa im Bad....
+		liza.shower.knock^																	<i>посту?аться</i>|<i>anklopfen</i>
+		poss.sed<31&mom.athome=1&random.dex.3=1&liza.shower.voyeur.ok^						<i>подглядывать с улицы</i> [skill.dex_3]|<i>von außen spionieren</i> [skill.dex_3]
+		poss.sed<31&mom.athome=1&random.dex.3=0&liza.shower.voyeur.bad^						<i>подглядывать с улицы</i> [skill.dex_3]|<i>von außen spionieren</i> [skill.dex_3]
+		poss.sed<31&mom.athome=0&liza.shower.voyeur.safe^									<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		poss.sed>30&06.limom.0^																<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^																			<i>уйти</i>|<i>verlassen</i>
+
+	liza.shower.knock@121@<b>Лиза:</b> Кто там? Я ещё не закончила. Подождите немного...|<b>Lisa:</b> Wer ist da? Ich bin noch nicht fertig. Warte ein bisschen.
+		liza.shower.knock.me^																Это я, Макс!|Ich bin's, Max!
+		leave!lock^																			<i>уйти</i>|<i>verlassen</i>
+
+	liza.shower.knock.me@121@<b>Лиза:</b> Макс, чего хотел? Я же говорю, скоро выйду!|<b>Lisа:</b> Was willst du, Max? Ich bin bald fertig!
+		poss.sed<32&liza.shower.knock.me.need^												Можно я войду? Мне очень нужно...|Kann ich reinkommen? Ich muss wirklich gehen....
+		poss.sed>31&06.limir.0^																Можно я войду? Мне очень нужно...|Kann ich reinkommen? Ich muss wirklich gehen....
+		leave!lock^																			Хорошо, я подожду|Okay, ich werde warten.
+
+	liza.shower.knock.me.need@121@<b>Лиза:</b> Нет, Макс. Жди за дверью. Я скоро!|<b>Lisа:</b> Nein, Max. Warte, ich bin fast fertig!
+		leave!lock^																			Ладно, ладно...|Schön, Schön
+
+	liza.shower.voyeur.safe@120@e-liza-shower-1@Кажется, Лиза приводит себя в порядок. Отсюда даже сиськи немного видно! Хорошо, что мамы нет дома, а то она бы меня точно поймала!|Sieht aus, als würde sich Lisa frisch machen. Ich kann sogar ihre Titten sehen! Gut, dass Mama nicht zu Hause ist, sonst hätte sie mich bestimmt erwischt!
+		leave!lock^																			<i>уйти</i>|<i>verlassen</i>
+
+	liza.shower.voyeur.ok@120@e-liza-shower-1@<color=lime><i>Удалось незаметно подкрасться!</i></color>\nОх, повезло! Похоже, Лиза приводит себя в порядок... Даже видно кое-что. Но плохо... Эх... Ладно, в другой раз больше повезёт...|<color=lime><i>Schleichversuch gelungen!</i></color>\nIch habe Glück! Sieht so aus, als ob Lisa sich frisch macht.... Ich kann sogar etwas Interessantes sehen. Kaum.... Vielleicht habe ich nächstes Mal mehr Glück....
+		leave!lock^																			<i>уйти</i>|<i>verlassen</i>
+
+	liza.shower.voyeur.bad@64@e-Mom-busted-3@<color=orange><i>Не удалось подкрасться незаметно!</i></color>\nМакс! Это что такое? За Лизой подглядыв?ешь?!|<color=orange><i>Schleichversuch misslungen!</i></color>\nMax! Spionierst du Lisa aus?!
+		random.social.4=1&liza.shower.voyeur.bad.lie^										Нет, я подышать вышел... [skill.social_4]|Nein, ich ging nur raus, um etwas frische Luft zu schnappen.... [skill.social_4]
+		random.social.4=0&liza.shower.voyeur.bad.bad^										Нет, я подышать вышел... [skill.social_4]|Nein, ich ging nur raus, um etwas frische Luft zu schnappen.... [skill.social_4]
+		liza.shower.voyeur.bad.sorry^														Извини, я почти ничего не видел!|Tut mir leid, ich habe nichts gesehen!
+
+	liza.shower.voyeur.bad.sorry@62@Ничего не видел? Что-то не похоже, судя по твоим штанам... Значит так: сейчас идёшь отсюда, а перед завтраком это обсудим!|Du hast nichts gesehen? Nach dem Zelt in deiner Hose zu urteilen, hast du viel gesehen. Geh auf dein Zimmer, wir besprechen das vor dem Frühstück.
+		leave!set_max.pun_1!set_max.punreason_0!lock^						Ладно, мам...|Okay, Mom...
+
+	liza.shower.voyeur.bad.lie@62@<color=lime><i>Убеждение удалось!</i></color>\nПодышать, значит? Ну ладно, похоже на то. Но сейчас давай иди отсюда, пока Лиза тебя не заметила. И я сделаю вид, что тебя тут не было.|<color=lime><i>Die Überredung hat funktioniert!</i></color>\nOkay, aber geh woanders Luft schnappen, bevor Lisa dich bemerkt hat. Ich werde so tun, als ob du nicht hier wärst.
+		leave!lock^																			Хорошо, мам!|Okay, Mom
+
+	liza.shower.voyeur.bad.bad@62@<color=orange><i>Убеждение не удалось!</i></color>\nПодышать? Ты серьёзно? Не смог придумать ничего лучше? Я же вижу, что у тебя в штанах тесно. Подышать он вышел... Бегом отсюда, а перед заврако? поговорим!|<color=orange><i>Die Überredung hat nicht funktioniert!</i></color>\nErnsthaft? Fällt Dir nichts Besseres ein? Ich kann die Beule in deiner Hose sehen. Er kam heraus, um Luft zu schnappen.... Raus hier und wir reden vor dem Frühstück!
+		leave!set_max.pun_1!set_max.punreason_0!lock^						Я всё понял...|Ich weiß es....
+
+
+
+# --- Алиса в душе, 8:00|Alice ist unter der Dusche, 8:00
+
+	alisa.shower@121@Похоже, Алиса сейчас принимает душ...|Alice nimmt eine Dusche....
+		alisa.shower.knock^																		<i>постучаться</i>|<i>anklopfen</i>
+		alisa.shower.opendoor.fast^																<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		mom.athome=1&random.dex.3=1&alisa.shower.voyeur^										<i>подглядывать с улицы</i>  [skill.dex_3]|<i>von außen spionieren</i> [skill.dex_3]
+		mom.athome=1&random.dex.3=0&alisa.shower.Mombusted^										<i>подглядывать с улицы</i>  [skill.dex_3]|<i>von außen spionieren</i> [skill.dex_3]
+		mom.athome=0&alisa.shower.voyeur.noMom^													<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^																				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.shower.knock@121@<b>Алиса:</b> Кто там? Занято. Подождите немного...|<b>Alice:</b>Wer ist da? Ich bin unter der Dusche, warte eine Weile....
+		alisa.shower.knock.max^																	Это я, Макс!|Ich bin's, Max!
+		alisa.shower.opendoor.soft^																<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^																				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.shower.knock.max@121@<b>Алиса:</b> Макс! Я же сказала, что занято. Жди за дверью!|<b>Alice:</b> Max, ich sagte doch, ich bin unter der Dusche. Warte im Flur!
+		leave!lock^																				Хорошо, хорошо...|Okay, okay...
+
+	alisa.shower.Mombusted@62@e-Mom-busted-2@<color=orange><i>Не удалось подкрасться незаметно!</i></color>\nЭто кто это тут у нас? Макс, ты совсем страх потерял? За своей сестрой подглядываешь?!|<color=orange><i>Schleichversuch misslungen!</i></color>\nMax, hast du all deine Angst verloren? Hast du deiner Schwester nachspioniert?!
+		random.social.4=1&alisa.shower.Mombusted.try.ok^										Я просто думал, что кто-то забыл выключить воду! [skill.social_4]|Ich dachte nur, dass jemand vergessen hat, das Wasser abzustellen! [skill.social_4]
+		random.social.4=0&alisa.shower.Mombusted.try.bad^										Я просто думал, что кто-то забыл выключить воду! [skill.social_4]|Ich dachte nur, dass jemand vergessen hat, das Wasser abzustellen! [skill.social_4]
+
+	alisa.shower.Mombusted.try.ok@68@<color=lime><i>Убеждение удалось!</i></color>\nОго, какой ты у нас ответственный! Ну ладно, поверю в этот раз. Давай бегом отсюда, пока тебя Алиса не заметила, а то сам с ней разбираться будешь.|<color=lime><i>Die Überredung hat funktioniert!</i></color>\nWow, du bist so verantwortungsbewusst! Diesmal glaube ich dir. Du solltest gehen, bevor Alice dich bemerkt hat.
+		leave!lock^																				Конечн?, мам!|Sicher, Mom
+	alisa.shower.Mombusted.try.bad@63@<color=orange><i>Убеждение не удалось!</i></color>\nМакс! Ты совсем меня за дуру держишь? По твоим штанам видно, что ты не за водой следил! Бегом отсюда! А перед завтраком ещё это обсудим!|<color=orange><i>Die Überredung hat nicht funktioniert!</i></color>\nMax! Hältst du mich für dumm? Deine Hose sieht nicht so aus, als hättest du auf Wasser geschaut! Verschwinden Sie von hier. Und vor dem Frühstück reden wir darüber!
+		leave!set_max.pun_1!set_max.punreason_1!lock^							Хорошо, мам...|Okay, Mom...
+
+	alisa.shower.voyeur.noMom@120@Ого... Голая Алиса всего в паре метров от меня! Вот это повезло... Если бы мама была дома, точно меня заметила бы. А если заметит сейчас Алиса - я труп. Так что, пора уходить...|Wow.... Die nackte Alice ist nur ein paar Meter von mir entfernt! Ich bin so glücklich. Wäre meine Mutter zu Hause, wäre ich auf jeden Fall geschnappt worden. Und Alice wird mich umbringen, wenn sie mich sieht....
+		item.spider=-5&alisa.shower.voyeur.spider!set_item.spider_-1!set_dcd.canfindspider_2^	<i>бросить паука</i>|<i>eine Spinne werfen</i>
+		leave!lock^																				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.shower.voyeur@120@e-alisa-shower-1@<color=lime><i>Удалось незаметно подкрасться!</i></color>\nОго... Голая Алиса всего в паре метров от меня! Вот это повезло... Но испытывать судьбу не стоит. Если поймает, убьёт на месте!|<color=lime><i>Schleichversuch gelungen!</i></color>\nWow, nackte Alice nur ein paar Meter von mir entfernt! Das ist sehr glücklich, aber ich sollte mein Schicksal nicht herausfordern, sie wird mich töten, wenn ich erwischt werde.
+		item.spider=-5&alisa.shower.voyeur.spider!set_item.spider_-1!set_dcd.canfindspider_2^	<i>бросить паука</i>|<i>eine Spinne werfen</i>
+		leave!lock^																				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.shower.opendoor.fast@28@e-alisa-bathroom-1@Макс! Ты охренел?! Стучаться надо! Быстро закрой дверь!|Max! Bist du verrückt?! Klopfe nächstes Mal an! Schließe sofort die Tür!
+		leave!lock^									<i>очень быстро закрыть дверь</i>|<i>die Tür sofort schließen</i>
+
+	alisa.shower.opendoor.soft@28@e-alisa-bathroom-2@Макс! Какого чёрта?! Я же сказала, что занято! Закрой дверь. Быстро!|Max, was zum Teufel?! Ich sagte doch, das Bad ist besetzt! Schließe sofort die Tür!
+		leave!lock^									<i>быстро закрыть дверь</i>|<i>die Tür sofort schließen</i>
+
+	alisa.shower.voyeur.spider@34@e-alisa-spider-bath-1@А? Что это? Паук? А-а-а-а!!!|A? Was ist das denn? Spinne? A-a-a-a-a-a!!!!
+		random.dex.2=1&alisa.shower.voyeur.spider.hide^												<i>спрятаться</i> [skill.dex_2]|<i>verstecken</i> [skill.dex_2]
+		random.dex.2=0&alisa.shower.voyeur.spider.busted^											<i>спрятаться</i> [skill.dex_2]|<i>verstecken</i> [skill.dex_2]
+
+	alisa.shower.voyeur.spider.hide@23@e-alisa-spider-bath-2@<color=lime><i>Вам удалось скрыться!</i></color>\nЗдесь кто-то есть? Видимо, показалось... И что теперь с этим пауком делать... Может быть, уползёт...|<color=lime><i>Schleichversuch gelungen!</i></color>\nIst jemand hier? Ich schätze nicht.... Was könnte ich mit dieser Spinne machen? Vielleicht kriecht sie ja weg....
+		leave!lock^																					<i>уйти</i>|<i>verlassen</i>
+
+	alisa.shower.voyeur.spider.busted@24@e-alisa-spider-bath-2@<color=orange><i>Скрыться не удалось!</i></color>\nМакс?! Это ты сделал?! Ну всё, тебе конец!|<color=orange><i>Schleichversuch misslungen!</i></color>\nMax?! Hast du das getan?! Du bist ein toter Mann!
+		random.social.3=1&alisa.shower.voyeur.spider.busted.walk^									Да я мимо шёл... [skill.social_3]|Ich kam gerade vorbei.... [skill.social_3]
+		random.social.3=0&alisa.shower.voyeur.spider.busted.bad^									Да я мимо шёл... [skill.social_3]|Ich kam gerade vorbei.... [skill.social_3]
+
+	alisa.shower.voyeur.spider.busted.walk@28@<color=lime><i>Убеждение удалось!</i></color>\nНу ладно, если так. Он же уполз, да? И перестань на меня пялиться! Бегом отсюда! Знаешь же, что я в это время душ принимаю.|<color=lime><i>Die Überredung hat funktioniert!</i></color>\nNun, okay. Ist er weg? Hör auf mich anzustarren und verschwinde! Du weißt, dass ich um diese Zeit immer dusche.
+		leave!lock^																					<i>уйти</i>|<i>verlassen</i>
+
+	alisa.shower.voyeur.spider.busted.bad@27@<color=orange><i>Убеждение не удалось!</i></color>\nМакс! Ты труп! Твоё счастье, что я сейчас голая. Но ничего, я маме всё расскажу, она тебя накажет!|<color=orange><i>Die Überredung hat nicht funktioniert!</i></color>\nDu hast Glück, dass ich nackt bin, sonst wärst du schon tot! Ich sage es Mom und sie wird dich bestrafen!
+		leave!add_alisa.mood_-100!set_max.punreason_4!set_max.pun_1!lock^							<i>бежать!</i>|<i>Lauf!</i>
+
+
+# --- Лиза собирается в школу, 10:00|Lisa bereitet sich auf die Schule vor, 10:00
+
+	liza.pschool@121@<i>Похоже, Лиза собирается в школу...</i>|<i>Sieht so aus, als ob Lisa sich für die Schule fertig macht....</i>
+		lenter=0&nopants.liza.school=0&liza.pschool.knock^					<i>постучаться</i>|<i>anklopfen</i>
+		lenter=0&nopants.liza.school>0&poss.sed>20&liza.pschool.knock.naked^	<i>постучаться</i>|<i>anklopfen</i>
+		lenter=0&nopants.liza.school>0&poss.sed<21&liza.pschool.knock.spec^	<i>постучаться</i>|<i>anklopfen</i>
+
+		lenter=0&nopants.liza.school=0&liza.pschool.open!add_liza.mood_-50^	<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		lenter=0&nopants.liza.school>0&liza.pschool.open.naked^				<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		lenter=0&nopants.liza.school=0&liza.pschool.voyeur^					<i>заглянут? в окно</i>|<i>durchs Fenster sehen</i>
+		lenter=0&nopants.liza.school>0&liza.pschool.voyeur.naked^			<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+
+		lenter>0&09.dc.0^													<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+
+		leave!lock^													<i>уйти</i>|<i>verlassen</i>
+
+	liza.pschool.knock@121@<b>Лиза:</b> Кто там? Я переодеваюсь!|<b>Lisa:</b> Wer ist da? Ich ziehe mich um!
+		liza.pschool.knock.me^									Это ?, Макс. Можно войти?|Ich bin's, Max. Kann ich reinkommen?
+		leave!lock^												Хорошо, я подожду...|Okay, ich warte....
+
+	liza.pschool.knock.me@40@e-opendoor-liza-dr-0@Макс, ну чего ломишься? Ты же знаешь, что мне в школу пора...\n\n<color=orange><i><b>Подсказка:</b> Клавиша [ ` ] - вкл/выкл интерфейс.</i></color>|Max, wozu die Eile? Weißt du nicht, dass ich mich für die Schule fertig machen muss?\n\n<color=orange><i><b>Tipp:</b> Key[ ` ] Schnittstelle ausblenden/einblenden.</i></color>
+		liza.pschool.knock.me.myroom^				Это и моя комната!|Es ist auch mein Zimmer!
+		liza.pschool.knock.me.shy^					Да чего я там не видел...|Nichts, was ich nicht schon mal gesehen habe....
+		liza.pschool.knock.me.sorry^				Извини|Sorry
+
+	liza.pschool.knock.me.myroom@41@В любом случае, я уже оделась, так что, входи. А я побежала в школу.|Wie auch immer, ich bin angezogen, also kannst du jetzt reinkommen. Ich gehe zur Schule.
+		leave!time^									Давай, удачи!|Okay, viel Glück!
+
+	liza.pschool.knock.me.shy@48@Откуда я знаю, что ты видел, а что ещё нет? Но так или иначе, я уже оделась и побежала в школу. Вернусь часа в четыре.|Woher soll ich wissen, was Du gesehen hast? Wie auch immer, ich bin angezogen, also gehe ich zur Schule. Ich bin gegen 4 Uhr zurück.
+		leave!time^									Пока, Лиза!|Bye, Lisa!
+
+	liza.pschool.knock.me.sorry@43@Да ты у нас джентльмен! В общем, я тут закончила и побежала в школу. Пока!|Oh, ein Gentleman! Wie auch immer, ich bin angezogen und gehe zur Schule, tschüss.
+		leave!time^									Пока, Лиза!|Bye, Lisa!
+
+	liza.pschool.open@42@e-opendoor-liza-dr-1@Макс! Стучаться надо! А вдруг я была бы голая?!\n\n<color=orange><i><b>Подсказка:</b> Клавиша [ ` ] - вкл/выкл интерфейс.</i></color>|Max, klopf nächstes Mal an! Ich hätte nackt sein können!\n\n<color=orange><i><b>Tipp:</b> Button [ ` ] Schnittstelle ausblenden/einblenden.</i></color>
+		liza.pschool.open.naked2^					Ну, тогда мне бы повезло|Dann hätte ich Glück gehabt.
+		liza.pschool.open.sorry^					Извини, я забыл...|Entschuldigung, ich vergaß....
+
+	liza.pschool.open.naked@40@e-lps-3@Макс! Не видишь, я собираюсь в школу! Быстро закрой дверь!|Siehst du nicht, dass ich mich für die Schule fertig mache, Max? Mach sofort die Tür zu!
+		leave!lock^									Извини... Кстати, отличный зад!|Es tut mir leid. Du hast aber einen schönen Arsch!
+
+	liza.pschool.knock.naked@121@<b>Лиза:</b> Кто там? Я переодеваюсь!|<b>Lisa:</b> Wer ist da? Ich ziehe mich um!
+		liza.pschool.knock.naked.open^				Это Макс. Я вхожу!|Ich bin's, Max. Ich komme rein
+		leave!lock^									Хорошо, я подожду...|Okay, ich warte....
+
+	liza.pschool.knock.naked.open@41@e-lps-3@Макс, чего хотел? Не видишь, я в школу собираюсь...|Was willst du, Max? Siehst du nicht, dass ich mich für die Schule fertig mache?
+		liza.pschool.knock.naked.open.1a^			Молодец, что без трусов!|Gute Arbeit ohne Höschen!
+		liza.pschool.knock.naked.open.1b^			Не обращай на меня внимания...|Kümmere dich nicht um mich....
+
+	liza.pschool.knock.naked.open.1b@43@e-lps-1@Не так уж это и просто, когда парень смотрит в упор, а я без трусов... Кстати, а ты чего ломился сюда? Что-то хотел?|Ich kann nicht einfach ignorieren, dass du mich anstarrst, zumal ich im Moment nicht mal ein Höschen trage. Warum bist du überhaupt gekommen, willst du etwas?
+		liza.pschool.knock.naked.open.2^			Нет, просто...|Nein, ich habe nur....
+
+	liza.pschool.knock.naked.open.1a@43@e-lps-1@Я знаю! Ты специально выбрал момент, чтобы на меня поглазеть или дело какое-то?|Ich weiß. Hast du dir diesen Moment ausgesucht, um reinzuplatzen, nur damit du mich anstarren kannst, oder musst du wirklich etwas tun?
+		liza.pschool.knock.naked.open.2^			Нет, просто...|Nein, ich habe nur....
+
+	liza.pschool.knock.naked.open.2@41@Понятно. Ну, ладно. Занимайся своими делами, а я побежала в школу. Пока!|Ich verstehe. Schön, mach dein Ding, ich gehe zur Schule. Bye!
+		leave!time^									Пока!|Okay, schlaf gut
+
+	liza.pschool.knock.spec@41@e-lps-1@Ну, чего хотел, Макс? Что-то срочное или просто хотел поглазеть на меня без трусов?|Was willst du, Max? Ist etwas passiert oder wolltest du mich nur ohne Höschen sehen?
+		liza.pschool.knock.spec.1a^					Кстати, ты же их не носишь, надеюсь?|Du trägst sie nicht mehr, oder?
+		liza.pschool.knock.spec.1b^					Нет, что ты. Просто так...|Nein, ich will nur.... dich....
+
+	liza.pschool.knock.spec.1b@43@Ага, так я тебе и поверила. Ну и ладно. В любом случае, занимайся своими делами, а я побежала в школу!|Richtig. Schön, mach dein Ding, ich gehe zur Schule. Bye!
+		leave!time^									Пока!|Okay, mach's gut
+
+	liza.pschool.knock.spec.1a@43@e-lps-2@Я ответила на твой вопрос? Ау, Макс? Ты завис? Ладно, я побежала в школу, а ты не забудь подобрать челюсть с пола...|Beantwortet das Deine Frage? Max? Meinst du das? Nun, ich gehe zur Schule, vergiss nicht, deinen Kiefer vom Boden zu nehmen.
+		leave!time^									Э... Ну да...|Richtig....
+
+	liza.pschool.open.naked2@44@Ну ты хам! Быстро закрой дверь с той стороны!\n\n<color=orange><i><b>Подсказка:</b> Клавиша [ ` ] - вкл/выкл интерфейс.</i></color>|Mach die Tür zu, Blödmann!\n\n<color=orange><i><b>Tipp:</b> Drücke [H] Schnittstelle ausblenden/einblenden.</i></color>
+		leave!lock^									Хорошо...|Schön
+
+	liza.pschool.open.sorry@48@Установил бы замки на двери, не было бы таких проблем. А теперь выйди и подожди за дверью. Пожалуйста.|Du könntest Türschlösser einbauen und wir hätten diese Probleme nicht. Jetzt geh und warte draußen, bitte.
+		leave!lock^									Хорошо...|Schön
+
+	liza.pschool.voyeur@120@e-liza-pschool-1@Ого, какой вид! Жаль, что она уже почти оделась...|Das ist ein schöner Anblick! Schade, dass sie fast angezogen ist....
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	liza.pschool.voyeur.naked@120@e-lnk-1@<i>Вот это я удачно заглянул! Лиза полностью голая! Здорово, что я убедил её не носить трусы в школе... Не знаю, заводит это её или нет, но меня - точно!</i>|<i>Ich habe mir einen guten Zeitpunkt ausgesucht! Lisa ist völlig nackt! Sie davon zu überzeugen, in der Schule kein Höschen mehr zu tragen, zahlt sich definitiv aus. Ich frage mich, ob sie von der Schulrichtlinien begeistert ist.... Natürlich will ich das!</i>
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+# --- Лиза собирается на шоппинг, 10:00|Lisa macht sich bereit zum Einkaufen, Samstag, 10:00
+
+	liza.pshopping@121@<i>Кажется, все собираются на шоппинг и Лиза сейчас переодевается...</i>|<i>Ich glaube, alle gehen einkaufen und Lisa zieht sich um....</i>
+		lenter=0&liza.pshopping.knock^				<i>постучаться</i>|<i>anklopfen</i>
+		lenter=0&liza.pshopping.open^				<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		lenter=0&liza.pshopping.voyeur^				<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		lenter>0&10.db.0^							<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	liza.pshopping.knock@121@<b>Лиза:</b> Кто там? Я переодеваюсь!|<b>Lisa:</b> Wer ist da? Ich ziehe mich um!
+		liza.pshopping.knock.me^					Это я, Макс. Можно войти?|Ich bin's, Max. Kann ich reinkommen?
+		leave!lock^									Хорошо, я подожду...|Okay, ich warte....
+
+	liza.pshopping.knock.me@121@<b>Лиза:</b> Нет, Макс, нельзя! Я переодеваюсь. Жди там.|<b>Lisa:</b> Nein, Max, das kannst du nicht! Ich ziehe mich um, warte dort.
+		liza.pshopping.open^						<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^									Хорошо...|Schön
+
+	liza.pshopping.open@42@e-opendoor-liza-dr-2@Макс! Я не одета! Быстрой закрой дверь с той стороны!|Max! Ich bin nicht angezogen! Mach sofort die Tür zu!
+		liza.pshopping.open.nice^					А у тебя сиськи подросли!|Deine Titten sind gewachsen!
+		leave!lock^									Извини, я не хотел...|Tut mir leid, es war ein Missgeschick.
+
+	liza.pshopping.open.nice@50@Что?! Я всё маме расскажу!|Was?! Ich sag's Mom!
+		leave!lock^									Всё, всё, ухожу!|Okay, Okay, ich gehe!
+		liza.pshopping.open.nice.angry^				Уже ухожу, но сиськи - супер!|Ich gehe, aber deine Titten sind fantastisch!
+
+	liza.pshopping.voyeur@120@e-liza-pschool-1@Кажется, всё самое интересное я уже пропустил...|Sieht aus, als hätte ich das Beste verpasst....
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	liza.pshopping.open.nice.angry@42@...|...
+		leave!lock^									<i>Бежать</i>|<i>Lauf weg</i>
+
+
+
+# --- Мама собирается на работу|Ann zieht sich um für die Arbeit.
+
+	mom.poffice@121@<i>Сейчас 10:00, а значит, мама собирается на работу...</i>|Es ist 10:00 Uhr, also macht sich Mom für die Arbeit fertig.
+		mom.poffice.knock^							<i>постучаться</i>|<i>anklopfen</i>
+		mom.poffice.open^							<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		mom.poffice.voyeur^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.poffice.knock@121@<b>Мама:</b> Кто там?|<b>Mom:</b> Wer ist da?
+		mom.poffice.knock.me^						Это Макс. Можно войти?|Hier ist Max, kann ich reinkommen?
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.poffice.knock.me@121@<b>Мама:</b> Макс, я не одета. Собираюсь на работу. Подожди немного, дорогой.|<b>Mom:</b> Max, ich bin nicht angezogen. Warte eine Weile, bitte.
+		leave!lock^									Хорошо, мам|Okay, Mom
+
+	mom.poffice.open@68@e-opendoor-Mom-dr-1@Макс! Я же учила тебя стучаться!|Max! Klopfe das nächstes Mal an!
+		mom.poffice.open.uwear!add_mom.mood_30^							Красивое бельишко|Schöne Dessous!
+		mom.poffice.open.niceass!add_mom.mood_-30^						Отличный зад!|Netter Arsch!
+		Momas>6&mom.poffice.open.nk^									Я же видел тебя голой!|Aber ich habe dich schon nackt gesehen!
+		eric.voy.stage>5&mom.poffice.open.stay^							Я просто хочу смотреть...|Ich will nur zusehen
+		mom.poffice.open.sorry!add_mom.mood_-10^						Ой, извини. Я забыл...|Es tut mir leid, ich vergaß
+
+	mom.poffice.open.nk@62@И что с того, Макс? Одно дело - делать массаж, другое... Хотя, ладно, смотри сколько хочешь, только выйди из комнаты...|Na und? Massage ist anders als.... Obwohl.... Schön, du kannst zusehen, wenn du wirklich willst, aber bitte verlasse das Zimmer....
+		mom.poffice.open.nk.2^						Хорошо!|Okay
+
+	mom.poffice.open.nk.2@4@e-opendoor-Mom-dr-x@<i>Кажется, мама и правда меня стесняется всё меньше... Красота какая!</i>|<i>Sieht aus, als wäre Mom nicht mehr so schüchtern wie früher.... Sie ist so schön!</i>
+		leave!time^									<i>жаль, мало...</i>|<i>zu schade, dass die Show so kurz war</i>
+
+	mom.poffice.open.stay@62@В каком смысле смотреть?|Was meinst du damit, du willst zusehen?
+		mom.poffice.open.stay.1^					Ну, ты же не будешь меня стесняться после того, что я видел...|Nun, du wirst dich nicht für mich schämen, nachdem, was ich gesehen habe....
+
+	mom.poffice.open.stay.1@69@Макс... Мне очень стыдно, но... Это как-то неправильно.|Max.... es ist falsch....
+		mom.poffice.open.stay.2^					Так я могу остаться?|Also, kann ich bleiben?
+		mom.poffice.open.sorry^						Ладно, не буду тебе мешать...|Okay, ich werde dich nicht stören....
+
+	mom.poffice.open.stay.2@73@e-opendoor-Mom-dr-2@Не знаю... Ну давай компромис. Ты подождёшь за дверью, но можешь её немного приоткрыть, а я сделаю вид, что не замечаю это... Но только в этот раз!|Ich weiß nicht.... Lass uns einen Kompromiss eingehen. Du wartest vor der Tür, aber du kannst sie ein wenig öffnen, und ich tue so, als ob ich nicht wüsste, dass du draußen bist. Aber nur einmal!
+		mom.poffice.open.stay.3^					Договорились!|Deal!
+
+	mom.poffice.open.stay.3@120@e-opendoor-Mom-dr-x@<i>Ого! Кажется, маме самой это начинает нравиться!</i>|<i>Wow! Ich glaube, Mom fängt an, es zu mögen!</i>
+		leave!time^									<i>Шоу окончено...</i>|<i>die Show ist vorbei</i>
+
+	mom.poffice.open.uwear@73@Спасибо, конечно. Но... Макс, не мог бы ты подождать за дверью, пока я оденусь?|Danke, Max, aber.... Könntest Du bitte hinter der Tür warten?
+		leave!lock^									Конечно, мам!|Sicher, Mom
+
+	mom.poffice.open.niceass@64@Что?! Макс! А ну-ка быстро выйди и закрой дверь!|Was? Max! Geh raus und schließ die Tür, sofort!
+		leave!lock^									Как скажешь, мам...|Okay, Mom
+
+	mom.poffice.open.sorry@67@Ну, бывает. Я сама ещё не привыкла к тому, что замков нигде нет. Ладно, дорогой. Подожди за дверью, пока мама одевается. хорошо?|Es ist okay, ich gewöhne mich immer noch an das Fehlen von Schlössern an den Türen. Jetzt warte bitte hinter der Tür, bis ich mich angezogen habe, okay?
+		leave!lock^									Хорошо, мам...|Okay, Mom...
+
+	mom.poffice.voyeur@120@e-voyeur-Mom-dr-1@Ничего себе, мама без трусов! Это я удачно выбрал момент... Но пора уходить, а то вдруг увидит меня в зеркало!|Wow, Mom ist ohne Höschen! Ich habe einen glücklichen Moment gewählt.... Aber ich sollte gehen, bevor sie mich im Spiegel sieht.
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+# --- Мама собирается на шоппинг|Ann macht sich bereit zum Einkaufen
+
+	mom.pshopping@121@Сегодня суббота, день шоппинга. Видимо, мама собирается...|Sieht so aus, als ob Mom sich für einen Einkaufstag fertig macht
+		menter=0&mom.pshopping.knock^				<i>постучаться</i>|<i>anklopfen</i>
+		menter=0&mom.pshopping.open^				<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		menter=0&mom.pshopping.voyeur^				<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		menter>0&10.dc.0^							<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+	mom.pshopping.open.stay@62@В каком смысле смотреть?|Was meinst du damit, du willst zusehen?
+		mom.pshopping.open.stay.1^					Ну, ты же не будешь меня стесняться после того, что я видел...|Mom, du wirst dich nicht für mich schämen, nachdem, was ich gesehen habe, oder?
+
+	mom.pshopping.open.stay.1@69@Макс... Мне очень стыдно, но... Это как-то неправильно.|Max.... Es ist falsch....
+		mom.pshopping.open.stay.2^					Так я могу остаться?|Also, kann ich bleiben?
+		mom.pshopping.open.sorry^					Ладно, не буду тебе мешать...|Okay, ich werde dich nicht stören.
+
+	mom.pshopping.open.stay.2@73@e-opendoor-Mom-dr-2@Не знаю... Ну давай компромис. Ты подождёшь за дверью, но можешь её немного приоткрыть, а я сделаю вид, что не замечаю это... Но только в этот раз!|Ich weiß nicht.... Lass uns einen Kompromiss eingehen. Du wartest vor der Tür, aber du kannst sie ein wenig öffnen, und ich tue so, als ob ich nicht wüsste, dass du draußen bist. Aber nur einmal!
+		mom.pshopping.open.stay.3^					Договорились!|Deal!
+
+	mom.pshopping.open.stay.3@120@e-opendoor-Mom-dr-x@<i>Ого! Кажется, маме самой это начинает нравиться!</i>|<i> Wow! Ich glaube, meine Mutter fängt an, es zu mögen!</i>
+		leave!time^									<i>Шоу окончено...</i>|<i>die Show ist vorbei</i>
+
+	mom.pshopping.open.nk@62@И что, ты теперь всё время будешь это припоминать? Ладно, смотри, если хочешь, только выйди из комнаты...|Wirst du mich die ganze Zeit daran erinnern? Schön, du kannst schauen, aber bitte verlasse das Zimmer....
+		mom.pshopping.open.nk.2^					Ага!|Okay!
+
+	mom.pshopping.open.nk.2@4@e-opendoor-Mom-dr-x@<i>О да! Смотреть, когда мама знает, что я за нею подглядываю... А ещё она практически голая и меня, похоже, почти не стесняется! Красота!</i>|<i>Oh, ja! Ich kann auf Mom aufpassen und sie weiß, dass ich sie sehe.... Sie ist fast nackt und scheint nicht mehr schüchtern zu sein!</i>
+		leave!time^									<i>жаль, что мало...</i>|<i>zu schade, dass die Show so kurz war</i>
+
+	mom.pshopping.knock@121@<b>Мама:</b> Кто там?|<b>Mom:</b> Wer ist da?
+		mom.pshopping.knock.me^						Это Макс. Можно войти?|Hier ist Max, kann ich reinkommen?
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.pshopping.knock.me@121@<b>Мама:</b> Нет, Макс. Я переодеваюсь. Подожди немного, дорогой.|<b>Mom:</b> Nein, Max. Ich ziehe mich um. Warte ein wenig, Liebes.
+		leave!lock^									Хорошо, мам|Okay, Mom
+
+	mom.pshopping.open@68@e-opendoor-Mom-dr-1@Макс! Я же учила тебя стучаться!|Max! Klopfe nächstes Mal an!
+		mom.pshopping.open.uwear!add_mom.mood_30^	Хорошо выглядишь, мам!|Du siehst gut aus, Mom!
+		Momas>6&mom.pshopping.open.nk^				Я же видел тебя голой!|Aber ich habe dich schon nackt gesehen!
+		eric.voy.stage>5&mom.pshopping.open.stay^	Я просто хочу смотреть...|Ich will nur zusehen....
+		mom.pshopping.open.sorry^					Ой, извини...|Oh, sorry
+
+	mom.pshopping.open.uwear@73@Спасибо, конечно. Но... Макс, не мог бы ты выйти и закрыть дверь за собой?|Danke, Max, aber.... bitte geh und schließ die Tür hinter dir.
+		leave!lock^									Конечно, мам!|Sicher, Mom
+
+	mom.pshopping.open.sorry@67@И Макс... Постарайся больше не входить без стука, хорошо?|Und, Max.... Versuch nicht mehr reinzukommen, ohne anzuklopfen, ok?
+		leave!lock^									Хорошо, мам...|Okay, Mom
+
+	mom.pshopping.voyeur@120@e-voyeur-Mom-dr-1@Интересно, а мама наденет трусы или под одеждой их не носит? Блин, если заметит меня в зеркало, мне конец. Похоже, так и не узнаю...|Ich frage mich, ob Mom ein Höschen tragen wird? Wenn sie mich im Spiegel sieht, bin ich tot. Ich schätze, ich kann nicht bleiben, um es herauszufinden....
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+# --- Мама принимает ванну в 20:00|Mom is taking a bath, 20:00
+
+	mom.bath@121@Видимо, мама принимает ванну...|Sieht aus, als würde Mom ein Bad nehmen.
+		msex=0&menter=0&mom.bath.knock^									<i>постучаться</i>|<i>anklopfen</i>
+		msex=0&menter=0&mom.bath.voyeur^								<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		msex=0&menter>0&09.dd.0^										<i>войти</i>|<i>Eintreten</i>
+		msex>0&13.ea.0^													<i>войти</i>|<i>Eintreten</i>
+		leave!lock^														<i>уйти</i>|<i>verlassen</i>
+
+	mom.bath.voyeur@120@e-Mom-bath-1@Эх... жаль, что стекло частично матовое. Так ничего не разглядеть! А если подобраться ближе, то мама может заметить...|Schade, dass das Glas teilweise geschliffen ist, ich kann die besten Teile nicht sehen! Und näher zu kommen, ist zu riskant.
+		leave!lock^														<i>уйти</i>|<i>verlassen</i>
+
+	mom.bath.knock@120@<b>Мама:</b> Кто там? Я принимаю ванну!|<b>Mom:</b> Wer ist da? Ich nehme ein Bad!
+		mom.bath.knock.me^												Это я, Макс|Ich bin's, Max.
+		leave!lock^														<i>уйти</i>|<i>verlassen</i>
+
+	mom.bath.knock.me@120@<b>Мама:</b> Дорогой, что ты хотел?|<b>Mom:</b> Willst du etwas, Liebes?
+		mom.bath.knock.me.nothing^										Нет, ничего|Nein, nichts.
+		mom.bath.knock.me.nothing^										Я подожду...|Ich werde warten
+		mom.bath.knock.me.enter^										Можно я войду?|Kann ich reinkommen?
+
+	mom.bath.knock.me.nothing@120@<b>Мама:</b> Хорошо, я скоро закончу...|<b>Mom:</b> Okay, ich werde nicht lange brauchen.
+		leave!lock^														Ага...|Jaja
+
+	mom.bath.knock.me.enter@120@<b>Мама:</b> Ну... хорошо, входи. Только не смотри!|<b>Mom:</b> Gut.... okay, aber schau nicht hin!
+		mom.bath.knock.me.enter.in^										<i>Войти</i>|<i>Eintreten</i>
+		leave!lock^														Ой, нет, я передумал|Oh, Entschuldigung, ich habe meine Meinung geändert.
+
+	mom.bath.knock.me.enter.in@62@e-Mom-bath-inside-1@Макс, так что там у тебя такое срочное, что ты не мог подождать пол часа?|Max, was ist so dringend, dass du nicht 30 Minuten warten kannst?
+		mom.bath.knock.me.enter.in.miss^								Просто, я соскучился!|Ich habe dich vermisst!
+		mom.bath.knock.me.enter.in.seeyou^								Ну это, хотел поглазеть...|Ich wollte dich ansehen
+		tier=1&talk.Mombathinc=0&mom.bath.knock.me.enter.in.need^		Я собирался спать и хотел принять душ перед сном|Ich möchte vor dem Schlafengehen duschen
+		leave!lock^														Ой, не буду тебе мешать|Entschuldige, ich lasse dich in Ruhe.
+
+	mom.bath.knock.me.enter.in.miss@67@Макс! Я думала, что-то случилось, а ты просто балуешься. Подожди меня за дверью. Я скоро!|Ich fing an zu denken, dass etwas passiert ist. Warte draußen, ich bin gleich da.
+		leave!lock^														Хорошо...|Schön
+
+	mom.bath.knock.me.enter.in.seeyou@68@Что?! А ну-ка быстро выметайся отсюда! Я скоро закончу.|Was? Verschwinde sofort!
+		leave!lock^														Как скажешь!|Okay
+
+	mom.bath.knock.me.enter.in.need@60@e-Mom-bath-insidetalk-1@Макс, но я же в ванне. Как ты себе это представляешь?|Das kannst du nicht machen, während ich im Bad bin!
+		mom.bath.knock.me.enter.in.need.closeeyes^						А ты закрой глаза и я не буду смотреть|Lass uns einfach die Augen schließen, damit wir nicht hinschauen.
+		mom.bath.knock.me.enter.in.need.dontshy^						Ты же моя мама, чего тут стесняться?|Aber du bist meine Mutter, warum sollte ich schüchtern sein?
+
+	mom.bath.knock.me.enter.in.need.dontshy@71@e-Mom-bath-undress-1@Макс, но ты уже такой взрослый... Знаешь что. Я соглашусь, если ты не будешь на меня смотреть. Я тоже закрою глаза и ты спокойно примешь свой душ. Хорошо, милый?|Du bist kein kleiner Junge mehr, Max. Wie wäre es damit: Ich stimme zu, wenn wir uns nicht ansehen, okay?
+		mom.bath.undress^												Конечно! Я сам это хотел предложить|Natürlich! Ich wollte gerade dasselbe sagen!
+
+	mom.bath.knock.me.enter.in.need.closeeyes@67@e-Mom-bath-undress-1@Ну, хорошо. Только, не подглядывай. Замечу, сразу выгоню!|Okay, aber nicht gucken! Ich schmeiß dich raus, wenn du willst!
+		mom.bath.undress^												Да, мам...|Yes, Mom
+
+	mom.bath.undress@69@e-Mom-bath-undress2-1@Как-то странно. Ты обычно в такое время ещё не ложишься... С тобой точно всё в порядке?\n\n<i>Вид голой мамы в метре от себя вас очень возбудил...</i>|Seltsam, normalerweise schläfst du nicht so früh....\nBist du sicher, dass es dir gut geht?\n\n<i>Der Anblick deiner nackten Mutter hat dich wirklich aufgeregt.</i>
+		mom.bath.undress.dont^											Ага, всё хорошо. Только, не подглядывай!|Ja, alles Gut. Schau einfach nicht hin!
+
+	mom.bath.undress.dont@69@e-Mom-bath-undress3-1@Макс! Я же твоя мама и видела тебя тысячу раз голым!|Max, ich bin deine Mutter und ich habe dich schon tausend Mal nackt gesehen!
+		mom.bath.undress.dont.growup^									Ну, я с тех пор подрос|Seitdem bin ich gewachsen!
+		mom.bath.undress.dont.up^										Ну, он с тех пор подрос|Seitdem ist er gewachsen!
+
+	mom.bath.undress.dont.growup@68@e-Mom-bath-undress4-1@Макс! Ты так возбудился! Это из-за меня? Плохая идея была - тебя впускать сюда...|Max! Du bist so.... aufgeregt! Ist das wegen mir? Ich hätte dich nicht reinlassen sollen....
+		mom.bath.undress.dont.good^										Нет, ты тут не при чём|Nein, es ist nicht deine Schuld.
+		mom.bath.undress.dont.yeah^										Ну, ты так хорошо выглядишь и ты голая, совсем рядом...|Nun, du bist schön und nackt direkt vor mir....
+		mom.bath.undress.dont.eyes^										Эй! Ты обещала не подглядывать!|Hey! Du hast versprochen, nicht hinzusehen!
+
+	mom.bath.undress.dont.up@68@e-Mom-bath-undress4-1@Он подрос? Кто? Макс! Ты... такой возбуждённый... Это из-за меня? Извини, зря тебя впустила сюда...|Er? Wer? Max! Du bist so.... hart... Ist das wegen mir? Tut mir leid, ich hätte dich nicht reinlassen sollen....
+		mom.bath.undress.dont.good^										Нет, ты тут не при чём|Nein, es ist nicht deine Schuld.
+		mom.bath.undress.dont.yeah^										Ну, ты так хорошо выглядишь и ты голая, совсем рядом...|Nun, du bist schön und nackt direkt vor mir....
+		mom.bath.undress.dont.eyes^										Эй! Ты обещала не подглядывать!|Hey! Du hast versprochen, nicht hinzusehen!
+
+	mom.bath.undress.dont.good@73@Да? Мне кажется, что это у тебя гормоны играют. А ещё тебе нужно найти девушку.|Ich glaube, es sind nur deine Hormone. Du solltest dir eine Freundin suchen.
+		mom.bath.undress.dont.good.now^									Где же мне её найти в такое время?|Wie bekomme ich jetzt eine?
+		mom.bath.undress.dont.good.you^									И что мне с этим делать сейчас?|Und was soll ich jetzt tun?
+		mom.bath.undress.dont.good.grow^								Ну как, я подрос с тех пор?|Also, bin ich gewachsen?
+
+	mom.bath.undress.dont.yeah@73@Спасибо тебе Макс, конечно... Но это не разговор для мамы и её сына... А вообще, тебе нужно найти девушку!|Danke, Max.... Aber das ist kein Gespräch, das Mutter und Sohn führen sollten.... Und du musst dir eine Freundin suchen!
+		mom.bath.undress.dont.good.now^									Где же мне её найти в такое время?|Wie bekomme ich jetzt eine?
+		mom.bath.undress.dont.good.you^									И что мне с этим делать сейчас?|Und was soll ich jetzt tun?
+		mom.bath.undress.dont.good.grow^								Ну как, я подрос с тех пор?|Also, bin ich gewachsen?
+
+	mom.bath.undress.dont.eyes@73@Я случайно открыла глаза, а тут... такое. Тебе срочно нужно найти девушку!|I opened my eyes on accident and saw... this. You need to get yourself a girlfriend!
+		mom.bath.undress.dont.good.now^									Где же мне её найти в такое время?|Wie bekomme ich jetzt eine?
+		mom.bath.undress.dont.good.you^									И что мне с этим делать сейчас?|Und was soll ich jetzt tun?
+		mom.bath.undress.dont.good.grow^								Ну как, я подрос с тех пор?|Also, bin ich seit dem letzten Mal gewachsen?
+
+	mom.bath.undress.dont.good.now@62@Ну, я имела в виду не прямо сейчас, а вообще. Думаю, тебе нужно принять холодный душ и сбросить... напряжение. Давай бегом, а я закрою глаза.|Ich meinte im Allgemeinen, nicht jetzt. Ich denke, du solltest eine kalte Dusche nehmen und etwas Spannung abbauen. Jetzt beeil dich und ich schließe meine Augen.
+		mom.bath.undress.shower.1^										Хорошо, мам|Okay, Mom
+
+	mom.bath.undress.dont.good.you@62@Сейчас тебе поможет только холодный душ. Иди, сними напряжение, а я закрою глаза. Только и ты не подглядывай. Я как бы тоже голая...|Ich denke, du solltest eine kalte Dusche nehmen. Geh und entspann dich, während ich meine Augen schließe. Und sieh nicht hin. Ich bin hier nackt....
+		mom.bath.undress.shower.1^										Хорошо, мам|Okay, Mom
+
+	mom.bath.undress.dont.good.grow@62@Да, Макс! Ты... очень подрос. Но сейчас тебе нужно сбросить напряжение. Давай, бегом под холодный душ, а я закрою глаза.|Ja.... Du bist gewachsen. Aber jetzt musst du die Spannung abbauen. Na los, nimm eine kalte Dusche und ich schließe meine Augen.
+		mom.bath.undress.shower.1^										Хорошо, мам|Okay, Mom
+
+	mom.bath.undress.shower.1@4@e-Mom-bath-undress5-1@<i>Перегородка имеет матовую поверхность только до пояса. На уровне глаз она прозрачная и всё видно. Мама слегка прикрывает своё привлекательное тело... Это всё так вас возбудило, что даже холодный душ не помогает!</i>|<i>Das Glas ist nur halbhoch geschliffen, so dass das Glas auf Augenhöhe völlig transparent ist und man alles sehen kann. Mom versucht, ihren wunderschönen Körper zu verstecken.... Du bist so hart, selbst eine kalte Dusche kann dir jetzt nicht helfen.</i>
+		mom.bath.undress.shower.1.jerkoff^								<i>Дрочить, глядя на маму</i>|<i>Schau dir Mom an und hol dir einen runter.</i>
+		mom.bath.undress.shower.1.relax^								<i>Постараться успокоиться</i>|<i>versuche dich zu beruhigen</i>
+
+	mom.bath.undress.shower.1.jerkoff@68@<i>Не прошло и минуты, как вы кончили, прямо на стеклянную перегородку...</i>\n\n<b>Мама:</b> Макс! Ты что такое делаешь?!|<i>Du hast keine Minute überdauert, bevor du das ganze Glas besprüht hast.</i>\n\n<b>Mom:</b> Max! Was machst du da?!
+		mom.bath.undress.shower.1.jerkoff.you^							Ты сама сказала снять напряжение, вот и... снял...|Du hast gesagt, ich soll den Druck verringern, also.... Ich versuche es
+		mom.bath.undress.shower.1.jerkoff.cant^							Я не мог ничего с этим поделать. Душ не помогал!|Ich konnte nicht anders, die Dusche hat mir nicht geholfen.
+		mom.bath.undress.shower.1.jerkoff.eyes^							Ты опять подглядываешь!|Du hast wieder geguckt!
+
+	mom.bath.undress.shower.1.relax@10@<i>Да как можно успокоиться в такой ситуации? Это же не-воз-мож-но!</i>|<i>Wie zum Teufel soll ich mich in einer Situation wie <b>dieser</b> beruhigen?</i>
+		mom.bath.undress.shower.1.jerkoff^								<i>Дрочить, глядя на маму</i>|<i>Schau dir Mom an und hol dir einen runter.</i>
+
+	mom.bath.undress.shower.1.jerkoff.you@69@Макс, ну я имела в виду холодный душ... Это неправильно, когда сын делает такое в метре от своей мамы... |Max, ich meinte eine kalte Dusche.... Söhne sollten so etwas nicht direkt vor ihren Müttern tun....
+		mom.bath.undress.shower.1.jerkoff.you.wall^						Ну, я за стеной и ты обещала не подглядывать|Ich war hinter dem Glas und du hast versprochen, nicht hinzusehen.
+		mom.bath.undress.shower.1.jerkoff.you.why^						Почему? Если у меня <b>такая</b> мама...|Warum? Wenn ich eine Mutter habe wie <b>dich</b>....
+
+	mom.bath.undress.shower.1.jerkoff.cant@69@Макс! Так, прибери там за собой, одевайся и иди в свою комнату. Сделаем вид, что ничего не было.|Max! Mach dich sauber, zieh dich an und geh auf dein Zimmer. Tun wir so, als wäre nichts passiert.
+		leave!lock!move_myroom!set_talk.Mombathinc_1!set_mom.talkcooldown_5^		Хорошо, мам...|Okay, Mom...
+
+	mom.bath.undress.shower.1.jerkoff.eyes@69@Я хотела узнать как у тебя дела и это матовое стекло почти ничего не скрывает... Значит, ты там всё это время смотрел на меня... и делал это?|Ich wollte wissen, was du tust, und dieses geschliffene Glas verbirgt nicht viel.... Also hast du mich die ganze Zeit angesehen.... und dich selbst berührt?
+		mom.bath.undress.shower.1.jerkoff.you.wall^									Я не смотрел на тебя и ты обещала не подглядывать!|Ich habe dich nicht angesehen und du hast versprochen, nicht hinzusehen!
+		mom.bath.undress.shower.1.jerkoff.you.wall^									А что такого? Если у меня <b>такая</b> мама...|Warum? Wenn ich eine Mutter habe wie <b>dich</b>....
+
+	mom.bath.undress.shower.1.jerkoff.you.wall@69@Так, всё, Макс! Смой... это со стекла и бегом в свою комнату! Всё это очень неправильно...|Das reicht, Max! Mach dich sauber und geh auf dein Zimmer! Das ist alles so falsch....
+		leave!lock!move_myroom!set_talk.Mombathinc_1!set_mom.talkcooldown_5^		Хорошо, мам...|Okay, Mom
+
+	mom.bath.undress.shower.1.jerkoff.you.why@64@А ну-ка быстро смыл это со стекла и бегом в свою комнату!|Mach dich sauber und geh sofort auf dein Zimmer!
+		leave!lock!move_myroom!set_talk.Mombathinc_1!set_mom.talkcooldown_5^		Как скажешь, мам...|Okay, Mom
+
+
+
+# --- Лиза принимает ванну в 22:00|Lisa nimmt ein Bad, 22:00
+
+	liza.bath@121@В это время Лиза обычно плескается в ванне...|Um diese Zeit nimmt Lisa normalerweise ein Bad.
+		liza.bath.knock^								<i>постучаться</i>|<i>anklopfen</i>
+		poss.sed<31&liza.bath.open^						<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		poss.sed>30&06.libath.0^						<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		liza.bath.voyeur^								<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	liza.bath.knock@121@<b>Лиза:</b> Кто там? Я принимаю ванну...|Wer ist da? Ich nehme ein Bad.
+		liza.bath.knock.me^								Это я, Макс! Можно войти?|Ich bin's, Max! Kann ich reinkommen?
+		poss.sed<31&liza.bath.knock.open^				<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		poss.sed>30&06.libath.0^						<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	liza.bath.knock.me@121@<b>Лиза:</b> Я же сказала, что в ванне. Закончу, тогда и войдёшь! А пока жди...|Ich sagte, ich nehme ein Bad! Du kannst reinkommen, wenn ich fertig bin! Warte draußen
+		leave!lock^										Хорошо, я подожду...|Okay, ich werde warten
+		liza.bath.knock.open^							<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	liza.bath.knock.open@50@e-liza-bath-open-1@Макс! Я же предупредила, что моюсь! Всё маме расскажу!|Ich sagte doch, ich nehme ein Bad! Ich werde es Mom erzählen!
+		leave!lock^										Упс! Уже ушёл...|Es tut mir leid, ich gehe
+
+	liza.bath.voyeur@120@e-liza-bath-1@Кажется, Лиза и правда принимает ванну. Жаль, что из-за матового стекла почти ничего не видно. Но ближе подойти опасно - может заметить...|Ich glaube, Lisa nimmt ein Bad. Schade, dass ich nicht viel hinter dem Bodenglas sehen kann. Näher ranzukommen ist zu riskant, sie kann mich bemerken
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	liza.bath.open@50@e-liza-bath-open-1@Макс! А постучаться? Я же голая!|Max, warum hast du nicht angeklopft? Ich bin nackt!
+		liza.bath.open.go^								Извини, дверь была открыта и я подумал...|Es tut mir leid, die Tür war offen.
+		liza.bath.open.go^								А ты симпатичная...|Du bist hübsch....
+		liza.bath.open.go^								И что такого? Сестра стесняется брата?|Was ist denn los? Wir sind Geschwister.
+
+	liza.bath.open.go@42@Макс, выйди немедленно!|Max, geh sofort raus!
+		leave!lock^										Хорошо, уже ухожу...|Okay, ich gehe
+
+
+
+# --- Алиса принимает ванну в 00:00|Alice nimmt ein Bad, 00:00
+
+	alisa.bath@121@Если полночь, значит Алиса отмокает в ванне... Входить без стука - опасно для жизни.|Es ist Mitternacht, also nimmt Alice ein Bad. Eintreten ohne zu klopfen ist extrem gefährlich.
+		alisa.bath.knock^								<i>постучаться</i>|<i>anklopfen</i>
+		alisa.bath.voyeur^								<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.bath.voyeur@120@e-alisa-bath-1@Ух! Повезло, что она меня не заметила... Кажется, только воду набирает. Но лучше уйти, а то если заметит, мне конец!|Ich bin froh, dass sie mich nicht bemerkt hat. Sieht aus, als würde sie nur die Wanne füllen. Ich sollte gehen, solange ich kann
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.bath.knock@121@<b>Алиса:</b> Кому там не спится? Я ванну набираю...|<b>Alice:</b> Wer ist da? Ich fülle die Wanne.
+		alisa.bath.knock.me^							Это я, Макс. Можно войти?|Ich bin's, Max. Kann ich reinkommen?
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.bath.knock.me@121@<b>Алиса:</b> Макс, ты глухой? Я же сказала, буду в ванне плескаться. Жди как минимум час!|<b>Alice:</b> Bist du taub? Ich sagte doch, ich nehme ein Bad. Du musst mindestens eine Stunde warten!
+		leave!lock^										Ладно, ладно...|Schön, Schön
+
+
+
+# --- Алиса в ванной после клуба. 3 часа ночи|Alice kommt aus dem Club zurück, 3:00
+
+	alisa.afterclub@121@Алиса только что вернулась из клуба и сразу забежала в ванную. Интересно, в каком она состоянии?|Alice kam gerade aus dem Club zurück und rannte sofort zur Toilette. Ich frage mich, wie es ihr geht.
+		alisa.drunk=0&alisa.afterclub.knock^			<i>постучаться</i>|<i>anklopfen</i>
+		alisa.drunk=1&alisa.afterclub.show^				<i>постучаться</i>|<i>anklopfen</i>
+		alisa.afterclub.voyeur^							<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.afterclub.voyeur@120@e-alisa-bath-1@Ух! Повезло, что она меня не заметила... Кажется, только воду набирает. Но лучше уйти, а то если заметит, мне конец!|Ich bin froh, dass sie mich nicht bemerkt hat. Sieht aus, als würde sie nur die Wanne füllen. Ich sollte gehen, solange ich kann
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.afterclub.knock@121@<b>Алиса:</b> Кому там не спится? Я ванну набираю...|<b>Alice:</b> Wer ist da? Ich fülle die Wanne.
+		alisa.afterclub.knock.me^						Это я, Макс. Можно войти?|Ich bin's, Max. Kann ich reinkommen?
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.afterclub.knock.me@121@<b>Алиса:</b> Макс, ты глухой? Я же сказала, буду в ванне плескаться. Жди как минимум час!|<b>Alice:</b> Bist du taub? Ich sagte doch, ich nehme ein Bad. Du musst mindestens eine Stunde warten!
+		leave!lock^										Ладно, ладно...|Schön, Schön
+
+	alisa.afterclub.show@25@e-alisa-bathroom-2@А, Макс... Не спится? Чего хотел?|Oh, Max.... Kannst du nicht einschlafen? Was willst du denn?
+		alisa.afterclub.show.wash^						Да... Я вот... Умыться бы перед сном! Да.|Ja.... Ich bin hier.... um mein Gesicht vor dem Schlafengehen zu waschen!
+
+	alisa.afterclub.show.wash@33@e-alisa-bath-2@Ну, входи. Я собиралась ванну принять, но ещё вода набирается...|Nun, komme rein. Ich fülle mir ein Bad.
+		alisa.afterclub.show.wash.fun^					Как в клубе повеселилась?|Wie war der Club?
+
+	alisa.afterclub.show.wash.fun@21@Ты знаешь, очень... очень хорошо. Я обычно не пью, но в этот раз что-то потянуло и... всё прошло просто чудесно! А у тебя как дела?|Weißt du.... sehr gut. Ich trinke normalerweise nicht, aber diesmal wollte ich, und.... alles war wunderbar! Und wie geht es Dir?
+		alisa.afterclub.show.wash.fun.wow^				Ого. Тебе и правда интересно?|Wow. Bist wirklich interessiert?
+
+	alisa.afterclub.show.wash.fun.wow@25@Конечно! Ты же мой брат. Ты извини, если я с тобой бываю груба. Это просто защитная реакция...|Natürlich! Du bist mein Bruder. Es tut mir leid, wenn ich unhöflich zu dir bin. Es ist nur ein Abwehrmechanismus....
+		alisa.afterclub.show.wash.fun.wow.2^			Защитная реакция?|Abwehrmechanismus?
+
+	alisa.afterclub.show.wash.fun.wow.2@33@Тебе не понять... Ты знаешь, я бы хотела извиниться, если тебя чем-то обижала в последнее время... Ой, у тебя что-то в штанах шевелится...|Du würdest es nicht verstehen.... Ich möchte mich entschuldigen, wenn ich Dich durch etwas beleidigt habe. Oh, etwas in deiner Hose bewegt sich....
+		alisa.afterclub.show.wash.fun.wow.3!max_poss.nightclub_8!set_alisa.talkaboutbath_1^			Э... Ты точно в порядке?|Uh.... bist du sicher, dass es dir gut geht?
+
+	alisa.afterclub.show.wash.fun.wow.3@25@e-alisa-bath-3@Ага. И ты, я вижу, тоже... Какой же он у тебя большой...|Ja. Und ich sehe dich auch.... Es ist so groß....
+		alisa.afterclub.show.sed.1^						У тебя... Очень красивая грудь...|Du hast sehr schöne Brüste....
+		alisa.afterclub.show.sed.2^						А ты не хочешь мне помочь?|Vielleicht willst du mir helfen?
+
+	alisa.afterclub.show.sed.1@33@Спасибо, Макс. Девушке очень приятно такое слышать от парня. Даже, если это её младший брат...|Danke, Max. Mädchen hören solche Sachen gerne von einem Kerl. Auch wenn er ihr jüngerer Bruder ist....
+		alisa.afterclub.show.sed.2^						А ты не хочешь мне помочь?|Vielleicht willst du mir helfen?
+
+	alisa.afterclub.show.sed.2@25@Ты знаешь... Я ещё не настолько пьяна и, кажется, меня уже отпускает. Так что... Придётся тебе самому разбираться с твоей проблемой... А у меня набралась ванна. Так что...|Ich bin nicht betrunken genug. Also.... musst du dich selbst um dein Problem kümmern. Und das Bad ist voll, also....
+		alisa.afterclub.show.sed.3^						Ну Алиса... Ну чуть-чуть...|Bitte, Alice. Nur ein bisschen....
+		leave!lock^										Хорошо. Спокойной ночи, Алиса...|Okay. Gute Nacht, Alice.
+
+	alisa.afterclub.show.sed.3@33@Макс... Ты же не хочешь, чтобы я рассказала маме, что ты ко мне приставал?|Max.... soll ich Mom sagen, dass du mich belästigt hast?
+		leave!lock^										Всё понял, ухожу...|Verstanden, weggehen
+
+
+
+# --- Алиса собирается на шоппинг 10:00|Alice zeiht sich zum Einkaufen um
+
+	alisa.pshopping@121@<i>Кажется, все собираются на шоппинг и Алиса сейчас переодевается...</i>|<i>Ich denke, jeder macht sich bereit zum Einkaufen und Alice zieht sich um.</i>
+		aenter=0&alisa.pshopping.knock^								<i>постучаться</i>|<i>anklopfen</i>
+		aenter=0&nopants.alisa=0&alisa.pshopping.voyeur.pants^		<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		aenter=0&nopants.alisa=1&alisa.pshopping.voyeur.nopants^	<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		aenter>0&10.da.0^											<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		leave!lock^													<i>уйти</i>|<i>verlassen</i>
+
+	alisa.pshopping.knock@121@<b>Алиса:</b> Кто там? Я переодеваюсь!|<b>Alice:</b> Wer ist da? Ich ziehe mich um!
+		alisa.pshopping.knock.me^					Это я, Макс. Можно войти?|Ich bin's, Max. Kann ich reinkommen?
+		leave!lock^									Хорошо, я подожду...|Okay, ich werde warten
+
+	alisa.pshopping.knock.me@121@<b>Алиса:</b> Даже не вздумай! Прибью на месте! Жди там. А лучше свали подальше, чтобы под дверью не сопел тут.|<b>Alice:</b> Denk nicht mal dran! Ich werde dich auf der Stelle töten! Warte dort. Oder besser noch, verschwinde, ich will dich nicht hinter meiner Tür atmen hören.
+		leave!lock^									Хорошо...|Schön
+
+	alisa.pshopping.voyeur.pants@120@e-alisa-dressing-1-p@Алиса переодевается... Какой вид! Так. Пора сваливать. Вдруг, кто-то заметит!|Alice zeiht sich um.... Das ist ein schöner Anblick! Es ist Zeit für mich zu flüchten. Jemand kann es bemerken!
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	alisa.pshopping.voyeur.nopants@120@e-alisa-dressing-1-np@Ого! Алиса не надевает трусы даже на шоппинг! Интересно, что она скажет маме в кабинке для переодевания, если та это заметит? Но лучше буду гадать в другом месте, а то меня заметят...|Wow! Alice trägt kein Höschen, auch nicht beim Einkaufen! Ich frage mich, was sie zu Mom in der Umkleidekabine sagen wird, wenn Mom sie erwischt? Aber ich sollte woanders raten....
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	alisa.pshopping.open.nice.angry@42@...|...
+		leave!lock^									<i>Бежать</i>|<i>Lauf weg</i>
+
+
+
+# --- Алиса собирается в ночной клуб (пятница, вечер)|Alice zeiht sich um für den Club, Freitagabend
+
+	alisa.pclub@121@<i>Кажется, Алиса собирается в ночной клуб...</i>|<i>Sieht aus, als würde Alice in einen Nachtclub gehen</i>
+		spun.alisa=0&alisa.pclub.knock^						<i>постучаться</i>|<i>anklopfen</i>
+		spun.alisa=0&alisa.pclub.voyeur^					<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		spun.alisa>0&09.da.0^								<i>Это Макс. Я вхожу!</i>|<i>Es ist Max. Ich komme rein.</i>
+		leave!lock^											<i>уйти</i>|<i>verlassen</i>
+
+	alisa.pclub.knock@121@<b>Алиса:</b> Кто там? Я собираюсь, подождите...|<b>Alice: </b> Wer ist da? Ich ziehe mich um, warte....
+		alisa.pclub.knock.me^								Это я, Макс. У меня к тебе дело...|Ich bin's, Max. Ich will mit dir reden....
+
+	alisa.pclub.knock.me@23@e-newdress-1@Ну, Макс, чего хотел? Что за дело такое срочное?|Nun, Max, was wolltest du? Worüber willst du reden?
+		alisa.pclub.knock.me.good!add_alisa.mood_50^		Выглядишь... шикарно!|Du siehst umwerfend aus!
+		item.choco=-5&alisa.pclub.choco^					У меня для тебя презент...|Ich habe ein Geschenk für dich....
+
+	alisa.pclub.choco@22@Макс, ты меня удивляешь всё больше. Какой? Дай угадаю... книжка!|Max, du überraschst mich immer mehr. Lass mich raten.... ein Buch!
+		alisa.pclub.choco.no!set_alisa.drunk_1^				Не угадала. Ты же любишь шоколад?|Rate nochmal. Magst du Schokolade?
+
+	alisa.pclub.choco.no@25@Люблю... И что, никакого подвоха? Просто взял и подарил коробку конфет?|Ich weiß.... gibt es einen Haken? Du gibst mir einfach eine Schachtel Pralinen?
+		alisa.pclub.choco.no.show^							Ну, можешь трусы показать...|Nun, du kannst mir dein Höschen zeigen....
+		alisa.pclub.choco.no.nothing^						Да, никакого подвоха!|Nein, kein Haken!
+
+	alisa.pclub.choco.no.nothing@31@Вот это да! Ну, спасибо тогда... А теперь вали. Я ещё не закончила...|Wow! Nun, danke.... Und jetzt raus hier. Ich bin noch nicht fertig.
+		leave!lock^											Ага...|Jaja
+
+	alisa.pclub.choco.no.show@22@Может быть, мне их ещё и снять для тебя? Давай, вали уже, извращенец. А за конфеты спасибо...|Vielleicht sollte ich sie für dich ausziehen? Komm schon, verschwinde hier, Perversling. Und danke für die Süßigkeiten.
+		leave!lock^											Ага...|Jaja
+
+	alisa.pclub.knock.me.good@33@e-newdress-2@Спасибо... Так чего хотел, рассказывай!|Danke.... Also was wolltest du, sag es mir!
+		alisa.pclub.knock.me.good.nothing^					Ты знаешь, я забыл...|Weißt du, ich habs vergessen....
+
+	alisa.pclub.knock.me.good.nothing@22@Эх, Макс. Память у тебя дырявая. Тебе бы рыбки поесть. Там, говорят, фосфор. Помогает для мозгов... Ладно, вали отсюда, я ещё не закончила...|Oh, Max. Du solltest Fisch essen. Man sagt, es hat Phosphor, also ist es gut für das Gehirn.... Lass mich jetzt in Ruhe, ich bin beschäftigt.
+		leave!lock^											Ага...|Jaja
+
+	alisa.pclub.voyeur@120@e-alisa-dressing-club-1@Вау! Интересно, она трусики надевает под это платье или нет? Как бы я хотел это узнать...|Wow! Ich frage mich, ob sie ein Höschen unter dem Kleid trägt? Ich möchte so viel herausfinden....
+		leave!lock^											<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Алиса собирается к подруге, 11:00, воскресенье|Alice zeiht sich um, bevor sie zu ihrer Freundin geht, 11:00, Sonntag
+
+	alisa.pfriend@121@<i>Кажется, Алиса куда-то собирается...</i>|<i>Scheint so, als würde Alice irgendwohin gehen.</i>
+		aenter=0&alisa.pfriend.knock^								<i>постучаться</i>|<i>anklopfen</i>
+		aenter=0&nopants.alisa=0&alisa.pfriend.voyeur.pants^		<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		aenter=0&nopants.alisa=1&alisa.pfriend.voyeur.nopants^		<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		aenter>0&09.db.0^											<i>войти в комнату</i>|<i>das Zimmer betreten</i>
+		leave!lock^													<i>уйти</i>|<i>verlassen</i>
+
+	alisa.pfriend.knock@121@<b>Алиса:</b> Кто там? Я переодеваюсь!|<b>Alice:</b> Wer ist da? Ich ziehe mich um!
+		alisa.pfriend.knock.me^						Это я, Макс. Можно войти?|Ich bin's, Max. Kann ich reinkommen?
+		leave!lock^									Хорошо, я подожду...|Okay, ich werde warten
+
+	alisa.pfriend.knock.me@121@<b>Алиса:</b> Даже не вздумай! Прибью на месте! Жди там. А лучше свали подальше, чтобы под дверью не сопел тут.|<b>Alice:</b> Denk nicht mal dran! Ich werde dich auf der Stelle töten! Warte dort. Oder besser noch geh, ich will nicht hören, wie du hinter meiner Tür atmest.
+		leave!lock^									Хорошо...|Schön
+
+	alisa.pfriend.voyeur.pants@120@e-alisa-dressing-1-p@Алиса переодевается... Трусики хорошо смотрятся на её попке. Но без них было бы лучше... Так. Пора сваливаться. Вдруг, кто-то заметит!|Alice zeiht sich um. Ihr Arsch sieht gut aus in diesem Höschen, aber es würde noch besser aussehen ohne sie.... Es ist Zeit zu flüchten. Jemand kann es bemerken!
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	alisa.pfriend.voyeur.nopants@120@e-alisa-dressing-1-np@Супер! Алиса не надевает трусы... Надеюсь, кто-то это заметит там, куда она идёт...|Super! Alice trägt kein Höschen, wo auch immer sie hingeht.... Ich hoffe, das merkt jemand!
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	alisa.pfriend.open.nice.angry@42@...|...
+		leave!lock^									<i>Бежать</i>|<i>Lauf weg</i>
+
+
+
+# --- Мама и Эрик закрылись в своей комнате (22:00 - 23:00)|Eric and Ann are in her room (22:00-23:00)
+
+	mom.eric.door.fuck@121@Судя по звукам, мама с Эриком чем-то занимаются. Открыть дверь точно не стоит, влетит...|Den Geräuschen nach zu urteilen, sind Mom und Eric mit etwas Interessantem beschäftigt. Ich sollte nicht die Tür öffnen, ich werde bestraft.
+		ertype=0&eric.status<2&random.dex.2=1&mom.eric.door.fuck.voyeur^				<i>подглядывать с улицы</i> [skill.dex_2]|<i>von außen spionieren</i> [skill.dex_2]
+		ertype=0&eric.status<2&random.dex.2=0&mom.eric.door.fuck.busted^				<i>подглядывать с улицы</i> [skill.dex_2]|<i>von außen spionieren</i> [skill.dex_2]
+		ertype=0&eric.voy.stage<6&eric.status>1&mom.eric.door.fuck.voyeur.new^			<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		ertype=0&eric.voy.stage>5&eric.status>1&mom.eric.door.fuck.voyeur.hard^			<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		ertype=1&06.ervoya.0^															<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		ertype=3&06.ervoyb.0^															<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		ertype=5&06.ervoyc.0^															<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		ertype=7&06.ervoyc.0^															<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^																		<i>уйти</i>|<i>verlassen</i>
+
+	mom.eric.door.fuck.voyeur@120@e-Mom-eric-room-1-0@<color=lime><i>Удалось незаметно подкрасться!</i></color>\nВот это да... Боюсь даже представить, что будет, если меня поймают, пока я подглядываю... за этим...|<color=lime><i>Schleichversuch gelungen!</i></color>\n Wow.... Ich habe Angst, mir vorzustellen, was passiert, wenn sie mich dabei erwischen....
+		leave!lock_momroom_2^										<i>тихо уйти</i>|<i>leise verschwinden</i>
+
+	mom.eric.door.fuck.busted@9@e-Mom-eric-room-1-1@<color=orange><i>Не удалось подкрасться незаметно!</i></color>\nКто там? Макс?! Ты за нами подглядывашь?! Перед завтраком накажу! Быстро убирайся!|<color=orange><i>Schleichversuch misslungen!</i></color>\nWer ist da? Max?! Spionierst du uns nach?! Du wirst vor dem Frühstück bestraft! Verschwinde sofort!
+		leave!set_max.pun_1!set_max.punreason_3!add_eric.mood_-50!lock_momroom_3!add_eric.nvm_1^		<i>бежать!</i>|<i>Lauf!</i>
+
+	mom.eric.door.fuck.voyeur.new@120@e-Mom-eric-room-2-0@О, чёрт... Эрик трахает маму сзади, да так активно... Кажется, ей это очень нравится!|Oh, Scheiße.... Eric fickt meine Mutter von hinten.... Ich glaube, es gefällt ihr wirklich!
+		eric.voy.stage<2&mom.eric.fckv.1^							<i>далее</i>|<i>fortfahren</i>
+		eric.voy.stage=2&mom.eric.fckv.2^							<i>далее</i>|<i>fortfahren</i>
+		eric.voy.stage=3&mom.eric.fckv.3^							<i>далее</i>|<i>fortfahren</i>
+		eric.voy.stage=4&mom.eric.fckv.2^							<i>далее</i>|<i>fortfahren</i>
+		eric.voy.stage=5&mom.eric.fckv.5^							<i>далее</i>|<i>fortfahren</i>
+
+	mom.eric.fckv.1@68@e-Mom-eric-room-2-1@Макс?! Что за чёрт? Я тебя завтра утром накажу за это! Быстро ушёл оттуда!|Max, was zum Teufel?! Ich werde dich morgen bestrafen! Verschwinde von hier!
+		leave!set_eric.voy.stage_1!add_max.pun_1!set_max.punreason_3!lock_momroom_2^			Хорошо, мам...|Okay, Mom
+
+	mom.eric.fckv.2@120@e-Mom-eric-room-2-2@Что?! Эрик издевается? Кажется, мама меня не заметила, но этот гад... Вот сволочь...|Was?! Verspottet Eric mich? Ich glaube nicht, dass meine Mutter mich bemerkt hat, aber dieser Bastard.... Abschaum....
+		leave!add_eric.voy.stage_1!lock_momroom_2^					<i>уйти</i>|<i>verlassen</i>
+
+	mom.eric.fckv.3@68@e-Mom-eric-room-2-3@Макс? Ты опять подглядываешь? Утром накажу у всех на глазах за это!|Max? Spionierst du schon wieder? Ich werde dich morgen früh vor allen bestrafen!
+		mom.eric.fckv.3.next.1^										Э... Не надо!|Bitte nicht!
+
+	mom.eric.fckv.3.next.1@83@Ань, не спеши. Макс подросток и ему всё интересно. Ты же знаешь, запретный плод сладок. Думаю, не стоит его наказывать за такие шалости. Хорошо?|Warte, Ann. Max ist ein Teenager und er ist nur neugierig. Weißt du, die verbotene Frucht ist die süßeste. Ich denke, du solltest ihn dafür nicht bestrafen, okay?
+		mom.eric.fckv.3.next.2^										<i>далее</i>|<i>fortfahren</i>
+
+	mom.eric.fckv.3.next.2@69@Ну, хорошо, Эрик. Если ты так считаешь... Но пусть он уйдёт, я не могу так...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Nun, in Ordnung, Eric. Wenn du das glaubst. Aber er sollte gehen, ich kann es nicht vor ihm tun.... \n\n<color=lime><i><b>Achtung:</b>Neue "Gelegenheit" ist vorhanden!</i></color>
+		leave!add_eric.voy.stage_1!set_poss.control_1!lock_momroom_2^			Я уже ухожу, мам... Продолжайте!|Ich gehe, Mom.... fortfahren!
+
+	mom.eric.fckv.5@68@e-Mom-eric-room-2-3@Макс? Опять подглядываешь?! Ну-ка бегом отсюда!|Max? Spionierst du schon wieder?! Verschwinde hier!
+		mom.eric.fckv.5.next.1^										Я никому не мешаю же...|Ich bin nicht im Weg....
+		leave!lock_momroom_2^										Я уже ухожу, мам... Извини...|Ich gehe, Mom.... Es tut mir leid....
+
+	mom.eric.fckv.5.next.1@87@Ань, пусть лучше смотрит на нас, чем на непойми какие извращения в интернете, верно? Так, Макс, зайди сюда, поговорим...|Lass ihn, Ann, es ist besser, als Gott weiß was im Netz zu sehen. Komm her, Max, lass uns reden....
+		mom.eric.fckv.5.next.2^										<i>войти в комнату</i>|<i>ins Zimmer gehen</i>
+
+	mom.eric.fckv.5.next.2@73@e-Mom-eric-room-2-4@Эрик, но... он мой сын. Это неправильно, ты же понимаешь...|Aber Eric.... Er ist mein Sohn! Das ist so falsch....
+		mom.eric.fckv.5.next.3^										<i>далее</i>|<i>fortfahren</i>
+
+	mom.eric.fckv.5.next.3@86@Я думаю, что мы должны разрешить ему смотреть, если не будет мешать. Может быть, чему-то научится. Где-то ему же нужно учиться, пусть это будет таким образом... И Ань, не спорь со мной!|Ich denke, wir sollten ihm erlauben, zuzusehen, wenn es nicht stört. Vielleicht lernt er etwas. Und streite nicht mit mir, Ann!
+		mom.eric.fckv.5.next.4^										<i>далее</i>|<i>fortfahren</i>
+
+	mom.eric.fckv.5.next.4@69@Как скажешь, Эрик...|As you say, Eric...
+		mom.eric.fckv.5.next.5^										<i>далее</i>|<i>fortfahren</i>
+
+	mom.eric.fckv.5.next.5@87@Ну всё, Макс. Мы тут ещё побеседуем. А для тебя на сегодня хватит, иди. Да, потом ко мне подойди, мы с тобой тоже побеседуем кое о чём...|In Ordnung, Max. Ich rede mit deiner Mutter, aber du solltest jetzt gehen. Wir reden später....
+		leave!set_eric.voy.stage_6!lock_momroom_2!set_eric.talk.moreplans_1^		Хорошо...|Schön
+
+	mom.eric.door.fuck.voyeur.hard@120@e-Mom-eric-room-2-5@Вот ничего себе! Эрик совсем разошёлся... Кажется, мама и не пытается сопротивляться... Ой, она меня заметила! Интересно, что в её голове сейчас? Ну, кроме кляпа, конечно...|Wow! Eric wurde verrückt.... Sieht so aus, als würde Mom nicht widerstehen.... Mist, sie hat mich bemerkt! Ich frage mich, was jetzt in ihrem Kopf vorgeht. Nun, abgesehen von dem Ballknebel, das ist
+		leave!max_talk.mom.abouthard_1!lock_momroom_2^					<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Мама и Эрик спят (00:00 - 05:00)|Eric und Ann schlafen.
+
+	mom.eric.sleep@121@Кажется, все спят...|Sieht so aus, als ob alle schlafen....
+		mom.eric.sleep.voyeur^						<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		poss.wallet=2&max.try.steal.wallet^			<i>тихо войти в ?омнату</i>|<i>ins Zimmer schleichen</i>
+		poss.wallet=4&max.can.steal.wallet^			<i>тихо войти в комнату</i>|<i>ins Zimmer schleichen</i>
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.eric.sleep.voyeur@120@e-Mom-eric-sleep-1@Кажется, они крепко спят... Голые и без одеяла! Да... хорошо, что такая жара и нет кондиционеров дома... Но нужно ухоить, вдруг кто-то заметит...|Es scheint, sie schlafen fest.... nackt und ohne Decken! Ich liebe dieses Klima und den Mangel an Klimaanlage. Ich sollte gehen, bevor mich jemand bemerkt.
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Мама и Эрик в душе (06:00)|Eric and Ann in the shower, 06:00
+
+	mom.eric.shower@121@Похоже, мама вместе с Эриком принимают душ... Или что они там ещё могут делать?|Sieht so aus, als würden Mom und Eric ein Bad nehmen.... oder doch?
+		mom.eric.showe.voyeur^						<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		eric.voy.stage<6&mom.eric.showe.door^		<i>приоткрыть дверь</i>|<i>die Tür ein wenig öffnen</i>
+		eric.voy.stage>5&mom.eric.showe.door.can^	<i>приоткрыть дверь</i>|<i>die Tür ein wenig öffnen</i>
+
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.eric.showe.voyeur@120@e-Mom-eric-shower-1@Кажется, они так увлечены друг другом, что меня не заметят... Но может заметить кто-то другой. Так что, надо бы убираться отсюда...|Sie scheinen zu beschäftigt zu sein, um mich zu bemerken.... Aber ich werde vielleicht von jemand anderem erwischt, also sollte ich hier verschwinden.
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.eric.showe.door@120@e-Mom-eric-bath-1@Ва-а-у!!! Вот это я удачно заглянул... Но если меня заметят, то выпорят так, что потом сидеть долго не смогу... Пожалуй, я прикрою дверь...|Wow! Ich habe einen guten Moment gewählt, um nachzusehen. Aber wenn ich bemerkt werde, werde ich so sehr verprügelt, dass ich eine Woche lang nicht mehr sitzen kann. Ich glaube, ich schließe die Tür.
+		leave!lock^									<i>прикрыть дверь</i>|<i>die Tür schließen</i>
+
+	mom.eric.showe.door.can@120@e-Mom-eric-bath-1@Ого! Вот это я удачно выбрал момент! Как хорошо, что мне можно смотреть, даже если заметят, и мне за это ничего не будет!|Wow! Ich habe mir einen guten Moment ausgesucht! Und ich kann alles sehen, was ich will, ich werde nicht bestraft, selbst wenn ich geschnappt werde!
+		leave!lock^									<i>прикрыть дверь</i>|<i>die Tür schließen</i>
+
+
+
+# --- Утром Кира и Алиса в душе|Kira und Alice in der Dusche, morgens
+
+	girlsshower.1@121@В это время Алиса обычно принимает душ. О, она не одна. Похоже, Кира тоже там...|Normalerweise nimmt Alice diesmal eine Dusche. Oh, sie ist nicht allein. Sieht so aus, als ob Tante Kira beschlossen hat, sich ihr anzuschließen.
+		girlsshower.1.knock^																	<i>постучаться</i>|<i>anklopfen</i>
+		girlsshower.1.voyeur^																	<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^																				<i>уйти</i>|<i>verlassen</i>
+
+	girlsshower.1.knock@121@Хм... Никто не отвечает. Они так громко разговаривают друг с другом, что меня не слышат! Врываться через дверь опасно - получу от обеих. Но вот если одним глазком взглянуть с улицы...|Hm, niemand antwortet. Sie reden so laut, dass sie mich nicht mal hören können! Ich sollte nicht reinplatzen, sonst bekomme ich es von beiden. Aber ich könnte einen kurzen Blick durch das Fenster werfen....
+		girlsshower.1.voyeur^																	<i>подглядывать с улицы</i>|<i>nach außen spionieren</i>
+		leave!lock^																				<i>уйти</i>|<i>verlassen</i>
+
+	girlsshower.1.voyeur@120@e-alisa-kira-shower-1@Ого! Кира и Алиса разделись и собираются принять душ вместе! Если меня кто-то заметит, болеть будет всё... И очень долго. Пора уносить ноги!|Wow! Tante Kira und Alice sind nackt und gehen zusammen duschen! Wenn mich jemand erwischt, sterbe ich langsam und schmerzhaft, aber ich sollte verschwinden.
+		leave!lock^																				<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.3: Макс ловит Эрика, подглядывающего за Алисой ночью|Max erwischt Eric beim wichsen auf Alice
+
+	alisa.beric@6@e-beric-1@<i>Что этот подонок делает возле комнаты Алисы? Дрочит?! Ну, Эрик, ты попался!</i>|<i>Was macht dieses Arschgesicht neben Alices Zimmer? Holt er sich einen runter!? Jetzt hab ich dich, Eric!</i>
+		random.luck.50=1&item.photo=-5&alisa.beric.trygetphoto!set_dcd.ericnight_3^			<i>попытаться сбегать за фотоаппаратом</i> [skill.luck_50]|<i>versuchen, vor eine Kamera zu flüchten</i> [skill.luck_50]
+		random.luck.50=0&item.photo=-5&alisa.beric.nobody!set_dcd.ericnight_5^				<i>попытаться сбегать за фотоаппаратом</i> [skill.luck_50]|<i>versuchen, vor eine Kamera zu flüchten</i> [skill.luck_50]
+		alisa.beric.hey^																	<i>поднять шум</i>|<i>Lärm machen</i>
+		leave!set_com.ericnight_1!set_dcd.ericnight_3!sleep^								<i>уйти и лечь спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.nobody@2@e-alisa-sleep-1@<color=orange><i>В этот раз не повезло...</i></color>\n<i>Блин, пока я бегал, Эрик уже ушёл... Ну ничего, поймаю его в следующий раз...</i>|<color=orange><i>Du hast Pech gehabt!</i></color>\nScheiße, sieht aus, als wäre er gegangen, während ich weg war. Nächstes Mal kriege ich ihn.
+		leave!sleep^								<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey@82@e-beric-2@Макс! Что ты тут делаешь? Подглядываешь?!|Was machst du hier, Max? Spionierst du Alice nach?
+		alisa.beric.hey.1^							Вот ты и попался!|Jetzt habe ich dich!
+
+	alisa.beric.hey.1@83@Тише! Давай сделаем вид, что ты меня не видел, а я тебя...|Ruhe! Tun wir so, als hätten wir uns nicht gesehen.
+		random.dex.3=1&alisa.beric.hey.ask^										У меня есть условия! [skill.dex_3]|Ich habe einige Bedingungen! [skill.dex_3]
+		random.dex.3=0&alisa.beric.hey.Mom!set_max.pun_1!set_max.punreason_1^	У меня есть условия! [skill.dex_3]|Ich habe einige Bedingungen! [skill.dex_3]
+		alisa.beric.hey.Mom!set_max.pun_1!set_max.punreason_1^					Так не пойдёт! Пусть все увидят, что ты делаешь!|Auf keinen Fall, lass jeden sehen, was du getan hast!
+
+	alisa.beric.hey.Mom@69@e-beric-3@<color=orange><i>Мама вас услышала!</i></color>\nЧто здесь происходит? Эрик? Ты почему голый тут ходишь, дети же могут увидеть...|<color=orange><i>Mom hat dich gehört!</i></color>\nWas ist hier los? Eric? Was machst du hier nackt, die Kinder könnten dich sehen.
+		alisa.beric.hey.mom.1^									А я и так видел достаточно!|Ich habe schon genug gesehen!
+
+	alisa.beric.hey.mom.1@64@e-beric-4@Макс! А что ты тут делаешь в такое время?!|Was machst du so spät noch hier, Max?
+		random.social.1=1&alisa.beric.hey.mom.2a^				Я видел, как Эрик подглядывал за Алисой... и дрочил! [skill.social_1]|Ich habe Eric dabei erwischt, wie er Alice ausspioniert und sich einen runtergeholt hat! [skill.social_1]
+		random.social.1=0&alisa.beric.hey.mom.2b^				Я видел, как Эрик подглядывал за Алисой... и дрочил! [skill.social_1]|Ich habe Eric dabei erwischt, wie er Alice ausspioniert und sich einen runtergeholt hat! [skill.social_1]
+		alisa.beric.hey.mom.2c^									Я просто... вышел подышать...|Ich bin nur gekommen, um etwas frische Luft zu schnappen
+		eric.status=2&alisa.beric.hey.mom.bad.2d^				Я... подглядывал за Алисой и Эрик меня поймал...|Ich habe Alice ausspioniert und Eric hat mich erwischt
+
+	alisa.beric.hey.mom.2c@62@Подышать? В такое время, да ещё и на наш балкон? Наверняка, подглядывал и Эрик тебя поймал?|So spät? Hat Eric dich beim Spionieren erwischt?
+		alisa.beric.hey.mom.2c.1^								Нет...|Nein....
+		alisa.beric.hey.mom.2c.1^								Ну...|Nun....
+		alisa.beric.hey.mom.2c.1^								Да...|Ja...
+
+	alisa.beric.hey.mom.bad.2d@62@Эрик, это правда?|Ist das wahr, Eric?
+		alisa.beric.hey.mom.2c.1^								<i>промолчат?</i>|<i>schweigen</i>
+
+	alisa.beric.hey.mom.2c.1@87@Да, дорогая. Всё именно так и было... Да, накажешь его завтра, а теперь иди, ложись спать, мы с Максом ещё потолкуем...|Ja, Liebes, das ist passiert. Du wirst ihn morgen bestrafen. Jetzt geh schlafen, ich werde mich mit Max unterhalten....
+		eric.status<2&alisa.beric.hey.mom.notbad.war^			<i>промолчать</i>|<i>schweigen</i>
+		eric.status>1&alisa.beric.hey.mom.notbad.peace^			<i>промолчать</i>|<i>schweigen</i>
+
+	alisa.beric.hey.mom.2a@60@<color=lime><i>Убеждение удалось!</i></color>\nЭрик, что такое он говорит? Это правда, ты подглядывал з? Алисой?!|<color=lime><i>Überzeugungsarbeit erfolgreich!</i></color>\nWovon redet er, Eric? Ist das wahr, hast du Alice ausspioniert?
+		alisa.beric.hey.mom.bad^					Да да, я всё видел!|Ja, ich habe es mit eigenen Augen gesehen!
+
+	alisa.beric.hey.mom.bad@89@На самом деле, всё было не так. Я увидел, как Макс крался мимо и спугнул его. А потом ты проснулась и дальше сама всё видишь...|Nein, was wirklich passiert ist, ist, dass ich Max erwischt habe und jetzt versucht er, aus dieser Situation herauszukommen.
+		alisa.beric.hey.mom.bad.1^					Всё было не так, он всё врёт!|Das ist nicht passiert, er lügt!
+
+	alisa.beric.hey.mom.2b@62@<color=orange><i>Убеждение не удалось!</i></color>\nСерьёзно, Макс? Это всё, что ты смог выдумать? Прокрался на балкон и когда Эрик тебя поймал, во всём об?инил его?|<color=orange><i>Überzeugungsarbeit fehlgeschlagen!</i></color>\nWirklich, Max? Das ist das Beste, was dir eingefallen ist? Du hast nur Alice ausspioniert und jetzt versuchst du, die Schuld auf Eric abzuwälzen!
+		alisa.beric.hey.mom.bad.2^					Но мам, я говорю правду!|Ich sage die Wahrheit, Mom!
+
+	alisa.beric.hey.mom.bad.1@72@Ты знаешь, Макс, твоя версия не выдерживает никакой критики. Вот скажи, что ты вообще делаешь на этом балконе? Случайно залез?|Und was hast du überhaupt auf dem Balkon gemacht?
+		alisa.beric.hey.mom.bad.2^					Ну... я...|Nun.... Ich...
+
+	alisa.beric.hey.mom.bad.2@62@Всё ясно с тобой, Макс. Сейчас уже слишком поздно, так что, накажу тебя завтра перед завтраком!|Ich kann sehen, was los ist. Es ist spät, also werde ich dich morgen früh bestrafen!
+		alisa.beric.hey.mom.bad.3^					Но мам...|Aber Mom!
+
+	alisa.beric.hey.mom.bad.3@83@Ань, иди ложись спать. Мы сейчас с Максом ещё потолкуем и я отправлю его спать, затем вернусь к тебе.|Geh schalfen, Ann, es ist spät. Ich werde mich mit Max unterhalten und dann komme ich zu dir.
+		alisa.beric.hey.mom.bad.4^					Блин...|Scheiße....
+
+	alisa.beric.hey.mom.bad.4@84@e-beric-2@Ну что, Макс, облом вышел? |Also, Max, sind die Dinge nicht so gelaufen, wie du gehofft hast?
+		eric.status=2&alisa.beric.hey.mom.bad.peace^	Но я же видел!|Aber ich habe alles gesehen!
+		eric.status<2&alisa.beric.hey.mom.bad.war^		Но я же видел!|Aber ich habe alles gesehen!
+
+	alisa.beric.hey.mom.bad.war@81@И что с того, что видел? Кому ты что теперь докажешь? Вали уже нахрен отсюда, я спать хочу!|Na und? Niemand wird dir glauben. Jetzt verschwinde, ich will schlafen.
+		max.pun=0&alisa.beric.hey.mom.bad.war.want^		У меня требование!|Ich habe eine Forderung!
+		leave!sleep^									<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.bad.war.want@87@Требование? У тебя? Ко мне? Ну и какое?|Du hast eine Forderung? An mich? Sprich.
+		alisa.beric.hey.mom.bad.war.want.family^		Я хочу, чтобы ты отвалил от моей семьи!|Lass meine Familie in Ruhe!
+		alisa.beric.hey.mom.bad.war.want.inf^			Перестань настраивать семью против меня!|Hör auf, meine Familie gegen mich aufzubringen!
+
+	alisa.beric.hey.mom.bad.war.want.family@81@Серьёзно? Вот так вот и отвалю из-за того, что ты можешь что-то рассказать маме? Попробуй. Ещё и за враньё получишь по голой заднице перед сёстрами! А теперь свалил!|Erwartest du ernsthaft, dass ich deine Familie verlasse, weil du mich verrätst? Geh und versuch es, du wirst vor deiner Familie verhauen. Und jetzt verschwinde!
+		leave!sleep^									<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.bad.war.want.inf@81@А с чего ты взял, что я кого-то настраиваю против тебя? Мне вообще плевать на тебя с высокой колокольни... Но я тебя понял, ладно... А теперь вали отсюда.|Warum denkst du überhaupt, dass ich deine Familie gegen dich aufbringe? Deine Existenz ist mir auch egal. Aber Schön, ich werde darüber nachdenken. Und jetzt verschwinde.
+		leave!sleep!add_liza.inf_-5!add_alisa.inf_-5!add_mom.inf_-5^	<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.bad.peace@81@Ну видел, и что? Вообще, я не понимаю, Макс. Вроде бы мы с тобой уже обо всём договорились и ты так себя ведёшь. Неужели, хочешь со мной поссориться?|Na und? Ich verstehe dich nicht, Max. Hatten wir nicht eine Abmachung? Willst du dich mit mir streiten?
+		alisa.beric.hey.mom.bad.peace.good^				Нет...|Nein...
+		alisa.beric.hey.mom.bad.peace.bad^				Да! Ты подонок!|Ja! Ich hasse Dich!
+
+	alisa.beric.hey.mom.bad.peace.bad@84@Понятно... Ну что же, будь по твоему. Уговаривать тебя я не собираюсь. Честно говоря, мне плевать на тебя и чем раньше ты загремишь в лагерь, тем лучше. А теперь свалил отсюда!\n\n<color=orange><i><b>Внимание:</b> Ваши отношения значительно ухудшились!</i></color>|Ich verstehe. Nun, wenn es das ist, was du willst, werde ich nicht versuchen, deine Meinung zu ändern. Ich kümmere mich nicht wirklich um dich und je eher du ins Lager gehst, desto besser. Und jetzt verschwinde.\n\n<color=orange><i><b>Achtung:</b> deine Beziehungen zu Eric ist drastisch zurückgegangen!</i></color>
+		leave!sleep!ericwar^							<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.bad.peace.good@86@Вот и отлично. И не вздумай на меня катить бочку! А теперь вали отсюда, я спать хочу.|Gut. Und komm nicht auf dumme Gedanken! Jetzt verschwinde, ich will schlafen.
+		leave!sleep^									<i>идти спать</i>|<i>schlafen gehen</i>
+
+
+	alisa.beric.hey.mom.notbad.war@86@e-beric-2@Ты сделал правильный выбор, Макс. Хотя ты меня и удивил. Мы же с тобой вроде бы не ладим, а тут такое самопожертвование... С чего бы это? Чего-то хочешь?|Du hast die richtige Wahl getroffen, Max. Du hast mich aber überrascht. Es ist nicht so, als wären wir auf dem besten Weg, warum würdest du dich so unter den Bus werfen?
+		random.social.3=1&alisa.beric.hey.mom.notbad.war.inf^				Я просто хочу, чтобы ты поменьше всех настраивал против меня! [skill.social_3]|Ich will, dass du aufhörst, meine Familie gegen mich aufzubringen! [skill.social_3]
+		random.social.3=0&alisa.beric.hey.mom.notbad.war.noinf^				Я просто хочу, чтобы ты поменьше всех настраивал против меня! [skill.social_3]|Ich will, dass du aufhörst, meine Familie gegen mich aufzubringen! [skill.social_3]
+
+	alisa.beric.hey.mom.notbad.war.inf@81@<color=lime><i>Убеждение удалось!</i></color>\nСправедливо... Ну ладно. Будем считать, что это шаг к перемирию. А теперь иди спать.|<color=lime><i>Überzeugungsarbeit erfolgreich!</i></color>\nScheint fair.... Sicher. Ich nehme das als Friedensangebot. Jetzt schlafen gehen.
+		leave!sleep!add_liza.inf_-10!add_alisa.inf_-10!add_mom.inf_-10^		<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.notbad.war.noinf@81@<color=orange><i>Убеждение не удалось!</i></color>\nТы знаешь... Я подумаю, но ничего не обещаю. Я тебе не нравлюсь, ты мне не нравишься. С чего мне идти тебе навстречу?|<color=orange><i>Überzeugungsarbeit fehlgeschlagen!</i></color>\nNee. Ich mag dich nicht, du magst mich nicht, warum sollte ich dir helfen wollen?
+		alisa.beric.hey.mom.notbad.war.noinf.bad^							Подонок!|Fuck you!
+
+	alisa.beric.hey.mom.notbad.war.noinf.bad@84@Это всё, что ты можешь сказать? Хотя, тебе только это и остаётся, верно? Ладно, иди спать, а я буду считать, что ничего не слышал...|Ist das alles, was du zu sagen hast? Ich schätze, das ist alles, was du hast, oder? Du solltest schlafen gehen, ich tue dir einen Gefallen und tue so, als hättest du nichts gesagt.
+		leave!sleep^														<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.notbad.peace@86@e-beric-2@Ну что, Макс, я рад, что ты всё ещё на моей стороне. Раз уж ты идёшь мне навстречу, то пожалуй, увеличу твоё жалованье. А теперь иди спать!|Ich bin froh, dass wir noch auf der gleichen Seite stehen, Max. Und da du mir hilfst, werde ich dein Taschengeld erhöhen. Jetzt schlafen gehen.
+		random.social.3=1&alisa.beric.hey.mom.notbad.peace.inf^				А можешь ещё и не настраивать семью против меня? [skill.social_3]|Könntest du aufhören, meine Familie gegen mich aufzubringen? [skill.social_3]
+		random.social.3=0&alisa.beric.hey.mom.notbad.peace.noinf^			А можешь ещё и не настраивать семью против меня? [skill.social_3]|Könntest du aufhören, meine Familie gegen mich aufzubringen? [skill.social_3]
+		leave!sleep!add_eric.fee_10^										<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.notbad.peace.inf@81@<color=lime><i>Убеждение удалось!</i></color>\nА я разве настраиваю? Но если ты так считаешь, то попробую не говорить о тебе что-то плохое... какое-то время. Шутка! Ладно, иди спать!|<color=lime><i>Überzeugungsarbeit erfolgreich!</i></color>\nIch bin nicht sicher, ob ich verstehe, was du meinst, aber sicher, ich werde versuchen, keine schlechten Dinge über dich zu erzählen.... für einige Zeit. Ich mache nur Spaß. Jetzt geh schlafen.
+		leave!sleep!add_liza.inf_-10!add_alisa.inf_-10!add_mom.inf_-10^		<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.mom.notbad.peace.noinf@81@<color=orange><i>Убеждение не удалось!</i></color>\nНе понимаю о чём речь, Макс. Мы же с тобой, вроде бы, ладим? С чего мне кого-то настраивать... Ну всё, иди спать!|<color=orange><i>Überzeugungsarbeit fehlgeschlagen!</i></color>\nIch weiß nicht, wovon du redest, Max. Wir sind Freunde, warum sollte ich versuchen, deine Familie gegen dich aufzubringen? schlafen gehen, Max.
+		leave!sleep^														<i>идти спать</i>|<i>schlafen gehen</i>
+
+
+	alisa.beric.trygetphoto@4@e-beric-1@<color=lime><i>В этот раз мне повезло!</i></color>\n<i>Эрик до сих пор дрочит, глядя на Алису... Сейчас получится шикарный кадр!</i>|<color=lime><i>Du hast Glück gehabt!</i></color>\n<i>Eric ist immer noch hier, holt sich einen runter und schaut Alice an.... Jetzt kann ich eine tolle Aufnahme machen!</i>
+		random.dex.2=1&alisa.beric.trygetphoto.good^		Сделать кадр [skill.dex_2]	|Take a pic [skill.dex_2]
+		random.dex.2=0&alisa.beric.trygetphoto.bad^			Сделать кадр [skill.dex_2]	|Take a pic [skill.dex_2]
+
+	alisa.beric.trygetphoto.good@3@e-beric-5@<color=lime><i>Удалось сделать кадр!</i></color>\n<i>Ну всё, Эрик, теперь ты попался! Так, нужно сваливать, пока меня не поймали, а то и камеру заберут и обвинят во всём...</i>|<color=orange><i>Du hast es geschafft, einen guten Schuss abzugeben!</i></color>\n<i>Jetzt habe ich dich, Eric! Jetzt muss ich raus, bevor er mich bemerkt, oder er nimmt mir die Kamera weg und gibt mir die Schuld für alles.</i>
+		leave!sleep!set_com.ericnight_2^					<i>Уйти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.trygetphoto.bad@88@e-beric-2@<color=orange><i>Эрик вас заметил!</i></color>\nМакс, какого хрена ты делаешь? Ну-ка, давай сюда фотоаппарат... ага, не успел сфоткать, отлично. А теперь вали отсюда!|<color=orange><i>Eric hat dich erwischt!</i></color>\nWas zum Teufel machst du hier, Max? Gib mir deine Kamera.... Sieht aus, als hättest du keine Zeit gehabt, ein Foto zu machen, bevor ich dich erwischt habe. Gut. Und jetzt verschwinde!
+		leave!sleep^										Блин! <i>(уйти спать)</i>|Shit <i>(schlafen gehen)</i>
+
+
+	alisa.beric.hey.ask@88@<color=lime><i>Кажется, никто не проснулся...</i></color>\nКакие ещё условия? Ты нашёл время, чтобы болтать... Иди спать!|<color=lime><i>Niemand hat dich gehört</i></color>\nWelche Voraussetzungen? Das ist nicht die Zeit zum Reden, schlafen gehen!
+		alisa.beric.hey.ask.now^							Ну уж нет, давай сейчас обсудим!|Auf keinen Fall, wir reden gerade!
+
+	alisa.beric.hey.ask.now@81@Ну и чего ты хочешь?|Schön, was willst du denn?
+		eric.status=2&alisa.beric.hey.ask.now.money^		Надбавку $20 к карманным деньгам!|Ich will 20$ mehr Taschengeld!
+		lizas.mentor=2&alisa.beric.hey.ask.now.liza^		Я хочу сам обучать Лизу!|Ich will Lisa unterrichten!
+		alisa.beric.hey.mom.bad.war.want.inf^				Хочу, чтобы ты поменьше настраивал семью против меня!|Ich will, dass du aufhörst, meine Familie gegen mich aufzubringen!
+
+	alisa.beric.hey.ask.now.money@83@А жирно не будет? Добавлю $5 и иди спать...|Du verlangst zu viel, ich gebe dir $5, gen schlafen.
+		random.social.2=1&alisa.beric.hey.ask.now.money.10^	Нет, давай $10! [skill.social_2]|Nein, gib mir $10! [skill.social_2]
+		random.social.2=0&alisa.beric.hey.ask.now.money.no^	Нет, давай $10! [skill.social_2]|Nein, gib mir $10! [skill.social_2]
+
+	alisa.beric.hey.ask.now.money.10@84@<color=lime><i>Убеждение удалось!</i></color>\nНу ладно, ладно... Буду платить тебе больше. А теперь вали спать!|<color=lime><i>Überzeugungsarbeit erfolgreich!</i></color>\nSchön, Schön. Ich zahle Dir mehr. Jetzt geh schlafen!
+		leave!sleep!add_eric.fee_10^						<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.ask.now.money.no@84@<color=orange><i>Убеждение не удалось!</i></color>\nПросил бы уже сразу $100, чего мелочиться? Нет, $5 тебе хватит, вали уже отсюда!|<color=orange><i>Überzeugungsarbeit fehlgeschlagen!</i></color>\nNee, $5 sind genug für dich. Jetzt geh schlafen!
+		leave!add_eric.fee_5!sleep^							<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.ask.now.liza@84@Макс, мы же с тобой договорились: Лиза - моя. Как и все женщины в твоей семье. И если тебе нечего возразить, то вали уже отсюда!|Hatte ich nicht einen Deal mit dir, Max? Lisa gehört mir. Genau wie alle anderen Frauen in der Familie. Raus hier.
+		alisa.beric.hey.ask.now.liza.tell^					А если я маме расскажу про то, что видел?|Und was, wenn ich Mom erzähle, was ich gesehen habe?
+
+	alisa.beric.hey.ask.now.liza.tell@81@Я не понял. Ты воевать со мной собрался?|Versuchst du, einen Krieg mit mir anzufangen?
+		alisa.beric.hey.ask.now.liza.tell.no^				Нет, я просто спросил...|Nein, ich habe nur gefragt.
+		alisa.beric.hey.ask.now.liza.tell.yes^				Да ты меня достал, подонок!|Ja, ich kann dich nicht mehr ausstehen!
+
+	alisa.beric.hey.ask.now.liza.tell.no@82@Ну вот я просто и ответил. А теперь вали спать!|Und ich habe nur geantwortet. Jetzt geh schlafen.
+		leave!sleep^										<i>идти спать</i>|<i>schlafen gehen</i>
+
+	alisa.beric.hey.ask.now.liza.tell.yes@82@Ну что же, это твой выбор. А теперь вали спать, иначе я тебя с балкона сброшу!\n\n<color=orange><i><b>Внимание:</b> Ваши отношения значительно ухудшились!</i></color>|Nun, es ist deine Entscheidung. Jetzt geh schlafen, bevor ich dich vom Balkon werfe!\n\n\n<i><b>Achtung:</b>Deine Beziehung zu Eric hat sich drastisch verschlechtert!</i>
+		leave!sleep!ericwar^								<i>идти спать</i>|<i>schlafen gehen</i>
+
+
+
+# --- 0.3: Эрик дарит Алисе различные наряды|Eric gibt Alice einen Haufen Dessous
+
+	alisa.eshow@121@<i>Кажется, в комнате Алиса с Эриком... Через балкон заглянуть не получится, точно заметят... А вот если аккуратно приоткрыть дверь...</i>|<i>Sieht aus, als wäre Alice bei Eric.... Ich kann nicht vom Balkon aus schauen, aber wenn ich eine Tür ein wenig öffnen könnte....</i>
+		alisa.inf<60&eshow=1&alisa.eshow.1!add_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf<60&eshow=2&alisa.eshow.2!add_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf<60&eshow=3&alisa.eshow.3!add_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf<60&eshow=4&alisa.eshow.4!add_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf<60&eshow=5&alisa.eshow.5!add_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf<60&eshow=6&alisa.eshow.6!add_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf<60&eshow=7&alisa.eshow.7!add_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf<60&eshow=8&alisa.eshow.8!set_eshow_1!max_alisa.talk.eric.under_1^		<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf>59&alisa.inf<100&alisa.massx.low!max_alisa.talk.eric.mass_1^			<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		alisa.inf>99&alisa.massx.high!max_alisa.talk.eric.mass_1^						<i>приоткрыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.1@120@e-eshow-1-1@<i>Ого! Видимо, Эрик опять что-то купил для Алисы, а она рада покрутить задницей... И развалился так, как будто король... Вот сволочь!</i>|<i>Wow! Sieht so aus, als hätte Eric wieder etwas für Alice gekauft, und sie ist glücklich, ihm ihren Arsch zu zeigen.... Er liegt da, als ob ihm der Laden gehört.... Verdammtes Arschloch!</i>
+		alisa.eshow.1.next.1^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.1.next.1@22@e-eshow-1-2@Эрик, ну ты скажи, тебе нравится или нет? Лично мне очень, а ты чего сидишь? Челюсть отвисла?|Also, Eric, gefällt es dir oder nicht? Ich liebe es wirklich, du etwa? Hat's dir die Sprache verschlagen?
+		alisa.eshow.1.next.2^	<i>набл?да?ь</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.1.next.2@87@Алиса, на твоей чудесной попке что угодно будет смотреться шикарно. И да, мне нравится, как это выглядит!|Alles wird gut aussehen auf deinem Arsch, der so gut ist wie meiner! Und ja, ich mag es wirklich.
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+
+	alisa.eshow.2@21@e-eshow-2-1@И что, ты просто решил мне подарить вот этот комплект? Просто так? Или я что-то должна?|Also was, du hast dich einfach entschieden, es für mich zu kaufen, ohne besonderen Grund? Oder schulde ich dir jetzt etwas?
+		alisa.eshow.2.next.1^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.2.next.1@87@Нет, ничего. Просто так. Но если покажешь себя со всех сторон, чтобы я убедился, что он тебе подходит, будет чудесно!|Nein, du schuldest mir nichts. Aber wenn du mir zeigst, wie es an dir aussieht, damit ich sicherstellen kann, dass es passt, wenn du willst.
+		alisa.eshow.2.next.2^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.2.next.2@25@e-eshow-2-2@Ну как, посмотрел? Нравится? Мне очень... Спасибо тебе, Эрик! Вот именно таких маленьких радостей мне и нехватает!|Also, wie gefällt es dir? Es ist perfekt, danke, Eric!
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+
+	alisa.eshow.3@22@e-eshow-3-1@Эй! Эрик! Ты обещал не подглядывать. Я же вижу краем глаза, что ты пялишься на меня! Отвернись, быстро!|Hey, Eric, du hast versprochen, nicht hinzusehen. Ich kann sehen, dass du mich anstarrst! Dreh dich sofort um!
+		alisa.eshow.3.next.1^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.3.next.1@87@e-eshow-3-2@О да, Алиса, сидит отлично. Правда, цвет не нравится. Слишком ярко. Хотя, если ты хочешь, чтобы все смотрели на твою попку, то всё отлично!|Es passt perfekt, Alice. Ich bin mir nicht sicher, ob mir die Farbe gefällt. Es ist ein bisschen zu hell, es sei denn, du willst, dass alle auf deinen Arsch starren. Dann ist es einfach perfekt.
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+
+	alisa.eshow.4@33@e-eshow-4-1@Эй, Эрик! Не смешно! Куда дел верхнюю часть? Отдавай! А то не буду её примерять и ничего больше не увидишь!|Hey, Eric, das ist nicht lustig! Wo hast du das Oberteil gelassen? Gib es zurück oder ich werde nichts anprobieren und du wirst nichts mehr sehen!
+		alisa.eshow.4.next.1^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.4.next.1@11@<i>Блин, у них отношения уже явно вышли на какой-то новый, дебильный уровень. Ему что, моей мамы нехватает? Эх, Алиска... надеюсь, ты знаешь что делаешь...</i>|<i>Scheiße, ihre Beziehung hat sich auf eine neue dumme Ebene gewandelt. Er hat bereits Mutter, ist sie nicht genug? Oh, Alice.... Ich hoffe, Du weisst, was du tust....</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+
+	alisa.eshow.5@21@e-eshow-5-1@Эрик! Только не подглядывай, ты обещал! Сейчас оденусь и скажу, когда можно будет смотреть...|Eric! Versprich mir, nicht hinzusehen! Ich sage Dir, wann Du schauen kannst.
+		alisa.eshow.5.next.1^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.5.next.1@30@e-eshow-5-2@Эй, я же тебя просила! Хватит подглядывать! Это тебе не стриптиз... И вообще...|Hey, ich habe dir gerade gesagt, dass du nicht hinsehen kannst! Das ist kein Striptease!
+		alisa.eshow.5.next.2^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.5.next.2@86@e-eshow-5-3@На такую красивую девушку я не могу не смотреть... Попка что надо, грудь красивая... Мне нравится! И комплект, кстати, тоже!|Dich nicht anzuschauen ist unmöglich, du bist zu hübsch! Ich mag das hier, es steht dir gut.
+		leave!lock^				<i>вот сволочь!</i>|<i>Dieser Bastard!</i>
+
+
+	alisa.eshow.6@21@e-eshow-6-1@Отличные трусики... Мне нравятся. А тебе, Эрик?|Hübsches Höschen.... Ich mag sie. Was meinst du, Eric?
+		alisa.eshow.6.next.1^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.6.next.1@30@e-eshow-6-2@Блин, Эрик! Ты же пялишься на мои сиськи! Тебе не стыдно? Но в любом случае, спасибо. Мне трусики понравились. Красивые...|Komm schon, Eric! Du starrst auf meine Brüste! Schämst du dich nicht? Aber trotzdem danke, ich mochte das Höschen. Es ist süß.
+		leave!lock^				<i>подонок!</i>|<i>Dieser Bastard!</i>
+
+
+	alisa.eshow.7@9@e-eshow-7-1@<i>Что?! Алиса не стесняется при нём почти до гола раздеваться?! Блин, ну что за отстой! Крутит задницей перед ним как последняя шлюха. Как же я ненавижу Эрика...</i>|<i>Was!? Alice ist fast nackt direkt vor ihm! Sie zeigt ihm ihren Arsch wie eine Hure. Gott, ich hasse Eric so sehr....</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+
+	alisa.eshow.8@23@e-eshow-8-1@Не поняла... А где мои трусики? Они же только что где-то здесь были...|Warte, wo ist mein Höschen? Es war genau hier....
+		alisa.eshow.8.next.1^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.8.next.1@25@e-eshow-8-2@Эрик! Ну что за шутки? Куда дел мои трусы? Отдавай! А то я стою тут перед тобой как дура, прикрываюсь... |Soll das ein Witz sein, Eric? Gib mir mein Höschen zurück! Warum muss ich mich wie ein Idiot schützen?
+		alisa.eshow.8.next.2^	<i>наблюдать</i>|<i>beobachten</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.eshow.8.next.2@87@Так не прикрывайся! Неужели, до сих пор меня стесняешься? Я уже всё видел, что нужно... Да и не брал я твои трусы. Упали куда-то... Можешь наклониться, поискать...|Dann bedecke dich nicht! Schämst du dich immer noch für mich? Ich habe schon alles gesehen.... Und ich habe dein Höschen nicht angefasst, sie sind wahrscheinlich irgendwo hingefallen.... Du solltest dich bücken und nach ihnen suchen....
+		leave!lock^				<i>Да что же это такое!</i>|<i>Was zum Teufel ist das für eine Scheiße!?</i>
+
+
+
+# --- 0.3: Эрик делает массаж Алисе|Eric's giving Alice a massage
+
+	alisa.massx.low@8@e-mass-1@<i>Какого чёрта здесь происходит? Алиса совсем стыд потеряла - сняла свою майку и лежит почти голая, пока Эрик её лапает своими ручищами! Ну что за отстой!</i>|<i>Was zum Teufel ist hier los? Alice hat ihr Shirt ausgezogen und liegt jetzt fast nackt, während Eric sie überall betatscht! Das ist scheiße!</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+	alisa.massx.high@9@e-mass-2@<i>Что?! Эрик ещё и джинсы снял?! Хорошо, хоть оба в трусах остались. Но что это за хрень? Нужно что-то предпринять, чтобы такого не было...</i>|<i>Was!? Jetzt hat er seine Hose ausgezogen? Wenigstens tragen sie beide Unterwäsche. Aber das ist völlig inakzeptabel, ich muss etwas tun.</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.3: Эрик обучает Лизу за закрытой дверью|Eric unterrichtet Lisa hinter verschlossener Tür
+
+	badteacher.door@121@<i>Кажется, там мама с Эриком и... Лизой? Интересно, о чём они разговаривают или чем занимаются? Если я попытаюсь заглянуть, то меня точно поймают! Эх...</i>|<i>Sieht aus, als wäre Mom bei Eric und.... Lisa? Ich schätze, das ist eine der Sexualkunde-Lektionen. Ich frage mich, was sie tun.... Ich werde geschnappt, wenn ich versuche, sie auszuspionieren, also habe ich keine andere Wahl als zu gehen....</i>
+		leave!lock^				<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Алиса спит в 2 часа ночи, пока Катя курит на улице|2 Uhr morgens, Alice schläft, während Kate raucht.
+
+	alisa.asleep@121@<i>Кажется, за дверью тихо. Может быть, заглянуть в окно?</i>|<i>Ich kann hinter der Tür nichts hören. Vielleicht sollte ich in das Fenster schauen?</i>
+		girlz.sleep=0&alisa.asleep.v0^					<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.sleep=1&alisa.asleep.v1^					<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.sleep=2&alisa.asleep.v2^					<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.asleep.v0@4@n-as-1@<i>Хороша сестрёнка! Пока спит, можно её поразглядывать. Жаль, что темно...</i>|<i>Gott, sie ist heiß! Ich kann sie ansehen, so viel ich will, wenn sie schläft. Schade, dass es so dunkel ist....</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.asleep.v1@4@n-as-2@<i>Вау! Алиса спит с голыми сиськами! Прикольно. Вот бы их потрогать... Да точно разбужу... Да и Катя может вернуться...</i>|<i>Wow! Alice schläft ohne das Oberteil! Cool. Ich will sie so sehr berühren.... Aber dann wird sie aufwachen. Und Kate kann auch jeden Moment wiederkommen....</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.asleep.v2@4@n-as-3@<i>Ух! Алиса спит абсолютно голая! Вот это мне повезло... Как бы я хотел сейчас немного... полежать рядом... Но если проснётся... Да и Катя с минуты на минуту может вернуться...</i>|<i>Wow! Alice schläft völlig nackt! Ich bin so glücklich.... Wenn ich nur neben ihr liegen könnte.... Aber sie wird aufwachen und Kate kann jeden Moment wiederkommen....</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Алиса спит с Катей в 3 часа ночи|Kate und Alice schlafen um 3 Uhr morgens.
+
+	alisa.ksleep@121@<i>Кажется, за дверью тихо. Может быть, заглянуть в окно?</i>|<i>Ich kann hinter der Tür nichts hören. Vielleicht sollte ich durch das Fenster schauen?</i>
+		girlz.sleep=0&alisa.ksleep.v0^					<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.sleep=1&alisa.ksleep.v1^					<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.sleep=2&alisa.ksleep.v2^					<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.ksleep.v0@4@n-kas-1@<i>Ух, какие девочки! Вот бы мне между ними сейчас... Может быть однажды...</i>|<i>Sie sind so heiß! Ich wäre jetzt gerne unter ihnen.... Vielleicht eines Tages....</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.ksleep.v1@4@n-kas-2@<i>Прикольно! Они спят в одних трусах с голыми сиськами! Вот бы мне туда... Интересно, что будет, если они меня поймают? Кажется, ничего хорошего...</i>|<i>Sie schlafen ohne ihre Oberteile! Wenn ich nur bei ihnen sein könnte.... Aber ich will definitiv nicht von ihnen erwischt werden, also sollte ich gehen.</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.ksleep.v2@4@n-kas-3@<i>Какие девочки, а! Абсолютно ничего не стесняются, валяются там голые в обнимку... Как я им завидую...</i>|<i>Sieh sie dir an! Absolut nackt, nackt nebeneinander liegend.... Ich bin so neidisch....</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: У Алисы Катя|Kate visits Alice
+
+	alisa.kate@121@<i>Кажется, Алиса там не одна. Стучаться не стоит... Может быть, заглянуть в окно?</i>|<i>Ich glaube, Alice ist jetzt nicht mehr allein. Ich denke nicht, dass ich klopfen sollte, aber was ist mit dem Blick durch das Fenster?</i>
+		girlz.scene=0&ak.voy.0^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=1&ak.voy.1^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=2&ak.voy.2^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=3&ak.voy.3^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=4&ak.voy.4^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=5&ak.voy.5^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=7&ak.voy.7^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=8&ak.voy.8^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=9&ak.voy.9^							<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=10&ak.voy.10^						<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=11&ak.voy.11^						<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=12&ak.voy.12^						<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=13&ak.voy.13^						<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=14&ak.voy.14^						<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		girlz.scene=20&05.ths.0^						<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Подглядываем за девчонками в комнате. начальная сцена|Mädchen in ihrem Zimmer ausspionieren, 0. Szene
+
+	ak.voy.0@120@n-kx-1@<i>К Алисе пришла подружка. Они что, просто разговаривают? Любопытно, они будут чем-нибудь интересным заниматься? Ой, лучше спрятаться, а то не похоже, что они будут рады меня увидеть...</i>|<i>Alice hat ein Mädchen hier. Was werden sie wohl tun? Ich glaube nicht, dass sie sich freuen würden, mich zu sehen, also sollte ich verschwinden.</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+# --- 0.4: Подглядываем за девчонками в комнате. 1-я сцена|Mädchen in ihrem Zimmer ausspionieren, 1. Szene
+
+	ak.voy.1@120@n-kx-2@<i>У Алисы опять в гостях Катя. Похоже, они опять просто о чём-то болтают. А я думал, что будет что-то интересненькое... Видимо, не в этот раз. Ладно, пойду я, а то ещё и спалюсь на ровном месте...</i>|<i>Kate kam vorbei, um Alice wiederzusehen. Sieht aus, als würden sie nur wieder reden. Ich hatte gehofft, dass es etwas Aufregenderes geben würde.... Diesmal nicht, schätze ich. Ich sollte gehen, bevor sie mich erwischen.</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+# --- 0.4: Подглядываем за девчонками в комнате. 2-я сцена|Mädchen in ihrem Zimmer ausspionieren, 2. Szene
+
+	ak.voy.2@120@n-kx-3@<i>Ух, какие аппетитные попки! Кажется, они что-то там читают, листают какие-то журналы. Интересно, это женские журналы про моду или может... эротические? Хотя, не, подружки такое вместе не читают... наверняка...</i>|<i>Diese Ärsche sind perfekt! Ich glaube, sie lesen einige Zeitschriften. Ich frage mich, ob es nur ein paar Modezeitschriften sind oder lesen sie etwas.... Erotisches? Ich bezweifle es, aber Freunde lesen so etwas nicht zusammen....</i>
+		leave!lock!art_n-ks-1_n-ks-2_-1^										<i>уйти</i>|<i>verlassen</i>
+
+# --- 0.4: Подглядываем за девчонками в комнате. 3-я сцена|Mädchen in ihrem Zimmer ausspionieren, 3. Szene
+
+	ak.voy.3@120@n-kx-4@<i>Ого, подружки решили посмотреть какой-то фильм вместе. Что же они там смотрят с таким видом? Эх, и никак не заглянуть. И звук тихий - ничего не разобрать... Ладно, пусть смотрят. Было бы что-то интересное, я бы сразу понял...</i>|<i>Sie sehen sich zusammen einen Film an. Ich frage mich, was es ist, da sie es fast nackt sehen. Aber man kann nicht hinsehen und ich kann auch nichts hören.... Eh, wenn sie etwas Interessantes sehen würden, wüsste ich das von ihrem Verhalten.</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+# --- 0.4: Подглядываем за девчонками в комнате. 4-я сцена|Mädchen in ihrem Zimmer ausspionieren, 4. Szene
+
+	ak.voy.4@120@n-kx-5@<i>Бинго! Это я вовремя заглянул. Теперь уж точно они порнушку смотрят! А Катя ещё и ласкает себя... Да ещё и на глазах у Алисы! А что она делает? Трогает свою грудь? Любопытные у них отношения... Нужно будет Катю допросить об этом. Если расскажет, конечно...</i>|<i>Das ist ein guter Zeitpunkt, um nachzusehen! Sie sehen definitiv etwas Schlüpfriges! Und Kate berührt sich sogar selbst.... Direkt vor Alice! Und Alice berührt ihre Brust? Sie haben eine sehr interessante Beziehung.... Ich sollte Kate danach fragen. Ich hoffe, sie sagt mir....</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+# --- 0.4: Подглядываем за девчонками в комнате. 5-я сцена|Mädchen in ihrem Zimmer ausspionieren, 5. Szene
+
+	ak.voy.5@120@n-kx-6@<i>Обалдеть! Они и правда... близки. Сидят и ласкают себя друг у дружки на глазах... абсолютно голые! Что же там за фильм то у них? Блин, вот бы мне туда, я бы их обеих... поласкал, да не по разу...</i>|<i>Wow! Sie sind wirklich nah dran.... Sie berühren sich direkt voreinander, absolut nackt! Wenn ich mich ihnen nur anschließen könnte, würde ich sie anfassen....</i>
+		leave!set_kate.talk_6!lock!art_n-ks-1_n-ks-3_-1!set_girlz.sleep_1^						<i>уйти</i>|<i>verlassen</i>
+
+# --- 0.4: Подглядываем за девчонками в комнате. первый особый эвент|Mädchen in ihrem Zimmer ausspionieren, erstes besonderes Ereignis
+
+	ak.voy.7@120@n-kx-7@<i>Вау! Что они делают?! Да, теперь никаких сомнений... А ещё Катя говорила, что Алиса не по девочкам. Вон как ловко своим язычком работает... Да, это я удачно заглянул!</i>|<i>Wow! Diese Szene wird nicht in Frage gestellt....! Und Kate hat gesagt, dass Alice nicht an Mädchen interessiert ist. Sieht im Moment nicht so aus! Ich habe mir eine gute Zeit ausgesucht, um sie auszuspionieren!</i>
+		ak.voy.7.step.2^			<i>выглянуть из-за угла</i>|<i>Blick um die Ecke</i>
+
+	ak.voy.7.step.2@30@n-kx-8@Что?! Макс! Убирайся отсюда, пока я тебя сама не сбросила с балкона!|Was!? Max! Verschwinde, bevor ich dich vom Balkon gestoßen habe!
+		ak.voy.7.step.3^			У меня приглашение...|Ich wurde eingeladen....
+
+	ak.voy.7.step.3@25@Приглашение?! От кого? Вали отсюда, быстро! И если кому-то скажешь что видел, тебе не жить, обещаю!|Nein, warst du nicht, du kleiner Schwachkopf, verschwinde! Und wenn du es jemandem erzählst, werde ich dich buchstäblich umbringen, versprochen!
+		ak.voy.7.step.4^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.7.step.4@152@Алис, всё в порядке. Мы с Максом разговаривали и я его пригласила к нам присоединиться. Да и тебе я намекала кое на что, забыла?|Es ist okay, Alice, Max und ich haben uns unterhalten und ich habe ihn eingeladen. Weißt du nicht mehr, wie ich das angedeutet habe?
+		ak.voy.7.step.5^			Вот видишь!|Siehst du!
+
+	ak.voy.7.step.5@29@n-kx-9@Кать, но он же мой брат. Это же извращение! Давай найдём какого-нибудь другого парня, почему именно его? Ну пожалуйста, Кать...|Aber er ist mein Bruder, Kate! Es ist falsch! Lass uns jemand anderen finden, warum muss er es sein? Bitte, Kate....
+		ak.voy.7.step.6^			А я уже здесь...|Aber ich bin schon da!
+
+	ak.voy.7.step.6@152@Вот именно! Кроме того, ты сама упоминала, что у него большой... талант. Вот и посмотрим. Ты же не хочешь меня огорчить отказом, да Лисик?|Das ist richtig. Außerdem hast du selbst gesagt, dass er ein großes.... Talent hat. Mal sehen. Du willst mich doch nicht mit deiner Weigerung enttäuschen, oder, Alice?
+		ak.voy.7.step.7^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.7.step.7@20@Тебя не хочу огорчить... А вот его готова убить! Блин... ну ладно. Только давай ему завяжем глаза. Я не хочу, чтобы он видел меня с тобой...|Nein, ich will dich nicht enttäuschen.... Aber ich bin bereit, ihn zu töten! Mist.... Schön. Aber halten wir ihm die Augen zu, ich will nicht, dass er uns sieht....
+		ak.voy.7.step.8^			Э... нет. Что угодно, только не глаза...|Em.... nein. Alles außer das....
+
+	ak.voy.7.step.8@159@Отличная идея, Макс! Что угодно, значит... Садись на стул, мы тебя привяжем. Пока будешь просто зрителем! И ты обещал не возражать. Иначе помнишь, две разгневанные девушки могут сделать с тобой такое...|Tolle Idee, Max! Alles, was Ich sage.... Setz dich auf diesen Stuhl, wir fesseln dich. Du wirst vorerst ein Zuschauer sein. Du hast versprochen, nicht zu streiten, oder wir können etwas tun, was du bereuen wirst....
+		ak.voy.7.step.9^			Ну, ладно...|Schön...
+
+	ak.voy.7.step.9@20@n-kx-10@Вот, так крепко. Точно не выберется... Но я бы ему ещё и глаза завязала... И кляп в рот! А то будет гадости болтать, всю атмосферу разрушит...|Okay, fesselt ihn ordentlich, damit er sich nicht selbst befreien kann.... Ich würde ihm auch gerne die Augen binden.... Und knebelt ihn! Oder er ruiniert die Atmosphäre mit seinem dummen Mund....
+		ak.voy.7.step.10^			Буду нем как рыба!|Ich bin ganz still!
+
+	ak.voy.7.step.10@159@Это нас устроит. Ну, Лисик, что ты там хотела со своим непослушным братиком сделать? Мне уже нести те большие игрушки? Только вот жаль, смазку дома забыла. Придётся насухо... Извини, Макс, ты попал...|Okay, Alice, was wolltest du mit deinem kleinen Bruder machen? Soll ich jetzt das große Spielzeug holen? Schade, dass ich kein Gleitmittel dabei habe, es muß trocken gehen.... Tut mir leid, Max, du wirst es jetzt bekommen....
+		ak.voy.7.step.11^			ЧТО?!|WAS!?
+
+	ak.voy.7.step.11@20@А я тебе говорила, что кляп нужен. Он же тут орать будет, ещё Лизу разбудит...|Ich sagte dir, wir sollten ihn knebeln. Wenn er schreit, weckt er Lisa auf....
+		ak.voy.7.step.12^			КАКОГО ХРЕНА?!|WAS ZUM TEUFEL!?
+
+	ak.voy.7.step.12@159@n-kx-9@Кажется, он поверил, прикинь, Лисик! Прикольный у тебя братишка. Ладно, Макс, выдыхай. Мы пошутили. Можешь смотреть, но молчи, твои комментарии нам не нужны.|Okay, sieht so aus, als wäre er darauf reingefallen. Dein Bruder macht Spaß, Alice. Du kannst dich entspannen, Max, wir haben nur Spaß gemacht. Du kannst zusehen, aber wir wollen keine Kommentare hören, verstehst du?
+		ak.voy.7.step.13^			Х-хорошо...|O-okay...
+
+	ak.voy.7.step.13@25@n-kx-11@Кать, я что-то стесняюсь при нём это делать. Может и правда завяжем ему глаза. Так пофантазирует хоть...|Ich bin mir nicht sicher, ob ich etwas vor ihm tun will. Bist du sicher, dass wir seine Augen nicht verdecken können? Er kann hier sitzen und sich vorstellen, was wir stattdessen tun....
+		ak.voy.7.step.14^			Алиса! Мы договорились!|Das war nicht der Deal, Alice!
+
+	ak.voy.7.step.14@152@Так, всё, Алиса, не отвлекайся. Кажется, ты хотела продолжить... Не забыла?|Genug, Alice, konzentriere dich. Weißt du noch, wo wir waren?
+		ak.voy.7.step.15^			Продолжить что?|fortfahren mit was?
+
+	ak.voy.7.step.15@157@n-kx-12@Макс, заткнись... Лисик, а ты, как всегда... молодец... да... так...|Halt die Klappe, Max.... Alice, du bist toll, wie immer.... ja....
+		ak.voy.7.step.16^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.7.step.16@154@Это... Ого! Лисик, ты конечно говорила, что у твоего брата большой, но что настолько!|Wow! Du hast gesagt, er ist groß, Alice, aber ich hätte nie gedacht, dass er so groß ist!
+		ak.voy.7.step.17^			Может быть со мной поиграете?|Willst du mit mir spielen?
+
+	ak.voy.7.step.17@151@n-kx-9@Так, всё, Макс. Ты много болтаешь... Мы же договорились.|Okay, das reicht, Max. Du redest zu viel.... Wir hatten eine Abmachung.
+		ak.voy.7.step.18^			Молчу, молчу...|Okay, ich werde schweigen
+
+	ak.voy.7.step.18@150@Ага, только на сегодня шоу окончено. Иди погуляй. Без разговоров. Алиса, развяжи его.|Zu spät, die Show ist vorbei. Um eine Fortsetzung zu machen. Binde ihn los, Alice.
+		leave!set_girlz.scene_8!set_kate.talk_8!set_girlz.sleep_2!lock^			Ну блин...|Mist...
+
+
+
+# --- 0.4: Подглядываем за девчонками в комнате. Периодический эвент, где Макса выгоняют. Прогресса не будет пока не поговорит с Катей после этого.|Spionieren von Mädchen im Raum, periodisches Ereignis, bis Max mit Kate spricht.
+
+	ak.voy.8@120@n-kx-7@<i>Девчонки опять отжигают! Эх, надо поучаствовать!</i>|<i>Die Mädchen sind wieder dabei! Ich sollte mich einmischen!</i>
+		ak.voy.8.step.2^			<i>выглянуть из-за угла</i>|<i>Blick um die Ecke</i>
+
+	ak.voy.8.step.2@30@n-kx-8@Макс! Тебя, кажется, сегодня не звали...|Max! Ich glaube nicht, dass wir Dich heute eingeladen haben.
+		ak.voy.8.step.3^			Как так?|Wie kommt's?
+
+	ak.voy.8.step.3@150@n-kx-9@Ну да, на сегодня мы же не договаривались. Или думаешь, что можешь приходить в любое время? Очень зря... Мы хотим побыть одни. А тебе пора спать.|Ich habe mich heute auf nichts eingestellt. Oder glaubst du, du kannst jederzeit hierher kommen? Wir wollen allein sein, geh schlafen.
+		leave!lock^					Эх. Ладно...|Schön...
+
+
+
+# --- 0.4: Подглядываем за девчонками в комнате. Второе приглашение.|Spionieren von Mädchen in ihrem Zimmer, zweite Einladung
+
+	ak.voy.9@159@n-kx-9@О, а вот и Макс крадётся. А ты говорила, не придёт... Заходи, Макс, присаживайся. Руки назад. Лисик, привяжи его...|Oh, hier ist Max, und du hast gesagt, dass er nicht kommen wird.... Komm rein, Max, setz dich. Hände auf den Rücken. Fessel ihn, Alice.
+		ak.voy.9.step.2^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.2@31@n-kx-10@Я сегодня удивлена, Кать. Ты ему что-то вколола, чтобы не болтал или до него дошли правила игры?|Ich bin überrascht, Kate. Hast Du ihn betäubt, um ihn zum Schweigen zu bringen, oder hat er die Regeln herausgefunden?
+		ak.voy.9.step.3a^			Всё до меня дошло!|Ich habe alles herausgefunden!
+		ak.voy.9.step.3b^			<i>промолчать</i>|<i>schweigen</i>
+
+	ak.voy.9.step.3a@151@Что-то не похоже... Тебя не спрашивали, а значит молчи. Это последнее предупреждение!|Sieht nicht so aus.... Du wurdest nicht angesprochen, also halt die Klappe. Das ist Ihre letzte Warnung.
+		ak.voy.9.step.3b^			<i>молча кивнуть</i>|<i>schweigend nicken</i>
+
+	ak.voy.9.step.3b@31@Дрессированный братик. Мечта! Ладно, чем займёмся, Катюш?|Gut ausgebildeter Bruder, perfekt! Okay, was sollen wir jetzt tun, Kate?
+		ak.voy.9.step.4^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.4@156@n-kx-13@Ну, можем... Оу. Ты смотри, твой братик возбудился. Блин, какой он большой! Может быть, и правда поиграешь с ним?|Nun, wir könnten.... Schau, dein Bruder ist aufgeregt. Er ist so groß! Wie wäre es, wenn du mit ihm spielst?
+		ak.voy.9.step.5^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.5@26@И как именно ты хочешь, чтобы я с ним... поиграла? Ты точно этого хочешь, Катюш?|Und was soll ich tun? Bist du sicher, dass du es willst?
+		ak.voy.9.step.6^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.6@152@Ага. Снимай с него шорты и... немного подрочи своему братику. Меня такие вещи заводят...|Jaja, zieh seine Shorts aus und.... wichse deinen Bruder aus. Ich würde das gerne sehen....
+		ak.voy.9.step.7^			<i>о да, детка...</i>|<i>Oh, ja...</i>
+
+	ak.voy.9.step.7@22@n-kx-14@Ну, если заводит, то...|Nun, wenn Du es sehen willst....
+		ak.voy.9.step.8^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.8@4@<i>Вот это кайф! Такими темпами и до групповушки дойдём! О да... продолжай... Кажется, Катя и правда завелась... Что она делает?!</i>|<i>Das ist so toll! Ich frage mich, wohin uns das führen wird.... Oh, Jaja.... weitermachen.... Ich denke, Kate ist jetzt wirklich geil.... Was macht sie denn da??</i>
+		ak.voy.9.step.9^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.9@3@n-kx-15@<i>Вау! Она реально себя ласкает у меня на глазах! Какая у неё симпатичная киска... Вот бы к ней подобраться... Да к любой уже, в конце концов! Ого, Алиса ускоряется...</i>|<i>Wow, sie spielt mit sich selbst direkt vor meinen Augen! Sie hat eine süße Muschi.... Ich würde gerne in sie eindringen.... Oder irgendeine andere, was das betrifft. Alice nimmt Fahrt auf....</i>
+		ak.voy.9.step.10^			<i>кончить!</i>|<i>Wichse!</i>
+
+	ak.voy.9.step.10@7@<i>Да! Я кончаю! О да! У Алисы такие ловкие ручки... Да ещё Катюха передо мной... Тут любой не выдержал бы... О да...</i>|<i>Ja, ich komme! Alice hat tolle Hände.... Und Kate direkt vor mir.... niemand würde es lange aushalten....</i>
+		ak.voy.9.step.11^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.11@151@n-kx-9@Ну что, Макс, доволен? Теперь можешь идти. Похоже, ты неплохо вымотался... Лисик, развяжи его...|Also, Max, gefällt es dir? Du kannst jetzt gehen. Du siehst müde aus.... Binde ihn los, Alice.
+		ak.voy.9.step.12^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.9.step.12@159@n-kx-20@Ну а у нас ещё есть планы на вечер... И не вздумай подглядывать... Вообще, вали спать! Тебе давно пора.|Und wir haben noch einige Pläne für den Abend.... Und denk nicht mal dran, zu spannen. geh schlafen.
+		leave!set_kate.talk_10!set_girlz.scene_10!sleep^		<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Подглядываем за девчонками в комнате. Третье приглашение.|Spionage auf Mädchen in ihrem Zimmer, dritte Einladung
+
+	ak.voy.10@159@n-kx-9@Ой, кто это тут у нас? Заходи, третьим будешь... Правила знаешь. Молчи, садись, слушайся.|Bist du es, Max? Setzen Sie sich zu uns.... Du kennst die Regeln, sei still und tu, was ich sage.
+		ak.voy.10.step.2^			<i>сесть</i>|<i>hinsetzen</i>
+
+	ak.voy.10.step.2@31@n-kx-10@Какие сегодня пожелания, Катюш?|Was willst du heute machen, Kate?
+		ak.voy.10.step.3^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.3@151@Ты знаешь... Мне кажется, сегодня пришло время сделать Максу приятное...|Weißt du, ich denke, es ist Zeit, Max etwas Freude zu bereiten....
+		ak.voy.10.step.4^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.4@20@Но я уже делала. В прошлый раз, ручками...|Aber das habe ich bereits. Letztes Mal, mit meinen Händen....
+		ak.voy.10.step.5^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.5@159@Именно! На этот раз тебе придётся поработать головой. Буквально. Я хочу, чтобы ты отсосала своему брату у меня на глазах. Приступай!|Genau. Jetzt solltest du deinen Kopf benutzen. Buchstäblich. Ich will, dass du deinem Bruder vor meinen Augen einen bläst.
+		ak.voy.10.step.6^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.6@26@n-kx-13@Но... Кать. Может, не надо? Это же извращение - делать такое со своим братом... Я конечно сделаю всё что ты хочешь, но может передумаешь?|Aber.... Kate. Ist das nicht pervers? Ich tue, was immer du mir sagst, aber bist du sicher, dass du deine Meinung nicht änderst?
+		ak.voy.10.step.7^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.7@151@Нет, Лисик. Когда ты это сказала, я поняла, что хочу увидеть как ты будешь делать... такое извращение со своим братом. Очень хочу. Приступай!|Ja, Alice. Ich will sehen, wie du.... perverses Zeug mit deinem Bruder machst. Das tue ich wirklich, wirklich. Also fang an.
+		ak.voy.10.step.8^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.8@159@n-kx-17@Молодец, Лисик... Глубже. Понимаю, это не просто... Но делай это так, чтобы Максу понравилось!|Gute Arbeit, Alice.... Tiefer. Ich verstehe, dass es nicht einfach ist, aber tu dein Bestes für Max.
+		ak.voy.10.step.9^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.9@22@n-kx-16@Блин, Катюш, я не могу. Его член даже больше того страпона, а помнишь как тяжело было его заглотить? Но я не отказываюсь, просто... Ладно...|Es tut mir leid, Kate, ich kann nicht. Sein Schwanz ist noch größer als der Strap-on, weißt du noch, wie sehr ich damals gekämpft habe? Ich lehne dich nicht ab, aber.... Okay....
+		ak.voy.10.step.10^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.10@159@n-kx-17@Какая смышлённая девочка. Сама догадалась, что останавливаться не стоит. Ой... кажется, Макс сейчас кончит. Давай, не останавливайся! И смотри, чтобы ни капли мимо!|Gutes Mädchen. Du hast die richtige Wahl getroffen, als du dich fürs Fortfahren entschieden hast.... Sieht aus, als würde Max kommen. Hör jetzt nicht auf! Und verpassen ihn nichts!
+		ak.voy.10.step.11^			<i>кончить!</i>|<i>spritzen!</i>
+
+	ak.voy.10.step.11@4@<i>О да! Всё прямо ей в рот! Какой же это кайф! Если бы меня не привязали, я бы сейчас упал...</i>|<i>Oh, Ja! Alles direkt in ihren Mund! Wenn ich nicht an einen Stuhl gefesselt wäre, würde ich jetzt fallen....</i>
+		ak.voy.10.step.12^			<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.10.step.12@23@n-kx-18@Кать, ну зачем ты меня заставила это сделать? Как я потом ему в глаза смотреть буду? К тому же, из него похоже литр спермы вылился. Я наелась на неделю...|Warum hast du mich dazu gezwungen, Kate? Wie soll ich ihm jetzt in die Augen sehen? Und er kam wie eine verdammte Gallone Sperma in mich rein. Jetzt habe ich eine Woche lang keinen Hunger mehr....
+		ak.voy.10.step.13^			<i>улыбнуться</i>|<i>lächeln</i>
+
+	ak.voy.10.step.13@159@Лисик, ну ты чего жалуешься, это же здорово, на еде сэкономишь! Ладно, развязывай его. А у нас с тобой ещё свои дела есть. Или ты думала, что отсосала брату и всё? Есть ещё я!|Warum beschwerst Du dich dann, Alice? Dann spart Ihr etwas Geld beim Essen! Okay, bindet ihn los, wir haben ein unerledigtes Geschäft. Du dachtest doch nicht, dass du deinem Bruder einfach einen bläst und der Abend ist vorbei, oder? Jetzt bin ich dran.
+		ak.voy.10.step.14^			А можно я посмотрю?|Kann ich zusehen?
+
+	ak.voy.10.step.14@151@n-kx-19@Нет, Макс, знай меру. Нам с Лисиком предстоит ещё длинная ночь. Я прилично заведена и только она может мне помочь своим ловким язычком, верно?|Nein, Max, du hast deins. Alice und ich haben eine lange Nacht vor uns. Ich bin jetzt wirklich geil und sie ist die Einzige, die mir mit ihrer Zunge helfen kann, richtig?
+		leave!set_kate.talk_12!set_girlz.scene_11!sleep^		<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Подглядываем за девчонками в комнате. Без приглашения 1|Spionage von Mädchen in ihrem Zimmer ohne Einladung 1
+
+	ak.voy.11@120@n-kx-21@<i>Ого! Девчонки развлекаются... Кажется, лучше к ним сейчас не лезть, а то используют эту штуку совсем не по назначению...</i>|<i>Wow! Mädchen haben Spaß.... Ich denke nicht, dass ich zu ihnen gehen sollte, oder sie werden dir das Ding bei mir geben....</i>
+		ak.voy.11.step.2^					<i>смотреть</i>|<i>beobachten</i>
+		leave!set_girlz.scene_12!lock^		<i>тихо уйти</i>|<i>leise verschwinden</i>
+
+	ak.voy.11.step.2@4@n-kx-22@<i>Это у Алисы новый наряд рабыни или что? Ого... она может эту штуку заглотить?! А жаловалась на мой член... Похоже, они давно... тренируются... Ладно, пора валить отсюда</i>|<i>Ist Alice in einem Gummianzug oder so? Wow.... sie kann das Ding schlucken!? Und sie hat sich über meinen Schwanz beschwert.... Sieht aus, als hätte sie viel Übung.... Ich sollte jetzt gehen.</i>
+		leave!set_girlz.scene_12!lock^		<i>тихо уйти</i>|<i>leise verschwinden</i>
+
+
+
+# --- 0.4: Подглядываем за девчонками в комнате. Без приглашения 2. тройничок|Spionage auf Mädchen in ihrem Zimmer ohne Einladung 2, Dreiergruppe
+
+	ak.voy.12@120@n-kx-23@<i>Обалдеть! Вот это картина! Жаль, что нет фотоаппарата под рукой. Вот бы Алису потроллить компроматом... Кажется, они меня не заметили. Лучше бы уйти, пока не поздно, а то...</i>|<i>Was für ein Anblick! Schade, dass ich keine Kamera dabei habe. Ich würde sie gerne damit erpressen.... Ich glaube nicht, dass sie mich bemerkt haben. Ich sollte gehen, bevor es zu spät ist.</i>
+		ak.voy.12.step.2^					<i>тихо уйти</i>|<i>leise verschwinden</i>
+
+	ak.voy.12.step.2@30@n-kx-24@Что? Макс?! Мы тебя не звали сегодня! Вали отсюда!|Bist du das, Max? Wir haben dich heute nicht eingeladen! Raus hier!
+		ak.voy.12.step.3^					Но... Я просто смотрел...|Ich habe nur zugesehen.
+
+	ak.voy.12.step.3@159@n-kx-25@Ладно, Алиса, успокойся. Раз уж он здесь, давай повеселимся втроём. У меня есть одна идейка. Макс, повернись и... немного наклонись...|Entspann dich, Alice. Da er schon hier ist, lass uns etwas Spaß haben. Ich habe eine Idee. Dreh dich um und bück dich, Max.
+		ak.voy.12.step.4^					В третий раз не смешно!|Es war nicht lustig beim ersten Mal, es war nicht lustig beim zweiten Mal, und es ist nicht lustig beim dritten Mal.
+
+	ak.voy.12.step.4@150@А я и не шучу! Или шучу? Ладно, садись. Лисик, свяжи его...|Und ich bin nicht lustig. Oder bin ich das? Wie auch immer, nimm Platz. Fessel ihn, Alice....
+		ak.voy.12.step.5^					<i>сесть</i>|<i>hinsetzen</i>
+
+	ak.voy.12.step.5@22@n-kx-26@Дурацкая затея... Я хотела побыть с тобой наедине, а теперь придётся опять ему отсасывать?|Ich wollte mit dir allein sein, und jetzt muss ich ihm wieder einen blasen?
+		ak.voy.12.step.6^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.12.step.6@152@Мне показалось или ты жалуешься? Давай, на колени и бери член своего брата в рот. Но тебе будет не скучно, обещаю...|Hast du dich gerade bei mir beschwert? Auf die Knie, fang an, deinem Bruder einen zu blasen. Du wirst dich nicht langweilen, ich verspreche....
+		ak.voy.12.step.7^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.12.step.7@30@n-kx-27@Что? Ты хочешь меня трахать, пока я... своему брату? Кать... Ну так же... нельзя... Ой... Хорошо...|Was? Wirst du mich ficken, während ich.... meinem Bruder einen blasen werde? Kate.... wir können nicht.... oh.... gut...
+		ak.voy.12.step.8^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.12.step.8@153@n-kx-28@Ну как, Макс? Нравится? Только учтите, что я вам обоим запрещаю трахаться без моего участия! Либо так, либо никак... Поняли?|Also, Max, gefällt es dir? Übrigens, ich verbiete euch beiden, ohne mich zu ficken! Entweder du machst es mit mir oder du machst gar nichts, verstanden?
+		ak.voy.12.step.9^					Ага...|Jaja...
+
+	ak.voy.12.step.9@4@<i>Это самая безбашенная Алискина подружка! О таком и мечтать нельзя было, а сейчас... Старшая сестрёнка заглатывает мой член, пока её трахает подружка... Обалденно!</i>|<i>Das ist die beste und verrückteste Freundin von Alice! Ich konnte nie davon träumen, und jetzt.... Meine ältere Schwester gibt mir deepthroating, während ihre Freundin sie von hinten fickt.... Das ist so cool!</i>
+		ak.voy.12.step.10^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.12.step.10@151@n-kx-29@Лисик! Ты халтуришь! Давай глубже, активнее... Я верю в тебя, ты сможешь взять в рот полностью даже этот член... Мы же так долго тренировались на игрушках...|Nicht nachlassen, Alice! Tiefer, schneller.... Ich glaube an dich, du kannst ihn ganz reinbringen.... Wir haben so viel dafür trainiert....
+		ak.voy.12.step.11^					<i>кончить!</i>|<i>spritzen!</i>
+
+	ak.voy.12.step.11@152@n-kx-30@Так, Лисик, Макс кончает! Давай, не вынимай его член, глотай всё до последней капли! Вот так... Молодец, Лисик. У тебя получается всё лучше и лучше!|Sieht aus, als würde Max kommen! Nimm nicht seinen Schwanz raus, schluck jeden Tropfen runter! Gute Arbeit, Alice. Du wirst besser darin!
+		ak.voy.12.step.12^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.12.step.12@159@n-kx-26@Ты сегодня молодец, Лисик. Горжусь тобой! Кажется, твой братик тоже в восторге, посмотри на него...|Das hast du heute gut gemacht, Alice, ich bin stolz auf dich! Dein Bruder scheint es auch zu genießen, sieh ihn dir an....
+		ak.voy.12.step.13^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.12.step.13@23@n-kx-25@Мой организм не готов принимать столько спермы... Но вроде в этот раз получилось и правда лучше...|Mein Körper kann so viel Sperma nicht vertragen.... Aber dieses Mal ist es besser, ja....
+		ak.voy.12.step.14^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.12.step.14@152@Согласна. Хорошо получилось. Ладно, развязывай его... Всё, Макс, вали спать. А у нас ещё есть планы друг на дружку...|Okay, jetzt bindet ihn los.... geh schlafen, Max, Alice und ich haben ein paar Pläne füreinander....
+		leave!set_kate.talk_14!set_girlz.scene_13!sleep^	Спокойной ночи...|Gute Nacht
+
+
+
+# --- 0.4: Подглядываем за девчонками в комнате. Без приглашения. Регулярный эвент.|Spionieren von Mädchen in ihrem Zimmer ohne Einladung, regelmäßige Veranstaltung
+
+	ak.voy.13@120@n-kx-23@<i>Ого! Девчонки сегодня опять в ударе! Как она её трахает... Кажется, Алиса чуть ли не кончает... Блин. Попробовать к ним присоединиться или не мешать?</i>|<i>Die Mädchen sind wieder dabei! Sie fickt sie so hart.... Ich glaube, Alice steht kurz davor.... Soll ich versuchen, reinzugehen?</i>
+		ak.voy.13.step.2^					<i>выйти из-за угла</i>|<i>zeige dich</i>
+		leave!lock^							<i>тихо уйти</i>|<i>leise verschwinden</i>
+
+	ak.voy.13.step.2@30@n-kx-24@Что? Макс?! Мы тебя не звали сегодня! Вали отсюда! Быстро!|Was, Max!? Wir haben dich heute nicht eingeladen, verschwinde sofort!
+		ak.voy.13.step.3^					Но...|Aber...
+
+	ak.voy.13.step.3@150@n-kx-25@Да, Макс, давай. Не сегодня...|Jaja, Max, geh. Heute nicht...
+		leave!lock^							Эх, жаль...|Schön...
+
+
+
+# --- 0.4: Получено особое приглашение от Кати.|Besondere Einladung von Kate
+
+	ak.voy.14@120@n-kx-23@<i>Красота! Кажется, сегодня они начали без меня...</i>|<i>Wunderschön! Sieht aus, als hättet ihr heute ohne mich angefangen....</i>
+		ak.voy.14.step.2^					<i>тихо уйти</i>|<i>leise verschwinden</i>
+
+	ak.voy.14.step.2@25@n-kx-24@А, Макс... Ну... заходи...|Oh, Max.... komm rüber....
+		ak.voy.14.step.3^					Развлекаетесь...|Spaß haben....
+
+	ak.voy.14.step.3@159@n-kx-25@Ну мы не знали, придёшь ты или нет, решили немного разогреться...|Wir wussten nicht, ob du heute zu uns kommst, also haben wir ohne dich angefangen.
+		ak.voy.14.step.4^					Молодцы. Ну, я готов...|Gut. Nun, ich bin bereit.
+
+	ak.voy.14.step.4@150@Отлично. Правила ты знаешь. Молчи, садись. Лисик, а ты ему руки завязывай... Всё как обычно...|Toll, du kennst die Regeln.
+		ak.voy.14.step.5^					<i>сесть</i>|<i>hinsetzen</i>
+
+	ak.voy.14.step.5@22@n-kx-26@До чего мы докатились... Макс, ну чего ты ухмыляешься!|Wie sind wir in diese Situation gekommen.... Warum grinst du, Max?!
+		ak.voy.14.step.6^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.14.step.6@152@Лисик, не ворчи! Давай, на колени и бери член своего брата в рот. А я тебе помогу нашим розовым другом...|Meckere nicht, Alice. Komm schon, auf die Knie, nimm den Schwanz deines Bruders in den Mund. Ich helfe dir mit unserem rosa Freund....
+		ak.voy.14.step.7^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.14.step.7@30@n-kx-27@Катюш... Только нежнее, а то ты в прошлый раз меня так оттрахала, что я...|Sei heute sanfter, okay, Kate? Letztes Mal hast du mich so sehr gefickt, dass ich....
+		ak.voy.14.step.8^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.14.step.8@153@n-kx-28@Давай не ворчи, а то сейчас в попку вставлю и отдеру тебя как следует! Молодец... Давай, соси лучше!|Hör auf zu nörgeln, oder ich fick dich in den Arsch....! Gute Arbeit, aber gib dir mehr Mühe!
+		ak.voy.14.step.9^					Ага...|Jaja...
+
+	ak.voy.14.step.9@4@<i>Старшая сестрёнка заглатывает мой член, пока её трахает подружка... Это просто мечта!</i>|<i>Meine ältere Schwester lutscht meinen Schwanz, während ihre Freundin sie von hinten fickt.... Ich bin in einem Traum!</i>
+		ak.voy.14.step.10^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.14.step.10@151@n-kx-29@Лисик! Не расслабляйся! Давай бери член глубже, работай активнее... А то ты сосредоточилась не на том... Максу нужно больше любви и ласки... Покажи как ты его любишь...|Konzentriere dich, Alice! Bring ihn tiefer rein.... Du konzentrierst dich auf das Falsche.... Max braucht mehr Liebe.... Zeig ihm, wie sehr du ihn liebst....
+		ak.voy.14.step.11^					<i>кончить!</i>|<i>spritzen!</i>
+
+	ak.voy.14.step.11@152@n-kx-30@Так, Лисик, Макс кончает! Давай, не вынимай его член, глотай всё до последней капли! Вот так... Молодец, Лисик. У тебя получается всё лучше и лучше!|Sieht aus, als würde Max kommen! Nimm nicht seinen Schwanz raus, schluck jeden Tropfen runter! Gute Arbeit, Alice. Du wirst besser darin!
+		ak.voy.14.step.12^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.14.step.12@159@n-kx-26@Ты сегодня молодец, Лисик. Горжусь тобой! Кажется, твой братик тоже в восторге, посмотри на него...|Das hast du heute gut gemacht, Alice, ich bin stolz auf dich! Dein Bruder scheint es auch zu genießen, sieh ihn dir an....
+		ak.voy.14.step.13^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.14.step.13@23@n-kx-25@Да можно и не смотреть на него. И так всё понятно...|Ich muss ihn nicht ansehen, um zu wissen, wie glücklich er ist....
+		ak.voy.14.step.14^					<i>далее</i>|<i>fortfahren</i>
+
+	ak.voy.14.step.14@152@Ладно, развязывай его... Всё, Макс, вали спать. А у нас ещё есть планы друг на дружку...|Okay, bindet ihn los.... geh jetzt schlafen, Max. Wir werden ohne dich weiter machen....
+		leave!set_kate.talk_17!set_girlz.scene_13!sleep^	Спокойной ночи...|Gute Nacht...
+
+
+
+# --- 0.4: Алиса ведёт свой блог|Alice bloggt
+
+	alisa.newblog@121@<i>В это время Алиса занимается своим блогом. Обычно она не закрывает дверь...</i>|<i>Alice sollte jetzt an ihrem Blog arbeiten. Normalerweise schließt sie ihre Tür nicht....</i>
+		blop=0&alisablogonce=0&alisa.newblog.window^			<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		blop=0&alisablogonce>0&alisa.newblog.no^				<i>заглянуть в окно</i>|<i>durchs Fenster sehen</i>
+		blop=0&alisa.newblog.knock^								<i>постучать в дверь</i>|<i>an die Tür klopfen</i>
+		blop=3&dcd.blop=0&07.acd.1^								<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		blop=4&dcd.blop=0&07.ace.1^								<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		blop=5&dcd.blop=0&07.acf.1^								<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		blop=6&dcd.blop=0&07.acg.0^								<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		blop=7&dcd.blop=0&07.ach.1^								<i>открыть дверь</i>|<i>die Tür öffnen</i>
+		leave!lock^												<i>уйти</i>|<i>verlassen</i>
+
+	alisa.newblog.window@120@n-blog-0@<i>Вау! Алиса крутит задом перед камерой в одном нижнем белье! Может быть, отсюда понаблюдать? Отсюда вид лучше, чем через камеру...</i>|<i>Wow! Alice zeigt ihren Körper vor der Kamera nur in Unterwäsche! Soll ich zusehen? Diese Sichtweise ist besser als die der Kamera....</i>
+		alisa.newblog.window.bad^						<i>наблюдать</i>|<i>beobachten</i>
+
+	alisa.newblog.window.bad@27@n-blog-1@Что?! Макс! Я тебя сейчас убью! Ну-ка иди сюда, ты у меня получишь!|Was!? Max! Ich werde dich umbringen! Komm her, du kriegst es jetzt!
+		leave!set_alisablogonce_1!lock^					<i>Бежать!</i>|<i>Lauf!</i>
+
+	alisa.newblog.no@8@<i>Ой, нет... плохая идея. В прошлый раз мне повезло сбежать, но вдруг поймает... Нет, не буду лишний раз рисковать...</i>|<i>Nee, keine gute Idee.... Letztes Mal hatte ich Glück zu fliehen, aber wenn sie mich erwischt.... Ich will es nicht riskieren.</i>
+		alisa.newblog.knock^							<i>постучать в дверь</i>|<i>an die Tür klopfen</i>
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+	alisa.newblog.knock@121@<b>Алиса:</b> Кто там? Я занята! Вообще, меня в это время не беспокоить! Уходите!|<b>Alice:</b> Wer ist da? Ich bin beschäftigt! Und störe mich nicht um diese Zeit! Geh!
+		spun.alisa>0&atouch<3&08.eah.0^					Мне надо тебя наказать...|Bestrafungszeit!
+		spun.alisa>0&atouch>2&08.eai.0^					Мне надо тебя наказать...|Bestrafungszeit!
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Мама спит одна голая, пока Эрик где-то шатается|Ann schläft allein nackt, während Eric woanders ist.
+
+	mom.sleep.naked@121@Тихо. Никакого движения... Само собой, что в это время все спят... Может быть, не стоит мешать?|Es ist ruhig. Alle schlafen.... Vielleicht sollte ich mich nicht einmischen?
+		mom.sleep.naked.voyeur^						<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.sleep.naked.voyeur@120@n-malone@Ого! Мама спит абсолютно голая! Жаль, отсюда не разглядеть всё в деталях... Да и темно... Вот бы у меня был фонарик...|Wow! Mama schläft völlig nackt! Schade, dass ich von hier aus nicht viel sehen kann.... Und es ist sowieso dunkel.... Wenn ich nur eine Taschenlampe hätte....
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Мама спит одна голая, пока Эрик на балконе Алисы. Нельзя подглядывать за мамой|Ann schläft alleine nackt, während Eric auf Alice guckt, also kann Max nicht auf Ann gucken.
+
+	mom.sleep.naked.deny@121@Тихо. Никакого движения... Само собой, что в это время все спят... Может быть, не стоит мешать?|Es ist ruhig. Alle schlafen.... Vielleicht sollte ich mich nicht einmischen?
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Эрик трахает Алису ночью. Видимо, напоил перед этим...|Eric ist in der Nacht bei Alice und fickt sie.
+
+	eric.fuck.alisa@121@Блин! Похоже, Эрик развлекается там с Алисой! Вот бы заглянуть, вдруг ей нужна помощь? Но Эрик сказал, что если меня заметит, то всё расскажет и покажет маме про нас с Кирой... Блин|Scheiße! Sieht aus, als würde Eric Alice ficken! Wenn ich nur nach ihr sehen könnte, was, wenn sie Hilfe braucht? Aber Eric sagte, wenn er mich beim Spannen erwischt, wird er Mom von Kira und mir erzählen.... Scheiße!
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Мама и Эрик в комнате собрались потрахаться, но у него не стоит|Eric und Ann versuchen zu ficken, aber Eric kriegt es nicht hoch.
+
+	mom.eric.door.fuckimp@121@Обычно в это время мама и Эрик трахаются. Но сегодня у него должны возникнуть некоторые проблемы... Интересно, что там?|Normalerweise haben Eric und Mom diesmal Sex. Aber heute sollte er damit Probleme haben.... Ich frage mich, was da drinnen los ist.
+		mom.eric.door.fuckimp.voyeur^				<i>подглядывать с улицы</i>|<i>von außen spionieren</i>
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+	mom.eric.door.fuckimp.voyeur@4@n-eper-1@Отлично! Всё как я и думал... Жаль, плохо слышно. Не ясно мама успокаивает Эрика или он оправдывается?|Großartig! Genau wie ich dachte.... Schade, dass ich nichts höre. Ich frage mich, ob Mom versucht, ihn zu beruhigen, oder versucht er Ausreden zu finden?
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Эрик принимает душ после того, как у него появились проблемы|Eric nimmt eine Dusche, nachdem er nicht in der Lage war, hart zu werden.
+
+	eric.showerimp@121@Кажется, там Эрик... Интересно, он пытается что-то сделать со своей проблемой или рыдает под душем, пока никто не слышит? Не буду выяснять. Буду думать, что второе...|Scheint so, als wäre Eric drinnen. Ich frage mich, ob er versucht, das Problem zu lösen. Oder weint er unter der Dusche, damit ihn niemand sehen kann? Ich hoffe auf Letzteres.
+		leave!lock^									<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Макс пытается найти бумажник в комнате, пока мама и Эрик спят (первая попытка, неудачная)|Max sucht Erics Brieftasche, erster Versuch, Misserfolg
+
+	max.try.steal.wallet@0@n-spy-1@<i>Отлично. Кажется, меня никто не заметил... Теперь нужно очень тихо порыться в вещах Эрика и найти его бумажник... Лишь бы он меня не заметил...</i>|<i>Toll, niemand hat mich beim Betreten des Zimmers bemerkt.... Jetzt muss ich ganz leise nach Erics Brieftasche in seinen Sachen suchen.... Ich hoffe, dass mich niemand erwischt....</i>
+		max.try.steal.wallet.step.2^				<i>искать бумажник</i>|<i>nach der Brieftasche suchen </i>
+
+	max.try.steal.wallet.step.2@94@Что? Какого хрена ты тут делаешь, Макс?! Я тебя сейчас при... Дорогая? Ты тоже проснулась? Смотри, Макс опять пытается украсть мои деньги! А я тебе говорил!|Was zum Teufel machst du hier, Max? Ich werde.... Schatz? Du bist auch aufgewacht? Schau, Max versucht wieder mein Geld zu stehlen! Ich hab's dir gesagt!
+		max.try.steal.wallet.step.3^				Да я просто...|Ich hab nur....
+
+	max.try.steal.wallet.step.3@62@Что ты просто? Ошибся дверью? За это, Макс, я тебя завтра накажу. Всё, выметайся отсюда!|Was, bist du aus Versehen in die falsche Tür gegangen oder so? Ich werde dich morgen bestrafen, jetzt verschwinde!
+		leave!set_max.pun_1!set_max.punreason_3!add_eric.mood_-100!add_mom.mood_-100!lock_momroom_3!add_mom.inf_25!set_poss.wallet_3^			?звините...|Es tut mir leid....
+
+
+# --- 0.4: Макс снова пытается найти бумажник. На этот раз есть шанс|Max ist wieder auf der Suche nach einer Brieftasche, jetzt hat er die Chance dazu.
+
+	max.can.steal.wallet@0@n-spy-1@<i>Кажется, все крепко спят... И меня пока никто не заметил... Надо найти этот чёртов бумажник!</i>|<i>Sieht aus, als ob alle schlafen.... Ich muss diese verdammte Brieftasche finden, bevor mich wieder jemand erwischt!</i>
+		eric.mustsleep=0&max.can.steal.wallet.bad^	<i>искать бумажник</i>|<i>nach der Brieftasche suchen </i>
+		eric.mustsleep=1&max.can.steal.wallet.good^	<i>искать бумажник</i>|<i>nach der Brieftasche suchen </i>
+		leave!lock^									<i>тихо уйти</i>|<i>leise verschwinden</i>
+
+	max.can.steal.wallet.bad@94@Что? Какого хрена ты опять тут делаешь, Макс?! Ань, смотри, твой сынок опять пытается что-то украсть! Я тебе говорил, что он охамел, а ты не верила...|Was zum Teufel machst du schon wieder hier? Schau, Ann, dein Sohn versucht wieder etwas zu stehlen! Ich sagte dir, er ist außer Kontrolle, aber du würdest mir nicht glauben....
+		max.can.steal.wallet.bad.2^					Это не то, что вы думаете...|Das ist nicht das, wonach es aussieht....
+
+	max.can.steal.wallet.bad.2@62@И что же это? Хотя, я не хочу даже знать. Просто убирайся, не мешай нам спать! А утром я тебя накажу!|Ich will es nicht hören, Max. Verschwinde einfach, ich werde dich morgen früh bestrafen.
+		leave!set_max.pun_1!set_max.punreason_3!add_eric.mood_-100!add_mom.mood_-100!lock_momroom_3!add_mom.inf_25^				<i>уйти</i>|<i>verlassen</i>
+
+	max.can.steal.wallet.good@4@n-found@<i>Вот же он! Я так и знал, что Эрик всё это специально подстроил... Интересно, что здесь внутри?</i>|<i>Hier ist es! Ich wusste, dass Eric lügt.... Ich frage mich, was da drin ist....</i>
+		max.can.steal.wallet.good.2^				<i>порыться в бумажнике</i>|<i>in die Brieftasche schauen</i>
+
+	max.can.steal.wallet.good.2@13@<i>Жаль... денег нет. Вообще, пара каких-то карточек для скидок... Ой, тут в отдельном кармашке ещё что-то есть!</i>|<i>Hier gibt es kein Geld.... Nur ein paar Gutscheine. Hmmm.... Da ist etwas in einer kleinen Tasche!</i>
+		max.can.steal.wallet.good.3^				<i>заглянуть туда</i>|<i>hineinschauen</i>
+
+	max.can.steal.wallet.good.3@8@n-vic@<i>Э... Не понял... водительские права, но... на Виктора Моро? Должно быть, какая-то ошибка? Но фотография Эрика! Хм... Надо подумать...</i>|<i>Was? Das ist ein Führerschein, aber.... auf den Namen Victor Moro? Ist das ein Fehler? Aber das ist Erics Foto! Hm.... Ich muss das durchdenken.</i>
+		max.can.steal.wallet.good.4^				<i>далее</i>|<i>fortfahren</i>
+
+	max.can.steal.wallet.good.4@4@<i>Этот Эрик или Виктор... не важно. Кажется, он не так прост и у него есть какая-то тайна. Пожалуй, я пока оставлю бумажник себе. Всё равно он его «потерял». Зато теперь у меня есть кое-что, что можно использовать!</i>|<i>Dieser Eric - oder sollte ich sagen, Victor - hat ein Geheimnis. Ich glaube, ich behalte die Brieftasche vorerst, er hat sie sowieso "verloren". Aber jetzt habe ich ein Druckmittel!</i>
+		leave!set_poss.wallet_5!set_item.wallet_-5!lock_momroom_3^			<i>тихо уйти</i>|<i>leise verschwinden</i>

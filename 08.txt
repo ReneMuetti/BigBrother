@@ -1,0 +1,1875 @@
+# --- 0.8: Разговор у бассейна с Кирой и мамой насчёт следующих съёмок. Начало.
+
+	08.ba.0@101@Хм... Ну давай у Макса спросим. Мне почему-то кажется, что он согласится, да ещё с радостью!|...fragen wir einfach Max, ich bin sicher, er wird es gerne tun.
+		08.ba.1^		О чём речь?|Wovon redest du?
+		08.ba.1^		На что соглашусь?|Glücklich, was zu tun?
+
+	08.ba.1@62@Да у твоей тёти как всегда безумная идея. Такое ощущение, что она с помощью этих фильмов пытается реализовать какие-то скрытые фантазии...|Deine Tante hat noch eine verrückte Idee. Ich fange an zu glauben, dass sie diese Filme macht, um ihre versteckten Wünsche zu verwirklichen....
+		08.ba.2^		Скрытые?|Versteckt?
+
+	08.ba.2@67@А ты прав, Макс! Уже и не скрывает. Совсем стыд потеряла. Неужели и я такой же стану, если продолжу работать в этой... индустрии, так сказать... Какой кошмар...|Du hast Recht, sie versteckt sie nicht einmal mehr. Völlig schamlos. Werde ich so wie sie, wenn ich weiter in dieser Branche arbeite?
+		08.ba.3^		Так о чём речь?|Wie auch immer, was willst du mich fragen?
+
+	08.ba.3@101@У меня появилась идея для следующего фильма и в этом фильме будешь ты и... твоя мама, конечно!|Ich habe eine Idee für unseren nächsten Film, in den du und.... deine Mom involviert sein werden!
+		08.ba.4^		Ну супер!|Großartig!
+
+	08.ba.4@114@А я говорила, что он согласится!|Ich sagte doch, er wird zustimmen!
+		08.ba.5^		<i>далее</i>|<i>fortfahren</i>
+
+	08.ba.5@62@Да, но ты не рассказала самое главное! Макс, представляешь, Кира предлагает нам с тобой сняться в одной сцене. В порно! Она мне как рассказала, я чуть с кровати не упала!|Das Wichtigste hast du noch nicht gesagt! Kira will eine Szene mit uns filmen. Zusammen. In Pornos!
+		08.ba.6^		Кхм...|Em...
+
+	08.ba.6@108@Да что такого? Я же не предлагаю вам трахаться на камеру... Ну, почти нет. Короче, твоя мама должна тебе отсосать...|Na und? Ich sage nicht, dass du vor der Kamera ficken sollst.... nicht ganz. Deine Mom wird dir einen blasen.
+		08.ba.7^		Ну если надо, то я согласен...|Ich bin unten
+
+	08.ba.7@62@Вот так, значит, Макс? Может быть, ты с самого начала этого и хотел и в сговоре со своей тётей? Или даже она тебя подговорила? А что? От неё вполне можно такого ожидать...|So ist das also, hm? Vielleicht ist es das, was du von Anfang an wolltest? Hast du dich mit deiner Tante hinter meinem Rücken verschworen? Hat sie dich dazu angestiftet? Klingt nach etwas, das sie tun könnte....
+		08.ba.8^		Да нет никакого сговора!|Ernsthaft Mom, Verschwörungstheorien?
+		08.ba.8^		Мы же это делаем для семьи...|Wir tun das für die Familie.
+
+	08.ba.8@72@Ну да, ну да... В общем, я отказываюсь в этом участвовать. Ты мой сын и я не собираюсь делать такое, да ещё и на камеру...|Ja, ja.... Wie auch immer, ich werde es nicht tun. Du bist mein Sohn und ich werde so etwas nicht tun, besonders nicht vor der Kamera.
+		08.ba.9^		А без камеры?|Und ohne die Kamera....?
+
+	08.ba.9@60@Что?! Макс! О чём ты вообще говоришь? Я твоя мама, в конце концов!|Was!? Max! Wovon redest du? Ich bin deine Mom!
+		08.ba.10^		Ну мы уже через столько всего прошли...|Aber wir haben schon so viel durchgemacht....
+		08.ba.10^		Но ты же согласилась на эту работу...|Hast du dich nicht buchstäblich dafür gemeldet? Einen Vertrag mit dem Studio?
+
+	08.ba.10@69@Да, но это - перебор! Может быть, если бы это был не мой сын, то...|Ja, aber das ist zu viel! Wenn das nicht mein Sohn wäre....
+		08.ba.11^		<i>далее</i>|<i>fortfahren</i>
+
+	08.ba.11@100@Ань, ты хочешь сказать, что предпочла бы член какого-то незнакомого мужчины? А вдруг у него какая зараза? А тут своё, родное, так сказать... Да и ты уже Максу разное делала, как я понимаю...|Willst du damit sagen, dass du den Schwanz eines zufälligen Typen bevorzugst? Was ist, wenn er krank ist? Hier haben wir eine kontrollierte und vertraute Umgebung.... Und hast du nicht schon was mit Max gemacht?
+		08.ba.12^		<i>далее</i>|<i>fortfahren</i>
+
+	08.ba.12@69@Что я такого делала? Ты же сама рассказала, что у него руки больные... Ой, только не говорите, что и это вы всё подстроили...|Was habe ich getan? Du hast mir selbst gesagt, dass seine Hände krank sind... Oh, sag nicht, dass das alles ist, was du arrangiert hast...
+		08.ba.13^		Очень больные! Правда!|Meine Hände tun mir wirklich weh! Es ist wahr!
+		08.ba.13b^		У меня правда синдром туннелей!|Nein, ich habe wirklich einen Teppich-Tunnel
+
+	08.ba.13b@113@Макс, туннельный синдром... Я же тебе говорила...|Karpaltunnel.... Ich sagte doch, Max....
+		08.ba.13^		Да, он у меня. Точно!|Richtig, der da!
+
+	08.ba.13@73@Ну не знаю... Честно говоря, от вас всего можно теперь ожидать. Да и я тоже хороша, до такого докатилась. Хоть и на секунду, но всерьёз задумалась согласиться на эту вашу афёру... Что я за мать...|Ich weiß nicht.... Ich weiß nicht mehr, was ich von dir erwarten soll. Es ist ja auch nicht so, als wäre ich in all dem schuldlos.... Ich kann nicht glauben, dass ich tatsächlich daran gedacht habe, diese Szene zu drehen. Was für eine Mom bin ich....?
+		08.ba.14^		Самая лучшая! И очень привлекательная!|Das allerbeste! Und die schönste auch!
+
+	08.ba.14@62@Да я уже поняла, что у тебя на меня стоит. А ты не думал, что это не нормально? Может быть, тебе девушку найти?|Ich verstehe, du willst mich. Denkst du nicht, dass es falsch ist? Vielleicht solltest du dir eine Freundin suchen.
+		08.ba.15^		Когда найду такую же привлекательную как ты, мам...|Wo finde ich eine, die so schön ist wie du, Mom?
+
+	08.ba.15@101@Ань, вот вечно ты причитаешь. Уже и со мной трахалась и на камеру делала всякое разное, а на кастинге вспомни что было... И опять старая песня. Ты или трусы надень или крестик сними...|Würdest du aufhören, dich ständig zu beschweren, Ann? Wir haben schon gefickt, und du hast so viel vor der Kamera gemacht, erinnere dich, was du beim Casting gemacht hast.... Müssen wir das wirklich jedes Mal machen?
+		08.ba.16^		<i>пром?лчать</i>|<i>sei ruhig</i>
+
+	08.ba.16@69@Ладно, в чём-то ты права. И не надо намекать, что всё это ради денег для семьи, я это всегда помню, но какая цена... Хорошо, я подумаю, но ничего не обещаю!|Ich schätze, du hast Recht.... Als nächstes sagst du, es ist alles für die Familie, ich erinnere mich. Gut, ich werde darüber nachdenken, aber ich verspreche nichts!
+		08.ba.17^		О, ?упер!|Großartig!
+
+	08.ba.17@101@Ну всё, Макс, иди займись своими делами, нам ещё с твоей мамой надо обсудить кое-что...|Okay, Max, deine Mom und ich müssen etwas besprechen, gehen und mach dein Ding irgendwo anders....
+		leave!set_poss.car_11!set_momlust_20^		Хорошо...|Okay
+
+
+
+# --- 0.8: Разговор с Кирой насчёт мамы и попытки её убедить
+
+	08.bb.0.init@0@Насчёт твоей идеи...|Über deine Idee....
+	08.bb.0@101@А я знала, что тебе понравится! Это будет отличный фильм! Пусть и короткий, но ты точно будешь в восторге...|Ich wusste, es würde dir gefallen! Wir werden ein tolles Video machen! Ein kurzes, aber ich bin sicher, du wirst es lieben.
+		08.bb.1^		Я как раз об этом...|Ja, deswegen....
+		08.bb.1b^		В восторге? Почему?|Und warum werde ich es lieben?
+
+	08.bb.1b@113@Потому, что тебе придётся делать кое-что... сам знаешь с кем...|Weil du weißt, mit wem du....
+		08.bb.1c^		С тобой?|Mit dir?
+		08.bb.1d^		С мамой?|Mit Mom?
+
+	08.bb.1c@114@Нет, Макс. С тобой у нас чего только не было, но в этот раз речь не обо мне. У тебя попытка номер два...|Nein, Max. Mit dir haben ich etwas... Aber dieses Mal geht es nicht um mich. Du hast einen zweiten Versuch...
+		08.bb.1d^		С мамой?|Mit Mom?
+
+	08.bb.1d@101@Именно! Ты и мама, играющие сына и маму. Идеально. Тебе не кажется?|Genau! Du und Mom, ihr spielt Mutter und Sohn. Perfekt, findest du nicht?
+		08.bb.1^		Вот я как-то сомневаюсь...|Ich weiß nicht....
+
+	08.bb.1@108@А что, в чём-то проблема?|Was ist das Problem?
+		08.bb.2^		Ну да. Мама же ещё не согласилась?|Mom hat dem noch nicht zugestimmt, oder?
+
+	08.bb.2@101@Макс, ты прав. Ключевое слово здесь - ещё. Всего лишь нужно её уболтать, а там приступим к съёмкам!|Richtig, noch nicht. Wir müssen nur ihre Meinung ändern, damit wir anfangen können zu drehen.
+		08.bb.3^		Всего лишь...|"Nur" ihre Meinung ändern....
+
+	08.bb.3@113@Слушай, ты чего поник? Мы уже столько всего наворотили. Мама твой член дрочит почти в любое время, когда ты хочешь. Думаешь, откажется его попробовать?|Warum so düster, Max? Wir sind schon so weit gekommen. Mom wichst deinen Schwanz, wann immer du willst, glaubst du wirklich, dass sie sich weigert, ihn zu schlucken?
+		08.bb.4^		Ну делает вид, что откажется...|Sieht nicht so aus, als wolle sie das....
+
+	08.bb.4@114@Макс! Просто будь понастойчивее. Попытайся её уговорить. Да, она бывает упирается, но вода камень точит, верно?|Gib nicht auf, Max! Rede weiter mit ihr. Manchmal hat sie ihre Schamgefühle, aber wir schaffen das schon, oder?
+		08.bb.5^		Верно... Ладно, а что потом?|Richtig.... Okay, was dann?
+
+	08.bb.5@101@Ну а потом, когда она согласится, нам нужно будет потренироваться без камер. Точнее, вам. Конечно, при моём участии. Ты же не против?|Sobald sie zustimmt, werden wir einen Testlauf ohne die Kameras machen. Oder, genauer gesagt, du wirst es tun. Und ich werde zusehen. Es macht dir doch nichts aus, oder?
+		08.bb.6^		Конечно, нет!|Natürlich nicht!
+		08.bb.6a^		Я только за!|Ich bin dafür!
+
+	08.bb.6a@113@Ох, Макс... Такой энтузиазм и такая... любовь к маме... Не была бы я сама такой же извращенкой, подумала бы, что с тобой что-то не так... Тем не менее, мне это нравится. И поможет делу, если постараешься...|Max, dein Enthusiasmus und deine.... Liebe zu deiner Mom sind etwas beunruhigend.... Aber wer bin ich, dass ich das beurteilen kann, ich bin noch perverser als du. Ich liebe es, und wenn du dein Bestes gibst, wird es uns bei der Arbeit helfen.
+		08.bb.6^		Конечно, постараюсь!|Natürlich werde ich das!
+
+	08.bb.6@114@Ну вот. Стимул у тебя отличный. Иди, вперёд, убеждай маму и потом втроём обсудим дальнейший план.|Großartig. Jetzt, wo du deine Motivation zurück hast, überzeuge Mom, dir einen zu blasen und wir drei können unseren nächsten Schritt gemeinsam besprechen.
+		leave!set_momlust_21^			Хорошо, тётя Кира...|Okay, Tante Kira
+
+
+
+# --- 0.8: Попытка убедить маму сняться в следующем фильме
+
+	08.bc.0.init@0@Мам, насчёт фильма...|Wegen des Videos....
+	08.bc.0@69@Макс, я знаю что ты хочешь сказать и ты знаешь, что я тебе отвечу... К чему этот разговор?|Komm schon, Max.... Ich weiß bereits, was du mir sagen willst, du kennst bereits meine Antwort, warum müssen wir dieses Gespräch führen?
+		08.bc.1^		А в чём дело?|Was ist schon dabei?
+
+	08.bc.1@62@Ты серьёзно? В чём дело? В том, что я твоя мать. Я должна тебя воспитывать, показывать пример. И какой пример я тебе даю? Вообще, нужно всё это прекращать...|Ist das dein Ernst, Max? Die große Sache ist, ich bin deine Mutter, was lehre ich dich mit diesem Verhalten? Wir sollten alles stoppen....
+		08.bc.2^		И где мы будем жить?|Und wo werden wir wohnen?
+
+	08.bc.2@68@В каком смысле? Ах, ты о деньгах и содержании дома? Ну ты знаешь, как-то же люди живут и без таких домов...|Wir müssen nicht in diesem Haus wohnen, wir können mit einer günstigeren Miete umziehen....
+		random.social.1=1&08.bc.3a^		А наше образование? [skill.social_1]|Was ist mit unserer Ausbildung? [skill.social_1]
+		random.social.1=0&08.bc.3b^		А наше образование? [skill.social_1]|Was ist mit unserer Ausbildung? [skill.social_1]
+
+	08.bc.3b@60@<color=orange><i>Убеждение не удалось!</i></color>\nМакс, что-нибудь придумаем. Нас пока никто отсюда не выгнал. Может быть, подвернётся что-то... В общем, давай сменим тему.|<color=orange><i>Überzeugung fehlgeschlagen!</i></color>\nWir werden uns was einfallen lassen, Max. Noch hat uns niemand rausgeworfen. Vielleicht haben wir ja Glück.... Lass uns das Thema wechseln.
+		leave!set_dcd.momlust_1^			Эх...|Okay...
+
+	08.bc.3a@69@<color=lime><i>Убеждение удалось!</i></color>\nНу почему ты опять давишь на больную мозоль... Ну да, у меня нет денег на то, чтобы дать вам образование... Но...|<color=lime><i>Überzeugung erfolgreich!</i></color>\nWir können.... Oder.... Du hast Recht, ich kann es mir nicht leisten, dich aufs College zu schicken....
+		08.bc.3^		У тебя трое детей...|Du hast drei Kinder....
+
+	08.bc.3@73@Да знаю я это, Макс! Думаешь, я забыла? Конечно, это большая проблема. Неужели придётся на это пойти? Мне так стыдно и неловко даже обсуждать с тобой это, а то что придётся делать...|Ich weiß, Max, ich weiß! Denkst du, ich habe es vergessen? Ich weiß, das ist ein großes Problem. Ich kann nicht mal mit dir darüber reden, geschweige denn es wirklich tun....
+		08.bc.4a^		Но зато не с посторонними...|Wenigstens wird es kein Fremder sein.
+		08.bc.4b^		Но ты же меня любишь...|Liebst du mich nicht?
+
+	08.bc.4a@60@Думаешь, меня это утешает? Конечно, я не хочу видеть каких-то посторонних мужиков. А тем более заниматься с ними, ну ты понимаешь... Ладно, раз придётся идти на жертвы ради семьи, я обязана это сделать. Других вариантов всё равно нет...|Das ist keine große Erleichterung. Ich meine, ich will keine zufälligen Typen sehen und ich will nichts mehr mit ihnen machen.... Ich schätze, ich habe nicht wirklich eine Wahl, oder?
+		08.bc.4^		Вот, да!|Ich schätze
+
+	08.bc.4b@67@Конечно, Макс. Ты же мой сын. Именно поэтому меня и терзают сомнения. Да ты и так уже всё знаешь... Ладно, раз придётся идти на жертвы ради семьи, я обязана это сделать. Других вариантов всё равно нет...|Natürlich, Max.... Aber.... Aber ich muss das für die Familie tun und ich habe sowieso keine Wahl, oder?
+		08.bc.4^		Вот, да!|Ich schätze
+
+	08.bc.4@62@Наверняка же тебя подослала Кира? Это в её духе... Скажи только честно, вы это долго планировали? Я имею в виду вот так меня развести?|Hat Kira dich geschickt? Klingt nach ihr.... Sag mir, wie lange hast du das geplant?
+		08.bc.5^		Не понимаю о чём речь, мам...|Wir haben nichts geplant, Mom.
+
+	08.bc.5@60@Ну да, конечно. Ладно, забудь. Будем счиатать, что я на всё согласна. Ну, почти... Но давай уже сменим тему...|Riiichtig.... Gut, was auch immer. Tun wir so, als wäre ich zu allem bereit. Naja, fast allem. Du kannst ihr sagen, dass ich dabei bin.
+		leave!set_poss.car_12!set_momlust_22^			Ага!|Okay!
+
+
+
+# --- 0.8: Макс разговаривает с Кирой после того, как убедил маму сниматься во втором фильме
+
+	08.bd.0.init@0@Мама согласилась!|Mom hat zugestimmt!
+	08.bd.0@114@Ну вот видишь, Макс! Я даже не сомневалась, что она согласится...|Das habe ich nie bezweifelt.
+		08.bd.1^		Почему?|Warum?
+
+	08.bd.1@101@Во-первых, семье и правда нужны деньги, а это самый простой способ заработать больше, чем в других местах. Особенно, учитывая сложности с её работой...|Nun, zuerst brauchen wir wirklich das Geld, und das ist der einfachste Weg, um viel Geld zu verdienen. Vor allem, da deine Mom an so vielen Orten auf der schwarzen Liste steht.
+		08.bd.2^		А во-вторых?|Und zweitens?
+		08.bd.2a^		Ты поэтому этим занимаешься?|Bist du deshalb im Geschäft?
+
+	08.bd.2a@113@Ну... Ещё мне нравится секс и когда на меня смотрят. А если за это ещё и платят, то я... даже не знаю где кидают...|Das und ich liebe auch Sex und beobachtet zu werden. Und wenn ich auch dafür bezahlt werde.... Ein Traum wird wahr.
+		08.bd.2^		Понятно... А во-вторых?|Verstehe, und zweitens?
+
+	08.bd.2@114@А во-вторых, я уверена, что твоей маме и самой всё это хочется. Конечно, она никогда не признается, но если бы не хотелось, то никакие наши с тобой доводы не сработали бы...|Und zweitens, ich bin sicher, deine Mom will es auch. Sie wird es nicht zugeben, aber wenn sie es wirklich nicht tun wollte, würden wir ihre Meinung nie ändern können.
+		08.bd.3^		Даже так?|Denkst du das wirklich?
+
+	08.bd.3@101@Конечно! Ну сам подумай: какая мать согласится отсасывать своему сыну на камеру? А ведь я ещё толком не рассказала что там в сюжете...|Natürlich! Überleg mal, welche Mutter würde zustimmen, den Schwanz ihres Sohnes vor der Kamera zu lutschen? Und ich habe nicht einmal Details über die Handlung erzählt....
+		08.bd.4^		О, расскажи!|Oh, erzähl schon!
+
+	08.bd.4@113@Ну уж нет, сделаю это, когда все вместе соберёмся. Да и не придётся два раза рассказывать... В общем, подходи к бассейну, когда мы с твоей мамой будем болтать...|Ich will mich nicht wiederholen, ich sag's dir, wenn deine Mom dabei ist. Komm vorbei, wenn wir beide am Pool sind.
+		leave!set_momlust_23^		Понял, хорошо...|Ich hab's
+
+
+
+# --- 0.8: Разговор с Кирой и мамой у бассейна после того, как мама согласилась на съёмки
+
+	08.be.0@114@Помяни Макса и он тут как тут! Мы как раз обсуждали некоторые твои... достоинства...|Und hier ist Max! Wir sprachen gerade über deine.... Rolle.
+		08.be.1^		Хм...|Em...
+
+	08.be.1@113@Да не смущайся ты так. Мы о твоём характере и стремлении достигать поставленную цель. Но давайте поговорим о делах...|Bekomme nicht den falschen Eindruck, wir sprachen über deinen eigentlichen Charakter, wie zum Beispiel, dass du sehr entschlossen bist, immer das zu bekommen, was du willst. Aber lass uns über den Job reden.
+		08.be.2^		Слу?аю...|Ich höre
+
+	08.be.2@101@Я знаю, Ань, что ты согласилась сниматься в этом фильме и готова даже на такие жертвы, как порадовать... орально своего сына на камеру, но...|Also, Ann, ich weiß, du hast zugestimmt, in einem Film mitzuspielen, und du bist bereit.... deinem Sohn vor der Kamera zu gefallen, aber....
+		08.be.3^		<i>далее</i>|<i>fortfahren</i>
+
+	08.be.3@69@Кира, ну мне что, расписку написать, что я обязуюсь взять в... Я уже переступила через себя и сказала десять раз, что согласилась! Что за сомнения?|Komm schon, Kira, was brauchst du noch? Willst du es schriftlich sehen?
+		08.be.4^		<i>далее</i>|<i>fortfahren</i>
+
+	08.be.4@101@Одно дело представлять это, а другое - убедиться, что ты справишься. Я предлагаю вам немного потренироваться. Без камер, но со свидетелем...|Ich will sichergehen, dass du nicht kneifst und das Shooting ruinierst. Deshalb will ich, dass du es ohne Kameras versuchst, aber zuerst mit einem Zeugen.
+		08.be.5^		С каким?|Wer?
+		08.be.5^		А зачем нам свидетели?|Warum der Zeuge?
+
+	08.be.5@113@Макс, не тупи! Я буду этим свидетелем. При мне сделаете это и я буду уверена, что вы сможете повторить и перед оператором. И это не вопрос или предложение. Всё ясно?|Sei nicht dumm, Max! Ich werde Zeuge sein. Wenn du es einmal vor mir getan hast, werde ich sicher sein, dass du es vor der Kamera tun kannst. Und das ist keine Bitte, verstanden?
+		08.be.6^		Ну, раз надо...|Wenn wir müssen....
+
+	08.be.6@62@Ой, Макс, не ломай комедию. У тебя от одной мысли уже шорты шевелятся! Хорошо, Кира. Когда будет подходящий момент, я сделаю это. А теперь давайте сменим тему...|Oh, armer Max, was für schreckliche Opfer du bringen musst. Deine wirklichen Absichten sind auf dem Tisch. Aber gut. Ich werde es tun.
+		08.be.7^		Но... когда?|Okay... Wann?
+
+	08.be.7@101@Ну, как всегда. Я обычно прихожу чуть раньше в ночь с четверга на пятницу, тогда и... потренируетесь, так сказать...|Donnerstag abends komme ich normalerweise früh nach Hause, das klingt nach einer guten Zeit für einen.... Testlauf.
+		08.be.8^		Хорошо...|Okay
+		08.be.8a^		А если я просплю?|Und wenn ich schlafen gehe?
+
+	08.be.8a@100@Тогда придётся ждать следующей недели. У меня не так часто получается выбраться пораньше. Дела, работа, сам понимаешь...|Dann musst du noch eine Woche warten. Ich habe einen vollen Terminkalender.
+		08.be.8^		Хорошо...|Okay
+
+	08.be.8@113@Ну всё, Макс, иди займись чем-нибудь, а мы поболтаем с твоей мамой о чём-то, что не связано с сексом, для разнообразия...|Okay, Max, deine Mom und ich sollten einmal ein nicht-sexuelles Gespräch führen.
+		leave!set_poss.car_13!set_momlust_24^			Ага, понял...|Verstanden, ich lasse euch allein.
+
+
+
+# --- 0.8: Ночная сцена с мамой и Кирой с демонстрацией готовности мамы
+
+	08.bf.0@114@y-pr-1@Ну вот, я же тебе говорила, что он придёт! От такого ни один мужчина не откажется. Да и я бы не отказалась...|Ich habe dir gesagt, dass er kommt! Kein Mann würde diese Gelegenheit ablehnen! Und ich auch nicht....
+		08.bf.1^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bf.1@67@Ой, Кира, тебе грех жаловаться. Я для тебя уже всё сегодня сделала, что ты хотела... Ой, Макс, извини, мы тут о своём, о девичьем... Ничего, что мы в таком виде?|Ich habe heute schon alles getan, was du wolltest, Kira.... Tut mir Leid, Max, Mädchengespräch.... Macht es dir nichts aus, wenn wir so aussehen?
+		08.bf.2^		Выглядите отлично!|Du siehst großartig aus!
+		08.bf.2a^		Всё сделала? Чем вы тут занимались?|Alles gemacht? Was hast du ohne mich gemacht?
+
+	08.bf.2a@101@У женщин свои секреты, Макс. Мы тут тоже времени зря не теряли. Так сказать, готовились к твоему приходу, красились, прихорашивались и всё такое...|Wir haben unsere Geheimnisse, Max. Es ist ja nicht so, als würden wir hier nur auf dich warten. Wir machten uns bereit.
+		08.bf.2^		Да, выглядите отлично!|Du siehst übrigens toll aus!
+
+	08.bf.2@113@y-pr-2@А ты джентльмена воспитала, Ань... Так, джентльмен, иди сюда и снимай шорты. Пока твоя мама не передумала... Хотя, если она передумает, то я её свяжу и заставлю это сделать...|Du hast einen Gentleman großgezogen, Ann.... Nun, Gentleman, komm her und zieh deine Hose aus, bevor deine Mutter ihre Meinung geändert hat. Obgleich, wenn sie wird, werde ich sie fesseln und sie <i>muss</i> es tun.
+		08.bf.3^		Ого...|Wow
+
+	08.bf.3@62@Кира, фу как это вульгарно... Может быть, ты так Максу настроение испортишь и у него...|Sei nicht ekelhaft, Kira.... Vielleicht ruinierst du seine Erektion....
+		08.bf.4^		Что?|Was?
+
+	08.bf.4@114@Что, не встанет? На двух голых женщин? Шутишь? Я боюсь, он кончит ещё до того, как ты прикоснёшься к нему губами...|Glaubst du wirklich, es besteht die Chance, dass er nicht hart wird mit zwei geilen nackten Frauen vor ihm? Ich fürchte, er könnte kommen, bevor du ihn blasen kannst.
+		08.bf.5a^		Не кончу!|Werde ich nicht!
+		08.bf.5^		Ох... <i>(снять шорты)</i>|Oh... <i>(Hosen ausziehen)</i>
+
+	08.bf.5a@101@Ну это мы сейчас выясним. Только тебе придётся очень постараться себя сдерживать. Знал бы ты, сколько страсти в твоей маме...|Finden wir es heraus. Du musst dich auf die Kontrolle konzentrieren, du hast keine Ahnung, wie leidenschaftlich deine Mom ist....
+		08.bf.5^		Ох... <i>(снять шорты)</i>|Oh... <i>(Hosen ausziehen)</i>
+
+	08.bf.5@69@y-pr-3@Кира, а ты можешь ну... отвернуться или глаза закрыть? Я что-то неловко себя чувствую...|Musst du wirklich zusehen, Kira? Ich fühle mich nicht wohl mit deinen Blicken.
+		08.bf.6^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bf.6@101@y-pr-4@Ань, ты издеваешься? Весь смысл этого испытания - посмотреть на то, как ты делаешь это на публику. И я эта самая публика в данный момент... А теперь хватит разговоров и давай соси уже член своего сына!|Ernsthaft, Ann? Ich starre den Kern der Sache an, du sollst das vor der Kamera machen können. Und ich bin die Vertretung. Jetzt hör auf zu reden und fang an, den Schwanz deines Sohnes zu lutschen!
+		08.bf.7^		Ох...|Oh...
+
+	08.bf.7@4@y-pr-5@<i>Ого, какой опытный ротик у мамы! Она заглотила член на половину и даже не поморщилась! Откуда такие навыки, интересно? А всё притворяется монашкой... Ох... Как же хорошо...</i>|<i>Mom weiß definitiv, was sie tut! Sie hat sofort die Hälfte meines Schwanzes verschluckt! Wo hat sie das gelernt, frage ich mich.... Und sie benimmt sich die ganze Zeit so unschuldig.... Das fühlt sich unglaublich an.</i>
+		08.bf.8^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bf.8@100@y-pr-6@Ань, чувственнее, ты же не робот и не резиновая кукла... Покажи сыну как ты его любишь. Поверь, зрители заметят и оценят, если ты будешь делать это более нежно...|Mehr Leidenschaft, Ann, du bist keine aufblasbare Puppe. Zeig deinem Sohn, wie sehr du ihn liebst. Glaubt mir, die Zuschauer werden den Unterschied bemerken und schätzen.
+		08.bf.9^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bf.9@4@y-pr-5@<i>Ох... Неужели может быть ещё лучше? Ой... да... может... Мама полна сюрпризов... Почти полностью заглотила мой член! И как он там в ней поместился? О да, мама, да... Я так долго не выдержу...</i>|<i>Könnte es noch besser werden? Oh.... ja. Ja, das kann es.... Mom ist voller Überraschungen.... Sie hat meinen Schwanz fast vollständig verschluckt! Wie hat sie es überhaupt hingekriegt? Ja, Mom, ja.... Ich werde nicht lange warten können....</i>
+		08.bf.10^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bf.10@113@y-pr-6@И Ань, если не хочешь испачкать кровать, то ты должна всё проглотить. Но думаю, ты и так это понимаешь... Перед камерой потом покажи, что сперма у тебя во рту перед тем, как проглотить. Зрителям нравится такое...|Schluck, Ann, du willst doch nicht die Laken beschmutzen, oder? Wenn du es vor der Kamera machst, solltest du es aber in deinem Mund zeigen, bevor du es schluckst. Die Zuschauer lieben das.
+		08.bf.11^		Ох... <i>(кончить!)</i>|Oh... <i>(spritzen!)</i>
+
+	08.bf.11@62@y-pr-7@Похоже, не только зрителям... У Макса всё на лице написано...|Nicht nur Zuschauer.... Max sieht auch ziemlich glücklich aus.
+		08.bf.12^		Я... о... да...|I... ja... em...
+
+	08.bf.12@114@Кажется, мы потеряли Макса. Ну что, Ань, как ощущения от его спермы? Нравится?|Ich glaube, er ist fertig. Also, Ann, wie schmeckt sein Sperma? Hat es dir gefallen?
+		08.bf.13^		Э...|Em...
+
+	08.bf.13@69@Вынуждена признаться... да. Было приятно делать это... И на вкус весьма...|Ich muss sagen.... Ja. Ich habe es gerne gemacht.... Und der Geschmack war auch ziemlich gut....
+		08.bf.14^		Кире тоже понравилось...|Kira mochte es auch....
+		08.bf.14b^		<i>промолчать</i>|<i>sei ruhig</i>
+
+	08.bf.14b@113@Ага, мне тоже понравилось... Ой. Я сказала что-то лишнее?|Ja, mir gefällt es auch.... Scheiße, das hätte ich nicht sagen sollen....
+		08.bf.14c^		Кажется...|Ja ja
+
+	08.bf.14c@68@Что?! Ты хочешь сказать, что трахалась с моим сыном? И давно у вас... Вы... Даже слов нет... Макс, спрячь своё хозяйство уже, отвлекает!|Was!? Willst du mir erzählen, dass du meinen Sohn gefickt hast? Wie lange hast du.... Du.... Bedecke dich, Max, es lenkt ab.
+		08.bf.15^		Упс... <i>(надеть шорты)</i>|Oops <i>(Hosen nziehen)</i>
+
+	08.bf.14@62@Что?! Кира, вы уже делали это?! Так, Макс, натягивай шорты и с глаз моих!|Was!? Kira, hast du das auch getan!? Zieh deine Hose an und verschwinde, Max!
+		08.bf.15^		Упс... <i>(надеть шорты)</i>|Oops <i>(Hosen nziehen)</i>
+
+	08.bf.15@100@y-pr-2@Ань, ну что ты в самом деле... Мы же на камеру трахались прямо перед тобой, помнишь?|Nicht überreagieren, Ann. Wir haben mit der Kamera gefickt, erinnerst du dich?
+		08.bf.16^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bf.16@62@Это я помню. А ещё помню, что он кончил тебе на попку и ты не пробовала его сперму... Скажи честно, вы друг с другом трахались, кроме фильма?|Ja. Ich erinnere mich auch, dass er dir auf deinem Arsch kam und du sein Sperma nicht probieren konntest. Wart ihr beide außerhalb des Films aktiv?
+		08.bf.17^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bf.17@108@Ань, ну я должна же была выяснить, достаточно хороший актёр Макс или не очень... Оказалось, что очень даже хороший. Ну ты и сама убедилась, верно?|Ich musste meinen eigenen Testlauf machen, bevor ich die Kamera einbeziehen konnte.... Es stellte sich heraus, dass Max wirklich gut ist. Jetzt weißt du das selbst, oder?
+		08.bf.18^		Спасибо...|Danke
+
+	08.bf.18@62@Макс, а тебя не спрашивают. И вообще, иди спать, поздно уже. Нам с твоей тётей ещё нужно о многом поболтать...|Niemand hat dich gefragt, Max. Geh ins Bett, es ist spät. Deine Tante und ich haben viel zu besprechen....
+		leave!set_poss.car_14!set_momlust_25!max_cam.2.grow_300!time^		Ладно, спокойной ночи...|Okay, Gute Nacht
+
+
+
+# --- 0.8: Разговор с мамой после ночного эвента
+
+	08.bg.0.init@0@Насчёт... тренировки...|Über.... den Testlauf
+	08.bg.0@69@Макс, я как раз хотела об этом поговорить. Твоя тётя всё мне рассказала про эти ваши с ней... тренировки. И давно вы вместе трахаетесь?|Ich wollte auch darüber reden, Max. Deine Tante hat mir von deiner.... Ausbildung erzählt. Wie lange fickst du Sie schon?
+		08.bg.1^		Н-нет...|Nicht lange....
+		08.bg.1^		Ничего не было!|Wir haben nie etwas getan!
+
+	08.bg.1@62@Так я тебе и поверила. Наверняка, с первого же дня, как к нам приехала, тебя соблазнила? А я дура ничего не замечала...|Ja, richtig. Sie hat dich gefickt, als sie zum ersten Mal ins Haus gezogen ist, oder? Wie konnte ich es die ganze Zeit verpassen....
+		08.bg.2^		Мам, всё хорошо...|Komm schon, Mom, alles ist in Ordnung.
+
+	08.bg.2@60@Не сомневаюсь, что у тебя всё хорошо... Но она же твоя тётя!|Ich bin sicher, du bist zufrieden mit dem Arrangement.... Aber sie ist deine Tante!
+		08.bg.3^		А ты моя мама!|Und du bist meine Mom!
+
+	08.bg.3@62@Макс! Ну ты же всё знаешь! Это же для семьи, для того, чтобы у нас остался этот дом... Да что я тебе объясняю... А вам то это зачем было делать? Только не говори, что она тебе ещё и платила...|Du weißt, dass ich das für die Familie tue, Max! Was ist deine Ausrede? Bitte sag mir nicht, dass sie dich bezahlt hat....
+		08.bg.4^		Ты же знаешь тётю, она такая горячая...|Du kennst sie, sie ist so heiß....
+		08.bg.4^		Нет, конечно!|Natürlich nicht!
+
+	08.bg.4@69@Ну кого я воспитала... Хотя, сама тоже хороша. Ладно, проехали. Не мне вас судить... после всего, что было...|So habe ich dich nicht erzogen.... Es ist aber auch meine Schuld.... Aber du hast Recht, ich kann dich nicht verurteilen, nicht nach allem, was wir getan haben.
+		08.bg.5^		Кстати, было чудесно!|Und übrigens, was wir gemacht haben, war Großartig!
+
+	08.bg.5@67@Спасибо, сынок. Мама же именно это мечтает услышать после... Ну ты понял...|Danke, mein Sohn. Das ist genau das, was jede Frau hören will.... Du weißt schon....
+		08.bg.6^		Но правда было классно!|Aber es war wirklich unglaublich!
+
+	08.bg.6@75@Ладно. Будем считать, мы всем доказали, что у нас самая развратная семейка. Ну... может и не вся. Твои сёстры уж точно нас бы не поняли. Надеюсь, они никогда не узнают и останутся... нормальными...|Okay. Ich schätze wir haben festgestellt, dass wir eine perverse Familie sind. Nun.... Vielleicht nicht die ganze Familie. Deine Schwestern sind nicht in unser.... Familiengeschäft verwickelt. Ich hoffe, dass die Dinge so bleiben und sie sich normal entwickeln.
+		08.bg.7^		Ну... да...|... Ja ja...
+
+	08.bg.7@62@Как-то ты неуверенно это сказал, Макс... Ладно, раз уж разобрались с этим, давай сменим тему.|Klingt nicht sehr überzeugend, aber ich habe nicht die Energie, das zu tun. Lassen Sie uns diese Unterhaltung beenden.
+		leave!set_momlust_26^			Хорошо...|Okay
+
+
+
+# --- 0.8: Разговор с Кирой после ночной "тренировки"
+
+	08.bh.0.init@0@Думаешь, всё прошло хорошо?|Glaubst du, dass alles gut gelaufen ist?
+	08.bh.0@101@Ты про минет? Конечно! Я думала, что твоя мама будет дольше ломаться, но нет... Да ещё так ловко управилась с твоим хозяйством. Думаю, ты и сам это заметил...|Meinst du den Blowjob? Ja, alles lief super, ich erwartete mehr Widerstand von deiner Mom, aber sie hat mich angenehm überrascht. Und sie hat überraschend gut geblasen, nicht wahr? Ich bin sicher, du hast es bemerkt.
+		08.bh.1^		Ага. Откуда у неё такие навыки?|Oh ja. Wo hat sie das alles gelernt?
+
+	08.bh.1@113@Кто знает, Макс, кто знает... А я тебе говорила, что у твоей мамы полно сюрпризов? Кстати, мы с ней потом поболтали насчёт... нас с тобой...|Wer weiß, Max, wer weiß.... Habe ich dir gesagt, dass deine Mom voller Überraschungen steckt? Nachdem du weg warst, sprachen wir über dich und mich.
+		08.bh.2a^		Сюрпризов? Каких?|Welche Überraschungen?
+		08.bh.2^		И ты всё рассказала?|Wie viel weiß sie?
+
+	08.bh.2a@114@Ну например, что когда она перевозбуждена, она себя не контролирует... Не знаю, не может или не хочет... или всё сразу... Да и её эта тяга к подчинению, вспомни их отношения с Эриком...|Sie kann sich nicht beherrschen, wenn sie zum Beispiel geil ist. Ich weiß nicht, ob es "kann nicht" oder "wird nicht" ist. Oder beides.... Und dazu kommt noch ihre unterwürfige Seite, erinnerst du dich an Eric?
+		08.bh.2b^		Нет, не хочу...|Ugh, lass uns nicht über ihn reden.
+
+	08.bh.2b@100@Ну и хорошо. Я тоже считаю, что без него лучше. Даже проблемы с работой вот как обернулись для нас. Зато не скучно... Кстати, мы болтали с ней о тебе...|Ja, ich will auch nicht über ihn reden. Wir sind viel besser ohne ihn, sogar ihr Jobproblem erwies sich als ein Segen in unserer Gesellschaft. Wir haben auch über dich gesprochen....
+		08.bh.2^		Обо мне? Ты всё рассказала про нас с тобой?|Wie viel hast du ihr erzählt?
+
+	08.bh.2@101@Нет, конечно. Так, в общих чертах. В общем, теперь наши с тобой отношения и игры больше не секрет...|Nicht viel, nur die allgemeinsten Infos. Wie auch immer, jetzt ist unser Geheimnis gelüftet.
+		08.bh.3^		И что это значит?|Ändert das etwas?
+
+	08.bh.3@113@Конечно, трахаться у неё на глазах без повода типа съёмок, не стоит, но как минимум, она уже не в шоке от того, что мы с тобой... по своей воле... В общем, всё хорошо.|Ich denke nicht, dass wir vor ihr ficken sollten, ohne eine gute Entschuldigung, wie einen Film zu drehen. Aber sie nahm es.... gut genug, Ich schätze. Also ist alles in Ordnung.
+		08.bh.4^		И как ты её уболтала?|Wie hast du das geschafft?
+
+	08.bh.4@114@Ой. У женщин свои секреты. Когда твоя мама возбуждена, она себя не контролирует и с ней можно делать... разное... В том числе и убедить в чём-то...|Ich werde das geheim halten, Max. Wenn deine Mom erregt genug ist, kann sie sich nicht mehr beherrschen und kann zu.... allen möglichen Dingen überredet werden.... Inklusive ihre Meinung zu den Dingen zu ändern.
+		08.bh.5^		Любопытно...|Interessant...
+
+	08.bh.5@101@Ой, даже не хочу знать что ты там себе вообразил, Макс. Ладно, ты ещё что-то хотел?|Ich habe Angst zu fragen, was du dir gerade vorstellst, Max. Wie auch immer, gibt es noch etwas anderes, worüber du reden wolltest?
+		leave!set_momlust_27!set_dcd.momlust_1^			Нет, пока нет...|Nein, das war's.
+
+
+
+# --- 0.8: Разговор у бассейна с Кирой и Анной перед вторыми съёмками
+
+	08.bi.0@101@А вот и твой мужчина, Ань...|Und hier ist dein Mann, Ann.
+		08.bi.1^		И твой тоже...|Und deiner auch....
+
+	08.bi.1@62@Макс, не пошли! И хватит уже болтать об этом. Вдруг, кто-то услышит? К тому же, мы всё делаем для дела, верно? Вот давайте о деле и поговорим...|Sei nicht ekelhaft, Max! Ich will nichts davon hören, was ist, wenn uns jemand belauscht? Und wir machen das nur für Geld, richtig? Also lass uns übers Geschäft reden.
+		08.bi.2^		Давайте...|Sicher
+
+	08.bi.2@108@Сразу к делу? Ну, хорошо. Сюжет я тут набросала, вот ваши реплики. Выучите их как перед прошлыми съёмками. Желательно не совершать ошибок, от этого будет зависеть ваш гонорар... Да, съёмки через пару дней...|Direkt zum Geschäft? Okay. Ich habe ein Drehbuch geschrieben, hier sind deine Zeilen. Lernt sie, wenn ihr den vollen Lohn bekommen wollt, genau wie beim letzten Mal. Wir drehen in ein paar Tagen.
+		08.bi.3^		Ага... А что надо будет делать?|Okay. Was müssen wir tun?
+
+	08.bi.3@101@Ну Аню я морально подготовлю сейчас... А тебе, Макс, точно понравится. Ну и пусть сюрприз будет. Однако, никакой самодеятельности. Выучи реплики и делай то, что написано. Понял?|Ich werde Ann auf das vorbereiten, was sie tun muss.... Aber du wirst es lieben, Max. Und lass es eine Überraschung sein. Aber nicht zu viel improvisieren, den Text lernen und tun, was im Drehbuch steht, verstanden?
+		08.bi.4^		Понял...|Ja
+
+	08.bi.4@62@Подготовишь меня морально? К чему? Что там такое будет?|Bereit für mich? Was hast du vor?
+		08.bi.5^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bi.5@113@Ань, ты как относишься к верёвкам, фиксации, лёгкому БДСМ?|Ann, was hältst du von Seilen, Fixierung und leichtem BDSM?
+		08.bi.6^		Что?|Was?
+
+	08.bi.6@68@Что?! Кира, ну что за дела? Что ты там опять задумала?!|Was!? Was zum Teufel, Kira? Warum hast du immer diese verrückten Ideen?
+		08.bi.7^		Ого...|Wow...
+
+	08.bi.7@114@Так, Макс, иди погуляй, а мы тут поболтаем. Я такой реакции не ожидала и будет лучше, если ты не будешь вмешиваться, да ещё и перевозбудишься раньше времени...|Okay, Max, Zeit für dich zu gehen. Deine Mutter und ich werden ein privates Gespräch führen und es wird besser laufen, wenn du uns nicht mit deiner Erektion unterbrichst.
+		leave!set_poss.car_15!set_momlust_28!set_dcd.momlust_4^			Л-ладно...|Sch-Schön...
+
+
+
+# --- 0.8: Старт вторых съёмок. Начинается у бассейна, как и в прошлый раз
+
+	08.bj.0@101@О, Макс, отлично. Ты как раз вовремя! Звонил Миша, он уже едет, сейчас будем снимать фильм. Надеюсь, ты готов и всё выучил...|Hi, Max, tolles Timing. Michael hat angerufen, er ist schon auf dem Weg hierher. Ich hoffe, du bist bereit und hast deinen Text gelernt.
+		08.bj.1!set_wro_0^		Я готов...|Ich bin soweit
+
+	08.bj.1@69@Не уверена, что я готова. К такому вообще мало кто может быть готов... Ладно, Кира, пойдём кофе попьём, обсудим кое-что... Макс, а ты будь тут. Открой, когда Михаил придёт.|Bin mir nicht sicher, ob ich das bin. Ich weiß nicht, wie man sich auf so etwas vorbereiten kann.... Lass uns einen Kaffee trinken gehen, Kira, ich möchte dich etwas fragen.... Bleib hier, Max, und begrüße Michael, wenn er vorbeikommt.
+		08.bj.2^		Хорошо <i>(ждать)</i>|Okay <i>(warten)</i>
+
+	08.bj.2@101@p-mike-2@О, а вот и Миша. Как у тебя дела, как добрался?|Und hier ist Michael. Wie geht es dir, bist du gut hierher gekommen?
+		08.bj.3^		Привет, Миш...|Hi, Michael
+
+	08.bj.3@126@Ага, всем привет. Кир, я как всегда очень занят и у меня есть всего пара часов. Твой текст я уже прочитал, роль выучил, готов. Надеюсь, все остальные тоже...|Ja, hi, alle zusammen. Ich bin immer beschäftigt, also haben wir nur ein paar Stunden. Ich habe meine Zeilen bereits gelesen und bin bereit. Ich hoffe, alle anderen sind auch bereit.
+		08.bj.4^		Роль? Выучил?|Dein Text?
+		08.bj.4^		Постой, ты тоже участвуешь?!|Du wirst auch im Porno sein?
+
+	08.bj.4@126@p-mike-1@Ну да. А разве Кира вам не рассказала о моей роли? Ага, это в твоём стиле, всех держать до последнего в... напряжении...|Hat Kira dir nicht von meiner Rolle erzählt? Klingt wie sie, die alle in Spannung hält....
+		08.bj.5^		Э...|Em...
+
+	08.bj.5@100@p-mike-2@В общем, каждый из вас знает что делать. Главное - реплики заучите, а там уже посмотрим как всё будет. Я хочу, чтобы вы выглядели естественно и лучше бы всё снять в один дубль...|Jeder weiß, was zu tun ist, also geht auf eure Plätze. Ich will, dass du natürlich aussiehst, alles in einem Take zu drehen, wäre toll....
+		08.bj.6^		Ладно...|Okay
+
+	08.bj.6@126@Ну что, приступим? Переодевайтесь, а я оборудование притащу и всё подготовлю.|Also, fangen wir an? Ich bereite alles vor, du kannst dich in der Zwischenzeit umziehen.
+		08.bj.7^		Ага...|Okay
+		08.bj.7a^		Переодеваться? Во что?|Umziehen? In was?
+
+	08.bj.7a@101@Да можешь прямо в таком виде быть. Ну, только надень какую-нибудь футболку или майку. Лучше яркого цвета. Зрителям нравятся яркие краски...|Du musst dich nicht wirklich umziehen. Oder vielleicht ein T-Shirt oder ein Tank Top anziehen. Etwas Helles.
+		08.bj.7^		Ага...|Okay
+
+	08.bj.7@100@y-s-1@Так, Макс. У меня к тебе просьба. Делай всё по той инструкции, что я тебе дала. Никакой самодеятельности... Ну, в разумных пределах...|Ich habe eine Bitte an dich, Max. Folge deinem Skript, keine Improvisation.... Nun, weiche wenigstens nicht zu weit weg, ok?
+		08.bj.8^		А что мама будет делать?|Sicher
+
+	08.bj.8@112@Да, Ань, насчёт твоей роли. Хотела уточнить. Если что-то будет для тебя неожиданностью, импровизируй, подыгрывай. Если захочешь мне что-то высказать, то потом, после съёмок...|Ja, Ann, wegen deiner Rolle. Ich wollte es klären. Es ist etwas unerwartet für Sie, improvisiere, spiele einfach mit. Wenn du mir etwas erzählen willst, dann später, nach dem Shooting...
+		08.bj.9^		О чём ты?|Was meinst du damit?
+
+	08.bj.9@60@Да, Кира, о чём это ты? Что может быть неожиданностью? Ох и зачем я опять на это согласилась... Ведь знаю, что от тебя всего можно ожидать...|Ja, was meinst du damit? Was ist unerwartet? Warum habe ich dem zugestimmt.... Ich wusste, es wird nach hinten losgehen....
+		08.bj.10^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.10@101@Так, без паники! Я всем дала текст только их роли и порядок действий. Пусть это будет для всех сюрпризом... И Ань, чего ты стоишь? Раздевайся догола, прямо сейчас!|Keine Panik! Ich habe euch allen eure Zeilen gegeben, der Rest wird eine Überraschung sein. Und worauf wartest du, Ann? Zieh dich endlich aus!
+		08.bj.11^		Ого...|Wow!
+
+	08.bj.11@113@y-s-2@Макс, куда ты уставился? Если ты перевозбудишься раньше времени, ждать будет некогда, пока ты... восстановишься... Ань, а ты не крути задом перед сыном!|Hör auf zu starren, Max, wir wollen nicht, dass du dich zu sehr aufregst, wir haben keine Zeit zu warten, bis du.... wieder auflädst. Und Ann, hör auf, deinen Arsch vor deinem Sohn zu zeigen!
+		08.bj.12^		Э...|Em...
+
+	08.bj.12@62@Кира, ты меня ещё и отчитываешь?! Да я сейчас тебе...|Was!? Du redest weiter und ich....
+		08.bj.13^		Не ссорьтесь. Может быть, начнём?|Wir haben keine Zeit zum Streiten. Wollen wir mit den Dreharbeiten beginnen?
+
+	08.bj.13@100@Да, Макс, отличная идея. Ты знаешь что делать, иди жди за дверью, а мы тут начнём уже съёмку.|Tolle Idee, Max. Du weißt, was zu tun ist. Warte hinter der Tür, während wir anfangen.
+		08.bj.14^		Ладно...|Okay
+
+	08.bj.14@0@y-s-4@<i>Так, по сюжету я типа слышу звуки из комнаты, где мама должна быть одна, пока папа типа на работе. И я решаю посмотреть в чём дело... Что же я там говорю вслух?</i>|<i>Okay, ich soll ein paar Geräusche aus Moms Zimmer hören, wo sie allein sein soll, weil Dad auf der Arbeit ist. Und ich will sehen, worum es bei dem Lärm geht.... Also, was soll ich sagen?</i>
+		08.bj.15!add_wro_1^		Ой, кто это там? Дома же никого нет?|Wer ist da? Niemand sollte zu Hause sein!
+		08.bj.15^				Разве мама не одна? Папа же на работе?|Sollte Mom nicht allein sein? Dad sollte bei der Arbeit sein....
+		08.bj.15!add_wro_1^		Кажется, мама с кем-то развлекается...|Sieht so aus, als hätte Mom Spaß mit jemandem.
+
+	08.bj.15@2@y-s-3@<i>Блин, ну что за дела... Надеюсь, Кира не перестарась со своим сюжетом. Что этот Миша делает с ней? Ах да, мой текст...</i>|<i>Was zum Teufel ist hier los? Ich hoffe, Tante Kira hat nicht zu viel geschrieben.... Was macht Michael da? Warte, ich soll hier etwas sagen....</i>
+		08.bj.16^				Это же её коллега с работы... Как его, Борис?|Das ist Moms Kollege.... Wie heißt er, Boris?
+		08.bj.16!add_wro_1^		О, а это что за мужик? Где-то я его видел...|Wer zum Teufel ist das? Ich glaube, ich habe ihn irgendwo gesehen.
+		08.bj.16!add_wro_1^		Этот же мужик работает с моей мамой?|Das ist ein Typ von Moms Arbeit!
+
+	08.bj.16@67@y-s-7@Борис, опять ты со своими играми... Может быть, мы просто потрахаемся, пока мой муж не вернулся с работы?|Schon wieder deine Spiele, Boris.... Können wir nicht einfach ficken, während mein Mann auf der Arbeit ist?
+		08.bj.17^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.17@126@Ты же знаешь, как эти игры обостряют ощущения, верно? А муж твой сейчас на другом конце города и вернётся не скоро. Главное, чтобы твой сын нас не услышал...|Du weißt, dass unsere Spiele alles so viel besser machen, oder? Und dein Mann ist auf der anderen Seite der Stadt, er wird in nächster Zeit nicht zu Hause sein. Ich hoffe, dein Sohn kann uns nicht hören....
+		08.bj.18^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.18@75@Да он проспит ещё часа два - вернулся от друзей под утро только... А что насчёт твоей жены? Ты говорил, что скоро бросишь её... Не передумал? Может быть, расскажешь ей про нас?|Nein, er kam früh nach Hause, nachdem er die ganze Nacht gefeiert hatte.... Was ist mit deiner Frau? Du hast mir gesagt, dass du sie bald verlassen wirst.... Hast du deine Meinung geändert? Wann wirst du ihr von uns erzählen?
+		08.bj.19^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.19@126@Если она сейчас узнает про нас, то я останусь без денег. Ещё рано. Но скоро, любовь моя, скоро... Да хватит уже о них. У меня большие планы на тебя... Так, ложись и расслабься, сейчас я с тобой кое-что сделаю...|Wenn sie jetzt von uns erfährt, raubt sie mich bei der Scheidung aus. Aber bald, meine Liebe, bald.... Aber genug über sie. Ich habe große Pläne mit dir.... Also leg dich hin und entspann dich, ich werde etwas tun....
+		08.bj.20^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.20@5@y-s-4@<i>Кажется, я понял что сейчас будет... Вот только что же мне нужно сказать...</i>|<i>Ich sehe, wohin das führt.... Es ist Zeit für meine nächste Zeile.</i>
+		08.bj.21!add_wro_1^		Останется без денег? И тогда он будет не нужен маме!|Ihn bei einer Scheidung ausrauben? Dann wird er Mom nichts nützen!
+		08.bj.21^				Значит, боится жену? Кажется, у меня идея!|Er hat also Angst vor seiner Frau? Ich habe eine Idee!
+		08.bj.21!add_wro_1^		Что он собрался делать с мамой?!|Was wird er mit Mom machen?
+
+	08.bj.21@1@y-s-5@<i>Так, я типа отправляю СМС куда следует и тем самым должен напугать Михаила... то есть, Бориса, верно? Что я там говорю?</i>|<i>Jetzt werde ich "eine SMS senden", damit Michael sich erschreckt.... Boris, meine ich. Und meine nächste Zeile ist:</i>
+		08.bj.22!add_wro_1^		Так, напишу, что его машина разбилась, посмотрим как побегает...|Ich werde ihm simsen, dass sein Auto gestohlen wurde. Lasst uns seine Reaktion darauf sehen....
+		08.bj.22!add_wro_1^		Ага, сейчас отправлю СМС, якобы от его жены...|Ich werde einen Text schreiben "von seiner Frau"....
+		08.bj.22^				А как насчёт СМС его жене? Сейчас посмотрим...|Was, wenn ich seiner Frau eine SMS schicke? Mal sehen....
+
+	08.bj.22@69@y-s-8@Борис, мы с тобой так ещё не играли... И что я должна делать?|So haben wir noch nie gespielt, Boris.... Was soll ich denn machen?
+		08.bj.23^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.23@126@y-s-9@Просто расслабься и получай удовольствие. Доверься мне... Так, почти всё... И последний штрих, где-то у меня была повязка на глаза...|Nur hinlegen und entspannen. Vertrau mir.... Nun, der letzte Schliff.... Ich hatte irgendwo eine Augenbinde....
+		08.bj.24^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.24@126@y-s-10@Ну вот... Так, кто-то звонит... Ох... Больше ни звука!|Warte, jemand ruft an.... Scheiße, sei still!
+		08.bj.25^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.25@4@y-s-6@<i>А этот Миша не такой уж и плохой актёр. А может быть, он и правда актёр? Кто знает... Но сейчас моя очередь...</i>|<i>Michael erwies sich als schlechter Schauspieler. Aber ist er auch Schauspieler? Wer weiß.... Jetzt bin ich dran....</i>
+		08.bj.26!add_wro_1^		Ого, побежал как ошпаренный! Супер!|Nun, das war ein plötzlicher Ausstieg....
+		08.bj.26^				Сработало! Кажется, он оставил маму связанной!|Es hat funktioniert! Er hat meine Mom gefesselt zurückgelassen!
+		08.bj.26!add_wro_1^		Получилось! Надеюсь, он маму не развязал...|Es hat funktioniert! Ich hoffe, er hat Mom nicht losgebunden.
+
+	08.bj.26@60@y-s-11@Борис? Выключи уже свой телефон и займись делом!|Boris? Hör auf, unsere Zeit mit deinem Telefon zu verschwenden und fang an, etwas zu tun!
+		08.bj.27!add_wro_1^		<i>промолчать</i>|<i>sei ruhig</i>
+		08.bj.27!add_wro_1^		Ага...|Jaja
+		08.bj.27^				Тс-с-с...|Schh-h-h-h...
+
+	08.bj.27@67@Хорошо, любимый. Я всё поняла, больше ни звука...|Entschuldige, Schatz, ich werde still sein.
+		08.bj.28^		<i>снять шорты</i>|<i>Hosen ausziehen</i>
+
+	08.bj.28@4@y-s-12@<i>А ведь связал он её по-настоящему! Если я сейчас решу что-то с ней сделать, то... Интересно, Кира меня остановит? А мама, что она?</i>|<i>Hey, Michael hat sie tatsächlich gefesselt! Wenn ich mich entschließe, etwas zu tun.... Ich frage mich, wie viel ich tun kann, bevor Tante Kira einschreitet?</i>
+		08.bj.29^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.29@3@<i>Хм... По сюжету я должен воспользоваться ситуацией... Но как? Просто сунуть свой член ей в рот? Но Кира же намекала на какую-то импровизацию? Попробовать что-то... <b>такое</b>? Или придерживаться сюжета? Не зря же мама тренировалась брать у меня в рот?</i>|<i>Okay, ich soll diese Situation nutzen.... Aber wie? Soll ich meinen Schwanz einfach in Moms Mund stecken? Oder sollte ich etwas anderes versuchen? Hat Tante Kira nicht etwas über die Improvisation gesagt? Soll ich etwas versuchen oder soll ich mich einfach an das Skript halten?</i>
+		08.bj.31.1^		<i>засунуть член маме в рот</i>|<i>deinen Schwanz in Moms Mund stecken</i>
+		08.bj.32.1^		<i>потрогать её киску...</i>|<i>ihre Pussy berühren</i>
+		08.bj.33.1^		<i>трахнуть маму!</i>|<i>Fick Mom!</i>
+
+	08.bj.32.1@4@y-s-16@<i>Похоже, о такой импровизации Кира и говорила... Меня никто не останавливает и даже мама мне подыгрывает! А ведь мы даже не обсуждали это... Интересно, можно сделать что-то ещё? Может быть...</i>|<i>Sieht so aus, als wollte Tante Kira, dass ich das tue. Niemand hält mich auf und Mom spielt mit! Und wir haben das noch nicht einmal vorher besprochen! Ich frage mich, ob ich mehr tun könnte....</i>
+		08.bj.31.1^					<i>засунуть член маме в рот</i>|<i>deinen Schwanz in Moms Mund stecken</i>
+		08.bj.32.2!set_bor_1^		<i>ласкать её киску языком</i>|<i>ihre Pussy lecken</i>
+		08.bj.33.1^					<i>трахнут? маму!</i>|<i>Fick Mom!</i>
+
+	08.bj.32.2@71@О да, Борис... Да... Мне нравится твоя новая игра... Ещё...|Oh, ja, Boris.... Ja.... Ich mag dein neues Spiel.... Mehr....
+		08.bj.32.3^		<i>Ого...</i>|<i>und  jetzt</i>
+
+	08.bj.32.3@4@y-s-17@<i>Ну, сейчас мама узнает на что способен её сын... Кажется, она вот-вот кончит... Или она так играет? Хм... И что мне делать дальше? Может быть, продожить?</i>|<i>Es ist Zeit für Mom zu lernen, wozu ich fähig bin.... Sieht aus, als würde sie gleich kommen.... Oder spielt sie nur? Was nun?</i>
+		08.bj.31.1^		<i>зас?нуть член маме в рот</i>|<i>deinen Schwanz in Moms Mund stecken</i>
+		08.bj.32.4^		<i>продолжить ласкать</i>|<i>immer wieder gerne Mom</i>
+		08.bj.33.1^		<i>трахнуть маму!</i>|<i>Fick Mom!</i>
+
+	08.bj.32.4@67@y-s-18@О да, Борис... Я кончаю... Да... Как же хорошо... Да... А теперь давай я тебя порадую...|Oh, ja, Boris.... Ich komme.... Ja.... So gut.... Ich geb's dir zurück....
+		08.bj.31.1^		<i>засунуть член маме в рот</i>|<i>deinen Schwanz in Moms Mund stecken</i>
+		08.bj.33.1^		<i>трахнуть маму!</i>|<i>Fick Mom!</i>
+
+	08.bj.33.1@3@y-s-19@<i>Наконец-то! Ну, мама, держись. Надеюсь, твоя киска выдержит... Она уже вся влажная... Сейчас я тебя оттрахаю как следует!</i>|<i>Endlich! Mach dich bereit, Mom, ich hoffe, deine Muschi kann es verkraften.... Sie ist schon so nass.... Ich werde dich so sehr ficken!</i>
+		08.bj.33.2^		<i>попытаться засунуть член</i>|<i>versuche, Mom zu ficken</i>
+
+	08.bj.33.2@5@y-s-20@<i>Упс. Кажется, я слишком тороплю события... Кира недвусмысленно даёт понять, что так делать не надо. Ладно, обсудим с ней это позже. Похоже, мама ничего не заметила. Значит, идём по плану?</i>|<i>Mist. Sieht aus, als würde ich mich zu schnell bewegen, Kira will nicht, dass ich das tue. Gut, wir reden später darüber. Ich glaube nicht, dass Mom etwas bemerkt hat. Also, zurück zum ursprünglichen Plan?</i>
+		08.bj.31.1!set_unplan_1^		<i>засунуть член маме в рот</i>|<i>deinen Schwanz in Moms Mund stecken</i>
+
+	08.bj.31.1@5@y-s-14@<i>О да... Беспомощная, связанная мама наедине с моим огромным членом... Надеюсь, она справится с ним... Ох, от одной мысли я уже чуть ли не кончаю!</i>|<i>Oh, ja.... Hilflos gefesselte Mom allein mit meinem riesigen Schwanz.... Ich hoffe, sie kommt damit klar.... Wenn ich nur daran denke, werde ich fast spritzen!</i>
+		08.bj.31.2^		<i>засунуть его ?оглубже...</i>|<i>tiefer reinschieben</i>
+
+	08.bj.31.2@3@y-s-13@<i>Похоже, мама играет весьма убедительно... Да ей это всё явно нравится! А мне то как!</i>|<i>Mom ist sehr überzeugend.... Oder sie liebt es wirklich! Aber nicht so sehr wie ich!</i>
+		08.bj.31.3^		<i>продолжать</i>|<i>fortfahren</i>
+
+	08.bj.31.3@4@y-s-14@<i>Ещё чуть-чуть и я кончу... Лучше не в рот, а то вдруг подавится... Уж спермы будет много в этот раз... Да... Я кон-ча-ю...</i>|<i>Ich bin fast da.... Ich sollte nicht in ihren Mund kommen, was ist, wenn sie daran erstickt.... Es wird so viel Sperma geben.... Ja.... Ich komme!</i>
+		08.bj.31.4^		<i>кончить!</i>|<i>spritzen!</i>
+
+	08.bj.31.4@75@y-s-15@О, Борис... Я так люблю, когда ты на меня кончаешь... Надеюсь, тебе понравилось...|Oh, Boris.... Ich liebe es, wenn du mit mir kommst.... Ich hoffe, es hat dir gefallen....
+		08.bj.31.5!add_wro_1^		Ага, очень понравилось!|Ja, ich habe es geliebt!
+		08.bj.31.5!add_wro_1^		Да, всё было супер!|Alles war Großartig!
+		08.bj.31.5^					Мне понравилось, мам!|Ich habe es geliebt, Mom!
+
+	08.bj.31.5@68@y-s-12@Что?! Кто здесь? Сынок, это ты?! О боже...|Was!? Wer ist da? Bist du das, Sohn!? Oh mein Gott....
+		08.bj.36^		<i>занавес</i>|<i>beenden</i>
+
+	08.bj.36@69@y-s-21@Ну Кира, ты довольна? Заставила меня делать такое... Такие вещи...|Bist du jetzt glücklich, Kira? Er hat mich dazu gezwungen....
+		bor=0&08.bj.37^		Тебе не понравилось?|Hat es dir nicht gefallen?
+		bor>0&08.bj.37b^	Тебе не понравилось?|Hat es dir nicht gefallen?
+
+	08.bj.37b@73@Ну почему... Когда Миша решил кое-что сделать не по плану, понравилось... Такой нежный язычок... А в остальном у тебя надо спросить. Тебе то понравилось, Макс?|Nun.... Ich mochte es wirklich, als Michael beschloss, das Drehbuch zu verwerfen.... So eine sanfte Zunge.... Der Rest liegt bei euch. Hat es dir gefallen, Max?
+		08.bj.37c^		Э... Миша?|Em... Michael?
+
+	08.bj.37c@69@Ну да, ты же должен был это видеть. Я не знаю что там у тебя в роли написано...|Richtig, das hast du wahrscheinlich nicht gesehen. Ich kenne nicht alle Details deiner Rolle.
+		08.bj.38^		А, ну да. "Видел"...|Oh, richtig...
+
+	08.bj.37@73@Ну было необычно. Чувствовать себя такой беспомощной... А тебе то понравилось, Макс? Хотя, не говори. По твоему лицу и так всё понятно...|Es war so ungewöhnlich. Ich fühlte mich völlig hilflos.... Hat es dir gefallen, Max? Warte, du musst nichts sagen, ich kann alles in deinem Gesicht sehen.
+		08.bj.38^		Ну да...|Ja ja...
+
+	08.bj.38@101@Вы оба молодцы. Думаю, удастся смонтировать отличный фильм. Ну и в этот раз точно заплатят даже больше, чем в прошлый раз. Я уже обо всём договорилась...|Ihr seid beide großartig. Ich denke, wir haben gerade einen tollen Film gemacht. Und dieses Mal werden wir definitiv noch mehr bekommen. Ich habe bereits einen Deal gemacht....
+		08.bj.39^		Супер!|Super!
+
+	08.bj.39@62@Кира, а тебе не кажется, что можно было бы и избежать вот этой сцены, где мы с Максом...|Kira, mussten wir wirklich eine Szene mit Max und mir machen?
+		08.bj.40^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bj.40@114@Да это же самый пикантный момент! Из песни слова не выкинешь. Ладно, как смонтируют фильм, я дам знать. Может быть, потом вместе его посмотрим. А пока одевайтесь, Мише надо уже бежать. На сегодня всё.|Das ist der beste Teil! Ich lasse es dich wissen, sobald der Film in das fertige Projekt geschnitten ist. Vielleicht können wir es uns zusammen ansehen. Jetzt zieh dich an, Michael geht, das war's für heute.
+		leave!set_poss.car_16!set_momlust_29!max_cam.2.grow_300!time^			Ага...|Jaja...
+
+
+
+# --- 0.8: Диалог с мамой после вторых съёмок
+
+	08.bk.0.init@0@Нас?ёт съёмок...|Über die letzte Szene
+	08.bk.0@69@Да, Макс, что насчёт съёмок? Ты наверно ждёшь, что я покраснею как рак от стыда? Должна бы, но почему-то пропало то ощущение неправильности. Может быть, перегорела...|Was ist damit? Erwartest du, dass ich wie verrückt rot werde? Ich schätze ich sollte, aber seltsamerweise mache ich so etwas nicht mehr. Vielleicht bin ich einfach abgestumpft....
+		08.bk.1^		Или освободилась от предрассудков...|Oder vielleicht bist du endlich frei von Vorurteilen.
+		08.bk.1^		Мне кажется, ты стала свободнее...|Ich denke, du wirst immer aufgeschlossener.
+
+	08.bk.1@73@Может быть и так. Не знаю. В какой-то момент я просто представила, что это всё на самом деле и как-то даже вжилась в роль...|Vielleicht das. Ich weiß es nicht. Ich war völlig in die Szene vertieft, ich fühlte mich, als würde es im wirklichen Leben passieren und begann es zu leben....
+		08.bk.2^		Значит, ты могла бы так и на самом деле?|Also bist du bereit, das im richtigen Leben zu tun?
+
+	08.bk.2@69@Что? Ты о чём? Ой, Макс, если бы я оказалась на месте героини на самом деле, то не представляю что бы у меня было в голове... Как бы они друг другу смотрели в глаза...|Was? Nein, Max, wenn ich in einer Situation wie in einem Film wäre, hätte ich keine Ahnung, woran ich denken würde.... Wie würde ich meinem Sohn nach so etwas in die Augen sehen?
+		08.bk.3^		Как мы с тобой сейчас, может быть?|So wie du mir gerade in den Augen siehst?
+
+	08.bk.3@73@Сомневаюсь... С другой стороны я и правда... взяла в рот у своего сына. Так что да, я же и оказалсь на месте героини... Но почему нет чувства стыда? Не понимаю...|Das bezweifle ich. Andererseits habe ich.... tatsächlich den Schwanz meines Sohnes gelutscht. Also ja, ich bin so ziemlich am selben Ort wie mein Protagonist aus dem Film.... Aber ich schäme mich trotzdem nicht. Warum....?
+		08.bk.4^		Тебя это беспокоит?|Stört es dich?
+
+	08.bk.4@69@Ну должно... Ладно, Макс, давай не будем продолжать, а то эти разговоры и правда заставят меня чувствовать, что мы сделали что-то плохое. Сделали работу, теперь получим деньги и все останутся довольны...|Es sollte.... Lass uns nicht weiter darüber reden, Max, ich fange an zu glauben, dass wir etwas falsch gemacht haben. Wir haben nur unseren Job gemacht, jetzt bekommen wir unser Geld und alle sind glücklich.
+		leave!set_momlust_30^			Да, ты права...|Du hast Recht.
+
+
+
+# --- 0.8: Диалог с Кирой после вторых съёмок
+
+	08.bl.0.init@0@Насчёт съёмок...|Über die Szene....
+	08.bl.0@101@Что, понравилось? Я с самого начала знала, что ты как раз об этом только и мечтал...|Also, hat es dir gefallen? Ich wusste, dass du immer davon geträumt hast....
+		bor=0&08.bl.1^		Ну да...|Jaja
+		bor>0&08.bl.1b^		Ну да...|Jaja
+
+	08.bl.1b@113@Правда, я не ожидала от тебя такого... энтузиазма... А если бы твоя мама поняла, что это ты?|Ich habe allerdings nicht so viel Improvisation von dir erwartet. Was, wenn deine Mom gemerken hätte, dass du es warst?
+		08.bl.1c^		В каком смысле?!|Was meinst du damit?
+
+	08.bl.1c@114@А ты не понял? Твоя мама уверена, что в той сцене Миша присутствовал...|Deine Mom dachte, es wäre Michael in einer Szene, nicht du. Hast du es vergessen?
+		08.bl.1d^		Ну он же убежал...|Aber er ist weggelaufen....
+
+	08.bl.1d@113@Да, но твоя мама этого не видела. Она думает, что это просто такой дубль был... Ещё удивлялась почему мы не по порядку снимали сцены...|Ja, aber deine Mom hat das nicht gesehen. Sie dachte, dass es nur so ein Doppel war ... Ich fragte mich, warum wir nicht in der gleichen Reihenfolge Bilder gemacht haben...
+		08.bl.1e^		Ого...|Wow...
+
+	08.bl.1e@101@Вот тебе и ого. Даже не представляю как она отреагирует, когда узнает...|Ja. Ich frage mich, wie sie reagiert, wenn sie herausfindet....
+		08.bl.1f^		А как она узнает?|Wie sollte sie es herausfinden?
+		08.bl.1f^		Ты ей расскажешь?|Wirst du es ihr sagen?
+
+	08.bl.1f@108@Ты думаешь, она не станет смотреть фильм со своим же участием? Конечно, она всё поймёт...|Glaubst du nicht, dass sie das fertige Produkt sehen will?
+		08.bl.1g^		И что она сделает?|Was denkst du, wird sie tun, nachdem sie es herausgefunden hat?
+
+	08.bl.1g@100@А вот это мы выясним, когда будет готов фильм...|Wir werden es wissen, nachdem wir den Film gesehen haben.
+		08.bl.1^		Ясно...|Ich verstehe
+
+	08.bl.1@101@Так вот, о фильме. Сейчас его монтируют и когда всё будет готово, я занесу, посмотрим все вместе. Кстати, что думаешь о моём сюжете и идеях?|Also, über den Film. Er wird gerade bearbeitet, und wir können ihn uns alle zusammen ansehen, wenn er fertig ist. Was hältst du von meinen Geschichten und Ideen?
+		08.bl.2a^		Сюжет слабоват...|Die Geschichte ist ein bisschen einfach....
+		08.bl.2b^		Всё супер!|Alles ist Großartig!
+
+	08.bl.2a@113@Ах, ты из тех, кто ищет сюжет в порно? Да расслабься. Конечно, я знаю, что сюжет слабоват, но если делать долгое вступление, то у нас просто не хватит времени на сам фильм. Ты же знаешь, что ресурсы ограничены...|Bist du einer dieser irrationalen Leute, die sich wirklich um die Handlung in Pornos kümmern? Ich weiß, dass unsere Geschichten auf einer einfachen Seite sind, aber wenn wir zu viel Zeit mit der Geschichte verbringen, werden wir keine Zeit haben, Pornos zu drehen. Du weißt, dass unsere Ressourcen begrenzt sind.
+		08.bl.2c^		Да, понимаю...|Ja, du hast Recht.
+
+	08.bl.2b@114@Спасибо, Макс. Конечно, ты скорее оцениваешь личное удовольствие от фильма, чем мои режиссёрские таланты, но всё равно приятно слышать комплименты... Конечно, можно было бы и лучше снять...|Danke, Max. Du denkst wahrscheinlich darüber nach, wie viel Freude du an dem Film hast und nicht über meine Regie, aber ich bin trotzdem froh, es zu hören. Natürlich könnten wir es besser versuchen....
+		08.bl.2c^		Да всё хорошо...|Alles ist gut
+
+	08.bl.2c@100@В общем, крутимся как можем. Думаю, со временем сможем снимать более длинные фильмы. Да и есть идеи насчёт ещё одного фильма, но там точно понадобится молодая актриса на роль твоей сестры...|Wie auch immer, wir tun, was wir können. Ich denke, vielleicht können wir in Zukunft längere Filme machen, aber wir brauchen definitiv eine Schauspielerin für eine Schwester.
+		08.bl.2^		Ого...|Wow...
+
+	08.bl.2@101@Как найдём актрису, думаю, сможем уже планировать что-то для третьего фильма... Да, я тут поговорила с твоей мамой. Она какая-то спокойная слишком. Я думала, что она опять будет бегать, причитать, а нет...|Und sobald wir eine Schauspielerin gefunden haben, können wir über einen dritten Film nachdenken.... Übrigens, ich habe mit deiner Mom gesprochen und sie ist überraschend ruhig. Ich hatte erwartet, dass sie wieder ausflippt, aber nein....
+		08.bl.3^		Может, смирилась?|Vielleicht ist sie endlich mit der Situation einverstanden?
+
+	08.bl.3@113@Буду думать, что скорее начала получать от этого всего удовольствие... Ну ладно, хорошо поболтали. Будем ждать, пока смонтируют фильм...|Vielleicht hat sie endlich angefangen, all das zu genießen.... naja, gutes Gespräch. Warten wir, bis der Film geschnitten ist.
+		leave!set_momlust_31!set_dcd.momlust_3^			Ага...|Ja ja...
+
+
+
+# --- 0.8: Диалог с обеими у бассейна
+
+	08.bm.0@101@Макс, ты как раз вовремя. Мне недавно звонил Миша, он всё смонтировал и фильм почти готов. Я заскочу домой в пятницу, часиков в 9 вечера и все вместе посмотрим что получилось. Хорошо?|Hi, Max. Michael hat mich kürzlich angerufen, er hat den Film geschnitten und er ist fast fertig. Ich denke, ich werde Freitag Abend gegen 21 Uhr zu Hause sein und wir können es uns alle zusammen ansehen. Was meinst du dazu?
+		08.bm.1^		О, супер!|Super!
+
+	08.bm.1@60@А что насчёт нашего гонорара? Нам же заплатят за фильм?|Was ist mit dem Geld? Wir werden bezahlt, oder?
+		08.bm.2^		Очень на это надеюсь...|Das hoffe ich sehr.
+		08.bm.2^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bm.2@100@Да, Ань, обязательно. На этот раз это будет не предоплата, а именно гонорар за результат. Наш директор посмотрит и решит чего мы стоим...|Sie werden uns für ein Ergebnis bezahlen. Der Produzent wird das Ergebnis sehen und entscheiden, was wir wert sind.
+		08.bm.3^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bm.3@62@Постой, а в прошлый раз за что нам тогда платили?|Warum ist es anders als sonst?
+		08.bm.4^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bm.4@108@Ну... в прошлый раз платила я из своего кармана. Так сказать, для дополнительного стимула. Иначе ты бы и не согласилась рискнуть... Да и Макс помогал с фотосессией тоже...|Denn letztes Mal war ich derjenige, der dir Geld bezahlt hat. Sonst würdest du nie zustimmen, es zu tun. Und Max hat vorher bezahlt.
+		08.bm.5^		Хм...|Hm...
+
+	08.bm.5@68@Что?! Вы платили мне? Зачем? А если ничего не получится? То мы просто потрахались за ваши же деньги? Кира, объясни!|Was!? Warum? Was, wenn nichts dabei herauskommt? Wir haben nur wegen deinem Geld gefickt? Erkläre dich, Kira!
+		08.bm.6^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bm.6@100@Все с чего-то начинают. И обычно в самом начале ничего актриса не получает. Но чтобы ты втянулась и согласилась, пришлось тебя чуть-чуть... простимулировать.|Jeder muss irgendwo anfangen. Normalerweise wird am Anfang niemand bezahlt, wir mussten dich motivieren, diese frühen Schritte zu machen, damit wir dahin kommen, wo wir jetzt sind.
+		08.bm.7^		<i>далее</i>|<i>fortfahren</i>
+		08.bm.7a^		Это всё ради тебя, мам...|Es ist alles für dich, Mom.
+
+	08.bm.7a@62@Ради меня, Макс? Вы фактически всё подстроили для того, чтобы я начала сниматься в порно! Но зачем? Ладно, у тебя гормоны играют, но Кира... Ты же фактически развратила всю мою семью...|Für mich? Du hast mich dazu gebracht, Pornos zu machen! Warum? Ich verstehe dein Interesse, mit deinen Hormonen und allem, aber Kira.... Du hast praktisch meine ganze Familie verdorben....
+		08.bm.7^		Она хотела как лучше...|Wir wollten das Beste....
+
+	08.bm.7@60@У меня нет слов, Кира... Так развела меня... И я за деньги делала такое... со своим сыном...|Ich weiß nicht, was ich sagen soll, Kira.... Du hast mich all diese Dinge tun lassen.... Mit meinem Sohn, nicht weniger....
+		08.bm.8^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bm.8@113@Ты всё делала правильно и, самое главное, у тебя очень хорошо всё получилось. На этот раз вам платить буду уже не я, а наша студия. Я же говорила, что первый фильм очень понравился...|Du hast nichts falsch gemacht und du warst unglaublich. Diesmal bezahle ich nicht dich, sondern das Studio. Ich habe euch gesagt, dass die Leute den ersten Film liebten.
+		08.bm.9^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bm.9@62@Ох, Кира, Кира... Я должна была догадаться, слишком хорошо всё складывалось. Макс, а ты в курсе был с самого начала?|Oh, Kira.... Ich hätte wissen müssen, dass alles zu gut ist, um wahr zu sein. Und du wusstest es die ganze Zeit, Max?
+		08.bm.10^		Ну... я...|Nun.... Ich...
+
+	08.bm.10@60@Ясно всё с тобой... Ладно, посмотрим что там нам заплатят. Но если окажется, что это копейки, то я лучше уборщицей пойду работать...|Ich verstehe... Gut, mal sehen, wie viel wir davon bekommen. Wenn sie nicht genug bezahlen, werde ich Hausmeister oder so....
+		08.bm.11^		Не надо...|Lass mich in Ruhe
+
+	08.bm.11@101@Вот когда тебе заплатят хорошие деньги, ты иначе заговоришь, вот увидишь. Ладно, Макс, нам надо поболтать с твоей мамой об этом всём, погуляй пока...|Mal sehen, was du sagst, wenn du viel Geld bekommst.\nOkay, Max, deine Mom und ich müssen reden.
+		leave!set_poss.car_17!set_dcd.momlust_5!set_momlust_32^			Ага...|Ja ja...
+
+
+
+# --- 0.8: Кира, Макс и мама смотрят второй фильм, их ловит Алиса
+
+	08.bn.0@60@p-mtv-1@Да, обещала забежать. Как раз в это время...|Sie hat versprochen, diesmal hier zu sein.
+		08.bn.1^		Хорошо...|Okay
+
+	08.bn.1@69@Макс, я хотела с тобой поговорить... о нас.|Max, ich wollte über.... uns reden.
+		08.bn.2^		О нас? Что такое?|Was meinst du damit?
+
+	08.bn.2@73@Насколько я понимаю, у тебя нет девушки, верно?|Du hast keine Freundin, oder?
+		08.bn.3^		Ну да...|Ich weiß nicht....
+		08.bn.3a^		Может быть...|Vielleicht
+
+	08.bn.3a@62@Может быть? Не смеши меня. Откуда у тебя может быть девушка, ты же из дома не выходишь. Или нашёл кого-то через интернет? Так не смущайся, приводи к нам, я буду рада познакомиться!|Wo würdest du dir eine Freundin suchen, wenn du das Haus nie verlassen würdest? Hast du jemanden im Internet gefunden? Dann lade sie ein, ich freue mich, sie kennenzulernen!
+		08.bn.3^		Посмотрим...|Wir werden sehen.
+		08.bn.3a^		Да нет у меня никого...|Ich habe niemanden.
+
+	08.bn.3a@60@Я так и думала... Мне кажется, что в этом вся проблема.|Das dachte ich mir.... Ich dachte, das ist der Grund all deiner Probleme.
+		08.bn.3^		Какая проблема?|Welche Probleme?
+
+	08.bn.3@69@Я была уверена, что если помогу тебе расслабиться, то тебе будет как-то легче и ты не будешь таким... озабоченным как раньше, ты меня понимаешь?|Ich war mir sicher, wenn ich dir helfe, dich zu entspannen, wirst du.... weniger pervers. Verstehst du, was ich meine?
+		08.bn.4^		Я не озабоченный!|Ich bin kein Perverser!
+
+	08.bn.4@73@Ну я имею в виду твою тягу подглядывать за мной и сёстрами... Но мне кажется, что становится только хуже...|Ich meine, du guckst ständig auf mich und deine Schwestern.... Aber ich glaube, es wird immer schlimmer....
+		08.bn.5^		Почему ты так думаешь?|Warum glaubst du das?
+
+	08.bn.5@62@p-mtv-2@Потому, что твой член тебя выдаёт, Макс... Даже сейчас ты перевозбуждаешься из-за того, что я рядом с тобой в одном полотенце. Мне кажется, раньше было не так всё запущено. Или только кажется?|Weil ich deine Erektion immer öfter sehe. Selbst jetzt bist du erregt, nur weil ich in einem Handtuch neben dir stehe. Ich glaube nicht, dass es vorher so schlimm war. Liege ich falsch?
+		08.bn.6^		Гормоны! Они во всём виноваты!|Es sind nur Hormone! Es ist deren Schuld!
+
+	08.bn.6@67@Гормоны? Конечно, удобно на них всё валить, но кто знает, может быть ты и прав. Их нельзя контролировать, скорее они контролируют...|Das ist eine bequeme Ausrede.... Aber du magst Recht haben.... Es ist nicht so, dass man sie kontrollieren kann....
+		08.bn.7^		Ну да...|Ja ja...
+
+	08.bn.7@113@y-tk-1@О чём воркуете, голубки? О, я вижу Макс уже в предвкушении фильма? Отлично! Сейчас посмотрим...|Wovon redest du? Oh, Ich verstehe Max ist bereit für einen Film! Großartig! Lass uns zusehen.
+		08.bn.8^		Ага...|Jaja
+
+	08.bn.8@114@y-tk-2@Макс, только не перевозбудись. Фильм получился даже лучше, чем я ожидала. Директор в восторге. Кстати, я вам и деньги принесла, но об этом позже... Давайте смотреть.|Sei nicht überdreht, Max. Der Film ist noch besser, als ich dachte. Der Produzent liebt es. Ich habe übrigens dein Geld, aber es kann warten. Lass uns zusehen.
+		08.bn.9^		Супер!|Super!
+
+	08.bn.9@60@y-tkm-1@Хм... А я не так уж и плохо смотрюсь на экране... Думала, будет хуже... Кстати, от этих верёвок потом руки болели. В следующий раз, Кира, придумай что-нибудь получше...|Hey, ich sehe auf einem Bildschirm ziemlich gut aus. Ich dachte, ich sehe schlimmer aus.... Übrigens, meine Hände tun mir nach dem Seil weh. Lass dir nächstes Mal was Besseres einfallen, Kira.
+		08.bn.10^		Хм...|Hm
+
+	08.bn.10@101@y-tkm-2@Ой, Ань, поверь, я придумаю кое-что получше... У меня уже появилась пара идей... Любопытных... Ой, Макс, а тебе резинка не жмёт?|Keine Sorge, Ann, ich lasse mir was Besseres einfallen. Ich habe ein paar Ideen.... Oh, Max, fühlst du dich wohl in deinen Shorts?
+		08.bn.11^		Жмёт. Очень...|Nicht wirklich
+
+	08.bn.11@113@y-tk-2@Ну так снимай шорты, ты же порнушку смотришь, надо получать максимум удовольствия...|Dann werden Sie sie los! Du siehst dir Pornos an, es soll eine angenehme Erfahrung sein!
+		08.bn.12^		Да легко! <i>(снять шорты)</i>|Einfach! <i>(Hosen ausziehen)</i>
+
+	08.bn.12@62@y-tk-3b@А вы не боитесь, что кто-то придёт и увидит что вы тут делаете?|Hast du keine Angst, dass dich jemand sieht?
+		08.bn.13^		Э...|Em...
+
+	08.bn.13@114@y-tkm-3@Ань, а ты не боишься, что кто-то придёт и увидит на весь экран что вы с Максом делали? Лиза наверняка уроки делает, а Алиса в клубе, как всегда. Я выбрала подходящий момент и всё продумала заранее!|Hast du keine Angst, dass jemand sieht, wie du Max' Schwanz auf einer riesigen Leinwand lutscht? Lisa macht ihre Hausaufgaben, Alice ist im Club, ich habe mir einen guten Moment ausgesucht, keine Sorge.
+		08.bn.14^		Круто...|Cool...
+
+	08.bn.14@62@y-tk-3b@Ну, очень на то надеюсь, Кира. Иначе сама будешь оправдываться... Я наверное со стыда сразу помру, если кто-то это увидит...|Ich hoffe es, Kira. Oder du wirst derjenige sein, der die Situation erklärt. Ich kann mir nicht vorstellen, wie peinlich das wäre....
+		bor=0&08.bn.15^		<i>далее</i>|<i>fortfahren</i>
+		bor>0&08.bn.15b^	<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.15b@68@y-tkm-4@Это... Что такое? Макс... Это был... ты?! О нет...|Was.... Warst du das, Max?
+		08.bn.15c^			Мам, но...|Ja, Mom
+
+	08.bn.15c@113@Конечно, это был Макс. Такой же сюжет был... Ты разве не читала?|Natürlich war es Max, hast du das Drehbuch nicht gesehen?
+		08.bn.15d^			<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.15d@69@Читала, но... Я думала, что... О нет... нет...|Habe ich, aber.... Ich dachte, es wäre.... Oh nein....
+		08.bn.15e^			<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.15e@101@Ань, ну что ты опять запричитала... Ты вообще своему сыну отсосала, почему он не может свою маму тоже порадовать? Верно, Макс?|Warum musst du noch mal anfangen, Ann? Du hast den Schwanz deines Sohnes gelutscht, warum kann er dir nicht dasselbe antun? Stimmt's, Max?
+		08.bn.15f^			Верно...|Richtig
+
+	08.bn.15f@113@Ещё скажи, Ань, что тебе не понравилось? Ты же сама мне рассказывала какой Миша молодец, забыла?|Was nun, willst du mir sagen, dass es dir nicht gefallen hat? Du hast mir schon gesagt, wie toll Michael war, erinnerst du dich?
+		08.bn.15g^			Даже так...|Wow...
+
+	08.bn.15g@69@y-tkm-5@Да, но я думала, что это он... Я сейчас умру от стыда. Даже не представляю, что может быть хуже...|Ich wusste nicht, dass es Max war.... Das ist so peinlich, dass es nicht schlimmer kommen kann als das....
+		08.bn.15^			<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.15@23@y-tk-5@Мам, что здесь происходит?!|Was zum Teufel ist los, Mom!?
+		08.bn.16^			Упс...|Oops
+		08.bn.16a^			Да вот, отдыхаем... Присоединяйся!|Ich habe nur etwas Spaß. Willst du mitmachen?
+
+	08.bn.16a@28@Макс, я не у тебя спрашиваю! Мам, что за дела?!|Ich rede nicht mit dir, Max. Was ist los, Mom?
+		08.bn.16^			<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.16@68@y-tk-4a@Алиса... Ты почему не в ночном клубе?!|Alice? Warum bist du nicht im Club?
+		08.bn.17^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.17@22@Думаешь, это я должна отчитываться, почему я не в клубе?! Что вы смотрите, что это за фильм? И почему эти актёры так подозрительно похожи на вас с Максом?|Ich bin nicht derjenige, der hier vor Gericht steht! Was schaust du dir an? Warum sehen diese Darsteller so aus wie du und Max?
+		08.bn.18^		Совпадение!|Es ist nur ein Zufall!
+
+	08.bn.18@69@Алиса, давай ты сделаешь вид, что ничего не видела. Мы с тобой потом поговорим, ладно, дочка?|Kannst du nicht so tun, als hättest du nichts gesehen, Alice? Können wir später reden?
+		08.bn.19^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.19@21@Мам, я просто в шоке! Вы снимаетесь в порно и потом устраиваете семейный просмотр? Так, что ли?! Кто-то скажет, что происходит?|Ich kann es nicht glauben! Du machst Pornos und schaust dir dann alles zusammen an, ist es das? Was zum Teufel ist hier los!?
+		08.bn.20^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.20@100@Так, давай я всё объясню. Ты же знаешь, что твою маму уволили и найти другую работу очень сложно... Ну я и предложила ей пойти в актрисы... порно-актрисы...|Okay, ich werde es erklären. Du weißt, dass deine Mom gefeuert wurde und keine neue Arbeit finden konnte.... Also stellte ich ihr den neuen Job vor....
+		08.bn.21^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.21@22@y-tk-5@Даже так... Ну, допустим... А почему член Макса сейчас в твоей руке и почему на экране его член в рту у моей мамы?!|Oh.... Nun, okay.... Aber warum hältst du Max' Schwanz in der Hand und warum ist er in Moms Mund auf dem Bildschirm?
+		08.bn.22^		Ну это...|Weil...
+
+	08.bn.22@101@Потому, что Макс тоже снимается в порно, очевидно... Семье нужны деньги и платить их посторонним актёрам мы не можем. К тому же, тема инцеста очень востребована...|Weil Max natürlich auch beteiligt ist. Die Familie braucht das Geld und wir können uns keine anderen Akteure leisten. Außerdem ist Inzest jetzt sehr beliebt....
+		08.bn.23^		А да, точно!|Richtig!
+
+	08.bn.23@23@y-tk-4a@Обалдеть... Ну и семейка у нас... Я думала, что это со мной что-то не так... Но это... Ладно, мне надо это всё переварить. Потом поболтаем...|Wow.... Was für eine Familie wir haben.... Und ich dachte, dass etwas mit <i>mir</i> nicht stimmt.... Aber das.... Okay, ich muss darüber nachdenken. Wir reden später.
+		08.bn.24^		Л-ладно...|O-okay...
+
+	08.bn.24@60@y-tk-3b@Никто не узнает? Выбрала подходящий момент? Всё продумала, Кира, да? Молодец, что ещё скажешь... Как я теперь своей дочери в глаза смотреть буду?|Hast du den richtigen Moment erwischt, Kira? Gute Arbeit.... Wie soll ich meiner Tochter danach in die Augen sehen?
+		08.bn.25^		Мам, я всё улажу!|Keine Sorge, Mom, ich werde alles aufräumen.
+
+	08.bn.25@62@Да сиди уже, твой улаживатель в руках у твоей тёти. Вот она заварила эту кашу, пусть сама и расхлёбывает. А я даже не знаю что теперь делать...|Nein, Max, dein Freund ist schon mit deiner Tante beschäftigt. Sie ist diejenige, die das alles angefangen hat, sie wird diejenige sein, die es in Ordnung bringt. Ich weiß nicht, was ich jetzt tun soll....
+		08.bn.26^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.26@100@Ань, хватит паниковать. Ничего же не произошло. Алиса уже взрослая девочка и всё поймёт. Ну а если нет, то я и Макс ей всё объясним. Всё будет хорошо, вот увидишь!|Keine Sorge, Ann, alles ist in Ordnung. Alice ist ein großes Mädchen, sie wird es verstehen. Und wenn nicht, werden Max und ich alles erklären. Alles wird sich von selbst regeln, du wirst sehen!
+		08.bn.27^		Да, точно!|Das ist richtig!
+
+	08.bn.27@60@Ну не знаю, Кира, не знаю... Ладно, хватит с меня кино на сегодня. Выключайте уже эту... это безобразие...|Ich weiß nicht, Kira.... Okay, das ist genug Fernsehen für heute. Hör auf damit.... Das alles....
+		08.bn.28^		Эх...|Oh...
+
+	08.bn.28@101@Так, Ань, я сейчас Алиску заберу в ночной клуб и там мы с ней всё обсудим. Вот увидишь, всё уладим и всё будет хорошо. Может быть, она даже ничего не вспомнит...|Okay, Ann, ich gehe mit Alice in den Club und wir unterhalten uns. Du wirst sehen, alles wird gut. Vielleicht erinnert sie sich gar nicht mehr....
+		08.bn.29^		Да ладно?|Wirklich?
+
+	08.bn.29@69@Как она может не вспомнить такое? Такое забыть невозможно, наверное...|Wie könnte sie so etwas vergessen?
+		08.bn.30^		<i>далее</i>|<i>fortfahren</i>
+
+	08.bn.30@100@Ань, доверься мне. Я разберусь. Ладно, я побежала, пока Алиса глупостей не наделала...|Vertrau mir, Ann, ich kümmere mich darum. Okay, ich sollte gehen, bevor Alice etwas Dummes macht.
+		leave!set_poss.car_18!set_momlust_33!set_momf_1!set_dcd.momf_2!set_kiratvcan_0!max_cam.4.grow_300!time^			Хм...|Hm...
+
+
+
+# --- 0.8: Диалог с Алисой после того, как она спалила семейку у ТВ
+
+	08.bo.0.init@0@Насчёт этого случая с фильмом...|Wegen dem Film...
+	08.bo.0@21@Уже придумал как оправдываться будешь?|Hast du dir schon eine Ausrede ausgedacht?
+		08.bo.1^		За что?|Für Was?
+
+	08.bo.1@22@Ну например за то, что наша тётя сидела и дрочила тебе перед мамой, пока вы все смотрели... Или это в порядке вещей?|Wie wäre es mit der Tatsache, dass unsere Tante dir vor deiner Mom einen runtergeholt hat, während du dir Pornos angesehen hast? Oder ist das jetzt normal?
+		08.bo.2^		Нет, ну...|Nun, nein, aber....
+
+	08.bo.2@25@Ладно, расслабься. Тётя Кира мне всё рассказала. У нас была весьма интересная беседа... Правда, я до сих пор в шоке. И как всё до этого дошло только? Это ведь ты за всем стоишь?|Entspann dich, Tante Kira hat schon alles erklärt. Wir hatten ein faszinierendes Gespräch.... Ich kann es immer noch nicht glauben. Wie bist du überhaupt so weit gekommen? Du bist derjenige, der hinter allem steckt, richtig?
+		08.bo.3^		Э... нет, это всё тётя Кира!|Em.... nein, bin ich nicht, das ist alles Tante Kira!
+		08.bo.3^		Ну... Чуть-чуть...|Vielleicht ein bisschen....
+
+	08.bo.3@21@Понятно. Ладно, так или иначе, я хочу в долю.|Ich verstehe. Wie auch immer, ich will es.
+		08.bo.4^		Что?!|Was!?
+
+	08.bo.4@23@Ну, я хочу тоже на этом зарабатывать. Теперь мама уж точно не сможет сказать ничего и тем более, запретить сниматься в порно!|Nun, ich möchte auch damit Geld verdienen. Nun, unsere Mom wird sicherlich nichts mehr sagen können, wenn ich in Pornos mit spielen!
+		08.bo.5^		А что тётя Кира?|Was ist mit Tante Kira?
+
+	08.bo.5@22@Она намекнула, что вы как раз искали актрису на роль... твоей сестры. Это правда?|Sie sagte etwas davon, eine Darstellerin für deine Schwester zu suchen, ist das wahr?
+		08.bo.6^		Ну... Да...|Ja
+
+	08.bo.6@21@Вот и отлично. Деньги мне очень нужны. Конечно, сомневаюсь, что мама будет в восторге, но это твоя задача её убедить.|Toll, dann. Ich brauche das Geld. Ich glaube nicht, dass Mom darüber glücklich sein wird, aber das ist dein Problem, ändere ihre Meinung.
+		poss.blog<16&08.bo.7a^		А почему я?|Warum ich?
+		poss.blog>15&08.bo.7b^		А почему я?|Warum ich?
+
+	08.bo.7a@25@А кто ещё? Ты же у нас мастер уговаривать маму. Ни капли не помневаюсь, что ты постарался ещё больше нашей тёти. Хотя, она говорит, что сама всё придумала, но я ей не верю.|Wer noch? Du bist der Meister der Manipulation. Ich bin sicher, du bist mindestens so schuldig wie Tante Kira, wenn nicht sogar noch mehr. Sie sagte, sie sei diejenige, die auf die Idee kam, aber ich glaube ihr nicht.
+		08.bo.8^		Ну хорошо... А конкретно, чего ты хочешь?|Okay. Was genau willst du aber?
+
+	08.bo.7b@25@Ну а кто? Я пойду к маме и буду её уговаривать? Вот ещё! К тому же, ты у нас мастер уговаривать и разводить... на разное. Взять хотя бы мой блог. Если бы не ты, я бы до сих пор косметику рекламировала...|Wer noch? Ich werde nicht gehen und sie anflehen, mich das tun zu lassen. Außerdem hast du das Talent, Leute davon zu überzeugen.... Zeug zu machen. Wie zum Beispiel mein Blog. Ohne dich würde ich immer noch versuchen, Make-up zu verkaufen.
+		08.bo.7c^		Это комплимент?|Ist das ein Kompliment?
+
+	08.bo.7c@22@Ну если считать тебя маньяком-извращенцем, достигающим своих целей - это комплимент, то да. Можешь гордиться, я тебя похвалила...|Nun, wenn du denkst, jemanden einen perversen Irren zu nennen, der bekommt, was er will, ist ein Kompliment, dann ja. Du kannst stolz sein.
+		08.bo.7d^		И никакой я не ивзращенец...|Ich bin kein Perverser.
+		08.bo.7d^		И никакой я не маньяк...|Ich bin kein Wahnsinniger.
+
+	08.bo.7d@21@О да. Ты не такой. Просто всё так совпало. И за мной ты бегал, уговаривал тоже по доброте душевной, а не чтобы со мной... Ну ты и так всё знаешь. В общем, твоя задача - поговорить с мамой.|Sicher bist du das nicht. Es ist alles nur ein Haufen Zufälle. Die ganze Zeit hast du mir geholfen, weil du ein toller Bruder bist, nicht weil du mich ficken wolltest.... Wie auch immer, Mom zu überzeugen ist jetzt dein Job.
+		08.bo.8^		Ну хорошо... А конкретно, чего ты хочешь?|Gut. Was genau soll ich tun?
+
+	08.bo.8@20@Хочу получать столько же, сколько и вы. Ну а я буду делать... что потребуется.|Ich will so viel verdienen wie du. Und ich schätze ich werde tun.... was nötig ist.
+		08.bo.9^		Что угодно?!|Alles?
+
+	08.bo.9@23@Ну да. Это же работа такая, верно? Кстати, сколько платят?|Nun, ja, das ist der Job, richtig? Wie viel bekomme ich bezahlt?
+		08.bo.10^		Вот ты говоришь как какая-то проститутка...|Klingt irgendwie hurenhaft....
+
+	08.bo.10@22@Постой, а ты разве не за деньги в этом самом порно снимался? И кто ты после этого?|Sieh mal, wer da spricht. Fickst du nicht auch für Geld?
+		08.bo.11^		Ну... Я... Актёр!|Nun, ich bin.... Ich bin Darsteller!
+
+	08.bo.11@21@Вот и я хочу быть актрисой. Каждая девушка этого хочет, разве не знал?|Und ich will Darstellerin werden. Jedes Mädchen will einer sein, weißt du das nicht?
+		08.bo.12^		Стать порно-актрисой?!|Jedes Mädchen will Pornodarstellerin werden?
+
+	08.bo.12@25@Стать актрисой! А то, что там будут какие-то сцены, ну что же...|Nein, eine Darstellerin. Aber wenn es einige Szenen gibt, nun ja....
+		08.bo.13^		Ага, убеждай себя...|Ja ja
+
+	08.bo.13@20@Всё, Макс, мне уже надоел этот разговор! Я уже достаточно взрослая, чтобы принимать решения. А ты поговори с мамой и всё уладь. Кира согласна, но с мамой должен поговорить ты.|Ich habe diese Unterhaltung satt. Ich muss dir nichts erklären. Geh und überzeuge Mom, dass ich Pornos machen kann.
+		leave!set_poss.car_19!set_momlust_34^			Ладно...|Schön...
+
+
+
+# --- 0.8: Диалог с мамой после разговора с Алисой
+
+	08.bp.0.init@0@Мам, ты разговаривала с Алисой?|Hast du mit Alice gesprochen?
+	08.bp.0@69@Ты про этот... инцидент?|Redest du von.... dem Vorfall?
+		08.bp.1^		Ну да, можно и так сказать...|Ja, das kann man so sagen....
+
+	08.bp.1@73@Нет, сынок. Мне очень стыдно. Мы делаем вид, что ничего не произошло, но напряжение растёт. Я вроде бы должна что-то объяснить, как-то уладить это, но... не могу. Мне очень стыдно...|Nein, es ist mir zu peinlich. Wir tun nur so, als wäre nichts passiert, aber es ist sehr unangenehm. Ich soll alles erklären, aber ich kann mich nicht dazu überwinden, darüber zu reden.
+		08.bp.2^		Всё уже улажено, мам!|Jetzt ist alles in Ordnung, Mom, mach dir keine Sorgen.
+
+	08.bp.2@68@В каком смысле? Как улажено?|Was meinst du damit?
+		08.bp.3^		Кира ей всё объяснила|Kira hat alles erklärt
+		08.bp.3^		Я всё рассказал Алисе|Ich habe alles erklärt
+
+	08.bp.3@69@И... Что Алиса? Как к этому отнеслась? Она готова всё забыть?|Und wie fühlt sich die ganze Situation an? Ist sie bereit, alles zu vergessen, was sie gesehen hat?
+		08.bp.4^		Ну, вообще-то она хочет деньги...|Nicht ganz, sie will Geld.
+
+	08.bp.4@62@Только не говори, что она будет нас шантажировать? Я в это не поверю ни за что!|Bitte sag mir nicht, dass sie uns erpresst. Auf keinen Fall.
+		08.bp.5^		Она хочет сниматься с нами!|Nein, sie will bei der Sache dabei sein.
+		08.bp.5^		Алиса хочет стать порноактрисой!|Alice will Pornodarstellerin werden.
+
+	08.bp.5@68@Что?! Сама захотела... делать такое... на камеру? Не может быть!|Was!? Sie will.... das.... vor der Kamera machen? Auf keinen Fall!
+		08.bp.6^		Ну ей нужны деньги и она готова работать...|Sie braucht das Geld und sie ist bereit, dafür zu arbeiten.
+
+	08.bp.6@60@Но как? Это же за гранью добра и зла... Дочка хочет сниматься в порно... Дожили...|Nein, das ist.... Meine Tochter <i>will</i> Pornos machen....
+		08.bp.7^		А мы что делаем?|Wie unterscheidet sie sich von uns?
+
+	08.bp.7@62@Вот именно, Макс! Только я попыталась смириться со всем этим, как... Куда катится наша семья...|Genau! Gerade als ich anfing, mit der ganzen Situation fertig zu werden.... Was für eine Familie ist das?
+		08.bp.8^		Мы делаем деньги!|Wir verdienen nur Geld!
+
+	08.bp.8@60@Ага, делаем. Кира до сих пор не заплатила, говорит какие-то сложности... Считай просто собрались, потра... занялись сам знаешь чем и разошлись. Бесплатно...|Ja, richtig. Kira hat mir immer noch nichts gegeben, sie sagte, es gibt einige Komplikationen.... Also kamen wir alle zusammen und haben ohne Grund gefickt.
+		08.bp.9^		Да заплатят! Я не сомневаюсь даже...|Du bekommst dein Geld, keine Sorge!
+
+	08.bp.9@69@Надеюсь на то. Ладно, что же с Алисой делать? Как её переубедить? Может быть, ты мне поможешь в этом?|Ich hoffe es. Wie auch immer, was sollen wir mit Alice machen? Wie sollen wir ihre Meinung ändern? Kannst du mir dabei helfen?
+		08.bp.10^		Переубедить? Зачем?|Warum müssen wir ihre Meinung ändern?
+
+	08.bp.10@62@Как зачем? Макс, мы же снимаемся в таких фильмах, друг с дружкой... Неужели ты сможешь это делать со своей сестрой?|Was meinst du mit "warum"? Max, wir machen Pornos! Willst du mir sagen, dass es dir mit deiner Schwester gut gehen würde?
+		08.bp.11^		Ну... смогу...|Nun ja... Ja ja...
+		08.bp.11^		Ко?ечно!|Natürlich!
+
+	08.bp.11@68@Что?! Не может быть! Ты просто пытаешься меня успокоить... Хотя, если так, то у тебя плохо получается. Я что-то наоборот, стала ещё больше переживать. Теперь и за тебя...|Was!? Nein! Du willst mich nur beruhigen.... Und ich bin mir nicht sicher, ob es funktioniert, denn jetzt sorge ich mich auch um dich.
+		08.bp.12^		А какая разница?|Warum?
+
+	08.bp.12@60@Разница в том, что мы - семья. И дети не должны в семье трахаться друг с дружкой и, тем более, мать не должна в таком участвовать... Это всё очень неправильно!|Weil wir eine Familie sind, Max. Geschwister sollen sich nicht gegenseitig ficken und ihre Mutter sollte auf keinen Fall involviert sein! Das ist so falsch!
+		08.bp.13^		Да она сама хочет!|Aber sie will das hier!
+
+	08.bp.13@62@Да? И чего именно она хочет? Может быть, найдёт работу и будет зарабатывать как все? Зачем ей это?|Warum sollte sie das statt eines normalen Jobs wollen?
+		08.bp.14^		Ну здесь же больше платят! Да и какую она работу найдёт...|Weil hier eine Menge Geld drin ist und wo soll sie überhaupt einen anderen Job finden?
+
+	08.bp.14@69@Ну с работой и правда сложности. Сейчас вообще вакансий хороших мало, а без опыта... Ну не знаю, Макс, не знаю...|Okay, vielleicht ist es nicht so einfach, einen neuen Job zu finden, besonders ohne Erfahrung.... Ich weiß nicht, Max....
+		08.bp.15^		Мам, это просто работа!|Es ist nur ein Job, Mom.
+
+	08.bp.15@73@Ты так считаешь? Хочешь сказать, что для тебя тут нет ничего личного?|Glaubst du das wirklich? Willst du mir sagen, dass es hier nichts Persönliches für dich gibt?
+		08.bp.16^		Ну... да...|...N-Nein...
+
+	08.bp.16@62@Как-то ты неуверенно это сказал, сынок. Ну хорошо, я подумаю ещё. Поговорю и с Кирой и с Алисой. Хоть бы Лиза ничего об этом не узнала, а то я вообще не представляю что будет...|Das war nicht sehr überzeugend. Ich weiß nicht, ich werde darüber nachdenken. Ich werde mit Kira und Alice reden. Ich hoffe, Lisa weiß nichts davon, ich weiß nicht, was ich dann tun würde....
+		08.bp.17^		Ничего страшного!|Mach dir keine Sorgen.
+
+	08.bp.17@63@Ну уж нет. Лизе ни слова, ты меня понял, Макс?|Nein! Lisa <b>darf nichts</b> davon wissen!
+		08.bp.18^		Понял. Ей знать не обязательно.|Ich habe es verstanden, sie muss es nicht wissen.
+
+	08.bp.18@69@Вот именно! Ладно, спасибо, что со мной поговорил. Мне правда надо было выговориться. Если даже ты считаешь это просто работой, то зачем сходить с ума из-за того что и как надо было делать... Уже всё сделано...|Genau! Okay, danke für das Gespräch. Ich musste wirklich gehen. Wenn du denkst, das ist nur ein Job und es gibt keinen Grund zur Sorge....
+		08.bp.19^		Вот именно! Всё будет хорошо!|Alles wird gut werden.
+
+	08.bp.19@60@Надеюсь, сынок. Ладно, давай сменим тему...|Ich hoffe es.
+		leave!set_momlust_35^			Ага...|Jaja
+
+
+
+# --- 0.8: Разговор с Кирой на тему Алисы
+
+	08.bq.0.init@0@Насчёт Алисы...|Wegen Alice...
+	08.bq.0@101@Ой, ну рассказывай, как она? Много вопросов задавала? Что ты ей рассказал?|Wie geht es ihr? Hat sie viele Fragen gestellt? Was hast du ihr gesagt?
+		08.bq.1^		Да всё хорошо... Хочет сниматься с нами.|Alles in Ordnung, sie will mit uns arbeiten.
+
+	08.bq.1@100@Это я уже поняла, но ваша мама явно будет против...|Ja, sie hat es mir gesagt, aber ich fürchte, deiner Mom wird das nicht gefallen....
+		08.bq.2^		Я и это уже уладил!|Das ist auch kein Problem.
+
+	08.bq.2@108@Что? Ты убедил свою маму, что Алиса может сниматься в порно? Не может быть!|Was? Du hast deine Mom überzeugt, Alice Pornos drehen zu lassen? Auf keinen Fall!
+		08.bq.3^		Ну да...|Ja ja...
+
+	08.bq.3@113@Ну ты молодец, Макс! Я думала, на это уйдёт очень много времени и даже начала составлять очередной коварный план... Очень хорошо! К тому же, нам как раз нужна была актриса...|Gut gemacht, Max! Ich dachte nicht, dass es so einfach sein würde und dachte über einen anderen Plan nach.... Nun gut, wir brauchten sowieso eine Darstellerin.
+		08.bq.4^		Сестра в роли сестры?|Schwester für eine Schwesterrolle?
+
+	08.bq.4@114@Именно! Это же лучший вариант! Всё будет так... естественно... ну и пикантно, конечно... Так. Я тогда приступлю к написанию сюжета, где вы все сможете сняться вместе...|Genau, das ist die beste Lösung! Alles wird so natürlich sein.... Okay, ich arbeite am nächsten Drehbuch, wo ihr zusammen spielen können.
+		08.bq.5^		Мы? Только мы?|"Du"? Nur Schwesterchen und ich?
+		08.bq.5^		Постой, а как же ты?|Du wirst nicht in diesem Film mitspielen?
+
+	08.bq.5@113@Ну я конечно всегда рада потрахаться, но в данном случае я пытаюсь доказать всем, что я хороший режиссёр, а не только актриса, ты меня понимаешь?|Nun, ich bin natürlich immer glücklich, Sex zu haben, aber in diesem Fall versuche ich jedem zu beweisen, dass ich ein guter Regisseur bin, nicht nur eine Darstellerin, verstehst du?
+		08.bq.6^		И за это платят больше?|Und du bekommst mehr Geld, oder?
+
+	08.bq.6@101@Ну... да, конечно! Может быть, я смогу даже получать некоторый процент от продаж этих фильмов. Конечно, я и с вами буду делиться...|Natürlich. Vielleicht bekomme ich sogar einen Umsatzanteil. Und ich werde natürlich mit der Familie teilen.
+		08.bq.7^		Ого, поздравляю!|Wow, Glückwunsch!
+
+	08.bq.7@114@Спасибо. Да, насчёт денег... Твоей маме я уже отдала её часть, а теперь пришла твоя очередь...|Ich danke dir. Und wegen dem Geld.... Ich habe deiner Mom schon ihren Anteil gegeben, hier ist deiner.
+		wro=0&08.bq.8a^		О, супер! И сколько мне поло?ено?|Großartig! Wie viel bekomme ich?
+		wro=1&08.bq.8b^		О, супер! И сколько мне положено?|Großartig! Wie viel bekomme ich?
+		wro=2&08.bq.8c^		О, супер! И сколько мне положено?|Großartig! Wie viel bekomme ich?
+		wro>2&08.bq.8d^		О, супер! И сколько мне положено?|Großartig! Wie viel bekomme ich?
+
+	08.bq.8a@113@Ну ты сыграл просто великолепно, всё строго по сценарию, ни одной ошибки. Поэтому, ты получаешь всю часть, $2000. Надеюсь, ты рад...|Kein einziger Fehler, also bekommst du alles, $2000.
+		08.bq.9!add_money_2000^	Ого! А почему так много?|Wow! Warum so viel?
+
+	08.bq.8b@113@Ну ты сыграл очень хорошо. Всего лишь одно отсутпление от сюжета... Тем не менее, ты получаешь $1800. Надеюсь, ты рад...|Dein Schauspiel war toll, aber du hast einen Fehler gemacht. Du bekommst $1800.
+		08.bq.9!add_money_1800^	Ого! А почему так много?|Wow! Warum so viel?
+
+	08.bq.8c@113@Ну ты сыграл хорошо. Всего пара ошибок, это не так страшно. Поэтому, ты получаешь $1500. Надеюсь, ты рад...|Nur ein paar Fehler, keine große Sache. Du bekommst $1500.
+		08.bq.9!add_money_1500^	Ого! А почему так много?|Wow! Warum so viel?
+
+	08.bq.8d@100@Если честно, то ты сыграл не очень хорошо. Много ошибок и отсутплений от изначального сценария. Ну ты и сам всё знаешь. Однако, ты получаешь $1200. В следующий раз постарайся, пожалуйста.|Du warst nicht sehr gut, um ehrlich zu sein, du hast zu viele Fehler gemacht. Du bekommst $1200. Bitte mach es nächstes Mal besser.
+		08.bq.9!add_money_1200^	Ого! А почему так много?|Wow! Warum so viel?
+
+	08.bq.9@101@А сюда включена премия $1000 от директора студии. Всем нам по столько заплатили, даже Мише досталось. Таким образом нас хотят простимулировать, так сказать... Как будто тебе нужен стимул, чтобы трахаться со своей семьёй...|Du hast einen $1000 Bonus vom Produzenten bekommen. Jeder hat es verstanden, sogar Michael. Sie wollen uns motivieren, weiterzumachen. Als ob du eine Motivation brauchst, um deine Familie zu ficken....
+		08.bq.10^	Э... Ну деньги - тоже хорошо...|Hey, ich sage nicht nein zum Geld.
+
+	08.bq.10@114@Ага, но неужели ты бы отказался от съёмок, если бы тебе вообще не платили?|Sagen wir mal so, würdest du Pornos machen, wenn du gar nicht bezahlt werden würdest?
+		08.bq.11^	Ну... Не знаю...|Nun.... Ich weiß nicht....
+
+	08.bq.11@101@К счастью, нам не нужно это выяснять. Тебе заплатили и, думаю, будут платить ещё больше. Особенно, если удастся снять следующий фильм лучше предыдущего...|Zum Glück müssen wir das nicht wissen. Du wurdest bezahlt und ich bin sicher, dass du in Zukunft noch mehr bekommen wirst. Vor allem, wenn der nächste Film noch besser wird.
+		08.bq.12^		Уже есть идеи?|Irgendwelche Ideen?
+
+	08.bq.12@113@Конечно! Теперь, когда у нас есть Алиса, вариантов просто множество... Но я оставлю пока свои мысли в секрете. Будет сюрприз!|Natürlich! Jetzt, da wir Alice haben, gibt es so viele neue Möglichkeiten.... Aber es ist noch nicht der richtige Zeitpunkt. Es wird eine Überraschung sein!
+		08.bq.13^		Хорошо...|Okay
+		08.bq.13a^		Может, намекнёшь?|Willst du mich nicht mit einem Hinweis necken?
+
+	08.bq.13a@114@Хм... Ну хорошо. Ты хотел бы потрахаться с Алисой на глазах у своей мамы?|Nun, okay. Möchtest du Alice vor den Augen deiner Mutter ficken?
+		08.bq.13b^		Обалдеть!|Das würde ich gerne!
+
+	08.bq.13b@101@Ага. Я тоже в восторге. Только никому ни слова! Ни Алисе, ни тем более, маме. Договорились?|Ja, ich kann es kaum erwarten. Aber kein Wort zu irgendjemandem! Nicht Alice und definitiv auch keinen einzigen Hinweis für Mom. Abgemacht?
+		08.bq.13^		Конечно!|Sicher!
+
+	08.bq.13@100@А пока я бы хотела остаться наедине и обдумать это всё, если ты не возражаешь...|Jetzt muss ich das durchdenken, wenn es dir nichts ausmacht.
+		leave!set_momlust_36!set_dcd.momlust_5^			Конечно!|Natürlich
+
+
+
+# --- 0.8: Макс в первый раз замечает маму в одном фартуке на кухне рано утром
+
+	08.ca.0@4@y-mc-1@<i>Ого! Я ещё сплю? Кажется, мама забыла надеть... Да она ничего не надела кроме фартука! Вот это попка...</i>|<i>Wow! Träume ich? Mom trägt keine.... Sie trägt nichts als eine Schürze! Sieh dir diesen Arsch an!</i>
+		08.ca.1^		<i>глазеть</i>|<i>anstarren</i>
+
+	08.ca.1@68@y-mc-2@Ой, Макс? Ты так тихо подкрался... Ой, извини меня сынок, что я в таком виде... Просто после йоги я быстро ополоснулась, пока Алиса не заняла душ и... не стала одеваться почему-то...|Max? Du hast dich an mich herangeschlichen.... Es tut mir leid für mein Aussehen, aber ich habe aus irgendeinem Grund nichts angezogen, nachdem ich geduscht habe....
+		08.ca.2^		Это очень... круто...|Ich liebe es!
+		08.ca.2^		Выглядишь... супер!|Du siehst umwerfend aus!
+
+	08.ca.2@69@Спасибо, сынок. Я просто подумала, что Алиса в душе с Кирой, Лиза у себя в комнате как обычно, а ты... Ну, думаю, ты уже и не такое видел, поэтому надеюсь, тебя не смущаю...|Danke, mein Sohn. Ich dachte nur, Alice ist bei Kira, Lisa ist normalerweise in ihrem Zimmer und.... Nun, es ist ja nicht so, als ob du nicht schon alles gesehen hättest. Ich hoffe, du hast kein Problem damit.
+		08.ca.3^		Мам, не оправдывайся, всё хорошо!|Du musst das nicht erklären, alles ist perfekt!
+
+	08.ca.3@67@Да? Ну, я рада. Тогда, не отвлекай меня, завтрак сам себя не приготовит...|Ich bin froh. Aber bitte lenk mich nicht ab, ich muss Frühstück machen.
+		leave!set_fartuk_1!art_z-mom-cook-1-t2_y-mc-3_1!max_cam.4.grow_200!lock^			Аг-га...|O-okay
+
+
+
+# --- 0.8: Второй эвент на кухне, когда Макс замечает маму в одном фартуке
+
+	08.cb.0@4@y-mc-1@<i>Ух! Мама опять светит голой попкой. Она знает, что Алиса в это время в душе с Кирой, а Лиза у себя в комнате. Значит, светит своей попкой для меня... Ну или мне так кажется...</i>|<i>Hey, Mom zeigt wieder ihren nackten Arsch. Sie weiß, dass Alice und Kira unter der Dusche sind, während Lisa in unserem Zimmer ist, also macht sie es für mich!</i>
+		08.cb.1^		<i>далее</i>|<i>fortfahren</i>
+
+	08.cb.1@69@y-mc-2@Ой, сынок... Опять ты меня поймал в таком виде. Извини, забыла переодеться... Хорошо, что ты меня не заметил, пока я пулей бежала голая из душа на кухню за фартуком...|Hey, Sohn. Du hast mich schon wieder erwischt. Es tut mir leid, dass ich mich nicht angezogen habe. Gut, dass du mich nicht gesehen hast, als ich nackt von der Dusche in die Küche gelaufen bin....
+		08.cb.2^		Что же тут хорошего...|Was ist gut daran....
+
+	08.cb.2@75@Ах, сынок, ты всё шутишь... Ладно, не отвлекай меня, надо успеть приготовить завтрак...|Oh, du.... Ich muss mich allerdings auf das Frühstück konzentrieren....
+		leave!set_fartuk_2!art_z-mom-cook-1-t2_y-mc-3_1!max_cam.4.grow_200!lock^			Ага, не буду тебе мешать...|Okay, ich lasse dich in Ruhe.
+
+
+
+# --- 0.8: Периодический эвент на кухне, где Макс замечает маму в одном фартуке
+
+	08.cc.0@4@y-mc-1@<i>Я могу смотреть на это вечно... Кажется, что её аппетитная попка меня так и манит...</i>|<i>Ich kann mir das für immer ansehen. Ihr Arsch ist so verführerisch....</i>
+		08.cc.1^		<i>далее</i>|<i>fortfahren</i>
+
+	08.cc.1@75@y-mc-2@Ой, сынок, опять подкрался незаметно... Надеюсь, я тебя не смущаю в таком виде? Некогда было одеться. Спешу приготовить вам завтрак...|Hey, Sohn, du hast dich schon wieder angeschlichen. Ich hoffe, es ist in Ordnung, wenn ich so aussehe? Ich hatte keine Zeit, mich anzuziehen, ich muss Frühstück machen.
+		leave!art_z-mom-cook-1-t2_y-mc-3_1!max_cam.4.grow_200!lock^			Ага, не буду мешать...|Nein, schon gut, ich lasse dich in Ruhe.
+
+
+
+# --- 0.8: Макс пытается убедить маму, что наказывать сестёр он может и после ужина
+
+	08.da.1@60@Сам? О чём ты говоришь? Весь смысл в том, чтобы чувство стыда не дало повторить свои ошибки, за которые и наказывают...|Allein? Was meinst du damit? Bestrafung sollen öffentlich sein, das ist der Punkt.
+		08.da.2^		Но ужин это же время, когда хочется получить приятные ощущения...|Ich glaube nicht, dass das Essen die richtige Zeit dafür ist.
+
+	08.da.2@62@Тем более, это ещё больше должно стимулировать не совершать ошибок!|Und das macht es noch effektiver, nicht wahr?
+		08.da.3^		А что, если ты не права?|Was, wenn nicht?
+
+	08.da.3@69@В чём? Может быть, я не права, что заставляю вас друг перед дружкой раздеваться. Но мне кажется, что это эффективные наказания...|Worin? Vielleicht irre ich mich, dass ich dich zwinge, die Sachen vor allen abzulegen. Aber es scheint mir, dass dies wirksame Strafen sind...
+		08.da.4^		Может быть, я буду наказывать их ещё лучше!|Vielleicht kann ich mir etwas noch Effektiveres einfallen lassen?
+
+	08.da.4@73@Ну не знаю, Макс... Зачем менять то, что и так хорошо работает? Я подумаю, конечно, но пока не уверена...|Ich weiß nicht, Max. Wenn es nicht kaputt ist, dann repariere es nicht. Ich werde darüber nachdenken, aber ich bin mir nicht sicher.
+		leave!set_msp_1!set_dcd.msp_1^			Эх...|Okay...
+
+
+
+# --- 0.8: Макс пытается убедить маму, что он может наказывать сестёр после ужина в приватной обстановке (периодический эвент)
+
+	08.db.0@62@Сынок, мне кажется, что у тебя какая-то личная заинтересованность в этом. А может быть, тебе их жалко и ты хочешь, чтобы они избежали наказания?|Ich verstehe nicht, was für dich drin ist. Vielleicht fühlst du dich schlecht und willst sie vom Haken lassen?
+		08.db.1^		Ой, что ты...|Nein, das ist es nicht.
+
+	08.db.1@60@Тогда откуда такая настойчивость? Объясни свои мотивы...|Warum willst du sie dann ändern?
+		08.db.2^		Ожидание наказания ещё страшнее самого наказания...|Ich denke, das Warten auf die Strafe kann genauso effektiv sein wie die Strafe selbst.
+
+	08.db.2@69@Ты предлагаешь мне во время ужина сказать кто будет наказан, а само наказание отложить на потом? Умно... Это может сработать даже лучше... Но где гарантии, что ты не передумаешь и тебя не попытаются переубедить Лиза или Алиса?|Du schlägst also vor, ihnen zu sagen, dass sie vor dem Essen bestraft werden, und dann die Bestrafung zu verschieben? Huh.... Ja, es könnte noch besser funktionieren.... Aber wie soll ich das wissen, wenn du sie bestrafst und sie deine Meinung nicht ändern?
+		random.social.1=1&08.db.3a^		Я обещаю! [skill.social_1]|Ich verspreche es! [skill.social_1]
+		random.social.1=0&08.db.3b^		Я обещаю! [skill.social_1]|Ich verspreche es! [skill.social_1]
+
+	08.db.3b@73@<color=orange><i>Убеждение не удалось!</i></color>\nНу не знаю, сынок. Мне кажется, что Алиса может попытаться тебя подкупить... ну не знаю, деньгами, например. А Лизу тебе будет просто жалко наказывать и тогда всё будет зря...|<color=orange><i>Überzeugung fehlgeschlagen!</i></color>\nIch weiß nicht, Sohn. Ich denke, Alice könnte dich bestechen, oder Lisa macht ein süßes Gesicht und du verschonst sie....
+		08.db.3c^		Нет, мам, что ты!|Nein, Mom, mach dir keine Sorgen!
+
+	08.db.3c@60@Нет, сынок, что-то ты меня пока не убедил...|Nein, mein Sohn, wir werden das alte System beibehalten.
+		leave!set_dcd.msp_2^			Эх...|Oh...
+
+	08.db.3a@73@<color=lime><i>Убеждение удалось!</i></color>\nОбещаешь? Ну... хорошо. Только я передумаю, если узнаю, что ты пропустил наказание и кому-то всё сошло с рук...|<color=lime><i>Überzeugung erfolgreich!</i></color>\nOkay. Aber wenn ich merke, dass du sie nicht bestraft hast....
+		08.db.3^		Я буду стараться!|Keine Sorge, sie werden nicht entkommen!
+
+	08.db.3@69@Да, похоже на то. Уж не знаю откуда у тебя такая тяга... заниматься этим. Но хорошо, я разрешаю тебе иногда наказывать своих сестёр после ужина. Но лишь иногда. И то, если ты будешь хорошо выполнять свои обязательства.|Ja, sieht nicht so aus.... Ich weiß nicht, warum du das tun willst, aber gut, du kannst deine Schwestern ab und zu nach dem Essen bestrafen. Aber nur, wenn du deine Aufgaben erledigst.
+		08.db.4^		Спасибо, мам!|Danke, Mom!
+
+	08.db.4@60@Не за что, сынок. Может быть, это всё и правда поможет воспитанию, кто знает... Но если ты пообещаешь, но не накажешь сестру, то неделю даже не подходи с этими просьбами. Уяснил?|Gern geschehen. Vielleicht hilft es tatsächlich, wer weiß.... Aber wenn du sie nicht bestrafst, wirst du keine weitere Strafe für eine Woche verlangen können, verstanden?
+		leave!set_msp_2!set_spun_2!set_dcd.spun_0^			Ага...|Jaja
+
+
+
+# --- 0.8: Макс берёт инициативу насчёт наказаний на себя
+
+	08.dc.0@73@Ну... хорошо, сынок. Только если пообещал, сделай это. Не перестарайся, но пусть она это запомнит...|Okay, aber lass sie nicht ohne die Strafe davonkommen. Mach es nicht streng, sie sollte besser etwas lernen.
+		needpunish>0&newpun.start^													Обязательно запомнит!|Oh, sie wird ihre Lektion lernen, alles klar....
+		needpunish=0&hour=9&breakfast.default^										Обязательно запомнит!|Oh, sie wird ihre Lektion lernen, alles klar....
+		needpunish=0&hour=19&dinner.default^										Обязательно запомнит!|Oh, sie wird ihre Lektion lernen, alles klar....
+
+
+
+# --- 0.8: Макс приходит к Лизе для наказания (таких будет 3 штуки)
+
+	08.dd.0.init@0@Кажется, кого-то нужно наказать...|Ich denke, jemand verdient eine Bestrafung....
+	08.dd.0@46@y-li-1@Что? Нет, Макс, давай не сегодня...|Was? Nein, Max, heute nicht.
+		08.dd.1^		Я обещал маме...|Ich hatte es Mom versprochen
+
+	08.dd.1@41@Ну давай ей скажем, что ты наказал, а ты просто меня отпустишь, а?|Können wir ihr nicht einfach sagen, dass du mich bestraft hast und die Strafe auslassen?
+		08.dd.2^		Лиза, раздевайся!|Ausziehen, Lisa.
+
+	08.dd.2@46@Блин... Ну ладно. А ты держи свой член в штанах, а то опять перевозбудишься...|Mist.... Gut, aber behalt deinen Schwanz in der Hose.
+		08.dd.3^		Кто-то напрашивается...|Jemand will Ärger....
+
+	08.dd.3@40@y-li-2@Ладно, извини... Только это, не больно. Хорошо, Макс?|Okay, okay, tut mir leid.... Aber nicht zu hart, oder? Stimmt's, Max?
+		08.dd.4^		Ну не знаю...|Wir werden sehen.
+
+	08.dd.4@49@Я серьёзно, Макс... Мне потом сидеть больно... Ты же меня любишь?|Ich meine es ernst, Max.... Ich werde eine Woche nicht sitzen können.... Liebst du mich nicht?
+		08.dd.5^		Не подлизывайся, ложись на мои колени!|Weniger reden und auf die Knie gehen.
+
+	08.dd.5@46@y-li-3@Ой... Макс... Больно! Я же просила... Ну полегче, пожалуйста...|Au, Max! Ich habe dich gebeten.... Bitte sei vorsichtig....
+		08.dd.6^		Терпи, так надо!|Du wirst bestraft, Lisa, es sollte nicht nett sein.
+
+	08.dd.6@44@y-li-3b@Ладно... Ой... Бо-о-ольно... Лучше бы мама наказывала...|Okay.... Au.... Es tut weh.... Warum konnte Mom es nicht tun?
+		08.dd.7^		<i>зако?чить</i>|<i>beenden</i>
+
+	08.dd.7@46@y-li-2b@Ну Макс, я же тебя просила... Зачем так больно отшлёпал?|Au, Max, ich habe dich nur gebeten, vorsichtig zu sein.... Warum musstest du zu hart zuschlagen?
+		08.dd.8^		Заслужила же!|Du hast es verdient!
+
+	08.dd.8@42@Эх... Ну ладно... Но в следующий раз не так больно шлёпай, ладно?|Gut.... Bitte sei nächstes Mal netter, okay?
+		leave!add_liza.dom_150!set_spun.liza_0!add_liza.spun_1!max_cam.0.grow_200!time^		Ладно... Одевайся...|Gut.... Du kannst dich anziehen.
+
+
+
+# --- 0.8: Макс приходит к Лизе для наказания (ответвление, если пройден последний урок с Кирой)
+
+	08.de.0.init@0@Кажется, кого-то нужно наказать...|Ich denke, jemand muss bestraft werden.
+	08.de.0@46@y-li-1@Что, уже пора? Ну... ладно...|Was, jetzt schon? Okay....
+		08.de.1^		Хм... Раздевайся!|Ausziehen!
+
+	08.de.1@40@y-li-2@Я готова... Только не так больно, как в прошлый раз, ладно?|Ich bin soweit. Bitte bestrafe mich nicht so hart wie beim letzten Mal, okay?
+		08.de.2^		Посмотрим... Ложись!|Wir werden sehen. Auf meinen Knien
+
+	08.de.2@6@y-li-3@<i>Хм... Сегодня Лиза себя ведёт как-то необычно... Может быть, отшлёпать её сильнее?</i>|<i>Lisa ist heute komisch.... Soll ich sie noch härter bestrafen?</i>
+		08.de.3^		<i>отшлёпать её</i>|<i>ihr den Arsch versohlen</i>
+
+	08.de.3@3@y-li-3b@<i>Ни звука... Лежит, терпит... Удивительно! А ведь я её наказал сильнее, чем обычно... Ого... Неужели, она возбудилась?!</i>|<i>Sie nimmt es nur, leise.... Erstaunlich! Und ich bestrafe sie noch härter als sonst.... Wow.... Ist sie erregt?</i>
+		08.de.4^		<i>потрог?ть её киску</i>|<i>ihre Pussy anfassen</i>
+
+	08.de.4@4@y-li-4@<i>Да, точно! Она вся влажная... Но что самое странное, она не сопротивляется! Неужели, ей это понравилось?</i>|<i>Das ist richtig! Sie ist ganz nass.... Und das Überraschendste daran ist, dass sie sich nicht wehrt! Macht ihr das Spaß?</i>
+		08.de.5^		<i>отшлёпать ещё</i>|<i>ihren Arsch stärker versohlen</i>
+
+	08.de.5@46@y-li-3b@Макс, ну хватит уже... Ты пошёл по второму кругу, я не заслужила такое...|Komm schon, Max, es reicht jetzt.... Das ist viel zu viel, ich verdiene so viel nicht....
+		08.de.6^		Ну да, увлёкся, что-то...|Ja, ich habe mich hier mitreißen lassen....
+
+	08.de.6@41@y-li-5b@Макс, ты сегодня как-то перевозбудился... Да и я тоже... Я могу одеться?|Du bist heute so erregt, Max.... Und ich auch.... Kann ich mich anziehen?
+		08.de.7^		Ну э... Да...|Em... Sicher...
+
+	08.de.7@6@<i>Что-то с Лизой не так...</i>|<i>Da ist etwas mit Lisa.</i>
+		leave!add_liza.dom_150!set_spun.liza_0!add_liza.spun_1!set_poss.sed_38!max_cam.0.grow_200!time^			<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- 0.8: Периодическое наказание, пока Макс не поговорит с Лизой и не пройдёт ночной эвент
+
+	08.df.0.init@0@Кажется, кого-то нужно наказать...|Ich denke, jemand muss bestraft werden....
+	08.df.0@41@y-li-1@Кого же это? Может быть, тебя?|Und wer soll das sein? Du?
+		08.df.1^		Кто будет умничать, получит особо сильно...|Du redest weiter und schaust, was passiert.
+
+	08.df.1@43@y-li-2@Ох, всё угрожаешь... Ладно, я готова... Только не перевозбудись, как в прошлый раз...|Wenn du das sagst.... Ich bin soweit, aber werde nicht überdreht, wie beim letzten Mal.
+		08.df.2^		Ложись уже!|Auf meinen Knien
+
+	08.df.2@3@y-li-3@<i>Лизе определённо это всё нравится. Иначе она бы не прыгала ко мне на колени с таким энтузиазмом... Ну что же, я не против...</i>|<i>Lisa genießt das auf jeden Fall, sonst wäre sie so begierig, auf meine Knie zu springen. Nun, keine Beschwerden hier....</i>
+		08.df.3^		<i>о?шлёпать её</i>|<i>den Hintern versohlen</i>
+
+	08.df.3@4@y-li-3b@<i>Кажется, её киска опять вся влажная... Может быть, потрогать?</i>|<i>Ich glaube, sie ist wieder nass. Soll ich es überprüfen?</i>
+		08.df.4a!max_kisp_1^		<i>потрогать её киску</i>|<i>ihre Pussy anfassen</i>
+		08.df.4^					<i>закончить наказание</i>|<i>Bestrafung beenden</i>
+
+	08.df.4a@3@y-li-4@<i>Да, точно! Лиза опять перевозбудилась! Прикольно...</i>|<i>Das stimmt, sie ist wieder nass! Das ist cool....</i>
+		08.df.4b^		<i>закончить наказание</i>|<i>Bestrafung beenden</i>
+
+	08.df.4b@41@y-li-5b@А если я маме расскажу, что у тебя встаёт... в процессе, она разрешит тебе меня шлёпать?|Was, wenn ich Mom sage, dass du hart wirst, wenn du mich bestrafst? Glaubst du, sie lässt dich mich weiter verhauen?
+		08.df.4c^		Кажется, кто-то напрашивается на добавку!|Klingt, als wolle jemand mehr!
+
+	08.df.4c@43@Да ладно тебе, я пошутила... Ну что, мы закончили? Я могу одеваться?|Komm schon, das war ein Witz. Also, sind wir fertig?
+		leave!add_liza.dom_150!set_spun.liza_0!add_liza.spun_1!max_cam.0.grow_200!time^			Ага...|ja ja
+
+	08.df.4@41@y-li-2b@А сейчас ты должен сказать что-то нравоучительное. Мама всегда так делает...|Ich denke, du solltest etwas aufmunterndes sagen, Mom macht das immer nach den Strafen.
+		08.df.5^		Я же говорил что будет с теми, кто умничает?|Ist jemand ein Klugscheißer?
+
+	08.df.5@46@Ладно, ладно. Я же пошутила... Ну что, мы закончили? Я одеваюсь?|Okay, okay. Also, sind wir fertig?
+		leave!add_liza.dom_150!set_spun.liza_0!add_liza.spun_1!max_cam.0.grow_200!time^			Ага...|Ja ja
+
+
+
+# --- 0.8: Разговор с Кирой насчёт Лизы, 3 дня спустя после первого необычного наказания
+
+	08.dg.0.init@0@А что ты знаешь о... наказаниях?|Was weißt du über.... Bestrafungen?
+	08.dg.0@101@Ого, вот это вопрос, Макс! Да многое знаю, а тебя что конкретно интересует?|Das ist eine interessante Frage! Ich weiß eine Menge, was willst du wissen?
+		08.dg.1^		А так бывает, что кто-то тащится от того, что его... наказывают?|Ist es möglich, dass es jemandem gefällt, wenn er bestraft wird?
+
+	08.dg.1@113@Конечно же! Иначе секс был бы намного более скучным... Постой, кажется я поняла о чём речь...|Natürlich! Sonst wäre Sex viel langweiliger.... Warte, ich glaube, ich weiß, worauf du hinaus willst.
+		08.dg.2^		Правда?|Wirklich?
+
+	08.dg.2@108@Тебе нравится, когда мама тебя шлёпает, верно?|Du magst es, wenn deine Mom dich verprügelt, oder?
+		08.dg.3^		Блин...|Misst...
+
+	08.dg.3@114@Да шучу, успокойся. Ты же пришёл поговорить насчёт Лизы?|Ich mach nur Spaß, entspann dich. Du bist gekommen, um über Lisa zu reden, stimmt das?
+		08.dg.4^		Как ты догадалась?|Woher weißt du das?
+		08.dg.4a^		Ты знаешь обо всём, что тут происходит?|Weißt du alles, was in diesem Haus vor sich geht?
+
+	08.dg.4a@113@Ну мне хочется думать, что да. Во всяком случае, для меня важна наша семья и я хочу участвовать в вашей жизни...|Ich denke schon, ja. Auf jeden Fall seid ihr meine Familie und ich will an euem Leben beteiligt sein.
+		08.dg.4^		Но как ты узнала?|Aber woher weißt du das?
+
+	08.dg.4@101@Она ко мне уже подходила с подобными вопросами. Не ожидала, что и ты начнёшь расспрашивать... Видимо, ты и правда как-то особо её наказываешь, раз ей это нравится...|Sie hat mir kürzlich ähnliche Fragen gestellt. Ich habe nicht erwartet, dass du das Gleiche tust. Ich schätze, du gibst ihr einige besondere Strafen, wenn sie sie so sehr mag....
+		08.dg.5^		Но это же больно, что там может нравиться?|Aber es ist schmerzhaft, was gibt es da zu mögen?
+
+	08.dg.5@114@Ой, Макс, тут столько всего, что так быстро не разобраться. Всё индивидуально и я бы хотела провести эксперимент, так сказать...|Das ist ein spannendes Thema, Max, ich kann es dir nicht in einem Satz erklären. Außerdem ist alles individuell und ich würde gerne ein Experiment machen, um es sicher zu wissen.
+		08.dg.6^		Это какой такой эксперимент?|Welches Experiment?
+
+	08.dg.6@108@Я пока не знаю точно, но мне кажется, что Лизе нравится подчиняться, так сказать...|Ich weiß es noch nicht, aber ich denke, Lisa mag es, sich zu unterwerfen.
+		08.dg.7^		И что это значит?|Was bedeutet das?
+
+	08.dg.7@113@Если это так, то твоя жизнь может стать намного более интересной... Надеюсь, я не ошибаюсь...|Wenn ich Recht habe, wird dein Leben viel interessanter werden. Ich hoffe, ich liege nicht falsch.
+		08.dg.8^		Ого. Ну давай его проведём, твой эксперимент!|Ich bin dabei!
+
+	08.dg.8@114@Тогда, я забегу к вам ночью, как обычно, но урок будет... очень необычный... И да, Лизе ничего не говори. Так будет лучше...|Dann besuche ich dich eines Nachts, wie immer. Aber die Lektion sollte etwas Besonderes sein. Und erzähl Lisa nichts, lass es uns zu einem Geheimnis machen.
+		leave!set_poss.sed_39!set_kisp_2^			Хорошо!|Deal!
+
+
+
+# --- 0.8: Ночной визит Киры в рамках "эксперимента"
+
+	08.dh.0@114@y-km-1@Ну, детишки, не ждали? А я припёрлась! Как я рада, что вы теперь ничего не стесняетесь... Спите голые друг у дружки на виду...|Hey, Kinder, hier bin ich! Ich bin froh, dass ihr euch nicht schämt und nackt schlaft.
+		08.dh.1^		Угу...|Jaja
+		08.dh.1a^		Ох, Лиза, готовься...|Mach dich bereit, Lisa....
+
+	08.dh.1a@49@Готовиться? К чему? Вы опять что-то задумали? Разве сегодня не обычное... занятие?|Bereitet euch auf Was vor? Das klang nicht so, als hätten wir heute unsere übliche Lektion.
+		08.dh.2^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dh.1@40@Что, опять урок, тётя Кира? Мне идти в ванную?|Ist das eine weitere Lektion, Tante Kira? Soll ich ins Bad gehen?
+		08.dh.2^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dh.2@101@Нет, Лиза. Сегодня мы будем разбираться в твоей натуре...|Nein, Lisa, heute untersuchen wir deine Natur....
+		08.dh.3^		Хм...|Hm...
+
+	08.dh.3@46@Что?! А что не так с моей натурой?|Was stimmt nicht mit meiner Natur?
+		08.dh.4^		Гы...|Heh
+
+	08.dh.4@113@Вот мы и выясним. Вставай и иди к столу. Сегодня ты будешь наказана!|Das wollen wir herausfinden. Geh zum Tisch. Du wirst heute Abend bestraft werden!
+		08.dh.5^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dh.5@46@y-km-2@Что? За что, тётя Кира? Что я такого сделала? В чём я виновата?!|Was? Was habe ich getan, Tante Kira?
+		08.dh.6^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dh.6@114@Ты виновата в том, что такая красивая и милая... А ещё слишком сексуальная... Но давай поменьше разговоров, я хочу понять что тебя так возбуждает... Вставай к столу, быстро!|Du bist schuldig, süß und schön zu sein. Und sexy.... Aber der Grund, warum wir das tun, ist, dass ich herausfinden will, was euch alle heiß und geil macht, wenn ihr bestraft werdet. Also geh zum Tisch!
+		08.dh.7^		Прикольно...|Cool...
+		08.dh.7a^		Мне подойти?|Soll ich auch mitkommen?
+
+	08.dh.7a@101@Не спеши. Сначала нужно разобраться кое в чём...|Noch nicht. Ich überprüfe zuerst etwas....
+		08.dh.7^		В чём именно?|Überprüfen Was?
+
+	08.dh.7@108@y-km-3@Макс, ты же её шлёпаешь обычно голую? Я всё так делаю?|Max, versohlst du sie immer nackt? Mache ich das richtig?
+		08.dh.8^		Ну, да. Только она на моих коленях обычно лежит...|Ja, aber normalerweise ist sie auf meinen Knien.
+
+	08.dh.8@100@Ну это не принципиально, думаю. Так. Лиза. Сейчас я тебя отшлёпаю, а ты расскажешь о своих ощущениях. Ты меня поняла?|Das ist nicht wichtig. Also, Lisa. Wir werden dich verhauen und du wirst uns sagen, wie du dich fühlst.
+		08.dh.9^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dh.9@46@Да, но я не поняла зачем это всё, тётя Кира? Я же ничего плохого не сделала...|Ich verstehe nicht, warum wir das tun, ich habe nichts falsch gemacht....
+		08.dh.10^		Тётя Кира сказала молчать...|Tante Kira hat dir gesagt, du sollst die Klappe halten.
+
+	08.dh.10@101@y-km-4@Всё верно! Так, надеюсь нас никто не услышит, а то попа у тебя какая-то слишком звонкая... И Лиза, ни звука, ты меня поняла? Не отвечай.|Das ist richtig. Ich hoffe, niemand kann uns hören, also mach keinen Mucks, Lisa. Antworte nicht.
+		08.dh.11^		Гы...|Heh
+
+	08.dh.11@104@y-km-5@Ну, Макс, похоже дело не в самом наказании. Я её отшлёпала, а ей хоть бы что. Может быть, дело в тебе? Иди сюда и накажи сестрёнку, как ты делаешь это обычно...|Nun, Max, es sieht nicht so aus, als ob es darum geht, bestraft zu werden. Ich habe sie verhauen, aber sie ist nicht erregt. Geht es um dich? Versohl ihr den Arsch, wie immer.
+		08.dh.12^		Ага. Но я её на коленях шлёпаю...|Okay, aber normalerweise mache ich das auf Knien.
+
+	08.dh.12@100@y-km-6@Ты уже это говорил, но я думаю, что дело в другом... Давай отшлёпай её и я потом попробую кое-что другое...|Du hast das schon gesagt, ich glaube nicht, dass es wichtig ist. Versohl ihr den Arsch, damit ich etwas anderes versuchen kann.
+		08.dh.13^		<i>отшлёпать Лизу</i>|<i>versole Lisa</i>
+
+	08.dh.13@4@y-km-7@<i>Надо же! Лиза совершенно не сопротивляется... Но и киска у неё, похоже, совершенно сухая... Видимо, её возбуждало что-то другое, но что?</i>|<i>Sieh dir das an! Lisa beschwert sich überhaupt nicht. Aber sie ist immer noch nicht erregt. Es muss etwas anderes sein, aber was....</i>
+		08.dh.14^		<i>закончить</i>|<i>beenden</i>
+
+	08.dh.14@100@y-km-8@Ну как, Лиза, чувствуешь возбуждение, как в прошлый раз, когда Макс тебя наказывал наедине?|Also, fühlst du dich erregt, wie beim letzten Mal, als er dir den Arsch versohlt hat?
+		08.dh.15^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dh.15@46@Нет, тётя Кира... Мне вообще не нравится, когда меня наказывают, если честно. Больно и неприятно... Но меня возбуждает что-то другое, я сама до конца не поняла...|Nein, Tante Kira. Außerdem mag ich es nicht, wenn man mir den Hintern versohlt, es ist schmerzhaft. Es ist etwas anderes, aber ich weiß nicht, was.
+		08.dh.16^		Хм...|Hm...
+
+	08.dh.16@104@Ага, я так и думала. Ну, значит сейчас попробуем ещё кое-что. Подождите, пока я схожу за одной игрушкой...|Das habe ich mir gedacht. Dann lass uns was anderes versuchen. Warte eine Sekunde, ich hole etwas Spielzeug.
+		08.dh.17^		Игрушкой?|Spielzeug?
+
+	08.dh.17@101@Ну, не совсем. Увидите. И смотрите, не трахайтесь тут без меня! А то обоих отшлёпаю! Ждите. Я мигом!|Nun, nicht ganz. Du wirst sehen. Und fickt nicht ohne mich, oder ich versohle euch beide! Warte, ich werde bald zurück sein.
+		08.dh.18^		Хорошо...|Okay
+
+	08.dh.18@113@y-km-9@А вот и я... Сейчас кое-кто из вас должен это надеть... И под кое-кто речь о тебе... Лиза!|Hier bin ich.... Jemand wird das hier anziehen.... Und mit jemandem meine ich dich, Lisa!
+		08.dh.19^		Наручники?|Handschellen?
+
+	08.dh.19@41@Ой, тётя Кира, а они золотые? Такие красивые... Я наручники только в кино видела, но они были обычные, железные... Для чего они?|Sind sie aus Gold, Tante Kira? So hübsch.... Ich habe immer nur Handschellen in Filmen gesehen, aber sie waren eine normale Art.... Wofür sind sie da?
+		08.dh.20^		Для тебя!|Für dich
+		08.dh.20^		Чтобы ты не сопротивлялась!|Also wirst du nichts tun können.
+
+	08.dh.20@101@Макс прав. Сейчас я тебе надену наручники и повторим всё то же самое, посмотрим на твою реакцию...|Max hat Recht. Ich werde dir Handschellen anlegen und wir werden sehen, ob du diesmal erregt wirst.
+		08.dh.21^		А что изменится?|Was wird sich ändern?
+
+	08.dh.21@113@Вот и посмотрим. Лиза, давай сюда руки, я их защёлкну... И как и прежде - ни звука!|Wir werden sehen. Gib mir deine Hände, Lisa. Und mach keinen Mucks!
+		08.dh.22^		<i>наблюдать</i>|<i>beobachten</i>
+
+	08.dh.22@4@y-km-10@<i>Дожили! Тётя сковывает наручниками мою младшую сестрёнку и шлёпает у меня на глазах! Думал ли я, что может дойти до такого? Не представляю даже, что она ещё может учудить...</i>|<i>Tante Kira legt meine Schwester in Handschellen direkt vor mir an! So etwas könnte ich mir nie vorstellen! Was will sie noch tun....</i>
+		08.dh.23^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dh.23@101@y-km-12@Ну вот, я была права. Теперь всё с тобой понятно, Лиза...|Ja, ich hatte Recht. Ich weiß, was mit dir los ist, Lisa.
+		08.dh.24^		Что понятно?|Was ist das denn?
+
+	08.dh.24@104@y-km-11@Похоже, Лизу возбуждает не сама боль, а чувство беспомощности или когда ею командуют. Другими словами, ты, Лиза, любишь подчиняться другим. Особенно, в сексуальном плане...|Es geht nicht um den Schmerz, es geht darum, völlig hilflos zu sein und befohlen zu werden. Mit anderen Worten, du, Lisa, willst dich unterwerfen. Besonders sexuell.
+		08.dh.25^		Ого...|Wow!
+
+	08.dh.25@46@Ну... Я не знаю. Насчёт боли - это да, мне не очень нравится... Но когда Макс меня прижимает к себе и делает это так... И вот сейчас в этих наручниках... Да, я что-то почувствовала...|Nun.... Ich weiß es nicht. Ich mag den Schmerz nicht, ja.... Aber wenn Max mich festhält, macht er es so.... Und jetzt in diesen Handschellen.... Ich habe definitiv etwas gespürt....
+		08.dh.26^		И что это значит?|Und was bedeutet das?
+
+	08.dh.26@113@А это значит, что с этого дня ваши игры могут быть ещё более интересными... Конечно, насилие над сестрой это совсем не то, что я бы тебе порекомендовала. Тут главное не перегнуть палку, но...|Es bedeutet, dass eure Spiele jetzt interessanter sein können. Ich will nicht, dass du deiner Schwester Gewalt antust, geh nicht zu weit damit. Aber andererseits....
+		08.dh.27^		Но?|Ja?
+		08.dh.27a^		Да я сестрёнку не трону без её разрешения!|Ich werde nichts ohne ihre Zustimmung tun!
+
+	08.dh.27a@100@Очень на это надеюсь, Макс! Главное, чтобы всё было с взаимного согласия... Но...|Das hoffe ich doch! Zustimmung ist sehr wichtig.... Aber....
+		08.dh.27^		Но?|Aber?
+
+	08.dh.27@114@Но иногда можете добавлять этот забавный элемент в свои игры...|Manchmal kann man in seinen Spielen etwas Würze hinzufügen.
+		08.dh.28^		Ты о наручниках? Ты их нам одолжишь?|Redest du von den Handschellen? Wirst du sie uns leihen?
+
+	08.dh.28@113@О нет, Макс. Эти наручники мне ещё пригодятся... Тебе придётся купить другие. Только не бери меховые, это какой-то детский сад. Лучше настоящие, но не теряй ключик...|Nein, Max. Das sind meine und ich brauche sie. Kauf dir andere. Aber kaufen Sie nichts mit Fell, das ist erbärmlich. Kauft die echten. Und verlier den Schlüssel nicht!
+		08.dh.29^		Кстати, а где ты его прятала?|Übrigens, wo hast du deine versteckt?
+
+	08.dh.29@101@У женщин свои секреты... Ну всё, детишки. С вашими вкусами мы разобрались, с чем вас и поздравляю, а мне пора спать, да и вам тоже...|Das muss ich wissen.... Nun, Kinder, wir haben heute etwas gelernt, Glückwunsch, aber wir sollten schlafen gehen, es ist spät.
+		leave!set_poss.sed_40!set_kiranight_3!set_dcd.kiranight_3!add_count.sles_1!add_count.liza.anal_1!set_dcd.crazy_4!max_cam.0.grow_300^			Ну да. Спокойной ночи, тётя Кира!|Gute Nacht, Tante Kira
+
+
+
+# --- 0.8: Разговор с Лизой после необычного ночного урока с Кирой
+
+	08.di.0.init@0@Значит, любишь, когда тобой манипулируют?|Du liebst es also, beherrscht zu werden?
+	08.di.0@41@Макс, решил надо мной поиздеваться?|Bist du hergekommen, um dich über mich lustig zu machen?
+		08.di.1^		Может быть, я манипулирую...|Vielleicht dominiere ich dich....
+
+	08.di.1@48@Нет, Макс, ты ведёшь себя как придурок. Меня возбуждает, когда у меня нет возможности сопротивляться, что-то сделать... А сейчас я могу кое-что сделать, например, пнуть кое-кому по шарам, чтобы поумнел...|Nein, Max, du benimmst dich wie ein Idiot. Ich mag es, wenn ich nichts tun kann, und jetzt kann ich alle möglichen Dinge tun. Wie zum Beispiel, dir in die Eier zu treten.
+		08.di.2^		Ого... Пинать то не надо...|Okay, okay, nicht treten!
+
+	08.di.2@41@Ну вот и не лезь ко мне с дурацкими вопросами. Ты и так всё слышал, тётя Кира была права...|Dann belästige mich nicht mit dummen Fragen. Du hast sowieso alles gehört.
+		08.di.3^		Ну и когда начнём?|Also, wann sollen wir anfangen?
+
+	08.di.3@44@Что начнём?|Was Anfangen?
+		08.di.4^		Ну, игры. Она же так сказала?|Unsere Spiele? Das hat sie doch gemeint, oder?
+
+	08.di.4@48@У тебя есть компьютер, садись и играй. Я то тут причём?|Du hast einen PC, geh spielen, soviel du willst, wozu brauchst du mich?
+		08.di.5^		Да я про секс-игры!|Ha. Ha. Ich meine es ernst
+
+	08.di.5@46@Макс, я не могу вот так, по щелчку. И, вообще, ты даже наручники ещё не купил, верно?|Max, du kannst mich nicht einfach wie einen Schalter einschalten. Und übrigens, hast du überhaupt die Handschellen?
+		08.di.6^		Ну... да...|Oh...
+
+	08.di.6@41@Вот начни с них, а там посмотрим... Но меховые лучше, если что. Говорят, что они мягче...|Fang damit an. Vielleicht kaufst du welche mit dem Fell. Ich habe gehört, dass sie weicher sind.
+		08.di.7^		Кто говорит?|Gehört wo?
+
+	08.di.7@40@Э... Не важно. В фильме. Я всё там видела и слышала. И какой фильм - я не помню. В общем, бери какие будут. Мне всё равно. Это ты собрался что-то там со мной делать...|Em.... Ich weiß es nicht. In einem Film. Ich weiß nicht mehr, welche. Wie auch immer, kauf alles, was du willst, ist mir egal. Du bist derjenige, der sich entschieden hat, etwas zu tun.
+		08.di.8^		Точно!|Richtig!
+
+	08.di.8@41@А пока не мешай мне заниматься моими делами...|Und hör sofort auf, mich zu belästigen.
+		leave!set_hcbuy_1^			Ладно...|Schön schön
+
+
+
+# --- 0.8: Первое наказание Лизы, если у Макса появились наручники
+
+	08.dj.0.init@0@Кажется, кого-то нужно наказать...|Ich glaube, jemand muss bestraft werden....
+	08.dj.0@41@y-li-1@Ну давай, раз нужно...|Wenn du musst....
+		08.dj.1!set_spun.liza_0!add_liza.spun_1^		Раздевайся, ты же всё знаешь...|Zieh dich aus, du kennst die Regeln.
+
+	08.dj.1@40@y-li-2@Ложиться на колени?|Auf die Knie gehen?
+		08.dj.2^		Не совсем. Смотри что у нас сегодня по плану...|Nicht ganz. Schau, was wir heute haben....
+
+	08.dj.2@43@y-li-6@Ой... А меховых не было?|Oh... Kein Fell?
+		08.dj.3^		Сейчас кто-то получит по заднице!|Jetzt wird jemand auf den Arsch kommen!
+
+	08.dj.3@41@Молчу, молчу... Мне самой их надеть или ты застегнёшь?|Okay, ich bin ruhig.... Soll ich sie anziehen, oder wirst du die Ehre haben?
+		08.dj.4^		<i>?адеть наручники</i>|<i>ihr die Handschellen anlegen</i>
+
+	08.dj.4@40@y-li-7@И как ты будешь меня наказывать, если у меня руки сзади застёгнуты?|Und wie willst du mich bestrafen, wenn meine Hände auf dem Rücken liegen?
+		08.dj.5^		А я тебя накажу иначе. Ты же не любишь боль?|Es wird eine andere Art von Bestrafung sein. Du magst den Schmerz sowieso nicht, oder?
+
+	08.dj.5@41@Не люблю... Но что ты будешь со мной тогда делать?|Tue ich nicht. Was wirst du dann tun?
+		08.dj.6^		Вставай на колени! <i>(снять шорты)</i>|Auf die Knie! <i>(Hosen ausziehen)</i>
+
+	08.dj.6@43@y-li-8@О нет... Макс, это же не такое наказание, о котором говорила мама...|Das ist eine ganz andere Strafe, Max.... Ich glaube nicht, dass Mom das im Sinn hatte.
+		08.dj.7^		Она не уточняла деталей...|Sie hat nichts Genaues gesagt.
+
+	08.dj.7@41@А если я её расскажу... про эти твои... детали... То что мне за это будет?|Und wenn ich es ihr erzähle... alle diese... Einzelheiten... Was bekomme ich dafür?
+		08.dj.8^		Сейчас кому-то придётся закрыть рот кое-чем!|Ich schätze, dann muss ich dir den Mund stopfen.
+
+	08.dj.8@4@y-li-9@<i>О да! Лиза так долго ломалась, но сама же набросилась на мой член! Видимо, ей нравится, когда с ней так общаются... Ну что же, игры и правда становятся лучше!</i>|<i>Wow, sie hat wirklich Hunger auf meinen Schwanz! Ich glaube, sie mag es, wenn ich sie so behandle. Eine glänzende Zukunft liegt vor uns!</i>
+		08.dj.9^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dj.9@3@y-li-10@<i>Ох... У сестрёнки это получается просто обалденно! Всё лучше и лучше... Интересно, она сможет вот так всё проглотить? Или кончить ей на её милую мордашку?</i>|<i>Sie ist so gut darin! Und sie wird immer besser.... Ich frage mich, ob sie alles schlucken kann. Oder soll ich auf ihr süßes Gesicht kommen?</i>
+		08.dj.10^		<i>кончить!</i>|<i>spritzen!</i>
+
+	08.dj.10@43@y-li-11@Ну как, я достаточно наказана?|Also, wurde ich richtig bestraft?
+		08.dj.11^		Это ты мне скажи...|Sagt du es mir....
+
+	08.dj.11@41@Ну я чувствую, что сделала всё, что должна была, разве нет?|Ich denke, ich habe alles getan, was ich hätte tun können, oder?
+		08.dj.12^		Возможно...|Vielleicht
+
+	08.dj.12@48@А теперь расстегни наручники, мне нужно привести себя в порядок. И, если что, мне тоже понравилось...|Jetzt nimm mir die Handschellen ab, ich muss mich waschen. Es hat mir übrigens auch gefallen.
+		leave!set_lihc_1!max_cam.0.grow_250!time^			Ого!|Wow!
+
+
+
+# --- 0.8: Основной периодический эвент с наказанием Лизы с опциональным применением наручников
+
+	08.dk.0.init@0@Кажется, кого-то нужно наказать...|Ich denke, jemand muss bestraft werden....
+	08.dk.0@41@y-li-1@Ну если ты так настаиваешь, Макс, то...|Wenn du darauf bestehst, Max....
+		08.dk.1!set_spun.liza_0!add_liza.spun_1^		Угу, настаиваю... Ты знаешь, что делать...|Das tue ich. Du weißt, was zu tun ist.
+
+	08.dk.1@40@y-li-2@Как ты сегодня будешь меня наказывать? Только не шлёпай, пожалуйста...|Wie willst du mich heute bestrafen? Bitte versohle mich nicht....
+		08.dk.2^		Ну уж нет, сегодня отшлёпаю!|Nein, es ist heute versohlen!
+		08.dk.6^		Ну ладно, есть другой вариант...|Gut, wir machen heute etwas anderes.
+
+	08.dk.2@46@Макс, ну пожалуйста. Это же так больно... Разве тебе не приятно другое наказание? Я буду стараться!|Komm schon, Max, es ist so schmerzhaft.... Bevorzugst du nicht die andere Methode? Ich werde es wirklich versuchen!
+		08.dk.3^		Ложись на мои колени!|Auf die Knie!
+		08.dk.6^		Ну ладно, есть другой вариант...|Gut, wir machen heute etwas anderes.
+
+	08.dk.3@40@y-li-3@Только не больно, Макс... Мне конечно бывает приятно, когда ты такой сильный и почти владеешь мной, но я терпеть не могу боль...|Nicht zu hart, Max, bitte.... Ich mag es, wenn du so stark und überwältigend bist, aber ich hasse Schmerzen....
+		08.dk.4^		<i>отшлёпать</i>|<i>den Hintern versohlen</i>
+
+	08.dk.4@44@y-li-3b@Ну я же тебя просила... Больно же...|Au, Max, ich habe dich gerade gebeten.... Es ist zu schmerzhaft....
+		08.dk.5^		Это наказание!|Es ist eine Strafe!
+
+	08.dk.5@46@y-li-5b@Ладно, ладно, я всё поняла... Вот только теперь сам разбирайся со своей проблемой. Выбрал бы другое... накзание, я бы тебе помогла... А так...|Okay, okay, ich verstehe.... Aber dieser Ständer ist dein Problem, kümmere dich selbst darum. Du hättest eine andere Strafe wählen können und ich hätte dir geholfen....
+		leave!max_cam.0.grow_150!time^			Эх...|Misst...
+
+	08.dk.6@43@y-li-6@Ой, здорово! Мне же не будет больно, да?|Großartig! Das bedeutet keine Schmerzen, oder?
+		08.dk.7^		Смотря как постараешься...|Hängt davon ab, wie gut du sein wirst....
+
+	08.dk.7@41@y-li-7@Я буду стараться, Макс, правда! Только что мне нужно делать?|Ich werde es wirklich versuchen, Max, ich verspreche es! Was muss ich tun?
+		08.dk.8^		Ты всё прекрасно знаешь!|Du weißt es schon!
+
+	08.dk.8@43@y-li-8@Конечно, знаю. Но если я не буду ломаться, то со стороны будет казаться, что это вообще никакое не наказание, правда?|Natürlich tue ich das. Aber das soll eine Strafe sein, ich sollte nicht bereit sein, das zu tun, oder?
+		08.dk.9^		Правда! А теперь соси уже!|Genau, jetzt fang schon an zu blasen!
+
+	08.dk.9@4@y-li-9@<i>Лиза как-то слишком легкомысленно относится к этому наказанию. Нужно будет подумать над вариантами... Хотя этот вариант тоже хорош... даже очень... Как же классно она это делает...</i>|<i>Lisa nimmt diese Strafen nicht ernst genug. Ich denke, ich muss über andere Varianten nachdenken.... Obwohl sich das auch ziemlich gut anfühlt.... Sie ist so gut darin....</i>
+		08.dk.10^		<i>далее</i>|<i>fortfahren</i>
+
+	08.dk.10@3@y-li-10@<i>Да, да... Сестрёнка сегодня в ударе... С таким энтузиазмом и так быстро и нежно... Ещё чуть-чуть и я...</i>|<i>Sie will wirklich nicht, dass ich ihr den Hintern versohle. So viel Begeisterung, so sanft.... Ich bin fast da....</i>
+		08.dk.11^		<i>кончить!</i>|<i>spritzen!</i>
+
+	08.dk.11@43@y-li-11@Ну как? Ты доволен... этим наказанием, Макс?|Also, bist du mit dieser Bestrafung zufrieden, Max?
+		08.dk.12^		Вполне...|Ja ja
+
+	08.dk.12@41@Тогда расстёгивай наручники и мне надо привести себя в порядок, пока никто нас не увидел... И спасибо, что выбрал этот вариант. Не люблю, когда ты меня шлёпаешь...|Dann nimm mir die Handschellen ab, ich muss aufräumen, bevor uns jemand sieht. Und danke, dass du diese Option gewählt hast, ich hasse es, wenn du mir den Arsch versohlst.
+		leave!add_lihc_1!set_dcd.crazy_4!max_cam.0.grow_250!time^			Не за что...|Gern geschehen
+
+
+
+# --- 0.8: Ночной эвент, где Макс решает пристегнуть спящую Лизу к кровати
+
+	08.dl.0@4@y-ls-1@<i>Хороша сестрёнка! Что бы с ней сделать такого...</i>|<i>Sie ist umwerfend! Ich frage mich, ob ich etwas tun sollte....</i>
+		leave!set_dcd.touch_1^			<i>оставить её в покое</i>|<i>Lassen Sie sie in Ruhe.</i>
+		08.dl.1^						<i>снять шорты</i>|<i>Hosen ausziehen</i>
+
+	08.dl.1@3@y-ls-2@<i>Кажется, у меня есть одна идея...</i>|<i>Ich habe vielleicht eine Idee....</i>
+		item.hc=-5&08.dl.6^		<i>пристегнуть её наручниками</i>|<i>sie in Handschellen legen</i>
+		item.hc>-5&08.dl.2^		<i>трогать сестрёнку</i>|<i>sie anfassen</i>
+
+	08.dl.2@4@y-ls-3@<i>Ох, как это заводит... Интересно, она спит или притворяется? А если так...</i>|<i>Das ist so aufregend.... Ich frage mich, ob sie wirklich schläft oder ob sie vortäuscht.... Was, wenn ich....</i>
+		08.dl.3^		<i>продолжить</i>|<i>fortfahren</i>
+
+	08.dl.3@44@y-ls-4@Макс! Ты охренел?! Быстро убрал свои руки! Я сейчас кого-нибудь позову!|Max? Hast du den Verstand verloren? Hände weg oder ich schreie!
+		08.dl.4^		Стой, стой!|Warte, warte, warte!
+
+	08.dl.4@42@Что стой? Ты меня лапал без разрешения! А может, ты хотел меня изнасиловать, откуда я знаю?|Du hast mich ohne Erlaubnis angefasst! Vielleicht wolltest du mich auch vergewaltigen?
+		08.dl.5^		Нет, что ты...|Nein, Natürlich nicht
+		08.dl.5b^		Ну, может и хотел...|Vielleicht habe ich das....
+
+	08.dl.5b@44@y-ls-5@Что?! Так, всё, быстро слез с моей кровати, а не то маме всё расскажу!|Was!? Raus aus meinem Bett oder ich sage es Mom!
+		leave!set_dcd.touch_2!max_cam.0.grow_150!set_dcd.crazy_4!time^			Ладно, ладно...|Schön schön
+
+	08.dl.5@40@y-ls-5@Так, всё. Не хочу знать что ты там хотел или не хотел. Слазь с кровати и иди отсюда. Я очень хочу спать! А если повторишь, я маме всё расскажу!|Ich will es nicht hören. Raus hier. Ich will schlafen! Wenn du das noch mal versuchst, sage ich es Mom!
+		leave!set_dcd.touch_2!max_cam.0.grow_150!set_dcd.crazy_4!time^			Понял, извини...|Okay, es tut mir leid.
+
+	08.dl.6@5@y-ls-6@<i>Вот так... Кажется, она и правда спит... Ну или очень убедительно притворяется... Так, зафиксируем и...</i>|<i>Das ist schon besser. Ich glaube, sie schläft tatsächlich.... Oder zumindest ein überzeugender Fälscher.... Nun, um sie in Position zu bringen und....</i>
+		08.dl.7!max_poss.sed_41^		Готово!|Fertig!
+
+	08.dl.7@46@y-ls-7@Макс, что происходит? Зачем ты... меня... Я сейчас закричу!|Was ist los, Max? Warum hast du.... Ich werde schreien!
+		08.dl.8^		Не закричишь.|Nein, das wirst du nicht.
+
+	08.dl.8@49@Это... это ещё почему?|Wa-warum ist das so?
+		08.dl.9^		Потому, что я сделаю тебе приятно...|Weil es sich für dich lohnen wird.
+
+	08.dl.9@40@Макс, так нельзя... Отпусти...|Max, du kannst nicht.... Lass mich gehen....
+		08.dl.10^		<i>ласкать сестрёнку</i>|<i>befridige Schwesterchen</i>
+
+	08.dl.10@49@y-ls-8@Макс.. Я же твоя сестра... Что ты делаешь...|Komm schon, Max.... Ich bin deine Schwester.... was machst du da?
+		08.dl.11^		Молчи|Sei still
+
+	08.dl.11@4@y-ls-9@<i>Сестрёнка вся мокрая! Видимо, её очень возбуждают наручники и я даже не знаю... Чувство беспомощности? А мне это только на руку!</i>|<i>Schwesterchen ist durchnässt! Sie muss es wirklich mögen, gefesselt zu sein und das Gefühl, hilflos zu sein.... Das ist großartig für mich!</i>
+		08.dl.12^		<i>продолжить</i>|<i>fortfahren</i>
+
+	08.dl.12@3@y-ls-10@<i>Она стонет так убедительно... Кажется, ей это безумно нравится... И её тело так содрогается. Неужели, она кончает? Я тоже хочу!</i>|<i>Ihr Stöhnen ist so sexy.... Sie muss das lieben.... Ihr ganzer Körper zittert. Ist sie gerade gekommen? Ich will auch!</i>
+		08.dl.13^		Теперь моя очередь!|Jetzt bin ich an der Reihe.
+
+	08.dl.13@49@y-ls-11@Очередь? Что ты хочешь... Макс... А если я закричу?|Was willst du, Max? Und wenn ich schreie?
+		08.dl.14^		А вот попробуй! <i>(засунуть член ей в рот)</i>|Viel Glück dabei <i>(deinen Schwanz in ihren Mund stecken)</i>
+
+	08.dl.14@4@y-ls-13@<i>Да, кричать она явно не собиралась... Какие нежные губки... Ей это нравится не меньше, чем мне! Как же мне повезло с сестрёнкой...</i>|<i>Ja, sie wollte nicht schreien.... Ihre Lippen sind so sanft. Sie liebt es so sehr wie ich! Ich bin so glücklich, sie zu haben....</i>
+		08.dl.15^		<i>двигаться активнее</i>|<i>mach schneller</i>
+
+	08.dl.15@3@y-ls-14@<i>Пока не получается слишком глубоко... Ну ничего, я разработаю этот ротик. Да и нужно же сестрёнке учиться? Значит, я помогаю ей с практикой... Ох... как хорошо...</i>|<i>Ich kann es immer noch nicht ganz tief schieben.... Aber wir werden es schaffen. Schwester braucht Übung und ich kann ihr dabei helfen.... Oh....so gut...</i>
+		08.dl.19^		<i>кончить на её лицо</i>|<i>spritz in ihr Gesicht</i>
+		08.dl.16^		<i>кончить ей в рот</i>|<i>spritz in ihren Mund</i>
+
+	08.dl.16@4@y-ls-13@<i>О да... Кажется, она всё сразу глотает! Молодец сестрёнка... Не растерялась... Ах да, у неё же нет выбора... О да... Как же это приятно!</i>|<i>Ja.... Ich glaube, sie schluckt alles! Nicht, dass sie eine große Wahl gehabt hätte.... Fühlt sich unglaublich an!</i>
+		08.dl.17^		<i>вытащить член</i>|<i>langsam rausziehen</i>
+
+	08.dl.17@41@y-ls-7@Ну что, наигрался? А теперь отстёгивай наручники, а то кисти затекли... В следующий раз застёгивай не так сильно, хорошо?|Bist du fertig? Nimm mir die Handschellen ab, meine Handgelenke tun weh. Mach sie nächstes Mal nicht so fest zu, okay?
+		08.dl.18^		Хорошо...|Okay
+
+	08.dl.18@48@y-ls-2@Ну всё, Макс, хватит на сегодня... Я так хочу спать... Спокойной ночи!|Okay, Max, das reicht für heute. Ich will schlafen gehen. Gute Nacht!
+		leave!set_dcd.touch_1!max_liza.thc_1!max_cam.0.grow_300!set_dcd.crazy_4!time^			Спокойной ночи!|Gute Nacht
+
+	08.dl.19@49@y-ls-12@Ну вот... Придётся идти умываться... А если меня кто-то увидит в таком виде? В следующий раз кончай мне в ротик, хорошо?|Jetzt muss ich mir das Gesicht waschen.... Was, wenn mich jemand so sieht? Komm nächstes Mal einfach in meinen Mund, okay?
+		08.dl.20^		Ого... Ладно!|Oh... Okay!
+
+	08.dl.20@41@y-ls-11b@Ну всё, Макс, расстёгивай наручники, мне надо сбегать умыться, а я так хочу спать...|Jetzt nimm mir die Handschellen ab, Max, ich muss ins Bad und ich will schlafen.
+		leave!set_dcd.touch_1!max_liza.thc_1!set_dcd.crazy_4!max_cam.0.grow_300!time^			Хорошо <i>(освободить её)</i>|Okay <i>(Handschellen abnehmen)</i>
+
+
+
+# --- 0.8: Диалог с Лизой после первой ночи, где Макс её пристегнул к кровати
+
+	08.dm.0.init@0@Тебе понравилось?|Hat es dir gefallen?
+	08.dm.0@49@Ты о чём, Макс? Понравилось... что?|Was meinst du, Max?
+		08.dm.1^		Ну я про ночь и наручники...|Ich rede von dieser Zeit mit den Handschellen.
+
+	08.dm.1@41@Ах ты об этой ночи, где ты меня пристегнул к кровати и оттрахал в рот как какую-то шлюшку? Мне это должно было понравиться?|Oh, du meinst die Zeit, als du mich ans Bett gefesselt hast und meinen Mund gefickt hast, als wäre ich eine Art Hure? Ich sollte es mögen?
+		08.dm.2^		Э...|Em...
+
+	08.dm.2@43@Ну да, понравилось. А что?|Nun, ja, das habe ich. Warum fragst du?
+		08.dm.3^		Что?!|Was
+
+	08.dm.3@41@Да ты и сам всё понял, Макс. Хватит притворяться... Я чуть не кончила, пока ты меня пристёгивал, а уж когда помог своим ловким язычком...|Warum hast du dieses Gespräch überhaupt begonnen, du hast gesehen, wie sehr ich es selbst mochte. Ich kam fast von dir, als du mich ans Bett gefesselt hast, und als du mir mit deiner Zunge geholfen hast....
+		08.dm.4^		То... Ты кончила?!|Du bist gekommen?
+
+	08.dm.4@48@Ну... да... Может быть, кончила бы и ещё раз, если бы не было так поздно. Но я ни о чём не жалею. Мне нравится, когда ты... проявляешь инициативу...|Ja. Vielleicht könnte ich noch einmal kommen, wenn es nicht so spät wäre. Aber ich bereue definitiv nichts. Ich mag es, wenn du.... die Initiative ergreifst....
+		leave!set_liza.thc_2^			Хорошо...|Okay
+
+
+
+# --- 0.8: Диалог с Кирой после разговора с Лизой о ночи и наручниках
+
+	08.dn.0.init@0@Хотел сказать спасибо за идею с наручниками...|Ich möchte dir für die Handschellen-Idee danken.
+	08.dn.0@104@Что, неужели уже воспользовался?|Oh, hast du sie schon benutzt?
+		08.dn.1^		Угу...|Ja ja
+
+	08.dn.1@113@Молодец! А как Лиза к этому отнеслась? Не слишком возмущалась?|Gute Arbeit! Wie hat Lisa darauf reagiert? Sie hat sich nicht allzu sehr beschwert, oder?
+		08.dn.2^		Ну, у неё не было выбора|Sie hatte nicht wirklich eine Wahl.
+
+	08.dn.2@100@Не было выбора? Только не говори, что ты изнасиловал свою младшую сестру!|Bitte sag mir, dass du deine kleine Schwester nicht vergewaltigt hast.
+		08.dn.3^		Ну... почти...|Nicht.... ganz
+
+	08.dn.3@102@Почти? Почти изнасиловать это как?|Und wie würde man seine Schwester "nicht ganz" vergewaltigen?
+		08.dn.4^		Ну, в рот, например...|In.... ihrem Mund, zum Beispiel.
+
+	08.dn.4@100@А, ну если так, то... да. Тогда поняла... Хотя, нет, я хочу знать подробности!|Oh, nun, dann.... Ich verstehe.... Obwohl.... Nein, ich will die Details wissen.
+		08.dn.5^		<i>рассказать ей</i>|<i>erzähle Ihr alles</i>
+
+	08.dn.5@101@Ну ничего себе! Макс, а ты и правда молодец. Может быть, я бы тоже перевозбудилась, если бы меня кто-то пристегнул ночью и оттрахал во все...|Wow! Das hast du wirklich gut gemacht, Junge. Ich wäre wahrscheinlich auch erregt, wenn du mich mitten in der Nacht gefesselt und dann in jedes Loch gefickt hättest....
+		08.dn.6^		Так я могу!|Das würde ich gerne!
+
+	08.dn.6@113@Ну уж нет, побереги... патроны. Я не хочу, чтобы это было инструкцией к действию. И, вообще, не перестарайся...|Nein, solltest du nicht. Ich will nicht, dass du meine Anweisungen befolgst. Und es ist sowieso keine gute Idee.
+		08.dn.7^		А что может случиться?|Warum, was könnte passieren?
+
+	08.dn.7@114@Да что угодно! Во-первых, вас могут застукать. Я не знаю как ты это всё будешь объяснять... А во-вторых, не теряй ключик. А то я однажды...|So viele Dinge! Zuerst kannst du erwischt werden. Ich habe keine Ahnung, wie das erklärt werden könnte. Zweitens, verlier deinen Schlüssel nicht. Das habe ich, einmal.
+		08.dn.8^		Что?|Und dann Was?
+
+	08.dn.8@101@Не важно. Главное - не теряй, а то так можно провести не одну ночь голой, прикованной к батарее, всей измазанной в... Хм. О чём это я...|Das spielt keine Rolle. Was zählt, ist, den Schlüssel nicht zu verlieren, wenn man nicht ein paar Tage im Keller angekettet verbringen will, ihn komplett verdeckt.... Warte, wo war ich....
+		08.dn.9^		Про ключик...|Etwas über den Schlüssel
+		08.dn.9^		Измазанной в чём?|Bedeckt mit Was?
+
+	08.dn.9@102@Что-то я отвлеклась. В общем, ключик не теряй. И смотри у меня - пока Лиза не решит тебе или кому-то отдать свою невинность, не вздумай брать её силой. Ты меня понял?!|Wie auch immer, zurück zum ursprünglichen Gespräch. Verliert den Schlüssel nicht. Und denk nicht mal daran, Lisas Jungfräulichkeit ohne ihre Zustimmung zu nehmen. Verstanden?
+		08.dn.10^		Понял, тётя Кира...|Ich erinnere mich
+
+	08.dn.10@113@Вот и молодец.|Guuuut.
+		08.dn.11^		Кстати, а почему она не даёт?|Übrigens, warum denkst du, dass sie sich so sehr an ihre Jungfräulichkeit klammert?
+
+	08.dn.11@114@Мне кажется, она просто боится. Все эти разговоры про одного единственного, когда тебя брат трахает в попку, звучат как-то неубедительно...|Ich glaube, sie hat nur Angst. All diese Gespräche über die eine und einzige, während dein Bruder dich in den Arsch fickt, klingen nicht sehr überzeugend.
+		08.dn.12^		Боится? Чего?|Angst vor Was?
+
+	08.dn.12@104@Ну, что мама может узнать, что она стала женщиной. Может быть, крови боится, а может быть, просто ломает комедию. Постарайся узнать у неё сам. Не всё же мне за тебя делать...|Angst, dass Mom es herausfindet, oder Blut, oder vielleicht ist da noch etwas anderes. Das musst du von ihr erfahren, nicht von mir.
+		leave!set_poss.sed_42!set_liza.thc_3^			Ладно, попробую. Спасибо!|Okay, ich werde versuchen, sie zu fragen. Danke!
+
+
+
+# --- 0.8: Диалог с Лизой насчёт её невинности
+
+	08.do.0.init@0@У меня к тебе нескромный вопрос...|Ich habe eine persönliche Frage an dich....
+	08.do.0@49@Если ты про наручники, то да, мне понравилось. Но... ты вроде и так знаешь. Я говорила и... или ты о чём?|Haben wir nicht schon über unsere Handschellenspiele gesprochen? Ich hab's dir schon gesagt, es hat mir gefallen. Oder geht es da um etwas anderes?
+		08.do.1^		Нет, речь про твою... невинность...|Nein, ich möchte dich nach deiner.... Jungfräulichkeit fragen.
+
+	08.do.1@46@А нам обязательно об этом сейчас... Постой. Ты наигрался со мной всеми возможными способами и решил, что хочешь получить вообще всё?|Warum müssen wir.... Warte. Hast du dich über unsere alten Spiele gelangweilt und willst alles haben?
+		08.do.2^		Нет, я не...|Nein, das ist nicht....
+
+	08.do.2@40@Макс! Ты и так получил больше, чем любой брат может получить от своей сестры. Тебе не кажется?|Denkst du nicht, dass du schon viel mehr hast, als Brüder normalerweise von ihren Schwestern bekommen?
+		08.do.3^		Да я просто спросить хотел...|Ich bin nur neugierig.
+
+	08.do.3@49@Спросить хотел? Что именно? Спрашивай!|Wegen was?
+		08.do.4^		Почему ты не даёшь...|Warum bestehst du darauf, sie zu behalten?
+
+	08.do.4@46@Потому, что я ещё девочка, Макс! Мне ещё рано становиться женщиной... Да и если мама узнает, то...|Weil ich immer noch ein Mädchen bin, Max! Es ist zu früh für mich, eine Frau zu werden ... Und wenn Mom das herausfindet, dann...
+		08.do.5^		Но ты и так женщина!|Wie in aller Welt könnte sie das herausfinden, ohne dass du es ihr sagst?
+
+	08.do.5@40@Формально... нет. Но в чём-то ты прав, конечно. Ладно, раз уж у нас с тобой столько всего было. Кому, как не тебе рассказать...|Ja, aber.... Gut, da wir uns schon so nahe sind, kann ich es dir sagen.
+		08.do.6^		Ага, слушаю.|Ich höre
+
+	08.do.6@46@Когда мы с тобой начали, ну... ты понял. Я ощутила, что совершаю большую ошибку, но хваталась за идею, что это просто баловство, ведь я ещё не потеряла девственность! Это как последняя черта для меня...|Als wir gerade erst mit unseren.... Spielen anfingen, fühlte ich mich, als würde ich einen Fehler machen, aber ich fand Trost in dem Gedanken, dass alles nur Spaß und Spiel ist, weil ich meine Jungfräulichkeit behalten kann. Es ist eine Grenze zwischen harmlosem Spaß und etwas Ernsthaftem.
+		08.do.7^		Но ты столько теряешь...|Aber du verpasst....
+
+	08.do.7@41@Догадываюсь, конечно. И, может быть, оттягиваю этот приятный момент на потом. Как вкусный десерт, понимаешь? Хотя, ты парень. Что ты в этом понимаешь... С другой стороны...|Ja, dachte ich mir. Vielleicht hebe ich es mir für später auf. Als wäre es ein Dessert, am besten zum Schluss.... Andererseits....
+		08.do.8^		Что?|Was?
+
+	08.do.8@43@Чего я только не делала... И куда ты меня только не трахал... И считать себя девственницей, конечно, глупо... Но я думаю, что ещё не готова переступить через эту черту.|Ich habe schon so viel getan.... Du hast mich fast überall gefickt, es ist albern, mich als Jungfrau zu sehen. Aber ich bin nicht bereit, die Grenze zu überschreiten.
+		08.do.9^		А что может произойти?|Warum nicht?
+
+	08.do.9@46@Если переступлю черту? Мне кажется, что я сама себя уважать перестану. Мне не хочется терять невинность со своим братом. Ты пойми, дело не в тебе... точнее, в том, что ты мой брат...|Ich fürchte, ich höre auf, mich selbst zu respektieren. Ich will meine Jungfräulichkeit nicht an meinen Bruder verlieren. Es geht nicht um dich persönlich, aber du <i>bist</i> mein Bruder.
+		08.do.10^		Но... Я не понимаю...|Ich verstehe immer noch nicht.
+
+	08.do.10@49@Я так и думала, что не поймёшь... Мне кажется, что всё это - в шутку, игры, шалости, забавы... И когда я встречу того единственного, то... моя сексуальная жизнь начнётся с чистого листа...|Ich habe das Gefühl, dass alles, was wir tun, nur.... Spiele sind, nichts Ernstes. Und dann finde ich irgendwann denjenigen, mit dem ich mein Sexleben von Anfang an neu beginnen kann.
+		08.do.11^		А я временное развлечение?|Also bin ich nur ein vorübergehender Spaß für dich?
+
+	08.do.11@40@Макс, не обижайся, я не это имела в виду. Я не знаю как объяснить... Я тебя люблю. Как брата... и как любовника... и даже чуть-чуть сильнее... Но мне же нужен парень?|Nein, das meine ich nicht.... Ich weiß nicht, wie ich das erklären soll.... Ich liebe dich. Als Bruder. Und als Liebhaber.... und vielleicht gibt es noch etwas anderes.... Aber ich will einen richtigen Freund.
+		08.do.12^		Зачем?|Warum?
+
+	08.do.12@49@Чтобы гулять, общаться, заниматься любовью, не боясь, что кто-то осудит... и не будет чувства, что это неправильно...|Ich möchte einfach nur spazieren gehen, sinnvolle Gespräche führen, Liebe machen können, ohne mir Sorgen machen zu müssen, dass andere Menschen über uns urteilen. Und ich will nicht das Gefühl haben, dass ich etwas falsch mache.
+		08.do.13^		Со мной можно всё это делать!|Du kannst das alles mit mir machen!
+
+	08.do.13@41@Гулять? Ты не выходишь из дома. Общаться... ну не знаю... Заниматься любовью... мне кажется, это не то же самое, чем мы с тобой занимаемся. В фильмах всё... не так...|Du verlässt nicht mal das Haus, Max. Und ich bin mir auch bei den Gesprächen nicht sicher.... Und ich glaube nicht, dass man das, was wir tun, "Liebe machen" nennen kann. So machen sie das nicht in den Filmen....
+		08.do.14^		Но тебе же нравится?|Aber gefällt dir nicht, was wir tun?
+
+	08.do.14@46@Нравится... Очень... Ну... да, ты прав. Может быть, я просто сама не знаю чего хочу... Или знаю. Вот, я поняла! Я хочу немного романтики, понимаешь?|Das tut es.... Sehr wohl, ja.... Vielleicht hast du Recht und ich weiß nicht mal, was ich will.... Oder vielleicht.... Ja, ich weiß! Ich will etwas Romantik in meinem Leben!
+		08.do.15^		Это цветы дарить, что ли?|Wie dir ein paar Blumen zu schenken?
+
+	08.do.15@40@Ну почему. Не только. Это и подарки и те самые прогулки и совместные приключения. Ты бы смог для меня это всё делать?|Nicht nur das. Es sind Geschenke, romantische Spaziergänge und Abenteuer. Kannst du das für mich tun?
+		08.do.16^		Конечно!|Natürlich!
+
+	08.do.16@41@Ну, вот когда я пойму, что ты способен и на романтические отношения, то я смогу понять, можешь ли ты... стать моим первым, тем самым. Или же мне нужен кто-то другой...|Nun, wenn ich merke, dass du fähig bist, ein romantischer Freund zu sein, dann kann ich entscheiden, ob du.... mein erster sein kannst.
+		08.do.17^		Значит, у меня есть шанс?|Also sagst du mir, dass es eine Chance gibt....
+
+	08.do.17@43@Не знаю, не знаю... Если не будешь зазнаваться, то я скажу... что... может быть...|Ich weiß nicht.... Wenn du nicht zu großspurig wirst, dann kann es passieren....
+		08.do.18^		И с чего мне начать?|Womit soll ich anfangen?
+
+	08.do.18@41@А вот это ты сам думай. Какая же это романтика, если я буду тебе всё разжёвывать. Но если мы попробуем начать всё как будто с самого начала, то... придётся на какое-то время забыть про наручники и прочие приставания, а то... это как-то странно...|Das solltest du selbst herausfinden. Ich denke nicht, dass es sehr romantisch ist, dir einen Haufen Anweisungen zu geben. Aber wenn du wirklich etwas Romantisches anfangen willst, dann müssen wir alle unsere Handschellen und andere Spiele aufgeben. Zumindest für einige Zeit. Ich glaube nicht, dass sich unsere Spiele und unsere Romantik gut miteinander vertragen, besonders am Anfang.
+		08.do.19^		На какое-то время?|Aber das wird nur vorübergehend sein, oder?
+
+	08.do.19@43@Кто знает, может быть мы вернёмся и к этому и к чему-то ещё более... Но ты слишком забегаешь вперёд. И чтобы попробовать с чистого листа, нужно, чтобы произошло что-то особенное... Но...|Wer weiß, vielleicht kehren wir ja irgendwann zu unseren Spielen zurück. Es ist ja nicht so, dass ich ein ganz anderer Mensch werde und aufhöre, hilflos zu sein, oder? Aber das ist ein Gespräch für eine ferne Zukunft. Oh, und wenn du neu anfangen willst, musst du etwas ganz Besonderes machen.... Oder....
+		08.do.20^		Но?|Oder?
+
+	08.do.20@40@Но если тебя устраивает то, как у нас всё сейчас, то я тоже не против. Мне нравятся наши с тобой игры. В общем, решать тебе... Я готова дать тебе шанс.|Oder wir können so weitermachen, wie bisher, so oder so ist es mir recht. Ich genieße unsere Spiele. Es ist deine Entscheidung. Ich bin bereit, dir eine Chance zu geben, wenn du sie nutzen willst.
+		leave!set_poss.sed_43!set_liza.thc_4!set_dcd.crazy_4!set_dcd.romt_3^			Спасибо, сестрёнка!|Danke, Schwester!
+
+
+
+# --- 0.8: Ночной эвент, где Лиза пристёгивает Макса к кровати (если Макс не проявлял интереса к Лизе в течение 3 дней например)
+
+	08.dp.0@43@y-ne-1@А ты крепко спишь, Макс... Я думала, проснёшься раньше времени...|Du schläfst tief, Max. Ich hatte erwartet, dass du früher aufwachst.
+		08.dp.1^		Что происходит?|Was ist hier los?
+
+	08.dp.1@41@y-ne-2@Ну... Я решила, что ты тоже любишь поиграть. Ты же любишь? Подсказываю: правильный ответ "да". Иначе будешь спать в наручниках...|Ich denke, du würdest gerne spielen. Du <i>willst</i> doch spielen, oder? Es gibt einen Hinweis: Sag "Ja" oder du schläfst für den Rest der Nacht in Handschellen.
+		08.dp.2^		Ну... Да, люблю... поиграть...|Oh.... ich.... will...
+
+	08.dp.2@43@y-ne-3@А чего так неуверенно? Да расслабься! Я просто заметила, что ты давно мной не интересовался... Ну, ты понимаешь... Вот я и решила тебе напомнить о себе...|Das war nicht sehr überzeugend.... Entspann dich, Max, ich habe bemerkt, dass wir seit einiger Zeit nicht mehr gespielt haben, und ich habe beschlossen, dich an mich zu erinnern.
+		08.dp.3^		И что ты будешь делать?|Und was willst du tun?
+
+	08.dp.3@48@y-ne-4@Ну не знаю, Макс... Может быть, поласкать тебя или же сесть на твой член своей попкой... Надо подумать...|Ich weiß nicht, Max. Vielleicht gefällt es mir, oder ich stecke deinen Schwanz in meinen Arsch.... Lass mich nachdenken....
+		08.dp.4^		Ого...|Wow!
+
+	08.dp.4@43@y-ne-5@Похоже, тебе нравятся такие фантазии... А чего же тогда со мной ничего не делаешь, раз нравится? Придётся тебя подразнить немного... Или же остановиться?|Du magst also meine Ideen, huh.... Warum machst du dann nichts mit mir? Soll ich dich ein bisschen ärgern?
+		08.dp.5^		Продолжай!|Bitte mach weiter!
+
+	08.dp.5@4@y-ne-6@<i>Так здорово, что сестрёнка уже ощущает нехватку секса и вот... таким образом пытается меня собой заинтересовать... Ох, как быстро она работает своими нежными ручками...</i>|<i>Meine Schwester ist so vom Sex besessen, dass sie tatsächlich die Initiative ergreift! Sie ist so gut mit ihren sanften Händen....</i>
+		08.dp.6^		<i>кончить!</i>|<i>spritzen!</i>
+
+	08.dp.6@43@y-ne-7@Ого, как много спермы... А чего в себе так долго держал? Мог бы и раньше поделиться со своей сестрёнкой... Жадина! Надеюсь, тебе понравилось...|So viel Sperma.... Warum hast du es so lange drin gelassen? Du hättest mit deiner Schwester teilen können.... Ich hoffe, es hat dir gefallen.
+		08.dp.7^		О-очень...|Sehr gut
+
+	08.dp.7@41@y-ne-8@Ну, я рада. Ладно, я спать. А ты лежи и думай над своим поведением...|Freut mich das zu hören. Und du kannst lügen und über dein Verhalten nachdenken.
+		08.dp.8^		Что? А наручники?!|Was ist mit den Handschellen?
+		08.dp.8^		Лиза! Освободи меня!|Nimm mir die Handschellen ab, Lisa!
+
+	08.dp.8@43@Ну... Ладно. Я сегодня добрая, как ты уже мог заметить... Так что, на этот раз освобожу. И даже сотру с тебя всё лишнее тряпочкой... Вот такая я добрая! Но про меня больше не забывай, хорошо?|Hm.... Gut. Ich bin heute gut gelaunt, wie du vielleicht bemerkt hast. Diesmal lasse ich dich frei. Ich werde dich sogar säubern. Siehst du, wie nett ich bin? Vergiss mich nicht mehr, okay?
+		08.dp.9^		Хорошо!|Okay!
+
+	08.dp.9@41@y-ls-1@Ну всё, надеюсь, ты всё понял. А я что-то устала и уже засыпаю...|Okay, ich hoffe, du hast deine Lektion gelernt. Ich bin müde und will schlafen.
+		leave!set_dcd.crazy_6!max_cam.0.grow_250^			<i>спать до утра</i>|<i>bis zum Morgen schlafen</i>
+
+
+
+# --- 0.8: Макс приходит к Алисе с целью её наказать
+
+	08.ea.0.init@0@Догадываешься, зачем я пришёл?|Rate mal, warum ich hier bin.
+	08.ea.0@22@y-pa-1@Догадываюсь? Да у тебя по довольной физиономии всё видно. Нашёл повод поглазеть на мою попку?|Das muss ich nicht, ich kann alles in deiner Visage sehen. Wolltest du meinen Arsch anstarren?
+		08.ea.1!set_spun.alisa_0^		Почему поглазеть? Ещё и потрогать!|Nicht nur starren!
+
+	08.ea.1@23@Ладно, что мне делать?|Gut, was soll ich tun?
+		08.ea.2^		Раздевайся, конечно!|Auszeihen, Natürlich!
+
+	08.ea.2@22@Макс! Здесь нет других зрителей, зачем мне раздеваться?|Warum muss ich das tun, es ist niemand hier.
+		08.ea.3^		Для меня, конечно! Быстро!|Ich bin hier! Zieh dich jetzt aus!
+
+	08.ea.3@21@y-pa-2@Ну что, доволен? Давай уже быстрее, а то такое чувство, что это не я наказана, а тебе какая-то награда...|Bist du jetzt zufrieden? Komm schon, ich fühle mich, als wäre es deine Belohnung, nicht meine Strafe.
+		08.ea.4^		Может быть... Вставай к столу!|Vielleicht. Gehe zum Tisch
+
+	08.ea.4@25@y-pa-3@Макс, хватит заглядывать куда не надо. Давай сделаем это быстро!|Hör auf zu starren, wo du nicht hingucken sollst. Und zwar schnell.
+		08.ea.5^		Ну, раз просишь...|Da du nett gefragt hast....
+
+	08.ea.5@4@y-pa-4@<i>Ох, как мне нравится эта "работа", так сказать... На законных основаниях голую старшую сестру можно трогать и шлёпать! Точнее, это одно и то же. Просто лапать, видимо, не даст... Или даст?</i>|<i>Ich liebe das. Ich kann meine Schwester anfassen und versohlen, soviel ich will! Ich frage mich, ob ich sie anfassen kann oder ob sie damit ein Problem hat....</i>
+		08.ea.6^				<i>закончить</i>|<i>beenden</i>
+		atouch<3&08.ea.7^		<i>лапать сестрёнку</i>|<i>Schwester betatschen</i>
+		atouch>2&08.ea.9^		<i>лапать сестрёнку</i>|<i>Schwester betatschen</i>
+
+	08.ea.6@22@y-pa-7@Ну всё, хватит! Ого... Похоже кто-то тут у нас перевозбудился? Так и знала, что ты это делаешь для своего извращённого удовольствия... Ну всё, вали отсюда, мне нужно одеться. А ты душ холодный прими, что ли...|Okay, das reicht. Wow, sieht aus, als wäre jemand aufgeregt. Ich wusste, dass du das nur für dich selbst tust. Okay, raus hier, ich muss mich anziehen. Geh duschen oder so.
+		leave!max_cam.1.grow_200!time^			Ага...|Ja ja
+
+	08.ea.7@23@y-pa-5@Что... Что ты делаешь, Макс? А ну-ка быстро прекрати!|Was machst du da, Max? Hör sofort auf damit!
+		08.ea.8!add_atouch_1!add_alisa.mood_-150^		Упс...|Oops!
+
+	08.ea.8@28@y-pa-7@Макс! Ещё раз сделаешь что-то подобное и я тебе по шарам напинаю. Ты меня понял? Всё, мы закончили! А если сейчас будешь возмущаться, то всё маме расскажу!|Max, wenn du das noch mal versuchst, trete ich dir in die Eier. Das reicht jetzt! Und wenn du irgendwelche Probleme hast, können wir Mom nach ihrer Meinung fragen.
+		leave!max_cam.1.grow_200!time^			Ладно, ладно...|Schön, schön
+
+	08.ea.9@23@y-pa-5@Макс, ну что ты делаешь... Ты же хотел меня наказать?|Was machst du da, Max? Wolltest du mich nicht bestrafen?
+		08.ea.10^		Это как раз оно, наказание!|Das ist es, was ich gerade tue!
+
+	08.ea.10@21@y-pa-6@Макс, твои руки явно не тем заняты...|Fühlt sich nicht danach an.
+		08.ea.11^		Мне продолжить тебя шлёпать?|Bevorzugst du den Arsch zu versohlen?
+
+	08.ea.11@22@Нет, не надо... Так конечно приятнее, но... Это будет считаться за наказание?|Nein, tue ich nicht. Das fühlt sich viel besser an, aber.... Zählt das als Strafe?
+		08.ea.12^		Да, но я не закончил ещё...|Ja, aber ich bin noch nicht fertig.
+
+	08.ea.12@25@y-pa-7@Так, Макс, ты явно слишком увлёкся... Давай в следующий раз ты как-то иначе меня накажешь, хорошо? Только маме ничего не говори, а то обоих выпорет!|Okay, Max, das reicht. Kannst du mich nächstes Mal nicht anders bestrafen? Aber sag es nicht Mom, sonst versohlt sie uns beide.
+		leave!max_cam.1.grow_200!time^			Ну, хорошо...|Okay
+
+
+
+# --- 0.8: Ответвления в различных эвентах для наказания Алисы
+
+	08.eac.0@22@p-blog-5@Наказать? Может, не надо, Макс?|Können wir es diesmal nicht auslassen?
+		08.ea.4!set_spun.alisa_0^		Вставай к столу!|Geh zum Tisch
+
+	08.aeb.0@22@p-blog-5@Наказать? Может, не надо, Макс? И как именно ты меня наказывать собрался?|Können wir es diesmal nicht auslassen? Wie willst du mich bestrafen?
+		08.eb.2!set_spun.alisa_0^		А ты как хочешь?|Wie willst du es haben?
+
+	08.ead.0@22@Наказать? Может, не надо, Макс?|Können wir es diesmal nicht auslassen?
+		08.ea.2!set_spun.alisa_0^		Надо, А?иса, надо... Раздевайся!|Nee. Du kannst dich jetzt sofort ausziehen.
+	08.eae.0@22@Наказать? Может, не надо, Макс?|Können wir es diesmal nicht auslassen?
+		08.eb.1!set_spun.alisa_0^		Надо, Алиса, надо... Раздевайся!|Nee. Du kannst dich jetzt sofort ausziehen.
+
+	08.eah.0@22@y-pa-1@Наказать? Может, не надо, Макс?|Können wir es diesmal nicht auslassen?
+		08.ea.2!set_spun.alisa_0^		Надо, Алиса, надо... Раздевайся!|Nee. Du kannst dich jetzt sofort ausziehen.
+
+	08.eai.0@22@y-pa-1@Наказать? Может, не надо, Макс?|Können wir es diesmal nicht auslassen?
+		08.eb.1!set_spun.alisa_0^		Надо, Алиса, надо... Раздевайся!|Nee. Du kannst dich jetzt sofort ausziehen.
+
+	08.eak.0@21@Макс, а это не может подождать? Я тут как бы пытаюсь отдохнуть...|Müssen wir es jetzt tun? Ich bin hier beschäftigt....
+		08.eak.1!set_spun.alisa_0!move_sisroom^		Потом отдохнёшь. Пойдём в твою комнату!|Du kannst dein Ding später machen, lass uns in mein Zimmer gehen.
+
+	08.eak.1@23@y-pa-1@Ладно, что мне делать?|Gut, was soll ich tun?
+		atouch<3&08.ea.2^				Раздевайся, конечно!|Ausziehen, Natürlich!
+		atouch>2&08.eb.1^				Раздевайся, конечно!|Ausziehen, Natürlich!
+
+
+
+# --- 0.8: Универсальное наказание для Алисы
+
+	08.eb.0.init@0@Пришло время тебя наказать...|Bestrafungszeit!
+	08.eb.0@22@y-pa-1@Наказать? Может, не надо, Макс?|Können wir es diesmal nicht auslassen?
+		adom=0&08.eb.1!set_spun.alisa_0^		Надо, Алиса, надо... Раздевайся!|Nee. Du kannst dich jetzt sofort ausziehen.
+		adom=1&11.ca.0!set_spun.alisa_0^		Надо, Алиса, надо... Раздевайся!|Nee. Du kannst dich jetzt sofort ausziehen.
+		adom>1&11.ca.4!set_spun.alisa_0^		Надо, Алиса, надо... Раздевайся!|Nee. Du kannst dich jetzt sofort ausziehen.
+
+	08.eb.1@21@y-pa-2@И как именно ты меня наказывать собрался?|Wie willst du mich bestrafen?
+		08.eb.2^		А ты как хочешь?|Wie willst du es haben?
+
+	08.eb.2@23@y-pa-2@Ну так, чтобы не больно...|Etwas schmerzloses....
+		08.eb.6^		Тогда у меня есть один вариант...|Dann habe ich eine Option für dich....
+		08.eb.3^		Нет, я тебя отшлёпаю!|Nein, ich versohl dir den Arsch.
+
+	08.eb.3@22@y-pa-3@Блин, Макс, ты какой-то извращенец что ли? Я тебе предложила альтернативу, а ты... Ладно, только не сильно, хорошо?|Komm schon, Max, was für ein Perverser bist du? Ich gebe dir eine Chance, aber du.... Gut, aber nicht zu hart, okay?
+		08.eb.4^		Как получится...|Wir werden sehen.
+
+	08.eb.4@26@y-pa-4@Ой... Больно же! Лучше бы мама меня наказала... Было бы лучше...|Au.... Es tut weh! Warum konnte Mom mich nicht bestrafen?
+		08.eb.5^		Не жалуйся!|Hör auf, dich zu beschweren!
+
+	08.eb.5@21@y-pa-2@Ну всё, хватит. И так сидеть не смогу нормально. Надеюсь, ты доволен, Макс... Нет, чтобы выбрать другой вариант, а ты...|Okay, das reicht. Ich werde eine Woche nicht sitzen können. Ich hoffe, du bist glücklich, Max. Warum konntest du nicht eine andere Option wählen....
+		leave!max_cam.1.grow_200!time^			Мы закончили|Wir sind fertig
+
+	08.eb.6@25@y-pa-7@Ага, по тебе уже видно... твой вариант... Снимай шорты, раз решил меня... наказать таким образом...|Ja, ich kann mir vorstellen, dass deine Option gerade auftaucht. Dann zieh deine Hose aus.
+		08.eb.7^		Конечно! <i>(снять шорты)</i>|Sicher! <i>(Hosen ausziehen)</i>
+
+	08.eb.7@21@y-pa-11@Только не вздумай меня шлёпать, а то я и сама могу кое-кого наказать...|Aber denk nicht mal daran, mich zu verprügeln!
+		08.eb.8^		Хватит разговоров, поворачивайся!|Hör auf zu reden und dreh dich um.
+
+	08.eb.8@22@y-pa-8@Макс... Только не весь сразу, а то меня порвёшь... И только не в попку!|Fang langsam an, Max, ich will nicht, dass du mich in zwei Hälften reißt. Und denk nicht mal an meinen Arsch!
+		08.eb.9^		Не жалуйся! Это же наказание!|Hör auf zu jammern, das ist eine Strafe!
+
+	08.eb.9@25@y-pa-9@Тогда... Накажи меня... Да... так... Глубже... Быстрее!|Dann.... bestrafe mich.... Ja.... so wie das hier.... Tiefer.... Schneller!
+		08.eb.10^		<i>ускориться</i>|<i>werde schneller</i>
+
+	08.eb.10@4@<i>Я начинаю думать, что если бы я не подставил её, то она сама напросилась бы... на такие наказания, так сказать... Ох... Что-то я сегодня переволновался...</i>|<i>Ich fange an zu denken, wenn ich sie nicht reingelegt hätte, würde sie mich selbst bespringen.... Das ist unglaublich.</i>
+		08.eb.11^		<i>кончить на её попку</i>|<i>spritze auf ihren Arsch</i>
+
+	08.eb.11@22@y-pa-10@Спасибо... Макс... Что ты меня наказал таким образом... Теперь я всё поняла и буду послушной девочкой... Ну, пока не захочется ещё наказания...|Danke, Max. Für die Bestrafung. Ich habe meine Lektion gelernt und werde mich von meiner besten Seite zeigen.... Bis ich eine weitere Strafe will, also....
+		08.eb.12^		Ого...|Wow!
+
+	08.eb.12@21@y-pa-11@Маме скажешь, что наказал меня очень сильно и мне было очень стыдно, понял? А то вдруг она что-то заподозрит... А мне твои наказания нравятся больше, чем её...|Sag Mom, dass du mich bestraft hast und ich mich sehr geschämt habe, okay? Ich will nicht, dass sie misstrauisch wird. Ich mag deine Strafen mehr als ihre.
+		leave!max_cam.1.grow_300!time^			Ага, мне тоже...|Ich auch
+
+
+
+# --- 0.8: Макс приходит наказывать Алису при Кате
+
+	08.ec.0@155@p-ak-3@Макс, чего хотел? Мы тут отдыхаем...|Was willst du, Max?
+		adom=0&08.ec.1!set_spun.alisa_0!add_dcd.glz_1^		Я по делу. Кое-кто заслужил наказание...|Jemand verdient eine Strafe.
+		adom=1&11.cb.0!set_spun.alisa_0!add_dcd.glz_1^		Я по делу. Кое-кто заслужил наказание...|Jemand verdient eine Strafe.
+		adom>1&11.cb.3!set_spun.alisa_0!add_dcd.glz_1^		Я по делу. Кое-кто заслужил наказание...|Jemand verdient eine Strafe.
+
+	08.ec.1@152@Ой, Алиска, ты попала... Прикольно. Ну, если что, я останусь понаблюдать. Не хочу пропустить такую сцену...|Oh, du steckst jetzt in Schwierigkeiten, Alice.... Ich will zusehen, also bleibe ich. Das würde ich um nichts in der Welt verpassen....
+		08.ec.2^		Алиса, иди сюда!|Komm her, Alice.
+
+	08.ec.2@22@y-t-1@Блин, Макс, может не надо? Давай как-то договоримся? Скажешь маме, что уже наказал и все будут довольны...|Komm schon, Max, müssen wir das tun? Können wir nicht einfach einen Deal machen? Sag Mom, dass du mich bestraft hast und alle glücklich sind.
+		08.ec.3^		Раздевайся!|runter mit deinen Klamotten
+
+	08.ec.3@153@y-t-9@Ох, ну у вас и семейка! Я думала, что моя маман жжёт, а вы - так сюрприз за сюрпризом!|Wow, du hast eine lustige Familie! Und ich dachte, meine Mom ist seltsam. Du hast eine Überraschung nach der anderen!
+		08.ec.4^		<i>далее</i>|<i>fortfahren</i>
+
+	08.ec.4@21@y-t-8@Макс, может быть тебе хватит того, что на меня голую поглазел и заставил краснеть на глазах у Кати? Давай на этом закончим, а?|Denkst du nicht, mich vor Kate anzustarren ist Strafe genug? Es ist mir super peinlich und ich habe meine Lektion gelernt, versprochen!
+		08.ec.5^		Ложись на мои колени. Быстро!|Auf die Knie.
+
+	08.ec.5@152@y-t-11@Это я удачно выбрала зрительское место... Такой роскошный вид... Ой, мне показалось или Алисик перевозбудилась? Макс, похоже ей нравятся... твои ласки...|Was für ein Anblick.... So eine Aussicht! Hey, sieht aus, als wäre Alice nass! Ich glaube, sie mag deine Liebkosungen, Max.
+		08.ec.6^		<i>продолжить</i>|<i>fortfahren</i>
+
+	08.ec.6@153@y-t-10@Ну всё, Макс, хватит... Кажется, у меня тоже появились планы на эту попку, но наказывать её я буду немножко иначе... И не вздумай подглядывать!|Okay, Max, genug.... Ich habe auch ein paar Pläne für ihren Arsch, aber es wird eine andere Art von Bestrafung sein.... Und denk nicht mal dran, zu spannen!
+		08.ec.7^		<i>закончить</i>|<i>beenden</i>
+
+	08.ec.7@25@y-t-9@Слышал, Макс? Меня продолжат... наказывать, а твоя миссия выполнена. Можешь маме передать, что всё сделал, как положено, если спросит...|Du hast sie gehört, Max. Ich werde meine Strafe bekommen, Mission erfüllt. Du kannst Mom sagen, dass du gute Arbeit geleistet hast, wenn sie fragt.
+		leave!add_apkpun_1!max_cam.1.grow_250!time^			Ладно. Развлекайтесь...|Schön, viel Spaß
+
+
+
+# --- 0.8: Альтернативный эвент наказаний Алисы
+
+	08.ed.0@152@p-ak-2@Макс, ты по делу или?|Hey, Max, geschäftlich oder privat?
+		adom=0&08.ed.1!set_spun.alisa_0!add_dcd.glz_1^		Или. Кое-кто должен быть наказан...|Jemand hat sich eine Strafe verdient.
+		adom=1&11.cb.0!set_spun.alisa_0!add_dcd.glz_1^		Или. Кое-кто должен быть наказан...|Jemand hat sich eine Strafe verdient.
+		adom>1&11.cb.3!set_spun.alisa_0!add_dcd.glz_1^		Или. Кое-кто должен быть наказан...|Jemand hat sich eine Strafe verdient.
+
+	08.ed.1@159@Ой, Алиска, ты попала... Обожаю эти ваши семейные традиции! Кому рассказать - не поверят!|Oh, Alice, du bist jetzt in Schwierigkeiten! Ich liebe deine Familienmethoden!
+		08.ed.2^		Алиса, иди сюда!|Komm her, Alice.
+
+	08.ed.2@22@y-t-1@Блин, Макс, давай всё забудем, ты не будешь тратить на меня время и я... не пострадаю, а маме скажешь, что наказал меня, а?|Verdammt, Max, lass uns alles vergessen, du wirst keine Zeit mit mir verschwenden und ich... werde nicht leiden, und kannst du Mum nicht sagen, dass du mich bestraft hast?
+		08.ed.3^		Раздевайся!|Können wir nicht dieses eine Mal dein Gejammer überspringen?
+
+	08.ed.3@152@y-t-9@Слушай, Макс, у меня предложение... А давай сегодня ты накажешь Алиску иначе... Меня такие вещи особенно заводят... Конечно, если хочешь.|Ich habe einen Vorschlag, Max.... Wie wäre es, wenn du Alice heute anders bestrafst? Ich würde euch beiden gerne zusehen. Wenn du möchtest, heißt das.
+		08.ed.4^		Думаю, её надо отшлёпать...|Ich denke, sie muss versohlt werden.
+		08.ed.8^		И что ты предлагаешь?|Was schwebt dir vor?
+
+	08.ed.4@21@y-t-8@Макс, давай договоримся... Тебе понравится... И Кате тоже. Хотя, её заводит всё, что мы с тобой делаем вместе...|Ich bin sicher, es wird sich für dich lohnen, Max. Ich bin sicher, ihr beide werdet es lieben.
+		08.ed.5^		Ложись на мои колени!|Auf die Knie
+		08.ed.8^		Ну ладно, давай иначе...|Gut, lass uns etwas anderes machen.
+
+	08.ed.5@152@y-t-11@Ну, меня и такой вариант устроит. Особенно вид на эту роскошную попку радует... Только не шлёпай её слишком больно, она не очень это любит...|Nun, das ist auch für mich in Ordnung. Besonders diese Aussicht.... Aber versohlt sie nicht zu hart, das mag sie nicht.
+		08.ed.6^		<i>продолжить</i>|<i>fortfahren</i>
+
+	08.ed.6@22@y-t-10@Ну хватит, Макс... Я уже всё поняла и больше так не буду... Прекращай...|Okay, Max, das reicht jetzt. Ich habe meine Lektion gelernt, bla bla bla bla...
+		08.ed.7^		<i>закончить</i>|<i>beenden</i>
+
+	08.ed.7@23@y-t-9@Ну что, доволен? А если бы решил наказать как-то... иначе, то вообще все были бы довольны... А теперь вали отсюда, Катя будет меня утешать после такого... физического насилия...|Bist du jetzt glücklich? Du hättest.... mich anders bestrafen können und wir wären alle glücklich.... Jetzt verschwinde, Kate wird mich nach deinem gewalttätigen Angriff trösten.
+		leave!max_cam.1.grow_250!time^			Эх...|Oh...
+
+	08.ed.8@21@y-t-2@Ну и чего же ты ждёшь, Макс? Будешь дальше глазеть или трахнешь меня?|Worauf wartest du, Max? Starrst du mich an oder fickst du mich?
+		08.ed.9^		Ого...|Wow!
+
+	08.ed.9@159@y-t-3@Согласись, что это гораздо лучше, чем ладошками махать, а? Ну всё, я устроилась поудобнее, трахни уже свою сестрёнку... Да так, чтобы ей понравилось тоже...|Das ist so viel besser als Prügel, oder? Okay, Ich bin soweit, fick deine Schwester schon. Mach sie glücklich.
+		08.ed.10^		Меня уговаривать не надо!|Ich brauche keine Überzeugung!
+
+	08.ed.10@4@y-t-4@<i>Да уж, наказание... Хотя, судя по звукам, которые издаёт Алиса, со стороны может показаться, что её и правда... наказывают...</i>|<i>Ja, eine Bestrafung.... Ich schätze, wenn jemand ihr Stöhnen aus dem Zusammenhang gerissen hören würde, könnte er denken, dass sie bestraft wird.... Bin mir nicht sicher, ob es darauf ankommt.</i>
+		08.ed.11^		<i>продолжать</i>|<i>fortfahren</i>
+
+	08.ed.11@152@y-t-5@Я же не буду вас смущать, если тоже... поучаствую... по-своему...|Du hast doch nichts gegen mich.... wenn ich mehr als nur zuzusehe, oder?
+		08.ed.12^		Без проблем!|Kein Problem!
+
+	08.ed.12@4@y-t-6@<i>Вечер становится ещё лучше! Катя так перевозбудилась, что теперь ласкает себя, глядя на нас... И почему ей нравится, когда мы... Ох... Кажется, я сейчас...</i>|<i>Der Abend wird noch besser! Kate freut sich jetzt, während sie uns beobachtet.... Warum genießt sie uns beide so sehr....? Ich denke, ich werde....</i>
+		08.ed.13^		<i>кончить!</i>|<i>spritzen!</i>
+
+	08.ed.13@153@y-t-7@Ого, Макс... А у тебя отлично получается наказывать... Я сама чуть не кончила, наблюдая за вами. Похоже, Алиска получила тоже максимальное удовлетворение... точнее, наказание...|Wow, Max. Du bist ein großartiger Bestrafer. Ich bin fast gekommen, als ich euch beide beobachtet habe. Und ich denke, Alice hat ihren Orgasmus sicher gehabt.
+		08.ed.14^		Ну, я старался...|Ich geb mein bestes
+
+	08.ed.14@21@Ну всё, Макс, мы закончили. Спасибо, что... так меня наказал. Мне понравилось. Очень. А теперь тебе пора...|Okay, Max, wir sind fertig. Danke, dass du mich so gut bestraft hast. Ich habe es geliebt. Und jetzt geh.
+		leave!max_cam.1.grow_300!time^			Ага...|Ja ja
+

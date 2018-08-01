@@ -1,0 +1,753 @@
+# --- Шаблон ужина по умолчанию|Standard-Frühstück
+
+	dinner.default@0@z-dinner-family-1@<i>Шаблон ужина по умолчанию. Данный эвент пока отсутствует.</i>|<i>Die Probe des Abendessens ist standardmäßig. Dieses Ereignis ist noch nicht da.</i>
+		leave!time^						<i>Закончить</i>|<i>Fertig</i>
+
+
+
+# --- Ужин по-умолчанию в обычный день, без Эрика|Standard-Frühstück ohne Eric
+
+	dinner.default.family@60@z-dinner-family-1@Всем приятного аппетита. Сегодня что-то устала. Так что, давайте поужинаем в тишине...|Guten Appetit, Leute. Ich bin heute müde, lass uns leise essen.
+		dinner.default.family.ok^				Как скажешь, мам...|Okay, Mom
+		dinner.default.family.wtf^				У тебя всё хорошо?|Ist alles in Ordnung?
+
+	dinner.default.family.wtf@75@Да, всё в порядке, Макс. Спасибо, что спросил. Просто, за день столько всего, что пора бы уже и отдохнуть...|Alles in Ordnung, Max, danke der Nachfrage. Ich hatte einen anstrengenden Tag, das ist alles.
+		leave!time^								Понятно. Приятного аппетита!|Ich verstehe. Dann guten Appetit.
+
+	dinner.default.family.ok@75@Спасибо за понимание, Макс! Ну, приступим...|Danke für dein Verständnis, Max. Jetzt haut rein.
+		leave!time^								Приятного ап?етита!|Guten Appetit
+
+# --- Ужин по-умолчанию в обычный день, с Эриком|Standard-Abendessen mit Eric
+
+	dinner.default.eric@60@z-dinner-family-2@Всем добрый вечер и приятного аппетита!|Guten Abend allerseits und Guten Appetit.
+		leave!time^								Ага, приятного аппети?а!|Ja ja, Guten Appetit
+
+
+
+# --- Первый семейный ужин|Erstes Abendessen
+
+
+	dn.1@67@z-dinner-family-1@Я рада, что все смогли сегодня собраться. Всем приятного аппетита! Ну, у кого как день прошёл?|Ich bin froh, dass ihr euch heute zum Essen treffen konntet. Nun, wie war der Tag?
+		dn.1.next^								<i>далее</i>|<i>fortsetzen</i>
+		#leave!time^								<i>пропустить <b>(временно)</b></i>|<i>Überspringen <b>(vorübergehend)</b></i>
+
+	dn.1.next@20@Мам, да у нас всё как обычно. Это ты рассказывай, как первый рабочий день?|Mom, es geht uns gut, wie immer. Sag uns, wie war dein erster Tag?
+		dn.1.aboutjob.1^						<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.aboutjob.1@60@Вы знаете, довольно неплохо. Такой офис! Такие все важные. Но я смогу там работать и даже планирую подняться по карьерной лестнице...|Du weißt schon, ziemlich gut. So ein Büro! Jeder ist so wichtig. Aber ich kann dort arbeiten und vielleicht sogar befördert werden....
+		dn.1.aboutjob.2.whatyoudo^				Напомни, а кем ты работаешь?|Erinnere dich an deinen Titel?
+		dn.1.aboutjob.2.where^					А где находится твой офис?|Wo befindet sich das Büro?
+
+	dn.1.aboutjob.2.whatyoudo@62@Что, Макс, с памятью проблемы? Может быть, попросить врача выписать тебе витамины? Я работаю в отделе развития, занимаюсь маркетингом.|Hast du irgendwelche Probleme mit dem Gedächtnis, Max? Vielleicht sollten wir einen Arzt aufsuchen? Ich arbeite in der Entwicklungsabteilung und mache Marketing-Kram.
+		dn.1.aboutjob.3.great^					Точно. Ну, поздравляю!|Richtig. Also, meine Glückwünsche!
+		dn.1.aboutjob.3.boss^					А с начальником повезло?|Hast du einen guten Manager?
+
+	dn.1.aboutjob.2.where@69@Вот с этим беда. На общественном транспорте добираться долго. Но думаю, что эта проблема решится...|Es ist ein Problem. Mit den öffentlichen Verkehrsmitteln dauert es zu lange. Aber ich hoffe, ich werde dieses Problem lösen....
+		dn.1.aboutjob.3.great^					Поздравляю!|Herzlichen Glückwunsch!
+		dn.1.aboutjob.3.boss^					А с начальником повезло?|Hast du einen guten Manager?
+
+	dn.1.aboutjob.3.great@67@Спасибо, Макс. Вы всё вопросы задаёте. Поели бы, хоть немного. Кстати, молодец Алиса, что приготовила ужин. Сама я бы ещё долго возилась.|Danke, Max. Du stellst immer noch Fragen. Versuch, etwas zu essen. In der Zwischenzeit bedankt sich Alice für das Abendessen. Ich würde noch lange herumfummeln.
+		dn.1.aboutcook^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.aboutcook@31@Не за что. Ты же сама меня научила всему, вот и пожинай плоды! Слушай, ну а кто у тебя начальник на работе?|Es ist mir ein Vergnügen. Du hast mir alles beigebracht, ernte die Belohnung! Hey, nun, wer ist dein Manager bei der Arbeit?
+		dn.1.aboutjob.3.boss^					<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.aboutjob.3.boss@69@Ну мой непосредственный начальник - лысый толстый мужик, которого все ненавидят. Думаю, его скоро сменят. А вот босс моего начальника...|Nun, mein direkter Manager - ein glatzköpfiger, fetter Mann, den jeder hasst. Ich denke, es wird sich bald ändern. Aber der Manager meines Managers....
+		dn.1.aboutjob.4.boss^					А что с ним?|Was ist mit ihm los?
+		dn.1.aboutjob.4.boss^					Ещё толще и лысее?|Noch dicker und kahler?
+
+	dn.1.aboutjob.4.boss@62@Вот он - мужчина что надо! Сразу меня заметил, помог разобраться в делах. И даже до дома подвёз! Может быть, он мне даже личного водителя выделит!|Hier ist er - der echte Mann! Er bemerkte mich sofort, half bei der Lösung der Aufgaben. Er nimmt mich sogar mit nach Hause! Er sagte, dass mir vielleicht ein persönlicher Fahrer zugeteilt wird!
+		dn.1.aboutjob.5.wow^					Ого! Да он в тебя влюбился?|Wow! Sieht aus, als hättest du dich verliebt!
+		dn.1.aboutjob.boss.name^				И как его зовут?|Also, wie ist sein Name?
+		dn.1.aboutjob.5.bad^					Мне кажется, это плохая идея|Ich denke, es ist eine schlechte Idee.
+
+	dn.1.aboutjob.5.bad@41@Макс! Мама давно ни с кем не общалась и если нашла себе босса начальника, то какой от этого может быть вред?|Max! Mama hat schon lange nicht mehr mit Menschen kommuniziert und wenn sie einen Manager ihres Managers zum Reden gefunden hat, wie kann das schädlich sein?
+		dn.1.aboutjob.5.bad.fired^				А вред такой, что если поссорится, её уволят!|Der Schaden ist so groß, dass, wenn sie sich streiten, sie gefeuert wird!
+		dn.1.aboutjob.5.bad.right^				Может, ты и права...|Vielleicht hast du Recht....
+
+	dn.1.aboutjob.5.bad.fired@48@Мне кажется, что если ссориться со своим боссом, то так и так могут уволить...|Ich schätze, wenn Sie mit Ihrem Manager streitet, wird man Sie sowieso feuern....
+		dn.1.aboutjob.5.bad.right^				Тоже верно...|Es ist auch die Wahrheit....
+
+	dn.1.aboutjob.5.bad.right@43@Мам, похоже и он тебе нравится, да?|Mom, sieht so aus, als ob du ihn magst, oder?
+		dn.1.aboutjob.5.wow.yes ja^				<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.aboutjob.5.wow@60@Почему сразу влюбился? Может быть, он джентльмен, который помогает новенькой на новом месте работы...|Warum ist er sofort verliebt? Vielleicht ist er ein Gentleman, der Neulingen am ersten Tag hilft....
+		dn.1.aboutjob.5.wow.yes ja^				Да, точно! А может быть, и он тебе нравится?|Ja ja, richtig. Und vielleicht magst du ihn auch?
+		dn.1.aboutjob.boss.name^				И как его зовут?|Also, wie ist sein Name?
+
+	dn.1.aboutjob.boss.name@67@Его зовут Эрик. Фамилия вам ничего не даст, так что, это не важно. Может быть, я вас однажды и познакомлю...|Sein Name ist Eric. Vielleicht stelle ich ihn dir mal vor....
+		dn.1.aboutjob.5.wow.yes ja^				Значит, он тебе нравится...|Du magst ihn also....
+
+	dn.1.aboutjob.5.wow.yes ja@73@Я уже сказала, что он симпатичный молодой парень и это нормально... Или не сказала? Не важно. Хватит меня допрашивать, всё остывает!|Ich habe schon gesagt, dass er ein süßer junger Mann ist und das ist ziemlich normal.... oder nicht? Das spielt keine Rolle. Genug, um mich zu verhören, alles kühlt sich ab!
+		dn.1.changetheme^						<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.changetheme@67@Сегодня не у меня одной первый день. Лиза тоже пошла в новую школу. Рассказывай, как у тебя всё прошло?|Heute ist nicht nur für mich ein besonderer Tag. Lisa hat eine neue Schule besucht! Sagen Sie uns, wie es war?
+		dn.1.school.1^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.school.1@48@Ну, школа находится тут совсем рядом, почти за углом. Уроки короткие, занятий мало. Но преподают интересно, гораздо лучше, чем в старой школе. Думаю, здесь даже Максу понравилось бы учиться!|Nun, die Schule ist ganz in der Nähe, fast um die Ecke. Der Unterricht ist kurz, wenig Training. Aber der Unterricht ist interessant, viel besser als in der alten Schule. Ich denke, sogar Max hätte es gerne gelernt!
+		dn.1.school.2^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.school.2@67@Ну а ученики какие? Повезло с классом? Уже завела себе друзей и подруг?|Was ist mit deinen Klassenkameraden? Sind sie gut? Hast du schon Freunde?
+		dn.1.school.3^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.school.3@41@Да, познакомилась... с одной подружкой. Класс супер, всё хорошо, мам!|Ja ja, ein.... nettes Mädchen kennenlernen. Der Unterricht ist fantastisch, alles toll, Mom!
+		talk.boy>0&dn.1.school.4.alex!set_talk.boy_3^				Ага, а подружку зовут Алекс...|Ja ja, Mädchenname ist Alex
+		talk.boy=0&dn.1.school.4.girlfriend!set_talk.boy_4^			Что за подружка?|Mädchen? Erzähl mir mehr darüber.
+		talk.boy>0&dn.1.school.4.girlfriend!set_talk.boy_5^			Что за подружка? <i>(подмигнуть)</i>|Was für ein Freund? <i>(zwinker)</i>
+
+	dn.1.school.4.girlfriend@40@Ой, да обычная подружка...|Oh, ein gewöhnliches Mädchen....
+		dn.1.school.5.who^						<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.school.5.who@26@Кажется, у кого-то секреты...|Es scheint, dass jemand Geheimnisse hat....
+		dn.1.school.6.secrets^					<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.school.6.secrets@46@Ну что вы, в самом деле. Ну да, с парнем познакомилась. Зовут Алекс. Учимся вместе, сидим рядом!|Oh Gott, komm schon. Nun, ja, sie hat einen Kerl getroffen. Sein Name ist Alex. Sie lernen zusammen, sitzen Seite an Seite!
+		dn.1.school.7^							Так бы сразу и сказала!|Das hättest du von Anfang an sagen sollen!
+
+	dn.1.school.4.alex@42@Макс! Я же тебе по секрету рассказала...|Max! Ich habe dir ein Geheimnis verraten....
+		dn.1.school.5.ops^						Ой, извини. Я думал, у нас нет секретов...|Oh, Entschuldigung. Ich dachte, wir hätten keine Geheimnisse....
+		dn.1.school.5.ops^						А ты не сказала, что это секрет...|Und du hast nicht gesagt, dass es ein Geheimnis ist....
+
+	dn.1.school.5.ops@40@Не удивляйся потом, если твои секреты тоже окажутся... не секретами.|Wundere dich nicht, wenn deine Geheimnisse auch keine Geheimnisse sind.
+		dn.1.school.5.ops.so^					<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.school.5.ops.so@67@Лиза, так что там за подружка по имени Алекс?|Lisa, was ist mit einem Freund namens Alex?
+		dn.1.school.6.secrets^					<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.school.7@46@А я так и сказала! Всё. Больше ничего не спрашивайте!|Und ich habe es gesagt! Ich habe alles gesagt. Fragt nicht mehr!
+		dn.1.end.1^								<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.end.1@60@Извини, Лиза, я же не знала. Я вот тоже познакомилась с Эриком в первый же день. Не мне тебя судить!|Tut mir leid, Lisa, ich weiß es nicht. Ich habe mich auch am ersten Tag mit Eric getroffen. Ich kann dich nicht verurteilen!
+		dn.1.end.2^								<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.end.2@41@Да всё в порядке, мам. Просто, мы только познакомились, поболтали и улыбнулись друг другу, а всё выглядит так, как будто у меня уже есть парень...|Ja, alles in Ordnung, Mom. Wir haben uns einfach nur getroffen, geplaudert und gelächelt, und es sieht so aus, als hätte ich schon einen Freund....
+		dn.1.end.3^								<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.end.3@67@Тоже верно... Так, ладно. Спасибо всем за ужин. Лиза, сейчас как раз твоя очередь мыть посуду?|Zu wahr.... Also, okay. Ich danke euch allen für das Abendessen. Lisa, bist du mit dem Abwasch dran?
+		dn.1.end.4^								<i>далее</i>|<i>fortsetzen</i>
+
+	dn.1.end.4@48@Да, мам. Но если мне кто-то поможет... Например, Макс, то я не откажусь...|Ja, Mom. Ich brauche Hilfe.... Von Max zum Beispiel....
+		dn.1.end.5^								Может быть...|Vielleicht...
+
+	dn.1.end.5@71@Ладно, разбирайтесь сами. А я собираюсь принять ванну. Так что, не беспокоить!|Nun, dann klär das selbst. Und ich werde ein Bad nehmen. Also, stören Sie mich nicht!
+		leave!time^								Хорошо, мам!|Okay, Mom
+
+
+
+# --- Второй ужин|Zweites Abendessen
+
+	dn.2@71@z-dinner-family-1@Всем приятного аппетита. У кого какие новости? Рассказывайте...|Guten Appetit, alle. Hat jemand Neuigkeiten?
+		dn.2.next.1^										У меня всё как всегда|Keine Nachrichten von mir
+
+	dn.2.next.1@33@Ещё бы. Ты же дома всё время сидишь...|Wie immer. Du verlässt nicht mal das Haus.
+		dn.2.next.2^										А ты прямо уработалась, да?|Du bist einer, der redet.
+		dn.2.next.2^										А ты чем занимаешься?|Und was hast du heute gemacht?
+
+	dn.2.next.2@21@А я своим блогом занимаюсь. Вечерами. Иногда. Когда есть возможность...|Ich arbeite an meinem Blog. Abends. Nun, manchmal, wenn ich kann....
+		dn.2.next.3^											Всё с тобой ясно...|Ich verstehe
+
+	dn.2.next.3@48@Возможность? А что такое?|Wenn du kannst? Was meinst du damit?
+		dn.2.next.4^											<i>далее</i>|<i>fortsetzen</i>
+
+	dn.2.next.4@23@Лиза, я же тебе говорила, что в тех вещах, что пропали, были все мои кремы, лаки, про которые я и вела свой бьюти-блог...|Habe ich es dir nicht gesagt, Lisa? Ich habe all meine Sachen verloren, die ich für meinen Beauty-Blog brauche, als wir umgezogen sind.
+		dn.2.next.5^											<i>далее</i>|<i>fortsetzen</i>
+
+	dn.2.next.5@46@Ой, точно. Извини, я совсем забыла про это. Да, сочувствую...|Oh, richtig, tut mir leid, ich vergaß. Mein Beileid....
+		dn.2.next.6^											<i>далее</i>|<i>fortsetzen</i>
+
+	dn.2.next.6@62@Бьюти-блог... Эх, Алиса, лучше бы делом занялась! Тебе поступать пора, а ты воздух пинаешь. Сидела бы и готовилась!|Schönheit Blog.... Du solltest stattdessen etwas Nützliches tun, Alice. Du könntest dich jetzt an den Universitäten bewerben.
+		dn.2.next.7a^										А на что она будет поступать?|Wo sollte sie sich bewerben?
+		dn.2.next.7b^										Да ей лень!|Sie ist zu faul dafür.
+
+	dn.2.next.7b@21@И ничего мне не лень. Просто, у нас денег нет для того, чтобы поступать...|Ich bin nicht faul, wir können uns einfach keine Universität leisten.
+		dn.2.next.7b.next^									<i>далее</i>|<i>fortsetzen</i>
+
+	dn.2.next.7b.next@60@Ну ты знаешь, иногда можно поступить и без денег, было бы желание. Одарённым детям ещё и стипендию доплачивают...|Es gibt einige Stipendien für die begabten Kinder, die ihr die Möglichkeit geben würden, eine höhere Ausbildung zu erhalten, ohne viel zu bezahlen.
+		dn.2.next.7a.who^									Это кто одарённый? Алиса?|"Für die begabten Kinder" ist der entscheidende Teil.
+		dn.2.next.7a.she^									Ну да, ей уже сейчас должны платить за то, что она такая звезда!|Ja, ja, richtig. Sie hat eine höhere Chance, ein Stipendium als Bloggerin zu bekommen!
+		dn.2.next.7a.wtf^									А при чём тут Алиса?|Was hat das mit Alice zu tun?
+
+	dn.2.next.7a@69@Ну, я не знаю. Денег лишних у нас нет, но одарённые дети точно могут учиться бесплатно. Им ещё и стипендию доплачивают...|Ich weiß es nicht. Wir haben nicht viel Geld, aber Vielleicht könnte sie ein Stipendium für die begabten Kinder bekommen....
+		dn.2.next.7a.who^									Это кто одарённый? Алиса?|"Für die begabten Kinder" ist der entscheidende Teil.
+		dn.2.next.7a.she^									Ну да, ей уже сейчас должны платить за то, что она такая звезда!|Ja, ja, richtig. Sie hat eine höhere Chance, ein Stipendium als Bloggerin zu bekommen!
+		dn.2.next.7a.wtf^									А при чём тут Алиса?|Was hat das mit Alice zu tun?
+
+	dn.2.next.7a.who@21@Да уж одарённее некоторых... У меня хотя бы блог есть. Кстати, на блогах можно заработать больше, чем на работе после нескольких лет учёбы!|Ich bin immer noch besser als jemand.... Wenigstens habe ich einen Blog. Übrigens, ich könnte mit meinem Blog mehr Geld verdienen als mit einem Job, selbst mit einem Abschluss!
+		dn.2.next.8a^										Так чего жы ты такая бедная?|Warum bist du dann so arm?
+		dn.2.next.8b^										И какой план?|Was ist dann der Plan?
+
+	dn.2.next.7a.she@33@Да, звезда. И я бы не отказалась от лишних денег. А если серьёзно, то на блогах можно заработать больше, чем на работе после нескольких лет учёбы!|Wäre das nicht schön.... Jedenfalls könnte ich mit meinem Blog mehr Geld verdienen als mit einem Job, selbst mit einem Abschluss!
+		dn.2.next.8a^										Так чего жы ты такая бедная?|Warum bist du dann so arm?
+		dn.2.next.8b^										И какой план?|Was ist der Plan?
+
+	dn.2.next.7a.wtf@21@Очень смешно, Макс. А если серьёзно, то на блогах можно заработать больше, чем на работе после нескольких лет учёбы!|Sehr witzig, Max. Ernsthaft, ich könnte auf meinem Blog mehr Geld verdienen als auf einem Job, sogar mit einem Abschluss!
+		dn.2.next.8a^										Так чего жы ты такая бедная?|Warum bist du dann so arm?
+		dn.2.next.8b^										И какой план?|Was ist dann der Plan?
+
+	dn.2.next.8a@23@Для тупых повторяю - у меня всё украли! Так что меня не трогать, я думаю и строю план!|Bist du buchstäblich behindert, Max? Ich. Verloren. Alle. Meine Güte. Zeug. Für. Meine Güte. Blog. Also kann ich jetzt nicht an meinem Blog arbeiten und habe einen neuen Plan für die Zukunft gemacht!
+		talk.blog=2&dn.2.next.already^						Ну как построишь, позови!|Okay, sag mir, wann du dir etwas einfallen lässt.
+		talk.blog<2&dn.2.next.9a^							Ну как построишь, позови!|Okay, sag mir, wann du dir etwas einfallen lässt.
+		talk.blog=2&dn.2.next.already^						Помощь нужна?|Brauchst du Hilfe?
+		talk.blog<2&dn.2.next.9b^							Помощь нужна?|Brauchst du Hilfe?
+
+	dn.2.next.8b@23@Когда придумаю, тогда и поделюсь. Пока я только строю план.|Ich bilde immer noch eine.
+		talk.blog=2&dn.2.next.already^						Ну как построишь, позови!|Okay, sag mir, wann du dir etwas einfallen lässt.
+		talk.blog<2&dn.2.next.9a^							Ну как построишь, позови!|Okay, sag mir, wann du dir etwas einfallen lässt.
+		talk.blog=2&dn.2.next.already^						Помощь нужна?|Brauchst du Hilfe?
+		talk.blog<2&dn.2.next.9b^							Помощь нужна?|Brauchst du Hilfe?
+
+	dn.2.next.already@20@Кстати, ты уже предлагал свою помощь, если я не ошибаюсь... Или это было так, не серьёзно всё?|Hast du nicht schon deine Hilfe angeboten? Oder hast du das nicht so gemeint?
+		dn.2.next.already.try^								А ты и правда прислушаешься к моим советам?|Wirst du wirklich zuhören, was ich zu sagen habe?
+
+	dn.2.next.already.try@23@Макс, я готова на любую помощь. У самой уже нет идей, если честно. Так что, да. Прислушаюсь...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Ich bin bereit für jede Art von Hilfe, Max. Ich weiß nicht, was ich tun soll, um ehrlich zu sein. Also Ja ja, ich werde zuhören.\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
+		dn.2.next.10^										Отлично. Тогда и правда помогу!|Großartig! Dann werde ich dir auf jeden Fall helfen.
+
+	dn.2.next.9a@31@Зачем? Чтобы ты в очередной раз посмеялся? И, вообще, если ты такой умный, то вот ты и придумай что-нибудь. Я даже спасибо скажу. Честно говоря, я в депрессии...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Warum? Also wirst du mich wieder auslachen? Wenn du so klug bist, warum fällt dir dann nicht etwas ein? Ich wäre dankbar, ich bin hier irgendwie am Ende meiner Kräfte....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
+		dn.2.next.10^										Даже спасибо? Ну, хорошо...|Dankeschön, sagst du? Okay, ich denke darüber nach....
+		dn.2.next.10^										Ладно...|Okay
+
+	dn.2.next.9b@31@Ну если честно, то да. Я думаю, что у меня даже депрессия развивается. Если появятся какие-то мысли, буду рада их услышать. Даже от тебя. А если что-то дельное предложишь, то и спасибо скажу...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Eigentlich, ja. Ich weiß wirklich nicht, was ich tun soll. Wenn Sie irgendwelche Ideen haben, würde ich sie gerne hören. Sogar vor dir. Und wenn dir etwas Gutes einfällt, bin ich dir dankbar....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
+		dn.2.next.10^										Спасибо? Мне? От тебя?!|<b>Du</b> wirst <b>mir</b> dankbar sein!?
+		dn.2.next.10^										Ладно...|Okay
+
+	dn.2.next.10@62@Ох, детишки. Не понимаю я ничего в этих ваших блогах и не уверена, что на это надо тратить своё время, но разберётесь. Я хотела спросить, ни к кому в комнату никакие насекомые не заползали?|Oh, Kinder. Ich verstehe nichts von Ihren Blogs und ich bin mir nicht sicher, ob Sie Ihre Zeit damit verschwenden sollten, aber ich hoffe, daß ihr es herausfinden werden. Ich wollte euch etwas fragen, hat jemand Insekten in eure Zimmer geschleppt?
+		dn.2.next.11!set_poss.blog_1^						Нет вроде, а что?|Ich glaube nicht, warum?
+
+	dn.2.next.11@60@Да я сегодня огромного паука видела... Даже не знала, что такие бывают...|Ich habe heute eine riesige Spinne gesehen.... Ich wusste nicht, dass es so große Spinnen gibt....
+		dn.2.next.12^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.2.next.12@24@Что?! Здесь есть пауки?! Мама... я поехала обратно...|Was!? Wir haben hier Spinnen!? Mom.... Ich ziehe zurück....
+		dn.2.next.13^										Ты что, пауков боишься?|Hast du Angst vor den Spinnen?
+		dn.2.next.13^										Да они же безобидные, наверное...|Sie sind wahrscheinlich harmlos....
+
+	dn.2.next.13@41@Макс, ты что, забыл? В прошлом году маленький паучок летом на Алису заполз, так она орала два часа! Бегала и кричала...|Hast du das vergessen, Max? Letztes Jahr kroch eine kleine Spinne auf Alice und sie schrie zwei Stunden lang! Wie konntest du all das Laufen und Schreien vergessen?
+		dn.2.next.14^										Что-то такое было, вроде бы...|Ja, ja, da war etwas....
+
+	dn.2.next.14@22@Ага, маленький... Да он был с тебя размером! Ненавижу пауков. Кто их, вообще, выдумал. Хоть на северный полюс уезжай. Надеюсь, хоть там их нет...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Klein? Es war so groß wie du! Ich hasse Spinnen. Warum konnten wir nicht ohne Spinnen umziehen....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
+		dn.2.next.15!set_poss.spiders_1^						Нам тебя будет нехватать...|Wir werden dich vermissen....
+
+	dn.2.next.15@21@А вот знаешь что, Макс, не дождёшься! Я не видела ещё ни одного паука и, может быть, это маме только показалось. Буду думать так. Так спокойнее...|Ich habe noch keine einzige Spinne gesehen, also lag Mom vielleicht falsch. Ja ja, das werde ich von jetzt an denken. Es ist besser so....
+		dn.2.next.16^										Ну, думай...|Nun, okay
+
+	dn.2.next.16@67@Так, ладно. Думайте что хотите, а вам всем спасибо за ужин. я пойду немного поваляюсь в ванне...|Okay, du kannst denken, was immer du willst, danke fürs Abendessen, ich werde eine Weile im Bad einweichen....
+		leave!time^											Ага, спасибо.|Ja ja, Danke
+
+
+
+# --- Третий ужин (пятница)|Drittes Abendessen
+
+	dn.3@60@z-dinner-family-1@Всем приятного аппетита. Предлагаю поужинать. Есть у кого-то какие-то новости?|Guten Appetit, alle. Lass uns essen. Hat jemand Neuigkeiten?
+		dn.3.next.1^										У нас всё как всегда. У тебя какие новости?|Nein, ich glaube nicht. Was ist mit dir?
+
+	dn.3.next.1@75@Ой, у меня всё замечательно. Сегодня Эрик намекнул, что хочет меня перевести из моего отдела в свои личные ассистенты, представляете?|Alles ist großartig! Heute hat Eric angedeutet, dass er mir einen neuen Job geben könnte, und ich werde sein persönlicher Assistent sein, kannst du dir das vorstellen?
+		dn.3.next.2^										А это точно хорошо?|Bist du sicher, dass es gut ist?
+		dn.3.next.2b!add_mom.mood_50^						Поздравляю, мам!|Herzlichen Glückwunsch, Mom!
+
+	dn.3.next.2b@31@Ух-ты! Это же здорово! Наверняка, тебе и зарплату повысят и теперь не придётся беспокоиться о доме. Да, мам?|Wow, das sind tolle Neuigkeiten! Sie werden aber dein Gehalt aufstocken und wir müssen uns keine Sorgen mehr darüber machen, das Haus zu verlieren, richtig?
+		dn.3.next.3^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.2@23@Макс, ну вот опять ты в своём репертуаре! Порадуйся за маму. Кроме того, наверняка, это ещё и прибавка к зарплате! Да, мам?|Fängst du wieder an, Max? Freu dich für Mama. Übrigens, Mom, du bekommst wahrscheinlich eine Gehaltserhöhung, oder?
+		dn.3.next.3^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.3@75@Всё правильно, Алиса! У меня зарплата теперь будет даже больше, чем у текущего начальника. Того, лысого, о котором говорила...|Das stimmt, Alice! Mein Gehalt wird noch höher sein als das Gehalt meines jetzigen Chefs. Weißt du, die Glatze, von der ich gesprochen habe....
+		dn.3.next.4^										И что будет входить в твои обязанности?|Und was musst du bei deinem neuen Job tun?
+
+	dn.3.next.4@69@Ну, я пока точно не знаю. Видимо, помогать с бумагами, может быть что-то ещё. Как дело дойдёт до повышения, я ознакомлюсь с должностными обязанностями, конечно...|Ich bin mir noch nicht sicher. Ich schätze, ich werde beim Papierkram helfen oder so. Ich werde alles erfahren, sobald ich tatsächlich befördert werde.
+		dn.3.next.5^										И теперь ты будешь ещё больше от него зависеть...|Und jetzt wirst du dich noch mehr auf Eric verlassen.
+		dn.3.next.5^										А если поссоришься с этим Эриком, то всё...|Und wenn du mit Eric streiten wird, kannst du deinen Job verlieren....
+
+	dn.3.next.5@62@Макс. Все подчинённые зависят от своего руководства, так или иначе. Это вполне нормально. Но на этой должности я буду ближе к самой верхушке и смогу многому научиться...|Ich werde mich immer auf meine Chefs verlassen, so funktionieren Jobs, Max. Aber auf diesem neuen werde ich näher an der Spitze sein und viel lernen können.
+		dn.3.next.6^										Ну да, в этом что-то есть...|Ja ja, ich schätze, du hast Recht.
+
+	dn.3.next.6@60@Спасибо, Макс, что ты меня понимаешь. Давайте сменим тему. Лиза, как у тебя в школе дела, как там твой Алекс поживает?|Danke für dein Verständnis, Max. Aber lass uns das Thema wechseln. Wie ist deine Schule, Lisa? Wie geht es deinem Alex?
+		dn.3.next.7^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.7@40@Он не мой. А вообще, всё хорошо. Спасибо, что спросили, но рассказывать нечего...|Er gehört mir nicht. Alles ist großartig. Danke der Nachfrage, aber ich habe wirklich nichts zu erzählen.
+		dn.3.next.8a!add_liza.mood_-50^						Давай, рассказывай подробности!|Komm schon, gib uns ein paar Details!
+		dn.3.next.8b!add_liza.mood_50^						Ладно, не будем мучать Лизу вопросами...|Gut, lass uns Lisa nicht mit Fragen belästigen.
+
+	dn.3.next.8a@42@Макс! Завязывай. Давайте сменим тему. Значит, завтра шоппинг... Мам! Я вспомнила. Мне нужен купальник. В этом просто невозможно загорать, а других у меня нет!|Hör auf, Max! Lass uns das Thema wechseln. Morgen ist Einkaufen.... Mir fällt gerade ein, Mom! Ich brauche einen Badeanzug. Ich kann mich in meiner jetzigen nicht bräunen, und ich habe nur eine!
+		dn.3.next.9^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.8b@41@Спасибо, Макс. Давайте сменим тему. Значит, завтра шоппинг... Мам! Я вспомнила. Мне нужен купальник. В этом просто невозможно загорать, а других у меня нет!|Danke, Max. Lass uns das Thema wechseln. Morgen ist Einkaufen.... Mir fällt gerade ein, Mom! Ich brauche einen Badeanzug. Ich kann mich in meiner jetzigen nicht bräunen, und ich habe nur eine!
+		dn.3.next.9^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.9@62@Ну вот, и тебе что-то нужно. Да, это повышение точно будет полезно для всех нас. Ну раз нужен купальник, то посмотрим. Обещать ничего не буду, но...|Oh, also brauchst du auch etwas. Ja ja, diese Beförderung ist definitiv hilfreich. Wir werden sehen. Ich kann nichts versprechen, aber....
+		dn.3.next.10^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.10@23@Ага, Лизе купальник посмотрим, а мне платье для клуба, значит, нет? Я бы сегодня уже пошла, а так придётся ждать следующей пятницы... И то если купим...|Also werden wir uns um Lisas Badeanzug kümmern, aber nicht um ein Kleid für mich? Ich könnte heute in den Club gehen, aber jetzt muss ich auf nächsten Freitag warten, und das ist, wenn wir einen kaufen....
+		dn.3.next.11^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.11@60@Алиса, я тебе уже говорила, что идея с коротким платьем для клубов мне не нравится. Но если будут деньги и попадётся приличное, то, возможно, купим...|Ich sagte dir schon, Alice, ich mag es nicht, wenn du in einem kurzen Kleid feierst. Aber wenn wir das Geld haben und ein anständiges Kleid finden, dann kaufen wir dir eines....
+		dn.3.next.12^										<i>далее</i>|<i>fortsetzen</i>
+
+	dn.3.next.12@20@Хорошо, мам. Но я на тебя надеюсь. Я просто сойду с ума, если никуда не буду выбираться, даже из такого... дома. Мне нужны друзья и подруги, а они любят клубы...|Okay, Mom, ich verlasse mich auf dich. Ich werde den Verstand verlieren, wenn ich nicht etwas Dampf ablassen kann....
+		dn.3.next.13^										Бери меня с собой!|Nimm mich mit!
+		dn.3.next.13^										Я тоже люблю клубы!|Ich liebe Clubs auch!
+
+	dn.3.next.13@22@Очень смешно, Макс! Во-первых, тебя не пустят. Ростом не вышел. А во-вторых, с тобой я не пойду. Просто потому, что в клубы с братьями не ходят!|Sehr witzig, Max! Zuerst einmal wird dich niemand reinlassen, du bist zu klein. Und zweitens, ich gehe nirgendwo mit dir hin. Niemand geht mit seinen Brüdern in die Clubs!
+		dn.3.next.14^										Ну и ладно!|Na schön!
+
+	dn.3.next.14@62@Вижу, вы уже нашли общий язык? Ладно. Думаю, ужин закончен. Всем спасибо. Лиза, как всегда, моет посуду, а я пойду поваляюсь в ванне.|Gut, ich denke, das ist das Ende des Essens. Danke an alle. Lisa, wie immer, du spülst ab und ich werde im Bad einweichen....
+		leave!time^											Ага, спасибо за ужин.|Ja ja, Dank für das Abendessen
+
+
+
+# --- Четвёртый ужин, суббота, Эрик первый раз в гостях|Viertes Abendessen, erstes mit Eric
+
+	dn.4@75@z-dinner-family-2@Я рада, что все мы вместе сегодня смогли собраться. Наконец-то, все познакомились с Эриком!|Ich bin froh, dass wir alle zusammen hier sind, endlich hat jeder Eric kennengelernt!
+		dn.4.next.1!set_poss.alpha_1!set_allowdressandswimsuit_1^			<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.1@43@Да, Эрик классный! Кстати, это он мне и посоветовал тот купальник... Вот только мама не дала его купить...|Ja ja, Eric ist großartig! Übrigens, er ist derjenige, der mir einen Bikini empfohlen hat. Zu schade, dass Mom sich entschieden hat, ihn nicht zu kaufen.
+		dn.4.next.2^							Какой купальник?|Was für einen Bikini?
+
+	dn.4.next.2@41@Ну тот, дизайнерский какой-то. Он так хорошо на мне сидел. Эрик сказал, что идеально!|Da war dieser Designer, glaube ich. Es sah wirklich gut an mir aus, Eric sagte, es sei perfekt!
+		dn.4.next.3^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.3@86@Да, купальник был отличный, но я уважаю решение Ани и понимаю, почему не стали покупать. Ну, нет, так нет...|Ja, es war ein toller Bikini, aber ich verstehe Anns Entscheidung.
+		dn.4.next.4^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.4@75@Спасибо, Эрик. Ты такой заботливый и внимательный...|Danke, Eric. Du bist so freundlich und aufmerksam....
+		dn.4.next.5a^							<i>про?олчать</i>|<i>sei ruhig</i>
+		dn.4.next.5b^							А меня сейчас стошнит...|Ich muss kotzen....
+
+	dn.4.next.5b@68@Что такое, Макс? Что-то не свежее попалось?|Was? Ist dein Essen schlecht geworden?
+		dn.4.next.5a^							Да нет, всё в порядке...|Nein, es ist alles in Ordnung.
+
+	dn.4.next.5a@46@Тем не менее, купальник мне всё ещё нужен. В закрытом я не могу загорать, а очень хочется...|Wie auch immer, ich brauche immer noch den Bikini. Ich kann mich im geschlossenen nicht bräunen.
+		dn.4.next.6a^							<i>промолчать</i>|<i>sei ruhig</i>
+		dn.4.next.6b^							Да загорай голая!|Du kannst dich nackt bräunen, wenn du willst.
+
+	dn.4.next.6b@44@Очень смешно, Макс. Загорай сам как хочешь, а мне нужен купальник!|Sehr witzig, Max. Du kannst so bräunen, wie du willst, aber ich brauche einen Bikini.
+		dn.4.next.6a^							Ну, как хочешь. Моё дело предложить решение...|Ich habe nur versucht zu helfen.
+
+	dn.4.next.6a@87@Лиза, я тебе обещаю, что если вместе поедем на шоппинг через неделю, я тебе куплю отличный купальник. Конечно, не дизайнерский, но красивый и такой, в котором сможешь загорать! Это будет мой подарок тебе.|Ich verspreche dir, Lisa, wenn wir nächste Woche einkaufen gehen, kaufe ich dir einen neuen Badeanzug. Kein Designer, aber es wird süß und offen sein, damit du dich darin bräunen kannst. Es wird mein Geschenk an dich sein.
+		dn.4.next.7!set_poss.swimsuit_3^		<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.4.next.7@69@Эрик, ну не стоит же её так баловать...|Du solltest sie nicht verwöhnen, Eric.
+		dn.4.next.8^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.8@22@Если что, то мне тоже ничего не купили...|Wir haben auch nichts für mich gekauft....
+		dn.4.next.9!add_alisa.mood_-25^			Попрошайка!|Bettler
+		dn.4.next.9^							<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.4.next.9@80@Точно, Алиса. Ты хотела какое-то платье, вроде бы... Верно?|Oh, ja ja, du wolltest auch etwas kaufen, oder?
+		dn.4.next.10^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.10@62@По заднице она хотела! Платье ей нужно, чтобы по ночным клубам шастать, задом вилять. Я её хорошо знаю. Поэтому, я и была против...|Sie will sich den Arsch versohlen lassen! Sie will ein Kleid, um in die Clubs zu gehen und wer weiß was zu tun. Ich kenne sie und deshalb wollte ich ihr nichts kaufen....
+		dn.4.next.11!add_alisa.mood_-50!add_mom.mood_50^	И правильно!|Das ist richtig!
+		dn.4.next.11^										<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.4.next.11@87@Ань, а ты бываешь строгая, как я погляжу... Мне кажется, тебе стоит Алисе разрешить ходить в клубы. К тому же, она почти взрослая...|Du bist manchmal ziemlich streng, Ann.... Ich denke, du solltest Alice in Clubs gehen lassen, sie ist erwachsen.
+		dn.4.next.12^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.12@73@Ну, Эрик, раз ты так считаешь, то конечно. Я и сама в её возрасте немного шалила...|Okay, Eric, wenn du denkst.... Ich habe auch in ihrem Alter gerne gefeiert....
+		dn.4.next.13^							Подробнее, пожалуйста...|Erzähl uns mehr....
+		dn.4.next.13^							<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.4.next.13@31@Эрик! Я тебя обожаю! Тебе удалось переубедить маму! Это невероятно. Спасибо, тебе!!!|Ich liebe dich, Eric! Du hast es geschafft, Moms Meinung zu ändern! Das ist unmöglich, danke!!!!!
+		dn.4.next.14^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.14@87@Да не стоит, пустяки. А чтобы ваш семейный бюджет не просел, я сам подарю тебе платье для клуба, какое скажешь. Через неделю.\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Mach dir keine Sorgen. Ich kaufe dir nächste Woche ein Kleid, damit deine Mutter nicht zu viel Geld dafür ausgeben muss.\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
+		dn.4.next.15!set_poss.nightclub_1^		<i>О нет...</i>|<i>Oh nein....</i>
+
+	dn.4.next.15@75@Эрик, ну не стоит, я и сама могу купить ей платье. Просто, переживаю...|Das musst du nicht, Eric, ich kann ihr selbst ein Kleid kaufen. Ich mache mir nur Sorgen um sie.
+		dn.4.next.16!add_alisa.mood_-20!add_mom.mood_20^		И правильно делаешь!|Das solltest du auch!
+		dn.4.next.16^											<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.4.next.16@22@Спасибо, Эрик! Ты и правда лучший! Буду ждать следующей субботы!|Danke Eric, du bist der Beste! Ich kann es kaum erwarten!
+		dn.4.next.17!adderic^					<i>далее</i>|<i>fortsetzen</i>
+
+	dn.4.next.17@60@Так, ладно. Спасибо всем за ужин. Мы сейчас с Эриком уедем и вернусь завтра утром. Надеюсь, вопросов не возникнет, да? Алиса за старшую, а остальным - не шалите, хорошо?|Okay, danke für das Essen, Leute. Eric und ich gehen, ich komme morgen früh zurück. Alice hat das Sagen, benehmt euch alle.
+		dn.4.next.18a^							Повеселитесь там, как следует!|Habt eine schöne Zeit!
+		dn.4.next.18b^							Хорошо, мам!|Okay, Mom
+		dn.4.next.18c^							А что вы будете делать?|Was werdet Ihr machen?
+
+	dn.4.next.18a@69@Спасибо, Макс за пожелание, конечно. В общем, ведите себя хорошо тут.|Danke, Max. Sei brav.
+		eric.main.talk^							Ко?ечно!|Natürlich!
+
+	dn.4.next.18b@75@Вот и молодцы. Давайте не ругайтесь, не ссорьтесь. Если что - звоните, я сразу приеду...|Großartig. Streitet nicht, wenn etwas passiert, ruft mich an und ich bin hier....
+		eric.main.talk^							Конечно!|Natürlich!
+
+	dn.4.next.18c@69@Макс, твои глупые вопросы меня смущают. В общем, не теряйте, утром вернусь...|Komm schon, Max, was ist das für eine Frage? Wie auch immer, ich bin morgen früh zu Hause.
+		eric.main.talk^							Ладно, мам...|Okay, Mom
+
+
+
+# --- Пятый ужин (воскресенье)|5. Abendessen, Sonntag
+
+	dn.5@75@z-dinner-family-1@Молодцы, что все собрались. Всем приятного аппетита!|Danke, dass ihr hier seid, Guten Appetit.
+		dn.5.next.1^							Приятного...|Guten Appetit
+
+	dn.5.next.1@41@А что, Эрик сегодня не у нас ночует? Ты вроде говорила, что часто будете видеться?|Und wieso übernachtet Eric heute hier? Hast du nicht gesagt, dass er jede zweite Nacht hier sein wird?
+		dn.5.next.2^							Куда уж чаще...|Er ist schon oft genug hier....
+
+	dn.5.next.2@60@Нет, Лиза, хорошего помаленьку... Эрик приедет завтра вечером на ужин и останется у нас с ночевой...|Nein, Lisa, er wird heute nicht hier sein. Eric wird morgen Abend hier sein und über Nacht bleiben.
+		dn.5.next.3a^							И чем будете заниматься?|Was wirst du tun?
+		dn.5.next.3b^							Отлично!|Großartig!
+		dn.5.next.3c^							Зачем он тут нужен?|Warum brauchen wir ihn hier?
+
+	dn.5.next.3a@69@Макс, ну что за вопросы. Ты же не маленький, вроде бы. Должен всё понимать...|Was ist das für eine Frage, Max? Außerdem solltest du dich selbst hören....
+		dn.5.next.4a^							Да я шучу...|Ich habe nur Spaß gemacht.
+
+	dn.5.next.3b@75@Ого. Значит, тебе понравился Эрик? Я рада...|Oh, also magst du Eric? Ich bin froh....
+		dn.5.next.4b!add_eric.level_1^			Почему понравился? Нормальный мужик...|Warum sollte ich nicht? Er ist okay.
+		dn.5.next.4c^							Эрик? Понравился?! Нет, просто рад, что ты дома будешь...|Nein, ich bin nur froh, dass du zu Hause bist.
+
+	dn.5.next.3c@62@Ясно. Ты его всё ещё недолюбливаешь, да?|Also, du magst ihn immer noch nicht besonders, was?
+		dn.5.next.4d^							А за что его любить?|Was ist gut an ihm?
+		dn.5.next.4e^							Да козёл он!|Er ist ein Idiot!
+
+	dn.5.next.4a@22@Да уж, Макс. Шуточки у тебя просто «отличные»! А мне вот Эрик понравился. Солидный, умный, ответственный мужчина. Маме именно такой и нужен, мне кажется...|Deine Witze sind dumm, Max. Ich mag Eric, er ist ein echter Mann. Ich denke, er ist toll für Mom....
+		dn.5.next.5^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.4b@31@Ну вот, мы же тебе говорили, что он нормальный, а ты всё ворчал. Вот увидишь, маме именно он и нужен был всё это время!|Siehst du, wir haben dir gesagt, dass er okay ist, aber du würdest uns nicht glauben. Du wirst sehen, er ist toll für Mama!
+		dn.5.next.5^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.4c@29@Макс, а ты всё ещё придурок... Эрик отлично подходит маме! Он сильный, умный, ответственный, солидный такой и при деньгах. Маме именно такой и нужен!|Hör auf, ein Idiot zu sein, Max. Eric ist toll für Mama! Er ist stark, klug, verantwortungsvoll und reich.
+		dn.5.next.5^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.4d@26@А тебя за что любить? За то что ты такой... Макс? Я даже не знаю... Этой семье нужен мужчина. А Эрик - он сильный, красивый, умный... Как раз то, что нужно маме!|Was ist gut an dir, Max? Diese Familie braucht einen Mann, und Eric ist stark, gutaussehend, klug.... Er ist toll für Mama!
+		dn.5.next.5^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.4e@24@Ого! Макс выразил своё авторитетное мнение? Абалдеть! Как был придурком, так и остался. Этой семье нужен сильный мужчина. Эрик именно такой. А ещё он умный и симпатичный. Думаю, маме давно именно его и не хватало...|Oh, wow, Max hat gerade seine super wichtige Meinung geteilt, wir sollten alle zuhören. Du bist der Trottel, Max. Diese Familie braucht einen Mann, und Eric ist stark, gutaussehend, klug.... Er ist toll für Mom!
+		dn.5.next.5^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.5@75@Спасибо, Алиса, что ты так обо мне заботишься. Да, я тоже думаю, что именно Эрика я и ждала всё это время. Честно говоря, не ожидала даже, что такие мужчины бывают... Но давайте сменим тему. Лизе завтра в школу. Ты готова?|Danke, Alice. Ich stimme zu, fühlt sich an, als hätte ich mein ganzes Leben lang auf Eric gewartet. Ich wusste nicht einmal, dass Männer wie er existieren.... Aber lass uns das Thema wechseln. Lisa, du gehst morgen wieder zur Schule, hast du deine Hausaufgaben gemacht?
+		dn.5.next.6^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.6@40@Ну, ещё нужно сделать кое-что и да, буду готова. Не переживай, мам...|Nun, ich muss noch etwas tun, aber ich werde bereit sein, keine Sorge, Mom.
+		dn.5.next.7^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.7@62@Ну не знаю, Лиза. Я всегда преживаю. К тому же, требования в этой школе намного выше, чем в прошлой. Но это не даёт тебе права учиться плохо. Ты меня поняла?|Ich werde mir immer Sorgen machen, Lisa. Zumal Ihre neue Schule viel anspruchsvoller ist als die vorherige. Aber es gibt dir keine Entschuldigung für schlechte Noten, verstehst du?
+		dn.5.next.8^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.5.next.8@46@Да, мам... Я постараюсь. Сделаю всё, что смогу...|Ja, Mom, ich versuche es. Ich werde heute alles tun.
+		dn.5.next.9^							А я, если что, помогу...|Und ich kann helfen
+
+	dn.5.next.9@75@Вот и молодцы вы у меня! Ладно, всем большое спасибо за ужин. Было приятно с вами поболтать. А сейчас меня ждёт, как всегда, ванна...|Großartig. Okay, danke für das Abendessen, wir hatten ein nettes Gespräch. Wie immer werde ich jetzt für einige Zeit ein Bad nehmen....
+		leave!time^								Ага, всем спасибо...|Ja ja, danke, alle zusammen.
+
+
+
+# --- Шестой ужин, понедельник (Эрик)|6. Abendessen, Montag, Eric
+
+	dn.6@75@z-dinner-family-2@Всем добрый вечер и приятного аппетита! Эрик, мы очень рады, что ты смог сегодня к нам присоединиться!|Guten Abend, allerseits und Guten Appetit! Wir sind froh, dich zu haben, Eric!
+		dn.6.next.1a!add_eric.level_-2^			Ну, кто рад, а кто...|Nun, einige von uns....
+		dn.6.next.1b^							<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.6.next.1b@83@Макс, мне показалось, или я тебе не очень нравлюсь?|Max, du scheinst mich nicht besonders zu mögen?
+		dn.6.next.2d^							Тебе показалось...|Nein, es ist alles in Ordnung.
+		dn.6.next.2b^							Думаю, вы слишком торопитесь...|Ich denke, du machst zu schnell.
+		dn.6.next.2c^							Просто не нравишься!|Ja ja, Ich mag dich nicht.
+
+	dn.6.next.1a@83@Макс, у нас с тобой какие-то проблемы? Может быть, расскажешь, чем я тебе не нравлюсь?|Hast du ein Problem mit mir, Max? Vielleicht kannst du mir sagen, warum du mich nicht so sehr magst?
+		dn.6.next.2a^							Да всё нормально...|Nee, du bist gut.
+		dn.6.next.2b^							Вы слишком торопитесь.|Du bist zu schnell.
+		dn.6.next.2c^							Просто не нравишься!|Ja ja, Ich mag dich nicht.
+
+	dn.6.next.2a@62@Макс, я тебя не так воспитывала. Будь чуточку дружелюбнее, пожалуйста...|So habe ich dich nicht erzogen, Max. Du solltest höflicher sein.
+		dn.6.next.3^							Ладно, ?ам...|Okay, Mom
+
+	dn.6.next.2b@75@Вот в чём дело! Да, я тебя понимаю, Макс. Но ты не переживай и лучше порадуйся за меня. Я очень рада, что встретила Эрика, настоящего мужчину и очень хотела бы, чтобы вы его приняли в семью...|Ich verstehe, Max, aber keine Sorge. Ich bin sehr glücklich, dass ich Eric getroffen habe und ich möchte, dass er sich willkommen fühlt.
+		dn.6.next.3^							Хорошо, мам...|Okay, Mom
+
+	dn.6.next.2c@60@Макс! Ты стал вести себя слишком агрессивно. Возможно, это гормоны, а может быть, ты почувствовал какую-то для себя угрозу со стороны Эрика. Но уверяю тебя, не стоит. Эрик очень хороший, ты сам это поймёшь!|Du bist zu aggressiv, Max! Vielleicht sind es nur Hormone, oder Vielleicht fühlst du dich von Eric bedroht, aber ich versichere dir, das solltest du nicht. Eric ist ein sehr guter Mensch, du wirst es mit der Zeit sehen.
+		dn.6.next.3^							Как скажешь, мам...|Okay, Mom
+
+	dn.6.next.2d@62@Вот видишь, Эрик, а ты переживал. Макс просто не сразу принимает новых людей, но как видишь, это не проблема. Да, Макс?|Siehst du, Eric, du hättest dir keine Sorgen machen sollen. Max öffnet sich nicht sofort, aber es gibt kein Problem, oder, Max?
+		dn.6.next.3^							Да, м?м...|Ja, Mom
+
+	dn.6.next.3@67@Вот и замечательно. Теперь я хотела бы рассказать об одной идее Эрика. Я и сама о подобном задумывалась, но он озвучил мои мысли. Эрик, может быть ты и расскажешь?|Großartig. Jetzt möchte ich über Erics Idee sprechen. Ich habe schon darüber nachgedacht, aber er war derjenige, der sie geäußert hat, also bist du derjenige, der es sagt?
+		dn.6.next.4^							Какая ещё идея?|Was für eine Idee?
+
+	dn.6.next.4@87@Конечно, Макс ещё не совсем мужчина, но он уже в подходящем возрасте для специального подросткового лагеря...|Max ist etwa im richtigen Alter für ein besonderes Camp....
+		dn.6.next.5^							Чего чего? Какого ещё лагеря?!|Welches Lager!?
+
+	dn.6.next.5@86@Военного. В этом лагере подготавливают детей твоего возраста к службе в армии. Это не значит, что ты обязан будешь идти служить, но тебя к этом подготовят и ты сам решишь, нравится тебе этот путь или нет...|Militärische. In diesem Lager bereiten sie Jugendliche auf den Militärdienst vor. Das bedeutet nicht, dass Sie in Dienst gehen müssen, aber es wird Sie darauf vorbereiten, und Sie werden entscheiden, ob Sie es wollen oder nicht....
+		dn.6.next.6^							Стоп. А если я уже знаю, что не хочу?|Was, wenn ich bereits weiß, dass ich nicht will?
+
+	dn.6.next.6@87@Как ты можешь это знать заранее? Ты же не пробовал! Там готовят настоящих будущих мужчин. Дисциплина, физическая подготовка, субординация. Знакомые слова?|Wie kann man das im Voraus wissen? Du hast es nicht mal versucht! Sie bereiten zukünftige Männer vor. Disziplin, körperliches Training, Unterordnung. Kennst du diese Worte?
+		dn.6.next.7^							Нет, но они мне не нравятся!|Ja, und ich mag sie nicht!
+
+	dn.6.next.7@81@А зря. Хотя ваша мама и воспитала вас очень хорошо, ну некоторых точно. Но она воспитывала одна, а для того, чтобы мальчик стал настоящим мужчиной, нужно строгое, мужское воспитание. Вот в этом лагере его можно получить.|Solltest du aber. Obwohl Mutter dich sehr gut erzogen hat, zumindest ein Teil von dir, hat sie dich allein erzogen, und um einen Jungen zu einem echten Mann zu erziehen, sollte es strenge, männliche Hilfe geben. Im Lager kann man es bekommen.
+		dn.6.next.8^							Что-то хрень какая-то, эта ваша идея...|Diese Idee klingt ziemlich beschissen....
+
+	dn.6.next.8@62@Макс, что за слова! Ты всем своим видом доказываешь, что Эрик был прав. Тебе и правда не помешает набраться немного дисциплины. Конечно, я бы не хотела, чтобы ты пошёл в армию, но как минимум пусть тебе дадут все необходимые навыки и знания...|Max, was sagst du da? Du beweist, dass Eric Recht hat. Du brauchst wirklich ein bisschen Disziplin. Natürlich würde ich nicht wollen, dass du zur Armee gehst, aber zumindest werden sie dir alle notwendigen Fähigkeiten und Kenntnisse vermitteln....
+		dn.6.next.9^							Я против.|Ich bin dagegen.
+
+	dn.6.next.9@86@Ну, как я и ожидал... И как же ты станешь настоящим мужчиной? Драться ты не умеешь, наверняка. Физическая подготовка? Ты зарядку хотя бы делаешь? Про дисциплину, вообще, молчу...|Nun, wie ich erwartet hatte.... Und wie willst du ein richtiger Mann werden? Du kannst definitiv nicht kämpfen. Körperliches Training? Hebst du überhaupt? Ich will nicht mal über deine Disziplin reden....
+		dn.6.next.10^							Я уже мужик!|Ich bin jetzt schon ein Mann!
+
+	dn.6.next.10@87@О да. Ну, посмотрим. Я ещё всё выясню про этот лагерь, когда у них ближайший набор, а в твоих силах пока есть время, доказать поступками, что ты уже мужик и не нуждаешься в этом лагере. Всё в твоих руках...|Ja, ja, richtig. Wir werden sehen. Ich werde immer noch alles über dieses Camp herausfinden, wenn das nächste Mal eingeschrieben wird, und solange es Zeit ist, kannst du durch deine Aktionen beweisen, dass du bereits ein Mann bist und dieses Camp nicht brauchst. Das liegt bei dir....
+		dn.6.next.11c^							И кто будет решать - в лагерь меня или пока не надо?|Und wer entscheidet - ob ich ins Lager gehe oder nicht?
+
+	dn.6.next.11c@62@Решать буду я. Не могу сказать, что у меня есть серьёзные претензии к твоему поведению в данный момент, но иногда ты перегибаешь палку. Так что, я дам тебе время себя проявить. Если не будешь испытывать моего терпения, то повременим с этим лагерем. Ну а если я пойму, что пора, то уж извини...|Ich werde mich entscheiden. Ich kann nicht sagen, dass ich ernsthafte Probleme mit deinem Verhalten habe, aber manchmal gehst du zu weit. Also gebe ich dir Zeit, dich zu beweisen. Wenn du meine Geduld nicht auf die Probe stellst, warten wir ein wenig mit diesem Lager. Und wenn ich entscheide, dass es Zeit ist, dann bist du selbst schuld.
+		dn.6.next.12^							Я понял. Буду вести тебя хорошо...|Ich verstehe. Ich werde mich benehmen.
+
+	dn.6.next.12@75@Вот и молодец, Макс. А тебе, Эрик, спасибо за этот совет. Теперь хотя бы будет какой-то способ воздействовать. А то порка не даёт того эффекта, на который я привыкла рассчитывать...|Gut. Und danke für den Rat, Eric. Jetzt wird es zumindest einen Weg geben, um Max zu beeinflussen. Ich glaube nicht, dass schlagen gut genug funktioniert.
+		dn.6.next.13^							<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.6.next.13@81@Да? Странно. Обычно она всегда помогает. Хотя, мне кажется, что ты делаешь это не так. Вот скажи, ты же стараешься просто шлёпать как можно сильнее, думая, что это всё что требуется, верно?|Seltsam. Normalerweise hilft es immer. Ich bin mir nicht sicher, ob du es richtig machst. Sag mal, du versuchst einfach, so hart wie möglich zu verhauen, oder?
+		dn.6.next.14^							Может, сменим тему? Мне эта что-то не нравится...|Vielleicht sollten wir das Thema wechseln? Ich bin nicht der aktuelle....
+
+	dn.6.next.14@69@Ну, да... Потом вся ладошка болит... А разве я делаю это не так? Или в чём хитрость?|Nun, ja.... Dann tut die ganze Handfläche weh.... Mache ich es falsch? Was ist der Trick?
+		dn.6.next.15^							Определённо, мне это всё не нравится...|Das gefällt mir definitiv nicht....
+
+	dn.6.next.15@87@Гораздо больший эффект оказывает окружение и условия, при которых происходит наказание. Я тебе потом обо всём подробно расскажу. Думаю, пока дети не готовы об этом услышать, тем более вот так за ужином...|Das Umfeld und die Bedingungen, unter denen die Bestrafung stattfindet, haben eine viel größere Wirkung. Ich erzähle dir später alles im Detail. Wir sollten dieses Gespräch nicht vor den Kindern führen, besonders nicht während des Essens....
+		dn.6.next.16^							Точно, это всё дурно пахнет...|Ja ja, das stinkt....
+
+	dn.6.next.16@75@Хорошо, Эрик. Будет очень интересно узнать о правильной методике наказания. Ты такой умный, всё по полочкам раскладываешь... И где ты был всю мою жизнь...|Okay, Eric. Es wird sehr interessant sein, die richtige Art der Bestrafung kennenzulernen. Du bist so klug, du klärst alles.... Wo warst du mein ganzes Leben lang....
+		dn.6.next.17^							Да завязывайте, уже!|Hör schon auf damit!
+
+	dn.6.next.17@62@Вот Макс в очередной раз доказал, что моё воспитание недостаточно строгое... Ладно. Вижу, все уже закончили ужин. Всем больше спасибо, я пойду приму душ, может быть ванну...|Max hat wieder einmal bewiesen, dass meine Strafen nicht streng genug sind.... Okay. Ich sehe, dass alle schon mit dem Essen fertig sind. Danke euch allen, ich werde ein Bad nehmen....
+		leave!time^								Спасибо за ужин...|Danke fürs Abendessen....
+
+
+
+# --- Одиннадцатый ужин, (суббота), Эрик. Перед разговором о том, как быть дальше|11. Abendessen, Samstag, Eric. Abendessen vor dem Gespräch über die Annahme oder Ablehnung von Erics Freundschaft
+
+	dn.11@75@z-dinner-family-2@Всем добрый вечер и приятного аппетита! Сегодня мы с Эриком снова уедем, вернусь завтра. Но вы уже привыкли к этому, правда?|Guten Abend, allerseits, und Guten Appetit. Bald werden Eric und ich wieder gehen, ich komme morgen wieder. Du bist das wahrscheinlich schon gewohnt, oder?
+		dn.11.next.1^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.11.next.1@33@Конечно, езжайте, развеятесь хоть...|Natürlich, amüsier dich gut.
+		dn.11.next.2^							Это ты так рада из-за платья?|Bist du glücklich, weil du das Kleid bekommen hast?
+
+	dn.11.next.2@22@Макс! Из-за платья я в восторге! Да и за маму рада, что отдохнут от работы...|Max! Ich bin <b>wirklich</b> glücklich über das Kleid! Und ich freue mich auch für Mom, sie sollte sich nach der Arbeit entspannen....
+		dn.11.next.3^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.11.next.3@41@А ты сразу в клуб, да?|Und du gehst in den Club, richtig?
+		dn.11.next.4^							Вот-вот...|Ja ja, das ist richtig....
+
+	dn.11.next.4@62@Алиса, это правда? Ты сегодня в клуб собралась?|Ist das wahr, Alice? Gehst du später in den Club?
+		dn.11.next.5^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.11.next.5@22@Мам, нет конечно. Я в пятницу вечером с подругой пойду. Могла бы и сегодня, раз есть теперь в чём идти, но...|Natürlich nicht, Mom. Ich gehe Freitagabend mit meinem Freund. Ich könnte auch heute gehen, da ich jetzt ein Kleid habe, aber....
+		dn.11.next.6^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.11.next.6@75@Лучше бы делом занялась. На курсы подготовительные пошла бы, может быть, и поступить смогла бы куда-то...|Du solltest stattdessen etwas Nützliches tun. Warum versuchst du nicht, an eine Universität zu kommen?
+		dn.11.next.7^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.11.next.7@87@А что, Алиса, отличная идея. Если проблема с деньгами какая-то, то это не проблема, я помогу и даже организую всё...|Das ist eine tolle Idee, Alice, wenn du das Geld brauchst, könnte ich dir mit dem Geld und der Organisation helfen.
+		dn.11.next.8^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.11.next.8@75@Эрик, ну что ты! Мы сами справимся. Особенно, когда ты меня так... повысил. К тому же, пусть своим умом поступает, а не нашими кошельками...|Danke, Eric, aber das solltest du nicht. Das sollten wir selbst machen, besonders jetzt, wo du mich befördert hast....
+		dn.11.next.9^							<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.11.next.9@41@А у тебя, Эрик, есть высшее образование?|Hast du eine höhere Ausbildung, Eric?
+		dn.11.next.10^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.11.next.10@87@Лиза, что за глупый вопрос. Конечно! В нашем мире без этого ни за что не удалось бы занять такую высокую должность в компании. Да и в жизни без образования пробиваются только единицы...|Natürlich habe ich das, Lisa. Du wirst ohne sie nicht weit kommen können. Nicht viele Menschen erzielen gute Ergebnisse ohne Hochschulbildung.
+		dn.11.next.11^							<i>промолчать</i>|<i>sei ruhig</i>
+		dn.11.next.11^							Может быть, я такой...|Vielleicht bin ich einer von ihnen.
+
+	dn.11.next.11@62@Да, Эрик полностью прав. А ты, Макс, даже школу бросил. Прежде, чем думать о высшем образовании, неплохо было бы закончить среднее. Как считаешь?|Ja, Eric hat Recht. Du hast nicht mal die High School beendet. Denkst du nicht, du solltest das in Ordnung bringen?
+		dn.11.next.12a^							Сдалось оно мне...|Ich brauche es nicht.
+		dn.11.next.12b^							Я подумаю...|Ich werde darüber nachdenken.
+
+	dn.11.next.12a@87@Ну, тогда у тебя одна дорога. В тот самый военный лагерь. Ну или какой-то другой. И это хорошо. Тебя подготовят, натренируют, научат дисциплине и субординации. Станешь настоящим мужиком!|Nun, dann hast du nur noch einen Weg vor dir. Zum Militärlager. Was gut ist, die machen einen Mann aus dir.
+		dn.11.next.14^							Да я уже мужик!|Ich bin schon ein Mann!
+
+	dn.11.next.12b@87@Ты знаешь, думать нужно быстрее. Потому-что выбор у тебя либо школа, либо военный лагерь, а потом и армия... Я бы выбрал армию на твоём месте, но с твоими физическими данными...|Dann solltest du schnell denken, denn du hast die Wahl zwischen Schule und Militärlager, und dann die Armee. Ich würde die Armee an deiner Stelle wählen, aber ich bin mir nicht sicher, ob sie dich mit deinem Körperbau aufnehmen....
+		dn.11.next.13a^							А что с моими данными?|Was ist mit meinem Körperbau?
+
+	dn.11.next.13a@86@Ну, они не очень. Хотя, тебя подготовят, натренеруют. А главное - научат дисциплине и субординации. Мама за тебя порадуется, когда увидишь, что мужиком стал!|Es ist nicht so toll. Aber sie werden dich trainieren. Und sie werden dir Disziplin und Unterordnung beibringen. Mom wird sich für dich freuen, wenn sie sieht, wie du dich in einen echten Mann verwandelst.
+		dn.11.next.14^							Да я уже мужик!|Ich bin schon ein Mann!
+
+	dn.11.next.14@81@Ну ладно, думай так... Заблуждаться никто не мешает...|Ja ja, richtig....
+		dn.11.next.15^							Знаешь, что?|Weißt du was....!
+
+	dn.11.next.15@64@Макс! Что за тон? Уважительно разговаривай с Эриком! А не то накажу. В общем, мы сейчас поехали, а вы приберитесь тут. Завтра я вернусь. Всем спасибо за ужин!|Was ist das für ein Ton, Max? Du solltest Eric mit Respekt behandeln oder ich werde dich bestrafen! Wie auch immer, wir gehen jetzt. Ich komme morgen früh zurück. Danke für das Essen, Leute.
+		eric.week^								Да, спасибо...|Ja, danke
+
+
+# --- 12й ужин (воскресенье), мама упоминает приезд Киры|12. Abendessen, Sonntag, Ann erwähnt Kira's Ankunft
+
+	dn.12@75@z-dinner-family-1@Всем приятного аппетита!|Guten Appetit, euch allen!
+		dn.12.next.1^							Приятного аппетита...|Guten Appetit
+
+	dn.12.next.1@67@У меня для вас отличная новость! Это связано с кем-то, кого вы очень любите...|Ich habe eine tolle Nachricht für euch! Es geht um jemanden, den ihr sehr liebt.
+		dn.12.next.2a^							Ты беременна?|Bist du schwanger?
+		dn.12.next.2b^							Опять про Эрика?|Geht es wieder um Eric?
+		dn.12.next.2c^							Не знаю даже...|Ich weiß nicht einmal.
+
+	dn.12.next.2a@62@Макс! Не неси ерунду. Как тебе такое в голову могло прийти только...|Max! Reden Sie keinen Unsinn. Wie konntest du nur daran denken?
+		dn.12.next.2b^							Ну, значит, точно про Эрика...|Dann geht es definitiv um Eric.
+
+	dn.12.next.2b@75@Нет, в этот раз речь не о нём. Ну, ещё варианты есть? Лиза? Алиса?|Nein, diesmal geht es nicht um ihn. Habt ihr noch andere Möglichkeiten? Lisa, Alice?
+		dn.12.next.3^							Ну, у меня есть один вариант...|Ich habe vielleicht eine Idee.
+
+	dn.12.next.2c@62@Макс, ну ты даёшь. Лиза, Алиса, может быть вы догадались о ком речь?|Wow, Max. Lisa, Alice, irgendwelche Vorschläge?
+		dn.12.next.3^							Ну, у меня есть один вариант...|Ich habe vielleicht eine Idee.
+
+	dn.12.next.3@71@Ну что же вы. К нам едет ваша тётя в гости!|Oh, kommt schon, ihr alle. Die Tante Kira wird uns besuchen!
+		dn.12.next.4^							Я так и знал!|Ich wusste es!
+		dn.12.next.4^							Тётя Кира?|Tante Kira?
+
+	dn.12.next.4@50@Да ладно?! А на долго? Просто в гости или по делам? Мам, ну расскажи!|Wow! Für wie lange? Kommt sie nur zu Besuch oder ist sie geschäftlich hier? Erzähl uns alles, Mom.
+		dn.12.next.5^							Ого, сколько вопросов...|Wow, so viele Fragen.
+
+	dn.12.next.5@75@Лиза, я знаю, что ты очень её любишь, как и все мы, но успокойся. Она не завтра приедет, но скоро. На сколько - тоже не знаю, но думаю, что погостит какое-то время... А по делам или нет - сама спросишь.|Ich weiß, du liebst sie sehr, Lisa, genau wie wir alle, aber entspann dich ein wenig. Sie wird bald hier sein. Ich weiß auch nicht, wie lange, ich hoffe, sie bleibt für einige Zeit. Du kannst sie selbst nach ihren Gründen fragen.
+		dn.12.next.6^							Первая хорошая новость...|Das sind die ersten guiten Nachichten
+		dn.12.next.6^							<i>промолчать</i>|<i>sei ruhig</i>
+
+	dn.12.next.6@31@Да, это здорово. Я так соскучилась по тёте Кире... Кстати, она говорила, что сменила работу, но мне не сказала на какую. Ты не в курсе, мам?|Das ist großartig, ich habe sie so sehr vermisst. Ich glaube, sie sagte etwas davon, ihren Job zu wechseln, aber sie hat mir nicht gesagt, was sie jetzt macht. Weißt du es, Mom?
+		dn.12.next.7^							<i>далее</i>|<i>fortsetzen</i>
+
+	dn.12.next.7@69@Нет, мне она тоже ничего не сказала. Но ты же знаешь, что у неё шило в заднице. Кажется, она ни на одной работе не продержалась дольше полугода. Наверняка, опять связалась с чем-то незаконным...|Nein, sie hat mir auch nichts gesagt. Du kennst sie, sie kann nie einen Job für zu lange halten, ich glaube nicht, dass sie jemals länger als 6 Monate durchhält. Ich frage mich, ob sie wieder in etwas Illegales verwickelt ist.
+		dn.12.next.8a^							Почему ты так говоришь?|Wie kommst du darauf?
+		dn.12.next.8b^							А на кого она училась?|Was war ihr Hauptfach an der Universität?
+
+	dn.12.next.8a@62@Ты что, забыл ту историю, когда мы её забирали из полиции? Или когда она в новости попала в... хм... таком виде. Хотя, вам это знать не обязательно...|Hast du vergessen, wie wir ihr aus der Patsche helfen mussten? Oder wie sie nackt in die Nachrichten kam?
+		dn.12.next.9a^							В каком виде?!|Nackt?
+		dn.12.next.9b^							Её арестовывали?|Sie wurde verhaftet?
+
+	dn.12.next.8b@62@На искательницу приключений на свою задницу. Она училась на юриста, но бросила первый курс и решила, что хочет стать журналистом. Поступила снова, но и там ей быстро всё наскучило...|Sie hat große Probleme mit ihrem Arsch. Sie studierte Jura, verließ aber nach ihrem ersten Jahr und beschloss, Journalistin zu werden. Aber dann wurde ihr wieder langweilig.
+		dn.12.next.9c^							Я не в курсе этой истории|Ich habe noch nichts davon gehört.
+		dn.12.next.9d^							Понятно...|Ich verstehe
+
+	dn.12.next.9a@31@В каком, в каком... В голом, конечно! Если бы наш провайдер не блокировал всё подряд, я бы показала то видео...|Ja, ja, ja. Ich hätte Ihnen das Video zeigen können, wenn nicht unser Provider alle Inhalte für Erwachsene blockiert hätte.
+		dn.12.next.10a^							Есть видео?!|Es gibt ein Video!?
+
+	dn.12.next.9b@48@Тётя Кира же рассказывала, Макс! Она любит эту историю, правда, каждый раз рассказывает её по-новому. Вот спросишь у неё и узнаешь новую версию!|Tante Kira hat diese Geschichte unzählige Male erzählt, Max! Sie liebt es, es zu erzählen. Sie ändert jedoch jedes Mal die Geschichte. Du kannst sie fragen und du wirst eine neue Version hören, wenn sie vorbeikommt.
+		dn.12.next.9d^							Ага, спрошу...|Ja ja, werde ich
+
+	dn.12.next.9c@75@Ну и очень хорошо. Это плохой пример для подражания. За что Кира не берётся, всё у неё получается... особым образом. И когда за ум только возьмётся...|Gut. Sie ist nicht gerade ein Vorbild. Alles, was sie versucht, funktioniert nicht so, wie sie es sich erhofft hat.
+		dn.12.next.9d^							Понятно...|Ich verstehe
+
+	dn.12.next.9d@75@В общем, к нам едет генератор проблем, зато точно не соскучитесь!|Also, im Grunde werden wir einen Problementwickler haben, aber das Leben wird viel aufregender!
+		dn.12.next.11^							Супер!|Großartig!
+
+	dn.12.next.10a@62@Макс! Ну что за вопросы. Всё, проехали. В общем, скоро тётя Кира нас навестит. Хотя проблемы неизбежны, но точно не соскучитесь!|Was ist das für eine Frage, Max? Wie auch immer, wir werden einen Problementwickler haben, aber das Leben wird viel aufregender!
+		dn.12.next.11^							Отлично!|Großartig!
+
+	dn.12.next.11@60@Да, она сказала, что приедет в ближайшие выходные, если решит какие-то очередные свои проблемы. Так что, ничего не планируйте. Да, спасибо всем за ужин. Хорошо поболтали.|Sie sagte, sie wird versuchen, nächstes Wochenende hier zu sein. Also plant nichts am Samstag. Danke für das Essen, Leute.
+		leave!time^								Да, всем спасибо!|ja, danke euch allen
+
+
+# --- 17й ужин (пятница) перед приездом Киры|17. Abendessen, Freitag, vor Kira's Ankunft
+
+	dn.17@75@z-dinner-family-1@Всем приятного аппетита!|Guten Appetit, alle zusammen!
+		dn.17.next.1^							Приятного!|Dasselbe
+
+	dn.17.next.1@67@Ну что, все помнят какой завтра день?|Also erinnert sich jeder daran, was morgen passieren wird?
+		dn.17.next.2a^							День шоппинга?|Einkaufen?
+		dn.17.next.2b^							Тётя Кира приезжает?|Tante Kira's Ankunft?
+
+	dn.17.next.2a@75@Верно, Макс, но это не самое главное. Напоминаю, что завтра утром приедет ваша тётя Кира!|Das auch, aber es ist nicht das, wovon ich rede. Deine Tante Kira kommt morgen früh.
+		dn.17.next.3^							А как же шоппинг?|Was ist mit dem Einkaufen?
+
+	dn.17.next.2b@75@Именно! Она звонила и сказала, что приедет рано утром. Так что, ложитесь пораньше сегодня. Я сейчас к Эрику, но до приезда Киры вернусь.|Ja. Sie hat angerufen und gesagt, dass sie früh am Morgen hier sein wird. Also bleib nicht zu lange auf. Ich gehe zu Eric, aber ich bin vor ihrer Ankunft zurück.
+		dn.17.next.3b^							А без Эрика сегодня никак?|Musst du zu ihm gehen?
+		dn.17.next.3^							А как же шоппинг?|Was ist mit dem Einkaufen?
+
+	dn.17.next.3b@62@Макс. Я же сказала, что успею до приезда Киры. Вы тут и без меня справитесь, верно?|Max, ich habe dir gerade gesagt, dass ich rechtzeitig nach Hause komme. Du wirst ohne mich überleben, oder?
+		dn.17.next.5^							Верно, верно. А где тётя Кира будет спать?|Sicher. Wo wird Tante Kira schlafen?
+
+	dn.17.next.3@21@Макс! Да сдался тебе этот шоппинг. Это же наша тётя Кира!|Wen interessiert's? Wir reden über Tante Kira!
+		dn.17.next.4^							Да я просто спросил...|Ich habe nur gefragt.
+
+	dn.17.next.4@67@А шоппинг и не отменяется. Эрик заедет за нами как обычно, часов в 10. Может быть, и Киру с собой возьмём, если она согласится.|Wir gehen auch einkaufen. Eric holt uns gegen 10 Uhr ab, wie immer. Vielleicht nehmen wir Kira auch mit, wenn sie will.
+		dn.17.next.5^							А где она будет спать?|Und wo wird sie schlafen?
+
+	dn.17.next.5@68@Ой. Хороший вопрос, Макс. Я как-то об этом не подумала. Может быть, она поспит на твоей кровати с Лизой в комнате, а ты в гостиной как-нибудь?|Ich weiß es nicht, Max. Ich habe nicht darüber nachgedacht. Vielleicht schläft sie in deinem Bett und du ziehst in das Wohnzimmer?
+		dn.17.next.6a^							Ну, я не против|Ich schätze
+		dn.17.next.6b^							Может быть, наоборот?|Was ist mit der anderen Seite?
+
+	dn.17.next.6b@67@Может быть и наоборот. Спросим у неё, как ей комфортнее. Ладно, это всё мелочи. Всем спасибо за ужин. Я побежала, Эрик прислал за мной машину. Вернусь утром.|Vielleicht. Wir werden sie fragen. Wie auch immer, danke für das Essen, ich gehe zu Eric. Das Auto ist schon da. Ich bin morgen früh zu Hause.
+		leave!time^								Хорошо...|Fein
+
+	dn.17.next.6a@67@Вот и хорошо. А вообще, спросим у неё, как ей комфортнее. Ладно, это всё мелочи. Всем спасибо за ужин. Я побежала, Эрик прислал за мной машину. Вернусь утром.|Großartig. Wir werden sie fragen. Wie auch immer, danke für das Essen, ich gehe zu Eric. Das Auto ist schon da. Ich bin morgen früh zu Hause.
+		leave!time^								Хорошо...|Fein
+
+
+
+# --- 18й ужин (суббота) Кира уже приехала|18. Abendessen, Kira ist da.
+
+	dn.18@75@z-dinner-family-1@Всем приятного аппетита!|Guten Appetit, alle zusammen!
+		dn.18.next.1^		Приятного!|Ebenfalls
+
+	dn.18.next.1@41@Мам, а где тётя Кира? Она тебе не рассказывала куда ушла? Или она этой, горничной работает?|Mom, wo ist Tante Kira? Hat sie dir gesagt, wo sie hingegangen ist? Oder ging sie als Dienstmädchen arbeiten oder so?
+		dn.18.next.2^		<i>далее</i>|<i>fortsetzen</i>
+
+	dn.18.next.2@60@Я не знаю, Лиза. Может быть и правда взялась за ум и работает горничной, но что-то сомневаюсь. Это на неё не очень похоже...|Ich weiß nicht, Lisa. Vielleicht hat sie tatsächlich ihr Leben geändert und sie hat einen normalen Job gefunden, aber ich bezweifle es. Sieht ihr nicht ähnlich....
+		dn.18.next.3^		Почему?|Warum?
+
+	dn.18.next.3@62@У вашей тёти шило в заднице! Она не может сосредоточиться на чём-то одном и делать работу. Ей просто скучно. Поэтому, она всё время ищет развлечения, неприятности и, конечно, их находит!|Im Gegensatz zu normalen Menschen könnte deine Tante nie einen Job haben. Sie langweilt sich. Deshalb ist sie immer auf der Suche nach der nächsten großen Sache, und normalerweise findet sie stattdessen nur Probleme.
+		dn.18.next.4^		Расскажи!|Sag es uns, bitte!
+
+	dn.18.next.4@75@Я бы могла многое рассказать, но пусть это сделает она... Хотя... Там такие истории, которые вам точно лучше не слышать...|Ich könnte dir viele Geschichten erzählen, aber du solltest sie bitten, sie selbst zu erzählen. Obwohl du jetzt, da ich darüber nachdenke, wahrscheinlich besser dran wärst ohne sie.
+		dn.18.next.5^		Что, всё так плохо?|Warum, ist es wirklich so schlimm?
+
+	dn.18.next.5@67@Если опустить разврат, разгульный образ жизни, вызывающее поведение, то мне не о чём рассказывать... Но как я уже сказала, надеюсь, она взялась за ум и вы ничего из этого не увидите...|Nun, man muss nichts über ihre genusssüchtige Art und ihr provozierendes Verhalten wissen, dann gibt es wirklich nichts mehr zu erzählen. Ich hoffe wirklich, dass sie sich zum Besten verändert hat, und Sie werden in nichts davon verwickelt sein.
+		dn.18.next.6^		<i>далее</i>|<i>fortsetzen</i>
+
+	dn.18.next.6@49@Мам, я хотела поговорить насчёт наказаний... Мне кажется, что делать это перед всеми неправильно. Ты вот даже запрещаешь нам смотреть всякое, а тут заставляешь других глазеть...|Mom, ich wollte über unsere Strafen reden. Ich denke nicht, dass es eine gute Idee ist, sie öffentlich zu machen. Du lässt uns nicht mal Erotik sehen, aber du zwingst alle dazu....
+		dn.18.next.7!add_liza.mood_-50^		А я не прочь поглазеть!|Es macht mir nichts aus, zuzusehen, wie du bestraft wirst.
+		dn.18.next.7!add_liza.mood_50^		Верно!|Ja!
+
+	dn.18.next.7@62@Лиза. Мы уже об этом разговаривали. Тот факт, что ты этого боишься и стесняешься, говорит лишь о том, что этот стимул очень эффективен. Да, многие родители бы меня осудили за это, но это моя семья и мне решать!|Wir haben schon darüber gesprochen, Lisa. Sie funktionieren genau, weil du dich schämst und Angst hast. Vielleicht würden mich einige Leute dafür verurteilen, aber ihr seid meine Familie und das ist meine Entscheidung!
+		dn.18.next.8^		Разве это не Эрик решил?|Hat Eric das nicht entschieden?
+
+	dn.18.next.8@72@Макс, и ты туда же... Повторю в последний раз: это моё решение и я согласна с доводами Эрика. А то, как вы себя ведёте, лишний раз доказывает, что это правильное решение. Всё. Больше никаких разговоров на эту тему.|Du auch, Max? Zum letzten Mal: Das ist meine Entscheidung und ich stimme Eric zu. Und dein Verhalten beweist, dass mein Strafsystem funktioniert. Wir werden das nicht noch einmal besprechen.
+		dn.18.next.9^		Диктатура!|Tyrann!
+
+	dn.18.next.9@62@А кто спорит? Пока вы живёте со мной в одном доме, вы обязаны слушаться. И не важно, что кто-то из вас уже взрослый. Я ваша мать и вы будете меня слушаться. Всё ясно?|Na und? Das ist keine Demokratie, solange du unter meinem Dach lebst, befolgst du meine Regeln. Es ist mir egal, ob ihr alle erwachsen seid, ich bin eure Mutter und ihr werdet mir zuhören. Verstanden?
+		dn.18.next.10^		Ясно...|Ja...
+
+	dn.18.next.10@75@Вот и хорошо. Всем большое спасибо за ужин!|Gut.\nDanke für das Essen, Leute.
+		leave!time^			Да, спасибо...|Ja, Danke
+
+
+
+# --- 19й ужин (воскресенье)|19. Abendessen, Sonntag
+
+	dn.19@75@z-dinner-family-1@Всем приятного аппетита!|Guten Appetit, alle zusammen!
+		dn.19.next.1^		Приятного...|Guten Appetit
+
+	dn.19.next.1@41@Мам, мне кажется, что ты зря ругаешь тётю Киру. Она такая классная! Весёлая и забавная. А то, что она нам рассказывает, так это же про жизнь, нам нужно знать!|Ich weiß nicht, wovon du gesprochen hast, Mom, Tante Kira ist so großartig! Sie ist so witzig! Und das, was sie uns erzählt, ist wichtig, wir müssen über diese Art von Sachen Bescheid wissen, wir können nicht für den Rest unseres Lebens in einer Blase leben.
+		dn.19.next.2^		Полностью согласен с Лизой!|Ich stimme Lisa zu.
+
+	dn.19.next.2@62@Мне кажется, что вам ещё рано. А когда станете взрослыми, сами всё узнаете!|Ich denke, es ist zu früh für dich, um davon zu erfahren.
+		dn.19.next.3^		Ну вот, опять...|Jetzt geht's wieder los
+
+	dn.19.next.3@21@Мам, да хватит нас оберегать. Мы и правда большие! Макс только и озабочен, как бы за нами подглядывать. Лиза тоже уже не девочка и явно посматривает на мальчиков...|Du musst aufhören, uns zu verhätscheln, Mom. Wir sind keine Kinder mehr. Max ist ein großer Perverser, der nur daran denkt, uns anzugucken. Und Lisa ist auch kein kleines Mädchen, sie ist eindeutig an Jungs interessiert.
+		dn.19.next.4a^		А ты? Что насчёт тебя, Алиса?|Und was ist mit dir, Alice?
+		dn.19.next.4b^		Точно!|Richtrig!
+
+	dn.19.next.4a@22@А что такого? Я тоже не маленькая и могу делать что угодно. Может быть, даже и делаю... но тебя, Макс, это точно не касается. К тому же, я вас защищаю!|Was ist mit mir? Ich bin auch kein Kind und ich kann machen, was ich will. Und Vielleicht tue ich.... Aber das geht dich nichts an, Max. Besonders jetzt, wo ich versuche, für dich einzustehen.
+		dn.19.next.4b^		Ну да, согласен...|Du hast Recht, tut mir leid.
+
+	dn.19.next.4b@62@Взрослые все уже, значит? А в чём проявляется это? Лиза учится на двойки. Макс сидит дома и палец о палец не ударяет. Ты, Алиса, тоже не ясно чем занята... Какие же вы взрослые?|Erwachsene, huh. Und wie zeigt man das? Lisa hängt in der Schule in den Seilen, Max sitzt zu Hause und tut nichts, und du auch, Alice.
+		dn.19.next.5^		Да речь про возраст!|Wir reden über unser Alter!
+
+	dn.19.next.5@60@А я про поведение. Если вы называете себя взрослыми, то должны и вести себя соответственно. Покажите, что вы можете отвечать за свои поступки и можете чего-то добиться. И я изменю свою отношение!|Und ich rede von deinem Verhalten. Wenn man als Erwachsener behandelt werden will, sollte man entsprechend handeln. Beweist euch und ich höre auf, euch wie kleine Kinder zu betrachten.
+		dn.19.next.6^		Справедливо...|Ich schätze, es ist fair.
+
+	dn.19.next.6@41@Мам, мы постараемся тебе показать, что мы уже выросли и нас не нужно так опекать. Макс, Алиса, верно я говорю?|Okay, Mom, wir zeigen dir, dass wir keine kleinen Kinder mehr sind. Max, Alice, stimmt ihr mir zu?
+		dn.19.next.7^		Верно!|Ja!
+
+	dn.19.next.7@62@Ну вот и посмотрим. Я буду рада, если это случится. Ну а пока вы обязаны меня слушаться... Ну всё, всем спасибо за ужин.|Wir werden sehen. Ich werde glücklich sein, wenn das passiert, aber fürs Erste wirst du tun, was ich sage. Danke für das Essen, Leute.
+		leave!time^			Ага, спасибо всем...|Ja, Danke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

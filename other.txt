@@ -1,0 +1,770 @@
+# Все игровые вариативные диалоги|alle Dialoge
+
+	basic.talk@0@text-will-be-replaced|text-will-be-replaced
+		leave^				<i>end</i>|<i>end</i>
+
+
+
+# --- Разговоры, когда NPC не в настроении|Wenn NPCs schlechte Laune haben, sagen sie Max, er soll sich verpissen.
+
+	# --- Настроение -4... -3, т.е. всё ну совсем плохо|Wirklich schlechte Laune, -4.... -3
+	badbadmood.alisa@28@Да пошёл ты! Не хочу тебя видеть даже!|Fick dich! Ich will dich jetzt nicht sehen!
+		leave^														Хорошо...|Fein
+		alisa.cansorry=0&alisa.asksorry!add_alisa.cansorry_1^		Я хотел извиниться|Ich möchte mich entschuldigen.
+	badbadmood.liza@44@Макс, уйди. Не хочу тебя видеть!|Max, geh weg. Ich will dich nicht sehen!
+		leave^														Ок...|Ok
+		liza.cansorry=0&liza.asksorry!add_liza.cansorry_1^			Я хотел извиниться|Ich möchte mich entschuldigen.
+	badbadmood.Mom@74@Макс, я сейчас в очень плохом настроении и не хочу с тобой разговаривать|Max, ich habe schlechte Laune und will nicht mit dir reden.
+		leave^														Понял...|Okay
+		mom.cansorry=0&mom.asksorry!add_mom.cansorry_1^				Я ?отел извиниться|Ich möchte mich entschuldigen.
+	# --- Настроение -2... -1, т.е. всё ещё всё очень плохо|Wirklich schlechte Laune, -2... -1
+	badmood.alisa@28@Макс, отвали! Я не хочу с тобой разговаривать|Hau ab, Max! Ich will nicht mit dir reden.
+		leave^														Хорошо...|Fein
+		alisa.cansorry=0&alisa.asksorry!add_alisa.cansorry_1^		Я хотел извиниться|Ich möchte mich entschuldigen.
+	badmood.liza@44@Макс, уйди пожалуйста. Не хочу сейчас общаться|Max, bitte geh weg. Ich will jetzt nicht reden!
+		leave^														Ок...|Ok
+		liza.cansorry=0&liza.asksorry!add_liza.cansorry_1^			Я хотел извиниться|Ich möchte mich entschuldigen.
+	badmood.Mom@74@Макс, я сейчас не в настроении и не хочу разговаривать|Max, ich bin nicht in der Stimmung und will nicht reden.
+		leave^														Понял...|Okay
+		mom.cansorry=0&mom.asksorry!add_mom.cansorry_1^				Я хотел извиниться|Ich möchte mich entschuldigen.
+
+	# --- Настроение хорошее, но ещё недостаточное для разговора|Die Stimmung ist nicht schlecht, aber es ist immer noch nicht gut genug, um über etwas Bestimmtes zu reden.
+	normalmood.alisa@28@Макс, давай не сейчас...|Max, nicht jetzt...
+		leave^														Хорошо...|Fein
+	normalmood.liza@44@Не сейчас, Макс...|Nicht jetzt, Max...
+		leave^														Ок...|Ok
+	normalmood.Mom@74@Макс, не сейчас, хорошо?|Max, nicht jetzt, okay?
+		leave^														Конечно|Natürlich
+
+
+
+# --- Макс пытается извиняться|Max versucht sich zu entschuldigen.
+
+	alisa.asksorry@23@Хотел извиниться? Каким образом?|Wie?
+		leave^									Ты знаешь, я передумал...|Weißt du, ich habe meine Meinung geändert....
+
+	liza.asksorry@46@Извиниться? Как?|Entschuldigen? Wie?
+		leave^									Кажется, я передумал...|Ich glaube, ich habe meine Meinung geändert....
+
+	mom.asksorry@62@Да? Я тебя слушаю?|Ich höre
+		leave^									В другой раз...|Ein anderes Mal
+
+
+
+# --- Разговоры, когда кулдаун ещё не обнулился|Die Abklingzeit ist noch nicht vorbei.
+
+	diaTired.alisa.0@23@Макс... Не сейчас.|Nicht jetzt, Max.
+		leave^					Ладно...|Okay
+
+	diaTired.liza.0@46@Макс, давай поговорим об этом в другой раз|Lassen Sie uns über dieses ein anderes Mal besprechen.
+		leave^					Хорошо, Лиза...|Okay, Lisa
+
+	diaTired.mom.0@69@Макс, д?вай сменим тему...|Max, lass uns das Thema wechseln.		leave^					Ок, мам...|Okay, Mom.
+
+
+
+# --- Доставка товаров|Lieferung
+
+	delivery.talk@138@e-delivery-1@Здравствуйте! По этому адресу на сегодня назначена доставка. Распишитесь?|Hallo! Ich habe eine Bestellung für diese Adresse. Darf ich Sie bitten, hier zu unterschreiben?
+		delivery.talk.what^			Конечно! А что тут?|Sicher, was ist da drin?
+
+	delivery.talk.what@138@text-will-be-replaced|text-will-be-replaced
+		leave!delivery^				Да, то что нужно. Спасибо!|Ja, das habe ich bestellt. Danke!
+
+
+
+# --- Макс спит|Max ist eingeschlafen
+
+	max.sleep@7@e-max-sleep-1@Как же я хочу спать...|Ich will wirklich schlafen.
+		midnight=0&leave!sleep^			<i>?пать до утра</i>|<i>Schlafen bis morgens</i>
+		midnight=1&liza.night.m1^		<i>спать до утра</i>|<i>Schlafen bis morgens</i>
+		midnight=2&liza.night.m2^		<i>спать до утра</i>|<i>Schlafen bis morgens</i>
+		midnight=3&liza.night.m3^		<i>спать до утра</i>|<i>Schlafen bis morgens</i>
+
+
+# --- Макс разбирает коробки|Max beim auspacken der Kisten
+
+	max.unboxcam@15@e-cambox@Так, мама попросила разобрать коробки. Сейчас глянем, что тут у нас...|Also hat Mom darum gebeten, die Kisten zu sortieren. Mal sehen, was wir hier haben....
+		max.unboxcam.1!set_can.unboxcam_2^						<i>далее</i>|<i>fortfahren</i>
+	max.unboxcam.1@6@Жаль, но все коробки пустые... Но что это такое? Какая-то камера?|Schade, dass die Kisten leer sind.... aber was ist das? Eine Art Kamera?
+		max.unboxcam.2^											<i>прочитать бумажки</i>|<i>Lesen Sie die Anleitung</i>
+	max.unboxcam.2@3@Тут внутри какая-то инструкция, описание... Да это скрытая камера! Любопытно, зачем она понадобилась отцу?|Einige Anweisungen, Beschreibungen im Inneren.... Es ist eine versteckte Kamera! Ich frage mich, warum Vater es brauchte.
+		max.unboxcam.3!set_can.searchcam_1!set_poss.cam_1^		<i>далее</i>|<i>fortfahren</i>
+	max.unboxcam.3@8@Может быть, она установлена где-то в доме и за нами кто-то наблюдает?! Нужно будет осмотреть дом...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность!»</i></color>|Vielleicht ist es irgendwo im Haus installiert und jemand beobachtet uns?! Ich sollte mir das Haus ansehen....\n\n<color=lime><i><b>Warnung:</b> Neue "Gelegenheit" vorhanden!</i></color>
+		leave^													<i>зако?чить</i>|<i>beenden</i>
+		max.aboutpossibilities^									<i>узнать подробнее о «Возможностях»</i>|<i>mehr über "Gelegenheiten" erfahren</i>
+
+
+
+# --- Информация о возможностях|Infos zu den Möglichkeiten
+
+	max.aboutpossibilities@0@story-max@«Возможности» - это особые пути, по которым можно пройти, чтобы достичь какого-то результата. Обычно они скрыты и не очень очевидны.|"Gelegenheiten" - sind besondere Wege, um ein Ergebnis zu erzielen. Sie sind meist versteckt und nicht allzu offensichtlich.
+		max.aboutpossibilities.1^								<i>далее</i>|<i>fortfahren</i>
+	max.aboutpossibilities.1@1@Некоторые действия в игре открывают такие «возможности». Увидеть их можно на соответствующем экране, который можно открыть через верхнее меню.|Einige der Aktionen im Spiel eröffnen solche "Gelegenheiten". Sie sind auf dem entsprechenden Bildschirm zu sehen, der über das Hauptmenü aufgerufen werden kann.
+		max.aboutpossibilities.3^								<i>далее</i>|<i>fortfahren</i>
+	max.aboutpossibilities.3@0@Некоторые «возможности» временные. Некоторые могут привести к нежелательному результату. Не стоит хвататься за первую попавшуюся и слепо следовать подсказкам!|Einige der "Gelegenheiten" sind zeitlich begrenzt. Einige können zu unerwünschten Ergebnissen führen. Folgen Sie den Hinweisen nicht blind, denken Sie darüber nach, was Sie in dem Fall tun!
+		max.aboutpossibilities.4^								<i>далее</i>|<i>fortfahren</i>
+	max.aboutpossibilities.4@4@Но и бояться их не стоит. Именно благодаря «возможностям» можно добиться того, о чём некоторые даже не мечтают!|Aber Sie sollten auch keine Angst vor ihnen haben. "Gelegenheiten" wird Ihnen helfen, Ihre Ziele und Träume zu erreichen!
+		leave^													<i>всё ясно</i>|<i>Alles Klar</i>
+		max.aboutpossibilities^									<i>повторить</i>|<i>Wiederholen</i>
+
+
+
+# --- Макс не нашёл камеру|Max konnte die Kamera nicht finden.
+
+	max.cantfindcam@2@Кажется, здесь нет никаких камер... Может быть, стоит поискать в другой комнате?|Sieht aus, als gäbe es keine Kameras.... Vielleicht sollte ich in einem anderen Raum suchen?
+		leave!time^												<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- Макс нашёл камеру|Max hat die Kamera gefunden.
+
+	max.foundcam@4@e-max-found-cam@Ого! Вот же она! Кто-то её так хорошо запрятал в стену, что найти камеру можно только точно зная, что ищешь...|Das ist sie! Jemand versteckte das Ding in der Wand und ich würde es nie finden, ohne genau zu wissen, wonach ich suchen sollte....
+		max.foundcam.2^											<i>далее</i>|<i>fortfahren</i>
+
+	max.foundcam.2@6@Так... Но она ни к чему не подключена сейчас. Видимо, отец так следил за ходом строительства и ремонта, а сейчас уже некому следить и не за чем...|Es hat nichts damit zu tun. Ich schätze, Vater hat den Bau des Hauses übersehen.
+		max.foundcam.3^											<i>далее</i>|<i>fortfahren</i>
+
+	max.foundcam.3@4@Но если её подключить, то можно подглядывать и за кое-чем другим. Вот только нужно во всём как следует разобраться!|Wenn ich mich mit dieser Kamera verbinden kann, denke ich, dass ich diesen Raum ausspionieren kann. Jetzt muss ich nur noch herausfinden, wie ich mich mit dieser Kamera verbinden kann.
+		leave!set_poss.cam_2!set_can.searchcam_2^				<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- Макс моет посуду после завтрака|Max putzt das Geschirr nach dem Frühstück.
+
+	wash.dishes.morning@0@e-max-dishes-1@Эх... столько посуды. И почему в этом огромном доме нет маленькой посудомоечной машины?|Sieh dir diesen Berg von schmutzigem Geschirr an! Warum haben wir keinen Geschirrspüler?
+		leave!run_morningdishes!add_alisa.mood_60!time^				<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- Разговор с Алисой насчёт посуды, пока та её моет|Gespräch mit Alice beim Geschirrspülen
+
+	alisa.talk.aboutdishes.init@0@Насч?т посуды...|Wegen dem Abwasch...
+	alisa.talk.aboutdishes@23@Хочешь о посуд? поговорить или пришёл помочь?|Willst du helfen oder bist du nur gekommen, um zuzusehen?
+		alisa.talk.aboutdishes.help^								Давай, я домою остальное|Lass mich den Rest erledigen.
+		alisa.talk.aboutdishes.no^									Нет, просто хотел поглазеть|Ich will nur zusehen, wie du arbeitest.
+
+	alisa.talk.aboutdishes.help@31@Что это с тобой? Но я не откажусь. И... спасибо.|Wirklich? Klingt nicht nach dir. Ich lehne das Angebot aber nicht ab. Ich danke Dir.
+		alisa.talk.aboutdishes.help.wash!add_alisa.mood_60^			<i>мыть посуду</i>|<i>Abwasch erledigen</i>
+
+	alisa.talk.aboutdishes.help.wash@15@e-max-dishes-1@И почему здесь нет посудомоечной машины...|Warum wir keinen Geschirrspüler haben....
+		leave!set_dishes.status_2!add_dishes.washed_1!time^			<i>закончить</i>|<i>beenden</i>
+
+	alisa.talk.aboutdishes.no@28@Знаешь что, вали отсюда, ?ока мокрой тряпкой по голове не получил!|Weißt du was, verschwinde, bevor ich dich mit einem nassen Lappen schlage!
+		leave!lock^										<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Разговор с Лизой насчёт посуды, пока та её моет|Gespräch mit Lisa beim Geschirrspülen
+
+	liza.talk.aboutdishes.init@0@Насчёт посуды...|Wegen dem Abwasch...
+	liza.talk.aboutdishes@46@А что насчёт посуды?|Was ist damit?
+		liza.talk.aboutdishes.help^									Хочешь, я помогу тебе домыть остальное?|Willst du meine Hilfe bei dem Rest?
+		liza.talk.aboutdishes.no^									Нет, ничего...|Nein, nichts
+
+	liza.talk.aboutdishes.help@48@А вот знаешь... хочу! Да, спасибо, Макс!|Weißt du was.... Das tue ich! Ja, danke, Max!
+		liza.talk.aboutdishes.help.wash!add_liza.mood_60^			<i>мыть посуду</i>|<i>Abwasch erledigen</i>
+
+	liza.talk.aboutdishes.help.wash@15@e-max-dishes-1@И чего я этим занимаюсь? Делать нечего, что ли...|Warum verschwende ich meine Zeit....?
+		leave!set_dishes.status_2!add_dishes.washed_1!time^			<i>закончить</i>|<i>beenden</i>
+
+	liza.talk.aboutdishes.no@42@Ну раз ничего, то нечего меня отвлекать. Иди делом займись!|Dann unterbreche mich nicht! Mach dich nützlich!
+		leave!lock^													Хорошо, пойду займусь|Okay
+
+
+
+# --- Макс читает книгу web book 1|Max liest das Webbuch
+
+	max.read@15@e-maxread-1@Пришло время почитать что-то...|It's time to read something...
+		count.webbook1.read=0&max.readwebbook1.start1^									<i>читать «Web Standards»</i>|<i>lese "Web Standards"</i>
+		count.webbook1.read=1&max.readwebbook1.start2^									<i>читать «Web Standards»</i>|<i>lese “Web Standards”</i>
+		count.webbook1.read=2&max.readwebbook1.start3^									<i>читать «Web Standards»</i>|<i>lese “Web Standards”</i>
+		count.webbook1.read=3&max.readwebbook1.start4^									<i>читать «Web Standards»</i>|<i>lese “Web Standards”</i>
+		count.webbook1.read=4&max.readwebbook1.start5^									<i>читать «Web Standards»</i>|<i>lese “Web Standards”</i>
+		leave^																			В другой раз...|Ein anderes Mal...
+
+	max.readwebbook1.start1@15@Хм... куча непонятных слов. Кажется, нужно будет заново перечитать первые главы...\n\n<i><color=orange>(Книга изучена на 20%)</color></i>|Hmm... bunch of gibberish. Looks like I need to reread first chapters again...\n\n<i><color=orange>(Das Buch ist zu 20% fertig)</color></i>
+		leave!add_count.webbook1.read_1!set_cd.read_4!time^								<i>закончить</i>|<i>beenden</i>
+	max.readwebbook1.start2@15@Так, ну с этим я уже разобрался, хорошо... А это что такое? Не ясно. Нужно будет всё осмыслить...\n\n<i><color=orange>(Книга изучена на 40%)</color></i>|Okay, ich verstehe diesen Teil.... Aber wie funktioniert das? Ich verstehe es nicht. Ich muss es herausfinden....\n\n<i><color=orange>(Das Buch ist zu 40% fertig)</color></i>
+		leave!add_count.webbook1.read_1!set_cd.read_4!time^								<i>закончить</i>|<i>beenden</i>
+	max.readwebbook1.start3@15@Ого, вот это здорово! Уже можно делать сайт? А, нет... Ещё не всё понятно... Ну, разберусь в другой раз.\n\n<i><color=orange>(Книга изучена на 60%)</color></i>|Wow, das ist toll! Sollte ich versuchen, meine Website zu erstellen? Nein, warte.... Dafür ist es zu früh.\n\n<i><color=orange>(Das Buch ist zu 60% fertig)</color></i>
+		leave!add_count.webbook1.read_1!set_cd.read_4!time^								<i>закончить</i>|<i>beenden</i>
+	max.readwebbook1.start4@15@Так, ну теперь картина вырисовывается. Осталось разобраться только с мелочами... Или это не мелочи?\n\n<i><color=orange>(Книга изучена на 80%)</color></i>|Ich fange an, das Gesamtbild zu verstehen. Ich bin fast fertig, nur noch ein paar Kleinigkeiten.\n\n<i><color=orange>(Das Buch ist zu 80% fertig)</color></i>
+		leave!add_count.webbook1.read_1!set_cd.read_4!time^								<i>закончить</i>|<i>beenden</i>
+	max.readwebbook1.start5@3@Всё, вот теперь точно всё понятно! Я уже могу сделать свой сайт и транслировать на него изображение! Но как получать за это деньги?|Jetzt ist alles klar! Ich kann meine Website erstellen und das Video senden! Aber wie wird man dafür bezahlt?
+		leave!add_count.webbook1.read_1!set_cd.read_4!set_poss.cam_4!time^				<i>закончить</i>|<i>beenden</i>
+
+
+# --- Макс чистит бассейн|Max reinigt den Pool.
+
+	max.clearpool@15@e-clearpool@Эх... Не лёгкая это работа, но нужно отработать те деньги, что мама уже заплатила...|Es ist keine leichte Arbeit, aber ich brauche das Geld. Außerdem hat Mom mich bereits für den Job bezahlt.
+		leave!set_task.clearpool_2!add_mom.inf_-5!set_dcd.clearpool_6!add_mom.help.score_5!time^				<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- Макс роется в вещах Алисы и находит книгу|Max sucht das erotische Buch in Alices Zimmer.
+
+	max.findbook@8@Так... И с чего начать поиск? И нужно поспешить: если Алиса меня поймает, то сначала убьёт, а только потом поздоровается...|Wo soll ich anfangen....? Ich muss mich beeilen, wenn Alice mich erwischt, tötet sie mich zuerst und stellt später Fragen....
+		max.findbook.1^					<i>искать под подушкой</i>|<i>Schau unter das Kissen</i>
+		max.findbook.2^					<i>искат? под кроват?ю</i>|<i>Schau  unter das Bett</i>
+		max.findbook.3^					<i>?скать в шкафу</i>|<i>Schau in den Schrank</i>
+		max.findbook.4^					<i>искать в с?оле</i>|<i>Schau auf dem Tisch</i>
+		leave^							<i>прекратить</i>|<i>stop</i>
+
+	max.findbook.1@14@Нет, здесь её нет... Ну где же эта чёртова книга? Шаги? Нет, показалось...|Nicht hier.... Wo ist dieses verdammte Buch? Habe ich ein paar Schritte gehört? Nein, ich glaube, ich habe es mir vorgestellt....
+		max.findbook.2^					<i>искать под кроватью</i>|<i>Schau unter das Bett</i>
+		max.findbook.3^					<i>искать в шкафу</i>|<i>Schau in den Schrank</i>
+		max.findbook.4^					<i>искать в столе</i>|<i>Schau auf dem Tisch</i>
+
+	max.findbook.2@14@Нет, тут её точно нет. Ну где же она? Кажется, я слышу шум...|Definitiv nicht hier. Wo ist es? Ich glaube, ich habe etwas gehört....
+		max.findbook.1^					<i>искать под подушкой</i>|<i>Schau unter das Kissen</i>
+		max.findbook.3^					<i>искать в шкафу</i>|<i>Schau in den Schrank</i>
+		max.findbook.4^					<i>искать в столе</i>|<i>Schau auf dem Tisch</i>
+
+	max.findbook.4@14@Может быть, её здесь нет? Или попытаться ещё поискать, на свой страх и риск?|Vielleicht ist es nicht hier? Soll ich trotz der Gefahr weitermachen?
+		max.findbook.1^					<i>искать под подушкой</i>|<i>Schau unter das Kissen</i>
+		max.findbook.2^					<i>искать под кроватью</i>|<i>Schau unter das Bett</i>
+		max.findbook.3^					<i>искать в шкафу</i>|<i>Schau in den Schrank</i>
+
+	max.findbook.3@4@e-foundbook1@Вот же она! И зачем её так прятать? Любопытная обложка. Запомню-ка я название. Интересно, о чём эта книга? Может быть, погуглить? Так, всё, надо уходить...|Da ist es! Warum musste sie es verstecken? Interessante Tarnung. Ich frage mich, worum es in diesem Buch geht. Ich werde mir den Namen merken und ihn im Internet nachschlagen.
+		leave!set_poss.secretbook_2!time^	<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- Макс роется в вещах Алисы с целью найти сигареты и положить их так, чтобы мама заметила|Auf der Suche nach Zigaretten
+
+	max.betray.alisa@8@Так... Где же Алиса спрятала сигареты сегодня?|Also.... Wo hat Alice heute ihre Zigaretten versteckt?
+		max.betray.alisa.look.no^									<i>искать под кроватью</i>|<i>Schau unter das Bett</i>
+		dcd.alisasmoke=0&day<4&max.betray.alisa.look.no^			<i>искать в тумбочке</i>|<i>Schau in den Nachtschrank</i>
+		dcd.alisasmoke=0&day>3&max.betray.alisa.look.found^			<i>искать в тумбочке</i>|<i>Schau in den Nachtschrank</i>
+		dcd.alisasmoke=0&day<4&max.betray.alisa.look.found^			<i>искать в столе</i>|<i>Schau auf dem Tisch</i>
+		dcd.alisasmoke=0&day>3&max.betray.alisa.look.no^			<i>искать в столе</i>|<i>Schau auf dem Tisch</i>
+		dcd.alisasmoke>0&max.betray.alisa.look.no^					<i>искать в тумбочке</i>|<i>Schau in den Nachtschrank</i>
+		dcd.alisasmoke>0&max.betray.alisa.look.no^					<i>искать в столе</i>|<i>Schau auf dem Tisch</i>
+
+	max.betray.alisa.look.no@14@Кажется, здесь их нет... Пора уходить, а то если кто-то заметит меня...|Sieht aus, als wären sie nicht hier.... Es ist Zeit zu gehen, wenn sie mich erwischt....
+		leave!time^								<i>уйти</i>|<i>verlassen</i>
+
+	max.betray.alisa.look.found@4@e-foundc@Ага, нашёл! Так... Теперь их нужно положить таким образом, чтобы мама их заметила, если заглянет в комнату...|Ich habe sie gefunden! Jetzt muss ich sie irgendwo platzieren, wo Mom sie finden wird, wenn sie in den Raum schaut...
+		leave!set_dcd.Momcanfindcigas_1!set_dcd.triedbetraycigas_1!time^		<i>подставить Алису</i>|<i>Alice ausliefern</i>
+		leave!set_dcd.triedbetraycigas_1!time^									<i>не подставлять Алису</i>|<i>Alice nicht ausliefern</i>
+
+
+# --- Макс пытается найти паука (удачная попытка)|versuchen, die Spinne zu fangen, Erfolg
+
+	max.canfindspider@15@e-spider-search-1@Так, пока никого нет, попробуем проверить траву...|Ich sollte das Gras überprüfen, während niemand in der Nähe ist.
+		dcd.canfindspider=0&max.canfindspider.find^						<i>искать...</i>|<i>suchen ....</i>
+		dcd.canfindspider>0&max.canfindspider.not^						<i>искать...</i>|<i>suchen ....</i>
+		leave^															<i>уйти</i>|<i>verlassen</i>
+
+	max.canfindspider.find@4@e-spider-found-1@Ага! Попался! Отлично...|Hab ich dich! Ausgezeichnet....
+		leave!set_item.spider_-5!time!set_dcd.canfindspider_2!max_poss.spiders_3^			<i>взять паука</i>|<i>die Spinne nehmen</i>
+
+	max.canfindspider.not@13@Нет, ничего похожего на большого страшного паука тут нет... Может быть, я всех переловил и стоит подождать денёк-другой?|Sieht nicht so aus, als würde ich eine finden.... Vielleicht habe ich sie alle verschreckt und sollte ein oder zwei Tage warten.
+		leave!time^														<i>закончить</i>|<i>beenden</i>
+
+
+# --- Макс пытается найти паука (неудачная попытка)|versuchen, die Spinne zu fangen, Versagen
+
+	max.cantfindspider@15@e-spider-search-1@Так, пока никого нет, попробуем проверить траву...|Ich kann kein Exemplar finden. Vielleicht sollte ich das Gras überprüfen....
+		dcd.canfindspider=0&max.cantfindspider.nothing^					<i>искать...</i>|<i>suchen ...</i>
+		dcd.canfindspider>0&max.cantfindspider.nothing2^				<i>искать...</i>|<i>suchen ...</i>
+		leave^															<i>уйти</i>|<i>verlassen</i>
+
+	max.cantfindspider.nothing@13@Нет, ничего здесь нет. Может быть, не самое подходящее для этого время?|Hier ist nichts. Vielleicht ist es nicht die beste Zeit dafür?
+		leave!time^														<i>закончить</i>|<i>beenden</i>
+
+	max.cantfindspider.nothing2@13@Нет, ничего здесь нет. Может быть, не самое подходящее для этого время? Да и ловил я уже одного недавно... Может быть, подождать денёк-другой?|Nein, hier ist nichts. Vielleicht ist es nicht die beste Zeit, das zu tun? Ja, und ich habe kürzlich einen gefangen.... Vielleicht sollte ich mal warten?
+		leave!time^														<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- Макс пытается подсунуть Алисе паука в кровать|Max is trying to hide the spider in the Alice's bed
+
+	hide.spider.alisa.bed@15@e-spider-bed-1@Интересно, что будет, если Алиса заметит паука ночью? Она прибежит за помощью? Вот только этот монстр может сбежать... Так что, чем позже его спрячу под одеялом, тем больше шансов на успех...|Ich frage mich, was passiert, wenn Alice nachts eine Spinne bemerkt? Wird sie Hilfe holen kommen? Aber das Monster kann entkommen.... Also, später werde ich es unter der Decke verstecken, je größer die Chance auf Erfolg....
+		hour>0&hour<21&hide.spider.alisa.bed.fail^										<i>Подложить сейчас</i> [skill.luck_0]|<i>Jetzt verstecken</i> [skill.luck_0]
+		random.luck.50=0&hour>20&hour<23&hide.spider.alisa.bed.fail^					<i>Подложить сейчас</i> [skill.luck_50]|<i>Jetzt verstecken</i> [skill.luck_50]
+		random.luck.50=1&hour>20&hour<23&hide.spider.alisa.bed.try^						<i>Подложить сейчас</i> [skill.luck_50]|<i>Jetzt verstecken</i> [skill.luck_50]
+		random.luck.70=1&hour=23&hide.spider.alisa.bed.try^								<i>Подложить сейчас</i> [skill.luck_70]|<i>Jetzt verstecken</i> [skill.luck_70]
+		random.luck.70=0&hour=23&hide.spider.alisa.bed.fail^							<i>Подложить сейчас</i> [skill.luck_70]|<i>Jetzt verstecken</i> [skill.luck_70]
+		random.luck.80=1&hour=0&hide.spider.alisa.bed.try^								<i>Подложить сейчас</i> [skill.luck_80]|<i>Jetzt verstecken</i> [skill.luck_80]
+		random.luck.80=0&hour=0&hide.spider.alisa.bed.fail^								<i>Подложить сейчас</i> [skill.luck_80]|<i>Jetzt verstecken</i> [skill.luck_80]
+		leave^																			В другой раз...|Ein anderes Mal...
+
+	hide.spider.alisa.bed.fail@4@Ну, будем надеяться, что паук не сбежит до того, как Алиса ляжет спать...|Nun, hoffen wir, dass die Spinne nicht wegläuft, bevor Alice schläft.
+		leave!set_item.spider_-1!set_dcd.canfindspider_2!set_spiderinbed_0^				Готово!|Fertig!
+
+	hide.spider.alisa.bed.try@4@Ну, будем надеяться, что паук не сбежит до того, как Алиса ляжет спать...|Nun, hoffen wir, dass die Spinne nicht wegläuft, bevor Alice schläft.
+		leave!set_item.spider_-1!set_dcd.canfindspider_2!set_spiderinbed_1^				Гот?во!|Fertig!
+
+
+# --- Девчонки уходят на шоппинг|Die Mädchen gehen zum Einkaufen.
+
+	shopping.default@75@e-shopping-1@Макс! Мы ушли на шоппинг. Не скучай тут без нас, хорошо? Вернёмся часа через 3...|Max! Wir gehen einkaufen. Langweile dich nicht ohne uns, okay? Wir kommen in 3 Stunden wieder....
+		canshopping>0&ericmd>1&09.fa.1!initshop!set_dont_1^				Мам, я пойду с вами, подождите!|Warte, Mom, ich komme mit euch!
+		canshopping>0&ericmd<2&09.fa.1.eric!initshop!set_dont_1^		Мам, я пойду с вами, подождите!|Warte, Mom, ich komme mit euch!
+		leave!move_pool!can^											Удачи!|Viel Glück!
+
+
+
+# --- Девчонки возвращаются с первого шоппинга|Mädchen, die vom Einkaufen zurückkehren
+
+	shopping.1.back@41@e-shopping-back-1@Привет, Макс! Мы вернулись...|Hi, Max! Wir sind zurück
+		shopping.1.back.so^								Ну как, удачно сходили?|Wie war dein Einkaufsbummel?
+
+	shopping.1.back.so@23@Ну, так... Платье мне, конечно, не купили. Даже то очень длинное, которое чуть выше колен...|Nicht so toll. Wir haben nicht das Kleid gekauft, das ich wollte. Nichtmal das lange, welches bis über das Knie reicht...
+		shopping.1.back.so.why^							А почему не купили?|Warum nicht?
+
+	shopping.1.back.so.why@21@А вот у мамы спроси...|Frag Mom...
+		shopping.1.back.so.why.Mom^						Мам?|Mom?
+
+	shopping.1.back.so.why.Mom@62@Алиса, мы это уже обсуждали. Я против платьев, где у тебя всё видно. То, что оно длинное, не значит, что твою задницу не видно через разрез до ушей...|Alice, wir haben es schon besprochen. Das Kleid war zu offen, die Leute konnten deinen Arsch fast knacken sehen.
+		shopping.1.back.so.why.mom.yeah^				Да, жаль, что не купили его...|Schade, dass du es nicht gekauft hast.
+		shopping.1.back.so.why.mom.yeah^				Я бы с удовольствием на это посмотрел...|Ich würde es mir gerne ansehen.
+
+	shopping.1.back.so.why.mom.yeah@22@Ну, теперь остаётся только мечтать. Спасибо тебе мама за чудесный шоппинг... Лизе тоже понравилось, видимо...|Nun, jetzt können wir nur noch träumen. Danke Mom für einen wunderbaren Einkauf.... Ich glaube, Lisa hat es auch gefallen....
+		shopping.1.back.so.liza!set_poss.swimsuit_3^	А что с Лизой? Купальник купили?|Und was ist mit Lisa? Hast du einen Badeanzug gekauft?
+
+	shopping.1.back.so.liza@46@Нет. Мама сказала, что тот который я хотела, слишком дорогой, а остальные слишком открытые...|Nein. Mom sagte, der, den ich wollte, war zu teuer, und die anderen sind zu offen....
+		shopping.1.back.so.liza.price^					Слишком дорогой это сколько?|Und wie viel ist zu teuer?
+		shopping.1.back.so.liza.open^					Насколько открытые?|Wie offen?
+
+	shopping.1.back.so.liza.price@62@Купальник не может стоить таких денег, а она выбрала дизайнерский какой-то. Как будто мы тут миллионеры все...|Badeanzug sollte nicht so viel Geld kosten, sie hat sich für ein Designermodell entschieden. Wir sind keine Millionäre.
+		shopping.1.back.so.liza.open^					Ясно. А насколько открытыми были остальные?|Ich hab's. Und wie offen waren andere?
+
+	shopping.1.back.so.liza.open@75@Ну тебе бы точно понравилось, как и всем мужикам, кто её бы увидел, но Лиза ещё маленькая, чтобы в таком виде появляться на публике. Так что...|Nun, du hättest es gemocht, wie alle Männer, aber Lisa ist zu jung, um so etwas in der Öffentlichkeit zu tragen.
+		shopping.1.back.so.so^							Всё ясно...|Ich verstehe
+
+	shopping.1.back.so.so@23@В общем, бесполезно потратили время. Но Эрик обещал, что на следующий шоппинг купит нам всё, что мы захотим, да, мам?|Also haben wir unsere Zeit verschwendet. Aber Erik hat versprochen, dass er uns beim nächsten Einkauf alles kaufen würde, was wir wollen, richtig, Mom?
+		shopping.1.back.so.so.wtf^						Что?!|Was?!
+
+	shopping.1.back.so.so.wtf@62@Алиса, хватит мечтать. Это всё выглядит так, как будто вы хотите из него выкачать как можно больше денег. Успокойтесь и будьте скромнее...|Hör auf, Alice. Sieht so aus, als wolltest du nur so viel Geld wie möglich von ihm bekommen. Beruhige dich und sei bescheiden.
+		shopping.1.back.so.so.wtf.right^				Верно, сами разберёмся без Эрика|Es ist wahr, wir können das alleine machen, ohne Eric.
+		shopping.1.back.so.so.wtf.eric^					Кстати, где он?|Übrigens, wo ist er?
+
+	shopping.1.back.so.so.wtf.right@75@Вот, Макс понимает, что это некрасиво клянчить деньги у других...|Siehst du, Max weiß, dass es schlecht ist, zu betteln.
+		shopping.1.back.so.so.wtf.eric^					Кстати, где он?|Übrigens, wo ist er?
+
+	shopping.1.back.so.so.wtf.eric@60@Эрик подъедет к ужину. Сейчас у него какие-то дела. Не переживай, сегодня ты его увидишь.|Eric ist beschäftigt, er kommt zum Essen vorbei. Keine Sorge, du wirst ihn heute sehen.
+		shopping.1.back.so.so.wtf.eric.no^				Да я и не переживаю...|Ich mache mir keine Sorgen.
+
+	shopping.1.back.so.so.wtf.eric.no@75@Вот и отлично. Ладно, поболтаем позже...|Das ist großartig. Nun, lass uns später plaudern....
+		leave!rem_shopping.1.back!move_pool!set_specialevent_2!can^			Ага...|Jaja
+
+
+
+# --- Девчонки возвращаются со второго шоппинга|Mädchen kehren vom zweiten Einkauf zurück
+
+	shopping.2.back@75@e-shopping-back-1@Привет, Макс! Мы вернулись...|Hi, Max! Wir sind zurück
+		poss.swimsuit>3&shopping.2.back.so^													Рассказывайте, что купили?|Sag mir, was du gekauft hast
+		poss.swimsuit<4&shopping.2.back.swimsuit^											Рассказывайте, что купили?|Sag mir, was du gekauft hast?
+
+	shopping.2.back.swimsuit@43@А мне Эрик подарил купальник! Именно такой, как я и хотела! Красный, представляешь?!|Eric gab mir einen Badeanzug! Genau wie den, den ich wollte!
+		shopping.2.back.swimsuit.red!set_poss.swimsuit_5!add_liza.reperic_1!art_z-liza-sun1-1_e-liza-new-swimsuit-1_-1!art_z-liza-swim1-1_e-liza-new-swim-1_-1!set_liza.swimsuit_1^		Ясно...|Oh...
+
+	shopping.2.back.swimsuit.red@41@Что? Ты за меня не рад? Я же теперь смогу загорать в нормальном виде!|Was? Freust du dich nicht für mich? Jetzt kann ich mich wie normale Menschen sonnen!
+		shopping.2.back.so^																	Конечно, рад... Что-то ещё хорошее купили?|Natürlich bin ich glücklich. Habt Ihr noch etwas anderes gekauft?
+
+	shopping.2.back.so@41@Да так, вскую ерунду... Для нас, девочек. Тебе это не интересно...|Ein paar Sachen für uns, Mädels. Es wird für Dich nicht interessant sein.
+		poss.nightclub<5&shopping.2.back.so.dress^											Понятно...|Okay
+		poss.nightclub>4&shopping.2.back.so.nothing^										Понятно...|Okay
+
+	shopping.2.back.so.dress@31@Ты забыла про самое главное, Лиза. Мне Эрик купил платье! Представляешь?!|Du hast das Wichtigste vergessen, Lisa. Eric hat mir ein Kleid gekauft! Kannst du dir das vorstellen?!
+		shopping.2.back.so.dress.great!add_alisa.reperic_1!set_alisa.dress_1^				Да, это чудесно...|Jaja, Wunderbar...
+
+	shopping.2.back.so.dress.great@33@Вот именно! Теперь я смогу ходить по клубам, а не сидеть дома вечерами! Эрик такой молодец. Я в восторге!|Genau! Jetzt kann ich in den Club gehen, anstatt die ganze Zeit zu Hause zu sitzen! Eric ist so großartig! Ich bin glücklich!
+		poss.nightclub=1&shopping.2.back.so.dress.great.so!set_poss.nightclub_4^			?оздравляю...|Herzlichen Glückwunsch....
+		poss.nightclub=2&shopping.2.back.so.dress.great.so!set_poss.nightclub_3^			Поздравляю...|Herzlichen Glückwunsch...
+
+	shopping.2.back.so.dress.great.so@67@Макс, ты какой-то грустный. Что-то случилось? Или мне показалось?|Max, du siehst traurig aus. Ist etwas passiert?
+		leave!rem_shopping.2.back!alisadress!can^											Показалось, мам...|Alles ist in Ordnung, Mom.
+
+	shopping.2.back.so.nothing@22@Не переживай. Ты всегда можешь заработать и купить себе сам всё, что хочешь...|Mach dir keine Sorgen. Wir können immer Geld verdienen und kaufen, was wir wollen....
+		leave!rem_shopping.2.back!alisadress!can^											Спасибо за совет...|Danke für den Ratschlag
+
+
+
+# --- Знакомство с Эриком|Treffen mit Eric
+
+	specialevent.2@60@e-meet-eric-1@Макс, подойди пожалуйста. К нам приехал Эрик. Знакомься...|Max, komm bitte her. Eric ist hier. Geh und stell dich ihm vor.
+		specialevent.2.next!set_can.seeeric_1^	<i>далее</i>|<i>fortfahren</i>
+
+	specialevent.2.next@75@e-meet-eric-2@Знакомься, это - Эрик. Эрик, это Макс, мой сын...|Max, das ist Eric. Eric, das ist Max, mein Sohn.
+		specialevent.2.good^					Очень приятно...|Freut mich, Dich kennenzulernen.
+		specialevent.2.mid^						<i>пром?лчать</i>|<i>sei ruhig</i>
+		specialevent.2.bad^						Я думал он выше...|Ich dachte, er wäre größer.
+
+	specialevent.2.good@86@Мне тоже. Как жизнь, Макс, чем занимаешься?|Ich auch. Wie geht es dir, Max, was machst du so?
+		specialevent.2.good.good^				Всё отлично. Ищу себя, так сказать...|Alles ist gut. Ich finde mich selbst.
+		specialevent.2.good.mid^				Да то тем, то этим...|Dies und das....
+		specialevent.2.good.bad^				Отвечаю вот на дурацкие вопросы...|Nun, im Moment beantworte ich dumme Fragen.
+
+	specialevent.2.mid@81@Очень приятно, Макс. А ты у нас не очень разговорчивый, да?|Freut mich, Max. Du bist ein ganz schöner Kerl, nicht wahr?
+		specialevent.2.mid.good^				Стараюсь больше слушать...|Ich versuche zuzuhören
+		specialevent.2.mid.mid^					Типа того...|So etwas in der Art
+		specialevent.2.mid.bad^					Да было бы о чём говорить...|Wir haben nichts zu bereden.
+
+	specialevent.2.bad@83@Извини, Макс, что не оправдал твои ожидания. В любом случае, приятно с тобой познакомиться...|Tut mir leid, dass ich deine Erwartungen nicht erfüllt habe, Max. Wie auch immer, schön, Dich kennenzulernen.
+		specialevent.2.bad.good^				Да, мне тоже. Извините...|Jaja auch. Entschuldigung
+		specialevent.2.bad.mid^					Ага...|Jaja
+		specialevent.2.bad.bad^					А мне вот не очень...|Ich kann nicht dasselbe sagen.
+
+	specialevent.2.good.good@90@Отличные слова, Макс. Ну, надеюсь, найдёшь то, что ищешь...|Ausgezeichnete Worte, Alex. Ich hoffe, Sie finden, was Sie suchen.
+		specialevent.2.dinner.good^				Ага, спасибо...|Danke
+
+	specialevent.2.good.mid@80@Понятно. Воздух пинаешь... Ну ничего, в своё время всё изменится...|Also nichts Wichtiges. Keine Sorge, die Dinge werden sich bald ändern.
+		specialevent.2.dinner.mid^				Я не пинаю воздух...|Es ist nicht so....
+
+	specialevent.2.good.bad@81@Ого, какие мы дружелюбные, ну что же, не буду тебя утомлять своими вопросами...|Nun, du bist zu freundlich.... Fein, ich werde dich nicht mit meinen Fragen belästigen.
+		specialevent.2.dinner.bad^				Ну и ладно...|Okay, Fein...
+
+	specialevent.2.mid.good@90@Вот это да! Молодец, Макс. Вот это правильный подход.|Gut gemacht, Max. Das ist eine großartige Lebenseinstellung.
+		specialevent.2.dinner.good^				Спасибо...|Danke...
+
+	specialevent.2.mid.mid@83@Всё ясно с тобой. У нас тут скромный мальчик. Ну, не буду тебя утомлять больше...|Ich verstehe. Wir haben einen bescheidenen Jungen. Nun, ich werde dich nicht mehr belästigen.
+		specialevent.2.dinner.mid^				Отлично...|Ausgezeichnet
+
+	specialevent.2.mid.bad@83@Ань, а ты не говорила, что у тебя сын такой агрессивный...|Du hast nicht gesagt, dass er so aggressiv ist, Ann....
+		specialevent.2.dinner.bad^				Ты и не спрашивал...|Du hast nicht gefragt....
+
+	specialevent.2.bad.good@87@Макс, давай сразу на ты. Никаких формальностей. Это же семейный ужин. Так что, давайте будем проще...|Nehmen wir den Vornamen, Max. Keine Formalitäten. Es ist ein Familienessen, lass es uns ruhig angehen....
+		specialevent.2.dinner.good^				Как скажешь...|Wie du meinst....
+
+	specialevent.2.bad.mid@86@Понятно. Видимо, Макс слишком скромный. Ну ничего страшного, я в его возрасте тоже смущался...|Sieht aus, als wäre Max bescheiden. Nun, daran ist nichts auszusetzen, ich war auch in seinem Alter bescheiden.
+		specialevent.2.dinner.mid^				И ничего я не смущаюсь...|Ich bin nicht bescheiden.
+
+	specialevent.2.bad.bad@81@И что со мной не так? Вот так с первого взгляда делаешь выводы о человеке? Не очень умно... Но для твоего возраста это нормально...|Und was stimmt mit mir nicht? Wir haben uns gerade erst kennengelernt, du weißt nicht das Geringste über mich. Du solltest die Leute nicht so schnell verurteilen. Aber ich schätze, das ist normal für dein Alter....
+		specialevent.2.dinner.bad^				Да мне всё равно...|Es ist mir egal.
+		specialevent.2.dinner.bad^				<i>промолчать</i>|<i>sei ruhig</i>
+
+	specialevent.2.dinner.good@67@e-meet-eric-1@Ну, я рада, что вы познакомились и, вроде бы, нашли общий язык. Прошу, Эрик, к столу. Мы завтракаем и ужинаем на свежем воздухе, на веранде, пойдём покажу.|Ich bin froh, dass Ihr euch kennengelernt habt und gut miteinander auskommen. Und jetzt zum Tisch. Wir frühstücken und essen im Freien auf der Veranda, schaut euch das an.
+		dn.4!set_eric.first.emp_2^				<i>ид?и к столу</i>|<i>zum Tisch gehen</i>
+
+	specialevent.2.dinner.mid@63@e-meet-eric-1@Макс, мы с тобой потом поговорим. Ну, Эрик, проходи к столу. Мы обычно ужинаем, да и завтракаем на открытом воздухе, тут у нас веранда...|Max! Wir reden später. Jetzt lass uns zum Tisch gehen, Eric. Wir frühstücken und essen im Freien auf der Veranda,  schaut euch das an.
+		dn.4!set_eric.first.emp_1^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+
+	specialevent.2.dinner.bad@63@e-meet-eric-1@Макс! Ты почему себя так ведёшь? Это не только тебя не красит, но и меня позорит, что я тебя так воспитала!|Max! Warum benihmmst Du dich so? Nicht nur du wirfst dich in ein schlechtes Licht, sondern machst du mir auch Schande, ich habe dich besser erzogen als das!
+		specialevent.2.dinner.bad.sorry^		Извини, Эрик, я просто не в духе...|Tut mir leid, Eric, ich bin nur schlecht gelaunt.
+		specialevent.2.dinner.bad.norm^			Нормально себя веду...|Ich benehme mich....
+		specialevent.2.dinner.bad.bad^			<i>промолчать</i>|<i>sei ruhig</i>
+
+	specialevent.2.dinner.bad.sorry@62@Вот, так уже лучше. Ладно, надеюсь, это недоразумение из-за голодного желудка. Пойдёмте все к столу, пора ужинать...|So ist es besser. Ich hoffe, das war nur ein Missverständnis. Komm an den Tisch, es ist Zeit für ein Abendessen.
+		dn.4!set_eric.first.emp_1^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+
+	specialevent.2.dinner.bad.norm@62@Нет, Макс, это точно не нормально. Спишем на то, что ты голодный... Пойдём, Эрик, покажу где мы ужинаем, да и завтракаем. Макс, ты тоже иди ужинать.|Nein, Max, es ist nicht Fein. Sagen wir, ich hab Hunger.... Komm, Eric, ich zeige dir, wo wir zu Abend essen und frühstücken.
+		dn.4!set_eric.first.emp_0^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+
+	specialevent.2.dinner.bad.bad@62@Молчишь? Нечего сказать или стыдно? Будем считать, что ты просто голодный, а не специально хотел нахамить Эрику. Ладно, пойдёмте ужинать...|Schweigen? Nichts zu sagen oder schäme dich? Ich nehme an, dass du nur Hunger hast und nicht absichtlich unhöflich zu Eric sein wolltest. Okay, lass uns essen gehen.
+		dn.4!set_eric.first.emp_0^				<i>идти к столу</i>|<i>zum Tisch gehen</i>
+
+
+
+# --- Видеоуроки по умолчанию|Standard-Video-Lektionen
+
+	online.default@15@<i>Вы просматриваете видеоурок и повышаете свои навыки.\n\nХорошая штука эти онлайн-курсы - можно научиться всему, не входя из дома! Вот только и стоит это немало...</i>|<i>Du siehst dir ein Tutorial-Video an und verbesserst du deine Fähigkeiten. Diese Online-Kurse sind eine gute Sache - du kannst alles lernen, ohne aus dem Haus zu gehen! Es ist allerdings teuer.</i>
+		leave!endonline!set_cd.online_4!time^						<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- 0.3: Возвращение Алисы и Киры из ночного клуба|Alice und Kira kehren aus dem Nachtclub zurück.
+
+	specialevent.5@102@Алиса, тише... Все уже спят! Нужно тихо, тихо, тихо... О... Макс? А ты почему не спишь?!|Ruhe, Alice.... Alle schlafen! Wir müssen leise sein.... Max? Warum schläfst du nicht?
+		alisa.drunk>0&specialevent.5.next.drunk.1^					Да что-то не спится...|Ich konnte nicht schlafen.
+		alisa.drunk=0&specialevent.5.next.good.1^					Да что-то не спится...|Ich konnte nicht schlafen.
+
+	specialevent.5.next.good.1@112@Это зря... Надо спать... Мы вот с Алисой тоже собираемся спать... Конечно, не вместе... Хотя... Она такая классная!|Du solltest schlafen gehen. Alice und ich werden bald schlafen.... Natürlich nicht zusammen.... Obwohl.... Sie ist so cool!
+		specialevent.5.next.good.2^			Кажется, кто-то пьян...|Ich glaube, jemand ist betrunken.
+
+	specialevent.5.next.good.2@22@Ага, еле ещё дотащила. А ведь она сильная. Ещё и сопротивляется! Хотела в какой-то другой ночной клуб пойти, продолжить тусить... Если отговорила!|Jaja, ich konnte sie kaum nach Hause schleppen, sie hat den ganzen Weg gekämpft. Und sie ist auch verdammt stark! Sie wollte in einen anderen Club gehen, hat es kaum geschafft, sie zu beruhigen.
+		specialevent.5.next.good.3^			А ты трезва?|Bist du nüchtern?
+
+	specialevent.5.next.good.3@21@Конечно, Макс! Ты же знаешь, что я не пью. Да и нужно было кому-то приглядывать за тётей Кирой. Она очень любит развлекаться, да так, что стыдно рассказать...|Natürlich bin ich das, Max! Du weißt, dass ich nicht trinke. Und ich musste mich um Tante Kira kümmern, sie feiert zu gerne.
+		can.fuckkira>0&specialevent.5.next.good.y1^		И что было?|Was hat sie getan?
+		can.fuckkira=0&specialevent.5.next.good.n1^		И что было?|Was hat sie getan?
+
+	specialevent.5.next.good.y1@112@Да, Алиса, расскажи ему что было, не стесняйся. У меня от Макса нет никаких секретов! Особенно после того случая в комнате...|Du kannst es ihm sagen, Alice, ich habe keine Geheimnisse vor Max. Besonders nach dieser Zeit im Zimmer....
+		specialevent.5.next.good.y2^		Так, кто-то пьян и должен проспаться...|Okay, jemand ist betrunken und sollte schlafen gehen.
+
+	specialevent.5.next.good.y2@22@После какого случая? Какая комната? Тётя Кира, рассказывай!|Um wie viel Uhr? Welches Zimmer? Sag mir, Tante Kira!
+		specialevent.5.next.good.y3^		Ну всё, пора спать!|Das reicht, du solltest schlafen gehen!
+
+	specialevent.5.next.good.y3@113@Точно! Ну всё, до дивана только меня доведите и спать... А утром всё расскажу, что хотите...|Okay, führe mich einfach auf das Sofa und ich werde sofort einschlafen.... Ich erzähle Ihm morgen früh alles, was er will.
+		specialevent.5.next.good.y4^		Ага, обязательно...|Sicher, sicher
+
+	specialevent.5.next.good.y4@21@Макс, о чём она? Что за случай? Мне же любопытно...|Wovon hat sie gesprochen, Max?
+		specialevent.5.next.good.y5^		Понятия не имею. Она же пьяна!|Ich habe keine Ahnung, sie hat nur getrunken.
+
+	specialevent.5.next.good.y5@22@Да? Ну, ладно. Будем считать, я поверила. Ну всё, Макс, я сейчас отведу тётю Киру спать, переодену её, а ты иди в свою комнату и тоже ложись. Пока!|Klar, tun wir so, als hätte ich dir geglaubt. Nun, Max, ich werde Tante Kira in die Lounge führen, ihr beim Umziehen helfen und sie ins Bett bringen. Du solltest auf dein Zimmer gehen und auch schlafen. Gute Nacht.
+		leave!sleep^						Пока!|Okay, schlaf gut
+
+	specialevent.5.next.good.n1@112@Ой, Макс... Чего только не было... И стриптизёры и стриптиз... И я даже...|Oh, Max.... Sie hat viel getan.... Es gab Stripperinnen, dann gab es Striptease.... sogar ich....
+		specialevent.5.next.good.n2^		Что?|Was?
+
+	specialevent.5.next.good.n2@22@А вот это уже не обязательно рассказывать. Я как вспомню, краснеть от стыда начинаю. Скажу лишь, что стриптиз танцевала тётя Кира, а остальное совсем не для твоих ушей...|Du musst nichts davon wissen. Es ist zu peinlich, das zu sagen. Ich sage dir nur, dass Tante Kira alles ausgezogen hat, alles andere ist Wissen....
+		specialevent.5.next.good.n3^		Ого... Я всё пропустил!|Wow.... Ich habe es verpasst!
+
+	specialevent.5.next.good.n3@114@Точно! Нужно будет взять Макса с собой в следующий раз!|Richtig! Wir müssen Max das nächste Mal mitnehmen!
+		specialevent.5.next.good.n4^		Я только за!|Ich bin dafür!
+
+	specialevent.5.next.good.n4@21@Не сомневаюсь, Макс. Но всё, хватит разговоров. Я пойду уложу и переодену тётю Киру в гостиной, а ты иди в свою комнату и ложись спать. Пока!|Da bin ich mir sicher, Max. Okay, genug für heute, ich werde Tante Kira ins Bett bringen, du solltest auch schlafen gehen. Gute Nacht.
+		leave!sleep^						Ну, ладно... Пока!|Gute Nacht
+
+	specialevent.5.next.drunk.1@113@И правильно! Такая ночь, как тут спать... Мы вот с Алисой отлично провели время. Оказывается, твоя старшая сестрёнка умеет зажигать!|Jaja, wie kann jemand eine so tolle Nacht durchschlafen! Alice und ich hatten eine tolle Zeit. Es stellte sich heraus, dass deine ältere Schwester weiß, wie man feiert!
+		specialevent.5.next.drunk.2^		Ого. Рассказывайте, что было?|Würdest du mir sagen, was passiert ist?
+
+	specialevent.5.next.drunk.2@112@Скажу по секрету... Алиса трусы потеряла, представляешь?! А знаешь, как это случилось? Никогда не догадаешься!|Das werde ich, aber es ist eine Art Geheimnis, erzähl es niemandem.... Alice hat ihr Höschen verloren, kannst du dir das vorstellen? Und du wirst nie erraten, wie!
+		specialevent.5.next.drunk.3^		Рассказывай!|Sag es mir, sag es mir!
+
+	specialevent.5.next.drunk.3@22@Мне кажется, что Максу совсем не нужно это знать... К тому же, даже сама тётя Кира не носит трусы!|Ich glaube nicht, dass Max das wissen muss.... Außerdem trägt Tante Kira überhaupt kein Höschen!
+		specialevent.5.next.drunk.4a^		Так куда Алиса дела трусы?|Wie hat Alice es geschafft, ihr Höschen zu verlieren?
+		specialevent.5.next.drunk.4b^		А как ты узнала, что она не носит?|Und woher weißt du, dass sie kein Höschen trägt?
+
+	specialevent.5.next.drunk.4a@103@Видишь, она не хочет рассказывать. Потому-что, стыдно... Ик... И я её понимаю. Даже мне было бы стыдно за такое... Ой. Кажется, мне нужно немного остыть...|Max, sie hat dir gerade gesagt, dass sie nicht will, dass du es weißt. Es ist ihr wahrscheinlich peinlich.... Ich würde mich auch schämen.... Ich glaube, ich muss mich etwas abkühlen....
+		specialevent.5.next.drunk.5^		Обалдеть!|Wow!
+
+	specialevent.5.next.drunk.4b@103@Как, как... Я ей сама всё показала, когда мы обсуждали интимные стрижки... Ой... Это же не для мальчиков... Ик... Кажется, мне нужно немного остыть...|Ich sagte es ihr selbst, als wir über intime Haarschnitte sprachen.... Warte, das ist ein Mädchengespräch, du sollst nichts davon wissen.... Ich muss mich abkühlen....
+		specialevent.5.next.drunk.5^		Обалдеть!|Wow!
+
+	specialevent.5.next.drunk.5@112@e-night-2@Так, Макс, я в бассейн, а ты отведи свою сестрёнку под душ. Желательно, контрастный. И проследи, чтобы она не упала и пришла в себя... А я тут поплаваю...|Okay, Max, ich gehe zum Pool und du solltest deine Schwester duschen lassen. Vorzugsweise ein Kontrastmittel. Pass auf, dass sie nicht fällt.... Ich gehe schwimmen.
+		specialevent.5.next.drunk.6^		Вечер всё лучше и лучше!|Der Abend wird immer besser!
+
+	specialevent.5.next.drunk.6@22@Макс, я же говорила, что она без трусов ходит. Убедился? А теперь хватит пялиться на голую тётю... И куда ты меня ведёшь?!|Siehst du, ich habe dir gesagt, dass sie kein Höschen trägt! Jetzt hör auf, deine nackte Tante anzustarren und.... wohin bringst du mich?
+		specialevent.5.next.drunk.7^		В душ!|Unter der Dusche
+
+	specialevent.5.next.drunk.7@21@Может, я и сама справлюсь... Ой...|Ich schaffe das allein.... Au....
+		ean.1!set_max.cum_0^		Вот видишь, чуть не упала, а там ещё и скользко, пошли!|Siehst du, du bist schon fast gefallen, und der Duschboden ist rutschig.
+
+	ean.1@22@e-an-1@Ну вот мы и в душе. Теперь вали спать. Я сама справлюсь... ик!|Okay, wir sind jetzt unter der Dusche, jetzt geh schlafen. Ich schaffe den Rest alleine.
+		alisa.dom>399&ean.2^		Да ты пьяна! Даже раздеться не сможешь...|Du bist betrunken! Du kannst dich nicht mal ausziehen.
+		alisa.dom<400&ean.nodom^	Да ты пьяна! Даже раздеться не сможешь...|Du bist betrunken! Du kannst dich nicht mal ausziehen.
+
+	ean.2@28@e-an-2@Да всё я смогу. Вот, смотри! И даже не упала... Ик! Ну всё, поглазел на мою голую задницу, всё, теперь вали...|Doch, das kann ich. Schau.... Und ich bin nicht mal hingefallen.... Okay, jetzt wo du einen Blick auf meinen nackten Arsch geworfen hast, kannst du verschwinden.
+		ean.3^		Тётя Кира сказала, чтобы я тебе помог!|Tante Kira hat mir gesagt, ich soll dir helfen!
+
+	ean.3@21@Тётя Кира классная... Да... Если она сказала, надо делать. Потому-что, я уважаю тётю Киру. А знаешь почему? Потому-что, она классная!|Ja, sie ist so cool.... Wenn sie etwas gesagt hat, müssen wir es tun. Ich liebe sie so sehr. Und weißt du warum? Weil sie großartig ist!
+		ean.4^		А ещё знаешь, что классное? Твоя попка!|Weißt du, was noch toll ist? Dein Arsch!
+
+	ean.4@30@e-an-3@Что? Блин... Я же голая перед своим озабоченным братом! Ик! Макс, всё вали, я не хочу, чтобы ты пялился на меня...|Was? Richtig.... Ich bin nackt vor meinem perversen Bruder! Max, verschwinde, ich will nicht, dass du mich anstarrst....
+		max.imp=0&ean.5^		Что, стесняешься?|Bist du schüchtern?
+		max.imp>0&ean.maximp.1^	Что, стесняешься?|Bist du schüchtern?
+
+	ean.maximp.1@22@e-an-4@И ничего я не стесняюсь... Просто, у тебя сейчас опять всё полезет из штанов... Хотя... сегодня нет, не должно... Но в любом случае, дальше я справлюсь. Иди лучше к тёте.|Ich bin nicht schüchtern, aber du wirst wieder aus der Hose kriechen.... Aber nicht heute, wahrscheinlich.... Wie auch immer, ich sicher hier, sieh nach Tante Kira.
+		ean.pool.pants^			Ладно, не упади тут...|Okay, aber fall nicht hin
+
+	ean.5@22@e-an-4@И ничего я не стесняюсь... Просто, у тебя сейчас опять всё полезет из штанов...|Ich bin nicht schüchtern, aber du wirst wieder aus der Hose kriechen....
+		ean.6^		Ничего не полезет...|Nein, werde ich nicht.
+
+	ean.6@21@e-an-5@Да? А что это там уже шевелится? Ик... Извращенец...|Jaja? Und was ist das in deinen Shorts? Perverser....
+		ean.7^		То, что парню нравится обалденное женское тело - это извращение разве?|Ich bin kein Perverser, das ist eine ganz normale Reaktion auf eine schöne Frau!
+
+	ean.7@31@e-an-4@Ой... Спасибо... Ты такой милый! Ик! Но ты должен уйти...|Danke, Max.... Du bist so süß! Aber du solltest gehen....
+		random.social.3=1&ean.8.ok^		Но тётя Кира... [skill.social_3]|Aber Tante Kira... [skill.social_3]
+		random.social.3=0&ean.8.no^		Но тётя Кира... [skill.social_3]|Aber Tante Kira... [skill.social_3]
+
+	ean.8.ok@22@e-an-6@<color=lime><i>Убеждение удалось!</i></color>\nНу ладно, ладно, я поняла... Раз тётя Кира сказала, то да, ты прав... Только... Ик...|<color=lime><i>Überzeugung erfolgreich!</i></color>\nFein, Fein, ich verstehe.... Wenn Tante Kira das gesagt hat, dann hast du Recht, aber....
+		ean.8.ok.1^		Что... только?|Was aber?
+
+	ean.8.ok.1@21@Только... Так не честно... Я тут голая перед тобой стою, а ты в шортах. Снимай!|Das ist nicht fair, ich bin nackt vor dir und du trägst zu wenig. Zieh sie aus!
+		ean.8.ok.2^		Да легко!|Easy!
+
+	ean.8.ok.2@31@e-an-7@А ты не из стеснительных... Ик... Эксги... эксиги... эксигиби...|Wow, du bist nicht schüchtern, oder? Exzi.... exhibizi...
+		ean.8.ok.3^		Эксгибиционист?|Exhibitionist?
+
+	ean.8.ok.3@30@e-an-8@Точно! Ой... Макс... Ты всё растёшь и растёшь... да ещё в таком месте... Ик...|Jaja, das! Oh, Max.... du wächst einfach weiter....
+		ean.8.ok.4^		Что, нравится?|Gefällt es dir?
+
+	ean.8.ok.4@21@Ну... Я не должна вроде такое говорить брату... Но да... Блин, Макс, это всё ты виноват, что я теперь думаю...|Nun.... Ich sollte so etwas nicht zu einem Bruder sagen, aber.... Ja.... Es ist alles deine Schuld, Max, jetzt kann ich nicht aufhören....
+		ean.8.ok.5^		Думаешь обо мне?|Über mich?
+		ean.8.ok.5^		Думаешь о моём члене?|Über meinen Schwanz?
+
+	ean.8.ok.5@22@e-an-9@Ага... Думаю целыми днями и ночами! Не неси чушь! Знаешь что, тебе пора, пока не случилось кота... катостро... котастро... В общем, уходи...|Jaja, richtig! Ich denke nur Tag und Nacht an dich! Du solltest gehen, bevor etwas passiert....
+		random.social.2=1&ean.8.ok.5.ok^	Я останусь! [skill.social_2]|Ich bleibe! [skill.social_2]
+		random.social.2=0&ean.8.ok.5.no^	Я останусь! [skill.social_2]|Ich bleibe! [skill.social_2]
+
+	ean.8.ok.5.ok@31@<color=lime><i>Убеждение удалось!</i></color>\nНу, как знаешь... Но я предупредила... Если потом кому-то расскажешь об этом, я тебя убью! Ик...|<color=lime><i>Überzeugung erfolgreich!</i></color>\nFein.... Aber ich warne Dich.... Wenn jedermann überhaupt über dieses herausfindet - Ich<b>werde</b> Dich töten!
+		ean.8.ok.ok.1^	Расскажу о чём?|Findet was heraus?
+
+	ean.8.ok.ok.1@33@e-an-10@Об этом, Макс... Я говорю об этом... Какой же он у тебя большой... Даже в порно у актёров меньше, а тебе ещё расти и расти...|Darüber, Max.... Ich rede von.... Es ist so groß.... Selbst Pornodarsteller haben meist kleinere Schwänze. Ich frage mich, ob er noch größer wird....
+		ean.8.ok.ok.2^	Спасибо...|Danke...
+
+	ean.8.ok.ok.2@31@Скажи честно, ты обо мне думаешь? Ну, в таком плане...|Sag mir, denkst du so über mich nach?
+		ean.8.ok.ok.3^	Конечно!|Sicher!
+		ean.8.ok.ok.3^	Может быть...|Vielleicht...
+
+	ean.8.ok.ok.3@33@Так и знала, что ты извращенец! Подглядываешь, да ещё и фантазируешь всякое...|Ich wusste, dass du pervers bist! Du spionierst deiner Schwester nach, fantasierst alles Mögliche....
+		ean.8.ok.ok.4^	Ты знаешь, это в твоей руке мой член, кто ещё извращенец-то?|Du hältst meinen Schwanz in deiner Hand und ich bin der Perverse?
+
+	ean.8.ok.ok.4@22@Хм... Тоже верно... Ик... Если я тебе подрочу и ты кончишь, ты забудешь обо мне?|Hm.... Ich schätze, du hast Recht.... Wenn ich dir einen runterhole, vergisst du mich dann?
+		ean.8.ok.ok.5^	Ага... минут на пятнадцать...|Ja.... für etwa fünfzehn Minuten.
+		ean.8.ok.ok.5^	Что ты! Такую не забыть никогда!|Was!? Wie könnte ich so etwas vergessen?
+
+	ean.8.ok.ok.5@21@Ну ты и придурок, Макс... Нравится?|Du bist ein Idiot, Max.... Gefällt es dir?
+		ean.8.ok.ok.bad^						Интересно, а он в тебе поместится?|Ich frage mich, ob er in dich passt.
+		random.social.1=1&ean.suck.1^			Просто супер! А может быть... поцелуешь его? [skill.social_1]|Fühlt sich toll an! Vielleicht ... willst du ihn küssen? [skill.social_1]
+		random.social.1=0&ean.8.no^				Просто супер! А может быть... поцелуешь его? [skill.social_1]|Fühlt sich toll an! Vielleicht ... willst du ihn küssen? [skill.social_1]
+		ean.8.ok.ok.cum!set_max.cum_1^			О.. Очень! <i>(кончить)</i>|Sehr! <i>(spritzen)</i>
+
+	ean.8.ok.ok.cum@30@e-an-11@Макс! Ну то за фигня! Ты кончил прямо на меня!!!|Was zum Teufel, Max! Du bist gerade über mir gekommen!
+		ean.8.ok.ok.cum.1^		А что ты думала должно произойти?|Was hast du erwartet, was passieren würde?
+
+	ean.8.ok.ok.cum.1@21@Ну предупредил бы хоть, но на меня-то зачем... Теперь мыться надо...|Du hättest mich warnen sollen, und du hättest es nicht bei mir tun müssen.... Jetzt muss ich duschen....
+		ean.8.ok.ok.cum.2^		Ты как раз это и планировала сделать!|Deshalb bist du überhaupt erst hergekommen!
+
+	ean.8.ok.ok.cum.2@22@Да, точно... Ладно. Теперь вали отсюда. Иди глянь, как там тётя Кира в бассейне...|Oh, richtig.... Fein, jetzt verschwinde von hier. Sieh nach Tante Kira im Pool.
+		ean.pool.naked!set_max.cum_1^		Ага... <i>(уйти голым)</i>|Okay <i>(gehe nackt)</i>
+		ean.pool.pants!set_max.cum_1^		Ага... <i>(надеть шорты)</i>|Okay <i>(gehe in shorts)</i>
+
+	ean.suck.1@31@e-as-1@<color=lime><i>Убеждение удалось!</i></color>\nНу, если ты настаиваешь... Только никому ни слова, что я сосала член б?ату, хорошо?|<color=lime><i>Überzeugung erfolgreich!</i></color>\nWenn Du darauf bestehst.... Aber du darfst niemandem erzählen, dass ich den Schwanz meines Bruders gelutscht habe, okay?
+		ean.suck.2^				Конечно!|Sicher!
+
+	ean.suck.2@4@e-as-2@<i>Похоже, моя старшая сестрёнка та ещё шлюшка... Если она делает такое со своим братом, то что же было в клубе и как она потеряла трусы? Ох, остаётся только догадываться...</i>|<i>Sieht aus wie meine Schwester, ist eine große Schlampe.... Wenn sie bereit ist, das mit ihrem Bruder zu tun, was hat sie dann in dem Club gemacht, in dem sie ihr Höschen verloren hat? Ich kann nur raten....</i>
+		ean.suck.3^				<i>взять её голову руками</i>|<i>den Kopf halten</i>
+
+	ean.suck.3@3@e-as-3@<i>Но что самое замечательное в этой истории, так это то, что она потом ничего не вспомнит! Пока она пьяная, её можно развести, наверное, почти на что угодно? Но пока и это сойдёт...</i>|<i>Und das Beste an dieser ganzen Situation ist, dass sie sich an nichts erinnern wird! Und während sie betrunken ist, können wir so ziemlich alles tun. Das ist aber gut genug für heute....</i>
+		ean.suck.4^				<i>продолжить</i>|<i>fortfahren</i>
+
+	ean.suck.4@7@<i>А у Алисы отлично получается сосать даже такой огромный член! Интересно, где она тренировалась? А ещё более интересно, насколько глубоко она может его взять!</i>|<i>Alice macht einen tollen Job, einen so großen Schwanz zu lutschen! Ich frage mich, wo sie das alles gelernt hat. Und ich will wirklich wissen, wie tief sie mich nehmen kann!</i>
+		ean.suck.5^				<i>проверить это!</i>|<i>schieben ihn tiefer</i>
+
+	ean.suck.5@4@e-as-4@<i>Ого! Она смогла вместить половину моего члена! Да сестрёнка молодец! Ой... Кажется, я сейчас кончу прямо ей в горло... Да... Я кончаю...</i>|<i>Wow! Sie passt auf die Hälfte meines Schwanzes! Sie ist so toll....! Sieht so aus, als würde ich ihr direkt in den Hals spritzen.... Ja.... Ich komme....</i>
+		ean.suck.6^				<i>кончить!</i>|<i>Spritzen!</i>
+
+	ean.suck.6@27@e-as-5@Макс! Ну что ха херня?! Я чуть не подавилась! Предупреждать же надо... я даже сделать ничего не смогла, ты держал мою голову, пока всё не выплеснул в меня. Пришлось всё проглотить...|Was zum Teufel, Max!? Ich bin fast erstickt! Du hättest mich warnen sollen.... Ich konnte nicht einmal etwas tun, weil du mir den Kopf gehalten hast. Ich musste alles schlucken....
+		ean.suck.7^				Не всё. На губах осталось. Слижи!|Nicht alles, du hast was auf den Lippen. Leck es ab!
+		ean.suck.7^				Зато, бесплатно поужинала...|Nun, du kannst sagen, dass du ein kostenloses Abendessen hattest.
+
+	ean.suck.7@24@Ах! Да ты совсем охренел! А ну-ка вали отсюда!|Was! Hast du den Verstand verloren? Verschwinde von hier!
+		ean.pool.naked!set_max.cum_2^		<i>бежать!</i>|<i>lauf!</i>
+
+	ean.8.ok.ok.bad@28@<color=orange><i>Очень, очень плохая идея...</i></color>\nЗнаешь, что... Макс... Вали отсюда. Я тебе точно напинаю по шарам за такие намёки! Всё, вали отсюда!|<color=orange><i>Extrem schlechte Idee....</i></color>\nWeißt du was, Max? Raus hier. Ich sollte dir in die Eier treten, wenn du das sagst.
+		ean.pool.naked^			Ладно, ладно <i>(уйти голым)</i>|Okay, okay <i>(gehe nackt)</i>
+		ean.pool.pants^			Ладно, ладно <i>(надеть шорты)</i>|Okay, okay <i>(gehe in shorts)</i>
+
+	ean.nodom@21@<color=orange><i>Кажется, нехватает авторитета...</i></color>\nМакс! Вали отсюда нахрен, пока я тебе не напинала по шарам! Иди лучше проведай тётю Киру, а я справлюсь!|<color=orange><i>Nicht genügend Autorität</i></color>\nVerschwinde hier, bis ich dir in die Eier getreten habe! Sieh nach Tante Kira, ich bin Fertig!
+		ean.pool.pants^			Ухожу, ухожу...|Okay, ich gehe.
+
+	ean.8.ok.5.no@21@<color=orange><i>Убеждение не удалось!</i></color>\nКомандовать Лизой будешь, а мне ты не указ. Я сказала, вали отсюда, пока не случилось чего...|<color=orange><i>Überzeugung fehlgeschlagen!</i></color>\nDu kannst Lisa Befehle geben, jetzt verschwinde.
+		ean.pool.naked^			Ладно, ладно <i>(уйти голым)</i>|Okay, okay <i>(gehe nackt)</i>
+		ean.pool.pants^			Ладно, ладно <i>(надеть шорты)</i>|Okay, okay <i>(gehe in shorts)</i>
+
+	ean.8.no@22@e-an-6@<color=orange><i>Убеждение не удалось!</i></color>\nН-нет, Макс, вали отсюда. Иди лучше тётю Киру проведай, как она там... А тут дальше я сама справлюсь. Кажется, уже протрезвела...|Nein, Max, verschwinde. Du solltest nach Tante Kira sehen. Ich werde hier sicher sein, ich glaube, ich bin nüchtern genug.
+		ean.pool.pants^			Ладно, не упади тут...|Okay, aber fall nicht hin
+
+
+	ean.pool.pants@113@e-kn-1@А, Макс... Ну, как там Алиса? Она в порядке?|Max? Wie geht es Alice? Ist das okay?
+		ean.pool.pants.1^		Да, в полном...|Jaja, Sie ist Ok
+
+	ean.pool.pants.1@114@Ну что, пойдёшь спать?|Also, sollen wir schlafen gehen?
+		can.fuckkira>0&ean.pool.pants.stay^		Я бы поплавал с тобой...|Ich würde lieber mit dir schwimmen....
+		can.fuckkira=0&ean.pool.pants.no^		Я бы поплавал с тобой...|Ich würde lieber mit dir schwimmen....
+
+	ean.pool.pants.no@112@Макс, ты же видишь, что я голая... Что про нас подумают? Иди спать, я уже устала и тоже скоро лягу...|Siehst du nicht, dass ich nackt bin, Max? Was werden die Leute denken? Geh schlafen, ich bin müde und werde nicht lange bleiben.
+		leave!sleep^			Хорошо...|Fein
+
+	ean.pool.pants.stay@112@Ну, тогда раздевайся! Раз уж я голая, то ты просто обязан снять шорты...|Klar, steig ein! Und da ich nackt bin, musst du deine Shorts ausziehen....
+		max.imp=0&max.cum=0&ean.pool.pants.stay.1^	Конечно!|Sicher!
+		max.imp=0&max.cum>0&ean.pool.cm.1^			Конечно!|Sicher!
+		max.imp>0&ean.pool.imp^						Конечно!|Sicher!
+
+	ean.pool.imp@103@e-kn-2@Оу... Макс... Я тебя больше не возбуждаю? Обычно так так напряжён, а сейчас... Видимо, устал? Ну да, уже поздно... Знаешь, я думаю, что тебе пора спать, да и мне тоже... Так что...|Oh, Max.... Bin ich nicht mehr attraktiv genug für dich? Normalerweise bist du so hart, aber jetzt.... Ich schätze, Du bist müde? Es ist ziemlich spät.... Weißt du, ich denke, du solltest schlafen gehen, und ich auch, also....
+		leave!sleep^			Блин...|Misst
+
+	ean.pool.pants.stay.1@113@e-kn-2@Да, так гораздо лучше. А теперь ныряй... поплаваем немного...|Das ist schon besser. Und jetzt tauchen, lass uns ein bisschen schwimmen.
+		ean.pool.hj.1^			<i>нырнуть</i>|<i>tauchen</i>
+
+
+	ean.pool.cm.1@113@e-kn-2@Да, так гораздо лучше... Постой... Ты чем там с Алисой занимался?|Das ist schon besser. Warte.... was hast du mit deiner Schwester gemacht?
+		ean.pool.cm.2^			Э... Ничем...|Emmmm.... nichts?
+		ean.pool.cm.2^			В каком смысле?|Was meinst du damit?
+
+	ean.pool.cm.2@112@Ну, твой член измазан спермой... Сознавайся, подглядывал за голой сестрой?|Da ist Sperma auf deinem Schwanz.... Hast du deiner Schwester nachspioniert?
+		ean.pool.cm.3a^				Ну, типа того...|Etwas wie dieses
+		ean.pool.cm.3b^				Не, она мне просто подрочила...|Nein, sie hat mir nur einen runtergeholt.
+		max.cum=2&ean.pool.cm.3c^	Нет, она мне отсосала...|Nein, sie hat meinen Schwanz gelutscht.
+
+	ean.pool.cm.3a@113@Понятно. А я хотела тебя подразнить... Ну, теперь иди спать, раз и на голых женщин посмотрел и даже кончить умудрился...|Ich verstehe. Und ich wollte dich ärgern.... Nun, dann solltest du schlafen gehen, denn du hast schon ein Auge auf mich geworfen und bist sogar gekommen....
+		ean.pool.cm.4^				Я ещё полон сил!|Ich bin immer noch voller Energie!
+
+	ean.pool.cm.3b@113@Очень смешно, Макс... Ладно, раз ты все свои дела здесь закончил, то надевай шорты и иди спать. Уже поздно...|Sehr lustig, Max.... Nun, da du fertig bist, solltest du deine Shorts anziehen und schlafen gehen. Es ist schon spät.
+		ean.pool.cm.4^				Я ещё полон сил!|Ich bin immer noch voller Energie!
+
+	ean.pool.cm.3c@113@Ого! Даже так... Ну, у тебя и фантазии... Ещё скажи, что и проглотила всё?|Du hast eine ziemliche Fantasie.... sag mir, hat sie auch geschluckt?
+		ean.pool.cm.4^				Ну, почти всё, как видшь... Но я ещё кое-что могу!|Fast alles.... Aber wie du siehst, kann ich weitermachen!
+
+	ean.pool.cm.4@114@В этом я не сомневаюсь, да и вижу сама всё... Но тебе уже пора спать. Давай, спокойной ночи!|Kein Zweifel, zumal ich die Beweise sehen kann.... Aber es ist spät, also solltest du schlafen gehen. Gute Nacht.
+		leave!sleep^			Блин... Ну, ладно...|Mist.... Fein
+
+	ean.pool.naked@113@e-kn-2@Оу... Макс... Ты такой... мужественный... Ты там что-то сделал с Алисой?|Wow, Max, du bist so.... Männlich.... hast du etwas mit Alice gemacht?
+		max.cum=0&can.fuckkira>0&ean.pool.naked.ok^		Она в порядке...|Sie ist super
+		max.cum>0&can.fuckkira>0&ean.pool.cm.2^			Всё в порядке, а что?|Sie ist super, aber?
+		can.fuckkira=0&ean.pool.naked.no^				Она в порядке...|Sie ist super
+
+	ean.pool.naked.no@114@Ну, я рада. А теперь найди свои шорты и бегом спать, пока тебя кто-то не увидел в таком виде! И без разговоров!|Ich bin froh. Jetzt zieh deine Shorts an, bevor du nackt erwischt wirst, und geh schlafen!
+		leave!sleep^			Хорошо...|Fein
+
+	ean.pool.naked.ok@114@Я рада. И ты, я вижу, тоже в полном порядке... Ну, спускайся сюда...|Ich bin froh. Und ich kann sehen, dass du auch Super bist.... Komm her....
+		ean.pool.hj.1^			<i>спуститься в бассейн</i>|<i>steig in den Pool</i>
+
+	ean.pool.hj.1@112@e-kira-swim-night-4@Я сегодня не долго, так, приду в себя и спать... Так что...|Ich werde nicht lange hier sein, gerade genug Zeit, um zur Besinnung zu kommen und dann werde ich schlafen gehen, also....
+		ean.pool.hj.2^			Что, даже не поможешь племяннику?|Du willst nicht mal deinem Neffen helfen?
+
+	ean.pool.hj.2@103@А в чем нужна помощь моему племяннику? Или это ты так намекаешь на то, чтобы я взяла твой огромный член и что-то начала с этим делать? Так я же намёков не понимаю... Что мне сделать?|Und welche Art von Hilfe brauchst Du? Redest du von deinem großen Schwanz? Ich weiß nicht, wovon Du redest.... Was soll ich tun?
+		ean.pool.hj.3^			Да всё ты понимаешь!|Du weißt genau, wovon ich rede.
+
+	ean.pool.hj.3@114@e-kira-swim-night-5@Ох, Макс... Разбаловала я тебя... Вот найдёшь себе девушку, что будешь делать? Ко мне бегать, если она не даст или мне больше ничего не достанется?|Max.... Ich habe dich verwöhnt.... Was machst du, wenn du dir eine Freundin suchst? Wirst du zu mir kommen, wenn sie nicht rausgeht, oder werde ich zurückgelassen?
+		ean.pool.hj.4^			Для тебя мой член вне очереди!|Du wirst immer die oberste Priorität meines Schwanzes sein!
+
+	ean.pool.hj.4@112@e-kira-swim-night-6@Ой, Макс... Это так мило... Но девушку тебе нужно найти. Потому-что если нас поймают, то придётся тебе делать всё самому...|Danke, Max.... Aber du solltest dir trotzdem eine Freundin suchen. Und wenn wir erwischt werden, musst du das selbst machen.
+		ean.pool.hj.5^			Не поймают!|Wir werden nicht geschnappt
+
+	ean.pool.hj.5@113@Тебе напомнить, что твоя старшая сестра в нескольких метрах от нас принимает душ?|Hast du vergessen, dass deine Schwester direkt neben uns duscht?
+		ean.pool.hj.6^			Да она пьяна и ничего не вспомнит!|Sie ist betrunken und wird sich an nichts erinnern!
+
+	ean.pool.hj.6@114@e-kira-swim-night-5@Любопытно... Ну ладно, Макс, я устала. Ты уж как-нибудь сам, только не делай это в бассейне, да и в душ с членом в руках не вбегай, пока там Алиса...|Neugierig.... Okay, Max, ich bin müde. Beende es alleine, aber tu es nicht im Pool, und du solltest wahrscheinlich nicht mit deinem harten Schwanz duschen gehen, während Alice auch noch da ist.
+		ean.pool.hj.7^			И что же мне делать?|Und was soll ich tun?
+
+	ean.pool.hj.7@113@e-kira-swim-night-4@Постарайся расслабиться и успокоиться... Продолжим с тобой как-нибудь в другой раз... А сейчас пора спать и тебе и мне...|Versuchen Sie sich zu entspannen und zu beruhigen.... Wir machen mit dem ein anderes Mal weiter.... Lass uns schlafen gehen.
+		leave!sleep^			Вот облом... Ладно, спокойной ночи...|Misst... Fein, Gute Nacht
+
+
+
+# --- 0.3: Особая доставка для Киры|Sonderlieferung für Kira
+
+	specialevent.6@138@e-delivery-1@Здравствуйте! По этому адресу на сегодня назначена доставка. Распишитесь?|Hallo! Ich habe eine Bestellung für diese Adresse. Darf ich Sie bitten, hier zu unterschreiben?
+		specialevent.6.next.1^		Конечно! А что тут?|Sicher, was ist da drin?
+
+	specialevent.6.next.1@138@Так... В накладной написано следующее... Постойте, тут сказано, что это товар для взрослых. А вы что-то не очень похожи на взрослого...|Mal sehen.... Warte, hier steht, dass das aus einem Laden für Erwachsene kommt. Du siehst nicht wie ein Erwachsener aus....
+		specialevent.6.next.2^		Да я взрослый! Просто, в трусах документы не ношу...|Ich bin erwachsen, ich habe nur keinen Ausweis in meiner Hose.
+
+	specialevent.6.next.2@138@Ну, хорошо. У меня всё равно времени мало. Так, распишитесь, но посылку не открывайте. Отдайте её некой... Кире... фамилию не могу разобрать...|Okay, ich habe sowieso nicht viel Zeit. Unterschreiben Sie bitte für das Paket, aber öffnen Sie es nicht. Geben Sie es an.... Kira irgendwas. Ich kann den Nachnamen nicht lesen....
+		specialevent.6.next.3^		Всё верно, она у нас живёт. Давайте!|Jaja, sie wohnt hier, ich gebe es ihr.
+
+	specialevent.6.next.3@4@<i>Интересно, что же она там такое заказала... Тяжёлая коробка... Для взрослых... Нужно будет понаблюдать за ней, вдруг это что-то интересное...</i>|<i>Ich frage mich, was sie bestellt hat. Es ist schwer. Nur für Erwachsene.... Ich sollte Tante Kira beobachten, es könnte etwas Interessantes sein.</i>
+		leave!move_pool!set_kira.toy_1!can^		Спасибо, до свидания!|Danke, Auf Wiedersehen!
+
+
+
+# --- 0.3: Установка новой скрытой камеры в различные локации|Installing hidden cams everywhere
+
+	install.cam.0@4@<i>В этой комнате столько всего может происходить... Думаю, зрителям понравится! Главное - спрятать все провода, чтобы Лиза не заметила новую микро-камеру...</i>|<i>In diesem Raum kann viel passieren.... Ich denke, die Zuschauer werden es mögen! Ich muss alle Kabel verstecken, aber ich kann nicht zulassen, dass Lisa meine neue Kamera findet.</i>
+		leave!set_item.cam_-4!set_cam.0.status_1!add_cameras_1!time^		<i>закончить</i>|<i>beenden</i>
+
+	install.cam.1@4@<i>Пусть зрители посмотрят, чем Алиса занимается в своей комнате, когда её не видят... Я бы и сам был бы рад посмотреть, но пока такой функции у меня нет...</i>|<i>Jetzt können die Zuschauer sehen, was Alice in ihrem Zimmer macht, wenn niemand da ist. Ich würde es gerne selbst sehen, zu schade, dass ich diese Funktionalität noch nicht habe.</i>
+		leave!set_item.cam_-4!set_cam.1.status_1!add_cameras_1!time^		<i>закончить</i>|<i>beenden</i>
+
+	install.cam.2@4@<i>Конечно, здесь редко происходят события. Зато, когда они происходят, то здесь такое... Думаю, зрители будут рады таким моментам...</i>|<i>In diesem Raum ist nicht viel los. Aber wenn etwas passiert, ist es wirklich interessant. Ich denke, die Zuschauer werden sie genießen.</i>
+		leave!set_item.cam_-4!set_cam.2.status_1!add_cameras_1!time^		<i>закончить</i>|<i>beenden</i>
+
+	install.cam.3@4@<i>Конечно, с точки зрения морали ставить камеру в ванной сомнительно. Однако, тут и так окно во всю стену. Так что, формально я лишь приоткрыл это окно...</i>|<i>Natürlich ist es aus moralischer Sicht zweifelhaft, eine Kamera ins Badezimmer zu stellen. Aber es hat sowieso schon ein großes Fenster. Ich mache dieses Fenster nur noch größer, sozusagen.</i>
+		leave!set_item.cam_-4!set_cam.3.status_1!add_cameras_1!time^		<i>закончить</i>|<i>beenden</i>
+
+
+	install.cam.5@4@<i>Уж не знаю, будет ли какой-то толк от этой камеры... Тут так редко что-то происходит... Ну пусть будет. Раз уж взялся всё подключать...</i>|<i>Ich bin mir nicht sicher, ob es einen Grund gibt, eine Kamera in diesen Raum zu stellen, hier passiert nicht viel. Aber da ich beschlossen habe, überall Kameras aufzustellen, werde ich auch hier eine installieren.</i>
+		leave!set_item.cam_-4!set_cam.5.status_1!add_cameras_1!time^		<i>закончить</i>|<i>beenden</i>
+
+	install.cam.6@4@<i>Бассейн... Тут почти всё время кто-то есть и что-то делает, пока светит солнце. Думаю, тут зрители будут зависать постоянно в надежде увидеть кого-то с голыми сиськами...</i>|<i>Der Pool. Solange die Sonne aufgeht, ist wahrscheinlich jemand hier. Ich denke, die Zuschauer werden die ganze Zeit hier sein, in der Hoffnung, ein paar Titten zu sehen.</i>
+		leave!set_item.cam_-4!set_cam.6.status_1!add_cameras_1!time^		<i>закончить</i>|<i>beenden</i>
+
+
+
+

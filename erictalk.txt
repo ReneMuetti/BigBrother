@@ -1,0 +1,648 @@
+# --- Разговор с Эриком после ужина, где определяется формат будущих отношений|Erstes Gespräch mit Eric, wenn Max entscheidet, ob er mit oder gegen ihn ist.
+
+	eric.main.talk@80@e-meet-eric-3@Макс, пока твоя мама переодевается, я бы хотел с тобой поговорить. С глазу на глаз, так сказать...|Max, ich möchte mit dir unter vier Augen reden, während deine Mom sich umzieht.
+		eric.first.emp=2&eric.main.talk.good!set_eric.level_7^	Конечно...|Natürlich....
+		eric.first.emp=1&eric.main.talk.mid!set_eric.level_5^	Ну, давай...|Nun, okay
+		eric.first.emp=0&eric.main.talk.bad!set_eric.level_3^	У меня есть выбор?|Habe ich eine Wahl?
+
+	eric.main.talk.good@87@Я заметил, что ты настроен вполне дружелюбно. Для меня важно подружиться с твоей семьёй, чтобы твоя мама не испытывала дискомфорт на этой почве, если ты меня понимаешь...|Ich habe bemerkt, dass du freundlich bist. Es ist wichtig für mich, mich mit deiner Familie anzufreunden, damit deine Mom sich nicht unwohl fühlt.
+		eric.main.talk.next.good!add_eric.level_1^				Понимаю, хорошо...|Ich verstehe
+		eric.main.talk.next.bad!add_eric.level_-1^				И зачем мне это?|Und warum sollte mich das interessieren?
+
+	eric.main.talk.mid@82@Я знаю, что мы начали знакомство не идеально, но мне показалось, что мы можем найти общий язык. Для меня важно, чтобы твоя мама не испытывала какой-либо дискомфорт из-за этого...|Ich weiß, wir hatten einen schwierigen Start, aber ich denke, wir können eine gemeinsame Sprache finden. Es ist wichtig für mich, dass deine Mom sich deswegen nicht unwohl fühlt.
+		eric.main.talk.next.good!add_eric.level_1^				Понимаю, хорошо...|Okay
+		eric.main.talk.next.bad!add_eric.level_-1^				И зачем мне это?|Und warum sollte mich das interessieren?
+
+	eric.main.talk.bad@81@Ты знаешь, мы начали знакомство как-то совсем неудачно. Предлагаю как-то уладить этот конфликт. Я бы очень не хотел, чтобы твоя мама испытывала дискомфорт по этому поводу...|Ich weiß, wir hatten einen schlechten Start, aber ich möchte, dass wir eine zivilisierte Beziehung haben. Ich möchte nicht, dass sich deine Mom Sorgen wegen uns macht.
+		eric.main.talk.next.good!add_eric.level_1^				Понимаю, хорошо...|Ich verstehe
+		eric.main.talk.next.bad!add_eric.level_-1^				И зачем мне это?|Und warum sollte mich das interessieren?
+
+	eric.main.talk.next.good@86@Отлично. Если мы подружимся, ты не пожалеешь, Макс. Но, чтобы убедиться, давай вернёмся к этому разговору через неделю. Если мы найдём общий язык, то всё будет отлично. Ну а если нет...|Ausgezeichnet. Wenn wir Freunde werden, wirst du es nicht bereuen, Max. Aber lass uns in einer Woche auf dieses Gespräch zurückkommen. Wenn wir eine gemeinsame Sprache finden, dann wird alles gut. Und wenn nicht....
+		eric.main.talk.next.good.what^							А если нет, то что?|Und wenn nicht, was dann?
+		eric.main.talk.next.friend!add_eric.level_2^			Думаю, подружимся...|Ich denke, wir werden Freunde sein.
+
+	eric.main.talk.next.bad@86@Я бы на твоём месте не искал врага там, где его нет. Предлагаю вернуться к этому разговору через неделю. Если мы подружимся, ты не пожалеешь. А вот если решишь со мной воевать, то ты точно проиграешь...|Wenn ich du wäre, würde ich nicht nach Feinden suchen, wo es keine gibt. Ich schlage vor, in einer Woche zu dieser Unterhaltung zurückzukehren. Wenn wir Freunde werden, wirst du es nicht bereuen. Aber wenn du dich entscheidest, gegen mich zu kämpfen, dann wirst du verlieren....
+		eric.main.talk.next.good.what^							Это ещё почему?|Und warum ist das so?
+		eric.main.talk.next.friend!add_eric.level_1^			Да я не собираюсь воевать...|Ich werde nicht gegen dich kämpfen.
+
+	eric.main.talk.next.good.what@87@Если решишь испытать судьбу, то сам всё скоро узнаешь. У меня есть влияние, деньги, харизма. А главное - я умею убеждать и подчинять других людей. А что есть у тебя?|Wenn du dich entscheidest, dein Glück zu versuchen, dann wirst du es früh genug wissen. Ich habe Einfluss, Geld, Ausstrahlung. Und das Wichtigste ist, dass ich andere überzeugen und unterwerfen kann. Was hast du schon?
+		eric.main.talk.next.friend!add_eric.level_1^			Да верю, верю. Я просто спросил и не хочу ссориться...|Ich glaube dir. Ich will nicht gegen dich kämpfen, ich war nur neugierig.
+		eric.main.talk.next.good.what.trust!add_eric.level_-2^	Меня все любят и мне поверят, что ты мне угрожал!|Jeder liebt mich und sie werden mir glauben, wenn ich sage, dass du mich bedroht hast!
+		eric.main.talk.next.good.what.smart!add_eric.level_-2^	У меня есть мозги и я что-нибудь придумаю!|Ich werde mir etwas ausdenken.
+
+	eric.main.talk.next.good.what.smart@83@Серьёзно? И как ты с этими мозгами довёл ситуацию до того, что Алиса в тебе видит маленького извращенца, подглядывающего из-за угла. Лиза рядом только потому, что других защитников не было, а мать... смотрит на тебя как на неудачника!|Wirklich? Wenn du so klug bist, wie kommt es dann, dass Alice denkt, du wärst ein kleiner Perverser, Lisa ist dir nur nahe, weil sie keine andere Wahl hatte, und deine Mom.... sie sieht dich an, als wärst du ein Verlierer!
+		eric.main.talk.bullshit^								Не верю! Всё не так!|Ich glaube dir nicht! Du irrst dich!
+		eric.main.talk.shesaid^									Она так сказала?|Das hat sie gesagt?
+
+	eric.main.talk.next.good.what.trust@83@Правда? А я вот уже слышал, что Алиса относится к тебе как к маленькому извращенцу, Лиза рядом с тобой просто потому, что других защитников в доме не было, а мать смотрит на тебя как на неудачника...|Wirklich? Ich habe gehört, dass Alice dich wie einen kleinen Perversen behandelt, Lisa ist bei dir, einfach weil niemand sonst da war, und Mom sieht dich als Verlierer....
+		eric.main.talk.bullshit^								Не верю! Всё не так!|Ich glaube dir nicht! Du irrst dich!
+		eric.main.talk.shesaid^									Она так сказала?|Das hat sie gesagt?
+
+	eric.main.talk.bullshit@81@Ну не знаю... Даже если что-то ещё и не так, то с моей помощью всё так и будет, поверь... Но повторюсь, я не хочу с тобой воевать и лучше бы ты был на моей стороне...|Nun, ich weiß nicht. Auch wenn sie noch nicht so denken, mit meiner Hilfe werden sie mir glauben. Aber ich will nicht mit dir kämpfen und es wäre besser für uns beide, wenn du auf meiner Seite wärst.
+		eric.main.talk.okok^									Ладно, посмотрим...|Okay
+		eric.main.talk.nono^									Никогда. Отвали!|Niemals. Fick dich!
+
+	eric.main.talk.shesaid@81@Ну не словами, но я же это вижу со стороны. Тебя выгнали из школы за отношения с учителем. Если ты не понял, то это такой зашквар, что вернуть себе репутацию будет непросто...|Nun, das hat sie nicht explizit gesagt, aber ich kann es von der Seite sehen. Du wurdest von der Schule geschmissen, weil du einen Lehrer belästigt hast, kannst du nicht sehen, wie erbärmlich das ist? Viel Glück beim Wiederaufbau Ihres Rufes nach <b>dem</b>....
+		eric.main.talk.shesaid.1^								<i>далее</i>|<i>fortfahren</i>
+
+	eric.main.talk.shesaid.1@80@Но повторюсь, я не хочу с тобой воевать. Наоборот, я бы хотел с тобой подружиться и если ты будешь на моей стороне, ты только выиграешь...|Aber nochmal, ich will nicht gegen dich kämpfen. Im Gegenteil, ich möchte mit dir befreundet sein und wenn du auf meiner Seite bist, kannst du nur gewinnen....
+		eric.main.talk.okok^									Ладно, посмотрим... И что я выиграю?|Okay, was würde ich gewinnen?
+		eric.main.talk.nono^									Никогда. Отвали!|Niemals. Fick dich!
+
+	eric.main.talk.okok@87@Смотря как пройдёт наше общение за следующую неделю. Если помиримся, то я буду помогать решать твои проблемы, ну а ты мои, если такие возникнут с твоей семьёй...|Das hängt von deinem Verhalten in der nächsten Woche ab. Wenn wir uns versöhnen, helfen wir uns gegenseitig bei unseren Problemen.
+		eric.main.talk.okok.what^								Какие проблемы?|Welche Probleme?
+		eric.main.talk.next.friend^								Договорились...|Einverstanden....
+
+	eric.main.talk.okok.what@80@Ты слишком забегаешь вперёд, Макс. Давай сначала посмотрим на то, как всё пойдёт. Дай мне хотя бы шанс тебя убедить...|Das ist aber eilig, Max. Lassen Sie uns einen Blick darauf werfen, wie die Dinge zuerst laufen werden. Gib mir die Chance, dich zu überzeugen....
+		eric.main.talk.next.friend^								Ну, ладно, убедил.|Nun, okay, sicher.
+		eric.main.talk.nono^									Нет, без вариантов...|Auf keinen Fall
+
+	eric.main.talk.next.friend@87@Я рад, правда. Ты не пожалеешь. Ладно, твоя мама уже идёт, мы поехали. Вернёмся к этому разговору через неделю...|Ich bin wirklich froh. Du wirst deine Entscheidung nicht bereuen. Nun, deine Mom ist fast fertig, also ist es Zeit, das zu beenden. Wir kommen nächste Woche zu diesem Gespräch zurück.
+		leave!move_pool!time^									Ага...|Ja ja
+
+	eric.main.talk.nono@80@Ну, как хочешь. Надеюсь, в тебе сейчас говорят эмоции, а не здравый смысл. У тебя есть неделя, чтобы передумать. Тогда и поговорим снова и будет ясно, как быть.|Wenn es das ist, was du willst. Hoffen wir, dass das Emotionen sind, die sprechen. Du hast eine Woche, um deine Meinung zu ändern. Dann reden wir noch einmal und es wird klar sein, welche Art von Beziehung wir haben werden.
+		leave!move_pool!set_eric.level_0!time^						<i>промолчать</i>|<i>nichts sagen</i>
+
+
+
+# --- Разговор с Эриком через неделю|Im zweiten Gespräch mit Eric entscheidet Max, ob sie Freunde oder Feinde sind.
+
+	eric.week@80@e-meet-eric-3@Ну что, Макс, готов пообщаться снова, пока твоя мама собирается?|Also, Max, bist du bereit, wieder zu reden, während deine Mom sich fertig macht?
+		eric.level>7&eric.week.good^						Конечно!|Sicher!
+		eric.level>3&eric.level<8&eric.week.mid^			Ну, можно...|Sicher
+		eric.level<4&eric.week.bad^							Ты ещё здесь?|Bist du noch hier?
+
+	eric.week.good@87@Отлично! Ну что, вроде бы ты и правда настроен на дружбу. Я прав?|Ausgezeichnet! Sieht so aus, als ob du wirklich auf Freundschaft stehst. Habe ich Recht?
+		eric.week.good.good^								Да, я только за.|Ja, ich bin dafür.
+		eric.week.bad.bad^									Тебе показалось. Я тебя ненавижу!|Falsch, ich hasse dich!
+
+	eric.week.mid@87@Правда, я не до конца понял твою позицию. Ты настроен на дружбу или хочешь попытаться повоевать?|Aber ich verstehe deine Position nicht ganz. Bist du auf die Freundschaft aus oder willst du versuchen zu kämpfen?
+		eric.week.good.good^								Думаю, воевать смысла нет...|Ich denke, es macht keinen Sinn zu kämpfen.
+		eric.week.bad.bad^									Я тебя ненавижу!|Ich hasse dich!
+
+	eric.week.bad@81@Значит, дружить ты не намерен. Я правильно понимаю?|Also wirst du nicht freundlich sein. Habe ich richtig verstanden?
+		eric.week.good.good^								Почему? Я подумал как следует. Воевать точно не хочу...|Warum? Ich habe viel nachgedacht. Kämpfen ist nicht das, was ich will.
+		eric.week.bad.bad^									Правильно. Я тебя ненавижу!|Richtig. Ich hasse dich!
+
+	eric.week.good.good@86@Очень хорошо. Я рад. Ну, ты не пожалеешь, это правильный выбор...|Sehr gut. Du wirst deine Entscheidung nicht bereuen, du hast die richtige Wahl getroffen....
+		eric.week.good.good.why^							Но ты так и не сказал, почему не пожалею...|Aber du hast nicht gesagt, warum ich es nicht bereuen werde....
+
+	eric.week.good.good.why@90@Ну давай начнём с самого простого. Чего ты хочешь?|Fangen wir mit dem einfachsten an. Was willst du denn?
+		eric.week.talk.1^									В каком смысле?|Was meinst du damit?
+
+	eric.week.talk.1@87@Я не слепой и вижу как ты смотришь на своих сестёр и даже маму. Не отрицай, иногда даже твои штаны тебя выдают. Но я тебя не виню, ещё бы, такие цыпочки кругом!|Ich bin nicht blind und sehe, wie du deine Schwestern und deine Mom ansiehst. Verleugne es nicht, manchmal hast du sogar ein Zelt in der Hose, wenn du starrst. Aber ich mache dir keinen Vorwurf, es ist natürlich, wenn die Mädels um dich herum so schön sind!
+		eric.week.talk.2!set_tell.mom.eric.plan_1^			Что? Ты ошибаешься!|Was? Du irrst dich!
+		eric.week.talk.2!set_tell.mom.eric.plan_1^			Они никакие не цыпочки!|Nenn sie nicht Mädels!
+		eric.week.bad.bad^									Я вдруг понял... Да пошёл ты!|Ich habe meine Meinung geändert. Fick dich!
+
+	eric.week.talk.2@86@Да ладно, здесь все свои! Любой мужик бы думал только о том, как поиметь их всех по очереди или даже разом. Это нормально! Я тебя понимаю!|Komm schon, wir sind beide Männer. Jeder Mann an deiner Stelle würde nur daran denken, sie alle einzeln oder sogar alle auf einmal zu ficken. Das ist normal! Ich verstehe dich!
+		eric.week.talk.3a^									Думаешь?|Denkst du, ja?
+		eric.week.talk.3b^									Постой, и ты этого хочешь?|Warte, du willst sie auch ficken?
+
+	eric.week.talk.3b@87@Конечно! Я же нормальный мужик... Кстати, ты же никому не расскажешь, верно? Мы же типа друзья?|Natürlich! Ich bin ein Mann. Übrigens, du wirst es niemandem erzählen, oder? Sind wir Freunde?
+		eric.week.talk.4a^									А если я расскажу про это всем?|Und wenn ich allen davon erzähle?
+		eric.week.talk.4b^									Только, если я что-то получу за это...|Nur wenn ich etwas dafür bekomme....
+		eric.week.bad.bad^									Ты ?одонок! Я передумал. Убирайся!|Du Bastard! Ich habe meine Meinung geändert. Raus hier!
+
+	eric.week.talk.3a@87@Уверен в этом. И если честно, надеюсь, у меня всё получится. А ты мне в этом поможешь!|100%. Und ehrlich gesagt, habe ich vor, das wirklich zu tun. Und du wirst mir dabei helfen!
+		eric.week.talk.4a^									А если я расскажу про это всем?|Und wenn ich jedem von diesem Gespräch erzähle?
+		eric.week.talk.4b^									Только, если я что-то получу за это...|Nur wenn ich etwas dafür bekomme....
+		eric.week.bad.bad^									Ты подонок! Я передумал. Убирайся!|Du Bastard! Ich habe meine Meinung geändert. Raus hier!
+
+	eric.week.talk.4a@84@Всем? Это кому же? Сёстрам? Ну да, поверят они тебе... Расскажешь матери? Попытайся. Заодно, узнаешь на что способны мои, так сказать, «чары»...|Wem kannst du davon erzählen? Deine Schwestern werden dir und deiner Mom nicht glauben.... Nun, versuch's. Du wirst die Ergebnisse meiner Überredung sehen.
+		eric.week.talk.5a^									Да я не собираюсь рассказывать, просто спросил...|Ich werde es niemandem sagen, ich frage nur....
+		eric.week.talk.5b^									Вот и проверим...|Wir werden sehen....
+		eric.week.bad.bad^									Ты - псих ненормальный. Убирайся!|Du bist verrückt. Raus hier!
+
+	eric.week.talk.5a@87@Так ты меня разводишь? А я тебе почти поверил! Молодец...|Du verarscht mich! Ich hätte dir fast geglaubt! Gut gemacht....
+		eric.week.talk.4b^									Ладно, а что я получу с этого?|Okay, aber was habe ich davon?
+
+	eric.week.talk.5b@81@Не ожидал я от тебя такого... Ну ладно, дело твоё... Но учти, на этой войне у тебя нет ни единого шанса!|Ich habe das nicht von dir erwartet.... Nun, es ist deine Entscheidung. Aber denk dran, du hast keine Chance in diesem Krieg.
+		eric.week.talk.5a^									Да я пошутил! Конечно, не расскажу никому...|Ich habe nur Spaß gemacht! Natürlich erzähle ich es niemandem....
+		eric.week.bad.bad^									Вот и посмотрим...|Wir werden sehen
+
+	eric.week.talk.4b@90@Отличный вопрос, Макс! Пришло время выяснить, чего же именно ты хочешь?|Ausgezeichnete Frage, Max! Es ist Zeit herauszufinden, was genau du willst.
+		eric.week.talk.7^									Я хочу деньги, подглядывать и кое-что ещё...|Ich will Geld, die Möglichkeit zu gucken und etwas anderes....
+
+	eric.week.talk.7@87@Ого. Вот это запросы! Ну, мы договоримся, Макс. Деньги для меня не проблема, но в разумных пределах, конечно...|Wow. Das sind ziemlich viele Forderungen! Wir lassen uns was einfallen. Geld ist für mich kein Problem, im Rahmen der Vernunft natürlich....
+		eric.week.talk.8^									Сколько?|Wie viel?
+
+	eric.week.talk.8@90@Посмотрим на твоё поведение. Ещё рано торговаться. Если будешь в своё время закрывать глаза, то денег будет больше. Ну а если будешь мешать, то...|Wir werden sehen, wie du dich benimmst. Es ist zu früh, um zu verhandeln. Wenn du die Augen vor meinem Verhalten verschließt, hast du mehr Geld. Und wenn du dich einmischst....
+		eric.week.talk.9^									Ладно. А что насчёт подглядывать? Это можно?|Okay. Und was ist mit spionieren? Ist es möglich?
+
+	eric.week.talk.9@81@Ну лично я не возражаю. Думаю, даже твою маму подготовлю, чтобы если заметила, то не наказывала. Если ты помнишь, со следующей недели шлёпать вас будут голыми, а это очень унизительно... Что ещё ты там просил?|Nun, ich persönlich habe nichts dagegen. Ich denke, ich werde sogar deine Mom überreden, dich nicht zu bestrafen, wenn sie dich erwischt. Wenn du dich erinnerst, wird sie nächste Woche anfangen, dich ohne Hose zu verprügeln, und es ist sehr erniedrigend.... Was hast du noch gefragt?
+		eric.week.talk.10^									Я бы тоже хотел кое-кого...|Ich würde auch jemanden wollen....
+
+	eric.week.talk.10@83@Если ты про свою семью, то хотя я тебя и понимаю, но торговаться на этот счёт не намерен. Я тебе буду платить за твоё невмешательство. Более того, даже разрешу подглядывать без последствий, а вот все женщины в семье - мои.|Wenn du von deiner Familie sprichst, dann will ich, obwohl ich dich verstehe, nicht darüber verhandeln. Ich bezahle dich für deine Nichteinmischung. Außerdem lasse ich dich sogar ohne Konsequenzen spionieren, aber alle Frauen in der Familie gehören mir.
+		eric.week.talk.11a^									Договорились!|Deal!
+		eric.week.talk.11b^									Нет, на это я не согласен.|Nein, da bin ich nicht einverstanden.
+
+	eric.week.talk.11b@82@Ну, тогда мы с тобой перед диллемой. Ты знаешь слишком много о моих планах, я знаю, что ты тот ещё извращенец... Как быть?|Nun, dann haben wir ein Dilemma. Du weißt zu viel über meine Pläne, ich weiß, dass du ein Perverser bist.... Was ist zu tun?
+		eric.week.talk.alt.1^								Я не извращенец!|Ich bin kein Perverser!
+		eric.week.talk.alt.2^								А есть только два варианта?|Und das sind die einzigen Möglichkeiten?
+		eric.week.bad.bad^									Ты знаешь... Я тут подумал. Да пошёл ты! Не надо мне ничего от тебя. И от тебя избавлюсь!|Weißt du, ich habe nachgedacht.... fick dich! Ich will nichts von dir. Ich muss dich nur loswerden!
+
+	eric.week.talk.alt.1@87@Ну, это как посмотреть. Ты хотел потребовать «доступа» к женщинам в своей семье... Если бы твоя мать узнала, сомневаюсь, что это бы хорошо для тебя закончилось, правда?|Nun, das kommt darauf an. Du wolltest einen "Zugang" zu den Frauen in deiner Familie.... Wenn deine Mom davon erfahren würde, bezweifle ich, dass sie diese Information auf die leichte Schulter nimmt, meinst du nicht?
+		eric.week.talk.alt.2^								А есть только два варианта?|Und das sind die einzigen Möglichkeiten?
+		eric.week.bad.bad^									Тогда... Остаётся только послать тебя куда подальше. Такая дружба мне не нужна!|Dann.... Ich kann dich nur in die Hölle schicken. Ich brauche deine Freundschaft nicht!
+
+	eric.week.talk.alt.2@83@Боюсь, что да. Либо ты со мной, либо против меня. Напомню - я тебе буду платить, ты сможешь смотреть, но нельзя трогать... Ну или война и ты точно проиграешь. Очень быстро...|Ich fürchte, ja. Entweder bist du für mich oder gegen mich. Lass mich dich daran erinnern - ich bezahle dich, und du kannst schauen, aber nicht anfassen. Das oder es wird Krieg geben und du verlierst alles sehr schnell....
+		eric.week.talk.11a^									Если так, то я согласен на твои условия, конечно!|Ich denke, ich sollte der ersten Option zustimmen.
+		eric.week.bad.bad^									Знаешь, что... Эрик? А иди-ка ты в жопу! Без тебя справимся!|Weißt du, was Eric? Fick dich selbst! Wir werden ohne dich besser dran sein!
+
+	eric.week.talk.11a@90@Вот это разговор! Ну, тогда мы точно поладим. Если я увижу, что ты держишь свои обещания, то даже подарю потом кое-что, от чего ни один мужик не откажется, поверь!|Du hast die richtige Entscheidung getroffen! Wir werden uns gut verstehen! Wenn du deine Versprechen hältst, gebe ich dir etwas, das kein Mann je ablehnen würde!
+		eric.week.talk.what.isit^							О чём речь?|Wovon redest du?
+
+	eric.week.talk.what.isit@87@Любопытно? Ну я намекну... Рычит как байк, выглядит как байк...|Neugierig? Nun, ich gebe dir einen Tipp.... Klingt wie ein Motorrad, sieht aus wie ein Motorrad....
+		eric.week.talk.what.isit.1^							Да ладно?|Oh, wirklich?
+
+	eric.week.talk.what.isit.1@90@Ага. Так что, в твоих интересах мне не только не мешать, но и помогать, если возникнет такая необходимость. Ну там, слово замолвить или сделать что-то...|Ja. Also ist es in deinem Interesse, mir zu helfen. Und ich rede von einer echten Hilfe, nicht nur, dass ich den ganzen Job mache.
+		eric.week.talk.what.isit.1.good^					Договорились!|Deal!
+
+	eric.week.talk.what.isit.1.good@80@Ну всё, Макс. Я рад, что мы разобрались и, так сказать, поделили территорию. Теперь всё в твоих руках. Ну и в моих тоже... О, твоя мама идёт. Ну всё, пока!\n\n<color=lime><i><b>Внимание:</b> Ваши отношения значительно улучшились</i></color>|In Ordnung, Max. Ich bin froh, dass wir die Dinge geregelt und das Gebiet sozusagen aufgeteilt haben. Jetzt hängt alles von dir ab. Nun, bei mir auch.... Oh, deine Mom kommt. Alles klar, bye!\n\n<color=lime><i><b>Achtung:</b> Deine Beziehungen haben sich sehr verbessert.</i></color>
+		leave!set_eric.rep_2!set_eric.status_2!set_poss.alpha_3!time^		Удачи!|Viel Glück!
+
+	eric.week.bad.bad@89@Всё ясно с тобой. Ну, это твой выбор. У тебя была неделя, чтобы всё обдумать. Ты решил начать войну, ну что же, не вини меня за то, как я её закончу...\n\n<color=orange><i><b>Внимание:</b> Ваши отношения значительно ухудшились!</i></color>|I see. Well, if that's your choice. You had a week to think it over. You decided to start war, well, don't blame me for the way I’ll finish it... \n\n<color=orange><i><b>Achtung:</b>Deine Beziehungen haben sich sehr verschlechtert.</i></color>
+		leave!ericwar!time^													Ага, вали...|Ja, raus hier....
+
+
+
+# --- Разговор с Эриком насчёт подглядываний и какого чёрта, в общем-то?|Gespräch über das Überzeugen von Ann Max kann zusehen
+
+	eric.voy.wtf.init@0@Эрик, мы же договорились!|Eric, wir waren uns einig!
+	eric.voy.wtf@81@А можно конкретнее? О чём речь?|Wovon redest du?
+		eric.voy.wtf.1^										Меня наказали за подглядывания!|Ich wurde dafür bestraft weil ich gespannt habe!
+
+	eric.voy.wtf.1@83@Ну, и что здесь не так? Подглядывал - наказали... Преступление и наказание. Классика!|Und was ist daran falsch? Du hast spioniert und wurdest bestraft.... Verbrechen und Bestrafung. Das ist klassisch!
+		eric.voy.wtf.2^										Ты обещал, что можно будет подглядывать без наказаний!|Du hast versprochen, dass ich ohne Strafe gucken kann!
+
+	eric.voy.wtf.2@81@Я такое обещал? Хм... Может быть. То есть, ты хочешь, чтобы я убедил твою маму, что это нормально, когда она трахается на твоих глазах и нужно молчать?|Habe ich das versprochen? Hmm.... Vielleicht. Also, willst du, dass ich deine Mom davon überzeuge, dass sie ruhig sein soll, wenn du zusiehst, wie sie gefickt wird?
+		eric.voy.wtf.3a^									Э... Ну не совсем так...|Uh.... Nun, nicht ganz....
+		eric.voy.wtf.3b^									А так можно?|Ist das überhaupt möglich?
+
+	eric.voy.wtf.3a@87@А как? Через раз? Один раз можно, другой нет? Так чего именно ты хочешь?|Was dann? Jedes zweite Mal? Einmal die Woche? Was genau willst du?
+		eric.voy.wtf.4^										Я хочу смотреть и чтобы мне ничего за это не было!|Ich will zusehen, ohne in Probleme zu geraten!
+
+	eric.voy.wtf.3b@87@Ну у тебя и запросы, Макс! Я даже не знаю... Ты точно этого хочешь?|Das sind einige Forderungen, Max! Ich weiß nicht.... willst du es wirklich?
+		eric.voy.wtf.4^										Я хочу смотреть и чтобы мне ничего за это не было!|Ich will zusehen, ohne in Probleme zu geraten!
+
+	eric.voy.wtf.4@86@Да уж. Ну, раз мы с тобой теперь друзья, я что-нибудь придумаю. Только это будет не сразу, а постепенно, но думаю, что смогу настроить маму так, как нужно...|Gut, da wir jetzt Freunde sind, werde ich mir etwas ausdenken. Offensichtlich kann ich das nicht an einem Tag erreichen, ich werde etwas Zeit brauchen, um die Sichtweise deiner Mom anzupassen. Aber ich denke, ich werde es schaffen....
+		eric.voy.wtf.5^										Кстати, как ты это делаешь?|Übrigens, wie machst du das?
+		eric.voy.wtf.good^									Отлично! Спасибо, Эрик.|Ausgezeichnet! Danke, Eric.
+
+	eric.voy.wtf.5@81@Не понял. Как я делаю... что?|Wie mache ich was....?
+		eric.voy.wtf.6^										Ну... Манипулируешь мамой, например...|Nun.... meine Mom zu manipulieren, zum Beispiel....
+
+	eric.voy.wtf.6@87@Так я тебе и выдал свой секрет! Не сейчас. Может быть, однажды расскажу. Но поверь, мой способ очень эффективен! Так что, слушайся меня и я не буду настраивать никого против тебя...|Ich werde dir mein Geheimnis nicht verraten! Nicht jetzt. Vielleicht eines Tages. Aber glaube mir, meine Methode ist sehr effektiv! Also, du solltest auf mich hören und ich werde niemanden gegen dich aufbringen....
+		eric.voy.wtf.7a^									Это угроза?|Das ist eine Drohung?
+		eric.voy.wtf.good^									Хорошо, Эрик!|Okay, Eric!
+
+	eric.voy.wtf.good@83@Да, раз у тебя такие необычные запросы насчёт твоей мамы, то теперь я тебе буду давать чуть меньше денег, чем собирался...|Übrigens, da du ungewöhnliche Wünsche bezüglich deiner Mom hast, werde ich dir etwas weniger Geld geben, als ich wollte....
+		eric.voy.wtf.notfair^								Так не честно! Мы об этом сразу договаривались!|Das ist nicht fair! Darauf haben wir uns bereits geeinigt!
+
+	eric.voy.wtf.7a@83@А, думай что хочешь. Но то, что теперь твоя жизнь в моих руках, это факт. И теперь я тебе буду давать немного меньше денег, раз у тебя такие специфичные требования насчёт мамы...|Stell dir vor, was du willst. Dein ganzes Leben liegt jetzt in meinen Händen, und ich kann tun, was ich will. Und jetzt werde ich dir weniger Geld geben, weil du eine seltsame und komplizierte Bitte hast.
+		eric.voy.wtf.notfair^								Так не честно! Мы об этом сразу договаривались!|Das ist nicht fair! Darauf haben wir uns bereits geeinigt!
+
+	eric.voy.wtf.notfair@87@Вообще, жизнь - штука несправедливая. А учитывая, что твоя ещё и в моих руках, то жаловаться никому не стоит, даже мне. Ну всё, иди займись чем-нибудь...|Das Leben ist nicht fair, einfach so. Und da dein Leben auch in meinen Händen liegt, kannst du dich nicht beschweren, besonders nicht bei mir. Okay, mach dich woanders nützlich.
+		leave!add_eric.fee_-5!set_eric.voy.stage_2^			<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Разговор с Эриком о подглядывании и планах|Zweites Gespräch über Spähen und Pläne
+
+	eric.voy.more.init@0@Ты хотел о чём-то поговорить...|Du wolltest über etwas reden....
+	eric.voy.more@87@Да, Макс, хотел. Ну что, я выполнил своё обещание, верно? Ты доволен?|Ja, Max, das stimmt. Nun, ich habe mein Versprechen erfüllt, richtig? Bist du glücklich?
+		eric.voy.more.next.1^				Ты про возможность подглядывать?|Du meinst die Möglichkeit zu spannen?
+		eric.voy.more.next.1b^				Да, но как тебе это удалось?|Ja, aber wie hast du das gemacht?
+
+	eric.voy.more.next.1b@81@Ты знаешь, я умею убеждать женщин. Могу заставить их делать что угодно. Причём, они будут думать, что делают это по своей воле... Но секрет я тебе не раскрою. Не сейчас. Но я хотел с тобой поговорить о другом.|Du weißt, dass ich Frauen davon überzeugen kann, alles zu tun. Außerdem werden sie denken, dass sie es waren, die sich diese Sache ausgedacht haben. Aber ich werde dir nichts sagen. Nicht jetzt. Aber ich wollte mit dir über etwas anderes reden.
+		eric.voy.more.next.2^				О чём?|Was meinst du damit?
+
+	eric.voy.more.next.1@86@Ну да. Ты же именно этого хотел? Деньги всегда можешь попросить, подглядывай сколько хочешь. Все твои мечты сбылись. Смотреть можно, но не трогать. И вот об этом я и хотел поговорить...|Ja. Das wolltest du doch, oder? Du kannst immer nach Geld fragen, spionieren, so viel du willst. All deine Träume wurden wahr. Du darfst schauen, aber nicht anfassen. Und darüber wollte ich sprechen....
+		eric.voy.more.next.2^				Слушаю|Ich höre
+
+	eric.voy.more.next.2@81@Что ты скажешь о Лизе?|Was hältst du von Lisa?
+		eric.voy.more.next.2^				В ка?ом смысле?|Was meinst du damit?
+
+	eric.voy.more.next.2@86@Ну, как думаешь, её заинтересуют уроки, скажем так, сексуального образования?|Nun, denkst du, sie könnte an den Lektionen der Sexualerziehung interessiert sein, sozusagen?
+		eric.voy.more.next.3^				Это что значит?|Was meinst du damit?
+
+	eric.voy.more.next.3@87@В общем, я думаю, что буду учить её как правильно заниматься сексом. Ну, не один, с твоей мамой, конечно. Постепенно, шаг за шагом...|Ich denke, ich werde ihr beibringen, wie man richtig Sex hat. Nun, nicht allein, natürlich mit deiner Mom. Nach und nach, Schritt für Schritt....
+		eric.voy.more.next.4^				А не перебор?|Und es ist nicht zu viel?
+
+	eric.voy.more.next.4@81@Я вроде тебе сразу сказал, что у меня в планах вся твоя семья, ну, женская её часть. И всё что я обещал сделал. Теперь твоя очередь. Будешь мне помогать достигать моих целей. Понял?|Ich sagte bereits, dass ich Pläne für deine ganze Familie habe. Nun, die Frauen gehören dazu. Und ich habe getan, was ich versprochen habe. Jetzt bist du dran. Du wirst mir helfen, meine Ziele zu erreichen. Verstanden?
+		eric.voy.more.next.5^				Понял...|Verstanden...
+		eric.voy.more.next.5b^				Я не согласен!|Ich bin anderer Meinung!
+
+	eric.voy.more.next.5b@83@Ого. И что это значит? Думаешь, у тебя есть выбор? И с чем ты не согласен? Не хочешь мне помогать или не согласен с тем, как обстоят дела?|Denkst du, du hast eine Wahl? Und womit bist du nicht einverstanden? Du willst mir nicht helfen, oder bist du anderer Meinung?
+		eric.voy.more.next.x1^				И с тем и с другим!|Beides!
+		eric.voy.more.next.x2^				Не хочу помогать тебе|Ich will dir nicht helfen.
+		eric.voy.more.next.x1^				Я разрываю наш договор!|Ich breche unseren Deal!
+
+	eric.voy.more.next.x2@81@Как же так? Ты хотел, чтобы я помог тебе, я это сделал. Теперь твоя очередь и ты отказываешься? Как-то не по-пацански, ты так не считаешь?|Was? Du wolltest, dass ich dir helfe, also tat ich es. Jetzt bist du dran und lehnst ab? Das ist nicht sehr fair, findest du nicht?
+		eric.voy.more.next.x1.ok^			Ладно, убедил. Извини...|Okay, Sicher. Sorry...
+		eric.voy.more.next.x1.no^			Я передам маме наш разговор!|Ich werde meiner Mom von unserem Gespräch erzählen!
+
+	eric.voy.more.next.x1@80@Серьёзный шаг, Макс. и очень глупый. Я же тебя раздавлю, а остальные только посмотрят и улыбнутся, потому-что я их смогу убедить в чём угодно. Ты это понимаешь?|Das ist ein ernster und sehr dummer Schritt, Max. Ich werde dich zerquetschen, und der Rest wird nur schauen und lächeln, weil ich sie überzeugen kann, alles zu tun. Verstehst du das?
+		eric.voy.more.next.x1.ok^			Ладно, убедил. Извини...|Okay, Sicher. Sorry...
+		eric.voy.more.next.x1.no^			Попробуй! Я всё расскажу маме!|Versuchs mal! Ich sag's meiner Mom!
+
+	eric.voy.more.next.x1.no@87@Забавный ты, Макс. Разве ты не понял, что я полностью контролирую твою мать? И это ещё цветочки. У меня большие планы на твою семью. И если ты не со мной, то ты препятствие, которое я просто уничтожу.|Du bist witzig, Max. Siehst du nicht, dass ich deine Mom komplett unter Kontrolle habe? Und es ist nur der Anfang. Ich habe große Pläne für deine Familie. Und wenn du nicht bei mir bist, dann bist du ein Hindernis, das ich einfach zerstören werde.
+		eric.voy.more.next.x1.ok^			Ладно, убедил. Извини...|Okay, Sicher. Sorry...
+		eric.voy.more.next.x1.no.war^		Значит, война!|Das bedeutet Krieg!
+
+	eric.voy.more.next.x1.no.war@83@Война? Ну, хорошо. Посмотрим, как долго ты продержишься...\n\n<color=orange><i><b>Внимание:</b> Ваши отношения значительно ухудшились!</i></color>|Krieg? Nun, okay. Mal sehen, wie lange du durchhältst....\n\n<color=orange><i><b>Achtung:</b>Deine Beziehungen haben sich sehr verschlechtert.</i></color>
+		leave!set_eric.talk.moreplans_3!ericwar!max_tell.mom.eric.plan_1^			Посмотрим...|Okay
+
+	eric.voy.more.next.x1.ok@86@Ладно, извинения принимаются. И да, когда скажу что-то сделать, ты это сделаешь без лишних вопросов. Можешь не отвечать...|Okay, Entschuldigung akzeptiert. Und wenn ich dir sage, dass du etwas tun sollst, wirst du es ohne Fragen tun. Ich brauche deine Antwort jetzt nicht, verschwinde.
+		leave!set_eric.talk.moreplans_2^	<i>уйти</i>|<i>verlassen</i>
+
+	eric.voy.more.next.5@86@Вот и молодец. Я думал, что с тобой будут проблемы, а ты прямо с энтузиазмом отдаёшь всю свою семью в секс-рабство, так сказать...|Gut gemacht. Ich habe einige Probleme erwartet, aber du führst deine ganze Familie in eine Sexsklaverei mit Enthusiasmus, sozusagen....
+		eric.voy.more.next.6^				Что?!|Was?!
+
+	eric.voy.more.next.6@87@Да шучу я, расслабься. В общем, имей в виду, что мне мешать не стоит. Возьму ту, которую захочу. Зато, ты сможешь смотреть. Ну всё, разговор окончен, иди займись чем-нибудь...|Ich mach nur Spaß, entspann dich. Denk einfach an deinen Platz. Ich nehme, wen ich will, und du darfst zusehen. Wie auch immer, dieses Gespräch ist vorbei, geh und mach dich irgendwo nützlich.
+		leave!set_eric.talk.moreplans_2^	<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- Макс просит у Эрика деньги|Max bittet um Geld von Eric
+
+	eric.needmoney.init@0@Мне нужны деньги...|Ich brauche Geld....
+	eric.needmoney@81@Ну так заработай! Причём тут я?|Nun, verdiene etwas! Was hat das mit mir zu tun?
+		eric.needmoney.next.1^				Мы договаривались...|Wir hatten eine Abmachung....
+
+	eric.needmoney.next.1@87@Да? Ну, ладно... Держи. Только на глаза не попадайся...|Gut.... Hier. Und jetzt geh mir aus den Augen.
+		leave!ericmoney^					Хорошо...|Schön
+
+
+
+# --- Разговор с Эриком насчёт обучения Лизы|Gespräch mit Eric über das Unterrichten von Lisa
+
+	eric.need.liza@80@e-meet-eric-3@Макс, нам нужно поговорить наедине.|Max, wir müssen unter vier Augen reden.
+		eric.need.liza.ok^							Я слушаю...|Ich höre
+
+	eric.need.liza.ok@81@До меня дошли слухи, что ты собрался обучать Лизу... Даже не знаю как это назвать. В общем, ты хочешь стать её своего рода секс-учителем. Это правда?|Ich habe gehört, dass du Lisa etwas beibringen wolltest.... Ich weiß nicht, wie ich es nennen soll. Nun, du willst ihr irgendeine Form von Sex geben. Ist das wahr?
+		eric.need.liza.ok.how^						Как ты узнал?!|Woher weißt du das?!
+		eric.need.liza.ok.no!add_eric.fee_-5^		Нет, конечно!|Natürlich nicht!
+		eric.need.liza.ok.yes!add_eric.fee_5^		Ну, типа того...|Etwas Ähnliches
+
+	eric.need.liza.ok.how@83@Это совершенно не важно. Важно, что у нас с тобой договор. Ты получаешь деньги, возможность наблюдать, но не трогать. И это касается обеих твоих сестёр и матери.|Das ist nicht wichtig. Wichtig ist, dass wir eine Vereinbarung haben. Du bekommst das Geld, du kannst zusehen, aber nicht anfassen. Und das gilt sowohl für deine Schwestern als auch für deine Mom.
+		eric.need.liza.ok.how.ok^					Ну, хорошо. Забирай и Лизу...|Oh, nun ja. Auch Lisa....
+		eric.need.liza.ok.how.no^					Лизу тебе не отдам!|Ich werde dir Lisa nicht geben!
+
+	eric.need.liza.ok.no@84@Ты пытаешься меня обмануть? У нас с тобой договор. И если ты решил его нарушить, то ты первый, кто пострадает. С этого момента я стану давать тебе меньше денег. А вот Лизу ты должен оставить. Она моя.|Willst du mich verarschen? Wir haben einen Vertrag. Und wenn du dich entscheidest, ihn zu brechen, dann bist du derjenige, der leiden muss. Von diesem Moment an werde ich dir weniger Geld geben. Du musst Lisa in Ruhe lassen. Sie gehört mir.
+		eric.need.liza.ok.how.ok^					Ну, хорошо. Забирай и Лизу...|Oh, nun ja. Auch Lisa....
+		eric.need.liza.ok.how.no^					Лизу тебе не отдам!|Ich werde dir Lisa nicht geben!
+
+	eric.need.liza.ok.yes@87@Я рад, что ты это не скрываешь. Ради такого надбавлю тебе $5 к твоим чаевым за честность. Напомню, что ты уступил мне всю свою семью. И Лиза её часть. Так что, ты должен бросить свою затею. Обучать её буду я сам.|Ich bin froh, dass du es nicht versteckt hast. Ich füge dir $5 zu deinem Trinkgeld für Ehrlichkeit hinzu. Ich erinnere dich daran, dass du für mich und deine ganze Familie verloren bist. Und Lisa ist ein Teil von Ihr. Also musst du dein Unternehmen aufgeben. Ich werde es ihr selbst beibringen.
+		eric.need.liza.ok.how.ok^					Ну, хорошо. Забирай и Лизу...|Oh, nun ja. Auch Lisa....
+		eric.need.liza.ok.how.no^					Лизу тебе не отдам!|Ich werde dir Lisa nicht geben!
+
+	eric.need.liza.ok.how.ok@86@Макс, ты меня удивляешь. Так спокойно смотришь на то, что я собираюсь перетрахать всех твоих сестёр и мать... Может быть, ты из этих, которые любят только наблюдать? Но не мне тебя судить. Лично меня всё устраивает. Ладно, этот вопрос уладили. Свободен.|Max, du überraschst mich. Also schau dir ruhig an, wie ich all deine Schwestern und deine Mom ficken werde.... Vielleicht bist du einer von denen, die nur zusehen wollen? Aber ich kann dich nicht verurteilen. Ich persönlich bin mit allem zufrieden. Okay, diese Frage ist geklärt. Du kannst gehen.
+		leave!giveliza!can^							<i>законч?ть разговор</i>|<i>Unterhaltung beenden</i>
+
+	eric.need.liza.ok.how.no@88@Ну, тогда у нас с тобой проблемы. Если ты помнишь, мы договорились, а договор нужно выполнять. Либо нам с тобой придётся перестать быть друзьями... Выбирай.|Nun, dann haben wir Probleme. Wenn du dich erinnerst, haben wir vereinbart, und der Vertrag sollte ausgeführt werden. Oder wir müssen aufhören, Freunde zu sein.... Entscheide dich.
+		eric.need.liza.ok.how.ok^					Ну, хорошо. Забирай и Лизу...|Oh, nun ja. Auch Lisa....
+		eric.need.liza.ok.how.no.war^				Делай что хочешь, но Лиза моя!|Mach, was du willst, aber Lisa gehört mir!
+
+	eric.need.liza.ok.how.no.war@81@Ну, значит, война. Я тебя предупреждал уже, что ты проиграешь. Теперь есть возможность в этом убедиться лично. И да, готовь сапоги. Военный лагерь ждёт...\n\n<color=orange><i><b>Внимание:</b> Ваши отношения значительно ухудшились!</i></color>|Nun, das bedeutet Krieg. Ich habe dich bereits gewarnt, dass du verlieren würdest. Jetzt ist es möglich, es persönlich zu sehen. Und ja, mach die Stiefel fertig. Das Militärlager wartet auf dich....\n\n<color=orange><i><b>Achtung:</b> Deine Beziehung hat sich erheblich verschlechtert!</i></color>
+		leave!ericwar!can^							Посмотрим...|Okay
+
+
+
+# --- 0.3: Макс шантажирует Эрика (спалил ночью у комнаты Алисы)|Max versucht Eric zu erpressen, nachdem er ihn neben Alice's Zimmer erwischt hat.
+
+	max.com.eric.1.init@0@Мне кажется, нам надо поговорить...|Ich denke, wir sollten darüber reden.
+	max.com.eric.1@82@О чём? Не видишь, я занят!|Worüber? Siehst du nicht, dass ich beschäftigt bin?
+		max.com.eric.2^										Ну для этого уж найди время...|Irgendwann einmal
+		leave^												Ладно, в другой раз...|Okay, ein anderes Mal dann
+
+	max.com.eric.2@88@Для чего для этого? Говори, чего хотел и убирайся!|Gut, sag mir, was du willst und verschwinde.
+		max.com.eric.3^										Я видел, что ты делал у комнаты Алисы ночью...|Ich habe gesehen, was du nachts neben Alices Zimmer gemacht hast....
+
+	max.com.eric.3@81@И что с того? Шантажировать меня вздумал?|Und? Versuchst du mich zu erpressen?
+		eric.status=2&max.com.eric.peace^					Ну, называй как хочешь...|Nenn es, wie du willst.
+		eric.status<2&max.com.eric.war^						Ну, называй как хочешь...|Nenn es, wie du willst.
+
+	max.com.eric.war@82@Какие ваши доказательства?|Und hast du irgendwelche Beweise?
+		max.com.eric.war.words^								Я сам всё видел и расскажу всем!|Ich habe dich gesehen und ich werde es allen erzählen!
+		com.ericnight=2&max.com.eric.war.proof^				У меня есть фото...|Ich habe ein Foto
+
+	max.com.eric.war.words@81@Мне кажется ты сам понимаешь, что твоё слово против моего ничего не значит. А вот за враньё получишь по жопе! Всё, свалил отсюда, не хочу тебя видеть!|Komm schon, Max, du musst verstehen, dass mein Wort gegen deins steht und niemand wird dir glauben. Du wirst nur verprügelt. Raus hier.
+		leave!set_com.ericnight_3^							Ну и ладно...|Okay, schön....
+
+	max.com.eric.war.proof@81@Фото некачественное. Тут почти ничего не разобрать... Ладно, чего ты хочешь? Но учти, я никуда не денусь и подобные просьбы пошлю куда подальше!|Man sieht nicht viel auf dem Foto. Gut, was willst du? Aber vergiss nicht, so leicht wirst du mich nicht los.
+		max.com.eric.war.proof.1^							Гони $200!|Ich will $200!
+		max.com.eric.peace.agro.proof.inf^					Я хочу, чтобы ты перестал настраивать семью против меня!|Ich will, dass du aufhörst, meine Familie gegen mich aufzubringen!
+
+	max.com.eric.war.proof.1@86@Иди в жопу! Ещё просьбы?|Fick dich selbst. Irgendwelche anderen Wünsche?
+		max.com.eric.peace.agro.proof.inf^					Я хочу, чтобы ты перестал настраивать семью против меня!|Ich will, dass du aufhörst, meine Familie gegen mich aufzubringen!
+
+	max.com.eric.peace@83@Мы же с тобой, вроде как, нашли общий язык? И шантажировать вздумал?! Ладно, чего ты хочешь...|Haben wir uns nicht schon geeinigt? Und jetzt willst du mich erpressen? Was willst du denn?
+		max.com.eric.peace.agro^							Думаю, что ты должен отвалить от моей семьи!|Ich will, dass du meine Familie in Ruhe lässt!
+		max.com.eric.peace.want^							У меня есть ряд требований!|Ich habe eine Reihe von Forderungen!
+
+	max.com.eric.peace.want@81@А не охренел ли ты, Макс? Может быть, я подумаю над твоей просьбой, но ряд требований можешь засунуть себе сам знаешь куда!|Mich fickst du nicht, Max? Vielleicht werde ich über Deine Forderung nachdenken, aber wie willst du deine Anforderungen durchsetzen?!
+		max.com.eric.peace.agro^							Сделаешь, как я сказал! Иначе...|Du tust, was ich sage, sonst....
+		com.ericnight=2&max.com.eric.peace.agro.proof^		У меня есть доказательства!|Ich habe einen Beweis!
+
+	max.com.eric.peace.agro@81@Иначе что? Побежишь и расскажешь всё мамочке? Думаешь, она поверит твоим словам? Против моих? Серьёзно?|Oder was? Wirst du rennen und es Mom erzählen? Glaubst du wirklich, dass sie dir glauben wird? Ernsthaft?
+		max.com.eric.peace.agro.yes^						Конечно, поверит!|Natürlich wird sie das!
+		com.ericnight=2&max.com.eric.peace.agro.proof^		У меня есть доказательства!|Ich habe einen Beweis!
+
+	max.com.eric.peace.agro.proof@88@Какие ещё доказательства?!|Welchen Beweis!!?
+		max.com.eric.peace.agro.proof.1^					Я тебя сфотографировал!|Ich habe ein Foto.
+
+	max.com.eric.peace.agro.yes@86@Ну, можешь попробовать. Только не удивляйся, если тебя потом выпорят за враньё у всех на глазах... А теперь свалил отсюда!|Du kannst es versuchen, aber sei nicht überrascht, wenn du dafür verprügelt wirst, dass du vor deiner ganzen Familie liegst. Und jetzt verschwinde!
+		com.ericnight=1&max.com.eric.peace.agro.yes.ok^		Посмотрим...|Okay
+		com.ericnight=2&max.com.eric.peace.agro.proof^		У меня есть доказательства!|Ich habe einen Beweis!
+
+	max.com.eric.peace.agro.yes.ok@81@Посмотрим... А за то, что ты мне угрожал, я... уменьшаю твои карманные деньги. Чтобы думал в следующий раз головой. А теперь свалил отсюда!|Wir werden sehen.... Ich werde dein Taschengeld für den Versuch, mich zu erpressen, reduzieren, du solltest es dir das nächste Mal vorher überlegen. Und jetzt verschwinde.
+		leave!add_eric.fee_-5!set_com.ericnight_3^			Блин...|Misst...
+
+	max.com.eric.peace.agro.proof.1@81@Врёшь! Ничего у тебя нет!|Nein, tust du nicht! Du lügst!
+		max.com.eric.peace.agro.proof.2^					<i>показать копию фотографии</i>|<i>zeige ihm das Foto</i>
+
+	max.com.eric.peace.agro.proof.2@83@Ну, ладно... Чего ты хочешь? Только учти, что я никуда не денусь и от твоей семьи не отстану.|Gut.... Was willst du denn? Aber denk dran, vernünftig zu sein, ich werde deine Familie nicht in Ruhe lassen, wegen eines beschissenen Fotos.
+		random.social.2=1&max.com.eric.peace.w.money.ok^	Увеличь карманные деньги на $20! [skill.social_2]|Ich will $20 mehr Taschengeld! [skill.social_2]
+		random.social.2=0&max.com.eric.peace.w.money.no^	Увеличь карманные деньги на $20! [skill.social_2]|Ich will $20 mehr Taschengeld! [skill.social_2]
+		random.social.1=1&max.com.eric.peace.w.gold.ok^		Прямо сейчас давай $100! [skill.social_1]|Ich will $100!
+		random.social.1=0&max.com.eric.peace.w.gold.no^		Прямо сейчас давай $100! [skill.social_1]|Ich will $100!
+		lizas.mentor=2&max.com.eric.peace.w.liza^			Я хочу обучать Лизу!|Ich will Lisa Sexunterricht geben!
+		max.com.eric.peace.agro.proof.inf^					Перестань настраивать против меня мою семью!|Hör auf, meine Familie gegen mich aufzubringen!
+
+	max.com.eric.peace.w.liza@81@Мы же с тобой договорились? Я её обучаю, ты свои руки не суёшь. Что-то изменилось?|Hatten wir nicht eine Abmachung? Ich bringe es ihr bei und du lässt sie in Ruhe. Was hat sich geändert?
+		max.com.eric.peace.w.liza.yeah^						Ага. Теперь у меня есть на тебя компромат. Но я его удалю за Лизу.|Ich habe ein Druckmittel. Und ich bin bereit, es zu benutzen, um Lisa zu kriegen.
+
+	max.com.eric.peace.w.liza.yeah@83@Тебе мать не поверит. Я скажу, что ты всё подстроил или ещё что-то выдумаю. И тогда у тебя не будет ничего, а мы с тобой станем врагами...|Deine Mom wird mir nicht glauben. Ich werde ihr sagen, dass du mich reingelegt und alles erfunden hast. Dann hast du nichts und wir werden Feinde.
+		max.com.eric.peace.w.liza.yeah.2^					Или поверит и ты вылетишь отсюда навсегда...|Oder vielleicht <i>wird</i> sie mir glauben und du verlierst alles.
+
+	max.com.eric.peace.w.liza.yeah.2@81@Сомневаюсь... Но если тебе так нужна Лиза, забирай. Всё равно, она слишком мелкая для меня...|Das bezweifle ich. Aber da du sie so sehr willst, kannst du sie haben. Sie ist sowieso zu jung und unerfahren für mich.
+		leave!set_com.ericnight_5^							Вот и договорились!|Deal!
+
+	max.com.eric.peace.agro.proof.inf@81@Да без проблем. Учитывая, что я никого особо не настраиваю... Но будем считать, что я тебя услышал. А фото удали, иначе я тебя утоплю в бассейне. Скажу, что так и было...|Kein Problem. Ich habe sowieso nicht wirklich viel gemacht. Aber sagen wir, ich habe dich gehört. Jetzt lösche das Foto oder ich ertränke dich im Pool und sage, es war ein Missgeschick.
+		leave!set_com.ericnight_0!add_liza.inf_-20!add_alisa.inf_-20!add_mom.inf_-20^	Удалю, удалю...|Sicher, ich werde es löschen.
+
+	max.com.eric.peace.w.money.ok@87@<color=lime><i>Убеждение удалось!</i></color>\nТебе не говорили, Макс, что ты слишком жадный? Ладно, добавлю тебе денег. Но $10 максимум. А теперь вали отс?да нахрен!|<color=lime><i>Überzeugung Erfolgreich!</i></color>\nHast du nicht gehört, dass Gier eine Todsünde ist, Max? Gut, du bekommst mehr Geld. Aber nur $10. Und jetzt verschwinde.
+		leave!set_com.ericnight_0!add_eric.fee_10^			Ну и ладно...|Okay, Schön...
+
+	max.com.eric.peace.w.money.no@87@<color=orange><i>Убеждение не удалось!</i></color>\nНу у тебя и запросы, Макс! Надбавлю тебе $5 и вали отсюда нах?ен!|<color=orange><i>Überzeugung Fehlgeschlagen!!</i></color>\nDas ist zu viel, Max. Ich gebe dir $5 mehr Geld und jetzt verschwinde von hier.
+		leave!set_com.ericnight_0!add_eric.fee_5^			Блин...|Misst...
+
+	max.com.eric.peace.w.gold.ok@87@<color=lime><i>Убеждение удалось!</i></color>\nОткуда в тебе такие замашки? Ладно, дам тебе, но $50 и чтобы я тебя больше не видел!|<color=lime><i>Überzeugung Erfolgreich!</i></color>\nWhere do you even get this arrogance? Fine, I'll give you $50 so you will leave me alone.
+		leave!set_com.ericnight_0!add_money_50^				Сойдёт...|Gut genug
+
+	max.com.eric.peace.w.gold.no@87@<color=orange><i>Убеждение не удалось!</i></color>\nХорошая попытка, но нет. Не дам я тебе $100 за какую-то фотку. Держи $20 и удали её, иначе пожалеешь...|<color=orange><i>Überzeugung Fehlgeschlagen!</i></color>\nNetter Versuch, aber nein. Ich bezahle keine $100 für ein Foto. Hier sind 20 Dollar, und du löschst es besser....
+		leave!set_com.ericnight_0!add_money_20^				Хорошо...|Schön
+
+
+
+# --- 0.4: Попытка узнать у Эрика что происходит насчёт Киры и той ситуации ночью|Max fragt Eric nach Kira
+
+	eric.wtf0.init@0@Какого хрена, Эрик?!|Was zum Teufel, Eric!?
+	eric.wtf0@83@Не мог бы ты изъясняться как-то понятнее, Макс?|Wovon redest du?
+		eric.wtf0.step.2^				Я про то, что было ночью в гостиной!|Ich rede davon, was du nachts im Wohnzimmer gemacht hast!
+
+	eric.wtf0.step.2@90@А на что это было похоже? Я трахал твою тётю Киру, пока все спали, включая твою маму, а ты ничего не мог с этим поделать, потому-что Кира была не против... Я всё правильно объяснил?|Wie sah es aus? Ich habe deine Tante Kira gefickt, während alle, auch deine Mom, geschlafen haben. Und du konntest nichts dagegen tun, weil Kira damit einverstanden war. Habe ich mich klar ausgedrückt?
+		eric.wtf0.step.3^				Не зли меня!|Verärgere mich nicht!
+
+	eric.wtf0.step.3@89@Ой, а то что будет? Мамочке пожалуешься? Ну давай, рискни! Только я бы на твоём месте был бы чуточку умнее и сначала поговорил с Кирой. Может быть у неё найдутся ответы на некоторые твои вопросы... Конечно, если она расскажет...|Oder was? Du rennst zu deiner Mom und weinst? Na los, versuch's. Aber ich rate dir, zuerst mit Kira zu reden, sie könnte dir etwas Interessantes erzählen.... Oder vielleicht auch nicht....
+		leave!set_poss.sac_2^			Блин!|Scheiße!
+
+
+
+# --- 0.4: Разговор с Эриком насчёт компромата на Киру и Макса|Gespräch mit Eric über seine Erpressung von Kira
+
+	eric.wtf.kira.init@0@Я поговорил с Кирой...|Ich habe mit Kira gesprochen....
+	eric.wtf.kira@86@Видимо, она всё рассказала? Или нет?|Also, hat sie dir die Situation erklärt?
+		eric.wtf.kira.step.2^			Ну ты и подонок!|Du bist ein Abschaum!
+
+	eric.wtf.kira.step.2@90@Значит, и правда рассказала! А ты, Макс? Трахался со своей родной тётей, пока все спали, это как называется?|Also hat sie es dir gesagt. Was ist mit dir, Max? Du hast deine Tante gefickt, während alle schliefen, wie nennst du das?
+		eric.wtf.kira.step.3^			Это не твоё дело!|Das geht dich nichts an!
+
+	eric.wtf.kira.step.3@83@Не моё? Хорошо. Тогда то, что я трахаюсь с Кирой, это моё дело. Не твоё. К тому же, я тебя предупреждал, что собираюсь трахнуть всех женщин в твоей семье... И пока у меня почти всё получается...|Okay, dann ist es nicht deine Sache, dass ich Kira ficke. Außerdem habe ich dich gewarnt, dass ich alle Frauen in deiner Familie ficken werde, und bis jetzt geht es mir ziemlich gut damit....
+		eric.wtf.kira.step.4^			Я маме всё расскажу про это!|Ich sag's Mom!
+
+	eric.wtf.kira.step.4@93@Вперёд, Макс! Попробуй... Тебе она вряд-ли поверит, а вот я могу показать ей кое-что, если ты меня понимаешь... Кажется, там вы с Кирой выглядите вполне счастливыми... Вот только как долго продлится счастье если мама узнает?|Los, Max, versuch es. Ich bezweifle, dass sie dir glauben wird, während ich ihr andererseits etwas zeigen kann, wenn du weißt, was ich meine. Kira und du siehst im Video ziemlich glücklich aus. Wie glücklich wirst du sein, wenn deine Mom es herausfindet?
+		eric.wtf.kira.step.5^			Ладно, что ты хочешь?|Gut, was willst du?
+
+	eric.wtf.kira.step.5@90@Хочу, чтобы ты свалил отсюда нахрен!|Ich will, dass du dich verziehst!
+		eric.wtf.kira.step.6^			Нет, за то видео что хочешь?|Nein, was willst du für das Video?
+
+	eric.wtf.kira.step.6@93@Что-то я сомневаюсь, что у тебя есть что-то, что может меня заинтересовать... Хотя... Есть одна идейка... Правда, ты такой нервный. Не уверен, что стоит предлагать тебе такой вариант...|Ich bezweifle, dass du etwas hast, das mich interessieren könnte.... Obwohl.... Ja, ich habe eigentlich eine Idee. Ich bin mir nicht sicher, ob ich es dir sagen soll.
+		eric.wtf.kira.step.7^			Говори уже!|Sag es mir einfach!
+
+	eric.wtf.kira.step.7@86@Ты знаешь, я уже долгое время не могу найти подход к Алисе. Я ей и шмотки дарю всякие и... не важно. Но она просто флиртует со мной и кажется, что просто использует меня и мой кошелёк...|Ich brauche einen Zugang zu Alice. Ich versuche seit geraumer Zeit, ihr ein paar Klamotten zu geben und.... Das spielt keine Rolle. Wie auch immer, sie flirtet einfach mit mir und es fühlt sich an, als würde sie mich und meine Brieftasche benutzen....
+		eric.wtf.kira.step.8^			Молодец, Алиса!|Gute Arbeit, Alice!
+
+	eric.wtf.kira.step.8@88@Не смешно, Макс! Короче, если ты мне поможешь к ней подкатить или подскажешь какой-то секрет, какую-то её слабость... И если у меня всё получится, то я переключу своё внимание с Киры на Алису...|Das ist nicht lustig, Max! Wie auch immer, wenn du mir wertvolle Informationen mitteilst, die mir helfen, Alice zu bekommen, dann werde ich meinen Fokus von Kira auf Alice verlagern....
+		eric.wtf.kira.step.9^			Что?!|Was!?
+
+	eric.wtf.kira.step.9@83@Ну а как ты хотел? Выбирай: либо твоя тётя, либо твоя сестра. Третьего не дано. Да, я мог бы и Лизу попросить, но мне пока хватит и Алисы, если надумаешь...|Was hast du erwartet? Du kannst zwischen deiner Tante und deiner Schwester wählen. Es gibt keine anderen Möglichkeiten. Ich könnte Lisa fordern, aber ich denke, Alice wird fürs Erste reichen....
+		eric.wtf.kira.step.10^			Вот сволочь...|Du verdammtes Arschloch....
+
+	eric.wtf.kira.step.10@87@Твоя реакция мне понятна. Тебя крепко взяли за яйца и хорошего тебе ничего не светит... Однако, у тебя есть выбор. Можешь сказать спасибо, что я тебе его предоставил...|Ich kann Ihre Reaktion verstehen. Du steckst tief in der Scheiße und es gibt keine guten Optionen.... Aber du hast immer noch eine Wahl. Du kannst mir danken, dass ich dir eine zur Verfügung gestellt habe.
+		leave!set_poss.sac_4!set_dcd.ericgive_1^			Да пошёл ты!|Fick dich!
+
+
+
+# --- 0.4: Макс соглашается пожертвовать Алисой ради Киры|Max willigt ein, Kira gegen Alice einzutauschen.
+
+	eric.give.alisa.init@0@Насчёт тех вариантов...|Über meine Wahl....
+	eric.give.alisa@90@Ого! Так ты готов выбрать кого мне отдать? Оставить Киру на растерзание или пожертвовать старшую сестрёнку? Любопытно! Рассказывай, что надумал?|Also, hast du dich entschieden? Lässt du mich mit Kira reden, oder opferst du deine ältere Schwester?
+		poss.nightclub>5&eric.give.alisa.yes^			Я отдам тебе Алису|Ich gebe dir Alice.
+		eric.give.alisa.another^						Может быть, есть третий вариант?|Gibt es eine andere Möglichkeit?
+		eric.give.alisa.nothing^						Ничего. Я передумал!|Ich werde dir Alice nicht geben!
+
+	eric.give.alisa.nothing@86@А, ну тогда вали отсюда нахрен. Значит, Кира - моя. Конечно, если ты снова не передумаешь... Алису я бы тоже попробовал...|Dann gehört Kira mir. Natürlich, wenn du deine Meinung änderst.... Ich würde gerne Alice ausprobieren....
+		leave!set_dcd.ericgive_1^						Подонок!|Abschaum!
+
+	eric.give.alisa.another@86@Спешу огорчить тебя, Макс, до невозможности... Но другого варианта нет. Конечно, я могу придумать что-то ещё более... любопытное, но боюсь, что тебе не понравится альтернатива... Ну так что?|Es tut mir leid, dich zu enttäuschen, Max, aber nein. Ich schätze, ich hätte mir etwas noch Interessanteres einfallen lassen können, aber ich fürchte, das wird dir nicht gefallen. Und?
+		poss.nightclub>5&eric.give.alisa.yes^			Ладно, забирай Алису|Schön, du kannst Alice haben.
+		eric.give.alisa.nothing^						Я ещё подумаю...|Ich werde darüber nachdenken.
+
+	eric.give.alisa.yes@83@Что-то не верится даже! Давай, рассказывай, как мне её добиться...|Hast du überhaupt nützliche Informationen über Alice? Sag mir, was ich tun soll, um sie zu kriegen....
+		eric.give.alisa.alco.1^							<i>рассказать про алкоголь</i>|<i>rede über Alkohol</i>
+
+	eric.give.alisa.alco.1@90@Обалдеть! Всё было на поверхности, надо было лишь добавить каплю алкоголя? И при этом она ещё и ничего помнить не будет? Постой, Макс, а ты пользовался этим? Спорю, что не раз!|Huh. Alles, was ich tun sollte, ist, ein bißchen Alkohol zugeben. Und sie wird sich an nichts erinnern? Warte, Max, hast du diese Information selbst benutzt? Ich wette, das hast du, unzählige Male.
+		eric.give.alisa.alco.2^							Думай что хочешь...|Denke, was immer du willst
+
+	eric.give.alisa.alco.2@86@Ох, я подумаю, конечно... Да, Макс, порадовал старика... Ради такой информации я прекращу трахать твою тётю... Зато всё самое интересное я сделаю с твоей старшей сестрёнкой! |Nun, Max, das ist definitiv eine nützliche Information. Ich werde sogar aufhören, deine Tante dafür zu ficken.... Aber das, was ich deiner älteren Schwester jetzt antun werde...!
+		eric.give.alisa.alco.3^							У меня есть требование!|Ich habe Forderungen!
+
+	eric.give.alisa.alco.3@90@У тебя? Требование?! Макс, знаешь, что... засунь это требование себе в жопу. Вот у меня есть. Если будешь за нами с Алисой подглядывать, то я тебя спалю. Мигом в лагерь улетишь. Понял?|Du? Forderungen!? Du kannst sie dir sonst wohin stecken. <b>Ich</b> haben Forderungen. Wenn ich dich dabei erwische, wie du auf mich und Alice ausspionierst, gehst du ins Lager, klar?
+		eric.give.alisa.alco.4^							Но...|Aber...
+
+	eric.give.alisa.alco.4@80@Мне надоело с тобой болтать. Всё разрулили, Алиса моя. Кира твоя. Должен быть доволен. А теперь свали отсюда нахрен!|Ich habe diese Unterhaltung satt. Alice gehört mir, Kira gehört dir. Und jetzt verschwinde!
+		leave!set_poss.sac_5^							Эх...|Misst...
+
+
+
+# --- 0.4: Эрик требует внимания|Geldbeutel-Ereignis-Start
+
+	specialevent.8@88@n-setup-1@Прежде, чем мы начнём, я бы хотел кое о чём рассказать... Это очень важно и отнеситесь к моим словам серьёзно.|Bevor wir anfangen, möchte ich dich etwas fragen.... Das ist sehr wichtig, und ich möchte, dass du das ernst nimmst.
+		specialevent.8.step.2^							О чём речь?|Was gibt's denn?
+		specialevent.8.step.2^							Что случилось?|Ist etwas passiert?
+
+	specialevent.8.step.2@62@Макс! Тебя это тоже касается. Точнее, именно тебя это и касается. Но пусть всё скажет Эрик.|Max! Das betrifft auch dich. Eigentlich bist du der Hauptgrund für diese Unterhaltung. Aber ich werde Eric alles erzählen lassen.
+		specialevent.8.step.3^							Опять какую-то фигню придумали...|Noch eine seiner dummen Ideen....
+
+	specialevent.8.step.3@88@Что-то ты очень весел, Макс, для того, кто украл мой бумажник...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Du hast viel zu gute Laune für jemanden, der meine Brieftasche gestohlen hat....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
+		specialevent.8.step.4^							Что? Ничего я не крал!|Was!? Ich habe nichts gestohlen!
+
+	specialevent.8.step.4@62@Макс. У Эрика есть обоснованные подозрения и просто так такими обвинениями он бросаться не станет. Так что, давай не прикидывайся дурачком. Пока не поздно, нужно всё уладить.|Max, Eric hat gute Gründe, dich zu verdächtigen, und er würde nicht ohne Grund eine solche Anklage erheben. Also spiel nicht den Narren, lass es uns klären, bevor es zu spät ist.
+		specialevent.8.step.5!setupsum^					Что уладить? Я ничего не брал!|Womit umgehen? Ich habe nichts genommen!
+
+	specialevent.8.step.5@88@Именно это и сказал бы вор. В общем, в бумажнике было $*var_setupsum* и теперь ты должен их вернуть. Через неделю повторим этот разговор на этом месте и если деньги не вернёшь, точно отправляешься в военный лагерь. Всё понял?|Das würde ein Dieb sagen. Wie auch immer, in der Brieftasche waren $*var_setupsum* und jetzt musst du es zurückgeben. Wir werden dieses Gespräch in einer Woche fortsetzen, und wenn du mir mein Geld nicht zurückgibst, gehst du ins Lager.
+		specialevent.8.step.6^							Ты эту сумму с потолка взял? А почему не миллион или миллиард?|Hast du dir gerade diese Summe aus dem Arsch gezogen? Warum fragst du nicht nach einer Million oder einer Milliarde Dollar?
+
+	specialevent.8.step.6@62@Макс! Ты как со взрослыми разговариваешь? Если Эрик говорит, значит точно уверен в твоей виновности. Так что, давай без истерик!|Pass auf, was du sagst, Max! Wenn Eric sagt, du warst es, dann ist er absolut sicher, dass du schuldig bist. Also versuche nicht, dich unschuldig zu verhalten.
+		specialevent.8.step.7^							Так какие доказательства? Он же врёт!|Er lügt! Er hat keine Beweise!
+
+	specialevent.8.step.7@88@Я видел, как ты копался в моих вещах. Я тогда не придал этому значения, но теперь понял, что ты делал.|Ich habe dich meine Sachen durchwühlen sehen. Ich habe nicht viel darüber nachgedacht, aber jetzt weiß ich, was du getan hast.
+		specialevent.8.step.8^							Ну и когда такое типа случилось?|Und wann ist das “passiert”?
+
+	specialevent.8.step.8@62@Всё, Макс. Мне это надоело. Твоё слово против слова Эрика. И поверь, у тебя нет шансов. Так что, признайся и верни все деньги, которые взял у Эрика. Больше я ничего слышать не хочу. Закончили.|Das reicht, Max. Es steht dein Wort gegen das von Eric, und du hast keine Chance. Also gib einfach zu, was du getan hast und gib das Geld zurück, das du Eric gestohlen hast.
+		dinner.default!set_poss.wallet_1!add_mom.mood_-100!add_mom.inf_20!add_alisa.inf_20!add_liza.inf_20!set_can.setupmax_2!set_dcd.setupsum_10^		Блин...|Misst...
+
+
+
+# --- 0.4: Разговор с Эриком насчёт денег|Gespräch mit Eric über das Geld
+
+	eric.setupsum.init@0@Я не брал твои деньги!|Ich habe dein Geld nicht genommen!
+	eric.setupsum@86@Не знаю, не знаю... Мне вот кажется, что брал! И предлагаю тебе их вернуть при всех, перед ужином.|Ich weiß nicht, ich glaube, du hast.... Ich gebe dir die Möglichkeit, es mir beim Abendessen vor allen zurückzugeben.
+		eric.setupsum.more^										Мне нужно ещё время!|Ich brauche mehr Zeit!
+		allmymoney=1&eric.setupsum.more.all^					Я хочу отдать тебе деньги|Ich gebe dir "dein" Geld "zurück".
+		item.wallet=-5&eric.setupsum.more.found^				А ведь я нашёл твой бумажник...|Ich habe deine Brieftasche gefunden....
+		leave!set_dcd.aboutsum_1^								Да пошёл ты...|Fick dich....
+
+	eric.setupsum.more@90@Ага! Вот видишь, не брал он... Ладно, уболтал. За $300 я готов подождать ещё недельку...|Hast du nicht gerade gesagt, dass du sie nicht genommen hast? Gut, ich warte noch eine Woche, wenn du mir $300 gibst.
+		money>299&eric.setupsum.more.give!add_money_-300^		Держи $300...|Hier $300...
+		leave!set_dcd.aboutsum_1^								Да пошёл ты...|Fick dich....
+
+	eric.setupsum.more.give@86@Ну вот, а говоришь денег нет. Ну всё, теперь вали отсюда. И постарайся больше не задерживать, а то я проценты начну считать. Уж поверь, я умею их считать...|Großartig. Jetzt verschwinde, bevor ich anfange, die Zinsen auf die Summe zu addieren.
+		leave!set_dcd.aboutsum_1!add_dcd.setupsum_7^			Ага...|Okay...
+
+	eric.setupsum.more.all@87@Вот это ты молодец. Что, собрал всю сумму, $*var_setupsum*? Молодец, Макс! Но не спеши. Я хочу, чтобы ты это сделал перед всеми, когда сядем ужинать в назначенное время. Пусть всё будет красиво...|Großartig. Also, hast du die ganze Summe gespart, $*var_setupsum*? Jetzt will ich, dass du mir beim Essen vor allen Anwesenden das Geld gibst.
+		leave!set_dcd.aboutsum_1^								Ладно...|Schön
+
+	eric.setupsum.more.found@80@Что?! Это ты сделал? Ну всё, Макс... Тебе конец...|Was!? Das warst du? Du bist fertig, Max....
+		eric.setupsum.more.found.2^								Ты же сам меня обвинил в краже?|Hast du mich nicht gerade wegen Diebstahl beschuldigt?
+
+	eric.setupsum.more.found.2@88@Да, но... Хватит валять дурака. Отдавай бумажник! Там у меня права...|Ja, aber.... Genug von diesem Zirkus. Gib mir meine Brieftasche zurück! Ich habe den Führerschein da drin....
+		eric.setupsum.more.found.3^								Именно о них я и хотел с тобой поговорить... Кто такой Виктор Моро?|Genau darüber wollte ich sprechen.... Wer ist Victor Moro?
+
+	eric.setupsum.more.found.3@92@Так, Макс. Я скажу это один раз. Отдай мои права, бумажник и деньги, которые ты задолжал. И тогда... возможно, ты останешься жив.|Ich werde es nur einmal sagen, Max. Gib mir meinen Ausweis, meine Brieftasche und mein Geld, dann <i>werde</i> ich dich nicht töten.
+		eric.setupsum.more.found.4^								Я так не думаю.|Das glaube ich nicht.
+
+	eric.setupsum.more.found.4@90@Значит, решил меня шантажировать? Ну ну... Ладно, чего ты хочешь?|Also hast du beschlossen, mich zu erpressen? Viel Glück.... Gut, was willst du?
+		eric.setupsum.more.found.5a^							Хочу, чтобы ты свалил из этого дома навсегда!|Ich will, dass du dieses Haus für immer verlässt!
+		eric.setupsum.more.found.5b^							Хочу, чтобы ты отстал от моей семьи!|Ich will, dass du meine Familie in Ruhe lässt!
+		eric.setupsum.more.found.5c^							Хочу, чтобы ты отстал от сестёр и не трогал тётю!|Ich will, dass du meine Schwestern und meine Tante in Ruhe lässt!
+		eric.setupsum.more.found.5d^							Хочу много денег!|Ich will viel Geld!
+
+	eric.setupsum.more.found.5a@92@Не подходит. Даже обсуждать не буду. Думаю вот что с тобой сделать... Конечно, если ты не сбавишь обороты и не попросишь что попроще...|Nee. Ich denke, ich würde es vorziehen, dich stattdessen loszuwerden. Es sei denn, du wolltest etwas anderes verlangen?
+		eric.setupsum.more.found.5b^							Хочу, чтобы ты отстал от моей семьи!|Ich will, dass du meine Familie in Ruhe lässt!
+		eric.setupsum.more.found.5c^							Хочу, чтобы ты отстал от сестёр и не трогал тётю!|Ich will, dass du meine Schwestern und meine Tante in Ruhe lässt!
+		eric.setupsum.more.found.5d^							Хочу много денег!|Ich will viel Geld!
+
+	eric.setupsum.more.found.5b@93@Не дождёшься, Макс. Ты же помнишь, что твоя мама меня любит? Ты хочешь разбить ей сердце? Нет, я останусь.|No, Max. Have you forgotten how much your mother loves me? You wouldn't want to break her heart, would you? I'm staying.
+		eric.setupsum.more.found.5c^							Хочу, чтобы ты отстал от сестёр и не трогал тётю!|I want you to leave my sisters and my aunt alone!
+		eric.setupsum.more.found.5d^							Хочу много денег!|Ich will viel Geld!
+
+	eric.setupsum.more.found.5c@89@А вот это можно устроить... Всё равно, девчонки неопытные. Столько времени тратить на то, чтобы их правильно воспитать под себя... Вот только и у меня есть требование.|Ich schätze, ich könnte das arrangieren.... Deine Schwestern sind sowieso unerfahren. Sie richtig zu unterrichten ist ohnehin zu aufwendig.... Aber ich habe auch eine Forderung.
+		eric.setupsum.more.found.6^								Какое?|Was?
+
+	eric.setupsum.more.found.5d@87@А не охренел ли ты, Макс? Это я тебя на деньги развожу, а не ты меня. Что-то ты попутал... И сколько ты хочешь?|Warst du für eine Sekunde verwirrt oder so? Ich bin derjenige, der das Geld von dir verlangt.... Wie viel willst du überhaupt?
+		eric.setupsum.more.found.money.1^						$10000|$10000
+		eric.setupsum.more.found.money.1^						$100000|$100000
+		eric.setupsum.more.found.money.1^						$1000000|$1000000
+
+	eric.setupsum.more.found.money.1@90@Ясно. А ты знаешь, что я могу просто отобрать у тебя свой бумажник, права и все твои деньги. А потом отправлю тебя в лагерь. И прослежу, чтобы ты ещё и в армию оттуда отправился... А я тем временем тут...|Ich verstehe. Du verstehst doch, dass ich dir einfach meine Brieftasche, meinen Ausweis und dein Geld wegnehmen kann, oder? Und dann schicke ich dich ins Lager. Und ich sorge dafür, dass du als nächstes zur Armee gehst.... Und du weißt, was ich <i>dann</i> hier tun werde....
+		eric.setupsum.more.found.money.2^						Ну ты и подонок...|Du bist so ein Arschloch....
+		eric.setupsum.more.found.alt.1^							Давай я просто оставлю свои деньги себе.|Wie wäre es, wenn ich einfach mein Geld behalte.
+
+	eric.setupsum.more.found.money.2@87@Ну для тебя может быть. А для твоей мамы я самый любимый мужчина. Так что, сбавь обороты. Я могу тебе оставить сестёр. И даже тётю. Но потребую кое-что взамен...|Für dich. Aber für deine Mom bin ich ihr Lieblingsmensch. Also wie wäre es, wenn du deine Forderungen senkst. Ich kann dir deine Schwestern geben. Und sogar deine Tante. Aber ich habe auch eine Forderung.
+		eric.setupsum.more.found.6^								Что именно?|Was?
+
+	eric.setupsum.more.found.6@80@Ты ни при каких обстоятельствах не называешь имя, написанное на правах. Никому и никогда. Вообще, забываешь о нём. Во-вторых, конечно, всё отдаёшь, включая все твои деньги. Вообще все, какие у тебя есть. Ну а в-третьих...|You will never ever use the name on the ID to anyone. You just forget about it. Also, you'll give me all your money. And...
+		eric.setupsum.more.found.7^								Не слишком ли жирно?|Fragst du nicht zu viel?
+
+	eric.setupsum.more.found.7@90@Нет, в самый раз. Учти, я тебе сестёр оставляю и даже тётю... Так вот, а в-третьих, ты больше мне не возражаешь ни в чём. Делаешь что я прошу и не вмешиваешься в наши с твоей мамой отношения, что бы не происходило...|Nein, das ist in etwa richtig. Vergiss nicht, du bekommst deine Schwestern und sogar deine Tante.... Wie auch immer, du wirst mir in Zukunft nie widersprechen und das tun, was ich dir sage, und du wirst meine Beziehung zu deiner Mom nicht stören, egal was passiert.
+		eric.setupsum.more.found.8^								А что может произойти?|Was hast du mit ihr vor?
+
+	eric.setupsum.more.found.8@80@Вот именно это тебя и не касается. Ты просто закрываешь глаза на нас с твоей мамой. И да, я всем скажу, что нашёл деньги и бумажник. Так что ты перестанешь быть вором в глазах семьи. Ну так что, согласен?|Das geht dich nichts an. Du schließt einfach die Augen bei allem, was ich mit deiner Mom mache. Oh, und ich werde jedem sagen, dass ich meine Brieftasche gefunden habe, du wirst kein Dieb in den Augen deiner Familie sein. Also, abgemacht?
+		eric.setupsum.more.found.agree^							Конечно!|Ja
+		eric.setupsum.more.found.no^							Нет!|Nein
+
+	eric.setupsum.more.found.no@89@Ясно. Ну, права я у тебя забираю. Ты как-то глупо поступил, что мне их показал. Бумажник, конечно, тоже. И официально ты должен $*var_setupsum*. Причём, отдать придётся перед всеми. Да, и трахать я буду кого хочу. Это твой выбор. Пока!|I see. Well, I'm going to take my ID from you. You really shouldn't have showed it to me, that was pretty stupid. And my wallet. And you still owe me $*var_setupsum*, you'll give it to me in front of everyone. And I'm going to fuck anyone I want. Your choice. Bye.
+		leave!set_item.wallet_-1!set_poss.wallet_10!lock^		Блин...|Scheisse!
+
+	eric.setupsum.more.found.agree@90@Правильное решение, Макс. Учти, если где-то назовёшь то имя или нарушишь наш уговор, я тебя не в лагерь отправлю, а куда подальше. Ты меня понял?|Gute Wahl. Denk dran, Max, wenn du jemals diesen Namen sagst oder unseren Deal brichst, schicke ich dich nicht nur ins Lager, ich schicke dich noch weiter. Hast du verstanden?
+		eric.setupsum.more.found.agree.2^						Понял, понял... Держи права и бумажник...|Ich habe es verstanden.... Hier ist deine Brieftasche und dein Ausweis.
+
+	eric.setupsum.more.found.agree.2@81@А ты ничего не забыл, Макс? Деньги. Все. Сейчас же!|Hast du nicht etwas vergessen, Max? Geld, alles, was du hast, sofort!
+		eric.setupsum.more.found.giveallmoney^					Ладно... держи...|Gut, hier....
+		eric.setupsum.more.found.no^							Я передумал. Хрен ты что получишь от меня!|Ich habe meine Meinung geändert, du bekommst nichts von mir!
+
+	eric.setupsum.more.found.giveallmoney@88@Ого. А я думал у тебя ни гроша... Ну что, поздравляю, Макс. Только что ты начал новую жизнь! А теперь вали отсюда, пока я не передумал.|Wow. Und ich dachte, du wärst mittellos.... Glückwunsch, Max, du hast gerade ein neues Leben begonnen! Jetzt verschwinde, bevor ich meine Meinung geändert habe.
+		leave!set_money_0!getbackliza!set_erictaboo_1!set_poss.wallet_20!set_can.setupmax_3!set_item.wallet_-1!freealisa!set_poss.sac_6^			Ок...|Okay...
+
+	eric.setupsum.more.found.alt.1@83@Ну хорошо. И к чему тогда весь этот пафос? Отдавай права и бумажник. Я всем скажу, что нашёл его. А ты убирайся отсюда. Больше нам не о чём разговаривать.|Okay. Was sollte das mit dem Geld? Gib mir meine Brieftasche und ich sage allen, dass ich sie gefunden habe. Jetzt verschwinde, wir haben nichts mehr zu bereden.
+		leave!set_poss.wallet_30!set_can.setupmax_3!set_item.wallet_-1!lock^		Отлично!|Großartig!
+
+
+
+# --- 0.4: Финальный эвент в конфликте с Эриком|Letztes Ereignis in Erics Konflikt
+
+	specialevent.9@88@n-setup-1@Итак, пришёл момент истины. Я дал достаточно времени Максу, чтобы он вернул мне мои деньги при всех. Там было, если не ошибаюсь, $*var_setupsum*. Ну что, ты готов?|Nun, der Moment der Wahrheit, Leute. Ich gab Max viel Zeit, mir mein Geld zurückzugeben. Wenn ich mich richtig erinnere, war es $*var_setupsum*. Also, hast du das Geld?
+		allmymoney=1&specialevent.9.give!removemoney!add_mom.mood_100!set_can.setupmax_3^		Держи...|Hier...
+		specialevent.9.nomoney^																	У меня нет денег!|Ich habe das Geld nicht.
+
+	specialevent.9.give@75@Молодец, Макс. Я знала, что ты правильно поступишь! Ну а теперь, пришло время поужинать. Давайте, садитесь за стол...|Gut, Max. Ich wusste, du würdest das Richtige tun. Nun, lass uns zu Abend essen.
+		item.wallet=-5&dinner.default!set_poss.wallet_50!set_dcd.ericphone_3^					Хорошо...|Okay
+		item.wallet>-5&dinner.default!set_poss.wallet_40^										Хорошо...|Okay
+
+	specialevent.9.nomoney@62@Тогда, Макс, нам не остаётся другого выбора, кроме как отправить тебя в летний лагерь. Надеюсь, там сделают из тебя ответственного человека.|Dann haben wir keine andere Wahl, als dich ins Lager zu schicken. Ich hoffe, sie bringen dir etwas Verantwortung bei.
+		specialevent.9.nomoney.2^								Но мам, это всё Эрик подстроил!|Aber Mom, Eric hat mich reingelegt!
+
+	specialevent.9.nomoney.2@60@Не хочу ничего слышать про это. Всё. Собираешь вещи и едешь. Давно надо было это сделать, но всё я тебя жалела. В результате докатились, воруешь в собственном доме! Всё, разговор окончен.|Ich will es nicht hören. Pack deine Sachen und geh. Das hätte ich schon vor langer Zeit tun sollen. Sieh dich an, du stiehlst in deinem eigenen Haus!
+		endgame.1^												Но...|Aber...
+
+
+
+# --- 0.4: Макс пытается напоить Эрика пивом со снотворным|Max versucht, Eric dazu zu bringen, ein Bier mit einer Schlaftablette zu trinken.
+
+	eric.try.sleeping.init@0@У меня есть кое-что для тебя...|Ich habe etwas für dich....
+	eric.try.sleeping@81@Что?|Was?
+		item.beer=-5&item.sleeping=-5&eric.try.sleeping.step.2!set_dcd.trysleeping_1^			Я подумал, что нам стоит дружить...|Ich bin des Kämpfens müde und kam mit einem Friedensangebot....
+		leave^													А, нет, ничего, забудь...|Oh.... Nichts, egal....
+
+	eric.try.sleeping.step.2@86@Ты что-то задумал, Макс? Если так, то я тебя выведу на чистую воду...|Was hast du dummes vor, Max? Wenn ja, dann ertränke ich dich im Pool ...
+		random.social.4=1&eric.try.sleeping.step.3.good^		Я принёс пиво! [skill.social_4]|Ich habe etwas Bier [skill.social_4]
+		random.social.4=0&eric.try.sleeping.step.3.bad^			Я принёс пиво! [skill.social_4]|Ich habe etwas Bier [skill.social_4]
+
+	eric.try.sleeping.step.3.bad@81@<color=orange><i>Эрик вам не поверил...</i></color>\nПиво? Да хоть водку! Что-то у тебя какой-то хитрый вид. Я сегодня не в настроении. Так что, извини...|<color=orange><i>Eric hat dir nicht geglaubt</i></color>\nBier? Du siehst komisch aus und ich bin heute nicht in Stimmung. Tut mir leid, aber nein.
+		leave^													Ну и ладно...|Schön...
+
+	eric.try.sleeping.step.3.good@90@<color=lime><i>Кажется, Эрик вам поверил!</i></color>\nОго... Мы вроде с тобой не друзья, но почему бы и нет... Одна банка всего? Ну, ничего, давай сюда своё пиво...|<color=lime><i></i>Eric hat dir geglaubt</color>\nSicher, warum nicht.... Nur eine Dose? Okay, gib es mir....
+		random.dex.4=1&eric.try.sleeping.step.3.good.good^		Открыть пиво и бросить таблетку [skill.dex_4]|Öffne das Bier und wirf die Schlaftablette hinein. [skill.dex_4]
+		random.dex.4=0&eric.try.sleeping.step.3.good.bad^		Открыть пиво и бросить таблетку [skill.dex_4]|Öffne das Bier und wirf die Schlaftablette hinein. [skill.dex_4]
+
+	eric.try.sleeping.step.3.good.bad@81@<color=orange><i>Эрик что-то заподозрил...</i></color>\nПостой... Что-то здесь не чисто. Такой сервис, ещё и открыл... Ты явно что-то задумал, Макс. Нет, я передумал. И пиво своё забирай...|<color=orange><i>Der Versuch ist fehlgeschlagen!</i></color>\nWarte.... Die ganze Situation ist verdächtig.... Du willst mir was anhängen, Max. Nein, ich habe meine Meinung geändert. Du kannst dein Bier mitnehmen.
+		leave!set_item.beer_-4^									Блин...|Misst
+
+	eric.try.sleeping.step.3.good.good@87@<color=lime><i>Эрик ничего не заметил!</i></color>\nОго, какой сервис! Даже банку открыл... Кажется, ты не так безнадёжен, Макс... Эх, хорошо... Ладно, будем считать, я оценил твой шаг навстречу...|<color=lime><i>Der Versuch ist gelungen</i></color>\nWow, du hast sogar die Dose geöffnet, huh.... Vielleicht bist du doch nicht so schlecht, Max. Ich betrachte das als Friedensangebot....
+		leave!set_item.beer_-4!set_item.sleeping_-4!set_dcd.trysleeping_1!set_eric.mustsleep_1^			Ну, я рад...|Okay, ich bin froh....
+
+
+
+# --- 0.5: Макс посылает Эрика куда подальше. Фактически объявление войны (если сейчас мир)|Kampfansage an Eric (Freundschaftsroute)
+
+	eric.ass.init@0@Перемирию конец!|Unsere Freundschaft ist vorbei!
+	eric.ass@81@Любопытно. В каком смысле?|Was meinst du damit?
+		eric.ass.1^			В том смысле, что иди в жопу! Я не буду с тобой мириться!|Ich meine, fick dich selbst! Ich werde dich nicht mehr mit meiner Familie machen lassen, was du willst!
+		leave^				А? Нет, ничего...|Nichts, vergiss es.
+
+	eric.ass.1@87@Ты объявляешь мне войну? Отлично! Всё равно твоя рожа мне надоела. Ну ничего, готовься. Скоро в армию отправишься!|Erklärst du den Krieg? Großartig. Ich konnte dein dummes Gesicht sowieso nicht ausstehen. Dann mach dich bereit für das Militärlager.
+		leave!ericwar^		Да пошёл ты!|Fick dich!

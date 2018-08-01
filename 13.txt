@@ -1,0 +1,1856 @@
+# --- 0.13: Макс подходит к комнате Анны, дверь закрыта
+
+	13.ka.0@4@<i>Обычно мама в это время отдыхает. Скорее всего, она ещё не спит. Оставить её в покое или войти?</i>|<i>Mom is usually relaxing at this time of day. Should I enter or should I leave her alone?</i>
+		13.aa.0^			<i>войти в комнату</i>|<i>enter the room</i>
+		leave!lock^			<i>уйти</i>|<i>leave</i>
+
+
+
+# --- 0.13:  Макс заходит в комнату Анны после душа
+
+	13.aa.0@67@v-mm-2@Сынок? Ты что-то хотел или просто соскучился?|Hi, son. Do you want something?
+		mco=1&13.aa.1^		Э... можем поболтать?|Em... Can we talk?
+		mco=5&13.aa.17^		Хотел узнать, как ты?|How are you feeling today, mom?
+		mco=7&13.aa.26^		Да, соскучился!|No, I just want to chat
+		mco=8&13.af.0^		Ты же знаешь...|You know...
+		mco=9&13.af.34^		А ты как думаешь?|What do you think?
+		leave!lock^			Нет, ничего. Зайду в другой раз...|No, nothing. Another time
+
+
+
+# --- 0.13: Первый диалог с Анной на тему секса
+
+	13.aa.1@69@v-mm-1@Извини, что я в таком виде, я собиралась ложиться спать... Хотя, ты же не будешь возражать? Присаживайся, поболтаем...|I'm sorry for looking like this, but I was planning to go to bed soon. I'm sure you don't mind. Sit down, let's talk.
+		13.aa.2^		Ага, мам...|Okay
+
+	13.aa.2@60@v-mm-4@Так о чём ты хотел поговорить? Что-то случилось?|What do you want to talk about? Did something happen?
+		13.aa.3^		Н-нет...|N-no...
+
+	13.aa.3@62@v-mm-3@Сынок, ну что ты так смотришь на мою грудь. Я начинаю смущаться... Конечно, это глупо после того, что было...|You're staring at my chest, son... I'm starting to feel embarrassed... Seems kinda silly after everything we've done already.
+		13.aa.4^		Я как раз об этом...|That's what I want to talk about
+
+	13.aa.4@69@v-mm-4@Я знаю что у тебя на уме... Ты хочешь большего. Это давно не секрет... думаю, ни для кого... ну, кроме Лизы, конечно...|Yeah, I'm pretty sure I already know what you want to tell me. You want more, right? It's not exactly a secret, you don't really hide it from anyone. Well, except for Lisa, I hope...
+		13.aa.5^		А ты чего хочешь?|What do <i>you</i> want?
+
+	13.aa.5@73@Я не знаю, сынок... Столько всего произошло. Я постоянно об этом думаю. Точнее, только об этом и думаю...|I don't know, son. So many things has happened already. I can't stop thinking about it...
+		13.aa.6^		Я тоже...|Me too
+
+	13.aa.6@69@v-mm-3@Тем не менее, эту черту я не могу переступить... Надеюсь, ты меня понимаешь...|Still, I'm not ready to cross this line. I hope you can accept that.
+		13.aa.7^		Но мам...|Are you sure there's nothing I can do to change your mind?
+
+	13.aa.7@60@Макс, не упрашивай меня. Так ничего не получится. Мне ещё нужно время, чтобы принять какое-то решение.|You can't talk yourself out of this problem, Max. I need time to make a decision.
+		13.aa.8^		А какой выбор?|What options do you have in mind?
+
+	13.aa.8@69@Первый вариант... я даже озвучивать его не хочу. А второй - это закончить всё и сделать вид, что ничего не было. Живут же другие семьи как-то без этих... игр...|Option one is... I'm not going to say it out loud. And option two is stop everything and pretend nothing ever happened. Try to live like a normal family again.
+		13.aa.9^		Первый вариант мне нравится больше, каким бы он ни был...|I'm all for the first option, whatever it is
+
+	13.aa.9@62@v-mm-4@Само собой. Но может быть, ты найдёшь себе девушку? Не могу же я всё время помогать тебе с твоими проблемами...|Of course. Are you sure you don't want to find yourself a girlfriend? I won't be able to help you with your problem forever.
+		13.aa.10^		А о тебе кто позаботится?|What about me helping you with your problems?
+
+	13.aa.10@73@Обо мне? Я справлюсь... Может быть, найду себе мужчину. А что? Я взрослая женщина, имею право...|I'll be fine... Maybe I'll find myself a man. Why not? Seems like a good solution.
+		13.aa.11^		Это совсем плохой вариант!|This is a horrible option, I don't like it at all!
+
+	13.aa.11@67@Что, уже ревнуешь, Макс? Вот я и говорю, что это всё ненормально... И чем дальше, тем более... ненормально...|Are you jealous, Max? Don't you see how fucked up this situation is? And it only gets more fucked from here...
+		13.aa.12^		Разве тебе плохо?|Don't you like what we do?
+
+	13.aa.12@69@v-mm-3@Физически? Нет. Моё тело просто требует ласк. А твои ласки... я даже сейчас возбуждаюсь, когда вспоминаю, но...|I enjoy what you're doing to my body, the things you do to me... I'm getting wet just from thinking about it...
+		13.aa.13^		Но?|But?
+
+	13.aa.13@68@Но мой разум сопротивляется. Я же твоя мама! Неужели, для тебя это ничего не значит?|But I'm still your mother! Doesn't it mean anything to you?
+		13.aa.14^		Вот именно! Это очень важно для меня!|Of course it does! You're very important to me, mom!
+
+	13.aa.14@69@v-mm-4@Ох, сынок... Ладно, давай закончим этот разговор. Я пока не готова продолжать. Мои мысли путаются и я могу наговорить лишнего...|Oh, son... Let's drop this conversation for today. My head is in the wrong place, I'm afraid I might say something I'll regret...
+		13.aa.15^		Я тебя понял...|Okay...
+
+	13.aa.15@73@d-mm-31@Только не обижайся, Макс... Поговорим в другой раз... об этом...|Please don't be mad, Max... We'll continue this conversation another time.
+		13.aa.16^		Хорошо, мам...|Okay, mom
+
+	13.aa.16@2@<i>Так мы ни к чему не придём... Похоже, придётся обратиться за советом к кому-то, кто знает мою маму лучше меня...</i>|<i>We're going in circles. I need advice. Who knows mom better than I do?</i>
+		leave!set_mco_2!set_poss.car_51!lock_momroom_5^		Пока, мам, отдыхай...|Bye, mom, get rest...
+
+
+
+# --- 0.13: Разговор с Кирой насчёт Анны
+
+	13.ab.0.init@0@Я спросить совета...|I want to ask for advice
+	13.ab.0@101@Конечно, Макс! Я всегда готова дать дельный совет. Вот бы и мне кто-то что-то советовал...|Of course, Max, I'm always here to help. I'd like some advice myself, though...
+		13.ab.1^		Так ты спрашивай!|You can ask me anything!
+
+	13.ab.1@113@Хорошо, буду иметь тебя в виду. Но у тебя явно что-то более срочное. Рассказывай, в чём дело?|Okay, I'll keep it in mind. But since you came to me, ask your questions. How can I help you?
+		13.ab.2^		Я опять насчёт мамы...|It's about mom
+
+	13.ab.2@114@Судя по твоему виду, прогресс тебя не радует. Всё в этом дело? Я права?|What's the problem? Lack of progress?
+		13.ab.3^		Ага...|Yeah
+
+	13.ab.3@103@А ты думал, что справишься за один день, запишешь очередную победу в свой журнал и пойдёшь искать следующую цель?|You didn't think you can just win your mom overnight and look for your next target, did you?
+		13.ab.4^		Ну... я не думал так...|Of course not...
+
+	13.ab.4@113@Да думал, конечно! Но мама оказалась не так проста, верно? Понимаю. Но вспомни, что ещё недавно она даже подумать не могла ни о чём таком, а сейчас...|Sure... So, mom isn't as easy as you'd like? Been there. Think of it this way: remember how she was not that long ago? You had tons of progress!
+		13.ab.5^		Да меня радует то, что есть, но хочется больше!|That's true, but I want more...
+
+	13.ab.5@114@Конечно, хочется! По твоим шортам вижу... Ты знаешь, я могу попробовать тебе помочь, как всегда. Но потребуется время...|Yeah, I can see that by your shorts... I can try to help you, but I'll need some time.
+		13.ab.6^		Для чего?|What are you going to do?
+
+	13.ab.6@101@Я могла бы написать сценарий очередного фильма, где ты... со своей мамой... вместе... остальное оставлю твоему воображению...|I think it might be time to write a new movie where you and mom are... Together, if you know what I mean.
+		13.ab.7^		О, было бы супер!|That sounds like a great idea!
+
+	13.ab.7@113@Тогда, наберись терпения. Я постараюсь накидать что-то дня за два. Тогда и поговорим, хорошо?|Thanks. I'll write a script then. Talk to me in a couple of days, okay?
+		leave!set_mco_3!set_dcd.mco_2!set_poss.car_52^			Конечно!|Sure!
+
+
+
+# --- 0.13: Анна почти готова к первому сексу (после разговора с Кирой и после того, как Макс 2 раза обломал Анну), но всё ещё отказывается
+
+	13.aa.17@69@v-mm-1@Я... в порядке. Присаживайся... Уже не оправдываюсь насчёт своего вида... Эх, что я за мать...|I'm ... fine. Sit down. I'm sure you already got used to seeing me naked all the time... What kind of mother am I...?
+		13.aa.18^		Самая лучшая!|The very best kind!
+
+	13.aa.18@67@v-mm-3@Спасибо, сынок! Так о чём ты хотел поговорить?|Thanks, son. Anyway, what do you want to talk about?
+		13.aa.19^		Просто хотел узнать, как ты?|I just want to know how are you
+
+	13.aa.19@75@v-mm-4@Я в порядке... Правда, всё хорошо... А у тебя как?|I'm fine, Max. Really, everything is fine. How are you?
+		13.aa.20^		Мне кажется, тебе чего-то нехватает...|I think you're missing something...
+
+	13.aa.20@69@v-mm-3@Ты отлично знаешь, чего мне нехватает... Но я не жалуюсь. Всё в порядке...|You know exactly what I'm missing... But I don't want to complain. Everything is fine.
+		13.aa.21^		Если что, я рядом...|I'm right here if you need me
+
+	13.aa.21@73@Да, сынок, я это всегда помню... и чувствую... Мои мысли начинают путаться...|Thanks, son, I remember. Can't stop myself from thinking about you...
+		13.aa.22^		Помочь расслабиться?|Do you want my help?
+
+	13.aa.22@67@v-mm-4@Если ты хочешь использовать пальчики или язычок... Я буду рада... даже очень...|If you want to help me out with your fingers or your tongue... You'd make me a very happy woman, Max...
+		13.aa.23^		А если не только их?|What about more than that?
+
+	13.aa.23@73@В таком случае... Я вынуждена отказаться...|Then I... Then I'll have to say no, son.
+		13.aa.24^		Жаль. Но если что...|Too bad. Well, where to find me
+
+	13.aa.24@62@v-mm-3@Да, я поняла тебя. Если что, то... да, я помню... Ох, Макс, ты сводишь меня с ума. Специально?|I understand. I'm losing my mind here, Max. Are you doing it on purpose?
+		13.aa.25^		Нет, что ты... Ну, я пойду?|Is it working?
+
+	13.aa.25@4@d-mm-31@<i>Она ничего не сказала, но точно знаю о чём она думает... И это здорово! Ещё чуть-чуть и она не выдержит!</i>|<i>She didn't answer, but she's thinking about it... Great! I think we're almost there!</i>
+		leave!set_mco_6!set_mwill_0!set_poss.car_54!lock_momroom_5^		Пока, мам, отдыхай...|Bye, mom. Get rest
+
+
+
+# --- 0.13: Анна готова. Первый секс
+
+	13.aa.26@75@v-mm-1@Я рада. И тоже скучала. Ну, проходи, присаживайся...|Sure, come take a seat. I've missed you, Max.
+		13.aa.27^		Ага...|<i>continue</i>
+
+	13.aa.27@73@v-mm-3@Ты знаешь... Я много думала обо всём... И... нет, я не должна такое говорить, но...|You know... I did a lot of thinking recently and... I shouldn't say it, but...
+		13.aa.28^		Какое?|But?
+		13.aa.28^		Но?|Yes?
+
+	13.aa.28@69@v-mm-4@Мне кажется, что если ты сделаешь со мной что-то, то я сойду с ума... Ты понимаешь, о чём я?|I think if you don't do something with me then I'll lose my mind. Do you understand what I'm talking about?
+		13.aa.29^		Понимаю, конечно!|Of course I do
+
+	13.aa.29@67@v-mm-3@Но может быть, пальчиками или язычком? Да, я знаю, что ты хочешь большего и... я тоже... но...|Are you sure you won't do it in some other way? I know you want more, but... I want it too, though...
+		13.aa.30^		Мам, доверься мне!|Trust me, mom
+
+	13.aa.30@73@v-mm-4@Я просто не могу больше ни о чём думать... Я сама пробовала, но это не то. Ничто не сравнится с твоими ласками... Тебе шорты не мешают?|I can't think of anything else anymore... I've tried to do it myself, but it's not the same. Nothing is as good as you... Take off your shorts, Max
+		13.aa.31^		Мешают... <i>(снять шорты)</i>|<i>(take off shorts)</i>
+
+	13.aa.31@69@v-mm-5@Ну вот... Мои разговоры тебя тоже возбудили... |That's better... Looks like he likes our conversation...
+		13.aa.32^		Может быть, я тобой займусь?|Maybe I could help you out?
+
+	13.aa.32@73@v-mm-6@Ну уж нет, опять будешь меня дразнить? Я больше не могу терпеть!|Are you going to tease me again? I can't take it anymore!
+		13.aa.33^		Ну если ты настаиваешь...|You don't have to...
+
+	13.aa.33@62@v-mm-7@Только не делай вид, что ты этого не хотел... точнее, что ты всё делал не для того, чтобы этого добиться?|I know, I know. I'm almost there. All your hard work is about to pay off for you, Max.
+		13.aa.34^		Не понимаю о чём ты, мам...|Then what are we waiting for?
+		13.aa.34^		Может быть...|Let's start then
+
+	13.aa.34@69@v-mm-8@Скажи честно, ты сам готов к этому? Ты не станешь ко мне относиться хуже после...|Tell me, Max, are you sure you're ready for this? And you're not going to think less of me?
+		13.aa.35^		Конечно, нет!|Of course I'm sure!
+
+	13.aa.35@73@v-mm-9@В таком случае... Ох, какой же он у тебя большой... и такой твёрдый... Как же я мечтала об этом моменте...|Then... It's so big... And so hard... I was waiting for so long for this...
+		13.aa.36^		А я как!|So was I!
+
+	13.aa.36@4@v-mm-11@<i>О да! Наконец-то! Мой план сработал! Теперь бы не кончить быстрее мамы... Это... очень сложно...</i>|<i>YES! Finally! I've done it! I'm having sex with mom! Now I have to make sure I don't cum before mom... That's... going to be a challenge...</i>
+		13.aa.37^		<i>далее</i>|<i>continue</i>
+
+	13.aa.37@67@v-mm-10@Ох, сы... Макс... Я не могу называть тебя сыном, когда... сейчас ты для меня мужчина... единственный, который мне нужен в данный момент!|Oh, s... Max... I can't call you son right now... Right now you're my man... The only man I need right now!
+		13.aa.38^		В данный момент?|Right now?
+
+	13.aa.38@62@v-mm-11@Макс, замолчи! Поговорим в другой раз...|Shut up, Max! We'll talk later...
+		13.aa.39^		Конечно!|Okay
+
+	13.aa.39@4@v-mm-12@<i>Если мама продолжит двигаться так быстро и... ох, я не могу себя сдерживать... Кажется, мама останется ещё более неудовлетворённой...</i>|<i>If mom keep moving like this I... I can't hold off anymore... I'm afraid today mom will be left unsatisfied again...</i>
+		13.aa.40^		<i>кончить в маму!</i>|<i>cum in mom!</i>
+
+	13.aa.40@68@v-mm-13b@Что? Ты кончил, Макс? Уже? Я забыла сказать, что можешь это делать в меня, но... это уже не важно...|What? You came, Max? Already? I forgot to tell you you can cum inside, but... I guess it doesn't matter anymore.
+		13.aa.41^		Ну...|Well...
+
+	13.aa.41@67@v-mm-14@Ого! Так много... Не уверена, что смогу всё удержать в себе, но постараюсь не испачкать всю кровать...|Wow! So much... I'm not sure I'll be able to keep everything inside, but I'll try not to stain the bed...
+		13.aa.42^		<i>далее</i>|<i>continue</i>
+
+	13.aa.42@69@v-mm-15@Давай немного посидим... Даже не знаю что и сказать... А что обычно говорят в таких ситуациях?|Let's sit here for a moment. I don't even know what to say... What do people say in situations like this?
+		13.aa.43^		После того, как мама набрасывается на сына?|After mom jumps on son?
+
+	13.aa.43@62@Да, а потом сын кончает в маму... Как же это всё...|And then son cums inside his mother... Everything is so...
+		13.aa.44^		Неловко?|Not awkward, I hope?
+
+	13.aa.44@67@Нет, я хотела сказать... забавно. Так долго я сопротивлялась и убеждала себя, что это всё неправильно, пыталась себя обмануть...|No, that's not it at all. I spent so much time trying to convince myself it's wrong and lying to myself...
+		13.aa.45^		А что думаешь сейчас?|And now?
+
+	13.aa.45@75@Кроме того, что я до сих пор тебя хочу? Ну... это было безумно... приятно! Даже с твоим отцом я не испытывала ничего подобного...|I still want you... And it was... amazing! I've never felt anything like this, even with your father...
+		13.aa.46^		А подробнее?|Really?
+
+	13.aa.46@67@В другой раз, сынок... в другой раз.|Yes. But let's not talk about that, son.
+		13.aa.47^		Теперь я сынок?|On, I'm son again?
+
+	13.aa.47@62@Макс, не прикапывайся к словам... Я вот смотрю, эти разговоры тебя заводят...|Yes, Max, I'm not going to stop calling you son... Looks like this conversation is turning you on...
+		13.aa.48^		Может быть, продолжим?|How about another go then?
+
+	13.aa.48@73@Ох, сынок, не думаю. Наоборот, я немного расслабилась и уже думаю, что на сегодня хватит...|I'm not sure. I relieved some pressure and I think that's enough for today.
+		13.aa.49^		Жаль...|Too bad...
+
+	13.aa.49@62@Ещё пожалуйся, что тебе нехватает секса в этом доме... И ещё...|You're not going to complain you're not getting enough sex in this house, are you? And another thing...
+		13.aa.50^		Да, мам?|Yes, mom?
+
+	13.aa.50@60@Скажи, ты специально меня дразнил во время... массажа, когда спасал мою попку после работы? Не доводил до оргазма, внезапно останавливался...|Tell me, were you teasing me on purpose? When you were stopping right before I could cum?
+		13.aa.51^		А это важно?|Isn't it obvious?
+
+	13.aa.51@69@Я хотела сказать, что ты всё делал правильно. Если бы не твои действия, то... может быть, мы бы так и не переступили бы эту черту...|You did the right thing, Max. It was just what I needed to get us... here.
+		13.aa.52^		Хорошо, что переступили!|I'm glad I did!
+
+	13.aa.52@62@Да. Но давай не будем превращаться в кроликов. Во-первых, я очень переживаю насчёт Лизы.|So am I. But let's not lose our heads here. First, I still worry about Lisa.
+		13.aa.53^		В каком смысле?|What does she have to do with us?
+
+	13.aa.53@73@Она единственный мой неиспорченный ребёнок. И пусть всё так и останется. Если она увидит нас или даже узнает о нас, то... я не знаю... даже думать не хочу!|She can't know anything, Max! I don't even want to think about her catching us!
+		13.aa.54^		Да ладно тебе!|You're being paranoid, she's not going to catch us
+
+	13.aa.54@60@Для меня это очень важно. Если ещё и Лиза вступит на этот путь, то я не знаю... уйду в монастырь или ещё что-то подобное вытворю!|It's very important to me, Max. If Lisa will become just as perverted as the rest of the family I'll... I don't even know what I'll do! I'll go become a nun or something.
+		13.aa.55^		Не надо в монастырь...|You can be a slutty nun for me if you want to...
+
+	13.aa.55@62@Боишься, что без меня тебе будет не хватать секса дома?|I'm serious, Max! Lisa stays a normal kid without getting dragged in into our family's perversion!
+		13.aa.56^		Я не о том, но...|Okay, okay. I'm totally fine with her not knowing about us
+
+	13.aa.56@67@Да всё у тебя на лице написано... Да, вторая причина, почему нам стоит ограничить эти наши встречи... Не хочу, чтобы это превратилось в какую-то рутину...|There's another reason I don't want to do it too much. I'm afraid it might turn into a routine.
+		13.aa.57^		Да это же невозможно!|That's no way I ever get bored of you!
+
+	13.aa.57@75@Ну не знаю, не знаю... Давай не будем спешить и забегать вперёд... Но ждать следующего раза я буду в любом случае...|I don't know, Max... Let's just try not to lose our heads. I can't wait wait for our next time already...
+		13.aa.58^		Я тоже, мам!|Me neither!
+
+	13.aa.58@67@Ну всё, беги по своим делам, мне тоже надо привести себя в порядок... И никому ни слова! Хотя, ты же умненький мальчик, всё понимаешь...|You should go now, Max. I need to clean myself up. And don't tell anyone about us!
+		leave!set_mco_8!set_dcd.mco_2!set_poss.car_55!lock_momroom_5!time^			Конечно, мам!|Of course, mom
+
+
+
+# --- 0.13: Второй секс с Анной
+
+	13.af.0@75@v-mm-1@Захотел продолжения? Ну присаживайся...|Missed me, Max? Come take a sit...
+		13.af.1^		Ага...|Okay
+
+	13.af.1@69@v-mm-3@Ты знаешь, я много думала после того, что произошло в прошлый раз... А ты?|I did a lot of thinking about our last time... Did you?
+		13.af.2^		Да, я тоже...|Yeah, me too
+
+	13.af.2@60@v-mm-4@Расскажешь? Или хочешь узнать что я думаю об этом?|Will you tell me? Or do you want me to tell you what I'm thinking?
+		13.af.3^		Давай лучше ты...|Tell me what you think
+
+	13.af.3@62@v-mm-3@Я думаю, что ты уже достаточно взрослый, чтобы отдавать отчёт своим действиям. Ты согласен?|I think you're a grown man and can make your own decisions. Agree?
+		13.af.4^		Конечно!|Of course
+
+	13.af.4@69@Кроме того, ты уже мужчина... очень привлекательный мужчина, а я одинокая женщина, у которой есть некоторые потребности...|Anyway, you're a man, I'm a woman, we're both adults with needs...
+		13.af.5^		Постой, ты меня убеждаешь? Зачем?!|You don't have to convince me, mom. I want this
+
+	13.af.5@73@Скорее, я себя убеждаю. Точнее, расставляю все точки над i. Формально мы с тобой уже занимались сексом, но... |That's not what I'm doing. If anything, I'm trying to convince myself. Or, more accurately, trying to tell you my side of all this.
+		13.af.6^		Мам, в чём проблема?|Okay. So, the bottom line is we're both happy with the new development, right?
+
+	13.af.6@69@Да, ты прав, сынок. Я всё время во всём сомневаюсь. Постоянно думаю, хорошая ли я мама, но после всего, что мы прошли... я только и думаю о продолжении...|Right. I can't stop thinking about it. Sometimes I still think I'm a bad mother, but... You seem happy to be here, so I'm going with “my son is an adult and is responsible for his own decisions”, and not with “I'm a horrible mother who molested my own son for my carnal desires”.
+		13.af.7^		Так давай приступим!|Mom, I guarantee you, no one wants this more than me
+
+	13.af.7@67@Тогда почему ты до сих пор в шортах? Быстро снимай!|Then what are we waiting for? Take off your shorts!
+		13.af.8^		Конечно!|Now we're talking!
+
+	13.af.8@75@v-mm-5@Как же я этого ждала... Извини, что на меня опять нахлынули сомнения... я больше не буду. Сейчас я точно знаю, что хочу... тебя...|I've been waiting for this, Max... I'm sorry I overthink things sometimes... I don't want to doubt myself anymore. I know exactly what I want.
+		13.af.9^		О да!|Oh, yeah!
+
+	13.af.9@67@v-mm-7@Я не обещаю, что больше не буду сомневаться, но как минимум, сегодня тебя ждёт незабываемый секс... Конечно, если ты не кончишь раньше времени...|I can't promise I'll never have any doubts in the future, but at least I can promise you amazing sex tonight... If you don't cum too early, that is.
+		13.af.10^		Постараюсь...|I'll do my best
+
+	13.af.10@75@v-mm-8@Даже удивительно... То ты не можешь кончить, то не можешь сдержаться... Каждый раз с тобой - для меня сюрприз... Хотя, во всём гормоны виноваты, конечно...|It's so strange... Sometimes you cum right away, sometimes you can't cum at all... I don't know what to expect from you every time we do something... Not that it's your fault, of course...
+		13.af.11^		Ага...|Y-yeah...
+
+	13.af.11@4@v-mm-9@<i>... а может быть, тот странный препарат, который дала тётя Кира, но маме об этом знать не обязательно... Ох, как бы сдержаться в этот раз...</i>|<i>It kinda is, I'm the one who took Kira's medication. Not that mom has to know, of course. I should focus on controlling myself today...</i>
+		13.af.12^		<i>далее</i>|<i>continue</i>
+
+	13.af.12@3@v-mm-10@<i>Я смогу... Да, в этот раз смогу... Если только она не начнёт двигаться как в тот раз... Столько страсти, желания... О да...</i>|<i>I can do it today, I have to... I hope mom won't do that move she did last time, I won't be able to hold off then... So much passion... Oh, yes...</i>
+		13.af.13^		<i>далее</i>|<i>continue</i>
+
+	13.af.13@4@v-mm-11@<i>Это непередаваемо... Никто так не трахается, как моя мама! Может быть, тётя Кира могла бы сравниться... Вот она была бы рядом, я бы сравнил...</i>|<i>This is incredible... No one fucks like my mom! Maybe aunt Kira can... If only she were here so I could compare them...</i>
+		13.af.14^		<i>далее</i>|<i>continue</i>
+
+	13.af.14@3@v-mm-12@<i>Нет, я не могу себя сдерживать, когда такая женщина на мне... Это просто невозможно! Что? Кажется, она тоже кончает? О да!</i>|<i>I can't hold off when I'm having sex with someone as amazing as mom... It's simply impossible! What? Is she cumming too? Yes!</i>
+		13.af.15^		<i>кончить в маму</i>|<i>cum in mom</i>
+
+	13.af.15@75@v-mm-13@Ох... Макс... Сынок... Это было... Это был лучший секс в моей жизни... Самый короткий и самый лучший... Не думала, что это возможно!|Oh, Max... Son... That was... That was the best sex in my life... I didn't think this was possible!
+		13.af.16^		Да...|Yeah...
+
+	13.af.16@62@v-mm-14@Ты опять накачал меня по полной... Давай немного переведём дыхание...|You filled me up again... Let me catch my breath...
+		13.af.17^		Конечно!|Of course
+
+	13.af.17@67@v-mm-15@Ну что я могу тебе сказать, сынок... Я была полной дурой, что отказывала себе... нам... в таком удовольствии...|What can I tell, you son... I was so stupid for turning you down... Taking away so much pleasure from both of us...
+		13.af.18^		Больше не сомневаешься?|At least you don't have any doubts anymore
+
+	13.af.18@75@Ты же меня знаешь, я всё время нахожу повод о чём-то попереживать... Но в данном случае... Я просто не испытывала ничего подобного никогда!|You know me, I'll always find a reason to overthink, but... I can't doubt the best sex I've had in my life!
+		13.af.19^		Я тоже!|It was the best sex in my life too
+
+	13.af.19@69@Правда? Для меня это очень важно... Не знаю даже в чём дело... Конечно, твой огромный член и то, как ты меня хочешь тоже важно, но...|Really? It's very important for me... I don't even know why... I love your huge cock and how much you want me, but...
+		13.af.20^		Но?|but?
+
+	13.af.20@73@Но ещё важно, что нам это делать нельзя, а ты знаешь, как тянет к запретному. Ты мой сын и... теперь я точно знаю, что хочу это повторять снова и снова!|But the fact that it's forbidden makes it so much better... You're my son, but I want to do it again and again!
+		13.af.21^		Ну так повторим?|What are we waiting for then?
+
+	13.af.21@69@Я не в том смысле, сынок. Я думала, что если мы сделаем это, то всё, на этом всё прекратится. Найдём тебе девушку, а я найду себе мужчину и забудем об этом...|I didn't mean right now, Max. It's just, before we did it I was thinking we'll do it once to get it out of our systems and that will be it. You'll find yourself a girlfriend, I'll find some man and we'll forget about it.
+		13.af.22^		Но сейчас ты думаешь иначе?|But you don't think like this anymore?
+
+	13.af.22@67@Да. Теперь я точно знаю, что хочу трахаться с тобой и только с тобой... Ты же не потерял ко мне интерес после того, как добился того, чего так ждал?|No. Now I know I want to have sex with you and only you... You didn't lose your interest after you got what you wanted, right?
+		13.af.23^		Конечно, нет!|Of course not!
+
+	13.af.23@75@Вот и хорошо. Я даже успела испугаться... Так здорово... Не понимаю, почему ты не завёл себе девушку? Я бы ей завидовала, уж точно!|Good. I was afraid of that too... It was so amazing... Why don't you get yourself a girlfriend, Max? You can make someone a very happy woman.
+		13.af.24^		Меня на всех хватит...|There's plenty of me to go around...
+
+	13.af.24@69@В этом я не сомневаюсь даже. На самом деле, я даже буду рада, если ты найдёшь себе кого-то...|I'm not going to argue that... In fact, I'll be fine if you find yourself a girlfriend, Max.
+		13.af.25^		Да ладно?|Really?
+
+	13.af.25@67@Ну да. Почему бы и нет? К тому же, пока ты живёшь со мной под одной крышей, мы можем... ну ты понимаешь...|Yes, why not? It's not like you're going to stop having sex with me while we're living in the same house.
+		13.af.26^		Понимаю...|Yeah...
+
+	13.af.26@62@Вижу, ты опять начинаешь возбуждаться... Я бы с радостью повторила, но давай закругляться. Надо прибраться, да и вдруг кто-то войдёт...|Looks like you're getting aroused by our conversation... I'd love to have another go, but we really shouldn't. I should clean up, someone can enter my room at any moment.
+		13.af.27^		Да и пусть!|So what?
+
+	13.af.27@60@Ну уж нет. Никто не должен знать о наших с тобой отношениях. Ни Алиса, ни Кира, ни, тем более, Лиза. Ты меня понял?|No, Max. No one knows about our relationship. Not Alice, not Kira and <b>definitely</b> not Lisa. Got it?
+		13.af.28^		Думаешь, не узнают?|Do you think they won't find out?
+
+	13.af.28@69@Ну если ты никому не скажешь... Но я знаю Киру, она везде нос суёт. Не удивлюсь, если уже завтра будет всё знать... Но ты ничего не говори, хорошо?|Not if you tell anyone... Knowing Kira, though, I wouldn't be surprised if she already knows somehow... But we should be careful anyway.
+		13.af.29^		Хорошо...|Okay
+
+	13.af.29@60@Кстати, как ты думаешь, а Алиса как к этому отнесётся? У нас же не будет с ней проблем на этой почве?|How do you think Alice would react after finding out? Do you think she'd have a problem with us?
+		13.af.30^		Не думаю...|No, I don't think so
+
+	13.af.30@69@Ну хорошо, если так. Я не знаю как с ней об этом всём разговаривать. Но если мы будем осторожны, то и не придётся...|That's good. I don't know how am I supposed to talk to her about this. Better be safe so I don't have to.
+		13.af.31^		Ага...|Okay
+
+	13.af.31@67@Ну всё, на сегодня хватит. Теперь я знаю, что у меня был лучший секс в моей жизни...|Okay, that's enough for today. I just had the best sex in my life...
+		13.af.32^		То ли ещё будет...|The best sex in your life <i>so far</i>...
+
+	13.af.32@75@Ох, сынок, не продолжай, а то наброшусь! Шучу. Не сегодня... Но буду ждать следующего раза. Лучше, если в мой выходной, также вечером...|Oh, what are you doing to me, son... Are you trying to make me jump you again? Not today, Max, but I can't wait for our next time. How about my next day off, in the evening?
+		13.af.33^		Ага, понял...|Sure
+
+	13.af.33@4@d-mm-31@<i>Отлично! В моём гареме пополнение... Ещё одна женщина, которая только и ждёт секса со мной...</i>|<i>Great! My “harem” is getting bigger! Mom finally wants to have sex with me as much as I want to have sex with her...</i>
+		leave!set_mco_9!set_dcd.mco_2!set_stp_2!set_msex_1!lock_momroom_5!time^		Пока мам, отдыхай!|Get rest, mom, I'll go now
+
+
+
+# --- 0.13: Периодический секс с Анной
+
+	13.af.34@75@v-mm-1@Зная, какой озабоченный мой сынок... да и я сама, угадать не сложно... Ну, устраивайся поудобнее...|I might have an idea or two... I almost went looking for you myself... Make yourself comfortable, son...
+		13.af.35^		Ага!|Okay
+
+	13.af.35@62@v-mm-3@Ну и чего сидим? Ты поболтать пришёл или... только учти, я сейчас не настроена на разговоры...|What are we waiting for? You didn't come here to talk, did you? I'm not in a mood for a conversation...
+		13.af.36^		Тогда «или»|I like your attitude!
+
+	13.af.36@67@v-mm-4@В таком случае, почему ты до сих пор в шортах? Снимай немедленно! Я уже заждалась...|Why haven't you undressed yet then? Take your shorts off! I can't wait anymore!
+		13.af.37^		<i>снять шорты</i>|<i>take off shorts</i>
+
+	13.af.37@4@v-mm-6@<i>Кажется, если бы я её сейчас остановил, она бы на меня набросилась и... хорошо, что мы этого не узнаем...</i>|<i>I'm pretty sure she wouldn't take no for an answer right now... Good thing we don't have to find out!</i>
+		13.af.38^		<i>далее</i>|<i>continue</i>
+
+	13.af.38@75@v-mm-8@Похоже, ты полностью готов... И как я раньше жила без всего этого...|Looks like you're ready, Max... How did I survive without your cock...
+		13.af.39^		<i>промолчать</i>|<i>keep quiet</i>
+
+	13.af.39@62@v-mm-9@Такой напряжённый... Только не кончи раньше времени!|You're so hard... Don't cum before me, Max!
+		13.af.40^		Постараюсь!|I'll do my best!
+
+	13.af.40@4@v-mm-11@<i>О да! Как же это приятно... Похоже, мама сейчас совершенно не заботится о том, что нас может кто-то услышать!</i>|<i>I can't believe how good it feels... I don't think mom cares if someone can hear her right now...</i>
+		13.af.41^		<i>далее</i>|<i>continue</i>
+
+	13.af.41@3@v-mm-10@<i>Сколько же в ней энергии? Она прыгает на моём члене так, как будто не трахалась год!</i>|<i>So much passion! She's riding me like she hasn't seen a cock for a year!</i>
+		13.af.42^		<i>далее</i>|<i>continue</i>
+
+	13.af.42@4@v-mm-12@<i>Ох... Кажется, я уже на грани... И мама... она так кричит... Похоже, она тоже близко... Да...</i>|<i>I'm almost there... Mom is so loud... I think she's close too...</i>
+		13.af.43^		<i>кончить в маму!</i>|<i>cum in mom</i>
+
+	13.af.43@67@v-mm-13@Ох, сынок... Обожаю тебя... Твой член просто создан для меня!|Oh, son... I love you so much... I think your cock was made just for me!
+		13.af.44^		Ох...|Oh...
+
+	13.af.44@75@v-mm-15@Ну всё, нужно немного отдышаться... Мне так нравится, что мы с тобой кончаем одновременно... Раньше такое редко бывало...|Wait for a bit, I need to catch my breath... I love how we cum together, Max... That never happened before...
+		13.af.45^		Обращайся!|Anytime, mom!
+
+	13.af.45@67@И буду, уж поверь. Теперь, когда я поняла, какое ты сокровище, я от тебя не отстану. Ну, если только ты сам не устанешь от меня...|Oh, you'll never get rid of me! Now that I know how special you are I'll never let you go. Unless you want to leave me, of course...
+		13.af.46^		Я не устану, обещаю!|Never!
+
+	13.af.46@69@Рада это слышать, сынок... Думаю, нам надо собираться. Сегодня я, кажется, громко кричала... Нам нужно быть осторожнее...|I'm happy to hear it, son... I think we should wrap it up for today. I'm afraid I was too loud today... We should be more careful.
+		leave!set_dcd.mco_2!lock_momroom_5!max_yocan_1!time^			Ага...|Yeah
+
+
+
+# --- 0.13: Спустя время Макс интересуется у Киры насчёт нового фильма
+
+	13.ac.0.init@0@Как там твой сценарий?|Any news about the next movie?
+	13.ac.0@101@Хм... Всё оказалось не так просто, как я думала...|Yeah... You're not going to like them, though.
+		13.ac.1^		Закончились идеи? Так я подскажу!|If you have a writing block I might have a couple of ideas...
+
+	13.ac.1@100@Не в этом дело, Макс. Я написала отличный сценарий и даже показала его твоей маме, но что-то пошло не так...|That's not the problem, I already wrote the script. I even showed it to your mom already. She <i>really</i> didn't like it.
+		13.ac.2^		Ты о чём?|Why not?
+
+	13.ac.2@103@Твоя мама наотрез отказалась сниматься в этом фильме. Но она не против, если вместо неё будет какая-то другая актриса...|Your mom is adamant against making this movie. Or, more accurately, she won't play in it. We can make it with another actress, but...
+		13.ac.3^		Так вся суть в маме!|But it was all about mom in the first place!
+
+	13.ac.3@101@Думаешь, я этого не знаю? Похоже, эта её подработка в БДСМ фильмах приносит достаточно денег и так...|Exactly. Turns out her BDSM gig has a side effect I didn't think of before. She's now making enough money to turn down our, em, family business.
+		13.ac.4^		Может, поговорить с директором студии?|Can we talk with the studio director or something?
+
+	13.ac.4@113@О чём? Чтобы её обязали сниматься с тобой в одном фильме? Или чтобы перестали снимать другие фильмы с участием твоей мамы?|About what? Do you want them to force your mom to make a movie with you? Or maybe stop making movies with her altogether?
+		13.ac.5^		Ну... Что-нибудь из этого...|Those... don't sound so great...
+
+	13.ac.5@101@Я не настолько влиятельна в студии. К тому же, директор очень доволен тем, как справляется твоя мама...|I don't have enough weight in the studio to make them do something like this. Even if studio could force your mom to make porn with someone she doesn't want to—which sounds really rapey, by the way—what's stopping them from forcing her to have sex with a whole bunch of guys? And why would they want to fire your mom, she's making good money, there's no reason to exclude her from the BDSM project.
+		13.ac.6^		И что же делать?|So, no porn with mom then?
+
+	13.ac.6@113@Не унывать, конечно! Когда закрывается одна дверь, открывается другая. Нужно лишь её найти... Хотя, мы пошли не по тому пути.|Yeah. Besides, I don't think making a porn movie with your mom would help your situation.
+		13.ac.7^		В каком смысле?|What do you mean?
+
+	13.ac.7@114@Ну подумай сам. Если я бы всё подстроила на съёмках и по сюжету тебе пришлось бы трахаться с ней против её воли, не получилось бы хуже?|Think about it, do you really want to fuck your mom against her will?
+		13.ac.8a^		Это было бы круто!|When you put it like that...
+		13.ac.8b^		Хуже? Ты о чём?|I didn't think she'd be against it so much... She wasn't before
+
+	13.ac.8a@100@Скорее всего, больше у вас ничего бы не было. Вообще. А я стала бы врагом номер один, потому что заставила её сделать такое...|Exactly. She'd hate us both for making her do it.
+		13.ac.9^		Но почему?!|I don't want to force her into anything. I was kinda hoping she wants it as much as I do and the movie would be a good enough excuse for her to overcome her hang-ups
+
+	13.ac.8b@100@Скорее всего, больше у вас ничего бы не было. Вообще. А я стала бы врагом номер один, потому что заставила её сделать такое...|Me neither, but we were wrong. Making a movie is not an option.
+		13.ac.9^		Но почему?!|And here I was, hoping she wants it as much as I do and the movie would be a good excuse to overcome her hang-ups...
+
+	13.ac.9@101@Да потому! Ты что, свою маму не знаешь? Конечно, если тебя устроил бы один раз, то можно ещё как-то что-то сделать, но...|You might be onto something here. It's just the movie isn't a good enough excuse anymore.
+		13.ac.10^		Один раз? Я хочу больше!|So you're saying I should try to look for another way?
+
+	13.ac.10@100@В таком случае, тебе придётся решить эту проблему самому. На этот раз без моей помощи...|Yes. What about your previous plan? I thought you were already almost there with all the other stuff you've been doing lately?
+		13.ac.11^		Но как?|So did I, but I don't think she's willing to cross the line yet
+
+	13.ac.11@101@Ты же приходил ко мне за советом? К счастью, я могу тебе дать отличный совет. Ты же помогаешь ей с её попкой, массаж, всё такое?|Why don't you give her a proper motivation then? If I understand the situation correctly, you're getting each other off after the massages, right?
+		13.ac.12^		Да...|Yes
+
+	13.ac.12@113@И... как я понимаю, ты делаешь ей приятно, она тебе, вы счастливы и довольны, верно?|So she's fine with the status quo and you want more, right?
+		13.ac.13^		Ну почти...|Yep
+
+	13.ac.13@103@А что, если не доводить её до оргазма? Подразнить и остановиться в самый важный момент...|How about instead of trying to go further, you do the opposite? Instead of giving her much needed relief you stop right before she cums and leave her unsatisfied!
+		13.ac.14^		А она не обидится?|Are you sure she's not going to bite my head off in frustration?
+
+	13.ac.14@114@Не обидится ли твоя мама на то, что ты не довёл её до оргазма? Точно нет! А вот захотеть большего она точно может...|That won't give her an orgasm. Unlike other things she might do to you...
+		13.ac.15^		Хм...|Hm...
+
+	13.ac.15@113@Сам подумай: на работе её доводят до предела, она приходит домой, тут её дразнят и не дают кончить, а сама она себя не любит трогать...|Think about it, she doesn't get to cum on her work and the only thing standing between you two having sex is you pleasing her in other ways. Take that away and her entire defense will crumble.
+		13.ac.16^		Надо попробовать!|That's a brilliant idea! Why didn't I think of that!?
+
+	13.ac.16@101@Конечно, попробуй. Я бы набросилась на тебя уже в первый раз! Но тут речь про твою маму и может быть, понадобится больше времени...|Because it's a brilliant idea?\n\nJust remember, this is your mom we're talking about, you might have to do it a couple of times before she finally jumps you. Well, that, or stop your massage sessions altogether. Let's put your idea about your mom being one step away from having sex with you to a test, shall we?
+		13.ac.17^		Спасибо за совет!|Oh, she's gonna do the right thing, I just know it! Thanks for the advice, aunt Kira!
+
+	13.ac.17@113@Не за что, Макс. Мне кажется, у тебя всё получится. Ну а если нет, то... пробуй ещё и ещё!|You're welcome. I'm sure you'll get what both of you want. Just don't give up too early.
+		leave!set_mco_4!set_stp_1!set_poss.car_53!set_mwill_0^			Хорошо!|Okay!
+
+
+
+# --- 0.13: Ответвления из регулярного эвента массажа
+
+	13.ad.0@69@d-mm-10@Сынок, ты остановился? Устали пальчики? Так жаль... Ну ничего, отдохни...|Why'd you stop, son? Are you tired already? That's okay, get some rest...
+		13.ad.1!add_mwill_1^		<i>далее</i>|<i>continue</i>
+
+	13.ad.1@67@d-mm-17@Теперь моя очередь... Я подожду следующего раза, но тебе помогу сбросить напряжение. Снимай шорты!|It's my turn now. I'll have to wait for the next time, but I'll help you anyway. Take off your shorts.
+		12.cc.30^		Конечно! <i>(снять шорты)</i>|Sure! <i>(take off shorts)</i>
+
+	13.ad.2@69@d-mm-23@Ох... на самом интересном месте... Устал, сынок? Извини, я думала, что кончу как только твой язычок прикоснётся ко мне...|Oh... Why'd you have to stop right before I... Sorry, that was selfish of me. Did you get tired, son?
+		13.ad.3!add_mwill_1^		Извини, мам...|I'm sorry, mom...
+
+	13.ad.3@67@d-mm-20@Не извиняйся, сынок. Всё хорошо... Я могу подождать и другого раза, а вот тебе надо сбросить напряжение. Снимай шорты!|It's okay, son, I'll wait for next time. Let me help you with your problem, though. Take off your shorts.
+		12.cc.30^		Конечно! <i>(снять шорты)</i>|Sure! <i>(take off shorts)</i>
+
+
+
+# --- 0.13: Ответвления из 0.12, после первого секса (из 12.cc.26, если stp=2)
+
+	13.ae.0@67@d-mm-10@Может быть, но не сегодня... И, вообще, давай лучше я о тебе позабочусь, раз ты у меня такой ненасытный...|We should, but not today, Max. But let me help you out in some other way since you want me so much...
+		13.ae.1^		Ну давай...|Okay...
+		13.ae.1b^		А почему нет?|Why not?
+
+	13.ae.1b@75@d-mm-12@Потому, что не нужно делать это слишком часто. Помнишь, я же объясняла?|Because I don't want to do it too often. Don't you remember our conversation about it?
+		13.ae.1^		Ну да, ну да...|I do...
+
+	13.ae.1@62@d-mm-20@А ты почему до сих пор в шортах? Снимай быстрее! Я сделаю тебе приятно...|Why are you still wearing your shorts? Take them off.
+		12.cc.30^		Конечно!|Sure
+
+
+	13.ae.2@67@d-mm-23@Может быть, но не сегодня... И, вообще, давай лучше я о тебе позабочусь... Может быть, снимешь шорты?|Maybe, but not today. Let me help you out in another way. Take off your shorts.
+		12.cc.30^		Конечно, мам!|Sure, mom
+
+
+
+# --- 0.13: Макс приходит на кухню утром, пока Анна готовит
+
+	13.ba.0@4@y-mc-1@<i>Похоже, маме нравится меня дразнить своей голой попкой... Немного пошалить или не мешать, чтобы она приготовила завтрак?</i>|<i>Mom sure is enjoying teasing me with her cute butt... Should I have some fun or should I leave her be?</i>
+		13.ba.1^		<i>подойти</i>|<i>come closer</i>
+		leave!lock^		<i>оставить её в покое</i>|<i>leave</i>
+
+	13.ba.1@67@v-mc-2@Что, решил чему-то научиться или просто стало скучно и решил поболтать?|Do you want to learn cooking or do you just wanna chat?
+		kit=0&13.ba.2^		Ни то ни другое...|Neither...
+		kit=1&13.ba.15^		А ты не догадываешься?|Take a guess...
+		kit=2&13.ba.25^		Я по делу...|I have ... a thing...
+		leave!lock^			Не буду тебе мешать...|I should go
+
+	13.ba.2@75@v-mc-1@Сынок, судя по твоему взгляду ты задумал что-то не то...|You look like you have something naughty on your mind...
+		13.ba.3^		Очень даже то! <i>(потрогать её попку)</i>|Maybe... <i>(touch her ass)</i>
+
+	13.ba.3@68@v-mc-3@Сынок, Макс... ну что ты делаешь? Ты же знаешь, что нас может кто-то увидеть...|We can't do it here, son... What if someone catches us?
+		13.ba.4^		Нас не заметят!|We'll be fine
+
+	13.ba.4@69@v-mc-5@Ну не знаю... Кира уже видела, что я голая готовлю. Правда, ничего не сказала. Может быть, не только она про это уже знает...|I don't know... Kira's already seen me naked in the kitchen. She didn't say anything, though... Maybe she already knows about us too...
+		13.ba.5^		И никому нет дела...|No one cares, mom
+
+	13.ba.5@73@Да, но... Если увидят нас с тобой вместе, это будет уже другое... Что ты там делаешь?|Yes, but they will care if they catch us together... What are you doing over there?
+		13.ba.6^		<i>снять шорты</i>|<i>take off shorts</i>
+
+	13.ba.6@68@v-mc-4@Макс! Это то, что я думаю? Ты с ума сошёл? Нас же увидят! И... могут услышать...|Are you crazy, Max!? Anyone can see or hear us here!
+		13.ba.7^		Наклонись чуть-чуть!|That's the best part! Bend over a bit
+
+	13.ba.7@4@v-mc-8@<i>Она даже не стала спорить?! Вот это да! Ну, не буду упускать момент... Правда, если нас заметят, то могут всё обломать... Но кто не рискует...</i>|<i>I can't believe she's getting along with this... And chance to get caught makes it even better...</i>
+		13.ba.8^		<i>войти в неё</i>|<i>enter mom</i>
+
+	13.ba.8@67@v-mc-7@Ох... Макс... Нас же могут... Да... глубже! Трахни меня, скорее!|Oh, Max... What if... Yes... Deeper! Faster, Max!
+		13.ba.9^		Как скажешь, мам!|Oh, you're really gonna get it now!
+
+	13.ba.9@4@v-mc-6@<i>Похоже, её слышно даже в ванной... Но её это не заботит? Да и меня тоже! Мама хочет, чтобы её оттрахали, ну что же...</i>|<i>I wonder if mom is loud enough to be heard in the bathroom... But who cares!? Mom is asking me to throughly fuck her, and I'm not going to say no to that!</i>
+		13.ba.10^		<i>ускориться</i>|<i>speed up</i>
+
+	13.ba.10@75@v-mc-7@Да... Ещё, Макс... Быстрее! Ещё быстрее! Я уже близко... Только кончи... на мою попку, не хочу сейчас идти в душ, там... занято...|Yes! More, Max... Faster! Faster! I'm almost there... But cum outside please... I don't want to go to the bathroom, it's occupied...
+		13.ba.11^		<i>ещё ускориться</i>|<i>speed up some more</i>
+
+	13.ba.11@4@v-mc-6@<i>Что? Она уже кончает?! Ох... это так заводит... Кажется, я тоже вот-вот... О да!</i>|<i>What? She's cumming already!? Oh... So hot... I think I'm close too... Yes!</i>
+		13.ba.12^		<i>кончить на её попку</i>|<i>cum on her ass</i>
+
+	13.ba.12@67@v-mc-8b@Кажется, мы опять с тобой кончили почти одновременно... Ты не представляешь, как мне нравится... эта традиция...|Looks like we came almost simultaneously again... You have no idea how much I love this ... tradition of ours.
+		13.ba.13^		А мне то как!|Me too!
+
+	13.ba.13@75@v-mc-5@Спасибо тебе за эту... утреннюю зарядку, сынок... А теперь не мог бы ты взять салфетку и протереть мою попку, чтобы никто ничего не заметил?|Thanks for the ... morning exercise, son. Could you wipe my ass with a tissue?
+		13.ba.14^		Конечно, мам!|Of course, mom
+
+	13.ba.14@67@v-mc-2@Ну всё, сынок, тебе пора. Ты хорошо поработал, но и мне нужно к завтраку всё подготовить... Спасибо тебе ещё раз...|Okay, son, you should go now. You did great, but now I have to finish our breakfast. Thanks you again, Max.
+		leave!set_kit_1!time^		Не за что!|It was my pleasure!
+
+
+
+# --- 0.13: Второй эвент на кухне
+
+	13.ba.15@75@v-mc-3@Догадываюсь... В прошлый раз меня так завело то, что нас могут поймать в любой момент... И твой напор, настойчивость...|I think I know where this is going... Last time I was so turned on I couldn't think straight... Not only we could get caught, but you were so... assertive...
+		13.ba.16^		Ну что же...|Well, then... <i>take off shorts</i>
+
+	13.ba.16@67@v-mc-4@Ох, сынок... Хорошо, давай повторим... Но если услышишь, что кто-то идёт, сразу всё прекращай. Попробуем сделать невозмутимый вид...|Oh, son... Okay, let's do this... But we have to stop if you hear someone coming, okay?
+		13.ba.17^		Ну, если получится...|We'll try
+
+	13.ba.17@75@v-mc-8@Макс, скорее... Скоро завтрак и я не хотела бы, чтобы нас потеряли...|Hurry up, Max... Breakfast isn't far away...
+		13.ba.18^		<i>войти в маму</i>|<i>enter mom</i>
+
+	13.ba.18@67@v-mc-7@Да... да... так... А теперь трахни меня так, как в прошлый раз. Можно даже жёстче и быстрее... ну, если хочешь...|Yes, yes! More... Fuck me just like last time, son! Faster and harder... If you want to, I mean...
+		13.ba.19^		Хочу... Конечно, хочу!|Of course I do!
+
+	13.ba.19@4@v-mc-6@<i>Дожили! Мама просит её оттрахать жёстко и быстро... Ну как тут отказать? Судя по её крикам это именно то, что нужно!</i>|<i>Finally! Mom is asking me to fuck her faster and harder... I can't say no to that! Judging by her screaming I'm doing something right!</i>
+		13.ba.20^		<i>продолжать</i>|<i>continue</i>
+
+	13.ba.20@3@v-mc-7@<i>Вот это я понимаю - доброе утро! Что может быть лучше маминой попки на завтрак? Кажется, она вот-вот кончит... да и я тоже... Ох...</i>|<i>Now that's a good way to start the day! What could be better than fucking mom on breakfast? I think she's about to cum... And so am I...</i>
+		13.ba.21^		<i>кончить на маму</i>|<i>cum on mom</i>
+
+	13.ba.21@75@v-mc-8b@Мы сегодня побили рекорд, кажется... Так быстро, жёстко и... оба кончили почти одновременно? Никогда ничего подобного со мной не было...|I think we just broke some record, son... So fast, so rough... And we came together again! That never happened to me before...
+		13.ba.22^		Со мной тоже...|Yeah...
+
+	13.ba.22@67@v-mc-5@Держи салфетку. Моей попке ещё нужно немного заботы. Не хочу, чтобы кто-то заметил какие-то следы...|There's a tissue. You don't want anyone to see your cum on my ass, do you?
+		13.ba.23^		Конечно, мам!|Sure, mom
+
+	13.ba.23@69@v-mc-2@Сегодня нас опять никто не заметил, кажется... Но всё равно, нужно быть осторожнее... Хотя, эта ситуация так заводит, что я опять...|Looks like we got lucky today... We should be more careful, Max. I don't know if I could, though, this situation is so hot... I already want to do it again...
+		13.ba.24^		Повторим?|Let's go again then
+
+	13.ba.24@67@Нет, хватит, не сейчас... позже... В данный момент от меня все ждут завтрак и я собираюсь его приготовить наконец-то...|No, we can't. Breakfast is going to be very soon, we don't have time.
+		leave!set_kit_2!time^		Ладно, не буду тебе мешать!|Okay, I'll leave you to it then
+
+
+
+# --- 0.13: Периодический кухонный эвент, из которого могут быть ответвления с Алисой и Лизой
+
+	13.ba.25@75@v-mc-3@Да? Ну доставай своё... «дело»... А то я боялась, что останусь без утреннего секса...|Why don't you show it to me then? I was afraid I'll miss our morning sex...
+		13.ba.26!add_kittimes_1^		Разве я мог это допустить?|I wouldn't miss it for the world!
+
+	13.ba.26@67@v-mc-4@Хорошо, что ты заботишься о своей маме... Ох, не дразни меня, Макс... Возьми меня, скорее!|I'm glad you don't forget about your mother... Stop teasing me and take me already, Max!
+		13.ba.27^		Конечно!|Of course
+
+	13.ba.27@4@v-mc-8@<i>Да она вся мокрая! Мама и правда меня ждала... очень ждала... Ну что же, я её не разочарую...</i>|<i>She's so wet! Mom was waiting for me... And I'm not going to disappoint her...</i>
+		13.ba.28^		<i>трахнуть маму!</i>|<i>fuck mom!</i>
+
+	13.ba.28@67@v-mc-7@Ох, Макс... Я уже не могу без этого... Давай, оттрахай меня как...|Oh, Max... I can't live without your cock anymore... Fuck me like a...
+		13.ba.29^		Как? Как кого?|Like a who?
+
+	13.ba.29@75@v-mc-6@Поменьше разговоров! А то я сама на тебя прыгну... Да... Быстрее... ещё быстрее... О да... так...|Less talking and more fucking, Max! Or I'll jump on you right here... Yes! Faster! More! Yes..!
+		lizcankit=0&13.ba.30^					<i>продолжать</i>|<i>continue</i>
+		lizcankit=1&random.luck.20=1&13.bc.0^	<i>продолжать</i>|<i>continue</i>
+		lizcankit=1&random.luck.20=0&13.ba.30^	<i>продолжать</i>|<i>continue</i>
+
+	13.ba.30@4@v-mc-7@<i>Да, это уже какая-то зависимость. Причём, взаимная... От той строгой мамы нет и следа... Это так здорово!</i>|<i>Mom is addicted to me... And I'm addicted to her... Strict mom is gone and I now I have a new, better one... This feels incredible!</i>
+		acan1=0&13.ba.31^					<i>далее</i>|<i>continue</i>
+		acan1>0&random.luck.30=1&13.bb.0^	<i>далее</i>|<i>continue</i>
+		acan1>0&random.luck.30=0&13.ba.31^	<i>далее</i>|<i>continue</i>
+
+	13.ba.31@3@v-mc-6@<i>Да... В такой ситуации, когда любой может нас увидеть... Ни она, ни я не можем долго сдерживаться... Кажется, она кончает... да и я... тоже...</i>|<i>The chance to get caught makes it so much better... I can't hold off anymore... Mom is cumming...</i>
+		13.ba.32^		<i>кончить на её попку</i>|<i>cum on mom's ass</i>
+
+	13.ba.32@75@v-mc-8b@Ух, сынок... Сегодня ты превзошёл самого себя... С каждым разом всё лучше и лучше... Как мне с тобой повезло...|Wow, son... You were amazing today... You keep getting better every time... I'm so lucky to have you.
+		13.ba.33^		Да, а мне с тобой...|And I'm lucky to have you...
+
+	13.ba.33@67@v-mc-5@Держи салфетку. Скроешь следы своего преступления?|Here's a tissue, Max. Get rid of the evidence, please.
+		13.ba.34^		Конечно!|Of course
+
+	13.ba.34@75@v-mc-2@Ох, это было... так классно... Ни с одним мужчиной у меня не было ничего такого... Спасибо тебе, сынок!|That was... I can't describe it... I've never felt anything like this with other men... Thank you, son!
+		13.ba.35^		Не за что!|My pleasure
+
+	13.ba.35@67@Ну всё, мне всё ещё нужно подготовить всё к завтраку. Натягивай шорты и беги наверх...|Okay, you can go now, I have to finish our breakfast here...
+		leave!time^			Ага...|Okay
+
+
+
+# --- 0.13: Ответвления у ТВ
+
+	13.ca.0@75@p-mtv-2@Да, вижу, что хочешь... И что мы будем с этим делать? Не могу же я позволить сыну оставаться перевозбуждённым, верно?|I can see that... What are we gonna do with this? I can't leave you in this state, can it? Do you want my help, son?
+		nstv=0&13.ca.1^		О да, мам!|Hell yes!
+		nstv=1&13.ca.12^	Конечно! <i>(снять шорты)</i>|Of course I do! <i>(take off shorts)</i>
+		nstv>1&13.ca.22^	<i>снять шорты</i>|<i>take off shorts</i>
+
+
+
+# --- 0.13: Первый секс с Анной у ТВ
+
+	13.ca.1@62@v-tv-9@Я не поняла... Ты почему до сих пор в шортах, когда я стою голая перед тобой? Или я должна делать это с собой сама?|Why are you still naked, son? Can't you see I'm naked already? Or do you want me to take your shorts for you?
+		13.ca.2^		О нет, я мигом!|No, I'll do it!
+
+	13.ca.2@67@v-tv-1@Вот, так уже намного лучше! Надеюсь, нас не застукают на «горячем»... Если что-то услышишь, сразу говори...|That's better! I hope we don't get caught... Tell me if you hear anything.
+		13.ca.3^		Конечно...|Of course
+
+	13.ca.3@69@v-tv-2@Самой не верится, что делаю это здесь и сейчас, когда любой может войти в комнату и всё увидеть... Это так заводит!|I can't believe we're doing it here, where anyone can enter the room and see everything... It's so exhilarating!
+		13.ca.4^		Меня тоже!|<i>continue</i>
+
+	13.ca.4@62@Так, фильм погромче, чтобы нас не услышали... Я бываю очень громкой, но ты и сам это уже знаешь...|Let's turn the volume up so no one can hear us... As you already know, I can be very loud...
+		13.ca.5^		Ага...|Good idea
+
+	13.ca.5@4@v-tv-4@<i>Ох... это и правда заводит... Не представляю даже, что мы скажем Лизе, если она нас увидит... А, не важно...</i>|<i>This is so exhilarating... I have no idea what we would say to Lisa if she catches us... Oh, who cares...</i>
+		13.ca.6^		<i>далее</i>|<i>continue</i>
+
+	13.ca.6@3@v-tv-5@<i>Как же классно она двигается... Как какая-нибудь порнозвезда... хотя, она и есть порнозвезда!</i>|<i>Mom is so good at this... She's like a pornstar... Which she actually is!</i>
+		13.ca.7^		<i>далее</i>|<i>continue</i>
+
+	13.ca.7@4@v-tv-4@<i>Ещё чуть-чуть и я не выдержу... Но кажется, она тоже вот-вот кончит... Ох... как же приятно...</i>|<i>I won't be able to hold off for long... Good thing I don't have to, mom is about to cum soon! So good...</i>
+		13.ca.8^		<i>кончить в маму</i>|<i>cum in mom</i>
+
+	13.ca.8@67@v-tv-6@Да, Макс... Да... я кончаю... да... обожаю тебя... Ой, ты тоже кончил? Так здорово!|Yes, Max... I'm ... cumming... I love you, Max... Did you cum too? That's so great!
+		13.ca.9^		О да...|Yeah...
+
+	13.ca.9@69@v-tv-7@Кажется, нас никто не заметил... Нужно поскорее прибраться тут... Вот только ноги не слушаются...|I don't think anyone caught us... We should clean everything here... I have to take a break first, though...
+		13.ca.10^		<i>далее</i>|<i>continue</i>
+
+	13.ca.10@75@v-tv-8@Я бы помогла всё прибрать своим язычком, но боюсь, что мы были громче фильма... Побегу в ванную, вроде бы там сейчас свободно...|I'd love to clean you up with my tongue, but I'm afraid I was louder than the movie... I should run to the bathroom before anyone caught us...
+		13.ca.11^		Ага...|Okay
+
+	13.ca.11@62@v-tv-10@А ты прикройся, бесстыдник! Возьми салфетки, скрой свои следы и одевайся... А то что про тебя подумают сёстры? И где моё полотенце?|And cover yourself! You can't just sit here naked! Where is my towel...
+		leave!add_tod_1!set_nstv_1!add_tvtimes_1!time^		Гы...|Heh
+
+
+
+# --- 0.13: Второй секс с Анной у ТВ
+
+	13.ca.12@62@v-tv-1@Понимаешь с полуслова? Замечательно! Давай сделаем это поскорее, пока нас никто не заметил...|I'm glad you don't waste any time, Max. Let's hurry up before anyone caught us.
+		13.ca.13^		Ага...|Sure
+
+	13.ca.13@73@v-tv-2@Ты знаешь, после прошлого раза я только и думала о том, что нас может кто-то заметить... |I couldn't stop thinking about getting caught last time...
+		13.ca.14^		Да пусть!|So what?
+
+	13.ca.14@69@v-tv-3@Ой, сынок, не болтай ерунду! Если нас заметят, то я сгорю от стыда... Но не будем отвлекаться...|Don't say that, Max! I don't want to get caught! But let's focus on something else...
+		13.ca.15^		Конечно...|Of course
+
+	13.ca.15@4@v-tv-4@<i>Да, она точно вся мокрая... Видимо, и правда возбуждает возможность того, что кто-то нас заметит... А если и правда заметит?</i>|<i>She's so wet... I wonder if she actually wants to get caught right now... The possibility definitely excites her...</i>
+		13.ca.16^		<i>далее</i>|<i>continue</i>
+
+	13.ca.16@3@v-tv-5@<i>Ох, кто бы знал, что моя мама настоящая секс-бомба! Такая ненасытная и страстная... Как же мне повезло!</i>|<i>Who knew my mom is so wild in the sack? So hungry and passionate... I'm the luckiest guy!</i>
+		13.ca.17^		<i>далее</i>|<i>continue</i>
+
+	13.ca.17@4@v-tv-4@<i>Вот только мне кажется, что скоро понадобятся ещё те таблетки, чтобы себя сдерживать... Или не надо... Да, мама тоже кончает!</i>|<i>How am I supposed to hold off in this situation? I might need more pills soon... Or maybe not... Yes, mom is cumming too!</i>
+		13.ca.18^		<i>кончить в неё</i>|<i>cum inside</i>
+
+	13.ca.18@67@v-tv-6@Ох, Макс... Я кончаю... да... Это невероятно! Каждый раз всё лучше и лучше! Не представляю, как я жила без этого...|Oh, Max... I'm cumming...! How are you keep getting better at this? How could I even live without you...
+		13.ca.19^		<i>далее</i>|<i>continue</i>
+
+	13.ca.19@75@v-tv-7@И снова мы с тобой кончили одновременно... Раньше я думала, что это бывает очень редко... Да и со мной такое бывало раньше всего пару раз...|And we came together again today... I didn't think it was possible before... It happened a couple of times before, but you're so consistent...
+		13.ca.20^		Обращайся!|Any time, mom
+
+	13.ca.20@67@v-tv-8@Обязательно обращусь... И не раз... Видел бы ты сейчас своё выражение лица... Ну всё, я побегу, пока ванная свободна...|Oh, yeah, we're gonna have so much sex you'll get sick of it... You should've seen the look on your face... I should run now.
+		13.ca.21^		Ага...|Okay
+
+	13.ca.21@75@v-tv-10@Да, ты тут скрой следы того, чем мы занимались... И шорты натяги. ... И где моё полотенце? Ах, вот оно. Ну всё, целую!|Clean everything up, please. And put on your shorts... Where's my towel...? Here it is! Okay, I'm going now.
+		leave!add_tod_1!set_nstv_2!add_tvtimes_1!time^		Ага...|Yeah
+
+
+
+# --- 0.13: Периодический секс с Анной у ТВ, где может прийти Алиса
+
+	13.ca.22@67@v-tv-1@Вот это оперативность! Вижу, тебе тоже хочется, чтобы твой член поскорее оказался во мне? Тогда не будем терять ни минуты!|You don't waste time, do you, Max? I see you want to put your cock inside of me as fast as possible. Let's start then.
+		13.ca.23^		Конечно!|Of course
+
+	13.ca.23@75@v-tv-2@Моё сердце сейчас выскочит... Мне так хочется и... нас могут заметить в любой момент... От одной мысли чуть ли не кончаю...|My heart is beating so fast... I want you so much and the fact that we can get caught any time... I'm ready to cum just from thinking about it...
+		13.ca.24^		Мам, давай быстрее!|Go faster, mom!
+
+	13.ca.24@67@v-tv-3@Тише, дорогой! Нас могут услышать... Если уже не услышали... Но пока никого нет... Ох, я не могу больше!|Quiet, son! We don't want anyone to hear us... No one seemed to notice... Okay, let's continue!
+		13.ca.25^		<i>далее</i>|<i>continue</i>
+
+	13.ca.25@4@v-tv-4@<i>О да... Мама очень заведена... Похоже, она и правда может кончить в любой момент... Да и я тоже... Но мы только начали...</i>|<i>Mom is really turned on today... Looks like she really is about to cum already... And so am I... And we're only getting started...</i>
+		13.ca.26^		<i>далее</i>|<i>continue</i>
+
+	13.ca.26@3@v-tv-5@<i>Мама кричит всё громче и громче... Кажется, она забыла, что нас могут заметить... Ну и чёрт с ними!</i>|<i>Mom is getting louder and louder... I don't think she's in the condition to care at this point... I'm certainly not!</i>
+		acan2=0&13.ca.27^						<i>далее</i>|<i>continue</i>
+		acan2=1&13.ca.31!set_dcd.acan2_3^		<i>далее</i>|<i>continue</i>
+
+	13.ca.27@69@v-tv-6@Ох, сынок, извини, что так быстро, но... я кончаю... Как же хорошо... И... ты тоже? Здорово! Мы просто созданы друг для друга!|I'm sorry I'm cumming so quickly today, but I can't hold off anymore... So good... You did too? It's like we're made for each other!
+		13.ca.28^		Это точно!|Yes!
+
+	13.ca.28@67@v-tv-7@Опять ты меня наполнил до краёв, даже вытекает... Похоже, кому-то надо в душ. Там же никого нет сейчас вроде бы?|You filled me up again, I'm going to spill... Do you think the bathroom is empty right now?
+		13.ca.29^		Не знаю...|I don't know
+
+	13.ca.29@75@v-tv-8@Ну что я могу тебе сказать... Я тебя люблю. Не только как сына, но и как мужчину, который делает меня счастливой...|I love you, Max. And not just as a son, I love you as my man who makes me happy.
+		13.ca.30^		Я тоже тебя люблю!|I love you too, mom!
+
+	13.ca.30@67@v-tv-10@А если любишь, то приберёшь тут, пока я в душе избавляюсь от того, чем ты меня накачал... И полотенце... А, не надо, так побегу...|I should ran. Please clean everything up after I go... Where is my towel...? Fuck it, I'll just go without it...
+		leave!add_tod_1!add_tvtimes_1!time^			Ух...|Oh...
+
+
+
+	13.ca.31@5@v-tv-12@<i>Ух, у мамы открылось второе дыхание? Она стала двигаться ещё быстрее... и кричать ещё громче? Я просто тащусь!</i>|<i>Mom is getting even faster and louder... I didn't think it could get any better...</i>
+		amtv=0&13.ca.32^		<i>далее</i>|<i>continue</i>
+		amtv=1&13.ca.39^		Что, там опять Алиса?|What's going on, is Alice watching us again?
+		amtv=2&13.ca.48^		Опять Алиса?!|Alice again?
+		amtv=4&13.dd.0^			Ясно... Алиса?|Is Alice here?
+		amtv=5&13.dd.9^			Ага, Алиса?|It's Alice, right?
+		amtv=6&13.dd.16^		Алиса?|Alice?
+		amtv=7&13.de.0^			Видимо, Алиса...|Hey, Alice
+
+
+	13.ca.32@4@v-tv-11@<i>Определённо, мне нравится, что она становится всё более и более... Просто нет слов... да какие тут слова... я вот-вот кончу...</i>|<i>I can't believe sex with mom gets even better than before... How does she do that...? I can't hold off anymore</i>
+		13.ca.33^		<i>кончить в маму!</i>|<i>cum in mom!</i>
+
+	13.ca.33@67@v-tv-6@О да... Макс... Я тоже... кончаю... Как же хорошо... Да... очень...|Oh, yes... Max... I'm ... cumming too... So good...
+		13.ca.34^		<i>далее</i>|<i>continue</i>
+
+	13.ca.34@75@v-tv-7@Ох, как много... Не знаю, смогу ли добежать до ванной и не испачкать пол... Вот сейчас и узнаем...|So much cum... I'm not sure I'll be able to run to the bathroom without spilling it everywhere... There's only one way to find out, I guess...
+		13.ca.35^		Сегодня что-то изменилось?|Did something happen today?
+
+	13.ca.35@69@Почему... почему тебе так показалось? Я как-то не так себя вела?|Why do you ask? Was I acting differently?
+		13.ca.36^		Ну, типа того...|Something like that
+
+	13.ca.36@73@v-tv-9@Просто... нас видела Алиса... И когда я поняла, что за нами подглядывают, я... не знаю даже. Это неправильно, но... ты сам всё заметил...|Oh... Well, it's because Alice caught us. And when I realized we're being watched, I... I know it's wrong, but... Well, you saw for yourself.
+		13.ca.37^		Что?! Ты трахалась у неё на глазах?|What!? Does that mean we just fucked in front of her?
+
+	13.ca.37@67@Да, ну а что такого... Рано или поздно это должно было случиться. Конечно, я не хочу, чтобы Лиза нас поймала, но Алиса... мы же снимались в порно и...|I guess... It had to happen eventually anyway. I still don't want Lisa to catch us, but Alice... I'm fine with her knowing about us.
+		13.ca.38^		Да уж...|Wow...
+
+	13.ca.38@75@v-tv-10@Только не говори, что тебя это не заводит! И не осуждай меня, ты сам во всём виноват! А раз так, то приберёшься тут, пока я в душе... Ну всё, люблю!|Please don't tell me it turns you on! And don't judge me, it's all your fault anyway! Clean everything up here while I go take a shower, okay? Love you!
+		leave!add_tod_1!set_amtv_1!time^		Я тоже тебя люблю, мам...|I love you too, mom
+
+
+
+	13.ca.39@67@v-tv-13@Ага... Но говори тише. Может быть, она не знает, что ты знаешь... Ох, как же хорошо... Кажется, я очень плохая мать...|Yes, but be quiet. Maybe she doesn't realize we know about her... So good... I'm a horrible mother...
+		13.ca.40^		Очень, очень плохая!|Yes, so bad!
+
+	13.ca.40@75@v-tv-14@Да, определённо... Ох, не знаю сколько я ещё смогу сдерживаться... Ещё чуть-чуть и... Я... кончаю...|Yes, yes... I don't know how long can I last... Almost... Cumming!
+		13.ca.41^		Я тоже! <i>(кончить)</i>|Me too! <i>(cum)</i>
+
+	13.ca.41@67@v-tv-6@Да... И снова... мы кончили вместе... Так здорово... Кажется, я начинаю привыкать к этому...|Yes... We came together again... I'm starting to get used to it...
+		13.ca.42^		Вот и хорошо...|You should...
+
+	13.ca.42@75@v-tv-7@Ох, Макс... Откуда в тебе столько спермы? Ты был бы отличным донором... Ну, ты понимаешь...|Where do you get so much sperm, Max... You'd be a great donor, you know.
+		13.ca.43^		Отлично понимаю...|Yeah...
+
+	13.ca.43@69@v-tv-8@Не знаю, стоит ли тебе говорить... Наверное, стоит... Сегодня я ещё больше завелась, но не только потому, что Алиса нас снова видела...|I don't know if I should say it, but... I was so turned on today... Even more than usual. And not just because Alice saw us again...
+		13.ca.44^		А что такое?|Why then?
+
+	13.ca.44@73@v-tv-9@Дело в том, что... Она нас снимала на телефон... Ты же знаешь, что меня это заводит. Отчасти из-за этого я и снимаюсь в порно...|The thing is, she... She took a video of two of us... It was so exciting... It's one of the reasons I do porn...
+		13.ca.45^		Блин...|Shit!
+
+	13.ca.45@67@Что такое? Не думаю, что она кому-то покажет, да и чего тебе переживать?|Why, what's wrong? I don't think she's gonna show it to anyone, what's the big deal?
+		13.ca.46^		Это же Алиса! Она будет шантажировать!|It's Alice! She's going to blackmail us now!
+
+	13.ca.46@75@Кого? Меня? Свою собственную мать? Не говори глупостей. Она не такая... Да и кому она это покажет? Тебя там не видно, мало ли с кем я трахаюсь...|Who, me? Her own mother? Don't be ridiculous, Max. She's not like that. No one will be able to tell it's you in the video, so there's no point in showing it to anyone.
+		13.ca.47^		Ну посмотрим...|You'll see...
+
+	13.ca.47@73@v-tv-10@Да уж... Думаю, всё будет хорошо. Ну, как обычно. Я в душ, а ты тут приводи себя в порядок... Люблю тебя!|Hm... I'm sure everything will sort itself out, as always. Clean everything up, please? Love you!
+		leave!add_tod_1!set_amtv_2!time^		Я тоже тебя люблю, мам!|Love you too, mom
+
+
+
+	13.ca.48@31@v-tv-15@Что значит «опять Алиса»? Значит, ты в курсе, что я подглядывала? Тогда, не останавливайтесь, раз вас это не пугает...|What do you mean “Alice again”? You knew I was watching you? Well, don't stop on my account...
+		13.ca.49^		<i>далее</i>|<i>continue</i>
+
+	13.ca.49@73@v-tv-16@Алиса, мы тут... немного заняты. Одно дело подглядывать, другое... Может быть, ты нас оставишь или мы закончили?|Alice, we're ... preoccupied. I'm fine with you peeking, but could leave us until we finish?
+		13.ca.50^		<i>далее</i>|<i>continue</i>
+
+	13.ca.50@21@Нет, мам, сиди уж... Я пришла поговорить и раз уж все знают, что я вас видела, то может быть, вы оба в курсе, что у меня есть видео с вами...|No, mom, keep going. I came here to talk and since you saw me you probably know I made a video of you two...
+		13.ca.51^		А я говорил...|Right on cue...
+
+	13.ca.51@68@Алиса, только не говори, что ты собираешься нас шантажировать? Чего ты этим добьёшься? Кого волнует с кем я... провожу время?|Please don't tell me you're going to blackmail us, Alice! What are you trying to get? Who cares what I do and... with whom...
+		13.ca.52^		<i>далее</i>|<i>continue</i>
+
+	13.ca.52@22@Ну не знаю, мам... Ты так заботишься о нашей младшей сестрёнке, чтобы она ничего не узнала... Как думаешь, она оценит то, что ты делала это почти на камеру?|I don't know, you try so hard to keep Lisa innocent... How do you think she'll react if she learns about you doing this?
+		13.ca.53^		Ну вот...|And there it is...
+
+	13.ca.53@63@Алиса! Как тебе не стыдно! Шантажируешь собственную маму! Стирай видео и сделаем вид, что ничего не было!|Alice! How could you?! Blackmailing your own mother! Delete the video and I'll pretend nothing happened!
+		13.ca.54^		<i>далее</i>|<i>continue</i>
+
+	13.ca.54@21@Нет, мам. У меня есть идея получше. Я и так хотела с тобой кое-что обсудить, а теперь есть ещё и все рычаги влияния, так что...|No, mom. I have a better idea. I was going to talk to you about it anyway, but now you have some extra motivation, so...
+		13.ca.55^		Ты о чём?|What are you talking about?
+
+	13.ca.55@25@Узнаете... в своё время. Ну, продолжайте. Не буду вам мешать... Судя по всему, Макс до сих пор возбуждён, да и ты, мама... хочешь продолжения...|You'll see... But not today. Now continue what you've started, I don't want to be in the way. Max seems to still be hard, and mom, you look like you want to finish...
+		13.ca.56^		<i>далее</i>|<i>continue</i>
+
+	13.ca.56@22@v-tv-11@Ну, чего ждёте? Продолжайте! Я ещё немного понаблюдаю... Но вы можете сделать вид, что меня здесь нет...|What are you waiting for? Go on! I want to watch... You can pretend I'm not here if you want.
+		13.ca.57^		Ух...|Oh...
+
+	13.ca.57@4@v-tv-5@<i>Что? Маму это не остановило? Наоборот, она продолжает? Неужели, из-за компромата? Или просто нравится делать это на публике?</i>|<i>Mom is fine with thing!? Is this because of the video? Or is she enjoying the situation?</i>
+		13.ca.58^		<i>далее</i>|<i>continue</i>
+
+	13.ca.58@3@v-tv-6@<i>Так или иначе, но... я уже не могу сдерживаться... Когда мама так настроена... тут никто не выдержал бы... О да...</i>|<i>In any case... I can't hold off much... When mom is like this... No one could... Oh yeah...</i>
+		13.ca.59^		<i>кончить в маму!</i>|<i>cum in mom!</i>
+
+	13.ca.59@69@v-tv-7@Ох, сынок... Кажется, я всё... Не знаю даже что и сказать после... того, что было... Я не могла остановиться, когда...|Wow, son... I don't even know what to say now... But I couldn't stop, when...
+		13.ca.60^		Мам, всё в порядке!|That's okay, mom, don't worry about it
+
+	13.ca.60@73@v-tv-8@Точно? Просто мне показалось, что ты о чём-то таком меня и предупреждал...|Are you sure? Didn't you warn me about something like this?
+		13.ca.61^		Именно!|I did, yes
+
+	13.ca.61@69@Не думала, что Алиса такая... Но я ещё не знаю точно, чего она хочет. Посмотрим... Но всё равно было классно, правда?|I didn't think Alice would do something like this... And I don't know what she wants... It's not up to me, I guess... But it was great anyway, right?
+		13.ca.62^		Правда, мам...|Yeah, the sex was amazing
+
+	13.ca.62@67@v-tv-10@Ладно, я в душ, как всегда. А тебе придётся привести себя в порядок, пока Лиза не спустилась... Ну всё, люблю!|Okay, I'm going to take a shower, please clean everything up before Lisa caught us too... Love you!
+		leave!add_tod_1!set_amtv_3!time^		Ага, я тоже, мам...|Love you too, mom
+
+
+
+# --- 0.13: Макс разговаривает с Алисой о произошедшем у ТВ
+
+	13.cb.0.init@0@Я хотел поговорить про то, что было...|I want to talk about, you know...
+	13.cb.0@22@Ты про ваш невинный секс с мамой? Ну, насколько может быть невинным секс сына со своей родной матерью...|About you having sex with mom? About me filming you? About new things to come?
+		13.cb.1^		Ревнуешь?|Are you jealous?
+
+	13.cb.1@21@Вот ещё! Просто, не ожидала, что вы будете это делать в гостиной, пока все дома...|Of course not! I just didn't think you'd do it in the living room.
+		13.cb.2^		Это проблема?|How is that a problem?
+
+	13.cb.2@33@Нет, вовсе нет. Так о чём ты хотел поговорить? Ах, тебя беспокоит то видео?|No, I don't care. Anyway, you're probably here because you worry about the video, right?
+		13.cb.3^		Конечно!|Of course
+
+	13.cb.3@22@Почему же? Разве я тебя шантажирую? Наоборот, ничего от тебя не прошу, продолжай трахаться с кем хочешь...|Why should you? You're not the one being blackmailed. I'm not asking anything from you, you're free to fuck anyone you want.
+		13.cb.4^		А что ты хочешь от мамы?|What do you want from mom?
+
+	13.cb.4@25@Ну не только же тебе веселиться. С тех пор, как я открыла в себе тягу... всё контролировать, так сказать...|I want in on the fun. Now that I've found how fun ... how do I say it ... control is...
+		13.cb.5^		Доминировать, ты хотела сказать|I think the word you're looking for is domination
+
+	13.cb.5@21@Пусть так. В общем, мне нужны люди, которые будут выполнять мои прихоти. Ты же меня понимаешь?|Sure, that works. Anyway, I'm always looking for people who are willing to do what I want. You get it, right?
+		13.cb.6^		Какие, например?|You still haven't told me what do you want from mom
+
+	13.cb.6@25@Например, я не прочь понаблюдать, когда кто-то с кем-то развлекается... И знает, что я смотрю... И не только смотрю...|Sometimes I'd like to watch you two having a go at it... Wouldn't it be more fun, with me watching you two? Sometimes even more than just watching?
+		13.cb.7^		Как загадочно...|Sounds vague...
+
+	13.cb.7@22@Ну Макс, хватит считать меня какой-то стервой. Ты же ничем не обделён? И так трахаешь всех в нашей семье, дай и мне развлечься!|Would you please stop acting like I'm a huge bitch? You don't lose anything at all. You're fucking the entire family, why can't I have some fun too?
+		13.cb.8^		И что дальше?|Fine, now what?
+
+	13.cb.8@21@Дальше... Ну, буду иногда за вами подглядывать. А мама будет не против... теперь... Да ей и самой нравится, когда кто-то смотрит, ты же знаешь...|Now... Sometimes I'm going to watch you two. And mom will be fine with it now. She likes when someone is watching, you know it better than I do.
+		13.cb.9^		Ага. Только и всего?|You didn't have to make a video for that, she was fine with you watching from the beginning. Is there anything else?
+
+	13.cb.9@22@Не только... Ещё я не очень в восторге, когда мама меня шлёпает перед всеми... Нет, конечно иногда это возбуждает, но не всегда...|I'm not a huge fan of mom spanking me in front of the entire family... Sometimes it can be fun, but not always...
+		13.cb.10^		И чего ты хочешь?|So, no spanking from now on?
+
+	13.cb.10@25@Я была бы не прочь сама шлёпать кого-то... Например, нашу испорченную маму... тобой испорченную, кстати...|No, I'm thinking about spanking someone... Someone naughty like our dear mom.
+		13.cb.11^		Да она на это никогда не пойдёт!|Good luck with that
+
+	13.cb.11@33@Пойдёт, вот увидишь! Правда, мне понадобится твоя помощь с этим...|Oh, I'm sure she'll go for it. I'll need your help, though...
+		13.cb.12^		Это как? Держать её, что ли?|What, like holding her so she won't run away?
+
+	13.cb.12@21@Нет, глупый! Помнишь, мы вместе смотрели фильм, где её наказывают две школьницы?|No, idiot! Remember the movie we watched? Where she was spanked by two schoolgirls?
+		13.cb.13^		Конечно!|Of course
+
+	13.cb.13@22@Ты не мог бы отдать мне этот фильм?|Could you give that movie to me?
+		13.cb.14^		Зачем?|Why?
+
+	13.cb.14@33@Увидишь. После того, что я хочу сделать, мама не сможет мне отказать...|You'll see. Mom won't be able to say no to me afterwards...
+		13.cb.15^		Тебе?|Now why would I want to help you out?
+
+	13.cb.15@21@Ну да. Я всё придумала, мне её и наказывать, например...|Why not? Oh, you're trying to get something for yourself... How about I share mom with you?
+		13.cb.16^		Ну не знаю...|What?
+
+	13.cb.16@22@Блин, Макс. Тебе жалко что ли? Постой, или ты чего-то хочешь за это? Хм... А ты сам хотел бы перед всеми наказывать маму? Причём, голой!|I mean you get to spank mom too, don't you want that? She'll be naked...
+		13.cb.17^		Да она не согласится!|She won't go for it
+
+	13.cb.17@25@Это ты оставь мне. Скажи, хотел бы? Тебя же заводит, когда она голая перед тобой, а когда ещё и все видят, как ты доминируешь... а?|Leave that to me. Don't you want to spank her naked in front of everyone? Prove your dominance over her?
+		13.cb.18^		Ну...|Well...
+
+	13.cb.18@21@Вот, я так и знала! Тогда, давай мне фильм, а дальше я уже договорюсь с мамой...|I knew it! Then give me the movie and I'll deal with the rest.
+		13.cb.19^		Мне надо подумать...|I need to think about it
+
+	13.cb.19@33@Да о чём тут думать? Тебе он зачем? Ну не хочешь помогать, сама найду копию... Но тогда не жалуйся, что тоже хотел бы приложиться к её попке...|What is there to think? Why would you need that movie? If you don't want to help me I can ask aunt Kira, but then you don't get to spank mom...
+		13.cb.20!set_item.momovie_1^		Блин, ладно, держи...|Crap. Fine, here...
+
+	13.cb.20@21@Супер! И чего ломался? Я же на твоей стороне. Вот увидишь, я это докажу!|Super! Why'd you have to doubt me in the first place? I'm on your side, Max, you'll see!
+		leave!set_amtv_4!set_aashow_1^			Ну посмотрим...|We'll see...
+
+
+
+# --- 0.13: Ответвления, где Алиса может заметить Макса и Анну на кухне
+
+	13.bb.0@5@v-mc-12@<i>Мне показалось или... кто-то за нами подглядывает?</i>|<i>Am I crazy or is someone... watching us?</i>
+		akit=0&13.bb.1^		<i>обернуться</i>|<i>turn around</i>
+		akit=1&13.bb.17^	<i>обернуться</i>|<i>turn around</i>
+		akit>1&13.bb.28^	<i>продолжать</i>|<i>continue</i>
+
+
+
+# --- 0.13: Первый раз Макс и Анна трахаются на кухне при Алисе
+
+	13.bb.1@69@v-mc-13@Алиса?! Ты... так незаметно подкралась... Что ты здесь делаешь?!|Alice!? You ... sneaked up on us... What are you doing here?
+		13.bb.2^		<i>далее</i>|<i>continue</i>
+
+	13.bb.2@22@v-mc-15@Да так... Хотела узнать что мне делать с тем видео, где вы... Может быть, записать ещё одно?|Not much... I was just thinking about that video I made. Maybe I should make more?
+		13.bb.3^		<i>далее</i>|<i>continue</i>
+
+	13.bb.3@62@Алиса, чего ты хочешь?|What do you want, Alice?
+		13.bb.4^		<i>далее</i>|<i>continue</i>
+
+	13.bb.4@25@v-mc-16@Я хочу смотреть, как мой брат тебя трахает... Меня это заводит. Да и тебя это заводит, как я знаю... Ну давайте, не ломайтесь. Сделайте вид, что меня тут нет...|I want to watch my brother fuck you... It's so hot. And you like this idea too, I can see it in your eyes... Come on, no point in waiting. You can pretend I'm not here, if you want.
+		13.bb.5^		Мам?|Mom?
+
+	13.bb.5@69@Ну, сынок... У нас нет выбора, похоже... Ты согласен продолжить?|I don't think we have a choice, Max... Are you fine with continuing?
+		13.bb.6^		Конечно, мам!|Of course, mom!
+
+	13.bb.6@21@v-mc-17@Макс, что-то ты какой-то вялый... Я же видела, что ты можешь... Оттрахай её так, как полагается... Быстрее! Ещё быстрее!|Why are you so sluggish today, Max? I know you can do better. Fuck her properly! Faster!
+		13.bb.7^		<i>ускориться</i>|<i>speed up</i>
+
+	13.bb.7@25@Да, в этот раз кончи в неё...|I want you to cum inside this time...
+		13.bb.8^		В этот раз?|This time?
+
+	13.bb.8@22@А ты думал, что я вас не видела? Мама так громко кричит, что я из душа услышала... Ого, мама уже на грани... Макс, чуть ускорься, сделай маме приятно...|Do you really think it's the first time I'm here? I heard mom's screams in the bathroom... Wow, mom is already close... Speed up a bit, Max, make your mama proud...
+		13.bb.9^		Ух...|Oh...
+
+	13.bb.9@4@<i>А мама такая послушная... Главное, чтобы Алиса не слишком наглела... Хотя, в этой ситуации я получаю удовольствие больше всех! Ох, я не могу больше терпеть...</i>|<i>Mom is so obedient... Let's hope Alice doesn't ask too much... I can't really complain anyway, I'm the one who gets the most out of this situation... Or maybe mom is...</i>
+		13.bb.10^		<i>кончить в маму</i>|<i>cum in mom</i>
+
+	13.bb.10@33@v-mc-12@Ну вот... Что бы вы делали без меня, правда? Кажется, мы теперь будем чаще проводить время вместе... Так сказать, всей семьёй...|That's better... Now what would you do without me? I think we should spend quality family time more often from now on.
+		13.bb.11^		<i>далее</i>|<i>continue</i>
+
+	13.bb.11@73@v-mc-14@Алиса... Это неправильно. Да, я понимаю, что это всё неправильно, но... прошу тебя, не показывай то видео Лизе, хорошо?|This is so wrong, Alice... Please don't show that video to Lisa, okay?
+		13.bb.12^		<i>далее</i>|<i>continue</i>
+
+	13.bb.12@22@Хорошо. Если в сексуальных играх ты будешь мне подыгрывать, то я не буду никому создавать проблем. Да я бы и не стала, но тебе и самой нравится, правда?|I won't as long as you play along. I'm sure we have nothing to worry about because you enjoy our games as much as I do, right?
+		13.bb.13^		<i>далее</i>|<i>continue</i>
+
+	13.bb.13@69@Правда... Мне нехватало чего-то такого... Именно такого... Но только держи себя в каких-то рамках, а то кто знает, что тебе может прийти в голову...|That's true... I've missed something like this... But please don't lose your head and keep your demands reasonable.
+		13.bb.14^		Это точно...|Yeah
+
+	13.bb.14@21@Посмотрим на ваше поведение. Ну, раз больше никто ни на кого не обижается, я побегу одеваться... Мам, а тебе неплохо бы в душ сходить... Или так пойдёшь на завтрак?|That depends on your behavior. Now that's out of the way I should go change... You should go take a shower, mom. Or are you going to have breakfast like this?
+		13.bb.15^		<i>далее</i>|<i>continue</i>
+
+	13.bb.15@69@v-mc-2@Сынок, а что ты думаешь об этом всём? Я... не слишком поддаюсь на эти её провокации, как ты считаешь?|How do you feel about this, son? Do you think I'm giving too much?
+		13.bb.16a^		Нет, Алису лучше слушать...|No, Alice won't ask anything insane and we'll all have fun
+		13.bb.16b^		Ты слишком много ей позволяешь...|You shouldn't let her boss you around like this
+
+	13.bb.16a@73@Да? Я тоже так думаю... К тому же, у неё есть видео... Хотя, дело не в этом. Не только в этом, точнее. Мне и самой нравится иногда, когда мне говорят что делать...|I agree... Besides, she has the video... It's not about the video, though. At least there's more to it. I like when people tell me what to do...
+		13.bb.16^		Ясно...|I see
+
+	13.bb.16b@73@Думаешь? Но у неё есть видео... Но дело не в нём, конечно. Просто... мне это нравится. Не нужно ни о чём думать, просто делать как говорят...|You think so? But she has the video... And it's not about the video anyway. At least there's more to it. I like when people tell me what to do...
+		13.bb.16^		Ясно...|I see
+
+	13.bb.16@69@Так, что-то мы... заболтались. Мне же нужно завтрак приготовить. Да и ты шорты забыл надеть... Увидимся за столом!|But we don't have time to talk right now. Breakfast is soon. Don't forget to put on your shorts, Max.
+		leave!add_tod_1!set_akit_1!time^		Ага...|Okay, I'll go
+
+
+
+# --- 0.13: Второй раз Макс и Анна трахаются на кухне при Алисе
+
+	13.bb.17@68@v-mc-13@Алиса? Ты меня напугала! Я даже не услышала, как ты подкралась... Надеюсь, Лиза нас не видела?|You scared me, Alice! I didn't even hear you sneak in... I hope Lisa hasn't seen us...
+		13.bb.18^		<i>далее</i>|<i>continue</i>
+
+	13.bb.18@22@v-mc-16@Нет, мам, никто вас не видел, кроме меня... Так что, вы продолжайте, а я посмотрю... посмотрю, чтобы никто другой сюда не вошёл...|No, mom, no one has seen you. No one but me, I mean. Don't stop on my account, I want to watch... watch over so no one else can catch you.
+		13.bb.19^		Такая заботливая... <i>(продолжить)</i>|So caring... <i>(continue)</i>
+
+	13.bb.19@21@v-mc-17@Что-то не похоже, что ты очень против... Да и мама, как вижу, тоже... Ну всё, можете не обращать на меня внимания...|Doesn't sound like you're against it... And neither is mom... Now stop paying attention to me and fuck mom.
+		13.bb.20^		<i>продолжать</i>|<i>continue</i>
+
+	13.bb.20@68@v-mc-18@Что? Алиса, ты зачем скинула полотенце, а вдруг... Ах, понятно... Ну... смотри по сторонам там... Макс, а ты ускорься, что-то ты задумался...|Why did you drop your towel, Alice? What if... I see... Okay, I guess I'll be on the one on lookout... Speed up, Max.
+		13.bb.21^		Ух!|Oh!
+
+	13.bb.21@4@<i>Алиса совсем стыд потеряла... И это... так классно! А что больше всего радует, так это то, что мама не возражает... Похоже, ей нравится быть игрушкой в чьих-то руках...</i>|<i>Alice is completely shameless! I love it! And mom doesn't mind either! She must love being someone else's toy...</i>
+		13.bb.22^		<i>далее</i>|<i>continue</i>
+
+	13.bb.22@3@<i>...А когда это мои руки, это радует ещё больше... И меня и маму и, похоже, Алису... Вот бы трахнуть их обеих прямо здесь и сейчас! Ох, я уже не успею...</i>|<i>Now how would I go about making her <b>my</b> toy? I'd love to fuck both of the together! Not today, though...</i>
+		13.bb.23^		<i>кончить на мамину попку</i>|<i>cum on mom's ass</i>
+
+	13.bb.23@26@v-mc-19@Макс, а почему не в маму? Хотя, не важно. Делайте как вам больше нравится. Я тут просто наблюдатель... Кстати, чуть-чуть сама не кончила...|Why didn't you cum in mom's ass, Max? But if that's how you wanna do it, that's fine... I'm only here to watch... I almost came myself...
+		13.bb.24^		Чуть-чуть не считается!|But you didn't
+		13.bb.24^		<i>далее</i>|<i>continue</i>
+
+	13.bb.24@21@v-mc-20@А вы не думали, что могли бы делать это всё на камеру? Ну я не знаю, какое-нибудь шоу... Могли бы на этом заработать... Подумайте... А я побегу одеваться...|Did you ever think about doing this on camera? You could make a lot of money streaming this online... Think about it. I should go change.
+		13.bb.25^		<i>далее</i>|<i>continue</i>
+
+	13.bb.25@73@v-mc-2@Шоу? Что за вздор! Кому интересно смотреть за другими? Кто будет за это платить? Хотя, наверняка, найдутся такие... В любом случае, мне нельзя...|How is that any different from the studio work I do now? In any case, I can't.
+		13.bb.26^		Почему?|Why not?
+
+	13.bb.26@69@У меня контракт со студией и я не могу сниматься ни в каких других фильмах или трансляциях... Иначе останусь не только без работы, но и попаду на большой штраф...|My contract with the studio is exclusive. No movies, streams or photos. If they find out I do something behind their backs, not only I'll lose my job, I'll also get a huge fine.
+		13.bb.27^		Хм...|Hm...
+
+	13.bb.27@67@Что, тебя это беспокоит? Не переживай. Я же не снимаюсь ни в каком шоу, верно? Значит, всё будет в порядке... Ну всё, одевайся, мне надо готовить...|You don't have to worry, Max, I'm not planning to do any work without my studio. Everything will be all right. Now get dressed, I need to make breakfast.
+		leave!add_tod_1!set_akit_2!time^		Ага...|Okay...
+
+
+
+# --- 0.13: Периодический визит Алисы утром на кухню, пока Макса развлекается с Анной
+
+	13.bb.28@22@v-mc-17@Что, заметили, как я вошла? Эх, я старалась не шуметь... Или в отражение меня заметили? Не важно. Я рада, что вас это не беспокоит...|Did you catch me sneaking in? I was trying not to disturb you, but looks like I don't have to worry about that anymore.
+		13.bb.29^		<i>продолжать</i>|<i>continue</i>
+
+	13.bb.29@4@v-mc-18@<i>Такое ощущение, что Алиса сюда ходит порно посмотреть... Ну и пусть. Маму это заводит, да и меня тоже... Ох, она вот-вот кончит, похоже... да и я тоже...</i>|<i>I'm so glad we're all into this kind of thing... Mom is so turned by the situation she's already about to cum... And so am I...</i>
+		13.bb.30^		<i>кончить на мамину попку</i>|<i>cum on mom's ass</i>
+
+	13.bb.30@67@v-mc-19@Ох, сынок... Так... хорошо... Удивляюсь тебе Алиса, что не используешь возможность...|Thanks, son... So good... I can't believe you don't want to join us, Alice.
+		13.bb.31^		<i>далее</i>|<i>continue</i>
+
+	13.bb.31@25@v-mc-20@Насчёт меня не переживай, я своё не упущу. Правда, Макс? Эх, что-то вы сегодня быстро... Ну, тогда я побегу. Куда я дела полотенце? Ах, вот оно... Увидимся за завтраком!|Don't worry about me, mom, I'll get mine later. Right, Max? You were too quick today... I should go now. Where is my towel now... There it is! I'll see you all at breakfast.
+		13.bb.32^		Ага...|Sure
+
+	13.bb.32@75@v-mc-5@Не знаю как тебе, сынок, а мне это утро очень нравится... Но не будем больше отвлекаться, надо закончить готовить завтрак. И не забудь шорты натянуть!|I don't know about you, son, But I love when we spend our mornings together... But I have to finish breakfast now. Don't forget to put on your shorts.
+		leave!add_tod_1!time^		Точно!|Right
+
+
+
+# --- 0.13: Ответвление, где Лиза заходит на кухню
+
+	13.bc.0@60@v-mc-5@Сынок, постой... Кажется, я что-то слышала... Прикройся!|Wait, son, I think I've heard something. Cover yourself up!
+		lizakit=0&13.bc.1^		Ага...|Okay
+		lizakit=1&13.bc.9^		Конечно!|Sure
+		lizakit=2&13.bc.19^		Уже!|Already
+		lizakit>2&13.bc.28^		Вот ещё!|Crap!
+
+
+# --- 0.13: Лиза в первый раз замечает Макса и Анну на кухне
+
+	13.bc.1@41@v-mc-9@Мам... Я хотела тебя спросить... Макс? Что, учишься готовить?|Mom, I want to ask you about... Max? What are you doing here? Are you learning how to cook?
+		13.bc.2^		Э... Ты это хотела спросить?|Em... What did you want to ask mom?
+
+	13.bc.2@69@Лиза... Макс просто... Да, хотел мне помочь... А ты почему не наверху? Скоро завтракать будем, можешь присаживаться за стол...|Lisa... Max was... helping me out... Why aren't you upstairs? We're going to have breakfast soon, you can go to the table.
+		13.bc.3^		<i>далее</i>|<i>continue</i>
+
+	13.bc.3@41@Ага. Ну вот... забыла, что хотела спросить... Ладно, не буду вам мешать. С вами точно всё в порядке? Какие-то вы странные... Хотя, вы всегда странные!|Right... I forgot what I was going to ask, sorry. I'll leave you two alone. Are you sure you're okay? You look weird... This how you always look lately, though...
+		13.bc.4^		Ага, пока!|Yeah, yeah. Bye!
+
+	13.bc.4@69@v-mc-2@Ох, сынок... Чуть не попались... Кажется, Лиза не заметила, что у меня под фартуком ничего нет и ты молодец, что барной стойкой прикрылся. Находчивый...|Wow, son... we almost got caught. I'm glad Lisa didn't see I'm not wearing anything under my apron. Good job thinking of hiding behind the counter.
+		13.bc.5^		Спасибо...|Thanks
+
+	13.bc.5@73@Но нам надо быть осторожнее. Я не знаю что на меня нашло... Но нам стоит прекратить это делать, во всяком случае, в таких местах...|But we should be more careful than this. I don't know what came over me... We should stop doing this in public places like this one...
+		13.bc.6^		Но мам!|But mom...
+
+	13.bc.6@60@Сынок, у меня сердце в пятки ушло, когда я увидела Лизу. Что вот мне ей сказать, если она нас увидит?|I almost had a heart attack when I saw Lisa. What are we supposed to tell her if she sees us?
+		13.bc.7^		Правду!|We can always just tell her the truth
+
+	13.bc.7@67@Шутишь? Сказать, что я трахаюсь со своим сыном, её братом, да ещё у всех на виду? Ну уж нет. Так не пойдёт...|Are you kidding? Tell her I'm sleeping with my son? No way, I can't do that.
+		13.bc.8^		Лиза уже большая! Вспомни наши уроки...|She's not a little girl anymore, mom. Remember our lessons?
+
+	13.bc.8@73@Ну уроки - это одно, а такая ситуация... Не знаю. В любом случае, на сегодня мы закончили, да и завтрак надо успеть приготовить...|That's different, Max... In any way, we're done for today. I have to finish breakfast, I'm running late already...
+		leave!set_lizakit_1!time^		Ладно, не буду мешать...|Okay, I won't be in your way
+
+
+
+# --- 0.13: Лиза второй раз замечает Макса и Анну на кухне вместе
+
+	13.bc.9@41@v-mc-9@Мам... О, я смотрю, вы опять готовите вместе? Может быть, Макс ещё и посуду чаще мыть будет?|Mom... Oh, are you cooking together again? Maybe Max could wash the dishes sometimes too?
+		13.bc.10^		Э... ну да...|Em... Sure...
+
+	13.bc.10@60@Лиза, ты что-то хотела? Мы... тут немного заняты...|Do you want something, Lisa? We're kinda in the middle of something here...
+		13.bc.11^		<i>далее</i>|<i>continue</i>
+
+	13.bc.11@50@И снова вы какие-то странные... Постой... Макс! Ты что, голый?!|You're being weird again... Wait a minute... Why are you naked, Max!?
+		13.bc.12^		Ну...|Em...
+
+	13.bc.12@69@v-mc-11@Лиза... Понимаешь, мы тут готовили и Макс пролил на себя... соус. И я заставила его снять шорты, чтобы застирать...|We were cooking and Max spilled some ... sauce on his shorts... So I made him take it off to wash it.
+		13.bc.13^		Д-да, точно...|R-right...
+
+	13.bc.13@43@v-mc-10@Хм... И где они, эти шорты?|And where are the shorts now?
+		13.bc.14^		Ну, сушатся...|They're drying...
+
+	13.bc.14@41@Понятно... Ладно, осторожнее с этими... соусами... Увидимся за завтраком!|Right... Well, be more careful, you don't want to spill anything hot on yourself... I'll see you at breakfast.
+		13.bc.15^		Ага...|Sure
+
+	13.bc.15@73@v-mc-2@Ох, Макс... Это было... Я не знаю. С одной стороны я чуть не умерла от страха и стыда... Но с другой... Чуть не кончила... Какая-то я неправильная....|Wow, Max, that was... On one hand I almost died from embarrassment, but on the other... I almost came... This is so wrong...
+		13.bc.16^		Мам, всё в порядке же!|Everything is fine, mom!
+
+	13.bc.16@69@Да, но... Эта моя реакция - это же не нормально? Что я за мать, если... чувствую такое... Не знаю...|Yes, but... I'm not supposed to react this way, right? What kind of mother am I...
+		13.bc.17^		Мам, ты - лучшая мама на свете!|You're the best mom in the world, mom, stop worrying so much
+
+	13.bc.17@67@Ох, спасибо, сынок... Конечно, ты думаешь только об одном, но как подобрать правильные слова знаешь... Это так приятно...|Thanks, son... I know you only have one thing on your mind, but I'm still glad to hear you say it...
+		13.bc.18^		<i>далее</i>|<i>continue</i>
+
+	13.bc.18@75@Так, что-то мы заболтались. Давай, надевай свои шорты. Постой, давай я их намочу, чтобы поддержать легенду... Вот так. Ну всё, мне надо готовить...|Put on your shorts, Max, I need to make breakfast... Oh, and let me splash your shorts with water a little bit to keep our legend in check.
+		leave!set_lizakit_2!time^		Ага...|Okay...
+
+
+
+# --- 0.13: Лиза в третий раз ловит Анну и Макса на кухне
+
+	13.bc.19@43@v-mc-9@Мам... Я хотела спросить... Ой... Макс, ты опять голый? До сих пор не просушил шорты?|Hey, mom I... Why are you naked again, Max? Are you still drying your shorts from the last time?
+		13.bc.20^		Э...|Em...
+
+	13.bc.20@73@v-mc-11@Лиза... Макс такой неуклюжий и постоянно то проливает на себя что-то, то мукой пачкается... Ну и...|No, but Max is so clumsy he always spills something on himself, so we decided he should just stay naked.
+		13.bc.21^		<i>далее</i>|<i>continue</i>
+
+	13.bc.21@48@v-mc-10@Ну да... ну да... Постой... Ты тоже голая? Только сейчас поняла... Что происходит? Забыли одеться после йоги?|Right, right... Wait... Why are you naked too? What's going on in here? Have you forgotten to dress after yoga?
+		13.bc.22^		Ты нас раскусила!|You got us
+
+	13.bc.22@73@Да, Лиза... Решили, что нас никто не заметит... Просто... лень было бежать наверх, переодеваться... Точнее, одеваться...|Yes, Lisa... We decided not to bother with clothes while no one is around. I didn't feel like funning upstairs and changing. Well, dressing...
+		13.bc.23^		Да, всё так...|Yeah, what she said
+
+	13.bc.23@43@Ну с тобой, мам, понятно - ты, похоже, нудист... А вот Макс... Эх, ладно, это не моё дело. Буду ждать вас за завтраком. Не забудьте одеться, лентяи...|I can understand mom, but Max... Are you a secretly a nudist? Not that it's any of my business... I'll be waiting for the breakfast, don't forget to put on your clothes.
+		13.bc.24^		Ага...|Yeah...
+
+	13.bc.24@73@v-mc-2@Вот это поворот.... Теперь Лиза знает, что мы с тобой...|Wow... So, now Lisa knows...
+		13.bc.25^		Просто не оделись... Ну и лентяи...|She only knows we're not wearing any clothes
+
+	13.bc.25@69@Да, точно... Как думаешь, она поверила в эту ерунду?|Right... Do you think she bought this crap?
+		13.bc.26^		Ну в ерунду с йогой поверила же?|She bought the yoga crap, didn't she?
+
+	13.bc.26@62@Как это... ерунду с йогой? Ты что, просто меня разводил, хотел попялиться на мой зад лишний раз?|What do you mean “yoga crap”? Does this mean you just wanted to stare at my ass?
+		13.bc.27^		Конечно!|Of course
+		13.bc.27^		Что ты!|What? No, of course not...
+
+	13.bc.27@69@Ох, сынок. Ну что у нас за отношения... Ладно, мне и правда надо готовить. Продолжим в следующий раз. Хорошо?|I guess I'm not really in a position to get mad at you for this... Well, I have to make breakfast. We'll continue another time, okay?
+		leave!set_lizakit_3!time^		Конечно, мам!|Sure, mom
+
+
+
+# --- 0.13: Лиза в очередной раз замечает Макса и Анну за "приготовлением" завтрака
+
+	13.bc.28@41@v-mc-9@Мам, а завтракать скоро будем? Что-то аппетит... Ага... Всё с вами понятно...|When's the breakfast, mom...? Oh... I see...
+		13.bc.29^		Что понятно?|What?
+
+	13.bc.29@43@v-mc-10@Ну как что... Опять лень было одеваться?|You didn't feel like dressing up again, did you?
+		13.bc.30^		Ну да...|Yeah...
+
+	13.bc.30@73@v-mc-11@Да, дочка... Хотела поскорее приготовить завтрак, а Макс мне помогает... Он такой хороший... помощник...|Yes, Lisa. I wanted to make breakfast as quickly as possible and Max were helping me out... He's a great... help...
+		13.bc.31^		<i>далее</i>|<i>continue</i>
+
+	13.bc.31@41@v-mc-10@Ну да, он такой... Ладно, не буду вас отвлекать, а то в животе урчит уже...|Yeah, he is... Okay, I'll leave you to it, I'm hungry already...
+		13.bc.32^		Да, мы скоро...|Breakfast will be soon
+
+	13.bc.32@67@v-mc-2@Что-то мы совсем расслабились... Хорошо, что она не заметила нас в процессе... Ладно, натягивай шорты и иди к столу, я тут сама всё закончу...|Looks like we got carried away... At least she didn't catch us right in the middle of sex... Put on your shorts and go to the table, I'll finish the breakfast soon.
+		leave!time^		Хорошо, мам...|Okay, mom
+
+
+
+# --- 0.13: Макс видит Анну и Алису у ТВ, первый эвент
+
+	13.da.0@21@v-am-1@А, Макс... Присаживайся, мы как раз о тебе говорили...|Hey, Max... Take a sit, we were just talking about you.
+		13.da.1^		Что говорили?|About what?
+
+	13.da.1@25@v-am-2@Сейчас расскажем... А для начала можешь глянуть этот фильм. Так сказать, для правильного настроя...|Before we have this conversation, let's watch the movie first. It's going to set the right mood.
+		13.da.2^		Ну давай...|Sure...
+
+	13.da.2@4@v-tm-1@<i>Ого! Смотрят этот фильм? Вместе?! И почему мама молчит? Любопытно...</i>|<i><b>This</b> is the movie we're going to watch? All together!? And mom is fine this all this?\n\nI guess I know what we're going to talk about...</i>
+		13.da.3^		Я не знаю что сказать...|So...
+
+	13.da.3@22@v-am-3@А тебе и не надо ничего говорить, просто послушай. Мы с мамой уже разговаривали на эту тему... да и вот этот фильм всё подтверждает...|Just listen. Mom and I have already talked about this. As you might have guessed from us watching the movie together just now...
+		13.da.4^		Ты о чём?|Maybe...
+
+	13.da.4@33@Хм... Мам, может быть ты сама расскажешь? Тогда Макс не будет думать, что это всё лишь моя идея...|Maybe you should be the one explaining everything, mom? I think Max will take it better from you.
+		13.da.5^		<i>далее</i>|<i>continue</i>
+
+	13.da.5@69@v-tm-2@Ну хорошо... Раз уж между нами нет секретов. Вы уже оба знаете, что я снимаюсь... вот в таких фильмах. И... мне это нравится...|Sure... We don't have any secrets between us. As you both know I make ... certain kinds of movies like the one we just watched. And I do it because I enjoy it...
+		13.da.6^		<i>слушать далее...</i>|<i>keep listening</i>
+
+	13.da.6@21@v-am-3@В общем, я подумала, что мы могли бы помочь маме как-то разнообразить её сексуальную жизнь...|What mom is trying to say, I wanted to spice up mom's sex life.
+		13.da.7^		Из чистого альтруизма?|And also get yourself off while you're at it...
+
+	13.da.7@73@Ну, мне тоже это нравится, я и не скрываю. Именно поэтому, это и кажется нам хорошей идеей...|So what? The important thing is everyone is happy, which is why we think it's a good idea.
+		13.da.8^		Нам? Мам, она тебя шантажирует?|Is it really “we”, mom?
+
+	13.da.8@69@Сынок... Нет. Конечно, я бы не хотела, чтобы Лиза увидела это, но... дело не в этом, не только в этом...|How do I say this, Max... I don't want Lisa to see the video either, but that's not why I'm going along with this.
+		13.da.9^		А в чём тогда?|Why then?
+
+	13.da.9@73@Я... не знаю даже как это объяснить... Я считаю себя плохой мамой...|I... how should I say this... I feel like I'm a bad mother...
+		13.da.10^		Да ладно тебе! Ты отличная мама! Мы тебя любим!|No you're not! Stop beating yourself over this, it's our decision, so whatever happens — it's not your fault
+
+	13.da.10@69@Мне очень приятно, но... Я правда, очень плохая мать. Посмотри на нас: занимаемся сексом, снимаемся в порно... И это теперь для нас в порядке вещей?!|I'm very happy you think like this, but that doesn't change the fact that I'm a horrible mother. Look at us: we're having sex, making porn together... It's all wrong, Max.
+		13.da.11^		А кому плохо?|It's not wrong because no one's getting hurt. No harm no foul
+
+	13.da.11@67@Мне... Точнее, должно быть. Мне должно быть стыдно и, вообще, я не должна была этого всего допустить...|No one's getting hurt <i>yet</i>. For all I know, ten years from now you'll realize I molested you and you all will need a therapy.
+		13.da.12^		Но сейчас с этим ничего не поделать, всем же хорошо?|I don't understand why you should beat yourself over something that probably never going to happen
+
+	13.da.12@69@Да... Вот именно. Ох, сынок... всё сложно. Не знаю как это объяснить. В общем, я считаю, что заслуживаю наказания за то, к чему пришла наша семья...|I understand that everyone involved is a consenting adult, but... I can't stop myself from worrying. Which is why I think I deserve being punished for everything that happened to our family.
+		13.da.13^		Э... какого?|Punished how?
+
+	13.da.13@22@v-tm-3@Макс, не тупи. Этот фильм ни на что не намекает, как думаешь? Ещё подсказки дать?|Come on, Max, why do you think we just watched that movie? Do I really have to spell everything out for you?
+		13.da.14^		Да понял я...|No, I get it
+
+	13.da.14@73@v-am-3@Единственное, что меня смущает... Так это то, что я не только не боюсь такого наказания, но... и хочу его... И от этого мне ещё более стыдно...|The only problem is... It's not really a punishment if I enjoy it, you know. And it kinda makes it even worse...
+		13.da.15^		<i>далее</i>|Made up punishment for a made up mistake sounds about right to me
+
+	13.da.15@25@Мам, не парься! Я уже всё придумала. Так ты будешь спокойна и все довольны...|Yes, don't worry about it, mom. You get to do something about your guilt and we all have fun in the process! Isn't it amazing?
+		13.da.16^		И что ты придумала?|What exactly do you have in mind?
+
+	13.da.16@21@А вот увидишь, Макс. Мам... с этого дня ты слушаешься меня и Макса. Во-первых, у меня есть рычаги давления, но ими я пользоваться не буду, если ты будешь послушной...|You'll see. Mom, from now on you're obeying Max and me. First, I have the video but I'm not going to use it as long as you behave...
+		13.da.17^		<i>далее</i>|<i>continue</i>
+
+	13.da.17@25@А во-вторых, только так ты сможешь справиться с этим внутренним конфликтом. К тому же, всем нравится то, что между нами происходит. Верно? А теперь раздевайся!|Second, it will help you with your internal conflict. And third, we're all gonna have fun along the way. Now get naked!
+		13.da.18^		Ого...|Wow
+
+	13.da.18@68@v-am-5@Что, прямо здесь? Но... Лиза. Если она узнает или увидит... то всё теряет смысл...|Right here? But Lisa... What if she sees us? You'll lose your leverage, Alice...
+		13.da.19^		Не увидит, она редко спускается в это время...|She won't see anything, she doesn't really come down this time of day
+
+	13.da.19@22@Мам, не спорь. Просто раздевайся. Макс тебя накажет. Ты получишь по попке, Макс лишний раз полапает тебя, а я... просто понаблюдаю. И давай, не спорь. Быстрее!|Don't argue, mom, just start undressing. Max is going to punish you. You're going to get your ass spanked and I ... I'll just watch. No complaining. Hurry up!
+		13.da.20^		<i>далее</i>|<i>continue</i>
+
+	13.da.20@69@v-am-6@Хорошо... Не знаю почему, но... мне нравится эта идея... Ой. Макс, тебе тоже, похоже...|Okay... I like this idea... And seems like Max likes this idea too...
+		13.da.21^		Ну да... Ложись ко мне на колени!|Yeah. Lie down on my knees
+
+	13.da.21@4@v-am-7@<i>Вот это неожиданный поворот... Кажется, Алиса не только о себе думает. Конечно, у неё свой интерес, но наказываю тут я!</i>|<i>This is an interesting turn of events... At least Alice doesn't want to hog mom all to herself. Even if she's doing it for her own entertainment, I'm the one spanking mom!</i>
+		13.da.22^		<i>шлёпать маму</i>|<i>spank mom</i>
+
+	13.da.22@22@v-am-8@Макс, только не кончи от перевозбуждения, а то испачкаешь и диван и себя и... маму...|Don't cum from over excitement, Max. We wouldn't want you to stain the sofa.
+		13.da.23^		Я справлюсь!|I'll be fine!
+
+	13.da.23@4@v-am-7@<i>Не представляю в каком восторге там мои зрители... С такой развратной семейкой можно шоу на новый уровень вывести!</i>|<i>My show's audience must be going crazy right now! I might reach next level of popularity with this kind of entertainment!</i>
+		13.da.24^		<i>закончить</i>|<i>finish</i>
+
+	13.da.24@69@v-am-9@Ох, Макс... У тебя такие сильные руки. Я... не ожидала, что будет так... Кажется, мне стало легче... Спасибо вам...|You're so strong, Max... I didn't expect you to spank me so much... But I feel better now. Thanks, everyone.
+		13.da.25^		Не за что, мам...|You're welcome, mom
+
+	13.da.25@21@Так, мам, а теперь я расскажу новые правила. Если будешь спорить, Макс снова тебя отшлёпает, ещё сильнее!|Now, here are the rules, mom. If you're going to complain, you're going to get spanked again, even harder than you just were!
+		13.da.26^		Да, я могу!|I can do that
+
+	13.da.26@69@Новые правила? Какие? Я слушаю...|What new rules? I'm listening.
+		13.da.27^		<i>далее</i>|<i>continue</i>
+
+	13.da.27@21@Иногда я буду тебя сама шлёпать перед всеми во время завтрака или ужина. Конечно, в том же виде, в каком ты нас шлёпаешь...|Sometimes I'm going to spank you in front of the family before breakfast or dinner. Just like you spank us.
+		13.da.28^		А почему это ты?|How come you're the one who gets to spank mom?
+
+	13.da.28@25@Ну хорошо, иногда это будет делать и Макс. А всем скажем, что ты знаешь за что. Ты же обычно не объясняешь причины? Вот и в этом случае пусть думают что хотят...|Okay, Max can spank you too sometimes. We're going to say you know why you're getting spanked. You don't usually tell the family reasons why you spank people, so it shouldn't raise too much questions.
+		13.da.29^		Думаешь, Лиза не будет задавать вопросов?|You really think Lisa isn't going to ask anything?
+
+	13.da.29@33@Если будет задавать, я с нею побеседую и всё доходчиво объясню. Конечно, детали раскрывать не буду. А второе... Иногда мы будем повторять то, что было сегодня...|I'll talk to her if that happens. I'm not going to explain everything, of course. Rule number two: sometimes we're going to do what we did just now.
+		13.da.30^		Звучит как план...|Sounds like a plan...
+
+	13.da.30@69@Хорошо. Я могу идти?|Okay. Can I go now?
+		13.da.31^		Конечно...|Of course
+
+	13.da.31@21@v-am-10@Ну, что я тебе говорила? Мама обожает подчиняться! Почти как Лиза. Думаю, даже больше. Представляешь, как нам повезло?|You see, you see? I've told you mom loves to submit! Just like Lisa, maybe even more so. Do you have any idea how lucky we are?
+		13.da.32^		Ну не знаю...|I guess...
+
+	13.da.32@33@Макс, ты зануда! Ты и так трахаешься с нашей мамой, дай и мне удовольствие получить, хотя бы от такого шоу... Голую маму шлёпают на глазах у всех. Это же круто!|How can you be such a prude, Max? You're fucking our entire family, can't you let me have some fun here and there? Naked mom is gonna be spanked in front of the entire family, don't you want to see that?
+		13.da.33^		Ну да...|Yeah...
+
+	13.da.33@25@Как-то неуверенно. Мне нужен надёжный помощник в моих идеях. Ладно, пойду тебе навстречу: ты сам будешь решать кто и когда будет наказывать маму. Договорились?|That wasn't very convincing, Max. I want you on my side. How about this: you get to choose who gets to spank mom, deal?
+		13.da.34^		Конечно!|Hell yeah!
+
+	13.da.34@21@Но я надеюсь, что иногда ты будешь меня спасать. Если мама решит меня наказать, я буду ждать, что ты вмешаешься и скажешь, что это была ошибка и очередь мамы...|I do hope you're going to save my ass every once in a while. Whenever mom wants to punish me for something, I hope you're going to intervene, tell her she made a mistake and it's her turn to be punished.
+		13.da.35^		Хорошо... Но Лиза...|Sure. Just make sure Lisa doesn't ask too many questions
+
+	13.da.35@33@Её я возьму на себя. Я уже придумала легенду, всё ей объясню. В крайнем случае, расскажу правду и она нам подыграет. Похоже, только мама не знает ничего про Лизу...|I said I'll take care of that. I already know what I'm going to tell her. Worst care scenario I'll just tell her the truth and she's going to play along. We only have to keep mom from finding out about Lisa, not the other way around.
+		13.da.36^		Пусть так и остаётся!|That's true
+
+	13.da.36@21@Конечно! Я не против. Меня текущее положение дел очень устраивает. Послушная мама... развратные братик и сестрёнка... Судя по всему, идея и тебе по душе...|Yes, we both get a lot from keeping the status quo. Especially me. Obedient mom, perverted brother and sister... <i>He</i> likes what I'm talking about...
+		13.da.37^		Я просто не успел расслабиться. Поможешь?|That's because I just spanked mom. Want to help me out?
+
+	13.da.37@22@Может быть... Но в другой раз. В этом доме достаточно женщин, желающих тебя удовлетворить...|Not right now... There are plenty of women who can help you out with that, I'm sure you'll be fine.
+		leave!set_dcd.spankmom_7!set_momcon_1!set_momn_0!time^			Ладно...|Okay...
+
+
+
+# --- 0.13: Макс напоминает Алисе, что можно бы и повторить наказание у ТВ (по кулдауну)
+
+	13.db.0.init@0@Насчёт того наказания у ТВ...|I want to talk about punishing mom in the living room again...
+	13.db.0@26@Ой, точно. Я же совсем забыла. Обещала, что маму будем наказывать чаще. Как думаешь, может быть, повторим?|Right, completely slipped my mind. I promised mom we're going to punish her more often... What do you think, should we do it again?
+		13.db.1^		Ну, давай...|Sure
+		13.db.1b^		Давай отложим на неделю...|Let's do it another week
+
+	13.db.1b@22@Хм... А мне казалось, что тебе нравится. Ну ладно. Я бы и сама её отшлёпала, но руки жалко, а у тебя отлично получается... Ладно, если надумаешь, дай знать...|Hm... I thought you like them. Fine. I could spank her myself, but I don't want to hurt my hands. Besides, you're so good at this... Tell me if you want to spank her.
+		leave!set_dcd.spankmom_7^		Хорошо|Okay
+
+	13.db.1@21@Отлично! Поможем маме бороться с её чувством вины... Ох, я уже возбуждаюсь от одной мысли...|Great! Let's make mom guilt free again! I'm getting hot just from thinking about it...
+		leave!set_momn_1^			Ага, я тоже...|Me too
+
+
+
+# --- 0.13: Периодический эвент с наказанием Анны у ТВ
+
+	13.dc.0@22@v-am-1@А вот и Макс. Я же говорила, что он такое не пропустит... Проходи, присаживайся...|And here's Max. I've told you he's not going to miss it. Come take a seat.
+		13.dc.1^		Ага...|Sure
+
+	13.dc.1@21@v-am-2@Сейчас только досмотрим фильм... Хотя, ты же не для этого пришёл... Ну что мам... Пришло время для очередного наказания... Раздевайся!|Shouldn't we finish the movie first? I don't want to make you wait, though... Well, mom, it's time for another punishment. Get naked!
+		13.dc.2^		<i>далее</i>|<i>continue</i>
+
+	13.dc.2@73@v-am-3@Алиса, но... Лиза может нас увидеть... Что она подумает? Макс, может быть не сегодня?|But what if Lisa catches us? Maybe we should do it another time?
+		13.dc.3^		Мам, раздевайся!|Get naked, mom!
+
+	13.dc.3@69@v-am-5@Может быть, достаточно снять шорты? Я без трусиков... Зачем топ снимать? Лишний раз на грудь поглазеть?|Maybe I should just take my shorts off? I'm not wearing any panties... Why can't I keep my top on? You just want to stare at my breasts...
+		13.dc.4^		Мам...|Mom...
+
+	13.dc.4@22@v-am-6@Да, мам, ты слишком много говоришь. Придётся Максу тебя наказать особенно сильно за то, что не слушаешься... Ложись к нему на колени...|Yes, mom, you talk too much. Max is going to have to give you extra punishment. Get on his knees.
+		13.dc.5^		<i>приступить к наказанию</i>|<i>start the punishment</i>
+
+	13.dc.5@4@v-am-7@<i>Мама так легко разводится на всякие подобные вещи... Интересно, на что ещё она способна? Кажется, у меня масса идей!</i>|<i>Mom is so eager to get punished... I wonder if I can convince her to do more... I have so many ideas!</i>
+		13.dc.6^		<i>шлёпать маму</i>|<i>spank mom</i>
+
+	13.dc.6@25@v-am-8@Кажется, я могу вечно смотреть на такое... Видимо, со мной что-то не то. Но я молчу... Макс, ты расслабился, сильнее!|I could watch you two forever... Spank her harder, Max!
+		13.dc.7^		<i>шлёпать сильнее</i>|<i>spank harder</i>
+
+	13.dc.7@4@v-am-7@<i>Да, маме очень нравится это всё... Похоже, она даже намокла от удовольствия, да и я чуть не кончаю... Ох...</i>|<i>Yes, mom's definitely enjoying this whole thing... She's so wet... And I could cum any moment too...</i>
+		13.dc.8^		<i>закончить</i>|<i>finish</i>
+
+	13.dc.8@21@v-am-9@Ну всё, мам, ты свободна. Надеюсь, теперь ты не будешь чувствовать себя виноватой, хотя бы неделю... Можешь идти...|That's it, mom, you're free to go. I hope you stop feeling so guilty for now. At least for a week.
+		13.dc.9^		<i>далее</i>|<i>continue</i>
+
+	13.dc.9@33@Молодец, Макс... хорошо поработал над её попкой. Может быть, надо будет придумать новые виды наказания, хотя пока меня и эти устраивают...|Good job, Max. Do you think we should come up with new ways to punish mom? Not that I'm complaining about what we do now, but it's such a good opportunity...
+		13.dc.10^		Ну да...|Yeah...
+
+	13.dc.10@21@Если я забуду, то напомни мне через недельку, чтобы мы повторили. Нельзя же маме расслабляться, верно?|Remind me to do this again next week, Max. We can't let mom feel guilty about herself, right?
+		leave!set_dcd.spankmom_7!set_momn_0!time^		Верно!|Right!
+
+
+
+# --- 0.13: Ответвление из сцены секса Анны и Макса у ТВ, где Алиса приходит поучаствовать в первый раз
+
+	13.dd.0@25@v-tv-15@Да, Алиса... А вы мне не рады? Не возражаете, если я... посижу с вами...|Yes, I'm here. You don't mind me being here, do you? I want to sit next to you and watch.
+		13.dd.1^		Посидишь?|Just watch?
+
+	13.dd.1@22@Ну если честно, то вы так страстно трахались, что... Так. Макс, ты такой эгоист... Видишь же, что мама устала. Давайте, меняйте позу...|To be honest, you're so hot when you fuck, I... Can't you see mom is tired, Max? Change the position.
+		13.dd.2^		Ты чего командуешь?|How come you're in charge?
+
+	13.dd.2@21@v-tv-21@А то, что не только вам развлекаться. Я тоже хочу. Для начала посмотреть... Мам, вставай на диван, а ты Макс возьми её сзади...|Can't I have some fun, Max? I only want to watch today. Get on the sofa, mom. Max, take mom from behind.
+		13.dd.3^		Ну ладно...|Fine
+
+	13.dd.3@25@v-tv-22@Что значит «ну ладно»? Ты мне одолжение делаешь? Я же о вас забочусь. Давай, трахни маму... и поактивнее...|Don't act like I'm forcing you to do anything, Max. Now start fucking mom already.
+		13.dd.4^		Я сейчас тебя трахну!|You keep talking and I'm going to fuck you!
+
+	13.dd.4@26@Ого... Отличная идея! Но начни с мамы. Посмотрим, насколько тебя хватит...|Wow... Sounds nice, but you should start with mom. Let's see if you'll last long enough for both of us.
+		13.dd.5^		Сейчас увидишь!|You'll see!
+
+	13.dd.5@4@v-tv-24@<i>Конечно, Алиса обнаглела, но... Вышло неплохо... Но и до неё я доберусь и оттрахаю как следует!</i>|<i>Alice is bossing me around again, but... Her ideas sound pretty good! I'm going to fuck her next!</i>
+		13.dd.6^		<i>ускориться</i>|<i>speed up</i>
+
+	13.dd.6@3@v-tv-23@<i>Да... Алисе очень нравится смотреть... А маме, когда на неё смотрят... Ну а мне... ох, я и правда так долго не выдержу... Кажется я сейчас...</i>|<i>Yes... Alice likes to watch... Mom likes to be watched... And I... I won't be able to hold off for Alice...</i>
+		13.dd.7^		<i>кончить на маму</i>|<i>cum on mom</i>
+
+	13.dd.7@26@v-tv-25@Ну вот... Собирался и меня трахнуть, а сил хватило только на маму... Эх... Ну, ничего, в другой раз...|So much for fucking me. Maybe next time...
+		13.dd.8^		Ага...|Yeah...
+
+	13.dd.8@25@v-tv-20b@А мы пойдём с мамой побеседуем наедине в ванной, ей всё равно нужно смыть кое-что...|Mom and I will go have a chat in the bathroom, she has to clean herself up.
+		leave!set_amtv_5!time^		Хорошо...|Okay
+
+
+
+# --- 0.13: Второй раз, когда Алиса вмешивается в секс у ТВ
+
+	13.dd.9@21@v-tv-15@Ну да, а кого вы ждали? Лизу? Она занята и вам не помешает... Продолжайте, не обращайте на меня внимания...|Of course, who else could it be? Lisa is always busy this time of day. Don't mind me...
+		13.dd.10^		<i>далее</i>|<i>continue</i>
+
+	13.dd.10@69@v-tv-16@Алиса... Мы можем с тобой потом развлечься... отдельно, если хочешь, но... мы бы с Максом хотели побыть наедине...|Alice... We could have our fun... later, if you want, but... Max and I would prefer to be alone for now...
+		13.dd.11^		Да, Алиса...|Yes, Alice...
+
+	13.dd.11@21@v-tv-18@Да я не буду вам мешать... сегодня... Просто, решила посмотреть порно из первого ряда, так сказать. Продолжайте!|I'm not going to be in the way ... today. I just want a front row view, so to say. Carry on!
+		13.dd.12^		<i>продолжить</i>|<i>continue</i>
+
+	13.dd.12@4@v-tv-17@<i>Надо же! В этот раз Алиса нам и правда не мешает... Во всяком случае, мама стала двигаться активнее и... сдерживаться уже сложнее...</i>|<i>Huh, I guess Alice isn't going to be in the way today... And mom is speeding up... I'm going to cum soon...</i>
+		13.dd.13^		<i>далее</i>|<i>continue</i>
+
+	13.dd.13@3@v-tv-18@<i>Мама прыгает на мне и смотрит на то, как Алиса ласкает себя... Ох... кажется, они начинают кончать... Да и я тоже...</i>|<i>Mom is riding me and watching Alice is touching herself... I think she's cumming... And so am I...</i>
+		13.dd.14^		<i>кончить в маму</i>|<i>cum in mom</i>
+
+	13.dd.14@25@v-tv-19@Ого... Вы быстро... Хотя... я тоже... Удачно я к вам заглянула... Хоть бы звали меня...|You were so quick today... But so was I... You could've invited me, you know...
+		13.dd.15^		Хм...|<i>continue</i>
+
+	13.dd.15@21@v-tv-20@Ну, мам, пойдём. Кажется, сегодня до меня опять очередь не дошла... Но я не жалуюсь, мне понравилось...|Let's go, mom. I didn't get to have sex today either... Maybe some day...
+		leave!set_amtv_6!time^		<i>одеться</i>|<i>get dressed</i>
+
+
+
+# --- 0.13: Третий визит Алисы, пока Макс с Анной трахается у ТВ
+
+	13.dd.16@21@v-tv-15@Да, я. Кто же ещё? Ну вы не обращайте на меня внимания... Хотя, мне тоже хочется...|Yeah, it's me. Don't mind me... I'd like to join you, though...
+		13.dd.17^		Ну так это...|Well, then...
+
+	13.dd.17@25@v-tv-16@Мам, ты не против, если я тоже поучаствую? Надоело только смотреть...|Do you mind sharing, mom? I'm sick of just watching you two...
+		13.dd.18^		Мам?|Mom?
+
+	13.dd.18@69@v-tv-21@Как скажешь, Алиса, освобождаю тебе... место...|Whatever you say, Alice. You can take my place, if you want.
+		13.dd.19^		<i>далее</i>|<i>continue</i>
+
+	13.dd.19@21@Нет, мам, вы продолжайте... Я сначала посмотреть хочу, так сказать, настроиться...|No, keep going, mom. I want to watch a bit first. Get myself in the right mood, you know.
+		13.dd.20^		Хорошо...|Okay
+
+	13.dd.20@22@v-tv-22@Только Макс, не кончай слишком быстро, для меня оставь силы... Ну, давай уже, трахни её!|But don't cum too early, Max. Keep some for me. Now fuck her already!
+		13.dd.21^		Да легко!|Easy!
+
+	13.dd.21@4@v-tv-23@<i>Уж не знаю, что именно она задумала, но... кажется, мне это нравится... Да... сдержаться будет непросто...</i>|<i>I don't know what exactly she has in mind, but I better do what she wants... It's not going to be easy, though.</i>
+		13.dd.22^		<i>продолжать</i>|<i>continue</i>
+
+	13.dd.22@25@v-tv-26@Ну всё... я готова! Для меня найдётся местечко? Макс? Справишься с нами двумя?|Okay, I'm ready. Do you have some space for me? Max? Can you handle both of us?
+		13.dd.23^		Конечно!|Of course
+
+	13.dd.23@22@v-tv-27@Мам, ты же не против, что я вот так между вами вклинилась? Просто... я не могу больше просто смотреть... вы такие... Макс, возьми меня!|Do you mind me getting up in your business, mom? It's just... I can't just watch anymore, I need more... Take me, Max!
+		13.dd.24^		Как скажешь, сестрёнка...|Of course, sis
+
+	13.dd.24@67@v-tv-28@Конечно, я не против, Алиса... Если Макс может приносить удовольствие сразу двум женщинам, почему нет?|I don't mind, Alice. If Max can satisfy us both, then why not?
+		13.dd.25^		Ох...|Oh...
+
+	13.dd.25@31@v-tv-29@Да, Макс... Мне нравится... Кажется, я скоро кончу... быстрее... быстрее!|Yes, Max... I love it... I think I'm gonna cum soon... Faster. Faster!
+		13.dd.26^		<i>ускориться</i>|<i>speed up</i>
+
+	13.dd.26@4@v-tv-28@<i>Ого, похоже, Алиса уже кончает! Вот бы и мне сдержаться, чтобы и маму довести до оргазма... Думаю, они оценят...</i>|<i>Wow, looks like Alice is already cumming! I have to do the same to mom, though, or we might never do this again...</i>
+		13.dd.27^		<i>трахнуть маму</i>|<i>fuck mom</i>
+
+	13.dd.27@3@v-tv-30@<i>Ох... Не знаю, успеет ли кончить мама, но вот я, кажется, уже на грани... Ещё чуть-чуть и...</i>|<i>I'm not sure if mom is going to cum today, I'm almost there already... Here it comes...</i>
+		13.dd.28^		<i>кончить на мамину попку</i>|<i>cum on mom's ass</i>
+
+	13.dd.28@21@v-tv-32@Ого, Макс... Да ты у нас способный... А трёх осилишь? Да шучу я...|Wow, Max... You've done it! Can you do three at once? I'm joking!
+		13.dd.29^		Осилю!|Yes I can!
+
+	13.dd.29@25@v-tv-33@Ладно, силач... Мы в душ... И... спасибо тебе. Мне... нам понравилось... Да, мам? Ну пойдём...|Sure, sure... We're going to the bathroom... Thank you, Max. I, we loved it. Right, mom? Let's go...
+		leave!set_amtv_7!time^		<i>одеться</i>|<i>get dressed</i>
+
+
+
+# --- 0.13: Периодический эвент, где Алиса вмешивается в соместный секс Макса и Анны у ТВ
+
+	13.de.0@22@v-tv-15@Ну вот... опять без меня развлекаетесь... Не возражаете, если я посмотрю?|Hey yourself, little brother. You're having fun without me again... Do you mind if I join?
+		13.de.1^		Ну...|Well...
+
+	13.de.1@21@v-tv-16@Да ладно, я же не мешаю... Просто посмотрю, себя потрогаю... Вдруг, кто-то захочет и меня трахнуть...|I'm not going to be in the way, Max, I'll just watch... And touch myself... Hoping someone might want to fuck me...
+		13.de.2^		Можешь смотреть... пока...|You can watch... For now
+
+	13.de.2@4@v-tv-17@<i>Маме нравится делать это на глазах у кого-то, даже у собственной дочери, так почему я буду возражать? Пусть смотрит...</i>|<i>If mom likes being watched by her own daughter so much, who am I to say no?</i>
+		13.de.3^		<i>трахать маму</i>|<i>fuck mom</i>
+
+	13.de.3@3@v-tv-18@<i>Хм... А может быть, трахнуть их обеих? Думаю, моих сил хватит... Или продолжать с мамой?</i>|<i>Should I fuck both of them? I think can last long enough... Or should I focus on mom?</i>
+		13.de.4^		<i>продолжать</i>|<i>continue</i>
+		13.de.7^		Алиса, не хочешь поучаствовать?|Do you want to have some fun too, Alice?
+
+	13.de.4@4@v-tv-17@<i>О да... Мама так на мне прыгает, да ещё Алиса на нас смотрит... Я... не могу долго сдерживаться... Ого... мама тоже кончает!</i>|<i>Mom is so good at this... And Alice is watching us... I'm going to cum soon... Mom is cumming already!</i>
+		13.de.5^		<i>кончить в маму</i>|<i>cum in mom</i>
+
+	13.de.5@67@v-tv-19@Ох, сынок... Это было... Нет слов. Опять накачал меня... Похоже, надо бежать в душ...|Wow, son... That was... I can't describe it... I have to go take a shower now...
+		13.de.6^		<i>далее</i>|<i>continue</i>
+
+	13.de.6@25@v-tv-20@Ну пойдём, мам... Может быть, и ты мне там поможешь кончить? Не всё же должно только Максу доставаться...|Let's go, mom. Maybe you can help me out? I didn't get to cum today...
+		leave!time^		Ух...|Wow...
+
+
+
+	13.de.7@25@v-tv-26@Ого... Я думала, что ты и не предложишь уже... С удовольствием! Мам, ты не возражаешь?|I was starting to think you won't touch me today... With pleasure! If mom doesn't mind, that is.
+		13.de.8^		<i>далее</i>|<i>continue</i>
+
+	13.de.8@73@Конечно, дочка. Не уверена, что родители так должны проводить время со своими детьми... Но нам всем нравится, верно?|I'm fine, Alice. I mean, I'm not sure we should be doing this, but we're all having fun, right?
+		13.de.9^		<i>далее</i>|<i>continue</i>
+
+	13.de.9@33@v-tv-27@Мам, к чёрту условности... Мы с тобой две женщины, которым нужен секс, а Макс наш мужчина... Кстати, мужчина, ты уснул? Трахнешь нас?|Don't worry about it, mom. We are women in need of sex and Max is our man... By the way, our man, are you there or what? Fuck us already!
+		13.de.10^		Конечно!|Sure
+
+	13.de.10@26@v-tv-28@Ох... Макс... Я сегодня так завелась... что... скоро кончу... Но оставь силы и на маму... справишься?|Oh, Max... I'm so horny today... I'm going to cum soon... Will you be able to fuck mom too?
+		13.de.11^		Ещё бы!|Of course
+
+	13.de.11@4@v-tv-29@<i>Была бы тут Лиза или Кира, меня бы и на них хватило! Ого, Алиса и правда уже кончает! Быстро она... Так... очередь мамы...</i>|<i>If Lisa or Kira were here, I'd be able to fuck them too! Wow, Alice is cumming already! That was quick... Now it mom's turn...</i>
+		13.de.12^		<i>трахнуть маму</i>|<i>fuck mom</i>
+
+	13.de.12@3@v-tv-31@<i>Она так кричит, что нас точно может кто-то услышать... Но это никого не заботит, похоже... Ну и ладно...</i>|<i>Mom is so loud, someone can hear us and look what's going on... But I don't think anyone cares at this point... I certainly don't...</i>
+		13.de.13^		<i>продолжать</i>|<i>continue</i>
+
+	13.de.13@4@v-tv-30@<i>Да... Мама тоже на грани... Ещё чуть-чуть и... да, она кончает! Кажется, я сегодня хорошо поработал... Ох... вот и моя очередь...</i>|<i>Mom is going to cum soon too... Almost... Yes! I did good today... My turn...</i>
+		13.de.14^		<i>кончить маме на попку</i>|<i>cum on mom's ass</i>
+
+	13.de.14@25@v-tv-32@Ого, Макс... Вот это я понимаю - идеальный любовник... И где ты раньше был?|Wow, Max... You're a perfect lover... Where were you before?
+		13.de.15^		Да здесь же!|I was right here!
+
+	13.de.15@21@v-tv-33@Ну, мам, пойдём душ примем... Не думала, что скажу это, но... Макс, ты - чудо! Но не зазнавайся... И шорты свои найди...|Let's go take a shower, mom... I didn't think I'd say this, but you're amazing, Max! Don't forget to find your shorts, though...
+		leave!time^			Ага...|Yeah...
+
+
+
+# --- 0.13: Новый эвент в ванной с Анной, ответвления на эвенты с Алисой
+
+	13.ea.0@60@f-mb-2@Сынок, что-то хотел? Я хотела поваляться в ванной...|Do you want something, son? I was going to take a bath...
+		13.ea.1^		У меня есть одно дело...|Yeah, I have a thing...
+		leave!lock^		Тогда не буду тебе мешать...|Sorry, I'll leave you alone
+
+	13.ea.1@62@f-mb-3@Ага, вижу что у тебя за дело... Хочешь, чтобы я сняла твоё напряжение? Тогда снимай шорты...|Yes, I can see that. Do you want me to help you out? Take off your shorts, Max...
+		13.ea.2^		Конечно, мам!|Of course, mom
+
+	13.ea.2@67@a-bathroom-6@И что же мне с тобой делать? Кажется, есть одна идея... Думаю, тебе понравится...|What should I do... I think I have an idea. I'm sure you're gonna like it...
+		13.ea.3^		О да...|Oh, yeah...
+
+	13.ea.3@75@a-bathroom-2@Только не кончи слишком быстро... У меня на твой член ещё есть планы...|But don't cum too early, I have my plans for your cock...
+		13.ea.4^		Ох...|Oh...
+
+	13.ea.4@4@a-bathroom-3@<i>У мамы есть планы на мой член? Вот это я удачно зашёл... Ох... как она старается... тут бы дотерпеть до её планов...</i>|<i>I'm so glad to be here... Mom is trying so hard... I have to hold off for her plans, though.</i>
+		13.ea.5^		<i>далее</i>|<i>continue</i>
+
+	13.ea.5@3@a-bathroom-4@<i>Это просто... нет слов... Да... но... если она продолжит, я и правда кончу...</i>|<i>This is just too good... If she won't stop soon, I'm going to cum...</i>
+		13.ea.6^		Мам, так какие у тебя планы?|You said something about your plans, mom?
+
+	13.ea.6@67@a-bathroom-2@Ну это ты решай... Хочешь, я сяду сверху... Или же можешь взять меня сзади. Тебе как больше хочется?|Yes. How do you want to do it? I can ride you or you can take me from behind.
+		13.ea.7^		Садись на меня!|Hop on!
+		13.ea.15^		Давай сзади!|From behind!
+
+	13.ea.7@75@v-mb-1@Сможешь не кончить сразу? Я в тебя верю, сынок...|Try not to cum for a while, okay? I know you can do it.
+		13.ea.8^		Постараюсь!|I'll do my best
+
+	13.ea.8@67@v-mb-2@Что, Макс, нравится моя грудь? Хочешь посмотреть ближе? Секундочку... Кажется, я никогда не привыкну к размеру твоего члена...|Like to look at my breasts, Max? Want to see it up close? Wait a sec... I don't think I'll ever get used to your size...
+		13.ea.9^		Привыкнешь!|You will
+
+	13.ea.9@5@v-mb-4@<i>О да... Так и правда лучше... видно... Ох, а я никак не привыкну к тому, что у меня такая горячая мама... Как же мне повезло!</i>|<i>Yes, I like the view... I'll never get used to how hot my mom is... I'm the luckiest guy in the world!</i>
+		acan3=0&13.ea.10^					<i>далее</i>|<i>continue</i>
+		acan3=1&13.ea.21!add_agotbath_1^	<i>далее</i>|<i>continue</i>
+
+	13.ea.10@75@v-mb-3@Ох, Макс... Как же мне хорошо с тобой... Я просто... жду этого... каждый раз... О да...|Oh, Max... This feels so good... I'm... I wait for this all day long... Yes...
+		13.ea.11^		<i>далее</i>|<i>continue</i>
+
+	13.ea.11@4@v-mb-4@<i>...а я-то как жду... К счастью, не долго... Ох, мама сегодня в ударе! Я не смогу больше сдерживаться... надеюсь, она кончила...</i>|<i>So do I... Thankfully, I don't have to wait long... Mom is so energetic today! I'm going to cum now...</i>
+		13.ea.12^		<i>кончить в маму</i>|<i>cum in mom</i>
+
+	13.ea.12@67@v-mb-5@Да, Макс... сынок... да... я тоже... кончаю... да... да...|Yes, Max... Son... Yes... I'm cumming too... yes ... yes...
+		13.ea.13^		<i>далее</i>|<i>continue</i>
+
+	13.ea.13@75@v-mb-6@Ну вот, ещё один повод принять душ или ванну... Я поражаюсь тому, насколько ты у меня... способный. У тебя особый дар делать женщин счастливыми...|Now I have one more reason to take a bath... I can't believe how good you are. You have a gift, son
+		13.ea.14^		Обращайся, мам!|Anytime, mom
+
+	13.ea.14@67@v-mb-15@Обязательно, сынок! Ну всё, думаю, ты здесь сделал всё, что мог... Шорты не забудь надеть... И... спасибо тебе, сынок...|Of course, son. Okay, I think you've done your part, I should clean myself up. Don't forget to put on your shorts. And thank you, son.
+		leave!lock^		Не за что, мам...|It was my pleasure, mom
+
+
+	13.ea.15@75@v-mb-7@Ну, сынок, чего ты ждёшь? Если ты не трахнешь меня сейчас же, я... я тебя изнасилую! Давай уже!|What are you waiting for, Max? If you don't take me I'll... I'll jump you myself! Come on already!
+		13.ea.16^		Ого...|Wow
+
+	13.ea.16@5@v-mb-9@<i>Мама не перестаёт меня удивлять... Чуть ли не набрасывается на меня... Уже не может без секса со мной обходиться!</i>|<i>Mom wants me so much she can't control herself anymore... I'm so happy we're addicted to each other.</i>
+		acan3=0&13.ea.17^					<i>трахать маму</i>|<i>fuck mom</i>
+		acan3=1&13.ea.30!add_agotbath_1^	<i>трахать маму</i>|<i>fuck mom</i>
+
+	13.ea.17@67@v-mb-8@Да, сынок... Быстрее... ещё быстрее! Сделай со мной всё, что хочешь... Да... о да...|Yes, son... Faster... Faster! You can do whatever you want with me... Yes... Yes...
+		13.ea.18^		<i>продолжать</i>|<i>continue</i>
+
+	13.ea.18@4@v-mb-10@<i>Всё что хочу? Ох, у меня много идей... Но сейчас... ого... мама уже кончает? Вот это да! Так быстро?! Да и я... тоже... скоро...</i>|<i>Whatever I want? I have so many ideas... But not now... Wow, mom is cumming already! So quickly! I can cum too now...</i>
+		13.ea.19^		<i>кончить на её попку</i>|<i>cum on her ass</i>
+
+	13.ea.19@75@v-mb-11@Ох, сынок... Сегодня это было... особенно хорошо... Когда ты меня так взял грубо, сзади... Мне так это нравится...|Wow, son... Today you were... unbelievably good... You took me so roughly... I love it...
+		13.ea.20^		Мне тоже, мам...|Me too, mom
+
+	13.ea.20@67@v-mb-15b@Ну, кое-кому пора в душ... А тебе... приятного вечера... И не забудь шорты надеть, а то выйдешь в таком виде ещё...|I need to take a shower. You should go now. Don't forget your shorts, Max.
+		leave!lock^		Ага, не буду тебе мешать...|Okay, I'll leave you alone
+
+
+
+	13.ea.21@25@v-mb-14@Ага! Попались! Я так и знала... Да продолжайте, чего уж там...|Gotcha! I knew it! But don't stop on my account.
+		13.ea.22^		Блин...|Crap...
+
+	13.ea.22@73@v-mb-13@Алиса... Ты же видишь, мы... заняты. Ты что-то хотела?|Alice... Don't you see we're busy? Do you want something?
+		13.ea.23^		Да, Алиса, ну что за дела?|Yes, Alice, what the hell?
+
+	13.ea.23@25@Ну вы даёте! Трахаетесь и без меня! Может быть, я тоже хочу...|What? You're the ones fucking without me! I want some too!
+		13.ea.24^		Легко!|Easy!
+
+	13.ea.24@22@Ну не вот так вот, как будто напросилась... Эх, ладно... Кажется, меня тут не ждут...|Not like this, it looks like I had to beg for it... I guess I'm not welcome here...
+		13.ea.25^		<i>далее</i>|<i>continue</i>
+
+	13.ea.25@62@Алиса, неужели, тебе не хватает Макса?|Don't you have enough sex with Max already?
+		13.ea.26^		<i>далее</i>|<i>continue</i>
+
+	13.ea.26@25@Хватает... Выше крыши... Ладно, извините. Я думала, что это будет забавно... Пойду я.|I do, but... Sorry, I just wanted to have some fun, but... I'll go.
+		13.ea.27^		<i>далее</i>|<i>continue</i>
+
+	13.ea.27@62@v-mb-15@Ну вот... Алиса обломала нам такой секс...|Great... Alice got upset and ruined our sex in the process...
+		13.ea.28^		Мы можем продолжить...|We could go on...
+
+	13.ea.28@67@Нет, сынок. В другой раз. Не знаю что на неё нашло. Может быть, ревнует? Но... мы же все одна семья и ты никого не оставляешь без внимания...|Not today, Max. What was that just now? Is she jealous? I was thinking you two have plenty of sex...
+		13.ea.29^		Ага...|We do
+
+	13.ea.29@75@Ладно, натягивай шорты, а я пойду в ванной поваляюсь. Продолжим в другой раз...|Hm... Well, put on your shorts and go, I'm going to take a bath. We'll continue another time.
+		leave!lock^			Хорошо, мам, отдыхай...|Okay, mom
+
+
+	13.ea.30@25@v-mb-12@Ага! Попались! Я так и знала... Да продолжайте, чего уж там...|Gotcha! I knew it! But don't stop on my account.
+		13.ea.22^		Да блин...|Crap...
+
+
+
+# --- 0.13: Ответвления с наказаниями Анны
+
+	13.fa.0@62@В каком смысле неправа? Хочешь сказать, Алиса не виновата?|What do you mean I'm wrong? Are you telling me Alice doesn't deserve her punishment?
+		13.fa.1^		Именно. А вот ты - да...|Exactly. You, on the other hand...
+
+	13.fa.1@40@Мам, о чём речь? В чём ты виновата? Я что-то пропустила?|What is he talking about, mom? What'd you do? Did I miss something?
+		13.fa.2^		Она сама знает... Да, мам?|She knows what she did. Right, mom?
+
+	13.fa.2@69@Ну... да. Лиза, всё в порядке. Мы не будем говорить за что, но... я провинилась...|Yes... Don't worry, Lisa, everything is okay. I did something ... bad, and now I need to be punished.
+		13.fa.3^		И я сам тебя накажу...|And now I'm going to spank you
+		13.fa.8^		И будет справедливо, если Алиса тебя и накажет...|I think it will be fair if Alice is the one to do it
+
+	13.fa.3@73@v-mp-1@Хорошо, сынок... Как скажешь... Мне раздеваться?|Okay, son. Should I undress?
+		13.fa.4^		Да, полностью!|Of course, take everything off
+
+	13.fa.4@40@v-mp-2@Ого, мам... Точно всё в порядке? Хотя, молчу... а то ещё и меня накажут...|Wow, mom... Are you sure everything is okay? Stop starting at me like this, Max, I... I'll just be quiet.
+		13.fa.5^		Точно! Мам, ложись на колени...|That's right! Now get on my knees, mom
+
+	13.fa.5@4@v-mp-3@<i>Скорее всего, Лиза и так знает что происходит, но если она не будет задавать вопросов, будет подозрительно...</i>|<i>Lisa probably knows what's going on, but it would be weird if she didn't ask a single question.</i>
+		13.fa.6^		<i>шлёпать маму</i>|<i>spank mom</i>
+
+	13.fa.6@3@<i>Определённо, маме очень нравятся наши игры... Ну а мне... нравится её попка... Ах да, ещё и Алисе нравится это шоу. Все довольны!</i>|<i>Mom loves this so much... And so do I. I love her ass. And Alice loves watching, of course. Everyone is happy!</i>
+		13.fa.7^		<i>закончить</i>|<i>finish</i>
+
+	13.fa.7@69@v-mp-4@Я всё поняла, сынок... И больше не буду... так делать... Я могу одеться?|Thank you, son... I won't do it again... Can I dress now?
+		hour=9&breakfast.default^		Конечно! Пока это всё. Пора завтракать...|Yes, that's enough. It's time for breakfast
+		hour=19&dinner.default^			Конечно! Пока это всё. Пора ужинать...|Yes, that's enough. It's time for dinner
+
+
+	13.fa.8@21@v-mp-5@Ну, мам... Сейчас ты поймёшь, что для всех действуют одинаковые правила... Раздевайся. Полностью!|Get ready, mom. Everyone has to obey the same rules. Get naked!
+		13.fa.9^		<i>наблюдать</i>|<i>watch</i>
+
+	13.fa.9@32@v-mp-6@Мам, быстрее... Думаешь, все только и мечтают на твою попку смотреть? Все голодные! Давай, ложись на колени...|Hurry up, mom, we don't have time to stare on your ass all day, everyone is hungry! Get on my knees.
+		13.fa.10^		<i>наблюдать</i>|<i>watch</i>
+
+	13.fa.10@4@v-mp-7@<i>Мама стала такой послушной... Но ей точно это всё очень нравится... Может быть, даже больше, чем Алисе!</i>|<i>Mom is so obedient. She must love what's going on... She's probably enjoying it even more than Alice!</i>
+		13.fa.11^		<i>далее</i>|<i>continue</i>
+
+	13.fa.11@33@v-mp-8@Ну вот. Надеюсь, ты усвоила этот урок... Одевайся. Хватит наказаний на сегодня...|That's better. I hope you've learned your lesson. Get dressed. That's enough punishment for today.
+		hour=9&breakfast.default^		Конечно! Пока это всё. Пора завтракать...|Yes, that's enough. It's time for breakfast
+		hour=19&dinner.default^			Конечно! Пока это всё. Пора ужинать...|Yes, that's enough. It's time for dinner
+
+
+
+# --- 0.13: Йога.
+
+	13.ga.0@75@p-yoga-4@Ну, ты знаешь что делать...|You know what to do...
+		yocan=1&13.ga.1!nocook^			Ну да...|Yeah...
+		yocan=2&13.ga.4!nocook^			Да, как раз об этом...|About that...
+		yocan=3&13.ga.11!nocook^		Насчёт прошлого разговора...|Do you remember our previous conversation?
+		yocan=4&13.ga.26!nocook^		Раздеваться!|To undress!
+		yocan=5&13.ga.34!nocook^		Знаю...|I do...
+		yocan=6&13.ga.41!nocook^		Конечно!|Of course
+		yocan=7&13.ga.49!nocook^		О да!|Oh yeah!
+		yocan>7&13.gb.0!nocook^			Это точно!|That's right!
+
+
+	13.ga.1@67@p-yoga-7@Ох, Макс... Мне начинает казаться, что ты сюда приходишь, чтобы попялиться на мою попку...|I'm starting to think you only do this exercises to stare at my ass, Max...
+		13.ga.2^		Может быть...|Maybe...
+		13.ga.2^		Именно!|Of course I do!
+
+	13.ga.2@69@Ох, сынок... Ты меня отвлекаешь. Сосредоточься на упражнении... Ну или попробуй...|Oh, son... You're distracting me. We need to focus on the exercises...
+		13.ga.3^		Ага, попытаюсь...|I'll try...
+
+	13.ga.3@3@<i>Хм... Интересно, мне удастся убедить маму заниматься йогой... голой? Вот было бы круто! Но не сегодня...</i>|<i>Hm... Can I convince mom to do yoga naked? That would be so cool! Not today, though...</i>
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_200!set_yocan_2!time^		<i>закончить</i>|<i>finish</i>
+
+
+	13.ga.4@73@Что-то случилось? Может быть, я тебя смущаю и мне стоит одеться?|Did something happen? Am I making you uncomfortable? Should I cover myself?
+		13.ga.5^		Наоборот...|On the contrary...
+
+	13.ga.5@62@v-my-1@Что... наоборот? Раздеться? Я и так почти голая. Не говори глупостей!|What do you mean? I'm almost naked anyway! Don't be ridiculous, Max!
+		13.ga.6^		Йогой полезно заниматься голыми!|Yoga is most effective when you're naked!
+
+	13.ga.6@67@v-my-2@Ох, сынок... Ну что у тебя за фантазии... Не говори глупостей... Здесь же Лиза душ принимает, что она подумает?|I like you imagination, son, but... Lisa is right there, taking a shower. She's gonna see us!
+		13.ga.7^		То, что мы становимся ближе к природе...|So what? We'll tell her we're getting closer to nature or something
+
+	13.ga.7@73@Скорее, к дурдому... Нет, я не буду раздеваться... Это... неправильно...|Closer to the madhouse, more like... I'm not going to get naked, Max, it's so... wrong...
+		13.ga.8^		После всего, что у нас было?|After everything we've already done?
+
+	13.ga.8@69@То, что было у нас - это одно, а делать это на глазах у всей семьи... И хватит уже об этом... Если жарко, можешь раздеться сам...|At least we haven't done anything in front of the entire family, Max! I don't want to talk about it. You can take off your shorts if you want to...
+		13.ga.9^		<i>снять шорты</i>|<i>take off shorts</i>
+
+	13.ga.9@75@v-my-3@Макс... И что дальше ты планируешь делать? Будешь трясти своим хозяйством у всех на глазах? Это же глупо...|Max... What are you going to do now? Are you going to swing your thing around in front of everyone? It's silly...
+		13.ga.10^		Глупо, если я один такой. Поддержи меня!|It's only silly if I'm the only one doing it. Don't you want to help me out?
+
+	13.ga.10@67@Ох, сынок... Не знаю, не знаю... Я подумаю. А сейчас одевайся и... хватит на сегодня. Уже много времени прошло, пора на кухню...|Oh, son... I don't know... I'll think about it. Get dressed and ... that's enough for today. I need to make a breakfast.
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_200!set_yocan_3!time^		Эх, ладно...|Fine...
+
+
+	13.ga.11@73@Какого разговора? Ах, насчёт йоги без одежды... Всё ещё не передумал?|The one about doing yoga naked? Please tell me you've changed your mind, Max...
+		13.ga.12^		Нет!|No
+
+	13.ga.12@69@v-my-1@Ты знаешь, я почитала несколько статей на эту тему... Идея, может быть, и не такая плохая... Но мы же здесь не одни...|You know, I've read some stuff about doing yoga naked online and... Turns out your idea isn't as stupid as it sounds at first... But we're not alone here...
+		13.ga.13^		И чего ты стесняешься?|So what? Who's going to see you but family?
+
+	13.ga.13@73@Я не стесняюсь, но что они подумают?|But what would they think?
+		13.ga.14^		Вот и расскажешь про статьи...|Just can tell them all that stuff you've read online
+
+	13.ga.14@69@Ну не знаю, сынок, не знаю... Конечно, попробовать можно... В конце концов, мы все друг друга видели голыми кучу раз... и не только...|I don't know, son... We could try, I guess... We've all seen each other naked a bunch of times already anyway... And more...
+		13.ga.15^		Вот именно! <i>(снять шорты)</i>|Exactly! <i>(take off shorts)</i>
+
+	13.ga.15@67@v-my-3@Ну... ладно. Ты такой настойчивый... Стоит нам начать и опять перевозбудишься же? Обещаешь не приставать?|Well... Okay. You're so persistent... Aren't you going to get hard once we start? Do you promise not to mess around?
+		13.ga.16^		Не обещаю...|I promise nothing
+
+	13.ga.16@75@Я так и знала... Ну, давай попробуем... Но постарайся не возбуждаться, подумай о чём-то... другом... ну, ты понимаешь... А то это будет очень мешать. Хорошо?|I knew it... Well, let's try... Try not to get hard, okay? Think about something else... We don't want to get distracted.
+		13.ga.17^		Конечно!|Of course
+
+	13.ga.17@43@v-my-8@Ой... Мам, Макс... А что это вы делаете в таком виде? Очень жарко стало?|Oh... Hi, mom, Max... What are you doing here looking like that? Is the weather too hot?
+		13.ga.18^		Йогой занимаемся!|We're doing yoga
+
+	13.ga.18@69@Вот, сынок, я же тебе говорила, что это плохая идея... Мы, Лиза, занимаемся йогой. Я прочитала, что это очень полезно для души и тела...|I've told you it's a bad idea, son... We're doing yoga, Lisa. I've read online about it, doing it naked is very good for the body and soul...
+		13.ga.19^		Вот!|That's right!
+
+	13.ga.19@43@Не боишься, что Макс во время занятия тебя... чем-то заденет?|Aren't you afraid Max is going to, em ... poke your eye out?
+		13.ga.20^		Эй!|Hey!
+
+	13.ga.20@73@v-my-9@Нет, не боюсь. Макс держит себя в руках. Видишь, он совершенно спокоен и сконцентрирован на... йоге...|No, I don't. Max is being a gentleman. You see, he's completely calm and concentrated on ... yoga.
+		13.ga.21^		Да, я очень... это... того...|Yes, what she said
+
+	13.ga.21@41@Хочешь сказать, что его ничто не может сбить с этого... настроя? А если ты нагнёшься, например?|Are you telling me he won't get distracted? What if you bend over?
+		13.ga.22^		Ничто не может...|It will be fine...
+
+	13.ga.22@43@v-my-11@Ну... Сейчас и проверим... Та-а-да-а-м! Не ожидали? Сейчас посмотрим на концентрацию Макса...|Let's see... How about now? You didn't expect that, did you? Let's see how concentrated Max is going to be...
+		13.ga.23^		Ох...|Oh...
+
+	13.ga.23@68@Лиза! Что ты делаешь? Оденься, быстро! Мы же... А ты... Ну я не знаю, дочка, что ты задумала, но...|What are you doing, Lisa!? Cover yourself! We were just... And now you ... I don't know what you're getting at, but...
+		13.ga.24^		<i>далее</i>|<i>continue</i>
+
+	13.ga.24@43@v-my-12@Я задумала доказать, что Макс не держит себя в руках. Видишь, у него опять встал! Значит, я была права!|I wanted to show you how Max can't control himself. And he's hard again, you see! That means I was right!
+		13.ga.25^		Так нечестно!|That's cheating!
+
+	13.ga.25@69@Ох, Лиза... Совсем стыд потеряла... Хотя, в данной ситуации это ко всем нам относится. Ладно, на сегдня закончим... йогу, так сказать...|Wow, Lisa... You're completely shameless... Said the kettle... Okay, that's enough yoga for today.
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_200!set_yocan_4!time^		Ну ладно...|Okay...
+
+
+	13.ga.26@69@v-my-3@Что, прошлого раза не хватило? Ты же будешь всё время напряжён...|Don't you remember the last time? You're going to get hard again...
+		13.ga.27^		Ну и что...|So what?
+
+	13.ga.27@67@Ну, если тебя это не волнует... Ладно, будь по твоему...|I mean, if you're fine with that, then... I guess we can start.
+		13.ga.28^		Супер!|Great!
+
+	13.ga.28@69@v-my-4@Кажется, ты опять... Ох, сынок... когда я вижу тебя в таком состоянии, мне хочется тебе как-то помочь... А я должна йогой заниматься...|I think you're already... I can't look at you when you're in this condition... I feel the need to help you out... We're supposed to do yoga here, you know?
+		13.ga.29^		Да всё в порядке...|That's okay, mom
+
+	13.ga.29@67@Да? Ладно... Поможешь мне пресс покачать? Подержишь ноги?|If you think so... Can you help me with my press exercise? Hold my legs, please.
+		13.ga.30^		Э... Конечно!|Em... Sure!
+
+	13.ga.30@4@v-my-7@<i>Мама меня специально провоцирует?! Она же видит куда я смотрю и... улыбается? Прикольно... Интересно, может себе позволить что-то?</i>|<i>Is mom teasing me right now!? She has to know where I'm looking... She's smiling! Does this mean I can try something...?</i>
+		13.ga.31^		<i>далее</i>|<i>continue</i>
+
+	13.ga.31@67@Так, а теперь следующее упражнение. Постарайся сконцентрироваться...|Okay, next exercise. Try to focus, Max...
+		13.ga.32^		Ага...|Yeah...
+
+	13.ga.32@75@v-my-5@Сынок! Ты точно сконцентрирован не на том. Совершенно! Повторяй за мной...|You're focusing on the wrong thing, son! Repeat after me...
+		13.ga.33^		Э... ну... да...|I ... eh ... yea...
+
+	13.ga.33@67@Ясно... Думаю, на сегодня хватит с тебя. Иди прими холодный душ. Нет. Ледяной! Завтра продолжим...|I see. I think that's enough for today. Go take a cold shower. We'll continue tomorrow.
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_250!set_yocan_5!time^		Ага...|Okay...
+
+
+	13.ga.34@69@v-my-4@Сынок... Я не знаю... Не могу я на тебя смотреть... Я так возбуждена, что у самой все мысли только о... ну ты знаешь...|I don't know if I can do it, son... I'm so wet right now, I can't think about anything but ... you know...
+		13.ga.35^		О да, знаю...|I do...
+
+	13.ga.35@4@v-my-13@<i>Точно! Она меня провоцирует специально! Вот только на что? Неужели хочет, чтобы я подошёл и... что дальше?</i>|<i>Okay, she's definitely teasing me on purpose! Does she want me to ... to do what?</i>
+		13.ga.36^		<i>далее</i>|<i>continue</i>
+
+	13.ga.36@43@v-my-8@Ну что, йоги... сломалась ваша концентрация? Даже без моей помощи!|Hey there, yogis... Looks like your concentration is broken again. And I wasn't even here!
+		13.ga.37^		Ты о чём?|What?
+
+	13.ga.37@41@v-my-10@Вот об этом... Мам, он тебя не смущает в таком... состоянии?|About your... Are you really fine with him in this state, mom?
+		13.ga.38^		<i>далее</i>|<i>continue</i>
+
+	13.ga.38@73@Дочка, ну что я могу поделать... Юношеский организм... Гормоны... Пусть учится концентрации. Это полезно...|It's not like I can do anything about it... He's a young healthy man... Hormones... He should learn some self control, it's gonna be good for him.
+		13.ga.39^		О, точно!|That's right!
+
+	13.ga.39@43@Ладно... Концентрируйтесь дальше. Я постараюсь на вас не смотреть больше, чтобы не смущать, а то... у самой... концентрация хромать начинает...|Fine, concentrate away. I won't bother you anymore. Besides, I'm starting to lose my concentration myself here...
+		13.ga.40^		Отличная мысль...|Great idea
+
+	13.ga.40@69@Думаю, ты права, дочка. Если ты не будешь на нас смотреть, всем будет проще... Ну, на сегодня хватит... йоги...|I think you're right, Lisa. If you not watching will be best for everyone. Let's stop for today.
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_250!set_yocan_6!time^		Ага...|Okay
+
+
+	13.ga.41@73@v-my-4@И что ты думаешь сынок? Лиза и правда не смотрит на нас?|What do you think, son? Do you really think Lisa isn't going to watch anymore?
+		13.ga.42^		Конечно не смотрит!|Yeah!
+
+	13.ga.42@67@v-my-5@Ох, а я вот в этом сомневаюсь... Я бы подглядывала...|I'm not so sure about that... I would...
+		13.ga.43^		Нет, она не смотрит...|In any case, she's not looking...
+
+	13.ga.43@69@Хорошо, если так... А то мне кажется, что наши отношения уже не секрет для неё...|That's good... I'm starting to think she knows about us already...
+		13.ga.44^		А если и так?|So what if she does?
+
+	13.ga.44@73@v-my-7@Тогда... Я не знаю. Надеюсь, я ошибаюсь. Не хочу даже думать об этом... Ладно, давай продолжим...|Then... I don't know. I hope I'm wrong. I don't want to think about it. Let's go yoga.
+		13.ga.45^		Ага...|Sure
+
+	13.ga.45@4@v-my-13@<i>Мама заметила, что Лиза ушла и... опять начала меня провоцировать? Ну что же...</i>|<i>Mom saw Lisa leaving the bathroom and... Is the teasing me again? Well...</i>
+		13.ga.46^		<i>подойти ближе</i>|<i>come closer</i>
+
+	13.ga.46@67@v-my-14@Сынок, ты как-то неправильно делаешь упражнение... Ты что задумал?|That's not how you do this exercise, Max... What are you doing?
+		13.ga.47^		<i>потрогать маму</i>|<i>touch mom</i>
+
+	13.ga.47@73@v-my-16@Макс! Прекрати... Ты пользуешься тем, что я... слишком... ох... сынок, ну хватит...|Max! Stop... You're using the fact that I'm so... Oh... Stop, son...
+		13.ga.48^		<i>продолжать...</i>|<i>continue</i>
+
+	13.ga.48@75@v-my-15@Так... Макс! Ну всё... Поигрался, хватит... на сегодня... в другой раз... Хватит!|Max! That's enough ... for today... Another time...
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_250!set_yocan_7!time^		Ну ладно...|Okay...
+
+
+	13.ga.49@67@v-my-4@Сынок, в прошлый раз... Я чуть сама на тебя не накинулась... Но нужно быть осторожнее... Ты же знаешь, что кругом глаза...|Son... Last time I almost jumped you myself... But we have to be careful ... while we're here in the open...
+		13.ga.50^		Никто не увидит!|No one's going to see!
+
+	13.ga.50@73@v-my-7@Ну не знаю... Лиза до сих пор в душе. Нам не нужно делать это при ней...|I don't know... Lisa is in the shower right now... We can't do it in front of her...
+		13.ga.51^		Подождём...|Let's wait then
+
+	13.ga.51@67@v-my-5@Ты отвлекаешься... Сосредоточься на упражнениях... Ну пожалуйста...|You're distracted, Max... Focus on the exercise... Please...
+		13.ga.52^		Попробую...|I'll try...
+
+	13.ga.52@4@v-my-13@<i>Блин... Да как тут сосредоточиться? Она же меня провоцирует! Ну уж нет, так не пойдёт...</i>|<i>How am I supposed to concentrate in this situation? She's teasing me so hard! I can't wait anymore!</i>
+		13.ga.53^		<i>подойти</i>|<i>come over</i>
+
+	13.ga.53@69@v-my-14@Сынок, я знаю что ты опять задумал... Но Лиза... Вдруг она вернётся?|I see you want to do something again, Max... What about Lisa? What if she comes back again?
+		13.ga.54^		Она уже ушла!|She already left
+
+	13.ga.54@75@v-my-16@Ну... если так... Ничего, что я в такой позе? Может быть, уйдём в мою комнату?|In that case... Is it okay I'm in this pose? Should we go to my room?
+		13.ga.55^		Отличная поза... Мне нравится!|It's a great pose, I love it!
+
+	13.ga.55@73@v-my-15@Не сомневаюсь... мне тоже нравится... нравится то, что ты делаешь... Ох, сынок... Я уже не соображаю, что происходит...|I'm sure you do. I like it too... I like what you're doing... Oh, son... I can't think straight anymore...
+		13.ga.56^		<i>пристроиться сзади</i>|<i>get closer</i>
+
+	13.ga.56@69@v-my-18@Ты... ты что делаешь... Ну... ладно... Трахни меня! Но только давай быстро... пока нас не увидели... И кончи на попку...|What ... what are you doing, Max...? Oh ... Fine! Fuck me already! I can't wait anymore! But be quick before we get caught... And don't cum in me, please.
+		13.ga.57^		<i>войти в маму сзади</i>|<i>enter mom from behind</i>
+
+	13.ga.57@4@v-my-20@<i>О да! Мама совершенно перестала стесняться... Прямо перед домом, когда все ходят туда-сюда в ванную и обратно!</i>|<i>Finally! Mom doesn't even care we're outside! Right in front of the house where anyone can go to the bathroom and see us!</i>
+		13.ga.58^		<i>ускориться</i>|<i>speed up</i>
+
+	13.ga.58@3@v-my-19@<i>Мама специально в такой позе, чтобы все думали, что это у нас такое упражнение? Ну да, со стороны может быть... но... сомневаюсь...</i>|<i>Did mom chose this position so people might think we're still doing yoga? I doubt we will fool anyone, though...</i>
+		13.ga.59^		<i>далее</i>|<i>continue</i>
+
+	13.ga.59@4@v-my-20@<i>Да ещё так кричит... Нас точно заметят! Ну и ладно... Все и так всё уже знают... Пусть завидуют! Ох... я кончаю!</i>|<i>And she's so loud! We're going to get caught! That's fine, I don't care ... Everyone already knows anyway... I'm cumming!</i>
+		13.ga.60^		<i>кончить на её попку</i>|<i>cum on her ass</i>
+
+	13.ga.60@75@v-my-17@Ох... сынок... Это было... Так неожиданно и... так хорошо... Я ни разу не кончала во время йоги! Спасибо тебе... Ну, я в душ!|Wow, son... That was... So unexpected and ... so good... I never came on my yoga exercise before! Thank you, Max. I'm going in the shower.
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!max_cam.6.grow_300!add_tod_1!set_yocan_8!time^		Ага...|Yeah...
+
+
+
+# --- 0.13: Периодическая новая йога
+
+	13.gb.0@67@v-my-4@Мне так нравится... с тобой вместе заниматься... И спортом и... вообще, всем...|I love doing ... yoga with you, Max... Amongst other things...
+		13.gb.1^		Мне тоже, мам...|Me too, mom
+
+	13.gb.1@69@v-my-7@Но... нам нужно быть осторожными... ну, насколько это возможно... в данной ситуации...|But we have to be careful, Max... If that even applies in this situation...
+		13.gb.2^		Конечно, мам...|Of course, mom
+
+	13.gb.2@67@v-my-5@Кажется, Лиза закончила принимать душ... Я ни на что не намекаю, просто... Сообщаю тебе...|I think Lisa left the bathroom... I'm not trying to tell you anything, just... You know...
+		13.gb.3^		Да, я всё понял...|I get it, mom
+
+	13.gb.3@4@v-my-13@<i>Определённо, я всё понял... Мама ждёт, пока я её трахну прямо перед домом! О да...</i>|<i>Hell yeah I get it. Mom can't wait till I fuck her in front of the entire house!</i>
+		13.gb.4^		<i>подойти ближе</i>|<i>come closer</i>
+
+	13.gb.4@67@v-my-16@Сынок... Ты поглядывай по сторонам... Не хочу сейчас ни перед кем объясняться... Ох... какие нежные пальчики...|Don't forget to look around, Max... I don't want to explain myself to anyone... Oh, you're so good at this...
+		13.gb.5^		<i>продолжать</i>|<i>continue</i>
+
+	13.gb.5@4@v-my-15@<i>Мама вся мокрая... Мне кажется, она йогой сейчас занимается только ради... вот этого!</i>|<i>Mom is so wet... I think this is the only reason she does her yoga now...</i>
+		13.gb.6^		<i>войти в маму</i>|<i>enter mom</i>
+
+	13.gb.6@3@v-my-20@<i>О да! Если нас и увидят - мне плевать! Я буду трахать маму где и когда захочу!</i>|<i>Yes! I don't care if we get caught, I'm going to fuck mom wherever and whenever I want!</i>
+		13.gb.7^		<i>продолжать</i>|<i>continue</i>
+
+	13.gb.7@4@v-my-19@<i>Отличное начало утра! Что может быть лучше? Только ещё больше секса! О да...</i>|<i>This is such a great way to start the day! What could be better? Only even more sex! Yes...</i>
+		13.gb.8^		<i>продолжать</i>|<i>continue</i>
+
+	13.gb.8@3@v-my-20@<i>Кажется, мама кончает! И... я тоже скоро... уже совсем близко... вот-вот...</i>|<i>I think mom is cumming! And I'm about to follow... Here it comes...!</i>
+		13.gb.9^		<i>кончить на её попку</i>|<i>cum on her ass</i>
+
+	13.gb.9@75@v-my-17@Сынок... Ты сегодня в ударе! Мне... очень понравилась наша... совместная йога... Буду ждать следующего раза...|You were great today, son! I loved our ... morning exercises... I'll be waiting our next time...
+		leave!add_mom.mood_50!add_count.fiz_1!add_mom.yoga.first_1!add_tod_1!max_cam.6.grow_300!time^		Я тоже, мама... я тоже...|Me too, mom... Me too...

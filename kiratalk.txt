@@ -1,0 +1,1577 @@
+# --- 0.3: Приезд Киры|Kira's Ankunft
+
+	specialevent.4@75@e-meet-eric-1@Ну что, дети, дождались? Встречайте, к нам приехала тётя Кира!|He, Kinder, kommt her! Hier ist Tante Kira!
+		sp.4.next.1!set_can.seekira_1!set_tier_2^	Супер!|Super!
+
+	sp.4.next.1@101@e-kira-come-1@Это кто тут у нас? Макс? Я тебя не узнала! Почти настоящий мужчина!|Wen haben wir hier? Bist du das, Max? Ich habe dich kaum erkannt! Wow, du bist fast ein erwachsener Mann!
+		sp.4.next.3^					Здравствуй, тётя Кира!|Hi, Tante Kira!
+		sp.4.next.2b^					Что значит почти? Я настоящий мужчина!|Was meinst du mit "fast"? Ich bin schon ein Mann!
+
+	sp.4.next.2b@102@e-kira-come-0@Да я шучу, Макс. Конечно, ты уже мужчина. Вижу, всё у тебя в порядке. И как ты только держишься среди таких девчонок? Кстати, где Лиза и Алиса?|Ich mache nur Spaß, Max. Natürlich bist du ein Mann. Ich sehe, dass du erwachsen bist! Wie schaffst du es überhaupt unter all diesen Damen? Übrigens, wo sind Lisa und Alice?
+		sp.4.next.3^					Уже бегут...|Hier sind sie....
+
+	sp.4.next.3@103@e-kira-come-2@Лиза? Алиса? Неужели, это вы? Все такие большие, с меня ростом!|Lisa, Alice? Seid ihr das? Ihr seid so groß, ihr seid so groß wie ich!
+		sp.4.next.4^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.4@43@e-kira-come-3@Тётя Кира! Ура! Я так соскучилась!|Tante Kira! Ich habe dich so sehr vermisst!
+		sp.4.next.5^					Хорошую подушку ты нашла...|Du hast hier ein schönes Bett....
+
+	sp.4.next.5@31@e-kira-come-4@Я так рада, что ты приехала! Ты же надолго, да?|Ich bin so froh, dass du gekommen bist! Wirst du für eine längere Zeit bleiben?
+		sp.4.next.6^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.6@104@Что, уже выгоняете?!|Wirfst du mich schon raus?
+		sp.4.next.7^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.7@75@Что ты, Кира, оставайся хоть навсегда! Я тоже очень рада тебя видеть, сестрёнка!|Natürlich nicht, Kira! Ich bin so froh, dich zu sehen und dass du für immer bleiben kannst, wenn du willst!
+		sp.4.next.8^					А мне можно тоже обнять свою тётю?|Kann ich meine Tante auch umarmen?
+		sp.4.next.9^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.8@42@Нет! Она моя! Никому не отдам!|Nein! Sie gehört mir! Hol dir eine andere!
+		sp.4.next.9^					Ну и ладно. Я тогда... потом.|Gut. Vielleicht später
+
+	sp.4.next.9@62@Кира, ты меня удивляешь! Не в мини-юбке... да ещё и такая нарядная! Неужели, прямо в таком виде летела в самолёте?|Kira, du überraschst mich! Du trägst keinen Minirock und bist stattdessen schick angezogen! Bist du in diesem Aufzug geflogen?
+		sp.4.next.10^					Да, кстати...|Ja, ich bin auch neugierig.
+
+	sp.4.next.10@103@Нет, что ты. Я прилетела пару дней назад и остановилась в гостинице. Просто... нужно было разобраться кое с чем. Но с делами покончено и специально ради вас я наряжалась всё утро!|Nein, natürlich nicht. Ich bin vor ein paar Tagen hierher geflogen und habe im Hotel Halt gemacht. Ich hatte.... ein paar Dinge zu erledigen. Aber jetzt, da das Geschäft vorbei ist, habe ich mich nur für dich herausgeputzt!
+		sp.4.next.11a^					В гостинице?|In einem Hotel?
+		sp.4.next.11b^					Дела?|Was für ein Geschäft?
+		sp.4.next.11a^					Так ты два дня здесь?|Du bist schon seit zwei Tagen hier?
+
+	sp.4.next.11a@100@Да, я прошу прощения, что не предупредила, но не могла завалиться к вам, чтобы тут же убежать. Но я со всем разобралась, всё в порядке, теперь я тут!|Es tut mir leid, dass ich es dir nicht früher gesagt habe, aber ich wollte nicht kommen und sofort wieder gehen. Deshalb habe ich mein ganzes Geschäft erledigt, bevor ich herkam. Aber jetzt ist alles vorbei und ich bin hier!
+		sp.4.next.12^					А мне любопытно, что за дела?|Ich würde gerne etwas über das Geschäft wissen.
+
+	sp.4.next.11b@100@Ага. Не буду утомлять вас подробностями, это никому не интересно. Скажу лишь, что всё улажено и теперь я свободна для своей семьи!|Ich will dich nicht mit Details langweilen, es interessiert sowieso niemanden. Ich werde einfach sagen, dass alles erledigt ist und jetzt bin ich völlig frei!
+		sp.4.next.12^					А мне любопытно, что за дела?|Ich würde gerne etwas über das Geschäft wissen.
+
+	sp.4.next.12@62@Макс, ну хватит пытать свою тётю. Она сама расскажет, если захочет, верно? А теперь пойдёмте все в дом, скоро будем завтракать.|Max, hörst du auf, deine Tante zu belästigen? Sie wird es dir sagen, wenn sie will. Gehen wir ins Haus, wir frühstücken bald.
+		sp.4.next.13^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.13@101@e-kira-come-5@Так как у меня было время подготовиться к встрече с вами, я приехала не с пустыми руками и привезла вам кое-что...|Da ich etwas Zeit hatte, um mich vorzubereiten, habe ich Geschenke für dich!
+		sp.4.next.14^					Ух-ты!|Wow!
+
+	sp.4.next.14@103@Я уже в курсе вашей истории с потерянным вещами. Поэтому, я уточнила у вашей мамы ваши размеры и купила лёгкую домашнюю одежду. И, кажется, правильно сделала. В джинсах в такую жару дома? Ужас!|Ich habe von deinen fehlenden Sachen gehört, also habe ich deine Größen herausgefunden und dir ein paar Kleider gekauft, die du im Haus tragen kannst. Das Tragen von Jeans bei diesem Wetter muss qualvoll sein!
+		sp.4.next.15^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.15@43@Ой! Я обожаю новые вещички. А что ты мне привезла, тётя Кира, а?|Ich liebe neue Kleider! Was hast du mir mitgebracht, Tante Kira?
+		sp.4.next.16^					Я думал у нас Алиса шмотки любит...|Ich dachte, Alice ist diejenige, die von Kleidung besessen ist.
+
+	sp.4.next.16@41@Макс, какой ты глупый, кошмар! Шмотки любят все девушки! Ну так что там?|Du bist so dumm, Max! Alle Frauen lieben neue Kleider!
+		sp.4.next.17^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.17@101@Так, вы все давайте держите новую одежду, переодевайтесь и приходите сюда, мы посмотрим. А тебе, Макс, я ничего не купила. Подумала, что ты можешь и в шортах ходить. Но подарок тебе сделаю, позже...|Es gibt neue Kleider für alle, zieh dich um und komm zurück. Übrigens, ich habe dir nichts mitgebracht, Max. Ich dachte, du kannst einfach in kurzen Hosen bleiben. Ich habe noch ein anderes Geschenk für dich, ich gebe es dir später....
+		sp.4.next.18^					Да не стоит...|Es ist keine große Sache.
+		sp.4.next.18^					<i>про?олчать</i>|<i>sei ruhig</i>
+
+	sp.4.next.18@43@e-wear-nc-liza-1@Ну как вам? Такой классный топ и юбочка и мой любимый цвет, представляете!|Was meinst du dazu? Ich liebe dieses Oberteil und Rock, und es ist meine Lieblingsfarbe!
+		sp.4.next.19a^					Выглядит отлично!|Sieht toll aus!
+		sp.4.next.19b^					Ну-ка, повернись...|Dreh dich um
+
+	sp.4.next.19a@62@Да, вот только меня немного смущает длина юбки. Видимо, Кира, ты на свой вкус выбирала. Лиза, покрутись, пожалуйста...|Ja, aber ich mache mir Sorgen um die Rocklänge. Sieht aus wie etwas, das du tragen würdest, Kira. Kannst du dich umdrehen, Lisa?
+		sp.4.next.19b^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.19b@43@e-wear-nc-liza-2@Мне кажется, что не слишком коротко. В самый раз! И теперь так свободно и легко... Спасибо тебе, тётя Кира!|Ich finde es nicht zu kurz, die Länge ist genau richtig! Es ist so frei und leicht! Danke, Tante!
+		sp.4.next.20^					Да, длина в самый раз...|Ich denke, die Länge ist auch ganz hervorragend.
+
+	sp.4.next.20@33@e-wear-nc-alisa-1@Ну всё, теперь моя очередь! Как вам? Лично мне очень нравится! Давно надо было раздеться.|Okay, jetzt bin ich dran! Was denkst du denn? Ich liebe es, ich hätte meine Jeans schon vor langer Zeit loswerden sollen!
+		sp.4.next.21^					Именно!|Genau!
+
+	sp.4.next.21@62@Я не поняла. А трусы то на тебе хоть есть? Ты же не планируешь в таком виде ходить дома, Алиса?|Hast du überhaupt ein Höschen dabei? Wirst du das ernsthaft im Haus tragen?
+		sp.4.next.22^					А что такого? Пусть ходит, я не против...|Was ist daran so schlimm? Lass sie tragen, was sie will, es macht mir nichts aus.
+		sp.4.next.22b^					<i>промолчать</i>|<i>sei ruhig</i>
+
+	sp.4.next.22@31@Спасибо, Макс! Мам, а что такого? Ты не представляешь как жарко было в джинсах, а теперь хоть тело дышит. Да и жара такая на улице и дома...|Danke, Max! Warum nicht, Mom? Kannst du dir vorstellen, wie heiß meine Jeans ist? Lass meinen Körper ein wenig atmen.
+		sp.4.next.23^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.22b@23@Мам, да всё в порядке. На мне шорты, ничего не видно. Вот, смотри...|Es ist in Ordnung, Mom. Schau, ich trage Unterwäsche, du kannst es nur nicht sehen.
+		sp.4.next.23^					<i>далее</i>|<i>fortfahren</i>
+
+	sp.4.next.23@68@e-wear-nc-alisa-2@Алиса, у тебя же всё видно, аж грудь вываливается! Смотри, как Макс таращится. Кажется, он даже завис...|Du kannst alles sehen, Alice, deine Brüste fallen praktisch aus! Sieh dir Max an, ich glaube, du hast ihn geknackt.
+		sp.4.next.24^					Э... Ну... да...|Huh.... was.... ja....
+
+	sp.4.next.24@21@Мам, я дома могу одеваться так, как мне нравится. Ну и что, что Макс. Я из-за него не буду целыми днями ходить в парандже! Мне удобно, выглядит отлично! Ну а если и увидит что-то, пусть радуется, мне всё равно...|Mom, ich kann zu Hause tragen, was ich will. Max ist mir egal, ich werde keine Burka tragen, nur damit er nichts sehen kann! Ich fühle mich wohl, es sieht toll aus! Wenn mich jemand sehen will - lasst ihn, es ist mir egal.
+		sp.4.next.25^					Отличная речь, сестрёнка!|Nette Rede, Schwester!
+
+	sp.4.next.25@62@e-wear-nc-mom-1@Ну, теперь и моя очередь. Как вам? Не слишком откровенно?|Okay, jetzt bin ich dran. Was denkst du denn? Nicht zu dreist?
+		sp.4.next.26^					Нет, мам, всё отлично!|Nein, Mom, es ist toll!
+		sp.4.next.26^					А можешь немного повернуться?|Kannst du dich umdrehen?
+
+	sp.4.next.26@60@e-wear-nc-mom-2@Мне кажется, шортики слишком короткие... Я в них еле влезла, если честно. Надо худеть...|Ich denke, Shorts sind zu kurz, ich kann kaum hineinpassen. Ich muss etwas abnehmen....
+		sp.4.next.27^					Ты знаешь, длина оптимальная!|Ich denke, die Länge stimmt!
+		sp.4.next.27!add_mom.mood_30^	Мне нравится, мам!|Ich liebe es, Mom!
+
+	sp.4.next.27@101@Ань, всё сидит на тебе просто отлично. И очень идёт этот цвет, кстати... Ну а теперь моя очередь. Сейчас покажу, что себе прикупила...|Ann, alles steht dir perfekt. Und die Farbe ist auch sehr gut. Nun, jetzt bin ich dran. Ich zeige euch, was ich mir gekauft habe....
+		sp.4.next.28^					Интересно...|Mal sehen....
+
+	sp.4.next.28@104@e-wear-nc-kira-1@Ну, как я вам? Хороша? И Ань, ни слова больше. Тебе всё кажется слишком открытое или откровенное.|Was meinst du dazu? Gefällt es dir? Und Ann, nicht noch ein Wort. Du denkst immer, dass alles zu kurz und offen ist.
+		sp.4.next.29^					Мне нравится. Просто и со вкусом!|Es gefällt mir. Einfach und effektiv
+		sp.4.next.29^					Отличные... вещички!|Großartig.... Super!
+		sp.4.next.29^					И почти ничего не видно...|Du kannst sowieso nichts sehen.
+
+	sp.4.next.29@101@Вот, слышала, Ань, детям нравится. Естественно, если в семье есть мужчина, это накладывает свои ограничения, но нельзя же быть настолько зажатыми...|Siehst du, Ann, die Kinder lieben es. Natürlich schränkt ein Mann in einem Haus unsere Möglichkeiten ein, aber wir sollten nicht zu ängstlich sein.
+		sp.4.next.30^					Верно!|Das ist richtig!
+
+	sp.4.next.30@75@Ладно, посмотрим. Кира, мне кажется, что не стоило тратиться на подарки. Мы рады, что ты сама смогла к нам приехать... Но всё равно, большое спасибо!|Gut, wir werden sehen. Ich bin mir nicht sicher, ob du so viel Geld für Geschenke ausgeben solltest, aber vielen Dank! Wir sind froh, dass du gekommen bist, um bei uns zu bleiben.
+		bf.18^							Да, я проголодался!|Ja.\nÜbrigens, ich habe Hunger!
+
+
+
+# --- 0.3: Базовый разговор у бассейна с Кирой|Beginn der Gespräche am Pool
+
+	kt.init@0@Не против компании?|Möchtest du Gesellschaft?
+	kt@101@Конечно, Макс. Ложись рядом. Погода сегодня отличная!|Natürlich, Max. Hier, leg dich neben mich. Tolles Wetter heute!
+		kiratalk=0&kt.0^				Да тут всегда хорошая погода...|Wir haben hier immer so tolles Wetter.
+		kiratalk=1&kt.1^				Ага, как всегда...|Ja, wie immer.
+		kiratalk=2&kt.2^				Да, шикарная!|Ja, das Wetter ist toll!
+		kiratalk=3&kt.3^				Ну как, ты поговорила с мамой?|Hast du mit Mom gesprochen?
+		kiratalk=4&kt.4^				Насчёт того раза...|Etwas zu dieser Zeit....
+		kiratalk=6&kt.6^				Понравились фотографии?|Haben dir die Fotos gefallen?
+		kiratalk=8&kt.8^				Насчёт новой фотосессии...|Über die neue Fotosession....
+		leave!lock^						Ой, в другой раз...|Entschuldigung, wir reden ein andermal....
+
+
+# --- 0.3: начальный разговор с Кирой у бассейна|Gespräch mit Kira am Pool beginnen
+
+	kt.0@113@e-kira-max-sun-1@Ну, рассказывай, Макс, как ты тут живёшь, как твои дела, что нового?|Nun, Max, erzähl mir alles über dein Leben, was machst du hier, was gibt's Neues?
+		kt.0.next.1^					Ну, я... э...|Oh, Ich... ähm...
+
+	kt.0.next.1@101@Макс, тебя смущает мой купальник? Может быть, его снять?|Bist du von meinem Bikini abgelenkt? Soll ich ihn ausziehen?
+		kt.0.next.2a^					О... Да, было бы супер!|Was.... Ja, das wäre toll!
+		kt.0.next.2b^					Ну, я не знаю...|Oh, ich weiß nicht....
+
+	kt.0.next.2a@114@Ну да, не сомневаюсь. Только что же с тобой будет? Макс, ты можешь смотреть мне в глаза или мы тебя потеряли?|Da bin ich mir sicher. Aber was würde mit dir passieren? Max, kannst du mir in die Augen sehen oder haben wir dich verloren?
+		kt.0.next.3^					Извини, тётя Кира...|Es tut mir leid, Tante Kira.
+		kt.0.next.3^					Просто я отвлёкся...|Ich schätze, ich war abgelenkt.
+
+	kt.0.next.2b@114@Зато знаю я. Макс, постарайся не пялиться на мою грудь. Глаза чуть выше. Ау. Ты здесь, Макс?|Hör auf, auf meine Brüste zu starren, Max. Augen nach oben.
+		kt.0.next.3^					Извини, тётя Кира...|Es tut mir leid, Tante Kira.
+		kt.0.next.3^					Просто я отвлёкся...|Ich schätze, ich war abgelenkt.
+
+	kt.0.next.3@101@Да, это моя ошибка, что выбрала такой купальник. Если честно, то я обычно загораю голая, но вы же дети и стоит хоть немного прикрываться. Вот я и прикрылась... Макс!|Ja, es war mein Fehler. Um ehrlich zu sein, normalerweise sonne ich mich nackt, aber das wäre unpassend, also beschloss ich, zumindest eine Art Schutz zu haben.... Max!
+		kt.0.next.4^					А? Что?|Huh, was?
+
+	kt.0.next.4@103@e-kira-max-sun-2@Ого... Да я смотрю твой рост пошёл куда надо! И давно ты такое сокровище скрываешь?|Wow! Sieht aus, als wärst du an den richtigen Stellen gewachsen! Wie lange hast du diesen Schatz versteckt?
+		kt.0.next.5^					Ну, я не знаю...|Oh, ich weiß nicht....
+		kt.0.next.5^					Да я и не скрываю...|Ich verstecke mich nicht.
+
+	kt.0.next.5@114@Как я вижу, ты весь пошёл в отца... А кое в чём, так особенно...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Sieht aus, als wärst du nach deinem Vater gekommen.... Besonders in einem bestimmten Bereich....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Gelegenheit gefunden!</i></color>
+		kt.0.next.6a^					Что?!|Was!?
+		kt.0.next.6b^					Откуда ты знаешь, что...|Woher weißt du von....
+
+	kt.0.next.6a@113@Ой, я конечно про твою... скромность. Да, речь о ней. И, вообще, давай сменим тему!|Oh, ich sprach von deiner.... Schüchternheit. Ja, genau das habe ich gemeint. Wie auch immer, lass uns das Thema wechseln.
+		kt.0.next.7^					Тётя Кира!|Tante Kira!
+
+	kt.0.next.6b@113@Что я знаю? Ничего. Я так, про твою скромность, конечно... И, вообще, давай сменим тему!|Worüber? Ich sprach gerade von deiner.... Schüchternheit. Wie auch immer, lass uns das Thema wechseln.
+		kt.0.next.7^					Тётя Кира!|Tante Kira!
+
+	kt.0.next.7@104@А что тётя Кира? Проехали. Кое-кому, так вообще нужно принять душ и расслабиться. Может быть, и мне тоже, но вдвоём не стоит это делать. Так что, иди ты в душ. И включи холодную воду. Очень холодную!|Was Tante Kira? Lass uns weitermachen. Jemand muss eine kalte Dusche nehmen und sich entspannen. Und vielleicht auch ich, aber wir sollten das nicht zusammen machen, also geh duschen. Eiskalt. Sehr kalt!
+		kt.0.next.8!set_poss.aunt_1!set_dcd.kiratalk_1!add_kiratalk_1^	Хорошо...|Schön
+
+	kt.0.next.8@4@e-max-kira-shower-1@<i>Расслабиться в душе? Легко. Особенно, когда рядом такая женщина. Ух! Я и не задумывался о своей тёте в этом плане никогда, но сейчас что-то изменилось... или во мне или в ней...</i>|<i>Entspannen unter der Dusche? Langsam. Besonders neben so einer Frau! So habe ich nie über meine Tante nachgedacht, aber etwas hat sich geändert. Ich frage mich, ob es in mir oder in ihr ist....</i>
+		kt.0.next.9^					<i>снять напряжение</i>|<i>etwas Druck ablassen</i>
+
+	kt.0.next.9@10@e-max-kira-shower-2@О, Кира... Ты когда-нибудь станешь моей...|Tante Kira.... Eines Tages wirst du mir gehören....
+		leave!max_cam.6.grow_200!time^						Я же не сказал это вслух?|Ich hoffe, ich habe es nicht laut gesagt.
+
+
+
+# --- 0.3: 1й толковый разговор с Кирой|Erstes richtiges Gespräch mit Kira
+
+	kt.1@113@e-kira-max-sun-1@В прошлый раз наш разговор не очень удался. Ты был такой возбуждённый... Слушай, Макс, а у тебя есть девушка?|Unser vorheriges Gespräch war nicht sehr produktiv, du warst zu aufgeregt.... Max, hast du eine Freundin?
+		kt.1.next.2a^					Есть!|Ja, habe ich!
+		kt.1.next.2b^					Нет...|Nein...
+
+	kt.1.next.2a@101@А она об этом знает?|Weiß sie davon?
+		kt.1.next.2c^					Конечно!|Sicher!
+		kt.1.next.2b^					Ты права, нет девушки...|Du hast Recht, ich habe keine Freundin.
+
+	kt.1.next.2c@104@Ну ничего себе! А как её зовут?|Wow! Und wie ist ihr Name?
+		kt.1.next.2d^					Это не важно...|Es spielt keine Rolle.
+
+	kt.1.next.2d@101@Хорошо... Тогда последний вопрос. Ты её видишь прямо сейчас, она где-то здесь?|Okay.... Letzte Frage. Kannst du sie jetzt irgendwo bei uns sehen?
+		kt.1.next.2e^					Да я её не выдумал! Она не вымышленная девушка!|Ich habe sie nicht erfunden! Sie ist eine echte Freundin!
+
+	kt.1.next.2e@114@Ну тогда я рада за тебя, Макс. И давно вы встречаетесь?|Ich freue mich für dich. Wie lange seid ihr schon zusammen?
+		kt.1.next.2f^					Ну... Э...|Nun ja...
+
+	kt.1.next.2f@103@Я так и думала. Ладно, Макс, не стоит переживать по этому поводу. Ты же только приехал в новый город, из дома не выходишь. Ну скажи честно, нет же у тебя никакой девушки?|Dachte ich mir. Du musst dir keine Sorgen machen, Max. Du bist gerade in eine neue Stadt gezogen und verlässt nie das Haus. Sag mir die Wahrheit, du hast keine Freundin, oder?
+		kt.1.next.2b^					Ну да, ты права, нет...|Nein, ich habe keine....
+
+	kt.1.next.2b@103@Ну, это многое объясняет. Возраст такой, гормоны, кругом полуобнажённые девушки и женщины... Наверное, для тебя это каторга? Со мной можешь говорить откровенно. Я никому ни слова!|Das erklärt die Dinge. Dein Alter plus Hormone plus so viele schöne Frauen überall um dich herum.... Klingt wie die Hölle. Du kannst ehrlich zu mir sein, ich werde es nicht sagen.
+		kt.1.next.3^					Да, бывает возбуждаюсь...|Ja, manchmal werde ich hart....
+
+	kt.1.next.3@114@Это потому-что пялишься не туда, куда надо. В глаза смотри...|Weil du an die falschen Stellen starrst. Sieh mir in die Augen, Max.
+		kt.1.next.4^					Да, хорошо... Просто так само получается...|Oh, Entschuldigung. Ich mache das nicht mit Absicht....
+
+	kt.1.next.4@101@Понятно. Ну, старайся держать себя в руках. Хотя, я в прошлый раз видела как ты себя держал. Это не совсем то, что я имею в виду... Я слишком пошлая, да? Мне надо быть тактичнее?|Ich verstehe. Dann versuch, dich in Schach zu halten. Ich habe dich aber das letzte Mal gesehen, wie du dich "festhältst". Davon rede ich nicht.... Bin ich zu vulgär?
+		kt.1.next.5^					Что ты, всё хорошо!|Nein, du bist großartig!
+		kt.1.next.5^					Меня всё устраивает...|Ich bin damit völlig einverstanden.
+
+	kt.1.next.5@113@Я рада. Обычно я не слежу за языком и он меня в такие места заводит... Но с детьми надо быть... Хотя, ты уже совсем не ребёнок.|Okay, das ist gut zu wissen. Normalerweise denke ich nicht, bevor ich rede, und das bringt mich in alle möglichen Schwierigkeiten. Ich sollte vorsichtiger sein, jetzt wo ich hier wohne. Du bist aber erwachsen geworden.
+		kt.1.next.6^					Верно...|Richtig...
+
+	kt.1.next.6@101@Слушай, Макс, а как тебе удаётся с Лизой в одной комнате уживаться? Наверное, тяжело? Она же сверкает своим нижним бельём, да и спите вы рядом.|Hör zu, Max, wie kannst du mit Lisa im selben Raum schlafen? Du kannst Sie vermutlich in Unterwäsche sehen und du schläfst dicht bei ihr, oder?
+		kt.1.next.7^					Ну, был один инцидент...|Nun, da war dieses eine Mal....
+
+	kt.1.next.7@113@Утренний стояк, наверное? И как она отреагировала?|Morgenlatte, richtig? Was ist passiert?
+		kt.1.next.8^					Панику подняла, маму позвала!|Sie hat Mom angerufen....
+
+	kt.1.next.8@114@Представляю! Ну, я с Лизой тоже побеседую. Она уже не девочка... хотя, с вашей строгой мамой она о жизни толком ничего и не знает, похоже.|Ja, das kann ich mir vorstellen. Ich rede mit Lisa, sie ist kein kleines Mädchen mehr.... Obwohl, bei deiner Mom zu wohnen..., da weiss sie wahrscheinlich nicht viel.
+		kt.1.next.10^					Верно...|Richtig...
+		kt.1.next.9^					И что ты ей скажешь?|Was wirst du ihr sagen?
+
+	kt.1.next.9@101@Расскажу откуда дети берутся, конечно! Макс, ты такой смешной. У девочек свои секреты, тебе всё знать не обязательно...|Ich werde ihr natürlich die Vögel und Bienen erzählen! Es wird ein Mädchengespräch, du brauchst die Details nicht zu kennen.
+		kt.1.next.10^					Я понял...|Ich verstehe
+
+	kt.1.next.10@103@e-kira-max-sun-2@Макс... Кажется, тебе снова пора в душ. Может быть, мне как-то прикрываться, когда ты рядом, раз у тебя все мысли где-то в другом месте?|Max, ich glaube, du musst wieder duschen. Soll ich mich bedecken, wenn du da bist?
+		kt.1.next.11^					Не надо прикрываться!|Nein, bitte bedecke dich nicht!
+		kt.1.next.12^					Пожалуй, я пойду...|Okay, ich werde gehen.
+
+	kt.1.next.11@114@Ладно, не буду. Но в душ ты сходи. И обязательно холодный. А ещё лучше ледяной...|Okay, werde ich nicht. Jetzt geh und nimm eine kalte Dusche. Oder, noch besser, eine eisige.
+		kt.1.next.12^					Хорошо...|Schön
+
+	kt.1.next.12@3@e-max-kira-shower-1@<i>Вроде тётя Кира специально и не провоцирует, но меня к ней так тянет. Её горячее, почти обнажённое тело так и манит...</i>|<i>Tante Kira provoziert mich nicht absichtlich, aber ich fühle mich zu ihr hingezogen. Ihr heißer, fast nackter Körper macht mich wahnsinnig....</i>
+		kt.1.next.13^					<i>кончить</i>|<i>spritzen</i>
+
+	kt.1.next.13@10@e-max-kira-shower-2@<i>О да... Надеюсь, она не поняла, что я сейчас делал, глядя на неё. Хотя, всё она понимает. Да ещё и видела меня, мой...</i>|<i>Oh, ja.... Ich hoffe, sie weiß nicht, was ich getan habe, als ich sie ansah. Wahrscheinlich tut sie das aber. Und sie hat mich sogar gesehen, meine....</i>
+		leave!set_dcd.kiratalk_1!add_kiratalk_1!max_cam.6.grow_200!time^		<i>уйти</i>|<i>verlassen</i>
+
+
+
+
+# --- 0.3: 2й разговор с Кирой|Zweites Gespräch mit Kira
+
+	kt.2@113@e-kira-max-sun-1@Сегодня уже привык к моему купальнику? Или опять только одно на уме?|Hast du dich schon an meinen Bikini gewöhnt?
+		kt.2.next.3^					Сегодня точно всё в порядке!|Heute geht es mir total gut!
+		kt.2.next.2a^					Да я не могу ни о чём думать, когда тут такое...|Wie könnte ich mich je an diese Schönheit gewöhnen?
+
+	kt.2.next.2a@103@Понимаю, Макс. Ну, тут надо либо смириться, либо избегать. Как я вижу, избегать меня ты не планируешь и я очень рада этому. Но давай сменим тему, вдруг поможет...|Nun, du kannst dich entweder an mich gewöhnen oder mir aus dem Weg gehen. Ich bin froh, dass du mir nicht aus dem Weg gehst. Aber lass uns das Thema wechseln, bevor du dich wieder aufregst.
+		kt.2.next.3^					Давай!|Sicher
+
+	kt.2.next.3@101@Расскажи тогда, Макс, чем ты занимаешься, пока сидишь дома? Не может быть, чтобы только на порносайтах зависал?|Also, Max, was machst du den ganzen Tag? Sicherlich kannst du nicht einfach den ganzen Tag auf Pornoseiten verbringen?
+		kt.2.next.4^					У нас не работают порносайты...|Die funktionieren hier nicht.
+
+	kt.2.next.4@104@Ах вот в чём дело! А я никак не могла понять, что такое с моим телефоном. И почему? Мама установила такие порядки?|Deshalb konnte ich sie nicht aufrufen! Und ich habe mich gefragt, was mit meinem Handy nicht stimmt. Und warum ist das so? Hat deine Mutter diese Regel aufgestellt?
+		kt.2.next.5^					Ага, на стороне провайдера защита от детей...|Ja, es gibt eine elterliche Kontrolle auf der Anbieterseite.
+
+	kt.2.next.5@114@Тогда, Макс, я тебе ещё больше сочувствую и теперь лучше тебя понимаю... Может быть, сменим тему?|Nun, Max, jetzt fühle ich noch mehr für dich. Aber lass uns das Thema wechseln.
+		kt.2.next.6^					Хорошо...|Schön
+
+	kt.2.next.6@100@Слушай, Макс, а тебе не показалось, что твоя мама какая-то... странная. Я имею в виду её одержимость Эриком...|Hör zu, Max, habe ich es mir vorgestellt oder benimmt sich deine Mom irgendwie.... seltsam? Ich rede von ihrer Eric-Besessenheit.
+		kt.2.next.7a^					Вот именно!|Sie ist völlig unter seiner Kontrolle!
+		eric.status=2&kt.2.next.7b^		Нет, тебе показалось...|Nein, du hast es dir vorgestellt....
+
+	kt.2.next.7a@104@Значит, не мне одной это показалось? Ну, в чём дело, рассказывай...|Also bin ich nicht der Einzige, der es bemerkt hat? Nun, erzähl mir alles darüber.
+		kt.2.next.8^					<i>рассказать всю правду про Эрика</i>|<i>alles über Eric erzählen</i>
+
+	kt.2.next.7b@103@Макс, если что, я на твоей стороне. Мне можно доверять!|Komm schon, Max, ich bin auf deiner Seite. Du kannst mir vertrauen!
+		kt.2.next.8^					Ну ладно... <i>Рассказать всю правду про Эрика</i>|Okay... <i>alles über Eric erzählen</i>
+
+	kt.2.next.8@100@Макс, ты наверное шутишь, да? Не может быть, чтобы всё было вот так. Твоя мама не слепая. Конечно, ею всегда было легко манипулировать, чем я и пользовалась, но такое...|Ist das dein Ernst? Es kann nicht so schlimm sein. Deine Mom ist nicht blind. Natürlich könnte ich sie dazu bringen, Dinge zu tun, aber das....
+		kt.2.next.9a^					Чем ты пользовалась?|Was für ein Dinge?
+		kt.2.next.9b^					Я говорю правду!|Ich sage die Wahrheit!
+
+	kt.2.next.9a@101@Мне кажется, сейчас речь не об этом. Расскажу как-нибудь в другой раз... Значит, всё что ты рассказал про Эрика... это правда? Прямо не верится...|Das ist nicht das, worüber wir reden, es ist eine Geschichte für einen anderen Tag.... Also, du hast die Wahrheit über Eric gesagt? Ich kann es nicht glauben....
+		kt.2.next.9b^					У меня нет причин врать!|Ich habe keinen Grund zu lügen!
+
+	kt.2.next.9b@100@Думаю, мне нужно услышать другую сторону. Пообщаться или с Эриком или с твоей мамой, чтобы выяснить всё ли так. Может быть, ты немного... приукрасил...|Ich denke, ich muss von einer anderen Seite davon hören. Ich werde mit Eric oder deiner Mom reden, um alles selbst zu entscheiden. Vielleicht hast du.... übertrieben....
+		kt.2.next.10^					И ничего я не приукрасил...|Nein, habe ich nicht!
+
+	kt.2.next.10@114@Ладно, не дуйся. Давай сменим тему, а ещё лучше полежим на солнышке в тишине, если ты не возражаешь...|Sei nicht böse. Lass uns das Thema wechseln. Oder noch besser, lass uns ruhig in der Sonne liegen, wenn es dir nichts ausmacht.
+		leave!set_dcd.kiratalk_1!add_kiratalk_1!set_poss.aunt_2!time^			Ладно, не буду тебе мешать...|Okay, ich will dich nicht stören.
+
+
+# --- 0.3: 3й разговор с Кирой|Drittes Gespräch mit Kira
+
+	kt.3@104@e-kira-max-sun-1@Вот так вот! Сразу к делу, да? Нет, Макс, мне не удалось поговорить. Но я обязательно во всём разберусь и выясню что происходит.|Auf den Punkt gebracht, was? Nein, Max, ich hatte noch keine Gelegenheit. Aber ich werde der Sache auf den Grund gehen.
+		kt.3.next.1^					Ну ладно. Значит, ты работаешь горничной?|Okay. Also, du bist ein Dienstmädchen?
+
+	kt.3.next.1@101@Ну... Типа того. А что, не похоже?|So was in der Art. Warum?
+		kt.3.next.2^					Да странно это всё...|Es ist irgendwie merkwürdig....
+
+	kt.3.next.2@103@Что же тебя смущает? Я разве не могу работать горничной?|Was ist seltsam? Warum kann ich kein Dienstmädchen sein?
+		kt.3.next.3a^					Кто же вечером порядок наводит?|Aber warum so spät?
+		kt.3.next.3b^					Ну, твои руки не как у горничной...|Deine Arme sehen nicht aus wie Handarbeit.
+
+	kt.3.next.3a@113@Может быть, они любят поспать и только вечером не бывают дома?|Vielleicht schläfts du gerne und abends ist die einzige Tageszeit, wenn du nicht zu Hause bist?
+		kt.3.next.5^					У тебя слишком нежные руки для такой работы...|Deine Arme sehen nicht aus wie Handarbeit.
+
+	kt.3.next.3b@113@Ну ты совсем как твоя мама. Всё подозреваешь... Может быть, я в перчатках работаю. Берегу кожу...|Du bist genau wie deine Mom, du ahnst immer etwas. Ich kann in Handschuhen arbeiten, um meine Haut zu schützen.
+		kt.3.next.5^					Кто же вечером порядок наводит?|Aber warum so spät?
+
+	kt.3.next.5@114@Ну ладно, ладно, ты меня раскусил, Макс. Я не совсем горничной работаю...|Okay, okay, du hast mich erwischt. Ich bin kein Dienstmädchen.
+		kt.3.next.6^					А кем тогда?|Was machst du dann?
+		kt.3.next.6^					И для чего тебе форма горничной?|Warum brauchst du dann das Dienstmädchen-Outfit?
+
+	kt.3.next.6@100@Если ты расскажешь своей маме, она меня убьёт и выгонит в гостиницу... В лучшем случае...|Wenn du es deiner Mom sagst, wird sie mich im besten Fall töten und dann rauswerfen.
+		kt.3.next.7^					Рассказывай. Я никому ни слова!|Du kannst mir vertrauen, ich werde es nicht sagen!
+
+	kt.3.next.7@104@Точно? В общем, я снимаюсь в одном фильме... И форма горничной как раз из него. Я её случайно испачкала и брала постирать, а твоя мама заметила...|Nun, ich spiele in einem Film mit.... Und das Hauptoutfit kommt von dort. Ich habe es aus Versehen beschmutzt und zum Reinigen mit nach Hause genommen, aber deine Mom hat es bemerkt....
+		kt.3.next.8^					Так ты теперь актриса?!|Du bist also eine Darstellerin!?
+
+	kt.3.next.8@114@Да, почти звезда! Но никому не говори. Это большой секрет от всех!|Ja, ich bin ein aufstrebender Star. Aber verrate es niemandem, es ist ein großes Geheimnis!
+		kt.3.next.9^					Почему?|Warum?
+		kt.3.next.9^					И что это за фильм?|Und worum geht es in dem Film?
+
+	kt.3.next.9@104@Ну, это не совсем те фильмы, которыми хвастаются среди своей семьи, если ты меня понимаешь...|Es ist nicht die Art von Filmen, mit denen die Leute vor ihren Familien angeben, wenn du weißt, was ich meine....
+		kt.3.next.10^					Это порно?!|Es ist ein Porno!?
+
+	kt.3.next.10@100@Макс, ну почему сразу порно? Может быть, это утончённая эротика с интересным сюжетом и отличной игрой актёров...|Warum müssen es Pornos sein? Es kann anspruchsvolle Erotik mit fesselnder Handlung und großartiger Schauspielerei sein....
+		kt.3.next.11^					Значит, правда порно...|Ja, hört sich nach Pornos an.
+
+	kt.3.next.11@104@Ну да. Нужно же девушке как-то зарабатывать. Правда, платят не очень, но продюсер обещал мне главную роль...|Nun, ja. Ich muss irgendwie Geld verdienen. Aber sie zahlen mir nicht so viel. Mein Produzent versprach mir eine Hauptrolle....
+		kt.3.next.12^					Они всем это обещают|Das erzählen sie jedem!
+
+	kt.3.next.12@103@Думаешь, я этого не знаю? Ну а что делать. Там мне хотя бы стабильно платят, хоть и копейки...|Denkst du, ich weiß das nicht? Was sollte ich sonst tun? Wenigstens habe ich einen festen Gehaltsscheck, auch wenn es nicht viel ist.
+		kt.3.next.13^					Моя тётя снимается в порно... С ума сойти!|Meine Tante ist eine Pornodarstellerin, ich kann es nicht glauben!
+
+	kt.3.next.13@114@e-kira-max-sun-2@Макс, ты опять слишком перевозбудился. Боюсь представить что будет, если ты увидишь какой-нибудь фильм с моим участием!|Max, du bist wieder zu aufgeregt. Ich habe Angst, mir vorzustellen, was passiert, wenn du einen meiner Filme siehst!
+		kt.3.next.14^					А что, можно увидеть?|Kann ich!?
+
+	kt.3.next.14@113@Думаю, на сегодня с тебя и так хватит. Бегом в душ, а то ты меня смущаешь...|Ich denke, das reicht für heute. Geh duschen, du blamierst mich.
+		kt.3.next.15^					Ладно...|Okay
+
+	kt.3.next.15@4@e-max-kira-shower-1@<i>Моя тётя снимается в порно! Если рассказать об этом маме, то всё, и тётю потеряю и все шансы на... не знаю даже на что. Ох... вот это мне повезло!</i>|<i>Meine Tante ist ein Pornostar! Wenn ich es jemandem erzähle, verliere ich meine Tante und alle Chancen.... Ich weiß nicht mal was. Ich bin so glücklich!</i>
+		kt.3.next.16^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.3.next.16@7@e-max-kira-shower-2@<i>О да, Кира, ты снимешься и в моём фильме. Я сделаю тебя звездой и не только!</i>|<i>Ja, Kira, du wirst auch in meinem Film mitspielen. Ich mache dich zum Star und mehr....</i>
+		kt.3.next.17^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.3.next.17@104@e-max-kira-shower-3@Что, прости? Я не расслышала последнее...|Es tut mir leid, was? Ich konnte den letzten Teil nicht verstehen.
+		kt.3.next.18^					Но... Ты же была там... Я... это не то, что ты думаешь...|Aber du warst.... Ich.... es ist nicht das, was du denkst....
+
+	kt.3.next.18@114@Неужели? И что же это? Передо мной стоит парень с членом в руке. Интересно, что же это ещё может быть?|Oh, und was ist es dann? Ich sehe einen Kerl mit einem Schwanz in der Hand. Ich frage mich, was das wohl sein könnte?
+		kt.3.next.19^					Не поможешь с этим, раз уж ты тут?|Nun, da du sowieso hier bist, wirst du mir helfen?
+
+	kt.3.next.19@104@Очень смешно, Макс. Я твоя тётя, если ты забыл. Ладно, ты тут заканчивай, я позже в душ схожу.|Sehr witzig, Max. Ich bin übrigens deine Tante. Du solltest fertig werden, und ich werde später duschen.
+		leave!set_dcd.kiratalk_1!add_kiratalk_1!set_poss.aunt_3!max_cam.6.grow_200!time^			<i>закончить</i>|<i>beenden</i>
+
+
+
+# --- 0.3: 4й разговор с Кирой|Viertes Gespräch mit Kira
+
+	kt.4@104@e-kira-max-sun-1@Макс, ты всё ещё переживаешь? Думаешь, я не видела парней, которые дрочат на меня? Всё в порядке. Мне даже приятно, что я всё ещё в форме и востребована... Хотя тот факт, что я твоя тётя всё меняет...|Max, machst du dir darüber noch Sorgen? Denkst du, ich habe noch nie Kerle gesehen, die sich vor mir einen runterholen? Es ist in Ordnung. Ich fühle mich geschmeichelt, das heißt, ich bin immer noch in guter Verfassung und begehrt.... Da ich bin deine Tante bin, ändert das leider alles.
+		kt.4.next.1a^					Ну и что. У тебя нет комплексов, у меня тоже...|Na und. Es ist mir egal, und dir auch....
+		kt.4.next.1b^					И что это меняет?|Was ändert sich dadurch?
+
+	kt.4.next.1a@114@Я рада слышать, что у тебя нет комплексов, но Макс... У меня тоже есть границы и ты не думай, что если я загораю в таком виде, то позволяю себе всякое. Ну, бывает, но не всё. Честно!|Ich mag es, dass du so offen bist, Max, aber.... Ich habe ein paar Grenzen, denke nicht, dass ich dir alles erlauben werde, was du willst, nur weil ich so einen Bikini trage.
+		kt.4.next.2^					Как-то не очень убедительно...|Sicher tust du das....
+
+	kt.4.next.1b@114@Ну хотя бы то, что тебя отправят в лагерь, а меня жить в гостиницу, если твоя мама узнает, что мы об этом разговариваем. И если что, у меня тоже есть границы. И наш разговор выходит за них...|Nun, für den Anfang, wenn deine Mom jemals herausfindet, dass wir jemals darüber gesprochen haben, wirst du ins Lager geschickt und ich werde aus dem Haus geworfen. Ich habe Grenzen, und diese Unterhaltung verschiebt sie.
+		kt.4.next.2^					Ты знаешь, не убедила...|Du klingst nicht sehr überzeugend.
+
+	kt.4.next.2@104@Да? Нужно будет поработать над актёрским мастерством... На самом деле, твой энтузиазм и эта... энергия, могут мне помочь в одном деле.|Dann muss ich an meinen schauspielerischen Fähigkeiten arbeiten.... Eigentlich mag ich deine Begeisterung. Du kannst mir bei etwas helfen.
+		kt.4.next.3^					В каком? Я слушаю.|Ich höre
+
+	kt.4.next.3@101@Ты как зарабатываешь? У тебя есть какой-то доход или живёшь на карманные деньги, которые тебе мама даёт?|Wie verdienst du Geld? Hast du eine Einkommensquelle oder lebst du von deinem Taschengeld?
+		kt.4.next.4^					Ну, типа того...|Etwas wie dieses
+
+	kt.4.next.4@103@Тогда, у меня есть для тебя деловое предложение. Правда, оно потребует вложений, но окупится, обещаю...|Dann habe ich ein Geschäftsangebot für dich. Es wird eine Anfangsinvestition erfordern, aber es wird sich lohnen, das verspreche ich.
+		kt.4.next.5^					Ты о чём?|Nur zu
+
+	kt.4.next.5@100@Мне нужно сделать серию снимков для портфолио. Я могла бы обратиться к профессиональному фотографу, но если у тебя найдётся фотоаппарат и будет желание, то я лучше заплачу тебе... Ты умеешь фотографировать?|Ich muss eine Reihe von Fotos für das Portfolio machen. Ich könnte einen professionellen Fotografen suchen, aber wenn du eine Kamera hast und mir helfen willst, bezahle ich lieber an dich. Weißt du, wie man Fotos macht?
+		kt.4.next.6a^					Конечно!|Sicher!
+		kt.4.next.6b^					Нет...|Nein...
+
+	kt.4.next.6a@104@Да? И где же ты учился? А самое главное - когда? Или ты фотографии на телефон считаешь за опыт?|Wirklich? Wo hast du das gelernt? Und wann? Oder sprichst du von Fotos, die du mit deinem Handy gemacht hast?
+		kt.4.next.6b^					Ну... Зато снимки были хорошие!|Nun ja.... Ich habe ein paar schöne Fotos mit meinem Handy gemacht!
+
+	kt.4.next.6b@104@Очень жаль... Без опыта, скорее всего, ничего толком не получится...|Zu schade. Ohne Erfahrung wirst du wahrscheinlich keinen anständigen Job machen können.
+		kt.4.next.7^					А если я попробую бесплатно, ты попозируешь?|Was, wenn ich es umsonst versuche? Wirst du dann für mich posieren?
+
+	kt.4.next.7@101@Конечно. Почему нет? Вдруг, у тебя хорошо получится? Кстати, а фотоаппарат у тебя есть?|Sicher, warum nicht? Du kannst einen anständigen Job machen. Hast du eine Kamera?
+		kt.4.next.8^					Найду!|Ich besorge eine!
+
+	kt.4.next.8@114@Ну, тогда не вижу причин для отказа такому целеустремлённому мальчику...|Okay, ich sehe keinen Grund, diese Entschlossenheit abzulehnen.
+		kt.4.next.9^					Вот и договорились!|Deal!
+
+	kt.4.next.9@104@e-kira-max-sun-2@Уж не знаю, Макс, что ты уже нафантазировал насчёт фотосессии, но тебе опять пора в душ. Что же ты такой впечатлительный? Эх...|Ich weiß nicht, welche Art von Fotosession du dir gerade vorgestellt hast, aber du solltest duschen gehen. Weshalb ist das so beeindruckend....
+		kt.4.next.10^					Да, я пойду. Только не подглядывай!|Okay, ich werde gehen. Aber nicht spannen!
+
+	kt.4.next.10@4@e-max-kira-shower-1@<i>Вот это удача! Порно-звезда будет мне позировать для фотосессии! Я где-то слышал, что порно-модели всегда дают фотографам в качестве оплаты за съёмку... Или нет? Но вдруг!</i>|<i>Ich bin so glücklich! Ein echter Pornstar wird für meine Fotosession posieren!</i>
+		kt.4.next.11^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.4.next.11@10@e-max-kira-shower-2@Дело за малым. Осталось где-то взять фотоаппарат и тогда... Да... Интересно, сколько ни стоят? А, не важно. Важно, что мне может дать сама тётя Кира! Ради этого стоит попотеть... О да...|Jetzt muss ich nur noch eine Kamera finden und dann.... ja.... Ich frage mich, wie teuer sie sind. Das spielt keine Rolle. Wichtig ist, dass es eine Chance auf Sex mit Tante Kira gibt! Es wird sich alles lohnen.... Oh, ja....
+		leave!set_dcd.kiratalk_1!add_kiratalk_1!set_poss.aunt_4!max_cam.6.grow_200!time^			<i>зако?чить</i>|<i>beenden</i>
+
+
+
+# --- 0.3: Разговор у бассейна после фотосессии (как минимум на следующий день)|Gespräch am Pool nach der ersten Fotosession (mindestens einen Tag später)
+
+	kt.6@113@e-kira-max-sun-1@Да, Макс. Я сразу отправила фотографии своему знакомому и он сказал, что его всё устраивает. Фокус отличный, ракурс тоже. Так что, я бы ещё раз обратилась к тебе за помощью, если ты не против...|Ja, Max. Ich schicke es zu meinem Kollegen und er sagt, dass alles in Ordnung ist. Großer Fokus, Winkel, all das technische Zeug.... Also hätte ich gern noch mal deine Hilfe, wenn es dir nichts ausmacht.
+		kt.6.next.1a^					В любое время, тётя|Jederzeit, Tantchen!
+		kt.6.next.2a^					А мне полагается какой-то бонус?|Bekomme ich einen Bonus für meine Hilfe?
+
+	kt.6.next.1a@104@Да в том то и дело, что не в любое. Нужно выбирать момент, когда никого нет дома. Потому-что, если нас заметят за таким, то точно это будет в последний раз, а мне бы не хотелось этого...|Eigentlich ist Zeit ein Problem. Wir müssen auf eine Gelegenheit warten, wenn niemand zu Hause ist. Wenn wir geschnappt werden, wäre das das Ende, und das würde ich nicht wollen.
+		kt.6.next.2a^					Да, мне тоже...|Ja, ich auch nicht
+
+	kt.6.next.2a@101@Да, кое-что полагается тебе за работу, конечно. Я могу заплатить тебе какую-то сумму, а можем договориться на ещё одну фотосессию в следующую субботу, пока все будут на шоппинге...|Ja, du verdienst etwas für deine Arbeit. Ich kann dir etwas bezahlen oder wir können uns auf eine weitere Fotosession am nächsten Samstag einigen, wenn alle zum Einkaufen gehen.
+		kt.6.next.3a^					Думаю, $500 будет достаточно...|Ich denke, $500 wären der richtige Betrag.
+		kt.6.next.3b^					И какая оплата будет во втором случае?|Und was bekomme ich für eine zweite Fotosession?
+
+	kt.6.next.3a@103@Ну что же, как скажешь... Только $500 это слишком много за такую работу. Я дам тебе $300. Но если передумаешь и решишь, что не в деньгах счастье, мы сделаем новую фотосессию...|Nun, wenn das deine Entscheidung ist. Ich denke nur, $500 wären zu viel, ich gebe dir $300. Und wenn du deine Meinung änderst, können wir immer noch eine Fotosession machen.
+		leave!add_money_300!set_dcd.kiratalk_1!set_kiratalk_7!set_poss.aunt_6!time^		Спасибо!|Danke!
+
+	kt.6.next.3b@114@e-kira-max-sun-2@Какой ты любопытный, Макс. Вижу, твой дружок уже догадался, что эта фотосессия будет более откровенной...|Sieht so aus, als ob mein Freund bereits erraten hat, dass die nächste Fotosession deutlicher wird....
+		kt.6.next.3a^					Ты знаешь, лучше деньги здесь и сейчас... Скажем, $500|Ich nehme das Geld hier und jetzt.... Wie wär's mit $500?
+		kt.6.next.4^					Ого. Насколько откровенной?|Wie explizit?
+
+	kt.6.next.4@101@Думаю, тебе понравится. А сейчас кое-кому стоит принять холодный... очень холодный душ!|Ich denke, es wird dir gefallen. Und jetzt solltest du eine sehr kalte Dusche nehmen!
+		kt.6.next.5^					Конечно!|Sicher!
+
+	kt.6.next.5@4@e-max-kira-shower-1@<i>Вот это да! Неужели, тётя Кира намекнула, что эта фотосессия будет... Хотя... На что она намекнула? Я не понял. Но меня радует, что она уверена, что мне понравится!</i>|<i>Wow! Hat Tante Kira gerade angedeutet, dass die nächste Fotosession.... Obwohl.... Was hat sie angedeutet? Ich bin mir nicht sicher. Aber auf jeden Fall wird es mir gefallen, gut genug für mich!</i>
+		kt.6.next.6^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.6.next.6@7@e-max-kira-shower-2@<i>А что, если в этот раз она мне хотя бы подрочит или даже отсосёт? Порнозвёзды же всегда так делают? О да...</i>|<i>Was, wenn sie mir einen runterholt oder mir sogar einen bläst? Das machen Pornostars doch immer, oder? Oh, ja....</i>
+		kt.6.next.7^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.6.next.7@114@e-max-kira-shower-3@Макс, не обращай на меня внимания. Я просто жду, пока освободится душ. Считай, что меня тут нет...|Kümmere dich nicht um mich, Max, ich warte nur, bis du fertig bist. Tu so, als wäre ich nicht hier....
+		kt.6.next.8^					Я... э... <i>(кончить)</i>|Emm... Ich...<i>(spritzen)</i>
+
+	kt.6.next.8@104@Какой ты быстрый, Макс... Ну, теперь моя очередь, а ты иди отсюда и не подглядывай...|Das war schnell. Jetzt bin ich dran, geh und guck nicht.
+		leave!set_dcd.kiratalk_1!set_kiratalk_8!set_poss.aunt_7!max_cam.6.grow_200!time^			Да, я... <i>(уйти)</i>|Ja, Ich... <i>(verlassen)</i>
+
+
+
+# --- 0.3: Пробуем запустить вторую фотосессию|Versuchen wir die zweite Fotosession.
+
+	kt.8@101@e-kira-max-sun-1@Что, Макс, не терпится?|Also, Max, kannst du nicht warten?
+		kira.onlyhome=1&kt.8.try.ok^	Ага! Я готов!|Darauf kannst du wetten! Ich bin bereit!
+		kira.onlyhome=0&kt.8.try.no^	Ага! Я готов!|Darauf kannst du wetten! Ich bin bereit!
+
+	kt.8.try.no@114@Это я как раз вижу, но как ты знаешь, сейчас мы дома не одни. Представь, что подумают, если увидят такое...|Das sehe ich, aber du weißt, dass wir nicht allein im Haus sind. Was glaubst du, was passiert, wenn wir dabei erwischt werden?
+		leave^							Ясно, понял...|Ich verstehe
+		kt.8.try.no.what^				Э... Какое?|Was machst du da?
+
+	kt.8.try.no.what@113@А это сюрприз, Макс. Так что, наберись терпения...|Das ist eine Überraschung, Max. Hab Geduld.
+		leave^							Понял...|Okay
+
+	kt.8.try.ok@103@Ну, давай, раз готов. На этот раз мне нужна особая фотосессия...|Okay, dann lass uns anfangen. Diesmal brauche ich eine Fotosession der besonderen Art....
+		kt.8.next.1a^					Всё, что угодно!|Was auch immer!
+		kt.8.next.1b^					Особая? Это какая?|Besondere Art?
+
+	kt.8.next.1a@113@Что, даже не любопытно о чём речь? Ну что же, тогда пойдём в комнату твоей мамы...|Was, ist es dir egal, was wir machen? Lass uns in das Zimmer deiner Mom gehen.
+		kt.8.next.2^					Хорошо, а зачем?|Okay, aber warum dort?
+
+	kt.8.next.1b@113@Увидишь. Пойдём в комнату твоей мамы.|Du wirst sehen. Lass uns in das Zimmer deiner Mom gehen.
+		kt.8.next.2^					Хорошо, а зачем?|Okay, aber warum dort?
+
+	kt.8.next.2@103@А вот и узнаешь. Пойдём быстрее, пока все не вернулись с шопинга|Du wirst es gleich sehen. Beeilen wir uns, bevor alle vom Einkaufen zurückkommen.
+		kt.8.next.3^					Ага...|Ja
+
+	kt.8.next.3@101@e-ps2-begin@В общем, на этот раз мне нужна серия снимков в стиле... БДСМ... Верёвки, кожа, вот это всё...|Diesmal brauche ich eine Serie von Fotos in.... BDSM-Stil. Seile, Seile, und so.
+		kt.8.next.4^					Ого!|Wow!
+		kt.8.next.4^					Круто!|Cool!
+
+	kt.8.next.4@104@А чего ты так радуешься, я же не сказала кого привязывать будем...|Du bist so glücklich, aber du weißt nicht mal, wer gefesselt wird....
+		kt.8.next.5a^					Э... Я против!|Was? Auf keinen Fall!
+		kt.8.next.5b^					А мне не важно!|Das ist mir egal!
+
+	kt.8.next.5a@113@Да шучу я, Макс. Подожди минутку, я переоденусь...|Ich habe nur Spaß gemacht, Max. Warte, ich zieh mich um....
+		kt.8.next.6^					Хорошо, жду.|Okay, ich werde warten.
+
+	kt.8.next.5b@114@Да ты полон сюрпризов, Макс! Но привязывать будем меня. Ты же не против? А пока думаешь, я сейчас быстро переоденусь...|Du bist voller Überraschungen, Max! Aber ich werde der Gefesselte sein, nicht du. Es macht dir doch nichts aus, oder? Nun, du denkst darüber nach, während ich mich umziehe....
+		kt.8.next.6^					Абалдеть!|Ich bin fassungslos!
+
+	kt.8.next.6@112@e-ps2-ready@Ну, как тебе мой наряд? Уже не жалеешь, что не взял деньги?|Gefällt dir mein Outfit? Du bereust es nicht, das Geld nicht genommen zu haben, oder?
+		kt.8.next.7^					Что ты, тётя Кира...|Wow, Tante Kira, du bist....
+		kt.8.next.7^					Выглядишь шикарно!|Du siehst toll aus!
+
+	kt.8.next.7@101@e-ps2-sit3@Вот и отлично. Тогда, начнём. Сделай несколько кадров на кровати. Кстати, не говори маме, что я в сапогах тут топталась...|Gut zu wissen. Nun, dann lass uns anfangen. Mach ein paar Aufnahmen auf dem Bett. Sag deiner Mom nicht, dass ich in Stiefeln auf ihrem Bett saß.
+		kt.8.next.8^					Я - могила!|Ich werde das mit ins Grab nehmen.
+
+	kt.8.next.8@4@e-ps2-sit1@<i>Да... Эта фотосессия мне нравится гораздо больше...</i>|<i>Yep, ich mag diese Fotosession definitiv mehr als die vorherige.</i>
+		kt.8.next.9^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.8.next.9@6@e-ps2-sit2@<i>Это что у неё такое на трусах? Молния? Интересно, а она расстёгивается?</i>|<i>Ist das ein Reißverschluss an ihrem Höschen?</i>
+		kt.8.next.10^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.8.next.10@101@e-ps2-sit3@Ну что, Макс, ты готов привязать свою тётю к кровати? Только так, чтобы выглядело натурально, хорошо?|Also, Max, bist du bereit, deine Tante ans Bett zu fesseln? Und es natürlich aussehen lassen.
+		kt.8.next.11^					<i>крепко привязать Киру</i>|<i>Binde Tante Kira fest an das Bett.</i>
+
+	kt.8.next.11@112@e-ps2-t1@Молодец, Макс. Теперь сделай несколько снимков и развяжи меня.|Gute Arbeit, Max. Jetzt mach ein paar Schüsse und binde mich los.
+		kt.8.next.12^					<i>сделать снимок</i>|<i>ein paar Aufnahmen machen</i>
+
+	kt.8.next.12@104@Ну всё, Макс, теперь развязывай меня!|Okay, Max, you can untie me now
+		kt.8.next.path.2^				Хорошо <i>(развязать)</i>|Okay <i>(sie losbinden)</i>
+		kt.8.next.13^					Зачем спешить?|Es gibt keinen Grund, sich zu beeilen.
+
+	kt.8.next.13@100@Макс! Только без глупостей. Развязывай, скорее!|Max! Binde mich sofort los! Mach keine Dummheiten.
+		kt.8.next.path.2^				Ну ладно... <i>(развязать)</i>|Okay <i>(sie losbinden)</i>
+		kt.8.next.14^					У меня есть идея получше <i>(расстегнуть молнию)</i>|Ich habe eine bessere Idee <i>(öffne ihr Höschen)</i>
+
+	kt.8.next.14@105@e-ps2-u1@Макс! Я же твоя тётя! Что ты делаешь?! Быстро развяжи меня, а не то твоя мама всё узнает!|Max! Ich bin deine Tante! Was machst du da? Binde mich los oder deine Mom wird alles erfahren!
+		kt.8.next.15^					И что же она узнает?|Und was wird sie erfahren?
+		kt.8.next.15^					Всё всё расскажешь?|Alles?
+
+	kt.8.next.15@111@Ну Макс... Ты увидел, что хотел? Теперь застегни молнию и развязывай меня...|Komm schon, Max.... Hattest du einen guten Blick? Jetzt schließen den Reißverschluss und binde mich los....
+		kt.8.next.16^					<i>прикоснуться к её киске</i>|<i>ihre Pussy berühren</i>
+
+	kt.8.next.16@112@e-ps2-u2@Макс... Не надо... Я себя не контролирую, когда... когда...|Max.... nicht.... Ich kann mich nicht kontrollieren, wann.... wann....
+		kt.8.next.finger.1^				<i>продолжить пальцами</i>|<i>weiter mit den Fingern</i>
+		kt.8.next.lick.1^				<i>поработать языком</i>|<i>Zunge benutzen</i>
+		kt.8.next.suck.1^				<i>раздеться и дать ей пососать свой член</i>|<i>zieh dich aus und lass sie deinen Schwanz lutschen</i>
+
+	kt.8.next.finger.1@103@e-ps2-u3@Макс... Если ты продолжишь, я не смогу сдержаться... У тебя такие ловкие пальчики... Да...|Max.... Wenn du weitermachst, kann ich dich nicht aufhalten.... deine Finger sind so gut.... Ja....
+		kt.8.next.finger.2^				<i>продолжить пальцами</i>|<i>weiter mit den Fingern</i>
+		kt.8.next.lick.1^				<i>поработать языком</i>|<i>Zunge benutzen</i>
+		kt.8.next.suck.1^				<i>раздеться и дать ей пососать свой член</i>|<i>zieh dich aus und lass sie deinen Schwanz lutschen</i>
+
+	kt.8.next.finger.2@112@e-ps2-u4@Да... Так приятно... Но может быть, ты перейдёшь к чему-то более...|Ja.... Das ist sehr schön, aber vielleicht willst du etwas mehr....
+		kt.8.next.lick.1^				<i>поработать языком</i>|<i>Zunge benutzen</i>
+		kt.8.next.suck.1^				<i>раздеться и дать ей пососать свой член</i>|<i>zieh dich aus und lass sie deinen Schwanz lutschen</i>
+
+	kt.8.next.lick.1@113@e-ps2-lk1@Оу... Макс, ты где такому научился? В порнушке подсмотрел? Не останавливайся, я это обожаю! А ты способный... племянник...|Oh.... Wo hast du das gelernt, Max? Porno? Nicht aufhören, ich liebe das! Du bist ein Naturtalent, Neffe....
+		kt.8.next.lick.2^				<i>поработать языком</i>|<i>Zunge benutzen</i>
+		kt.8.next.suck.1^				<i>раздеться и дать ей пососать свой член</i>|<i>zieh dich aus und lass sie deinen Schwanz lutschen</i>
+
+	kt.8.next.lick.2@106@e-ps2-lk2@Да... Ещё чуть-чуть и я кончу... Может быть, ты воспользуешься чем-то потолще пальчиков и язычка?|Ja.... Ich komme fast.... Vielleicht willst du etwas Größeres als deine Finger und Zunge benutzen?
+		kt.8.next.suck.1^				<i>раздеться и дать ей пососать свой член</i>|<i>zieh dich aus und lass sie deinen Schwanz lutschen</i>
+
+	kt.8.next.suck.1@4@e-ps2-sk1@<i>Как же это круто! Мне отсасывает собственная тётя, да ещё связанная! О, что она делает... Как же это приятно!</i>|<i>Das ist so toll! Meine gefesselte Tante lutscht meinen Schwanz! Und sie weiß, was sie tut.... Fühlt sich so gut an!</i>
+		kt.8.next.suck.2^				<i>пытаться засовывать член всё глубже...</i>|<i>versuchen, tiefer zu gehen</i>
+		kt.8.next.fuck.1^				<i>трахнуть её в киску</i>|<i>Fick ihre Pussy</i>
+
+	kt.8.next.suck.2@3@e-ps2-sk2@<i>Кажется, у неё какой-то бездонный ротик... А тётя Кира очень опытна в этих делах! Кажется, я уже близко...</i>|<i>Ich spüre keinen Widerstand.... Tante Kira ist wirklich gut darin! Ich komme der Sache näher....</i>
+		kt.8.next.suck.3!set_max.cum_1^	<i>кончить ей прямо в рот!</i>|<i>spritze in ihren Mund</i>
+		kt.8.next.fuck.1^				<i>трахнуть её в киску</i>|<i>Fick ihre Pussy</i>
+
+	kt.8.next.suck.3@7@e-ps2-sk3@<i>О да... Прямо туда... Неужели, она всё проглотила? Во даёт!!!</i>|<i>Ja.... Geradeaus.... Hat sie alles verschluckt? Sie ist die Beste!</i>
+		kt.8.next.suck.4^				<i>далее</i>|<i>fortfahren</i>
+
+	kt.8.next.suck.4@112@Макс, ты же понимаешь, что только что кончил прямо в рот своей родной тёте? Не стыдно?|<i>Max, ist dir klar, dass du gerade in den Mund deiner eigenen Tante gekommen bist? Schämst du dich?</i>
+		kt.8.next.suck.5a^				Ну, так... <i>(застегнуть молнию)</i>|nun... <i>(Reißverschluss schließen)</i>
+		kt.8.next.suck.5b^				Ни капли! <i>(застегнуть молнию)</i>|Absolutely not! <i>(Reißverschluss schließen)</i>
+
+	kt.8.next.suck.5a@114@e-ps2-zp1@А вот и зря! Мне очень понравилось... Я уже сомневалась, что ты воспользуешься ситуацией, но я рада, что ты уже большой и сообразительный мальчик... А теперь развязывай меня...|Das solltest du nicht! Ich habe es genossen.... Ich bezweifelte, dass du die Gelegenheit ergreifen wirst, aber ich bin froh, dass du es gemacht hast.... Jetzt binde mich los.
+		kt.8.next.untie.1^				<i>развязать Киру</i>|<i>Kira losbinden</i>
+
+	kt.8.next.suck.5b@114@e-ps2-zp1@В вот и правильно!  Мне очень понравилось... Я уже сомневалась, что ты воспользуешься ситуацией, но я рада, что ты уже большой и сообразительный мальчик... А теперь развязывай меня...|Gut. Ich habe es genossen.... Ich bezweifelte, dass du die Gelegenheit ergreifen wirst, aber ich bin froh, dass du es gemacht hast.... Jetzt binde mich los.
+		kt.8.next.untie.1^				<i>развязать Киру</i>|<i>Kira losbinden</i>
+
+	kt.8.next.fuck.1@107@e-ps2-f1@Макс... Только не разорви меня своим огромным членом... Если мешают трусики, можешь меня развязать и я их сниму...|Max.... reiß mich nicht mit deinem riesigen Schwanz in Stücke.... Wenn mein Höschen im Weg ist, kannst du mich losbinden und ich ziehe sie aus....
+		kt.8.next.fuck.2^				В другой раз...|Ein anderes Mal
+		kt.8.next.fuck.2^				<i>ускориться</i>|<i>fick schneller</i>
+
+	kt.8.next.fuck.2@112@e-ps2-f2@Да, так... Глубже, быстрее! К чёрту нежности, оттрахай меня так, как тебе хочется! Кончи в меня!|Ja, genau so.... Tiefer, schneller! Sei nicht so sanft, fick mich, wie du willst! Spritz in mich!
+		kt.8.next.fuck.3^				<i>кончить в Киру</i>|<i>spritz in Kira</i>
+		kt.8.next.suck.2b^				<i>засунуть член ей в рот</i>|<i>stopf ihr deinen Schwanz in den Mund</i>
+
+	kt.8.next.suck.2b@3@e-ps2-sk2@<i>О да... Ещё чуть-чуть и я кончу... Как у неё ловко получается... Я не могу сдерживаться!</i>|<i>Oh, ja.... ein bisschen mehr.... sie ist so gut darin.... Ich kann mich nicht mehr halten!</i>
+		kt.8.next.suck.3!set_max.cum_1^	<i>кончить ей прямо в рот!</i>|<i>spritze in ihren Mund</i>
+
+	kt.8.next.fuck.3@113@e-ps2-f1@Ну что, полегчало, Макс? Дай угадаю... Это был твой первый раз?|Also, wie war es, Max? Lass mich raten, es war dein erstes Mal?
+		kt.8.next.fuck.3a^				Нет, со счёта сбился!|Nee, ich habe schon aufgehört zu zählen!
+		kt.8.next.fuck.3b^				Как ты догадалась?|Woher wusstest du das?
+
+	kt.8.next.fuck.3a@114@Понятно... Ну, будем считать, я тебе поверила. Ну всё, развязывай меня, а то если кто-то придёт, будет... неловко, правда?|Richtig.... Sicher, lass uns damit anfangen. Jetzt binde mich los, bevor jemand zurückkommt. Wir wollen jetzt nicht geschnappt werden.
+		kt.8.next.untie.1^				<i>развязать Киру</i>|<i>Kira losbinden</i>
+
+	kt.8.next.fuck.3b@114@Слишком быстро. Как будто ты даже голую женщину увидел в первый раз... Ну ничего, это нормально... А теперь, не мог бы ты меня развязать? А то вдруг кто-то придёт, что им скажем?|Du hast es nicht lange ausgehalten. Es ist, als hättest du zum ersten Mal in deinem Leben eine nackte Frau gesehen. Aber keine Sorge, es ist okay. Könntest du mich jetzt bitte losbinden? Wir wollen nicht in diese Situation erwischt werden.
+		kt.8.next.untie.1^				<i>развязать Киру</i>|<i>Kira losbinden</i>
+
+	kt.8.next.untie.1@112@e-ps2-sit3@Спасибо, Макс, что не оставил мня так до прихода мамы с Эриком... Пришлось бы им многое объяснять, а мы же не хотим, чтобы наши секреты стали кому-то известны, правда?|Danke, dass du mich nicht gefesselt zurückgelassen hast, bis deine Mom und Eric zurückkamen. Wir wollen nicht, dass sie unser Geheimnis erfahren, oder?
+		kt.8.next.untie.2^				Конечно, тётя Кира!|Natürlich nicht, Tante Kira!
+
+	kt.8.next.untie.2@113@e-ps2-ready@Ну всё, отлично повесеились. Только не вздумай ко мне приставать, особенно, на публике. А теперь я пойду. Приятного дня, если он может быть ещё приятнее...|Nun, das hat Spaß gemacht. Aber mach keine Witze, besonders wenn wir nicht allein sind. Ich gehe jetzt, einen schönen Tag noch. Als ob es noch besser laufen könnte....
+		leave!set_can.watchporno_1!set_can.fuckkira_1!set_poss.aunt_8!set_kiratalk_9!max_cam.2.grow_400!move_momroom!time^		Спасибо...|Ich danke Dir...
+
+	kt.8.next.path.2@112@e-ps2-sit1@Спасибо. Ты знаешь, Макс... Мне бы пригодилась ещё небольшая серия снимков, где видно, что я... доминирую. Ты не мог бы мне попозировать? Я обещаю, твоё лицо не попадёт в кадр.|Ich danke dir. Weißt du, Max.... Ich möchte eine weitere Fotoserie, in der ich.... dominiere. Könntest du bitte für mich posieren? Ich verspreche dir, dass dein Gesicht auf keinem der Fotos zu sehen sein wird.
+		kt.8.next.mt.1^					Я плохой актёр...|Ich bin kein guter Schauspieler.
+		kt.8.next.mt.1^					А что нужно сделать?|Was soll ich tun?
+
+	kt.8.next.mt.1@113@e-ps2-sit3@От тебя почти ничего не требуется, просто ложись... и я тебя зафиксирую. Обещаю, не будет больно!|Du brauchst nicht viel zu tun, leg dich einfach hin.... und lass mich dich festbinden. Ich verspreche, es tut nicht weh.
+		kt.8.next.mt.2^					Пару снимков и всё?|Nur ein paar Fotos?
+
+	kt.8.next.mt.2@114@Ага. Я же твоя тётя. Что же может случиться?|Sicher. Ich bin deine Tante, du kannst mir vertrauen.
+		kt.8.next.mt.3^					Верно...|Richtig...
+
+	kt.8.next.mt.3@112@e-ps2-m1@Так не туго? Запястья не затекли?|Ist das nicht zu fest? Sind deine Handgelenke in Ordnung?
+		kt.8.next.mt.4^					Всё в порядке...|Ja, du kannst weitermachen.
+
+	kt.8.next.mt.4@113@Ты знаешь, твои шорты мешают композиции... Давай-ка я их сниму...|Ich glaube nicht, dass wir Shorts auf den Fotos brauchen.... Lass mich sie ausziehen.
+		kt.8.next.mt.5^					Но тётя Кира!|Tante Kira!
+		kt.8.next.mt.5^					<i>кажется, что-то намечается...</i>|<i>etwas Lustiges beginnt</i>
+
+	kt.8.next.mt.5@112@e-ps2-m2@Кадры получились отличные, но ты такой возбуждённый... А ты ведь знаешь, как это вредно? Нужно что-то с этим делать... Есть идеи?|Fotos sind toll, aber du bist so hart.... Du weißt, dass es schlecht für dich ist, oder? Ich denke, wir sollten etwas dagegen tun. Hast du irgendwelche Ideen?
+		kt.8.next.mt.6^					Может быть, поможешь?|Willst du mir helfen?
+
+	kt.8.next.mt.6@113@e-ps2-to1@Ну, если ты настаиваешь, то так уж и быть, помогу тебе. Но только потому, что ты мой племянник и мне бы не хотелось, чтобы у тебя были какие-то проблемы со здоровьем из-за сдерживания...|Nun, wenn du darauf bestehst. Aber nur, weil du mein Neffe bist und ich nicht will, dass du gesundheitliche Probleme hast.
+		kt.8.next.mt.7^					Конечно!|Sicher!
+
+	kt.8.next.mt.7@4@e-ps2-up0@<i>О да! Неужели, тётя Кира ещё более озабоченная, чем я сам? Что она делает? О... да... что она делает!</i>|<i>Oh, ja! Ist sie noch perverser als ich? Was macht sie da....? Oh.... ja!</i>
+		kt.8.next.mt.8^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.8.next.mt.8@7@e-ps2-to2@<i>Это божественно! Пусть это продолжается вечность! Интересно, она меня развяжет, чтобы я её... или...</i>|<i>Ich bin im Himmel! Ich will nicht, dass das aufhört! Ich frage mich, ob sie mich losbindet, damit ich....</i>
+		kt.8.next.mt.9^					<i>далее</i>|<i>fortfahren</i>
+
+	kt.8.next.mt.9@4@e-ps2-up1@<i>Обалдеть! Неужели она сняла трусики и уселась на мой член?! Правда, с трудом. А нет, всё в порядке... Она и тут превосходна... О да...</i>|<i>Sie zog ihr Höschen aus und setzte sich auf meinen Schwanz?! Kaum. Oder auch nicht, es ist in Ordnung.... Sie ist auch gut darin.... Oh, ja....</i>
+		kt.8.next.mt.10^				<i>далее</i>|<i>fortfahren</i>
+
+	kt.8.next.mt.10@112@Макс, не сдерживай себя. Можешь кончать прямо в меня!|Max, du musst dich nicht zurückhalten, du kannst in mir abspritzen!
+		kt.8.next.mt.11^				<i>кончить!</i>|<i>spritzen!</i>
+
+	kt.8.next.mt.11@7@e-ps2-m2@<i>Я в раю... У меня самая классная тётя на свете! Надеюсь, это был не последний раз, потому-что я хочу этим с нею заниматься постоянно!</i>|<i>Ich bin im Himmel.... Ich habe die beste Tante der Welt! Ich hoffe, es war nicht das letzte Mal, ich will das die ganze Zeit machen!</i>
+		kt.8.next.mt.12^				Ты меня развяжешь?|Wirst du mich jetzt losbinden?
+
+	kt.8.next.mt.12@101@Ну не знаю, Макс... Ты так хорошо смотришься. Сделаю-ка я ещё пару кадров...|Ich weiß nicht, Max.... Du siehst gerade ziemlich gut aus. Ich glaube, ich mache noch ein paar Aufnahmen....
+		kt.8.next.mt.13^				Ну серьёзно, тётя Кира!|Komm schon, Tante Kira!
+
+	kt.8.next.mt.13@114@Ладно, ладно. Сейчас развяжу. Одевайся, пока никто нас не застукал. И... Макс. Ты же понимаешь, что это всё должно остаться в строжайшем секрете?|Okay, okay, ich binde dich los. Zieh dich an, bevor wir geschnappt werden. Und, Max, du verstehst, dass niemand davon wissen darf, oder?
+		kt.8.next.mt.14^				Конечно! Я же не дурак...|Natürlich bin ich kein Idiot.
+
+	kt.8.next.mt.14@113@e-ps2-begin@Я рада, что ты у меня такой сообразительный. Ну, я пойду по своим делам. Приятно было с тобой... пообщаться, Макс...|Gut. Nun, ich werde gehen, ich hatte eine tolle Zeit....
+		leave!set_can.watchporno_1!set_can.fuckkira_1!set_poss.aunt_8!set_kiratalk_9!max_cam.2.grow_400!move_momroom!time^		Ага... А мне то как...|Ich auch...
+
+
+
+# --- 0.3: Если Макс выбрал деньги, то есть возможность их вернуть, чтобы пойти по другому пути|Wenn Max Geld gewählt hat, kann er es zurückgeben.
+
+	kt.gm.1.init@0@Я передумал насчёт денег...|Ich habe meine Meinung über das Geld geändert.
+	kt.gm.1@101@Что, любопытство перевесило жадность? Понимаю... С тебя $300 и я готова попозировать для себя в следующую субботу, когда никого не будет дома...|Also, die Neugier hat deine Gier überwältigt? Ich verstehe. Gib mir $300 und ich bin bereit, nächsten Samstag für dich zu posieren, wenn wir allein sind....
+		money>299&kt.gm.1.ok!add_money_-300^	Держи...|Nimm es....
+		money<300&kt.gm.1.no^					У меня их уже нет...|Ich habe es nicht mehr....
+		kt.gm.1.cancel^							Я передумал...|Ich habe meine Meinung geändert....
+
+
+	kt.gm.1.ok@113@Это правильное решение, Макс, ты не пожалеешь. В конце концов, зачем тебе деньги, правда? Да шучу я, шучу...|Du hast die richtige Entscheidung getroffen, Max, und du wirst es nicht bereuen. Warum brauchst du das Geld überhaupt?
+		leave!set_poss.aunt_7!set_kiratalk_8!set_dcd.kiratalk_1^		Ага...|Ja ja
+
+	kt.gm.1.no@104@Ну я никуда не тороплюсь. Сделка есть сделка, верно? Когда будут, приходи, обсудим новую фотосессию...|Das ist okay, ich habe es nicht eilig. Abgemacht ist abgemacht, oder? Komm zu mir zurück, wenn du das Geld hast.
+		leave!set_dcd.kiratalk_1^				Хорошо...|Schön
+
+	kt.gm.1.cancel@104@Ну, это твой выбор, Макс. Но если передумаешь, ты знаешь где меня искать, верно?|Nun, es ist deine Entscheidung. Wenn du deine Meinung noch einmal änderst, weißt du, wo du mich findest.
+		leave^									Верно...|Richtig...
+
+
+
+# --- 0.3: Разговор насчёт фотоаппарата|Gespräch über eine Kamera
+
+	kps.prepare.init@0@Насчёт фотосессии...|Über die Fotosession....
+	kps.prepare@100@Ты уже нашёл фотоаппарат?|Hast du die Kamera?
+		item.photo>-5&kps.prepare.no^							Ещё нет...|Noch nicht
+		item.photo=-5&kira.onlyhome=1&kps.prepare.ready^		Ага, он у меня!|Ja!
+		item.photo=-5&kira.onlyhome=0&kps.prepare.cant^			Ага, он у меня!|Ja!
+
+	kps.prepare.cant@113@Очень хорошо. Теперь нужно выбрать подходящий момент, когда дома никого не будет...|Großartig. Jetzt müssen wir nur noch einen Moment finden, wo wir allein im Haus sind.
+		leave^													Точно!|Richtig!
+
+	kps.prepare.no@104@Понятно. Ну, как найдёшь, дай знать. Я почти всегда готова фотографироваться, но нужно, чтобы ещё и дома никого не было... А то нас не поймут...|Okay. Nun, wenn du einen findest, lass es mich wissen. Ich bin jederzeit bereit zu fotografieren, aber wir müssen allein sein.
+		leave^													Всё понял...|Ich hab's
+
+	kps.prepare.ready@114@Макс, ты просто чудо! Я всегда бодра, красива и свежа, чтобы фотографироваться. Нужно только решить где это будет...|Max, du bist ein Wunderheiler! Wie immer bin ich schön genug, um zu modeln, also können wir gleich anfangen. Wo sollen wir fotografieren?
+		kps.0.start^											Может быть, в гостиной?|Was ist mit dem Wohnzimmer?
+
+
+
+# --- 0.3: Первый фотосет с Кирой на столе в гостиной|Erste Fotoserie im Wohnzimmer
+
+	kps.0.start@101@e-ps1-begin@А что, отличная идея! Только немного подожди, я переоденусь... в кое-что чуть более сексуальное. Ты же не против, да?|Ja, tolle Idee. Geh und warte, ich ziehe etwas sexieres an.... Es macht dir doch nichts aus, oder?
+		kps.0.step.1^				Конечно!|Sicher!
+
+	kps.0.step.1@114@e-ps1-step1@Ну что, как тебе такой наряд? Не слишком вульгарно?|Also, wie sehe ich aus? Jetzt zu vulgär?
+		kps.0.step.2^				Мне очень нравится. В самый раз!|Es ist perfekt, ich liebe es!
+		kps.0.step.2b^				Может быть, у тебя есть что-то по-скромнее?|Hast du etwas weniger Unverschämtes?
+
+	kps.0.step.2b@113@Макс, ты не заболел? Я же практически одета! Куда уж скромнее? Ну что, начнём?|Max, geht es dir gut? Ich bin fast vollständig bekleidet! Ich kann nicht noch anständiger als das gehen! Also, sollen wir anfangen?
+		kps.0.step.2^				Коне?но!|Sicher!
+
+	kps.0.step.2@112@e-ps1-f1@Макс, постарайся меня держать в фокусе и следи, чтобы горизонт не был завален... Хотя, ты же всё умеешь, говоришь... В общем, я тебе доверяю.|Okay, Max, versuche mich im Blick zu behalten und suche nach einem geraden Horizont und.... Ich sag dir was: Du sagtest, du weißt, was du tust, also vertraue ich dir.
+		kps.0.step.3^				И правильно... Продолжай...|Super... weiter...
+
+	kps.0.step.3@101@e-ps1-f2@Я вижу, тебе нравится? Теперь я понимаю, почему ты в джинсах всё время ходил...|Oh, ich schätze, dir gefällt, was du siehst? Jetzt weiß ich, warum du die ganze Zeit Jeans getragen hast.
+		kps.0.step.4a^				Не отвлекайся, тётя Кира!|Bitte konzentriere dich, Tante Kira!
+		kps.0.step.4b^				Ну, я могу и шорты снять...|Ich kann meine Hose auch ausziehen, wenn du willst....
+
+	kps.0.step.4a@114@e-ps1-f3@Хорошо, как скажешь, Макс. Хотя, меня очень заводит, когда я завожу фотографа...|Okay. Weißt du, der Gedanke, meinen Fotografen geil zu machen, macht mich so nass....
+		kps.0.step.5^				Ух...|Wow
+
+	kps.0.step.4b@113@e-ps1-f3@Макс! Я твоя тётя, забыл? Не отвлекайся и постарайся, чтобы кадры получились очень хорошими. Мне это нужно.|Max! Ich bin deine Tante! Konzentriere dich und versuche die besten Aufnahmen zu machen, das ist sehr wichtig für mich.
+		kps.0.step.5^				Хорошо...|Schön
+
+	kps.0.step.5@101@e-ps1-f4@Вообще, мне нравится, что ты держишь себя в руках. Некоторые непрофессиональные фотографы почему-то думают, что модель им что-то должна... Рада, что ты не такой...|Ich mag es, wie du dich kontrollierst. Einige unprofessionelle Fotografen denken, Models schulden ihnen etwas.... Ich mag es, dass du nicht wie sie bist.
+		kps.0.step.6^				Чёрт!|Fuck!
+
+	kps.0.step.6@104@e-ps1-f5@Что, Макс? Я не расслышала... А, не важно. Ну что, я думаю, достаточно на сегодня. Есть что-то удачное?|Hast du was gesagt, Max? Ich konnte dich nicht hören.... Wie auch immer, ich denke, es ist genug für heute. Glaubst du, wir haben gute Fotos gemacht?
+		kps.0.step.7^				Надеюсь...|Ich hoffe es
+
+	kps.0.step.7@101@Ладно, давай я скину себе фотографии, мой знакомый их обработает и там уже посмотрим, что получилось. Спасибо тебе, Макс. Кстати, если что, ты же не откажешь ещё пощёлкать свою тётю?|Okay, lass mich diese Fotos meinem Kollegen geben, er wird sie in Photoshop bearbeiten und wir werden das Ergebnis sehen. Danke, Max. Also, wirst du mir diesen Gefallen in Zukunft wieder tun?
+		kps.0.step.8^				Да, я бы пощёлкал...|Ja, das würde mir gefallen.
+
+	kps.0.step.8@113@Вот и здорово, Макс! Ладно, пойду переоденусь, а тебе ещё раз спасибо...|Großartig! Okay, ich ziehe mich um, danke nochmal.
+		leave!set_dcd.kiratalk_1!add_kiratalk_1!set_poss.aunt_5!max_cam.4.grow_300!time^					<i>Ну вот, ничего не обломилось в этот раз...</i>|<i>Scheiße, ich hatte keine Zeit....</i>
+
+
+
+# --- 0.3: Пытаемся попросить Киру научить Макса целоваться|Kira zu bitten, Max das Küssen beizubringen.
+
+	kira.kiss.try.init@0@Кира, мне нужно научиться целоваться...|Tante Kira, ich muss lernen, wie man küsst.
+	kira.kiss.try@102@Вот это подход, я понимаю! Может быть, тебе ещё что-то нужно?|Das ist ein Versuch! Brauchst du sonst noch etwas?
+		kira.kiss.try.next.1a^				А можно что-то ещё?|Was schwebt dir vor?
+		kira.kiss.try.next.1b^				Для начала только целоваться!|Fangen wir mit dem Küssen an und sehen wir, wohin es uns führt.
+
+	kira.kiss.try.next.1b@103@Для начала? Забавно... Постой, ты нашёл себе девушку? Кто она? Откуда? Как познакомились? Как зовут? Хочу всё знать!|<i>Start</i> vom Küssen? Heh, lustig. Warte, hast du eine Freundin? Wer ist sie? Wo kommt sie her? Wie habt ihr euch kennengelernt? Wie ist ihr Name? Erzähl mir alles!
+		kira.kiss.try.next.2^				Как ты догадалась?|Woher wusstest du das?
+
+	kira.kiss.try.next.1a@103@Шутник ты, Макс... Постой, ты нашёл себе девушку? Кто она? Откуда? Как познакомились? Как зовут? Хочу всё знать!|Sehr witzig, Max. Warte, hast du eine Freundin? Wer ist sie? Wo kommt sie her? Wie habt ihr euch kennengelernt? Wie ist ihr Name? Erzähl mir alles!
+		kira.kiss.try.next.2^				Как ты догадалась?|Woher wusstest du das?
+
+	kira.kiss.try.next.2@113@Ну зачем ещё парню может это понадобиться, сам подумай... И что, больше не у кого просить помощи, решил ко мне обратиться?|Warum solltest du sonst lernen, wie man küsst? Du hast also niemanden, der dir hilft?
+		ask.mom.teachkiss=2&kira.kiss.try.next.3a^			Мама не помогла...|Mom hat mir nicht geholfen.
+		ask.alisa.teachkiss=2&kira.kiss.try.next.3b^		Да, Алиса меня отшила...|Ja, Alice hat mir gesagt, ich soll verschwinden.
+		kira.kiss.try.next.4^								Ага...|Ja ja
+
+	kira.kiss.try.next.3a@101@Даже мама не помогла? Ого! Наверняка, сказала, чтобы ты учился целоваться со своей девушкой?|Wow, sogar Mom hat nein gesagt? Sie hat dir wahrscheinlich gesagt, du sollst lernen, deine Freundin zu küssen, oder?
+		kira.kiss.try.next.4^								Точно!|Genau!
+
+	kira.kiss.try.next.3b@101@Неудивительно. Наверняка, полез целоваться и получил... по... Хотя, нет. Видимо, тебе повезло. Ну я бы не стала к Алисе с такими вопросами обращаться на твоём месте...|Das überrascht mich nicht. Du hast wahrscheinlich nur versucht, sie zu küssen und wurdest in den.... Oder auch nicht. Vielleicht hattest du Glück. Wie auch immer, ich würde an deiner Stelle mit diesem Problem nicht zu Alice gehen.
+		kira.kiss.try.next.4^								Да, уже жалею...|Ja, es war Zeitverschwendung.
+
+	kira.kiss.try.next.4@104@Ну что же... Думаю, я смогу тебе помочь. Правда, не здесь и не сейчас. Нужна более интимная обстановка. О, я иногда вечерами смотрю телевизор. Если ещё не будешь спать, напомни о своей просьбе...|Nun.... Ich schätze, ich könnte dir helfen. Aber ein anderes Mal. Wir brauchen einen intimeren Rahmen. Wie wäre es am Abend, wenn ich fernsehen würde? Dann kannst du mich an dein Problem erinnern.
+		poss.sed=5&leave!set_ask.kira.teachkiss_2!set_poss.sed_6^		Договорились!|Deal!
+		poss.sed?5&leave!set_ask.kira.teachkiss_2^						Договорились!|Deal!
+		kira.kiss.try.next.5^											Хорошо! А ты только этому учишь?|Ist das das Einzige, was du mir beibringen wirst?
+
+	kira.kiss.try.next.5@109@Макс, тебе стоит быть чуть более... тактичным. В общем, помочь я тебе помогу, только выбери подходящий момент. Договорились?|Max, du solltest taktvoller sein. Wie auch immer, ich kann dir helfen, wenn du mich zum richtigen Zeitpunkt fragst. Abgemacht?
+		poss.sed=5&leave!set_ask.kira.teachkiss_2!set_poss.sed_6^		Конечно!|Sicher!
+		poss.sed?5&leave!set_ask.kira.teachkiss_2^						Конечно!|Sicher!
+
+
+
+# --- 0.3: Кира смотрит телевизор|Kira sieht fern.
+
+	kira.tv.alone@4@e-kiratv-1@<i>Тётя Кира смотрит какую-то эротику... Или даже порно. Понаблюдать ещё или не мешать ей отдыхать?</i>|<i>Tante Kira schaut sich Erotik an.... Oder vielleicht sogar Pornos. Soll ich weiter zuschauen oder gehen?</i>
+		kira.tv.alone.next.1!max_cam.4.grow_150^				<i>наблюдать</i>|<i>zusehen</i>
+		leave!sleep^						<i>пора спать, уже поздно...</i>|<i>Es ist spät, ich sollte schlafen gehen.</i>
+
+	kira.tv.alone.next.1@5@e-kiratv-2@<i>Оу... Кажется, ей нравится то, что она видит. Чёрт! Да и мне тоже!</i>|<i>Wow.... Ich schätze, ihr gefällt, was sie sieht. Und ich mag es auch!</i>
+		kira.tv.alone.next.2^				<i>продолжать смотреть</i>|<i>weiter zusehen</i>
+
+	kira.tv.alone.next.2@4@e-kiratv-3@<i>Крутяк! Она сняла трусики и вытащила свои огромные сиськи! Вот это мне повезло!</i>|<i>Sie zog ihr Höschen aus und holte ihre riesigen Titten raus!</i>
+		kira.tv.alone.talk.1^				Тётя Кира?|Tante Kira?
+		max.imp=0&kira.toy=1&kira.tv.alone.next.3^	<i>далее</i>|<i>fortfahren</i>
+		leave!sleep^						<i>пора спать, уже поздно...</i>|<i>Es ist spät, ich sollte schlafen gehen.</i>
+
+	kira.tv.alone.talk.1@103@e-kiratv-4@А? Макс? Как ты подкрался незаметно... Я думала, уже все спят давно... А я тут... отдыхаю, как видишь. Я тебя не смущаю таким своим видом?|Max? Ich habe dich nicht gehört. Ich dachte, alle schlafen schon. Ich war.... entspannend, wie du sehen kannst. Ich hoffe, du fühlst dich nicht unwohl?
+		max.imp=0&kira.tv.alone.talk.2a^				Ни капли!|Überhaupt nicht!
+		max.imp=0&kira.tv.alone.talk.2b^				Да ты продолжай, я посижу, посмотрю...|Bitte mach weiter, ich möchte hier sitzen und zusehen.
+		kira.tv.alone.talk.2c^				Я хотел пожелать спокойной ночи!|Ich wollte dir gute Nacht sagen.
+
+	kira.tv.alone.talk.2a@113@e-kiratv-5@Если твоя мама узнает, то нам обоим влетит. Так что... Пусть этот инцидент останется тайной...|Wenn deine Mom uns erwischt, kriegen wir beide Ärger. Lass es uns geheim halten.
+		kira.tv.alone.talk.3a^				Мне что-то не спится. Можно тоже телек посмотреть?|Ich kann auch nicht schlafen. Kann ich mit dir fernsehen?
+		kira.tv.alone.talk.3b^				Кажется, ты трусы забыла надеть...|Ich glaube, du hast vergessen, ein Höschen zu tragen.
+		kira.tv.alone.talk.3a^				А мне можно тоже... посмотреть фильм?|Kann ich.... auch einen Film sehen?
+
+	kira.tv.alone.talk.2b@113@e-kiratv-5@Ну что ты, Макс. Я просто не ожидала, что кто-то увидит. Так неловко...|Ich habe kein Publikum erwartet, Max. Ich könnte das nicht tun, es ist zu peinlich.
+		kira.tv.alone.talk.3a^				Мне что-то не спится. Можно тоже телек посмотреть?|Ich kann auch nicht schlafen. Kann ich mit dir fernsehen?
+		kira.tv.alone.talk.3b^				Кажется, ты трусы забыла надеть...|Ich glaube, du hast vergessen, ein Höschen zu tragen.
+
+	kira.tv.alone.talk.2c@113@e-kiratv-5@Хорошо, Макс. Спокойной ночи! Я тоже уже ложусь спать...|Süße Träume, Max. Ich werde auch schlafen.
+		leave!sleep^						Ага, приятных снов...|Süße Träume
+
+	kira.tv.alone.talk.3b@101@Ой, ты прав. Какая я забывчивая... Ну тут темно и будем считать, что ничего не видно... А ты чего хотел, Макс?|Oh, du hast Recht.... aber es ist dunkel hier, also lass uns so tun, als ob du nichts sehen kannst. Wolltest du etwas, Max?
+		kira.tv.alone.talk.3a^				Можно состаавить тебе компанию?|Kann ich dir Gesellschaft leisten?
+
+	kira.tv.alone.talk.3a@114@e-kira-mtv-1@Да без проблем, садись рядом. Только трусики надену... Вот, теперь порядок. Что будем смотреть? Боевики, фантастику?|Natürlich, Max. Lass mich nur mein Höschen anziehen. Was willst du sehen?
+		can.watchporno=1&kira.tv.alone.talk.4a^				Может быть, эротику?|Wie wäre es mit etwas Erotik?
+		can.watchporno=0&kira.tv.alone.talk.5a^				Может быть, эротику?|Wie wäre es mit etwas Erotik?
+		can.watchporno=1&kira.tv.alone.talk.4b^				А можно порно посмотреть?|Können wir uns Pornos ansehen?
+		can.watchporno=0&kira.tv.alone.talk.5b^				А можно порно посмотреть?|Können wir uns Pornos ansehen?
+		lizas.mentor=1&ask.kira.teachkiss=2&kira.tv.alone.talk.4!max_cam.4.grow_150!add_kira.inf_-10^			Я насчёт уроков поцелуев, если момент подходящий...|Ich möchte dich fragen, ob das ein guter Zeitpunkt ist, um Unterricht zu geben.
+
+	kira.tv.alone.talk.5a@103@Макс, а ты не слишком юн для этого? Я не думаю, что это хорошая идея. Вообще, я думаю, что тебе уже пора спать. Три часа ночи... Давай в другой раз поговорим об этом...|Ich bin mir nicht sicher, ob das eine gute Idee ist. Und es ist spät. Lass uns das ein andermal besprechen.
+		leave!sleep^						Хорошо...|Schön
+
+	kira.tv.alone.talk.5b@112@Ого, Макс. А не рано для тебя такое? Если эротику, то ещё куда ни шло... Хотя, и эротику тебе не стоит смотреть. Во всяком случае, со мной... И вообще, тебе пора спать!|Ich denke nicht, dass du dir Pornos oder sogar Erotik ansehen solltest. Zumindest mit mir. Und es ist sowieso schon spät.
+		leave!sleep^						Хорошо...|Schön
+
+	kira.tv.alone.talk.4a@113@Эротику? Я люблю красивую эротику, но ещё больше люблю жёсткое порно. Вот именно поэтому, я только его и смотрю...|Ich mag geschmackvolle Erotik, aber ich mag Pornos noch mehr. Deshalb ist es das Einzige, was ich sehe.
+		kira.tv.alone.talk.4b^				Порно даже лучше!|Noch besser!
+
+	kira.tv.alone.talk.4b@103@Порно, значит... Ну давай. Только руки не распускать. И не смущайся - я иногда... к себе прикасаюсь, так ощущения от фильма более... интересные, если ты меня понимаешь...|Porno, sagst du.... Sicher, warum nicht. Aber du darfst mich nicht anfassen! Und es ist mir nicht peinlich, wenn ich mich.... anfasse. Es wird den Film noch intensiver machen.... wenn du weißt, was ich meine.
+		kira.tv.alone.talk.7^				Да без проблем!|Kein Problem!
+
+	kira.tv.alone.talk.7@101@Хорошо, давай смотреть. Есть у меня кое-что интересное с собой на дисках...|Dann lass uns zusehen. Ich habe etwas Interessantes auf DVD.
+		kira.tv.alone.talk.8^				Тётя кира, всё в порядке!|Großartig
+
+	kira.tv.alone.talk.8@4@e-kira-mtv-6@<i>Ого, она трогает свою грудь! Блин, мне повезло с тётей. Она такая классная! Упс... Кажется, я перевозбудился...</i>|<i>Tante Kira berührt ihre Brüste! Sie ist die beste Tante der Welt! Sieht aus, als wäre ich jetzt zu aufgeregt....</i>
+		kira.tv.alone.talk.9!max_cam.4.grow_200^				<i>далее</i>|<i>fortfahren</i>
+
+	kira.tv.alone.talk.9@113@Макс, тебе тесно в твоих шортах? Что ты там прячешь? Стесняешься меня? Мы с тобой сидим, смотрим порно, а ты прикрываешься?|Fühlst du dich wohl in deinen Shorts, Max? Warum versteckst du dich, bist du schüchtern? Wir schauen zusammen Pornos, du musst dich nicht bedecken.
+		kira.tv.alone.talk.10^				<i>убрать руки</i>|<i>Hände weg nehmen</i>
+
+	kira.tv.alone.talk.10@114@e-kira-mtv-7@И что, ты стесняешься меня? После всего, что было? Если хочешь, можешь даже снять шорты, чтобы резинка ничего не передавливала...|Du musst dich nicht für mich schämen, besonders nach allem, was wir zusammen gemacht haben. Du kannst deine Shorts auch ausziehen, wenn du willst.
+		kira.tv.alone.talk.11^				Меня уговаривать не надо...|Danke
+
+	kira.tv.alone.talk.11@112@e-kira-mtv-8@Ну вот, так же лучше? Ох, я всё не могу привыкнуть, что он у тебя такой... В общем, если хочешь, можешь себя трогать. Как я уже говорила, фильм от этого становится интереснее...|Das ist doch viel besser, oder? Ich kann mich immer noch nicht an deine Größe gewöhnen.... Wie auch immer, du kannst dich anfassen, wenn du willst. Wie gesagt, es wird die Erfahrung verbessern.
+		kira.tv.alone.talk.12^				Да для меня ты интереснее фильма...|Du bist besser als jeder andere Film.
+
+	kira.tv.alone.talk.12@114@Спасибо, Макс... Это приятно слышать... Но ты так всё пропустишь самое интересное на экране...|Danke, Max. Es ist sehr schön zu hören. Aber du wirst die besten Teile auf dem Bildschirm verpassen.
+		kira.tv.alone.talk.13^				Ага...|Ja ja
+		kira.tv.alone.talk.alt.1^			Может быть, ты мне поможешь?|Willst du mir helfen?
+
+	kira.tv.alone.talk.13@4@<i>С ума сойти... Я дрочу на глазах у своей тёти перед огромным экраном, на котором показывают порно... А ещё она ласкает свою грудь... Я сейчас кончу!</i>|<i>Ich kann nicht glauben, dass ich vor meiner Tante wichse, während ich Pornos gucke. Während sie mit ihren Titten spielt. Ich werde abspritzen!</i>
+		kira.tv.alone.talk.14^				<i>кончить</i>|<i>spritzen</i>
+
+	kira.tv.alone.talk.14@114@Что, ты уже? Так быстро... Ну, иди приведи себя в порядок и ложись спать. Тебе уже пора. Я тоже скоро... заканчиваю... Да, не забудь свои шорты...|Was, jetzt schon? So schnell. Nun, mach dich sauber und geh schlafen, es ist spät. Ich werde.... auch bald fertig werden. Vergiss deine Shorts nicht.
+		leave!sleep^						Спокойной ночи...|Gute Nacht
+
+	kira.tv.alone.talk.alt.1@113@Ну, Макс, это будет называться уже не совместным просмотром порно и может перейти... сам знаешь к чему. Да и дома кое-кто есть, если ты не забыл... Так что, давай сам...|Aber wir wären nicht in der Lage, einen Film zu sehen, und es kann zu.... Weißt du was. Und wir sind nicht allein im Haus. Also solltest du es selbst tun.
+		kira.tv.alone.talk.13^				Ага...|Ja ja
+
+	kira.tv.alone.talk.4@113@e-kira-mtv-2@Да, да... Момент вполне подходящий... Ну что же, давай приступим.|Sicher, sieht nach einer angemessenen Zeit aus.
+		count.kira.kisses=0&kira.tv.alone.kiss.0!set_poss.sed_7^	С чего начать?|Wovon sollen wir ausgehen?
+		count.kira.kisses=1&kira.tv.alone.kiss.1^					Как в прошлый раз?|Wie beim letzten Mal?
+		count.kira.kisses>1&kira.tv.alone.kiss.2^					Отлично!|Großartig!
+
+
+	kira.tv.alone.kiss.0@101@Очень важная часть поцелуя - это прелюдия. Если ты накинешься на девушку в первый раз и начнёшь целовать, пусть даже и хорошо, то скорее всего, получишь отказ...|Einer der wichtigsten Bestandteile eines Kusses ist ein Vorspiel. Wenn du einfach auf ein Mädchen springst und sie aus heiterem Himmel küsst, egal wie gut dein Kuss sein wird, wird sie dich wahrscheinlich abweisen.
+		kira.tv.alone.kiss.0.m1!add_skill.kiss_10!add_count.kira.kisses_1^		И что делать?|Und was soll ich tun?
+
+	kira.tv.alone.kiss.0.m1@103@Ну, с прелюдиями я тебе не помогу, тут всё индивидуально. Просто, поймай нужный момент и попробуй меня поцеловать как умеешь, для начала...|Ich kann dir dabei nicht helfen, es ist bei jedem Mädchen anders. Du musst den richtigen Moment finden. Was unsere Lektionen angeht, küss mich, mal sehen, womit wir arbeiten.
+		kira.tv.alone.kiss.0.m2^			Да это легко!|Einfach!
+
+	kira.tv.alone.kiss.0.m2@112@e-kira-mtv-3@А вот и нет. Излишняя самоуверенность на многих действует, но скромных девушек может отпугнуть. Ты должен чувствовать ту, с которой планируешь... что ты там планируешь...|Nicht wirklich, nein. Selbstüberschätzung funktioniert nicht bei jedem Mädchen, man kann ein Mädchen verscheuchen, wenn es schüchtern ist. Du solltest das Mädchen spüren, mit dem du planst.... was auch immer du planst.
+		kira.tv.alone.kiss.0.m3^			Тётя Кира, хватит меня дразнить!|Genug mit dem Hänselei!
+		kira.tv.alone.kiss.0.m3^			Да я всё это и так знаю!|Das weiß ich!
+
+	kira.tv.alone.kiss.0.m3@113@e-kira-mtv-4@Ну хорошо. Давай приступим...|Okay, dann lass uns anfangen.
+		kira.tv.alone.kiss.0.m4^			<i>поцеловать</i>|<i>küssen</i>
+
+	kira.tv.alone.kiss.0.m4@4@e-kira-mtv-5@<i>Ого... Какой горячий ротик... И она так ловко орудует язычком... Так... И что мне, как... Эх, учиться мне ещё и учиться... А что, я очень даже не против такому учиться вечно!</i>|<i>Wow.... sie ist so heiß.... und sie ist wirklich gut mit ihrer Zunge.... Ich sollte das versuchen.... Ich habe so viel zu lernen.... Es macht mir nichts aus, das für immer zu lernen!</i>
+		kira.tv.alone.kiss.0.m5^			<i>продолжить</i>|<i>fortfahren</i>
+
+	kira.tv.alone.kiss.0.m5@114@e-kira-mtv-3@Ну всё, на сегодня хватит. Конечно, получается у тебя пока не очень. Но ты знаешь где меня найти, если захочешь потренироваться ещё... А теперь марш спать!|Okay, das reicht für heute. Du musst noch viel lernen, aber du weißt, wo du mich findest, wenn du wieder üben willst. Jetzt geh schlafen.
+		leave!sleep^						Конечно! Спасибо, тётя Кира!|Okay. Danke, Tante Kira.
+
+
+	kira.tv.alone.kiss.1@101@e-kira-mtv-4@В прошлый раз я тебе рассказала про прелюдии, но с ними мы разобрались. Так что, давай просто будем повышать твою технику опытным путём...|Ich habe dir letztes Mal etwas Theorie gesagt, jetzt lass uns einfach weiter deine praktischen Fähigkeiten ausbauen.
+		kira.tv.alone.kiss.1.m1!add_skill.kiss_5!add_count.kira.kisses_1^		Ой, я только за!|Ich bin immer dafür!
+
+	kira.tv.alone.kiss.1.m1@4@e-kira-mtv-5@<i>Как же это приятно... Она такая... и такое делает язычком... Ух... Кажется, я начинаю возбуждаться...</i>|<i>Das fühlt sich so gut an.... was sie mit ihrer Zunge macht.... Ich werde hart.</i>
+		kira.tv.alone.kiss.1.m2^						<i>далее</i>|<i>fortfahren</i>
+
+	kira.tv.alone.kiss.1.m2@112@e-kira-mtv-3@Ну, уже лучше. Но на сегодня хватит. А то у тебя будет мозоль на языке... А теперь бегом спать! Я тут планирую ещё немного фильмы посмотреть...|Du machst Fortschritte. Wir sollten für heute aufhören, bevor du dir die Zunge wund reibst. Geh schlafen.
+		leave!sleep^						Конечно! Спасибо, тётя Кира! Спокойной ночи!|Danke, Tante Kira! Gute Nacht
+
+
+	kira.tv.alone.kiss.2@112@e-kira-mtv-4@Столько энтузиазма... Меня начинают посещать мысли, что делаешь ты это уже даже не ради обучения поцелуям...|Du bist so begeistert. Ich fange an zu bezweifeln, dass du es tust, um zu lernen, wie man küsst....
+		kira.tv.alone.kiss.2.m1!add_skill.kiss_5!add_count.kira.kisses_1^		Не отвлекайся!|Lass dich nicht ablenken!
+
+	kira.tv.alone.kiss.2.m1@4@e-kira-mtv-5@<i>Кажется, мне никогда не надоест это делать с такой женщиной... Ну и что, что она моя тётя... Но она так классно целуется!</i>|<i>Ich glaube nicht, dass ich jemals müde werde, so eine Schönheit zu küssen. Es ist mir egal, dass sie meine Tante ist, sie ist so toll!</i>
+		kira.tv.alone.kiss.2.m2^			<i>далее</i>|<i>fortfahren</i>
+
+	kira.tv.alone.kiss.2.m2@113@e-kira-mtv-3@Остановись, Макс... Хорошего помаленьку. У тебя уже получается гораздо лучше, чем раньше. Но если захочешь попрактиковаться ещё... Но сейчас пора спать.|Du solltest aufhören, Max. Genug für heute. Du bist viel besser als vorher, aber du bist immer willkommen für weitere Übung.... Aber jetzt solltest du schlafen gehen.
+		leave!sleep^						Спокойной ночи, тётя Кира!|Gute Nacht, Tante Kira!
+
+
+	kira.tv.alone.next.3@3@e-kiratv-6@<i>Ну, тётя Кира даёт! Игрушка у неё что надо! Интересно, а она не боится, что своим жужжанием она разбудит кого-то посреди ночи?</i>|<i>Wow, sie ist so.... Und ihr Spielzeug ist auch toll! Hat sie keine Angst, jemanden mit diesem Summen mitten in der Nacht aufzuwecken?</i>
+		kira.tv.alone.t.1!max_cam.4.grow_300^					<i>набл?дать</i>|<i>zusehen</i>
+
+	kira.tv.alone.t.1@4@e-kiratv-7@<i>Ого... К шуму прибора добавились и стоны тёти Киры... Да, она точно не боится никого разбудить! Эх... Отсюда почти ничего не видно...</i>|<i>Wow.... sie fängt jetzt an zu jammern.... Ja, sie denkt definitiv nicht daran, jemanden aus Versehen aufzuwecken! Ich kann von hier aus nicht viel sehen.</i>
+		kira.tv.alone.t.2^					<i>Выбрать более удачную точку для обзора</i>|<i>Blickwinkel ändern</i>
+
+	kira.tv.alone.t.2@3@e-kiratv-8@<i>Да, так немного лучше... Она так увлечена, что ничего не замечает! Интересно, что она скажет, если меня заметит?</i>|<i>Ja, das ist viel besser.... Sie ist so involviert, dass sie nichts sehen kann! Ich frage mich, wie sie auf mich reagieren wird.</i>
+		kira.tv.alone.t.3^					<i>подойти чуть ближе</i>|<i>näher kommen</i>
+
+	kira.tv.alone.t.3@4@e-kiratv-9@<i>Не, ничего она не замечает. Кажется, даже своё порно на экране уже не смотрит... Чёрт, в шортах стало тесно... Может, мне тоже себя развлечь?</i>|<i>Sie bemerkt mich immer noch nicht. Ich glaube, sie kümmert sich auch nicht mehr um Pornos. Ich bin gerade so hart.... Vielleicht könnte ich etwas Spaß haben?</i>
+		kira.tv.alone.t.4^					<i>достать член</i>|<i>Schwanz herausholen</i>
+
+	kira.tv.alone.t.4@103@e-kiratv-10@Макс! Ты... ты почему не спишь... и что ты делаешь?!|Max! Du.... Warum bist du nicht im Bett.... und was machst du!?
+		kira.tv.alone.t.5a^					Что я делаю?! А ты?|Was mache ich hier? Was ist mit dir?
+		kira.tv.alone.t.5b^					Да вот, наблюдаю...|Ich sehe dich an....
+
+	kira.tv.alone.t.5a@101@Я... Ну... Решила расслабиться перед... сном... Может быть, ты тоже пойдёшь спать? Можешь в душ сходить, сбросить... напряжение, я тоже скоро закончу...|Ich.... nun.... Ich wollte mich etwas entspannen.... Vielleicht solltest du schlafen gehen? Du kannst duschen gehen, um etwas Druck abzulassen, ich werde auch abspritzen....
+		kira.tv.alone.t.6^					А эта штука и сейчас работает внутри тебя, да?|Funktioniert das Ding noch in dir?
+
+	kira.tv.alone.t.5b@101@Так неловко... Макс... Давай сделаем вид, что ничего не было, а? И я сделаю вид, что не видела что ты делаешь, глядя на меня...|Max.... Tun wir so, als hätten wir nichts gesehen. Ich tue so, als ob ich dich nicht gesehen hätte....
+		kira.tv.alone.t.6^					А эта штука и сейчас работает внутри тебя, да?|Funktioniert das Ding noch in dir?
+
+	kira.tv.alone.t.6@104@Макс... Пожалуйста, иди спать... Я постараюсь не шуметь... И пусть это будет наш секрет, хорошо?|Max.... bitte geh schlafen.... Ich werde versuchen, ruhig zu sein.... kann es unser Geheimnis sein?
+		can.fuckkira>0&kira.tv.fck.1!max_cam.4.grow_300!add_kira.inf_-30^		Ну уж нет, я тоже хочу кое-что!|Nein, ich will auch etwas!
+		can.fuckkira=0&leave!sleep!max_can.talkkiratoy_1^						Хорошо. Но мне понравилось то, что я видел...|Okay. Aber ich mochte, was ich sah.
+
+	kira.tv.fck.1@112@Ну, иди сюда... Всё равно, ты меня поймал. Придётся, тебя подкупить за твоё молчание, верно? Снимай шорты!|Okay, komm her.... Du hast mich erwischt, also muss ich für dein Schweigen bezahlen, richtig? Zieh deine Hose aus.
+		kira.tv.fck.2^			Меня уговаривать не нужно!|Du musst mich nicht überzeugen!
+
+	kira.tv.fck.2@103@e-kiratv-11@Ты же никому не скажешь об этом, верно?|Du wirst es niemandem erzählen, oder?
+		kira.tv.fck.3^			Само собой!|Natürlich!
+
+	kira.tv.fck.3@4@e-kiratv-12@<i>Ох, как она сосёт... Да так глубоко... Похоже, у неё чёрный пояс по минету! Блин, я уже на грани... Вот вот и кончу... А она ускоряет темп!</i>|<i>Sie lutscht meinen Schwanz.... so tief... Sie ist eine Blowjob-Königin! Mist, ich werde nicht durchhalten.... Ich bin dabei zu kommen.... sie ist noch schneller!</i>
+		kira.tv.fck.4^			<i>кончить!</i>|<i>spritzen!</i>
+
+	kira.tv.fck.4@7@e-kiratv-13@<i>А... Я кончаю... Прямо ей в рот! Она всё глотает! О боже... Кажется, я её люблю! Хотя, что я болтаю... Но как же это приятно!</i>|<i>Oh.... ich komme.... direkt in ihren Mund! Und sie hat alles verschluckt! Ich glaube, ich bin verliebt! Warte, was ich denke.... Aber sie ist so gut.</i>
+		kira.tv.fck.5^			<i>далее</i>|<i>fortfahren</i>
+
+	kira.tv.fck.5@112@e-kiratv-14@Ну вот. Понравилось? И ни капли мимо... |Hat es dir gefallen? Und kein einziger Tropfen ist daneben gegangen....
+		kira.tv.fck.6^			Ты потрясающая!|Du bist unglaublich!
+
+	kira.tv.fck.6@114@Да, мне такое говорили... Мужчины... в подобных ситуациях. Я рада, что смогла снять твоё напряжение. И... я тоже кончила, пока ты стонал, если что... А теперь, давай спать!|Ja, ich habe so etwas in ähnlichen Situationen gehört. Ich bin froh, dass ich dir geholfen habe, etwas Druck abzulassen. Und.... Ich bin mit dir gekommen.... Jetzt lass uns schlafen gehen.
+		leave!sleep!max_can.talkkiratoy_2^		Ага...|Ja ja
+
+
+
+# --- 0.3: Разговор с Кирой насчёт ночного эвента с игрушкой|Gespräch nach der Nacht mit einem Spielzeug
+
+	kira.about.toy.init@0@Насчёт игрушки...|Über das Spielzeug....
+	kira.about.toy@103@Какой игрушки? А... Ты про то что было ночью?|Welches Spielzeug? Redest du von dieser Nacht?
+		kira.about.toy.1^						Ну да...|Ja ja
+
+	kira.about.toy.1@101@Предлагаю забыть об этом и никогда больше не возвращаться к этой теме...|Vergessen wir es und reden wir nie wieder darüber.
+		can.talkkiratoy=1&kira.about.toy.2a^	Почему?!|Warum!?
+		can.talkkiratoy=2&kira.about.toy.2b^	Почему?!|Warum!?
+
+	kira.about.toy.2a@113@Макс, ну что за глупый вопрос! Потому, что ты не должен был меня видеть в такой ситуации... Я даже слезть с этой штуки не могла, перепугалась... Да ещё ты с членом в руках...|Komm schon, Max! Du hättest mich nicht in so einer Situation erwischen sollen.... Ich konnte nicht mal von dem Ding klettern, ich hatte Angst.... Und du warst genau vor mir, mit deinem Schwanz in der Hand....
+		kira.about.toy.3a^			Извини, не хотел тебя напугать...|Tut mir leid, ich wollte dich nicht erschrecken....
+		kira.about.toy.3a^			Так тебя я или член напугал?|Hattest du Angst vor mir oder meinem Schwanz?
+
+	kira.about.toy.2b@113@Потому, что есть что-то неправильное в этом всём. Нет, мне очень понравилось и я даже кончила, пока тебе... Ну ты понял. Но Макс... А если бы нас кто-то увидел?|Weil alles falsch ist. Ich meine, ich mochte es wirklich und ich kam, während ich.... du weißt schon. Aber Max.... Was, wenn uns jemand sehen würde?
+		kira.about.toy.3b^			Все спят в это время!|Alle schlafen zu der Zeit so!
+
+	kira.about.toy.3a@114@Ну ты не столько напугал, сколько... порадовал. Но не стоит размахивать своим, даже таким... удачным хозяйством, перед своими родственниками...|Ich hatte nicht so viel Angst wie ich.... froh war. Aber du solltest nicht vor deinen Verwandten dein.... außergewöhnliches... Ding herumschwingen....
+		kira.about.toy.4a^			Порадовал?|Fröhlich?
+		kira.about.toy.4b^			Ладно, я понял...|Okay, ich verstehe
+
+	kira.about.toy.3b@114@Ну ты же не спал... Вдруг, кто-то проснётся воды попить, а тут картина маслом: тётя отсасывает своему племяннику, сидя на механическом члене... Меня просто не пустят в этот дом больше...|Das warst du nicht! Was, wenn jemand ein Glas Wasser will und mich einen Vibrator reiten und deinen Schwanz lutschen sieht? Ich würde aus dem Haus geworfen werden....
+		kira.about.toy.4c^			Не переживай, что-нибудь придумали бы...|Wir hätten uns etwas überlegt.
+
+	kira.about.toy.4a@103@Макс... Надеюсь, что ты всё понял, что я хотела сказать... |Max.... Ich hoffe, du verstehst, was ich sagen will.
+		kira.about.toy.4b^			Ага, типа того...|Ja, so was in der Art.
+
+	kira.about.toy.4b@113@В общем, постарайся забыть... Хотя, ты такое не забудешь. Наверняка, ещё девстенник, а значит, будешь только об этом и думать в ближайшее время... Эх. Ладно. Главное, никому не рассказывай!|Wie auch immer, versuch es zu vergessen.... du wirst so etwas nicht vergessen. Du bist wahrscheinlich noch Jungfrau, es wird dir noch eine ganze Weile nichts anderes einfallen.... Sag es wenigstens niemandem!
+		leave!set_can.talkkiratoy_3^	Конечно!|Sicher!
+
+	kira.about.toy.4c@113@Что-то я сомневаюсь, что твоих или даже моих ораторских навыков хватило бы, чтобы это объяснить. Ну, как бы то ни было, нас не заметили, можно вздохнуть спокойно. Главное - никому ни слова!|Ich glaube nicht, dass wir in der Lage wären, aus dieser Sache herauszukommen.... Jedenfalls wurden wir nicht erwischt, also müssen wir uns keine Sorgen machen. Aber du darfst es niemandem sagen!
+		leave!set_can.talkkiratoy_3^	Само собой!|Natürlich!
+
+
+
+# --- 0.3: Ночная сцена с купающейся Кирой|Nachtveranstaltung mit Kira im Pool
+
+	kira.swim.night@4@e-kira-swim-night-1@<i>Ого... Тётя Кира купается голой! Интересно, стоит ей показываться на глаза или пойти спать? А то уже поздно...</i>|<i>Wow! Tante Kira schwimmt nackt! Ich frage mich, ob ich mich zeigen könnte oder ob ich einfach schlafen gehen sollte....</i>
+		kira.swim.night.next.1^			Купаешься?|Schwimmen?
+		leave!sleep^					<i>идти спать</i>|<i>schlafen gehen</i>
+
+	kira.swim.night.next.1@103@e-kira-swim-night-2@Ой, Макс... Я думала, что все уже спят. Хотела немного поплавать... А ты чего не спишь?|Max? Ich dachte, alle schlafen. Ich wollte eine Weile schwimmen. Warum bist du nicht im Bett?
+		kira.swim.night.next.2^			Да, что-то не спится... К тебе можно?|Ich konnte nicht schlafen. Kann ich mich dir anschließen?
+
+	kira.swim.night.next.2@113@Ну, бассейн большой. К тому же, это ваш дом. Кому как не тебе решать?|Es gibt genug Platz, und es ist nicht einmal mein Haus, bestimme selbst.
+		max.imp=0&kira.swim.night.next.3!max_cam.6.grow_250^		Отлично! <i>(снять шорты)</i>|Großartig! <i>(Hosen ausziehen)</i>
+		leave!sleep^												Ты знаешь, я пойду спать...|Ich glaube, ich gehe schlafen.
+
+	kira.swim.night.next.3@114@e-kira-swim-night-3@А ты не из стеснительных, Макс... Решил впечатлить меня своим хозяйством?|Du bist nicht schüchtern, oder, Max? Hast du dich entschieden, mich zu beeindrucken?
+		kira.swim.night.next.4^			Ну ты же голая...|Aber du bist auch nackt.
+
+	kira.swim.night.next.4@113@Абсолютно. Ладно, ныряй, а то я не могу спокойно на это смотреть...|Ich schätze schon. Okay, beeil dich und geh in den Pool, ich kann mir deinen Schwanz nicht lange ansehen....
+		can.fuckkira>0&kira.swim.night.next.5b!add_kira.inf_-10^	<i>нырнуть</i>|<i>schwimmen gehen</i>
+		can.fuckkira=0&kira.swim.night.next.5a^						<i>нырнуть</i>|<i>schwimmen gehen</i>
+
+	kira.swim.night.next.5a@112@e-kira-swim-night-4@Какая же прозрачная вода в вашем бассейне... Тебя не смущает мой вид? Хотя я вижу, что тебе он нравится... Очень хорошо вижу...|Das Wasser ist so durchsichtig.... Meine Nacktheit stört dich nicht, oder? Oh, ich kann sehen, dass es dir gefällt.... Ich sehe es sehr deutlich.
+		kira.swim.night.e.1^			Может быть, поможешь с этим?|Vielleicht kannst du mir dabei helfen?
+
+	kira.swim.night.e.1@113@А что, сам не справишься? Я напротив тебя абсолютно голая... Неужели, недостаточно для тебя?|Kannst du dir nicht selbst helfen? Ich bin nackt direkt neben dir, ist das genug für dich?
+		kira.swim.night.e.2^			Ну, так не интересно...|Das macht keinen Spaß.
+
+	kira.swim.night.e.2@114@Может быть, мне интересно... Хотя, ты прав. В воде это лучше не делать, здесь твоя семья купается. Представляю о чём они подумают, если увидят следы твоего... экстаза...|Vielleicht macht es mir Spaß.... Du hast allerdings Recht. Wir sollten nichts im Wasser machen, deine Familie schwimmt hier. Was ist, wenn sie die Ergebnisse deiner.... Aufregung sehen?
+		kira.swim.night.e.3^			Ну, я бы не стал тут...|Ich wollte es nicht hier tun.
+
+	kira.swim.night.e.3@113@Вот и я об этом. Ладно, Макс, беги спать. Уже поздно. А то если нас заметят тут, будет много вопросов... Спокойной ночи! И шорты не забудь...|Gute Idee. Okay, Max, geh schlafen. Es ist spät, und wir wollen nicht so erwischt werden.... Gute Nacht.
+		leave!sleep^					Эх... Спокойной ночи!|Oh... Gute Nacht
+
+	kira.swim.night.next.5b@112@e-kira-swim-night-4@Значит, тебе не спится? Решил охладиться или наоборот, поискать приключений?|Ich kann nicht schlafen, sagst du. Wolltest du dich abkühlen, oder wolltest du etwas Heißes?
+		kira.swim.night.f.1^			И то и другое...|Beides...
+
+	kira.swim.night.f.1@113@Понятно. Я могу как-то помочь тебе в поисках приключений?|Ich verstehe. Und kann ich dir irgendwie helfen?
+		who.watch=-1&kira.swim.night.f.2^		Если только снять напряжение, а то...|Du könntest mir helfen, etwas Druck abzulassen....
+		who.watch>-1&kira.swim.night.n.1^		Если только снять напряжение, а то...|Du könntest mir helfen, etwas Druck abzulassen....
+
+	kira.swim.night.f.2@114@e-kira-swim-night-5@Ну, если ты так настаиваешь... А тебя заводит, что тебя может кто-то увидеть со своей обнажённой тётей, крепко сжимающей твой огромный член?|Wenn du darauf bestehst.... Was hältst du von der Möglichkeit, dass dich jemand mit deiner nackten Tante sieht, die deinen großen Schwanz hält?
+		kira.swim.night.f.3a^			О да!|So heiß!
+		kira.swim.night.f.3b^			Не особо...|Nicht so toll
+
+	kira.swim.night.f.3a@113@Значит, любишь, когда за тобой наблюдают?|Also magst du es, beobachtet zu werden?
+		kira.swim.night.f.4^			Ну, смотря кто...|Kommt darauf an, wer zuschaut....
+
+	kira.swim.night.f.3b@113@Значит, не любишь, когда за тобой наблюдают?|Also magst du es nicht, beobachtet zu werden?
+		kira.swim.night.f.4^			Ну, смотря кто...|Kommt darauf an, wer zuschaut....
+
+	kira.swim.night.f.4@114@e-kira-swim-night-6@Ну хорошо. Представь, что ты занимаешься чем-то таким, как то, что происходит сейчас... И ты знаешь, что кто-то за тобой подглядывает... Кого бы ты предпочёл в качестве такого наблюдателя?|Okay. Stell dir vor, du tust, was wir gerade tun.... Und du weißt, dass dich jemand beobachtet.... Wen willst du als Beobachter haben?
+		kira.swim.night.f.5a!set_who.watch_0^			Лиза...|Lisa
+		kira.swim.night.f.5b!set_who.watch_1^			Алиса...|Alice
+		kira.swim.night.f.5c!set_who.watch_2^			Мама...|Mom
+		kira.swim.night.f.5d!set_who.watch_3^			Кто-то, кого не знаю...|Irgendein Fremder
+		kira.swim.night.f.5e!set_who.watch_4^			Ты...|Du
+		kira.swim.night.f.5f!set_who.watch_5^			Никто...|Niemand
+
+	kira.swim.night.f.5a@112@Лиза? Ты хочешь, чтобы за тобой подглядывала младшая сестрёнка? А ты думаешь или фантазируешь о ней... в сексуальном плане? Мне ты можешь сказать, в конце концов, я твоя тётя и ласкаю твой член...|Lisa? Du willst, dass deine jüngere Schwester dich anstarrt? Phantasierst du über sie auf sexuelle Weise? Du kannst mir sagen, ich meine, ich bin deine Tante und ich wichse dich gerade....
+		kira.swim.night.f.yes^			Да...|Ja...
+		kira.swim.night.f.no^			Нет, что ты...|Nein, natürlich nicht
+
+	kira.swim.night.f.5b@112@Алиса? Ты хочешь, чтобы за тобой подглядывала старшая сестрёнка? А ты думаешь или фантазируешь о ней... в сексуальном плане? Мне ты можешь сказать, в конце концов, я твоя тётя и ласкаю твой член...|Alice? Du willst, dass deine ältere Schwester dich anstarrt? Phantasierst du über sie auf sexuelle Weise? Du kannst mir sagen, ich meine, ich bin deine Tante und ich wichse dich gerade....
+		kira.swim.night.f.yes^			Да...|Ja...
+		kira.swim.night.f.no^			Нет, что ты...|Nein, natürlich nicht
+
+	kira.swim.night.f.5c@112@Мама? Ты хочешь, чтобы за тобой наблюдала мама? Любопытно... Ты думаешь или фантазируешь о ней... в сексуальном плане? Мне ты можешь сказать, в конце концов, я твоя тётя и ласкаю твой член...|Mom? Willst du, dass deine Mutter dich anstarrt? Phantasierst du über sie auf sexuelle Weise? Du kannst mir sagen, ich meine, ich bin deine Tante und ich wichse dich gerade....
+		kira.swim.night.f.yes^			Да...|Ja...
+		kira.swim.night.f.no^			Нет, что ты...|Nein, natürlich nicht
+
+	kira.swim.night.f.yes@103@Интересно, что она скажет на это...|Ich frage mich, was sie dazu sagen würde....
+		kira.swim.night.f.wtf^			Что?!|Was!?
+		kira.swim.night.f.wtf^			Ты же не расскажешь?!|Du wirst es ihr nicht sagen, oder?
+
+	kira.swim.night.f.wtf@114@Да расслабься, а то такой напряжённый во всех местах... Я шучу, конечно. То, что мы с тобой делаем это большой большой секрет от всех...|Ganz ruhig, Max. Du bist überall so angespannt.... Natürlich mache ich Witze. Was wir tun, ist ein großes Geheimnis vor allen....
+		kira.swim.night.you^			Ну а ты?|Was ist mit dir?
+
+	kira.swim.night.f.no@114@Ой, да ладно, Макс! У тебя все мысли только о сексе. Неужели никогда о ней не думал в этом плане? Не поверю... Обо мне же думал?|Oh, komm schon, Max! Du denkst nur an Sex. Hast du noch nie so über sie nachgedacht? Ich glaube dir nicht.... Du hast von mir geträumt, oder?
+		kira.swim.night.you^			Кстати, а ты?|Und was ist mit dir?
+
+	kira.swim.night.f.5d@112@Понятно... Стесняешься знакомых людей, но готов открыться незнакомым в надежде, что никогда их не встретишь... Ну что же, понимаю...|Ich verstehe. Du bist zu schüchtern, um so etwas vor jemandem zu tun, den du kennst, aber ein Fremder ist nicht jemand, dem du dich stellen müsstest.... Ich verstehe.
+		kira.swim.night.you^			Ну а ты?|Was ist mit dir?
+
+	kira.swim.night.f.5e@113@Я? Ты хочешь, чтобы я подглядывала, когда ты занимаешься чем-то таким? Тебя так заводит мысль обо мне или я сама?|Du willst, dass ich dich beobachte, wenn du so etwas machst? Bist du so scharf auf mich?
+		kira.swim.night.you^			Кстати, ну а ты?|Und was ist mit dir?
+
+	kira.swim.night.f.5f@113@Понятно... Стеснительный мальчик... Ну что же, имеешь право на такие причуды. Да я шучу. Наоборот, это нормально. Но... скучно...|Ich verstehe.... Du bist so schüchtern.... Nun, ich schätze, das ist normal. Aber ein bisschen langweilig.
+		kira.swim.night.you^			Ну а ты?|Was ist mit dir?
+
+	kira.swim.night.you@101@e-kira-swim-night-5@Не поняла... А что я?|Was ist mit mir?
+		kira.swim.night.you.watch^		Любишь подглядвать за другими?|Guckst du gerne anderen Leuten zu?
+
+	kira.swim.night.you.watch@113@Да... Я обожаю это делать. Особенно, когда кто-то себя ласкает, а я ласкаю себя... Думаю, ты меня понимаешь...|Ja, ich liebe es. Besonders, wenn jemand mit sich selbst spielt und ich mich berühre.... Das verstehst du doch, oder?
+		kira.swim.night.you.watch.yes^	Конечно...|Natürlich....
+
+	kira.swim.night.you.watch.yes@114@Вот и славно... Ты знаешь, моя рука устала, да и кончать в бассейн негигиенично... Так что, давай в другой раз продолжим. Я же планировала отдохнуть... А тебе пора спать...|Großartig.... Weißt du, meine Hand ist müde und du solltest sowieso nicht in den Pool kommen.... Lass uns das ein anderes Mal fortsetzen. Ich wollte mich entspannen.... Und du solltest schlafen gehen.
+		leave!max_cam.6.grow_350!sleep^					Эх... Ну, ладно...|Ow... Okay...
+
+	kira.swim.night.n.1@114@e-kira-swim-night-5@Ну ты же знаешь, что в бассейн кончать не стоит? Но я могу немного тебе помочь, чтобы ты потом сам довёл дело до конца в другом месте...|Du weißt, dass du nicht in den Pool kommen solltest, oder? Ich kann dir ein bisschen helfen, aber du musst es woanders beenden.
+		kira.swim.night.n.2^			Я только за!|Ich bin dafür!
+
+	kira.swim.night.n.2@112@e-kira-swim-night-6@Не сомневаюсь... Скажи, ты же специально только ради этого момента не спал и ждал меня?|Ich bin sicher, dass du.... Du bist lange geblieben, nur damit wir so etwas machen können, oder?
+		kira.swim.night.n.3^			Конечно, тётя Кира!|Natürlich nicht, Tante Kira!
+
+	kira.swim.night.n.3@113@Забавно, что ты меня всё время тётей называешь... Но пусть так и будет. Это добавляет пикантности этой ситуации, правда? Ну всё, Макс. Иди доводи дело до ума и спать. А я ещё поплаваю...|Komisch, dass du mich in solchen Situationen immer noch Tante nennst.... Du solltest es aber weiter machen. Das macht die Situation noch heißer! Aber genug für heute, Max. Mach dein Geschäft fertig und geh schlafen, und ich gehe noch ein bisschen schwimmen....
+		leave!max_cam.6.grow_350!sleep^					Но... Э... Ладно...|Aber... Ich... Okay...
+
+
+
+# --- 0.3: Кира принимает ванну, ночная сцена e-kira-bath-night-1|Kira nimmt nachts ein Bad.
+
+	kira.night.bath@121@<i>Только один человек может в это время не спать и плескаться в ванне. И человек этот - Кира!</i>|<i>Nur eine Person nimmt so spät ein Bad. Es ist Kira!</i>
+		kira.night.bath.knock^			<i>постуч?ться</i>|<i>klopfen</i>
+		kira.night.bath.enter^			<i>войти</i>|<i>eintreten</i>
+		leave!lock^						<i>уйти</i>|<i>verlassen</i>
+
+	kira.night.bath.knock@121@<b>Кира:</b> Кто там? Я принимаю ванну и абсолютно голая... Входите!|<b>Kira:</b> Wer ist da? Ich nehme ein Bad und bin absolut nackt.... Komm rein!
+		kira.night.bath.enter^			<i>войти</i>|<i>eintreten</i>
+		leave!lock^						<i>уйти</i>|<i>verlassen</i>
+
+	kira.night.bath.enter@113@e-kira-bath-night-1@Я так и знала, что это ты, Макс... Чего хотел? Тут немножко занято...|Ich wusste, dass du es bist, Max.... Willst du etwas? Das Bad ist bereits belegt.
+		can.fuckkira>0&kira.night.bath.enter.together.yes^		Может, вдвоём ванну примем?|Sollen wir zusammen baden?
+		can.fuckkira=0&kira.night.bath.enter.together.no^		Может, вдвоём ванну примем?|Sollen wir zusammen baden?
+
+	kira.night.bath.enter.together.no@103@Макс, ты ведёшь себя... некорректно. Я же твоя тётя...|Max, du solltest das nicht sagen. Ich bin deine Tante.
+		kira.night.bath.enter.together.no.so^					И что?|Na und?
+
+	kira.night.bath.enter.together.no.so@113@А то, что я очень устала, решила отдохнуть и тут ты докучаешь... Если хочешь в туалет, сходи, я не буду смотреть, возможно... Но лучше уходи, я правда устала...|Ich bin müde und will mich entspannen, hör auf, mich zu stören. Wenn du auf die Toilette musst, kannst du gehen, vielleicht schaue ich nicht mal hin. Aber du solltest gehen, ich bin wirklich müde....
+		leave!sleep^											Ты права, извини, я тоже пойду спать...|Du hast Recht, es tut mir leid. Ich lasse dich in Ruhe.
+
+	kira.night.bath.enter.together.yes@114@Идея очень соблазнительная... Но, Макс... Я сегодня очень устала и хотела бы побыть одна, если ты не против. Может быть, пойдёшь спать?|Ich mag diese Idee, aber ich bin wirklich müde und möchte einfach nur allein sein, wenn es dir nichts ausmacht. Könntest du schlafen gehen?
+		kira.night.bath.enter.together.yes.2^					Хорошо, отдыхай! А я спать...|Okay, ich lasse dich in Ruhe.
+
+	kira.night.bath.enter.together.yes.2@101@Ага. Спокойной ночи, Макс!|Okay. Gute Nacht, Max.
+		leave!sleep^											Ага, спокойной ночи...|Gute Nacht
+
+
+
+# --- 0.3: Разговор с Кирой после первого секса|Gespräch mit Kira nach dem ersten Sex
+
+	kira.after.s.init@0@Я хотел поговорить о...|Ich wollte darüber reden....
+	kira.after.s@101@Да я понимаю о чём. У тебя на лице всё написано. Что, понравилось? Хотя, это тоже написано... Так что ты хотел сказать?|Ja, ich kann sehen, worüber du reden willst. Also, hat es dir gefallen? Warte, das sehe ich auch.... Wie auch immer, willst du etwas sagen?
+		kira.after.s.1^			Это было... это было...|Es war so.... so....!
+
+	kira.after.s.1@113@Ага, это было и прошло. Надеюсь, ты не подумаешь, что теперь мы будем с тобой трахаться, как только тебе захочется, верно?|Ja, das war es. "War" ist der entscheidende Teil. Ich hoffe, du glaubst nicht, dass wir wie die Hasen ficken, wann immer du willst.
+		kira.after.s.2a^		Верно...|Richtig...
+		kira.after.s.2b^		А почему нет?|Warum nicht?
+
+	kira.after.s.2b@101@Ну во-первых, это очень рискованно. Если нас заметят, то я поеду в гостиницу, а ты в военный лагерь. А во-вторых, хорошего помаленьку...|Nun, für den Anfang ist es viel zu riskant. Wenn wir geschnappt werden, muss ich ins Hotel und du ins Militärlager. Außerdem will ich dich nicht verwöhnen.
+		kira.after.s.3^			И что, это всё?|Das war's also?
+
+	kira.after.s.2a@101@Вот и молодец, смышлённый мальчик. Напоминаю: если нас заметит твоя мама или даже сёстры, то скорее всего я поеду жить в гостиницу, а ты в свой военный лагерь...|Ich bin froh, dass du die Situation verstehst. Aber für den Fall, dass wir erwischt werden, ziehe ich ins Hotel und du gehst ins Militärlager.
+		kira.after.s.3^			И что, это всё?|Das war's also?
+
+	kira.after.s.3@114@Ну почему... Если риск будет минимален, а желание максимально, то... всё может произойти. Главное, чтобы не было свидетелей... А так мне тоже очень понравился твой...|Nun.... Wenn das Risiko minimal und der Wunsch maximal ist.... Es kann alles passieren. Wenn niemand da ist, der uns erwischt. Und ich mochte deinen....
+		kira.after.s.4a^		Темперамент?|Meine Einstellung?
+		kira.after.s.4b^		Член?|Meinen Schwanz?
+
+	kira.after.s.4a@112@Темперамент? Нет, я говорила про твой огромный член... Ой. Я это сказала вслух?|Deine Einstellung? Nein, ich sprach von deinem riesigen Schwanz.... Warte, habe ich es laut gesagt?
+		kira.after.s.5^			Ага!|Ja!
+
+	kira.after.s.4b@112@Я хотела сказать темперамент. Да, мне понравился именно он... Ну и член тоже, конечно!|Ich wollte deine Einstellung sagen. Ja, das habe ich gemeint.... Und deinen Schwanz auch.
+		kira.after.s.5^			Супер!|Super!
+
+	kira.after.s.5@101@Ну всё, Макс, хватит об этом. Не стоит размусоливать эту тему. Если получится ещё развлечься, то я буду рада.|Okay, Max, das reicht. Lass uns das Thema wechseln. Ich mache das gerne ein anderes Mal, wenn sich die Gelegenheit bietet.
+		leave!set_poss.aunt_9!set_dcd.kiratalk_1^			Хорошо...|Schön
+
+
+# --- 0.3: Разговор с Кирой насчёт поведения мамы (следующий, после разговора после секса)|Gespräch mit Kira über Anns Verhalten (nach dem Sex)
+
+	kira.aboutmom.init@0@Что думаешь о поведении мамы?|Was hältst du von Moms Verhalten?
+	kira.aboutmom@101@Оно тебя так беспокоит? Что-то случилось?|Was beunruhigt dich? Ist etwas passiert?
+		kira.aboutmom.1^		Ты имеешь в виду кроме того, что её как подменили? Нет, ничего...|Du meinst, abgesehen von der Tatsache, dass Mom sich wie eine völlig andere Person verhält?
+
+	kira.aboutmom.1@113@Понятно. Ну, Макс, у твоей мамы есть на то причины, ты же должен понимать...|Ich verstehe, wovon du sprichst. Max, du musst verstehen, dass deine Mom Gründe hat, sich so zu verhalten.
+		kira.aboutmom.2^		Должен, но именно причины я и не понимаю|Das ist es, wovon ich spreche, <i>warum</i> verhält sie sich so?
+
+	kira.aboutmom.2@101@Ну, тут всё сложно. А почему ты не допускаешь, что твоя мама могла просто влюбится в Эрика? Ты же знаешь, любовь слепа, и не такое бывает...|Es ist kompliziert. Warum kannst du nicht akzeptieren, dass deine Mom sich einfach in Eric verliebt hat? Weißt du, Liebe macht blind, all das Zeug....
+		kira.aboutmom.3^		Да так не бывает!|So viel kann man nicht ändern!
+
+	kira.aboutmom.3@113@Поверь, Макс, бывает всякое... Но ты прав, тут дело не только в Эрике... Я тебе расскажу как-нибудь, если твоя мама будет не против...|Nein, ist es nicht, Max. Aber du hast Recht, es geht nicht nur um Eric. Ich könnte dir diese Geschichte erzählen, wenn es deiner Mom nichts ausmacht.
+		kira.aboutmom.4^		О чём?|Was meinst du damit?
+		kira.aboutmom.4^		Почему она может быть против? О чём речь?|Warum sollte sie etwas dagegen haben, dass du mir diese Geschichte erzählst?
+
+	kira.aboutmom.4@101@Ну, я догадываюсь, что с твоей мамой. Но это не совсем мой секрет, точнее, всё сложно. И я не уверена, что могу тебе рассказать...|Ich habe eine Ahnung, was mit deiner Mom passiert ist. Aber es ist nicht mein Geheimnis und ich kenne nicht alle Details.
+		kira.aboutmom.5^		Блин, да это же главная загадка, над которой я давно бьюсь!|Das ist das Geheimnis, das ich die ganze Zeit verfolgt habe!
+
+	kira.aboutmom.5@114@Поговори с мамой, спроси про случай из детства. Если она разрешит, я расскажу. А может быть, она и сама всё объяснит...|Du solltest mit deiner Mom reden und sie nach dem Vorfall aus ihrer Kindheit fragen. Wenn sie mir eine Erlaubnis gibt, sage ich es dir. Oder vielleicht erklärt sie alles selbst.
+		leave!set_poss.aunt_10^	Ладно, попробую.|Okay, ich werde sie fragen.
+
+
+
+# --- 0.3: Попытка убедить тётю Киру рассказать про тот случай из детства мамы...|Ich versuche Kira zu überzeugen, die Geschichte von Anns Kindheit zu erzählen.
+
+	kira.oldstory.init@0@Я хотел спросить про тот случай из детства мамы...|Ich wollte nach diesem Vorfall fragen....
+	kira.oldstory@101@Я так понимаю, мама тебе ничего не рассказала? Значит, не хочет, чтобы кто-то об этом что-то знал. А значит, я ничем не могу тебе помочь...|Ich schätze, sie hat dir nichts gesagt? Was bedeutet, dass sie nicht will, dass du es weißt. Deshalb werde ich dir nichts sagen.
+		random.social.1=1&kira.oldstory.ok^		Но это моя семья! [skill.social_1]|Aber es ist meine Familie! [skill.social_1]
+		random.social.1=0&kira.oldstory.no^		Но это моя семья! [skill.social_1]|Aber es ist meine Familie! [skill.social_1]
+
+	kira.oldstory.no@103@<color=orange><i>Убеждение не удалось!</i></color>\nЯ это понимаю, Макс. Но это также и частная жизнь и история твоей мамы... Я не могу в обход её запрета раскрыть её тайну.|<color=orange><i>Überzeugung fehlgeschlagen!</i></color>\nEs ist nicht mein Geheimnis, Max. Das ist das Privatleben deiner Mom, ich kann ihre Entscheidung nicht ignorieren und dir gegen ihren Wunsch sagen.
+		leave!set_dcd.kiratalk_1^				Ясно...|Okay
+
+	kira.oldstory.ok@113@<color=lime><i>Убеждение удалось!</i></color>\nТы же не отстанешь, да? Только учти, если ты обмолвишься об этом кому-то или самой маме, то к обоим доверие пропадёт.|<color=lime><i>Überzeugung erfolgreich!</i></color>\nDu wirst mich doch nicht allein lassen, oder? Gut, ich sag's dir, aber wenn deine Mom jemals erfährt, dass wir ihr Vertrauen missbraucht haben, wird sie von uns beiden enttäuscht sein.
+		kira.oldstory.1^		Конечно. Рассказывай!|Ich werde es niemandem erzählen.
+
+	kira.oldstory.1@100@Наверняка, тебе мама рассказывала, что когда мы были совсем юные, мы жили в небольшом городке, где все друг друга знали. Двери не закрывали, не было никакой сигнализации, ничего.|Deine Mom hat dir wahrscheinlich erzählt, dass wir, als wir noch sehr jung waren, in einer kleinen Stadt lebten, in der sich alle kannten. Die Leute haben ihre Türen nicht abgeschlossen, es gab keinen Alarm, nichts.
+		kira.oldstory.2^		<i>слушать</i>|<i>zuhören</i>
+
+	kira.oldstory.2@112@В общем, жили в безопасности и можно сказать полной идилии... Пока не произошёл тот случай, о котором твоя мама и не хочет вспоминать...|Im Grunde genommen lebten wir in einem sicheren idealen Leben.... Bis zu dem Vorfall, von dem deine Mom nicht will, dass du weißt....
+		kira.oldstory.3^		Слушаю внимательно...|Ich höre
+
+	kira.oldstory.3@100@Однажды вечером мы с Аней заигрались на опушке леса и когда собрались возвращаться домой, к нам подошёл мужчина. Предложил нам воду... А нас как раз мучала жажда...|Eines Abends spielten Ann und ich am Waldrand. Wir wollten nach Hause, aber dann kam ein Typ zu uns und bot uns Wasser an.... Und wir waren sehr durstig....
+		kira.oldstory.4^		Звучит как не очень хорошее начало...|Klingt ominös....
+
+	kira.oldstory.4@103@Так и было. Очнулись мы в каком-то подвале, обе связанные. Представляешь, как мы перепугались! Я до сих пор иногда просыпаюсь в холодном поту...|Ja. Wir sind in irgendeinem Keller aufgewacht, gefesselt. Kannst du dir vorstellen, wie schrecklich es war? Manchmal wache ich heute noch schweißgebadet auf....
+		kira.oldstory.5^		Ого! И что дальше?|Scheiße! Und was dann?
+
+	kira.oldstory.5@100@Мне повезло, верёвки на руках не слишком туго были затянуты и я смогла освободиться. Затем, попыталась развязать сестрёнку, но услышала шаги и вылезла в малюсенькое окошко под потолком...|Ich hatte Glück, meine Arme waren nicht sehr gut gebunden, also konnte ich mich befreien. Als nächstes versuchte ich, meine Schwester loszubinden, aber ich hörte die Schritte von jemandem und kletterte durch ein kleines Fenster nach draußen....
+		kira.oldstory.6a^		Так ты бросила там мою маму?|Also hast du meine Mom da drin gelassen?
+		kira.oldstory.6b^		Тебе удалось сбежать?|Und du hast es geschafft, wegzulaufen?
+
+	kira.oldstory.6a@103@Макс, ну я была маленькая, напуганная, а там кто-то шёл. Я подумала, что лучше позову кого-то взрослого на помощь, чем полезу обратно и меня снова поймают...|Max, ich war ein verängstigtes kleines Mädchen, da kam jemand. Ich beschloss, dass ich um Hilfe rufen sollte, anstatt zu riskieren, wieder erwischt zu werden.
+		kira.oldstory.7^		Да, это разумно...|Ja, macht Sinn.
+
+	kira.oldstory.6b@103@Конечно, я была жутко напугана и хотела помочь маме, но этот человек начал меня искать и я побежала. Думала, что позову кого-то на помощь, потому-что мне самой с ним не справиться...|Ja. Ich wollte deiner Mom helfen, aber der Kerl fing an, mich zu jagen, also bin ich weggerannt. Ich hatte gehofft, Hilfe zu finden, weil ich allein nichts tun konnte.
+		kira.oldstory.7^		Да, это разумно...|Ja, macht Sinn.
+
+	kira.oldstory.7@100@Конечно, я жутко испугалась и до сих пор себя виню, что оставила Аню там одну с этим мужиком...|Ich hatte Angst und gebe mir immer noch die Schuld, dass ich Ann mit diesem Kerl allein gelassen habe....
+		kira.oldstory.8^		Ты позвала на помощь и всё было хорошо?|Aber du hast Hilfe gefunden und alles ist gut gelaufen?
+
+	kira.oldstory.8@103@Ну, не совсем. Я долго бродила по лесу одна, в темноте... Потом уснула и только к вечеру следующего дня я вышла на дорогу, где меня подобрали добрые люди.|Nicht ganz. Ich war im Wald, im Dunkeln, für eine lange Zeit verloren.... Dann schlief ich ein und fand erst am nächsten Abend eine Straße. Dann wurde ich von einigen guten Samaritern aufgelesen.
+		kira.oldstory.9^		Повезло... А что потом?|Das war Glück. Was dann?
+
+	kira.oldstory.9@100@Потом начались поиски. Аню вышли искать почти все жители нашего городка. Многие её знали и любили... Поиски продолжались почти неделю...|Dann gab es einen Suchtrupp. Fast jeder in unserer Stadt hat nach ihr gesucht. Viele Leute kannten und liebten sie.... Die Suche dauerte fast eine Woche....
+		kira.oldstory.10^		Неделю?! Это же где-то недалеко от дома было?|Eine Woche? War es nicht in der Nähe von zu Hause?
+
+	kira.oldstory.10@103@К лесу мы ездили на велосипедах, так что, не очень близко. Да и ночью от того домика я не помню в какую сторону бежала... В общем, мы его нашли...|Wir fuhren mit dem Fahrrad in den Wald, also nicht so nah. Und als ich von dieser Hütte weglief, konnte ich mich nicht erinnern, aus welcher Richtung ich weglief.... Wie auch immer, wir haben....
+		kira.oldstory.11^		Того похитителя?|Der Entführer?
+
+	kira.oldstory.11@100@Нет, тот домик, где её держали. К счастью, она была жива! Правда, ещё месяц от неё не могли услышать ни слова...|Nein, die Hütte. Zum Glück war sie noch am Leben! Aber sie hatte einen Monat lang kein Wort gesagt....
+		kira.oldstory.12^		Но потом она заговорила?|Aber sie fing schließlich an zu reden?
+
+	kira.oldstory.12@103@Да, но про тот случай она отказалась тогда говорить, да и сейчас, как видишь, не хочет. Никто не знает что там было, но её держали там больше недели. Скорее всего, издевались...|Ja, aber sie hat nie etwas über diesen Vorfall gesagt. Niemand weiß, was passiert ist, aber sie war über eine Woche da drin. Sie wurde wahrscheinlich gefoltert....
+		kira.oldstory.13^		Это ужасно...|Das ist schrecklich.
+
+	kira.oldstory.13@100@Не то слово. С тех пор твоя мама сильно изменилась. Хотя она и смогла вернуться к обычной жизни, что происходит не часто, но её как будто надломили...|Ja. Dieser Vorfall hat deine Mom verändert. Sie hat es geschafft, in ihr altes Leben zurückzukehren, aber es ist, als wäre sie gebrochen....
+		kira.oldstory.14^		В каком смысле?|Was meinst du damit?
+
+	kira.oldstory.14@103@До того инцидента Аня была своевольной, капризной, непослушной. Она всеми командовала и не подчинялась никому, кроме нашей мамы, твоей бабушки...|Vor dem Vorfall war sie eigensinnig, launisch und widerspenstig. Sie hat immer versucht, jeden herumzukommandieren und hat nie auf jemanden gehört, außer auf unsere Mutter, deine Oma....
+		kira.oldstory.15^		А после?|Und danach?
+
+	kira.oldstory.15@100@А после... Мы как-то поссорились и я потребовала, чтобы она сделала за меня домашнюю работу... И представляешь, она покорно согласилась! Я тогда подумала, что просто повезло.|Und nachdem.... Einmal hatten wir einen Streit und ich verlangte von ihr, dass sie meine Hausaufgaben macht.... Und das tat sie! Zuerst dachte ich, ich hätte Glück gehabt.
+		kira.oldstory.16^		Видимо, не в этом дело?|Aber es ist nicht der Fall, oder?
+
+	kira.oldstory.16@103@Да. Однажды, когда нашей мамы не было дома, мы позвали друзей на ночь, устроили вечеринку. Хорошо отдохнули, но на утро весь дом был вверх дном. И я потребовала, чтобы Аня прибралась сама...|Nein. Ein anderes Mal war unsere Mutter nicht zu Hause, also luden wir Freunde über Nacht ein und feierten. Es war eine tolle Party, aber am nächsten Morgen stand das ganze Haus auf dem Kopf. Und ich forderte sie auf, alles alleine aufzuräumen.
+		kira.oldstory.17^		Видимо, она и прибралась?|Und das tat sie?
+
+	kira.oldstory.17@112@Именно! Представляешь? Вот тогда я и поняла, что она стала с радостью подчиняться чужой воле. Так что, я думаю, что тут дело не в вашем Эрике, а скорее, в самой маме...|Ja, kannst du dir das vorstellen? Und da wurde mir klar, dass sie sich gerne dem Willen von jemandem unterwirft. Also denke ich nicht, dass Eric das Problem ist, es ist wahrscheinlich deine Mom....
+		kira.oldstory.18^		Но Эрик всё равно козёл!|Aber Eric ist immer noch ein Arschloch!
+
+	kira.oldstory.18@114@А кто спорит? Одно другому не мешает. Зато теперь ты лучше понимаешь что творится в голове твоей мамы. Ну или как минимум, что-то разъяснилось, верно?|Ich stimme zu, aber die beiden sind nicht die einzigen. Jetzt solltest du deine Mom besser verstehen.
+		kira.oldstory.19^		Значит, если я прикажу что-то, то она сделает?|Du sagst also, wenn ich ihr befehle, dass sie auf mich hört?
+
+	kira.oldstory.19@113@Что-то я сомневаюсь. Вы же её дети и к вам у неё особое отношение. К тому же, тут сильнее всего материнский инстинкт... Постой, а что ты собрался ей приказывать?|Das bezweifle ich. Du bist ihr Sohn, sie hat eine besondere Beziehung zu dir. Ihr mütterlicher Instinkt wird sie überzeugen.... Warte, welchen Befehl wolltest du ihr geben?
+		kira.oldstory.20^		Нет, нет, ничего...|Nichts Besonderes....
+
+	kira.oldstory.20@114@Понятно. Ну, хотела бы я посмотреть, как ты пытаешься. Спорим, по заднице получишь в тот же момент!|Richtig. Nun, ich würde gerne sehen, wie du es versuchst. Sie würden sich wahrscheinlich sofort ihren Arsch versohlen lassen!
+		kira.oldstory.21^		Да, есть такое подозрение...|Ja, wahrscheinlich
+
+	kira.oldstory.21@101@Кстати, нас в детстве тоже пороли. Правда, до гола не заставляли раздеваться. Видимо, это уже инициатива Эрика. Кстати, забавная инициатива и вроде даже эффективная...|Übrigens, als wir Kinder waren, wurden wir auch verprügelt. Aber nicht nackt. Ich schätze, es ist Erics Initiative. Irgendwie lustig, obwohl, und sieht so aus, als wäre es effektiv.
+		kira.oldstory.22^		И это очень унизительно!|Das ist sehr erniedrigend!
+
+	kira.oldstory.22@114@Да, да, я именно так и сказала. Ну это уже не моё дело. Как вас воспитывать будет решать ваша мама. Я могу лишь понаблюдать со стороны на всё это...|Ja, das habe ich gesagt. Wie auch immer, es geht mich nichts an. Deine Mom entscheidet, wie sie dich großzieht, nicht ich. Ich kann nur zusehen.
+		kira.oldstory.23^		Ясно. Ну, спасибо за историю. Теперь многое стало понятно!|Ich verstehe. Nun, danke für die Geschichte, sie erklärt so viel!
+
+	kira.oldstory.23@113@Да не за что. Мне кажется, что ты должен знать. Может быть, теперь сможешь лучше понять свою маму и не будешь так резко реагировать на эти её отклонения...|Gern geschehen. Ich denke, du hättest es wissen müssen. Vielleicht verstehst du deine Mom besser und reagierst nicht so stark, wenn sie sich.... seltsam verhält.
+		leave!set_poss.aunt_12!set_dcd.kiratalk_1^		Да, спасибо!|Ja, vielen Dank!
+
+
+
+# --- 0.4: Спрашиваем у Киры насчёт травки|Fragen an Kira wegen Gras
+
+	kira.aboutganja.init@0@У меня к тебе есть одно дело...|Ich habe ein Problem
+	kira.aboutganja@101@Рассказывай, какое...|Okay, erzähl mir davon.
+		kira.aboutganja.step.2^			Я не уверен, что с тётей стоит о таком говорить...|Ich weiß nicht, ob ich mit meiner Tante darüber reden soll....
+
+	kira.aboutganja.step.2@109@Макс, я не пойму... ты шутишь? Давай, выкладывай, что там у тебя за проблема.|Machst du Witze, Max? Sag es mir einfach.
+		kira.aboutganja.step.3^			В общем, мне нужно раздобыть немного травки...|Ich brauche etwas Gras....
+
+	kira.aboutganja.step.3@102@Ты же не о той траве, что для газонов, да? Шучу, я тебя поняла... Постой, ты куришь?!|Du redest nicht über Gras vom Rasen, oder? Nur Spaß, ich verstehe dich... Warte, rauchst du?
+		kira.aboutganja.step.4^			Это не для меня...|Es ist nicht für mich.
+
+	kira.aboutganja.step.4@104@Ладно, не буду мучать тебя вопросами. Ну да, в наше время всё можно достать. Только ты же понимаешь, что это не дёшево?|Okay, ich werde dich nicht mit Fragen belästigen. Nun, wir leben in einer wunderbaren Zeit und du kannst alles bekommen, was du willst. Du weißt, dass es nicht billig ist, oder?
+		kira.aboutganja.step.5^			А сколько это стоит?|Wie viel kostet es?
+
+	kira.aboutganja.step.5@102@Сейчас? Понятия не имею. Я давно не баловалась... Ладно, дай мне несколько дней. Я поспрашиваю у своих и что-нибудь придумаем. Хорошо?|Jetzt gleich? Ich weiß nicht, ich habe lange nicht geraucht.... Gib mir ein paar Tage. Ich frage herum und wir überlegen uns was, okay?
+		kira.aboutganja.step.6^			Конечно! Ты - лучшая!|Natürlich! Du bist die Beste, Tantchen!
+
+	kira.aboutganja.step.6@103@Ну если так, то может быть вместе с тобой покурим... Хотя, нет, что я говорю. Да и ты не куришь...|Vielleicht rauchen wir es sogar zusammen.... Obwohl es wahrscheinlich nicht die beste Idee ist. Und du rauchst sowieso nicht....
+		leave!set_poss.ganja_5!set_dcd.kiraganja_3^		Как знать...|Wer weiß....
+
+
+
+# --- 0.4: Кира договорилась насчёт травки|Kira hat Gras bekommen.
+
+	kira.doneganja.init@0@Есть какие-то новости насчёт... ну, ты знаешь...|Hast du irgendwelche Neuigkeiten über.... du weißt schon....
+	kira.doneganja@101@Понятия не имею о чём речь, Макс! Шутка. Да, я обо всём договорилась...|Ich habe absolut keine Ahnung, wovon du redest! Ich mache nur Spaß. Ja, ich habe eine Grasquelle für dich gefunden, kein Problem.
+		kira.doneganja.step.2^			Вау! Супер! Рассказывай!|Wow! Super! Sag mir
+
+	kira.doneganja.step.2@100@В общем, один мой хороший знакомый выращивает её для себя, но не только. И часть продаёт своим людям. Ты теперь один из них... Я за тебя поручилась.|Nun, mein guter Freund baut etwas an. Vor allem für sich selbst, aber auch für seine guten Freunde. Und jetzt bist du einer von ihnen, ich habe mich für dich verbürgt.
+		kira.doneganja.step.3^			Круть! А подробности...|Großartig! Was noch?
+
+	kira.doneganja.step.3@103@У него есть свой сайт. Там оплачиваешь, а домой к тебе уже обычный курьер принесёт твой... заказ.|Nun, er hat seine Website, du bezahlst, und der Kurier bringt deine Bestellung zu dir nach Hause.
+		kira.doneganja.step.4^			А курьер знает, что там?|Und weiß der Kurier, was drin ist?
+
+	kira.doneganja.step.4@101@Понятия не имею. Я не в теме. Но это всё работает и работает хорошо. Цен не знаю, посмотришь на сайте. Но не слышала, чтобы кто-то жаловался...|Ich habe keine Ahnung. Aber das System funktioniert, und es funktioniert gut. Ich kenne keine Preise, du wirst alles auf der Seite sehen. Aber ich habe noch nie eine Beschwerde gehört.
+		kira.doneganja.step.5^			Кира - ты лучшая!|Du bist die Beste, Tantchen!
+
+	kira.doneganja.step.5@113@Макс... Ты повторяешься. Мог бы придумать какие-то новые комплименты. Ведь я не только спасла тебя от неприятностей, но и помогла с таким деликатным вопросом...|Du wiederholst dich, Max. Du hättest dir ein paar neue Komplimente einfallen lassen können, ich habe dir nur so viel geholfen....
+		kira.doneganja.step.6^			Ты - супер!|Du bist so toll!
+		kira.doneganja.step.6^			Ты - умничка!|Du bist fantastisch!
+		kira.doneganja.step.6^			Ты - великолепна!|Du bist perfekt!
+
+	kira.doneganja.step.6@114@Ладно, сойдёт. Ну, если будут ещё вопросы или проблемы, не стесняйся, делись. Может быть ещё с чем-то смогу помочь...|Eh, gut genug. Nun, wenn du noch mehr Fragen hast, frag einfach.
+		leave!set_poss.ganja_6^			Обязательно!|Natürlich!
+
+
+
+# --- 0.4: Разговор с Кирой насчёт проблемы Кати|Gespräch mit Kira über Kates Problem
+
+	kira.aboutlesbi.init@0@Я хочу кое-что обсудить...|Ich möchte etwas besprechen....
+	kira.aboutlesbi@113@Конечно, Макс! Для тебя у меня всегда время найдётся. Так в чём дело?|Natürlich, Max, ich habe immer Zeit für dich. Worum geht es dabei?
+		kira.aboutlesbi.step.2^			Ты знаешь, как мама относится к... однополой любви?|Weißt du, was Mom mit Schwulen macht?
+
+	kira.aboutlesbi.step.2@114@Ого, Макс, на мальчиков потянуло? Ты меня удивляешь!|Wow, Max. Willst du etwas Boylove probieren? Du überraschst mich!
+		kira.aboutlesbi.step.3^			Блин. И ты туда же... Нет, конечно!|Nicht du auch noch.... Nein, so etwas will ich nicht!
+
+	kira.aboutlesbi.step.3@104@Хорошо. Тогда к чему этот вопрос? Тебе просто любопытно как твоя мама вообще относится к геям и лесбиянкам или что-то конкретное?|Okay, worum geht es dann in dieser Unterhaltung? Bist du nur neugierig auf die Haltung deiner Mom zu Schwulen und Lesben oder hast du etwas Bestimmteres im Sinn?
+		kira.aboutlesbi.step.4^			Ну, да, к лесбиянкам, например...|Ja, speziell über Lesben....
+
+	kira.aboutlesbi.step.4@113@Ну ты можешь сам её об этом спросить. Представляю, куда она тебя пошлёт...|Nun, du kannst sie selbst fragen. Ich kann mir vorstellen, was sie dir sagen wird....
+		kira.aboutlesbi.step.5^			Вообще-то уже послала. Значит, знаешь...|Das hat sie bereits. Also, du weißt schon....
+
+	kira.aboutlesbi.step.5@114@Конечно! Она же моя сестра. Я всё о ней знаю. Но ты так и не ответил, к чему это всё?|Natürlich tue ich das! Sie ist meine Schwester, ich weiß alles über sie. Aber du hast mir immer noch nicht gesagt, worum es hier geht.
+		kira.aboutlesbi.step.6^			А её можно переубедить по этому вопросу?|Können wir ihre Meinung zu diesem heißen Thema ändern?
+
+	kira.aboutlesbi.step.6@104@Макс! Мне же любопытно. Хочу всё знать! Что ты задумал?|Ich will wissen, warum du das willst, Max.
+		kira.aboutlesbi.step.7^			<i>рассказать всё про Катю и Алису</i>|<i>erzähl ihr alles über Kate und Alice.</i>
+
+	kira.aboutlesbi.step.7@100@Хм... Удивительно, что они с тобой этим поделились...|Hm.... Ich habe nicht erwartet, dass sie das mit dir teilen....
+		kira.aboutlesbi.step.8^			Постой... Ты всё знала?!|Warte, du wusstest es!?
+
+	kira.aboutlesbi.step.8@114@Конечно! Я же лучшая в мире тётя! Алиса от меня не очень много скрывает. К тому же, они у меня ночевали несколько раз и там я всё сама поняла...|Natürlich. Ich bin die beste Tante der Welt, erinnerst du dich? Alice verbirgt nicht viel vor mir. Außerdem sind sie ein paar Mal bei mir übernachtet, also habe ich es damals herausgefunden.
+		kira.aboutlesbi.step.9^			Ого...|Wow...
+
+	kira.aboutlesbi.step.9@104@Значит, ты вызвался помочь Кате, получил отказ от мамы и пришёл ко мне за советом?|Also, du hast beschlossen, Kate zu helfen, hast eine negative Reaktion von deiner Mom bekommen und bist zu mir gekommen um dir Rat zu holen, richtig?
+		kira.aboutlesbi.step.10^		Ну... Или помощью...|Nun, das oder Hilfe....
+
+	kira.aboutlesbi.step.10@113@Забавно. А как ты хочешь, чтобы я помогла? Провела разъяснительную беседу среди твоей мамы, что лесбиянки это нормально и её дочь трахается с одной из них?|Lustig. Also, welche Art von Hilfe schwebt dir vor? Willst du, dass ich deine Mom in irgendeiner Art von Maßnahme erziehe, dass es völlig in Ordnung ist, schwul zu sein, und es ist nichts falsch daran, dass ihre Tochter ein anderes Mädchen fickt?
+		kira.aboutlesbi.step.11^		А можно?|Kannst du das?
+
+	kira.aboutlesbi.step.11@114@Ох, Макс... К такому не подготовить вот так одним разговором. Это нужен комплексный подход. Целый план! Вот скажи, у тебя есть план?|Oh, Max.... Man kann die Weltanschauung einer Person nicht in einem einzigen Gespräch ändern. Wir brauchen einen Plan. Hast du einen?
+		kira.aboutlesbi.step.12^		Нет...|Nein...
+
+	kira.aboutlesbi.step.12@113@А у меня есть! Всё равно делать нечего, а эта твоя просьба для меня как вызов! Ух, как она возмущалась, когда увидела, как я целовалась с её подругой...|Das tue ich. Ich habe sowieso nichts zu tun, und das ist eine schöne Herausforderung.... Oh, wie sie schrie, als sie sah, wie ich ein anderes Mädchen küsste....
+		kira.aboutlesbi.step.13^		Подругой?! Какой ещё подругой?|Welches Mädchen!
+
+	kira.aboutlesbi.step.13@114@Ой, Макс, забей! Это старая история и к делу отношения не имеет. В общем, я пообщаюсь с твоей мамой. О результатах дам знать...|Egal, es ist eine alte und irrelevante Geschichte. Wie auch immer, ich werde mit deiner Mom reden und dir die Ergebnisse mitteilen.
+		kira.aboutlesbi.step.14^		Спасибо!|Danke!
+
+	kira.aboutlesbi.step.14@113@Вот только... У меня вопрос. А тебе это зачем, Макс? Не похоже, что ты пытаешься подкатить к Кате. Учитывая, её ориентацию...|Ich habe jedoch eine Frage. Warum interessiert dich das, Max? Es sieht nicht so aus, als würdest du Kate anmachen, weil sie eine Lesbe ist und so....
+		kira.aboutlesbi.step.15^		Просто хочу помочь...|Ich will nur helfen.
+		kira.aboutlesbi.step.15^		Да так...|Eh...
+
+	kira.aboutlesbi.step.15@114@Ясно. Секреты. Ну да ладно, это твоё дело. В общем, можешь на меня расчитывать...|Ich verstehe. Es ist ein Geheimnis. Gut, du kannst dich trotzdem auf mich verlassen.
+		leave!set_dcd.kiralesbitalk_2!set_poss.guest_3^		Супер!|Super!
+
+
+
+# --- 0.4: Кира пообщалась с мамой и решает ещё немного подумать|Kira sprach mit Ann
+
+	kira.amlt.init@0@Ты разговаривала с мамой насчёт...|Hast du mit Mom über....
+	kira.amlt@113@Ага. Прощупывала почву насчёт её отношения к любви между девочками. Как я и предполагала, ничего не изменилось. Она всё также непреклонна и считает это всё неправильным...|Ja. Ich habe etwas nachgeforscht. Wie ich erwartet hatte, hat sich nichts geändert, sie denkt immer noch, dass es falsch ist.
+		kira.amlt.step.2^			Значит, шансов нет?|Also haben wir keine Chance?
+
+	kira.amlt.step.2@101@Ну почему нет шансов... Всегда можно повлиять на человека, просто нужно найти правильный подход. В крайнем случае, всегда можно пойти ва-банк...|Nein, das habe ich nicht gesagt.... Man kann jeden beeinflussen, wenn man es richtig macht. Und wenn es hart auf hart kommt, könnte ich immer noch all-in gehen....
+		kira.amlt.step.3^			А ты почему так загорелась этой идеей?|Warte, warum bist du so begeistert von dieser Idee?
+
+	kira.amlt.step.3@113@Ну во-первых, ты сам меня попросил о помощи. Я тебе когда-нибудь отказывала с чем-то, что для тебя важно? Во-вторых, мне и самой любопытно, получится или нет повлиять на твою маму по этому вопросу...|Zuerst hast du mich um Hilfe gebeten. Habe ich dich jemals mit etwas Wichtigem im Stich gelassen? Zweitens will ich wissen, ob ich es schaffe....
+		kira.amlt.step.4^			Ясно...|Ich verstehe
+
+	kira.amlt.step.4@114@В общем, я ещё подумаю и расскажу какие мысли есть на этот счёт...|Wie auch immer, ich werde darüber nachdenken und dir dann meine Ideen mitteilen....
+		leave!set_dcd.kiralesbitalk_2!set_poss.guest_4^			Хорошо...|Okay
+
+
+
+# --- 0.4: Кира придумала коварный план, как она думает...|Kira hatte eine Idee.
+
+	kira.plan.init@0@Ну как, что-то придумала насчёт мамы?|Also, hast du dir etwas wegen Mom ausgedacht?
+	kira.plan@113@О да, Макс. Мой план очень коварен. Если всё получится, то твоя Катя точно сможет спокойно приходить и мама не будет возражать...|Ja, Max. Ich habe mir einen schlauen Plan ausgedacht. Wenn wir es schaffen, dann kann deine Kate leicht rüberkommen, und Mom wird nicht dagegen sein, dass sie hier ist....
+		kira.plan.step.2^			Невероятно!|Unglaublich!
+
+	kira.plan.step.2@114@Ага! Суть его такова. Чтобы твоя мама не считала близкие отношения с девушками чем-то неприличным или неправильным... нужно сделать так, чтобы она сама это испытала!|Ja! Um die Weltanschauung deiner Mom zu verändern, müssen wir.... sie das Gleiche erleben lassen!
+		kira.plan.step.3^			Э... не понял... Ты хочешь сделать из мамы лесбиянку?|Em.... Was....? Willst du damit sagen, dass du Mom in eine Lesbe verwandeln willst?
+
+	kira.plan.step.3@101@Нет... хотя... нет. Достаточно просто сделать так, чтобы её саму можно было в этом обвинить. Ведь если она сама испытает такую близость, то не сможет запрещать это другим. Верно?|Nein.... Obwohl.... Nein. Wir schaffen nur eine Situation, in der wir ihr die Schuld geben können. Wenn sie so etwas erlebt, dann wird sie nicht in der Lage sein, anderen Leuten das Gleiche zu verbieten, oder?
+		kira.plan.step.4^			Не представляю как это вообще возможно!|Ich kann mir nicht vorstellen, dass du das wirklich durchziehst.
+
+	kira.plan.step.4@114@Ну если совсем коротко, то всё просто. Напоить и соблазнить. Да, соблазнять должна девушка... Возможно даже я. Но так сразу это не получится, либо придётся очень сильно напоить...|Im Grunde genommen müssen wir sie nur betrunken machen und sie dann von jemandem verführen lassen. Offensichtlich muss es eine Frau sein.... Vielleicht sogar ich. Aber ich kann es nicht einfach ohne Vorbereitung machen, es sei denn, sie ist super besoffen....
+		kira.plan.step.5^			И тогда она всё забудет... И всё будет зря...|Und dann wird sie entweder alles auf Alkohol oder auf dich schieben.
+
+	kira.plan.step.5@101@Хм. Ты прав. Дурацкий план. Ладно, я ещё подумаю об этом всём... Если что-то придумаю, расскажу.|Hmmmmmm.... Ja, du hast Recht. Das ist eine dumme Idee. Okay, ich werde weiter nachdenken.... Ich sage dir, wenn mir etwas einfällt.
+		leave!set_dcd.kiralesbitalk_2!set_poss.guest_5^			Хорошо...|Okay
+
+
+
+# --- 0.4: Кира придумала комплексный план|Kira hatte einen komplexen Plan.
+
+	kira.newplan.init@0@Ну как, придумала новый план?|Also, hast du dir einen neuen Plan ausgedacht?
+	kira.newplan@101@Ну почему сразу новый. Я усовершенствовала старый. А точнее, добавила некоторые детали...|Nein, ich habe nur den alten verbessert. Oder, genauer gesagt, mit einigen feinen Details erweitert.
+		kira.newplan.step.2^		Хорошо, рассказывай.|Okay, ich höre zu.
+
+	kira.newplan.step.2@100@Если мы просто напоим твою маму и я её соблазню, то это и правда может получиться как-то противоестественно, да ещё и забудет на утро всё... Но можно к этому всему плавно подводить...|Du hast Recht, ich kann es nicht einfach in einem einfachen Schritt tun, es wird wahrscheinlich nach hinten losgehen und die Dinge für alle Beteiligten noch schlimmer machen. Wir werden sie da ein wenig lockerer machen müssen.
+		kira.newplan.step.3^		Слушаю...|Ich höre
+
+	kira.newplan.step.3@101@Нужно действовать по всем фронтам. Во-первых, твоя мама немного стеснительная. Я попробую начать её убеждать, что это всё глупости, а лучше начну внедрять в неё идеи нудизма, натуризма, всего такого...|Das wird ein komplexer Plan sein. Zuerst ist deine Mom zu schüchtern. Ich werde damit anfangen, sie in die Welt des Naturismus einzuführen.
+		kira.newplan.step.4^		Ого! Класс!|Wow!
+
+	kira.newplan.step.4@113@Не сомневаюсь, что тебе это понравится. Но именно ты главная причина, почему сделать это будет не просто. Думаю, перед Лизой и Алисой она без труда разделась бы, но ты - другое дело... Ладно, подумаем.|Ich bin sicher, du wirst es lieben. Aber Sie sind das Haupthindernis in diesem Teil des Plans. Ich bin sicher, sie kann sich vor Alice und Lisa ausziehen, aber du.... Wir werden darüber nachdenken.
+		kira.newplan.step.5^		А что ещё?|Was noch?
+
+	kira.newplan.step.5@101@Во-вторых, думаю, нужно создавать почаще различные пикантные ситуации, которые снизят её скромность и приблизят, например, к моему телу... Но я что-то придумаю на этот счёт...|Zweitens müssen wir pikante Situationen schaffen, in denen sie ihre Schüchternheit verliert. Ich werde später über Einzelheiten nachdenken.
+		kira.newplan.step.6^		Ясно. Что-то ещё?|Okay. Sonst noch etwas?
+
+	kira.newplan.step.6@114@Ну а последний этап - это мой изначальный план. Чуть-чуть добавить алкоголя, женской ласки и любви... В общем, совратить...|Und der letzte Schritt ist meine erste Idee. Etwas Alkohol, weibliche Note und Liebe und.... Verführt sie im Grunde genommen.
+		kira.newplan.step.7^		Кажется, ты давно этого хочешь?|Sieht so aus, als wolltest du das schon eine ganze Weile.
+
+	kira.newplan.step.7@100@Что ты имеешь в виду?|Was meinst du damit?
+		kira.newplan.step.8^		У тебя глаза горят, когда ты об этом говоришь...|Du hast diesen Funken in den Augen....
+
+	kira.newplan.step.8@114@Ну да, ты меня поймал... Я в себе очень уверена и мне кажется, что могу соблазнить любого или даже любую... И твоя мама отличный вызов. Может быть, если я смогу это сделать с ней, то точно смогу с любой...|Du hast mich erwischt. Ich würde gerne glauben, dass ich so ziemlich jeden verführen kann, und deine Mom ist eine große Herausforderung. Wenn ich es mit ihr machen kann, kann ich es vielleicht mit jedem machen.
+		kira.newplan.step.9^		Ну, не буду тебе мешать...|Nun, ich werde dir definitiv nicht im Weg stehen.
+
+	kira.newplan.step.9@101@Вот только тебе нужно не только не мешать, но и активно помогать!|Das ist nicht genug, du wirst mir dabei aktiv helfen!
+		kira.newplan.step.10^		Я согласен, но как?|Ich bin dabei, was muss ich tun?
+
+	kira.newplan.step.10@100@Даже если я уговорю твою маму на что-то, например, быть более... открытой... Она должна почувствовать адекватную реакцию с твоей стороны. Если ты будешь бегать с озабоченным видом, это её спугнёт...|Selbst wenn ich deine Mom davon überzeugen werde, offener zu sein, muss sie eine angemessene Reaktion von dir sehen. Wenn du ihre Titten ansiehst und die ganze Zeit ein Ständer hast, dann wird sie zu ihrer prüden Art zurückkehren.
+		kira.newplan.step.11^		И с каким видом надо бегать?|Und was soll ich tun?
+
+	kira.newplan.step.11@101@Дело не в твоём виде. Ты должен сблизиться со своей мамой, понимаешь? Ей должно стать комфортно в твоём обществе, даже если на ней будет меньше одежды, чем обычно...|Du musst näher an deine Mutter herankommen, sie sollte sich in deiner Gesellschaft wohl fühlen, auch wenn sie weniger Kleidung als sonst hat.
+		kira.newplan.step.12^		Было бы здорово, но... как?|Klingt toll, aber was soll ich tun?
+
+	kira.newplan.step.12@100@Самый надёжный способ через массаж. Возможно, ты что-то умеешь. Ну там пяточки помассировать или ножки, ручки... Но это не то, что требуется в данном случае.|Ich denke, Massage ist der beste Weg. Vielleicht kennst du schon einige grundlegende Körpermassagen, wie Hand- oder Fußmassage, aber wir brauchen etwas anderes....
+		kira.newplan.step.13^		А что требуется?|Was dann?
+
+	kira.newplan.step.13@101@Я бы порекомендовала тебе пройти курсы эротического массажа. Я бы и сама тебя чему-то научила, но лучше воспользуйся помощью профессионалов.|Ich möchte, dass du eine sinnliche Massage lernst. Ich könnte es dir selbst beibringen, aber es ist besser, wenn du von einem Profi lernst.
+		kira.newplan.step.14^		Онлайн-курсы?|Also Online-Kurse?
+
+	kira.newplan.step.14@100@Ну да. Почему бы и не попробовать. Когда пройдёшь эти курсы, приходи, подскажу как дальше действовать.|Sicher, versuch das mal. Sprich mit mir, wenn du den Kurs abgeschlossen hast und ich sage dir, was du als nächstes tun sollst.
+		leave!set_dcd.kiralesbitalk_2!set_poss.guest_6!set_can.erocourse_1^			Всё понял!|Hab's kapiert
+
+
+
+# --- 0.4: Макс рассказывает Кире, что прошёл курсы эротического массажа|Max berichtet an Kira über sinnliche Massagekurse
+
+	kira.aftercourse.init@0@Я прошёл кое-какие курсы!|Ich habe den Kurs abgeschlossen.
+	kira.aftercourse@113@Эротического массажа? Здрово, Макс! Как-нибудь продемонстрируешь?|Du sprichst von sinnlicher Massage, oder? Toll, Max. Willst du zeigen, was du gelernt hast?
+		kira.aftercourse.step.2^		Да хоть сейчас!|Jederzeit!
+
+	kira.aftercourse.step.2@114@Соблазнительно, но нет, не сейчас. Предлагаю тебе попрактиковаться на Алисе. Она же любит загорать? Отличный повод сделать массаж, нанося крем для загара...|Verlockend, aber nicht jetzt. Du solltest stattdessen Alice anprobieren. Sie hat sich gerne gebräunt, oder? Du kannst sie massieren, während du sie mit Sonnencreme einreibst.
+		kira.aftercourse.step.3^		Без проблем, а что потом?|Keine Probleme, was dann?
+
+	kira.aftercourse.step.3@101@Потом, если Алисе понравится, я подведу разговор к этому с твоей мамой. Она должна услышать от Алисы, что ты делаешь превосходно массаж. То, что он эротический - это формальность и не думаю, что Алиса расскажет...|Wenn Alice deine Massage gefällt, rede ich mit deiner Mom darüber. Dann wird sie von Alice hören, wie gut deine Massage ist. Ich glaube nicht, dass Alice ihr sagt, dass die Massage sinnlich ist....
+		kira.aftercourse.step.4^		А ты хитра, тётя Кира...|Du bist knifflig, Tante Kira....
+
+	kira.aftercourse.step.4@114@Очень! Ты ещё меня плохо знаешь... Ну так вот, после этого стоит подгадать подходящий момент...|Du hast keine Ahnung.... Wie auch immer, dann wirst du den richtigen Moment finden....
+		kira.aftercourse.step.5^		О! Вечером после душа?|Nach der Dusche am Abend?
+
+	kira.aftercourse.step.5@113@Да, отличная мысль. Лучше, чтобы без посторонних глаз. Думаю, несколько процедур с твоими навыками сделают её более податливой. Может быть, она сама начнёт этого ждать даже...|Ja, das funktioniert großartig. Es ist besser, es in Ruhe zu tun. Ich denke, ein paar Massagen werden uns wirklich helfen, ihre Einstellung zu ändern. Vielleicht freut sie sich sogar darauf....
+		kira.aftercourse.step.6^		Я всё понял!|Hab's kapiert!
+
+	kira.aftercourse.step.6@101@Отлично! Но начни с Алисы. Сначала нужно получить положительный отзыв от неё. И только после этого уже я поболтаю с твоей мамой и тогда... Ты всё знаешь.|Großartig. Aber fang bei Alice an. Zuerst musst du ein paar gute Empfehlungen von ihr bekommen, und dann rede ich mit deiner Mom.
+		kira.aftercourse.step.7^		Хорошо. Спасибо!|Großartig, danke!
+
+	kira.aftercourse.step.7@114@Не за что. Главное - никому ни слова, даже Лизе. А то весь наш сложный план полетит к чертям... Как и мы сами...|Gern geschehen. Aber denk dran: Kein Wort zu irgendjemandem, auch nicht zu Lisa. Oder unser ganzer Plan geht in die Hose, und wir auch.
+		leave!set_poss.guest_7!set_can.massagealisa_1^			Конечно!|Natürlich!
+
+
+
+# --- 0.4: Макс ловит Киру, трахающуюся с Эриком (в первый раз)|Max erwischt Kira beim Ficken mit Eric zum ersten Mal.
+
+	kira.fck1.eric@8@<i>Что?! Какого чёрта? Эрик трахает мою тётю?! Вот подонок!</i>|<i>Was!? Was zum Teufel? Eric fickt meine Tante!? Dieser Bastard!</i>
+		kira.fck1.eric.step.2^			Эй! Какого хрена происходит?!|Hey! Was zum Teufel ist hier los!?
+
+	kira.fck1.eric.step.2@92@n-ek-2@Пошёл вон, Макс! Не видишь, мы заняты!|Verpiss dich, Max! Siehst du nicht, dass wir beschäftigt sind?
+		kira.fck1.eric.step.3^			Блин, Кира!|Was zum Teufel, Kira?
+
+	kira.fck1.eric.step.3@103@Макс... Это не совсем то, о чём ты думаешь...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Max.... das ist nicht das, wonach es aussieht....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Gelegenheit gefunden!</i></color>
+		kira.fck1.eric.step.4^			Я думаю, что вы трахаетесь! Разве не так?|Sieht aus, als würdest du ficken! Liege ich falsch?
+
+	kira.fck1.eric.step.4@109@Ну... Если ты так вопрос ставишь, то да... И было бы неплохо, если бы ты где-то погулял, пока мы... Я потом... тебе всё объясню...|Nun, wenn man es so ausdrückt.... Ich möchte, dass du uns vorerst in Ruhe lässt.... Ich erkläre dir alles später....
+		kira.fck1.eric.step.5^			Но... тётя Кира...|Aber.... Tante Kira....
+
+	kira.fck1.eric.step.5@84@n-ek-1@Слышал свою тётю? А теперь свалил отсюда нахрен, пока я тебе шею не свернул!|Du hast deine Tante gehört, verpiss dich, bevor ich dir das Genick breche!
+		leave!set_poss.sac_1!lock^		Отстой!|Scheisse!
+
+
+
+# --- 0.4: Разговор с Кирой насчёт случая ночью|Gespräch mit Kira nach dem Fangen mit Eric
+
+	kira.wtf.eric.init@0@Что это было ночью?!|Was zum Teufel ist in dieser Nacht passiert?
+	kira.wtf.eric@109@Макс... Успокойся. Просто... так получилось. Взрослые иногда...|Max.... Entspann dich, es ist einfach.... passiert...
+		kira.wtf.eric.step.2^			Блин, тётя Кира, говори прямо, что случилось?!|Komm schon, Tante Kira, sag mir einfach, was los ist.
+
+	kira.wtf.eric.step.2@107@Ладно. Врать у меня плохо получается. В общем, Эрик нас с тобой записал на свой телефон. Не знаю когда и как это получилось, но у него есть видео, где я, мы, в общем...|Schön. Eric hat ein Video von uns gemacht. Ich weiß nicht, wann es passiert ist, aber er hat ein Video von uns, nun ja....
+		kira.wtf.eric.step.3^			Что? Он тебя шантажирует?!|Was!? Also erpresst er dich?
+
+	kira.wtf.eric.step.3@112@Ну, типа того... Если я не буду с ним трахаться, то он покажет видео твоей маме и ты... прямиком отправишься в летний лагерь, откуда и до армии не далеко...|So was Ähnliches.... Wenn ich nicht mit ihm schlafe, zeigt er das Video deiner Mom und du gehst ins Lager....
+		kira.wtf.eric.step.4^			Значит, это ради меня?|Also tust du es für mich?
+
+	kira.wtf.eric.step.4@101@Конечно, Макс! Ну ещё... Меня, скорее всего, тоже выгонят и боюсь отношения с твоей мамой у меня будут испорчены навсегда... А я этого очень не хочу...|Natürlich, Max! Nun.... Mom würde mich wahrscheinlich auch rauswerfen, ich will meine Beziehung zu meiner Schwester nicht ruinieren....
+		kira.wtf.eric.step.5^			И что делать?|Also was jetzt?
+
+	kira.wtf.eric.step.5@103@Ну я делаю, что могу... и умею... Что ещё остаётся?|Nun, ich tue, was ich schon kann, was es sonst noch gibt?
+		kira.wtf.eric.step.6^			И тебе это нравится?|Und gefällt es dir?
+
+	kira.wtf.eric.step.6@108@Макс... Я никогда не отказывалась потрахаться лишний раз... Мне это нравится, конечно... Хотя, твой член мне нравится гораздо больше, да и ты... сам... если ты об этом...|Max.... Ich bin nicht gegen die Idee, Sex zu haben, weißt du.... Also ja, ich mag es.... Natürlich mag ich deinen Schwanz viel mehr, wenn du das fragst....
+		kira.wtf.eric.step.7^			Мне это всё не нравится...|Das gefällt mir nicht.
+
+	kira.wtf.eric.step.7@101@Тогда, только ты сможешь с ним договориться о чём-то. Ну а мне пришлось согласиться на это... Так что, вся надежда на тебя, Макс...|Vielleicht kannst du einen Deal mit ihm machen? Ich musste dem zustimmen, also bist du meine einzige Hoffnung, Max.
+		leave!set_poss.sac_3^			Ладно, я понял...|Ich verstehe
+
+
+
+# --- 0.4: Макс снова видит Киру с Эриком (периодический эвент)|Max fängt Eric und Kira, periodisches Ereignis
+
+	kira.fuck.eric@8@<i>Блин... Опять они тут... Интересно, если маму разбудить и позвать сюда, что будет? Эрика точно выгонят! Но блин... и Киру тоже и меня... Нет, плохая идея...</i>|<i>Scheiße, sie sind wieder dabei.... Ich frage mich, was passiert, wenn ich Mom hole? Eric wird sicher weg sein! Aber Kira und ich wahrscheinlich auch.... Ich kann es nicht riskieren.</i>
+		kira.fuck.eric.step.2^			Кира...|Kira...
+		leave!lock^						<i>не мешать</i>|<i>lass sie in Ruhe</i>
+
+	kira.fuck.eric.step.2@112@n-ek-4@Макс? Ты почему не спишь? Поздно же уже... Тебе явно... пора... спать...|Max? Warum schläfst du nicht? Es ist spät.... Du solltest gehen....
+		kira.fuck.eric.step.3^			Я маму позову!|Ich werde Mom holen!
+		leave!sleep^					<i>идти спать</i>|<i>schlafen gehen</i>
+
+	kira.fuck.eric.step.3@86@Кира, не парься. Пусть зовёт кого хочет. Он отлично понимает, что если мама узнает, то конец нам всем, включая его самого! Так что, не отвлекайся, у тебя хорошо получается...|Ignorier ihn, Kira. Er kann rufen, wen er will. Er weiß, dass wir da alle mit drin stecken. Konzentriere dich, du machst das toll....
+		leave!lock^						<i>уйти</i>|<i>verlassen</i>
+
+
+
+# --- 0.4: Советуемся с Кирой, что делать с Эриком, а то достал!|Kira zu fragen, was er mit Eric machen soll.
+
+	kira.sov.eric.init@0@Мне нужен совет насчёт Эрика...|Ich brauche einen Rat wegen Eric.
+	kira.sov.eric@101@Я тебя слушаю, Макс? Хочешь ему насолить?|Ich höre zu. Willst du ihm den Arsch aufreißen, Max?
+		kira.sov.eric.very^				Очень!|Ja!
+
+	kira.sov.eric.very@113@Да, я тебя понимаю... Но не понимаю, чем могу тебе помочь.|Ich verstehe.... Aber ich weiß nicht, welche Art von Hilfe du von mir willst.
+		kira.sov.eric.very.step.2^		Что мне сделать, чтобы он поубавил свой пыл?|Was könnte ich tun, um ihn aufzuhalten?
+
+	kira.sov.eric.very.step.2@114@Ты имеешь в виду то, о чём я думаю? Если да, то ты очень... суров к нему. Думаешь, он этого заслуживает?|Denkst du, was ich denke? Wenn ja, dann bist du definitiv.... hart. Denkst du, er verdient es?
+		kira.sov.eric.very.step.3^		Не уверен, что понял тебя...|Ich bin mir nicht sicher, ob ich verstehe, wovon du sprichst.
+
+	kira.sov.eric.very.step.3@113@Ну... ты хочешь, чтобы он перестал чувствовать себя мужчиной, верно?|Nun.... du willst, dass er sich weniger wie ein Mann fühlt, richtig?
+		kira.sov.eric.very.step.4^		А так можно?|Kann ich das machen?
+
+	kira.sov.eric.very.step.4@114@Конечно, можно! Проще всего с помощью специальных таблеток. Если их добавлять в еду мужчине, то... у него могут начаться проблемы, если ты меня понимаешь...|Natürlich kannst du das! Der einfachste Weg sind die Pillen. Wenn du sie mit seinem Essen mischst, dann hat er ein paar Potenzprobleme, wenn du weißt was ich meine....
+		kira.sov.eric.very.step.5^		Ого... А что за теблетки?|Huh.... Und was für Pillen sind das?
+
+	kira.sov.eric.very.step.5@113@Название я тебе конечно скажу и ты сможешь найти их в интернете. Стоят дорого. Нужна примерно треть банки для одного раза. Да, и действуют несколько часов всего. Но, Макс... ты уверен? Что будет с тобой, если Эрик узнает?|Ich kann dir den Namen nennen und du kannst sie online bestellen. Sie sind teuer, und man braucht etwa ein Drittel einer Flasche für einmal. Und es funktioniert nur für ein paar Stunden. Aber Max.... Bist du dir da sicher? Was denkst du, wird mit dir passieren, wenn er es herausfindet?
+		kira.sov.eric.very.step.6^		Ну ты же не скажешь?|Du wirst es ihm nicht sagen, oder?
+
+	kira.sov.eric.very.step.6@114@Конечно, я не скажу! Но... тебе понадобится помощь Алисы. Она же обычно готовит вечером и как раз Эрик приходит на ужин довольно часто, верно?|Natürlich nicht! Aber du brauchst Hilfe von Alice. Sie ist diejenige, die das Abendessen kocht, und Eric isst hier ziemlich oft.
+		kira.sov.eric.very.step.7^		Да, но может без неё, самому?|Kann ich es nicht ohne sie machen?
+
+	kira.sov.eric.very.step.7@101@Если ты будешь крутиться у еды постоянно, то это может кто-то заметить. А если Эрик догадливый, то сложит два плюс два и... ну ты понял... Так что, тебе нужен союзник в этом деле и Алиса - лучший кандидат...|Wenn man dich zu sehr um das Essen herum sieht, dann sieht es verdächtig aus. Wenn Eric herausfindet, was du tust.... Nun, das kannst du dir vorstellen. Also denke ich, du brauchst etwas Hilfe von Alice dabei.
+		kira.sov.eric.very.step.8^		Значит, нужно с ней поговорить пока она готовит?|Also, denkst du, ich sollte mit ihr reden, wenn sie kocht?
+
+	kira.sov.eric.very.step.8@114@Ну да, я бы начала с этого... Но перед этим не забудь купить те таблетки.|Ja, davon würde ich ausgehen.... Vergiss natürlich nicht, zuerst Pillen zu kaufen.
+		leave!set_pills_1!set_can.kirasayaboutpills_2^				Хорошо, так и сделаю...|Okay, ich mache das....
+
+
+
+# --- 0.4: Жалуемся Кире на Эрика и его ложное обвинение|Max beschwert sich bei Kira darüber, dass Eric ihn fälschlicherweise beschuldigt hat.
+
+	kira.eric.lie.init@0@Ты уже в курсе, что Эрик заявил?|Weißt du, was Eric über mich gesagt hat?
+	kira.eric.lie@112@Да, Макс, уже наслышана... Скажи, это же не ты взял его деньги?|Ja, ich habe gehört.... Du hast sein Geld nicht genommen, oder?
+		kira.eric.lie.2^		Ты ещё спрашиваешь?|Musst du das überhaupt fragen?
+
+	kira.eric.lie.2@100@Ну, я так, для формальности. Конечно, я тебе верю... Что же делать...|Nur eine Formalität. Ich glaube dir natürlich. Was jetzt zu tun ist....
+		kira.eric.lie.3^		Понятия не имею...|Ich habe keine Ahnung....
+
+	kira.eric.lie.3@112@Ну давай подумаем... Он сказал, что ты украл не просто деньги, а бумажник с деньгами. Верно?|Lass uns nachdenken.... Er sagte, du hast nicht nur sein Geld gestohlen, sondern eine Brieftasche voller Geld, richtig?
+		kira.eric.lie.4^		Да, но я его даже не видел!|Ja, aber ich habe die noch nie in meinem Leben gesehen!
+
+	kira.eric.lie.4@101@Вот именно! Значит, либо он свой бумажник где-то потерял, либо он всё это выдумал, чтобы тебя очернить... Во втором случае, бумажник у него.|Genau! Entweder hat er seine Brieftasche verloren, oder er hat die ganze Sache erfunden, um dich zu verarschen.... Wenn es das letztere ist, dann hat er immer noch die Brieftasche.
+		kira.eric.lie.5^		И мне его нужно найти!|Und ich muss es einfach finden!
+
+	kira.eric.lie.5@114@Верно, Макс! Вот только нужно это сделать так, чтобы он не заметил. А то у тебя не останется никаких шансов...|Gute Idee, Max! Du musst es nur vorsichtig machen. Lass dich nicht erwischen, sonst hast du keine Chance mehr....
+		leave!set_poss.wallet_2^		Да, я всё понял...|Ich verstehe, danke für den Rat....
+
+
+
+# --- 0.4: Макс жалуется на свою неудачу|Max beschwert sich über sein Versagen
+
+	kira.eric.lie2.init@0@Кажется, я всё испортил...|Ich glaube, ich habe alles ruiniert....
+	kira.eric.lie2@100@Ты о чём? Что случилось?|Wovon redest du?
+		kira.eric.lie2.step.2^			Да Эрик меня поймал ночью, когда я искал бумажник... Кажется, он так чутко спит, что теперь я даже войти в комнату незаметно не смогу... |Eric hat mich erwischt, als ich nach seiner Brieftasche gesucht habe.... Ich glaube, er ist zu leicht, ich kann mich nicht mal mehr in den Raum schleichen....
+
+	kira.eric.lie2.step.2@104@Ого! Плохи твои дела, Макс...|Klingt, als wärst du in Schwierigkeiten, Max....
+		kira.eric.lie2.step.3^			Это я уже понял...|Ich weiß, oder?
+
+	kira.eric.lie2.step.3@101@Слушай, у меня есть идея. Точнее, очень простое решение... Что, если Эрик не проснётся, когда ты будешь искать бумажник?|Ich habe eine Idee. Oder, genauer gesagt, eine einfache Lösung.... Was, wenn Eric nicht aufwacht, wenn du nach seiner Brieftasche suchst?
+		kira.eric.lie2.step.4^			Я же говорю, он чутко спит!|Ich sage dir, er schläft leicht.
+
+	kira.eric.lie2.step.4@114@Слышал о такой штуке как «снотворное»? Говорят, очень хорошо действует... Я бы на твоём месте купила немного.|Hast du jemals von den Schlaftabletten gehört? Kauf dir welche.
+		kira.eric.lie2.step.5^			А как ему в еду подсыпать это снотворное?|Also, soll ich versuchen, es in sein Essen zu tun?
+
+	kira.eric.lie2.step.5@104@Ты знаешь, снотворное не очень эффективно, если его добавлять в еду. А вот со слабыми алкогольными напитками эффект может многократно усилиться... Правда, это очень опасно...|Nein, Schlaftabletten sind nicht sehr effektiv, wenn man sie mit dem Essen einnimmt. Aber wenn Sie es mit etwas leichtem Alkohol mischen, dann wird der Effekt noch stärker sein.... Aber es ist gefährlich.
+		kira.eric.lie2.step.6!set_can.buysleeping_1^	И как мне напомить Эрика?|Und wie soll ich Eric betrunken machen?
+
+	kira.eric.lie2.step.6@101@Тебе не нужно его спаивать. Просто купи пива, предложи ему баночку, даже открой при нём, а сам подбрось туда таблетку в этот момент. Это действует, поверь...|Man muss ihn nicht betrunken machen, nur Bier kaufen, ihm eine Dose anbieten, sie vor ihm öffnen und eine Pille hineinwerfen. Es wird wie ein Zauber wirken, das garantiere ich.
+		kira.eric.lie2.step.7^			Даже боюсь спрашивать откуда у тебя такие знания...|Ich habe Angst zu fragen....
+
+	kira.eric.lie2.step.7@114@Правильно, Макс, не стоит меня об этом спрашивать. Да, твоя мама упоминала, что Эрик любит Budweiser. Попробуй сделать вид, что ты хочешь с ним примириться. Надеюсь, у тебя всё получится...|Dann lass es. Oh, und deine Mom hat erwähnt, dass Eric Budweiser liebt. Tu einfach so, als würdest du Frieden anbieten. Viel Glück, Max.
+		kira.eric.lie2.step.8^			Ясно. Спасибо, тётя Кира!|Danke, Tante Kira!
+
+	kira.eric.lie2.step.8@113@Не за что, Макс. Ты же знаешь, что я желаю тебе только всего хорошего. И никакой Эрик не сможет изменить моё отношение к тебе...|Gern geschehen. Du weißt, ich will das Beste für dich, Max, und kein Eric wird jemals meine Meinung über dich ändern.
+		leave!set_poss.wallet_4^		Конечно, тётя Кира...|Natürlich, Tante Kira.
+
+
+
+
