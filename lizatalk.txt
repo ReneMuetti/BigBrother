@@ -1949,7 +1949,7 @@
 # --- 0.3: "одноклассник", путь Оливии: Лиза узнала почему Оливия не носит трусы|Klassenkameradin, Route 3, Lisa erfuhr, warum Olivia keine Unterwäsche trägt.
 
 	liza.oli.2nd.init@0@Ну как, узнала про трусы Оливии?|Also, hast du etwas über Olivias Höschen gelernt?
-	liza.oli.2nd@41@Ты же понимаешь, что этот вопрос без контекста звучит очень... странно, да?|Hörst du dir überhaupt zu, wenn du solche Sachen sagst? Habst Du eine Ahnung, wie das ohne Zusammenhang klingt?
+	liza.oli.2nd@41@Ты же понимаешь, что этот вопрос без контекста звучит очень... странно, да?|Hörst du dir überhaupt zu, wenn du solche Sachen sagst? Hast Du eine Ahnung, wie das ohne Zusammenhang klingt?
 		liza.oli.2nd.next.1^	Догадываюсь. Ну так как?|Ist mir egal, niemand kann uns hören. Also, irgendwelche neuen Informationen?
 
 	liza.oli.2nd.next.1@43@Ты был прав, эта информация оказалась не такой уж и бесполезной! Оливия была рада поболтать на эту тему и рассказала, что она из семьи натуристов...|Du hattest Recht, keine Unterwäsche-Information erwies sich als nützlicher, als ich erwartet hatte. Olivia war glücklich darüber zu sprechen und stellte sich heraus, dass sie aus einer Familie von Naturisten stammt.

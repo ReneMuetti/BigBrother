@@ -55,7 +55,7 @@
 		can.massagealisa>0&count.alisa.massage>3&alisa.eromas.yes^									Может быть массаж?|Wie wär's mit einer Massage?
 		leave^																						Ладно, загорай...|Okay, ich überlasse es dir....
 
-	alisa.talk.solar.nooil@23@Может быть. Вот только у меня его нет...|Sicher. Habst Du welche?
+	alisa.talk.solar.nooil@23@Может быть. Вот только у меня его нет...|Sicher. Hast Du welche?
 		leave^																						Ясно. Ну, в другой раз значит...|Nein, tut mir leid. Dann ein anderes Mal.
 
 	alisa.talk.solar.oil.2.top.cantsee@33@<color=orange><i>Убеждение не удалось!</i></color>\nСпасибо, Макс, но на «слабо» меня брать не нужно. Пофантазируй где-нибудь в другом месте. И да, спасибо за кре?.|<color=orange><i>Überredung fehlgeschlagen!</i></color>\nMax, wage es jemand anders. Danke für die Sonnencreme.
@@ -104,8 +104,8 @@
 	alisa.talk.aboutblog.1.init@0@Значит, у тебя есть блог?|Du hast also einen Blog?
 	alisa.talk.aboutblog.1@20@А типа ты не знаешь? Позлорадствовать пришёл?|Als ob du es nicht wüsstest. Bist du hergekommen, um dich zu freuen?
 		alisa.talk.aboutblog.1.no^										Нет, хотел просто больше узнать|Nein, ich wollte mehr darüber erfahren.
-		alisa.talk.aboutblog.1.nothing^									Много подписчиков уже?|Wie viele Abonnenten habst Du?
-		alisa.talk.aboutblog.1.money^									Заработала уже на нём что-то?|Habst Du schon etwas verdient?
+		alisa.talk.aboutblog.1.nothing^									Много подписчиков уже?|Wie viele Abonnenten hast Du?
+		alisa.talk.aboutblog.1.money^									Заработала уже на нём что-то?|Hast Du schon etwas verdient?
 
 	alisa.talk.aboutblog.1.nothing@23@Да ты издеваешься, да?|Machst du dich über mich lustig?
 		alisa.talk.aboutblog.1.nothing.no^								Нет. С чего ты взяла?|Natürlich nicht, warum solltest du das überhaupt denken?

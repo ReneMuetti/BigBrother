@@ -125,7 +125,7 @@
 
 # --- Макс отдаёт маме набор косметики, который она заказывала|Kosmetikbericht
 
-	talk.mom.aboutcosm.init@0@Вот косметика, которую ты заказывала|Hier ist die Kosmetik, um die Du gebeten habst.
+	talk.mom.aboutcosm.init@0@Вот косметика, которую ты заказывала|Hier ist die Kosmetik, um die Du gebeten hast.
 	talk.mom.aboutcosm@75@Ой, спасибо Макс! Ты у меня такой внимательный...|Danke, Max, du bist so aufmerksam....
 		leave!set_dcd.ordercosm_8!set_task.ordercosm_3!set_item.cosm_-4!add_mom.inf_-10!add_mom.mood_50!add_mom.help.score_10^			Да не за что, мам!|Gern geschehen, Mom!
 
@@ -591,7 +591,7 @@
 		talk.mom.aboutericplans.next.2a^					Он собирается вас всех настроить против меня!|Er wird euch alle gegen mich aufbringen!
 		talk.mom.aboutericplans.next.2b^					Он собирается поиметь вас всех!|Er wird euch alle ficken!
 
-	talk.mom.aboutericplans.next.2b@64@Макс! Что за слова?! И что за бред ты тут несёшь?! Ещё раз услышу что-то такое от тебя, накажу! У тебя есть какие-то доказательства своих слов или это просто домыслы?|Wovon zum Teufel redest du, Max!? Wenn ich so etwas noch einmal höre, werde ich dich bestrafen! Habst Du irgendwelche Beweise?
+	talk.mom.aboutericplans.next.2b@64@Макс! Что за слова?! И что за бред ты тут несёшь?! Ещё раз услышу что-то такое от тебя, накажу! У тебя есть какие-то доказательства своих слов или это просто домыслы?|Wovon zum Teufel redest du, Max!? Wenn ich so etwas noch einmal höre, werde ich dich bestrafen! Hast Du irgendwelche Beweise?
 		talk.mom.aboutericplans.next.3^						Ну он мне сам говорил, что...|Er hat es mir selbst gesagt.
 
 	talk.mom.aboutericplans.next.2a@75@Макс, ну что за ерунда? Эрик очень чуткий, отзывчивый мужчина. Ему очень понравилась вся наша семья и о тебе он хорошо отзывался. Даже вот лагерь нашёл для тебя...|Das ergibt keinen Sinn. Er ist sehr nachdenklich und sanftmütig. Er mag unsere Familie und hat Gutes über dich gesagt. Er hat sogar das Lager für Dich gefunden....
@@ -918,7 +918,7 @@
 	mom.nop.5@67@Да ты что? И каким же это, интересно, образом? Ты же дома сидишь!|Oh, wirklich? Und wie wollen Sie das machen? Du verlässt nie das Haus!
 		mom.nop.6^		У меня есть один проект в интернете...|Ich habe ein Projekt im Internet....
 
-	mom.nop.6@62@Ого! Звучит как грандиозный план! И что же это за проект?|Wow! Hört sich groß an! Was für ein Projekt habst Du?
+	mom.nop.6@62@Ого! Звучит как грандиозный план! И что же это за проект?|Wow! Hört sich groß an! Was für ein Projekt hast Du?
 		mom.nop.7^		Я не могу сказать, но иногда он приносит деньги...|Ich kann es noch nicht sagen, aber ich habe eine Einnahmequelle.
 
 	mom.nop.7@60@А этот твой проект, он законен?|Ist Dein Projekt legal?
@@ -1116,7 +1116,7 @@
 	mom.m.5.step.6@69@Даже так? Ого... Но нет, Макс. Я передумала... Я почти голая под полотенцем и не хочу тебя смущать. Вообще, надо было одеться... Давай в другой раз...|Sehr verlockend, aber.... Nein, Max. Ich habe meine Meinung geändert.... Ich bin fast nackt unter dem Handtuch und ich will dich nicht in eine unangenehme Lage bringen. Ich sollte mich anziehen.... Versuchen wir ein anderes Mal......
 		mom.m.5.step.7^									Мам! Массаж только так и делают. Я точно знаю!|Mom, so soll die Massage sein, das sage ich dir!
 
-	mom.m.5.step.7@73@Откуда? Разве тебе делали массаж где-то? Ах да, интернет, онлайн, всё такое... Ладно. В любом случае, всё получается у тебя просто отлично. Может быть я и созрею попробовать твой знаменитый массаж спины...|Woher weißt du das? Habst Du dich schon mal massieren lassen? Oh, richtig, das Internet.... Gut. Du machst das toll, vielleicht stimme ich deiner sagenhaften Massage eines Tages zu....
+	mom.m.5.step.7@73@Откуда? Разве тебе делали массаж где-то? Ах да, интернет, онлайн, всё такое... Ладно. В любом случае, всё получается у тебя просто отлично. Может быть я и созрею попробовать твой знаменитый массаж спины...|Woher weißt du das? Hast Du dich schon mal massieren lassen? Oh, richtig, das Internet.... Gut. Du machst das toll, vielleicht stimme ich deiner sagenhaften Massage eines Tages zu....
 		leave!set_momas_6!set_dcd.momas_1^				Хорошо...|Okay...
 
 

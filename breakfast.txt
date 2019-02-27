@@ -98,7 +98,7 @@
 	bf.1.earn.3@23@Я делом занимаюсь. Раскручиваю свой блог, набираю аудиторию. А потом, когда придёт время, начну крутить рекламу и всё!|Ich promote meinen Blog. Ich fange an zu monetarisieren, nachdem ich ein Publikum aufgebaut habe.
 		bf.1.earn.3.1!max_talk.blog_1^	Ага, всё же так просто...|Ja, als wäre es so einfach....
 		bf.1.earn.3.2!max_talk.blog_1^	И что ты будешь рекламировать?|Und was planen Sie zu inserieren?
-		bf.1.earn.3.3!max_talk.blog_1^	Сколько миллионов подписчиков у тебя, говоришь?|Und wie viele Millionen Abonnenten habst Du?
+		bf.1.earn.3.3!max_talk.blog_1^	Сколько миллионов подписчиков у тебя, говоришь?|Und wie viele Millionen Abonnenten hast Du?
 
 	bf.1.earn.3.1@20@А я и не говорю, что это просто. В любом случае, я хоть чем-то занимаюсь, в отличие, от некоторых...|Ich habe nie gesagt, dass es einfach wird. Und anders als <i>einige</i>, versuche ich es zumindest.
 		bf.1.change^					Да уж, делом. Деловая...|Dann solltest du dich mehr anstrengen.
