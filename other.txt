@@ -175,7 +175,7 @@
 
 # --- Макс читает книгу web book 1|Max liest das Webbuch
 
-	max.read@15@e-maxread-1@Пришло время почитать что-то...|It's time to read something...
+	max.read@15@e-maxread-1@Пришло время почитать что-то...|Es ist Zeit, etwas zu lesen...
 		count.webbook1.read=0&max.readwebbook1.start1^									<i>читать «Web Standards»</i>|<i>lese "Web Standards"</i>
 		count.webbook1.read=1&max.readwebbook1.start2^									<i>читать «Web Standards»</i>|<i>lese “Web Standards”</i>
 		count.webbook1.read=2&max.readwebbook1.start3^									<i>читать «Web Standards»</i>|<i>lese “Web Standards”</i>
@@ -183,7 +183,7 @@
 		count.webbook1.read=4&max.readwebbook1.start5^									<i>читать «Web Standards»</i>|<i>lese “Web Standards”</i>
 		leave^																			В другой раз...|Ein anderes Mal...
 
-	max.readwebbook1.start1@15@Хм... куча непонятных слов. Кажется, нужно будет заново перечитать первые главы...\n\n<i><color=orange>(Книга изучена на 20%)</color></i>|Hmm... bunch of gibberish. Looks like I need to reread first chapters again...\n\n<i><color=orange>(Das Buch ist zu 20% fertig)</color></i>
+	max.readwebbook1.start1@15@Хм... куча непонятных слов. Кажется, нужно будет заново перечитать первые главы...\n\n<i><color=orange>(Книга изучена на 20%)</color></i>|Hmm... einen Haufen komische Begriffe. Ich denke, die ersten Kapitel sollte ich noch einmal durchlesen.....\n\n<i><color=orange>(Das Buch ist zu 20% fertig)</color></i>
 		leave!add_count.webbook1.read_1!set_cd.read_4!time^								<i>закончить</i>|<i>beenden</i>
 	max.readwebbook1.start2@15@Так, ну с этим я уже разобрался, хорошо... А это что такое? Не ясно. Нужно будет всё осмыслить...\n\n<i><color=orange>(Книга изучена на 40%)</color></i>|Okay, ich verstehe diesen Teil.... Aber wie funktioniert das? Ich verstehe es nicht. Ich muss es herausfinden....\n\n<i><color=orange>(Das Buch ist zu 40% fertig)</color></i>
 		leave!add_count.webbook1.read_1!set_cd.read_4!time^								<i>закончить</i>|<i>beenden</i>

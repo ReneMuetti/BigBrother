@@ -78,13 +78,13 @@
 	dn.1.aboutjob.boss.name@67@Его зовут Эрик. Фамилия вам ничего не даст, так что, это не важно. Может быть, я вас однажды и познакомлю...|Sein Name ist Eric. Vielleicht stelle ich ihn dir mal vor....
 		dn.1.aboutjob.5.wow.yes ja^				Значит, он тебе нравится...|Du magst ihn also....
 
-	dn.1.aboutjob.5.wow.yes ja@73@Я уже сказала, что он симпатичный молодой парень и это нормально... Или не сказала? Не важно. Хватит меня допрашивать, всё остывает!|Ich habe schon gesagt, dass er ein süßer junger Mann ist und das ist ziemlich normal.... oder nicht? Das spielt keine Rolle. Genug, um mich zu verhören, alles kühlt sich ab!
+	dn.1.aboutjob.5.wow.yes ja@73@Я уже сказала, что он симпатичный молодой парень и это нормально... Или не сказала? Не важно. Хватит меня допрашивать, всё остывает!|Ich habe schon gesagt, dass er ein süßer junger Mann ist und das ist ziemlich normal.... oder nicht? Das spielt keine Rolle. Genug, mich zu verhören, das Essen wird sonst kalt!
 		dn.1.changetheme^						<i>далее</i>|<i>fortsetzen</i>
 
 	dn.1.changetheme@67@Сегодня не у меня одной первый день. Лиза тоже пошла в новую школу. Рассказывай, как у тебя всё прошло?|Heute ist nicht nur für mich ein besonderer Tag. Lisa hat eine neue Schule besucht! Sagen Sie uns, wie es war?
 		dn.1.school.1^							<i>далее</i>|<i>fortsetzen</i>
 
-	dn.1.school.1@48@Ну, школа находится тут совсем рядом, почти за углом. Уроки короткие, занятий мало. Но преподают интересно, гораздо лучше, чем в старой школе. Думаю, здесь даже Максу понравилось бы учиться!|Nun, die Schule ist ganz in der Nähe, fast um die Ecke. Der Unterricht ist kurz, wenig Training. Aber der Unterricht ist interessant, viel besser als in der alten Schule. Ich denke, sogar Max hätte es gerne gelernt!
+	dn.1.school.1@48@Ну, школа находится тут совсем рядом, почти за углом. Уроки короткие, занятий мало. Но преподают интересно, гораздо лучше, чем в старой школе. Думаю, здесь даже Максу понравилось бы учиться!|Nun, die Schule ist ganz in der Nähe, fast um die Ecke. Der Unterricht ist kurz, wenig Training. Aber der Unterricht ist interessant, viel besser als in der alten Schule. Ich denke, sogar Max hätte dort gerne gelernt!
 		dn.1.school.2^							<i>далее</i>|<i>fortsetzen</i>
 
 	dn.1.school.2@67@Ну а ученики какие? Повезло с классом? Уже завела себе друзей и подруг?|Was ist mit deinen Klassenkameraden? Sind sie gut? Hast du schon Freunde?
@@ -129,7 +129,7 @@
 	dn.1.end.4@48@Да, мам. Но если мне кто-то поможет... Например, Макс, то я не откажусь...|Ja, Mom. Ich brauche Hilfe.... Von Max zum Beispiel....
 		dn.1.end.5^								Может быть...|Vielleicht...
 
-	dn.1.end.5@71@Ладно, разбирайтесь сами. А я собираюсь принять ванну. Так что, не беспокоить!|Nun, dann klär das selbst. Und ich werde ein Bad nehmen. Also, stören Sie mich nicht!
+	dn.1.end.5@71@Ладно, разбирайтесь сами. А я собираюсь принять ванну. Так что, не беспокоить!|Nun, dann klär das selbst. Und ich werde ein Bad nehmen. Also, stört mich bitte nicht!
 		leave!time^								Хорошо, мам!|Okay, Mom
 
 
@@ -588,7 +588,7 @@
 		dn.12.next.5^							Ого, сколько вопросов...|Wow, so viele Fragen.
 
 	dn.12.next.5@75@Лиза, я знаю, что ты очень её любишь, как и все мы, но успокойся. Она не завтра приедет, но скоро. На сколько - тоже не знаю, но думаю, что погостит какое-то время... А по делам или нет - сама спросишь.|Ich weiß, du liebst sie sehr, Lisa, genau wie wir alle, aber entspann dich ein wenig. Sie wird bald hier sein. Ich weiß auch nicht, wie lange, ich hoffe, sie bleibt für einige Zeit. Du kannst sie selbst nach ihren Gründen fragen.
-		dn.12.next.6^							Первая хорошая новость...|Das sind die ersten guiten Nachichten
+		dn.12.next.6^							Первая хорошая новость...|Das sind die ersten guten Nachichten
 		dn.12.next.6^							<i>промолчать</i>|<i>sei ruhig</i>
 
 	dn.12.next.6@31@Да, это здорово. Я так соскучилась по тёте Кире... Кстати, она говорила, что сменила работу, но мне не сказала на какую. Ты не в курсе, мам?|Das ist großartig, ich habe sie so sehr vermisst. Ich glaube, sie sagte etwas davon, ihren Job zu wechseln, aber sie hat mir nicht gesagt, was sie jetzt macht. Weißt du es, Mom?

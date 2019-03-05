@@ -140,7 +140,7 @@
 		liza.talk.boy.1.who.how!max_talk.boy_1^								И как вы познакомились?|Und wie hast du ihn kennen gelernt?
 		liza.talk.boy.1.who.about!max_talk.boy_1^							Расскажи о нём|Erzählt mir von ihm
 
-	liza.talk.boy.1.who.about@41@Ну, парень как парень. Вот как ты, только не такой зануда и красивый.|Nun, er ist ein normaler Kerl. Wie du, aber er nörgelt nicht an mir.
+	liza.talk.boy.1.who.about@41@Ну, парень как парень. Вот как ты, только не такой зануда и красивый.|Nun, er ist ein normaler Kerl. Wie du, nur er nörgelt nicht an mir rum.
 		liza.talk.boy.1.who.about.z^										Я не зануда!|Ich nörgele nicht!
 		liza.talk.boy.1.who.about.n^										Значит, нравится мой типаж?|Also, du magst ihn?
 		liza.talk.boy.1.who.about.me^										А я тебе нравлюсь?|Magst du mich?
@@ -425,7 +425,7 @@
 		leave!set_poss.swap_2^													Обращайся, если что...|Jederzeit, Schwesterherz
 
 	liza.talk.aboutboy.3.yeah.forget.why.3@42@Что?! Макс, ну ты и придурок. Я думала, у тебя какая-то толковая мысль, а ты...|Was!? Fick dich, Max! Und ich hatte gehofft, Sie hätten etwas Nützliches zu sagen....
-		liza.talk.aboutboy.3.yeah.forget.why.3.joke!add_liza.mood_-20^			Да я пошутил, ?звини...|Es tut mir leid,, Ich habe nur Spaß gemacht
+		liza.talk.aboutboy.3.yeah.forget.why.3.joke!add_liza.mood_-20^			Да я пошутил, ?звини...|Es tut mir leid, Ich habe nur Spaß gemacht
 
 	liza.talk.aboutboy.3.yeah.forget.why.3.joke@46@Дурацкие у тебя шутки и так не вовремя. Значит, ты серьёзно предлагаешь его бросить? Почему?|Das war ein dummer Witz zur falschen Zeit. Also, schlägst du ernsthaft vor, dass ich ihn aufgeben soll? Warum?
 		liza.talk.aboutboy.3.yeah.forget.why.1^									Он уже в отношениях, у них всё хорошо, зачем разбивать пару|Er ist bereits in einer glücklichen Beziehung, du solltest sie nicht aus egoistischen Gründen auseinander bringen.
@@ -456,7 +456,7 @@
 		liza.talk.aboutboy.3.yeah.trick.1.tell.2^								Вам нужно стать лучшими подругами!|Du musst ihre beste Freundin werden!
 
 	liza.talk.aboutboy.3.yeah.trick.1.tell.2@41@А потом заманить её в лес и убить, да?|Und dann lockt man sie in den Wald und tötet sie, richtig?
-		liza.talk.aboutboy.3.yeah.trick.1.tell.3^								Конечно! Классный план, да?|Natürlich! Wie gefällt dir mein absolut ausfallsicHierr Plan?
+		liza.talk.aboutboy.3.yeah.trick.1.tell.3^								Конечно! Классный план, да?|Natürlich! Wie gefällt dir mein genialer Plan?
 		liza.talk.aboutboy.3.yeah.trick.1.tell.3^								Ну вот, сама догадалас?...|Genau!!
 		liza.talk.aboutboy.3.yeah.trick.1.tell.3bad!add_tjoke.1_1^				Да, но сначала трахнуть!|Ja, aber du solltest sie auch zuerst ficken!
 
@@ -528,14 +528,14 @@
 
 # --- Самое начало второго дня, Лиза видит Макса|Holzveranstaltung am Vormittag
 
-	oops.2ndmorning@50@e-liza-wakeup-1@Макс! Это что такое?! Я сейчас маму позову!|Was zum Teufel ist das, Max!? Ich rufe Mama an!
+	oops.2ndmorning@50@e-liza-wakeup-1@Макс! Это что такое?! Я сейчас маму позову!|Was zum Teufel ist das, Max!? Ich rufe Mama!
 		oops.2ndmorning.what^									Что? Ты о чём?|Wovon redest du?
 		oops.2ndmorning.what^									Что случилось?!|Was ist passiert?
 
 	oops.2ndmorning.what@42@Ты чем таким занимался при мне?!|Was hast du direkt vor mir gemacht?
 		oops.2ndmorning.what.wtf^								Да ты о чём, вообще?|Wovon zum Teufel redest du?
 
-	oops.2ndmorning.what.wtf@44@e-oops-1@Ма-ам! Иди сюда, скорее!|Mo-o-o-om! Komm hier rüber, schnell!
+	oops.2ndmorning.what.wtf@44@e-oops-1@Ма-ам! Иди сюда, скорее!|Mo-o-o-om! Komm schnell hier her!
 		oops.2ndmorning.what.wtf.1^								Да это не то, о чём ты думаешь...|Es ist nicht das, was du denkst....
 		oops.2ndmorning.what.wtf.2^								Просто, так бывает утром иногда...|Manchmal geschieht das morgens....
 
@@ -598,8 +598,8 @@
 	liza.talk.oops.sorry.no@40@Не поняла. Какое-то странное извинение. О чём ты со мной не говорил раньше?|Ich verstehe nicht. Das ist eine seltsame Entschuldigung. Nicht über welches Zeug reden?
 		liza.talk.oops.sorry.no.men^		Ты пробовала с мамой о чём-то... взрослом поговорить?|Hattest du jemals dieses Gespräch mit Mom? Du weißt schon, <i>das Gespräch</i>?
 
-	liza.talk.oops.sorry.no.men@46@А причём тут это? Ну да, она всегда говорит, что я ещё маленькая...|Nein, sie sagt immer, ich sei zu jung für so was.
-		liza.talk.oops.sorry.no.men.so^		Вот именно. Я, как старший брат должен был бы тебя подготовить...|Nein, sie sagt immer, ich sei zu jung für so was.
+	liza.talk.oops.sorry.no.men@46@А причём тут это? Ну да, она всегда говорит, что я ещё маленькая...|Was hat das mit irgendetwas zu tun? Ja, nun, sie sagt immer, dass ich nur ein kleines Mädchen bin...
+		liza.talk.oops.sorry.no.men.so^		Вот именно. Я, как старший брат должен был бы тебя подготовить...|Das ist genau das, was ich sage. Ich, als dein großer Bruder, hätte dich vorbereiten sollen...
 
 	liza.talk.oops.sorry.no.men.so@41@Постой. Во-первых, ты не старший. Хотя старше, да. А во-вторых, подготовить к чему?|Wartet eine Minute. Erstens bist du kaum älter. Und zweitens, wovon redest du?
 		liza.talk.oops.sorry.no.men.so.2^	Ну вот ты что знаешь о мальчиках?|Nun, wie viel weißt du über Jungs?
@@ -614,18 +614,18 @@
 		liza.talk.oops.way.adult^			Я могу помочь тебе стать взрослой|Ich will dir dieses Zeug beibringen.
 
 	liza.talk.oops.way.adult@41@Ты же понимаешь, как это звучит? Лучше уточни, что ты имеешь в виду...|Verstehst du, wie das klingt? Was meinst du damit?
-		liza.talk.oops.way.adult.s^			Я поделюсь с тобой знаниями, которые тебе помогут|Ich erzähle dir, wie das alles funktioniert. Weißt du, ich gebe dir den Vortrag.
+		liza.talk.oops.way.adult.s^			Я поделюсь с тобой знаниями, которые тебе помогут|Ich werde dir alles erklären, das dir helfen wird.
 
 	liza.talk.oops.way.adult.s@48@Помогут с чем? Мне мама говорит, что ещё рано о таком думать|Mom sagt, ich soll das alles nicht wissen.
 		liza.talk.oops.way.adult.s.you^		И что, ты не думаешь об этом?|Und was denkst du?
 
 	liza.talk.oops.way.adult.s.you@49@Думаю... Но я не знаю. О таком вроде не с мальчиками говорят, особенно с братом...|Ich verstehe dein Argument. Aber ich bin mir nicht sicher, ob ich dieses Gespräch mit einem Kerl führen soll, besonders mit meinem Bruder....
-		liza.talk.oops.way.adult.s.you.a^	У Алисы свои заботы, а мама тебе уже всё сказала...|Alice ist beschäftigt und Mom hat dir schon gesagt.
+		liza.talk.oops.way.adult.s.you.a^	У Алисы свои заботы, а мама тебе уже всё сказала...|Alice hat ihre eigenen Sorgen, und Mom hat dir bereits alles gesagt...
 
 	liza.talk.oops.way.adult.s.you.a@40@Ну, я подумаю. Ты как-то слишком настойчиво помощь предлагаешь. Как будто у тебя свой интерес какой-то...|Okay, ich werde darüber nachdenken. Aber du drängst zu sehr, es lässt mich glauben, dass du ein egoistisches Motiv dahinter hast....
 		liza.talk.oops.way.adult.s.you.b^	Хочу только помочь младшей сестрёнке|Ich will nur meiner jüngeren Schwester helfen!
 
-	liza.talk.oops.way.adult.s.you.b@41@Ну да, ну да... В общем, я подумаю. Только вот не уверена, что ты всё-таки подходишь на роль такого... наставника, если ты меня понимаешь...|Richtig, richtig.... Wie auch immer, ich werde darüber nachdenken. Ich bin mir immer noch nicht sicher, ob du in diese.... Mentorin... Rolle passt.
+	liza.talk.oops.way.adult.s.you.b@41@Ну да, ну да... В общем, я подумаю. Только вот не уверена, что ты всё-таки подходишь на роль такого... наставника, если ты меня понимаешь...|Richtig, richtig.... Wie auch immer, ich werde darüber nachdenken. Ich bin mir immer noch nicht sicher, ob du in diese.... Mentoren... Rolle passt.
 		liza.talk.oops.way.adult.s.you.c^	Что, моё мнение недостаточно авторитетно для тебя?|Was, denkst du, ich weiß nicht genug oder so?
 
 	liza.talk.oops.way.adult.s.you.c@48@Ну не знаю. Посмотрим...|Ich weiß nicht.... Wir werden sehen.
@@ -795,12 +795,12 @@
 # --- Макс замечает загорающую Лизу в закрытом купальнике|Lisa sonnt sich im geschlossenen Badeanzug.
 
 	liza.sun.swimsuit.1.init@0@А ты чего так загораешь?|Warum sonnst du dich so?
-	liza.sun.swimsuit.1@49@Как... так?|Like Was?
+	liza.sun.swimsuit.1@49@Как... так?|Was meinst du damit?
 		liza.sun.swimsuit.1.closed!set_talk.liza.swimsuit_1!set_poss.swimsuit_1^			Ну, чего ты в закрытом купальнике лежишь?|Warum trägst du einen einteiligen Badeanzug?
 		liza.sun.swimsuit.1.closed!set_talk.liza.swimsuit_1!set_poss.swimsuit_1^			Тебе не жарко в таком купальнике?|Ist dir nicht zu heiß in diesem Badeanzug?
 
-	liza.sun.swimsuit.1.closed@46@Ну, у меня другого и нет. Ты же знаешь, что наши вещи пропали. Вот там и все мои купальники были...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Ich habe keine andere. Du weißt, dass all unsere Sachen verloren gegangen sind, als wir umgezogen sind. Alle meine Badeanzüge außer diesem sind weg....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
-		liza.sun.swimsuit.1.closed.sorry^													Очень жаль... Я могу чем-то помочь?|Schade.... Kann ich Ihnen irgendwie helfen?
+	liza.sun.swimsuit.1.closed@46@Ну, у меня другого и нет. Ты же знаешь, что наши вещи пропали. Вот там и все мои купальники были...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Ich habe nichts anderes. Du weißt, dass all unsere Sachen verloren gegangen sind, als wir umgezogen sind. Alle meine Badeanzüge außer diesem sind weg....\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Chance gefunden!</i></color>
+		liza.sun.swimsuit.1.closed.sorry^													Очень жаль... Я могу чем-то помочь?|Schade.... Kann ich Dir irgendwie helfen?
 		liza.sun.swimsuit.1.closed.naked^													Так загорай голая!|Warum bräunst du dich dann nicht nackt?
 
 	liza.sun.swimsuit.1.closed.sorry@41@Спасибо. Да, а чем ты можешь помочь, Макс?|Danke, aber wie kannst du mir helfen?

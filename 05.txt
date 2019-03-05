@@ -429,7 +429,7 @@
 		05.eb.4^	Виктор, я всё о тебе знаю!|Ich weiß alles, Victor!
 
 	05.eb.4@81@Нашёл мои права и думаешь, что взял меня за яйца? Я тебя удивлю Макс, но ты глубоко ошибся...|Also, du hast meinen Ausweis gefunden und denkst, du hast mich? Du irrst dich, Max....
-		05.eb.5^	В чём?|Do tell
+		05.eb.5^	В чём?|Was soll das heißen?
 
 	05.eb.5@81@Ты блефуешь и у тебя ничего на меня нет. И физически у тебя нет ни единого шанса... К тому же, даже если ты что-то и накопал, я перед законом чист...|Du bluffst und du hast nichts. Außerdem bin ich körperlich stärker als du. Und selbst wenn du etwas gelernt hast, ich bin vor dem Gesetz sauber.
 		05.eb.6^	Да? А на работе ты себя за кого выдаёшь?|Oh, und welchen Namen benutzt du bei deiner Arbeit?
@@ -633,7 +633,7 @@
 
 # --- 0.5: Макс договаривается с Кирой насчёт её наставничества для Лизы|Max fragt Kira nach der Nachhilfe für Lisa.
 
-	05.kment.0.init@0@У меня есть вопрос...|I have a question for you...
+	05.kment.0.init@0@У меня есть вопрос...|Ich habe eine Frage an Dich...
 	05.kment.0@101@Ну, задавай, раз есть. Я у тебя как личная палочка-выручалочка, да? Но я не жалуюсь. Мне приятно помогать тебе. У тебя постоянно такие забавные идеи, что меня это очень заводит...|Okay, lass hören. Ich bin dein persönliches Genie, oder? Nicht, dass ich mich beschweren würde. Ich helfe dir gerne. Du hast immer so viele lustige Ideen, das macht mich an....
 		05.kment.1^		Вот эта из той же серии...|Das wird dann genau das Richtige für dich sein.
 
@@ -681,7 +681,7 @@
 		05.km1.3^	Это я её пригласил...|Ich habe sie eingeladen.
 
 	05.km1.3@101@m-k-2@Видимо, Макс тебя забыл предупредить. Он обратился ко мне за помощью, чтобы я стала той самой наставницей, которая приведёт вас в царство разврата, удовольствия и секса... Хорошо сказала?|Max hat wohl vergessen, dich zu warnen. Er hat mich um Hilfe gebeten, damit ich die Lehrerin sein kann, die dich in das Reich der Ausschweifung, des Vergnügens und des Sexes führen wird.... Wie hört sich das an?
-		05.km1.4^	Ага, супер!|Sounds great!
+		05.km1.4^	Ага, супер!|Das ist großartig!
 
 	05.km1.4@42@Макс, ну ты и придурок. Она же наша тётя! А что мама скажет? Хотя, ей явно об этом знать не надо... Но блин, Макс... И тётя Кира, мне так стыдно...|Du bist so ein Idiot, Max! Sie ist unsere Tante! Was wird Mom sagen? Warte, nein, es ist das Beste, wenn sie nichts davon weiß.... Aber Max.... und Tante Kira.... Es ist mir so peinlich....
 		05.km1.5^	<i>далее</i>|<i>fortfahren</i>
@@ -918,16 +918,16 @@
 # --- 0.5: Макс предлагает Лизе подрочить ему, пока он делает для неё домашнюю работу (если у Лизы есть халат)|Max bittet Lisa, ihm einen runterzuholen, während er ihre Hausaufgaben macht (wenn Lisa den Bademantel hat).
 
 	05.hwhj.0@46@m-th-1@Ты о чём, Макс?|Was meinst du damit?
-		05.hwhj.1^		Ну, мы же договорились. Ты мне - я тебе...|Erinnerst du dich nicht an unseren Quid-pro-quo-Deal?
+		05.hwhj.1^		Ну, мы же договорились. Ты мне - я тебе...|Nun, wir hatten eine Abmachung. Du für mich - ich für dich...
 
 	05.hwhj.1@40@И что я должна... Это делать пока ты разбираешься с моей домашней работой?|Muss ich das wirklich tun, während du meine Hausaufgaben machst?
 		05.hwhj.2^		Угу. Идея отличная!|Ja, das ist eine tolle Idee!
 
 	05.hwhj.2@46@Ладно... шорты сними только. И не забрызгай мне мою домашнюю работу, а то сам будешь всё переписывать!|Gut.... zieh deine Shorts aus. Und beschmutze nicht meine Hausaufgaben, sonst musst du alles neu schreiben!
-		05.hwhj.3^		Договорились...|Deal
+		05.hwhj.3^		Договорились...|Abgemacht...
 
 	05.hwhj.3@4@m-th-2@<i>Ох... Сестрёнка молодец. Кажется, уроки секса она усваивает гораздо лучше, чем обычные школьные... И это очень хорошо, иначе я остался бы без... Ух...</i>|<i>Oh.... ist es so gut. Sieht so aus, als ob sie ihren Sexunterricht viel besser lernt, als ihre üblichen Schulstunden.... Was gut für mich ist, denn sonst wäre ich nicht in dieser Situation.... Oh....</i>
-		05.hwhj.4^		<i>делать домашнюю работу</i>|<i>Hauisaufgaben erledigen</i>
+		05.hwhj.4^		<i>делать домашнюю работу</i>|<i>Hausaufgaben erledigen</i>
 
 	05.hwhj.4@41@m-th-3@Только учти, Макс, что я всё проверю. Если будут ошибки, больше к твоей помощи не обращусь. Ты меня понял?|Ich überprüfe alles später, Max! Wenn du irgendwelche Fehler machst, wird das das letzte Mal sein, dass wir so etwas machen!
 		05.hwhj.5^		Конечно!|Natürlich!
@@ -939,7 +939,7 @@
 		05.hwhj.7^		Ты не представляешь как!|Du hast keine Ahnung....
 
 	05.hwhj.7@41@Ну всё, надевай свои шорты, я ещё всё проверю. И... спасибо.|Okay, zieh deine Shorts an, ich werde deine Arbeit überprüfen. Und.... Danke.
-		leave!set_dcd.lizahelp_1!add_count.liza.hj_1!max_cam.0.grow_250!time^			Тебе спасибо!|Danke<i>dir</i>!
+		leave!set_dcd.lizahelp_1!add_count.liza.hj_1!max_cam.0.grow_250!time^			Тебе спасибо!|Ich danke <i>dir</i>!
 
 
 
@@ -1044,7 +1044,7 @@
 		05.aft2les.7^		Не глубоко, да?|Nicht zu tief, oder?
 
 	05.aft2les.7@42@Макс, ну ты и придурок!|Du bist so ein Idiot, Max!
-		05.aft2les.8^		Ну да, я такой. Главное, чтобы ты не передумала!|Ja, I guess I am. The main thing you want to keep our lessons!
+		05.aft2les.8^		Ну да, я такой. Главное, чтобы ты не передумала!|Ja, nun, das bin ich. Die Hauptsache ist, dass du deine Meinung nicht änderst!
 
 	05.aft2les.8@40@Вот будешь себя так вести, точно передумаю. Ладно, можешь передать тёте Кире, что я согласна продолжить... это обучение.|Wenn du so weitermachst, ändere ich meine Meinung.\nSchön, du kannst Tante Kira sagen, dass ich bereit bin, unsere Ausbildung fortzusetzen.
 		leave!set_kiranight_2!set_poss.sed_30^		Супер! Я тебя люблю, сестрёнка!|Super! Ich liebe dich, Schwesterherz!
@@ -1318,7 +1318,7 @@
 		05.les4.7^		Ну ладно...|Okay
 
 	05.les4.7@112@m-k-23@А теперь вниз и пусть твой язычок окажется нежным, ловким и удивительно приятным... Лиза, а ты смотри как и что он делает. Может быть, тебе это будет полезно...|Jetzt komm runter und ich hoffe, du hast eine weiche, bewegliche und angenehme Zunge.... Lisa, du solltest dir ansehen, was er tun wird. Wer weiß, vielleicht lernst du ja etwas Nützliches.
-		05.les4.8^		Ей то зачем?|Why would she need it?
+		05.les4.8^		Ей то зачем?|Warum sollte sie das tun?
 
 	05.les4.8@114@Ну вдруг заведёт себе подружку... В жизни всякое бывает. Да, да, я знаю, что ты решила, что ты только по мальчикам, но просто поверь, не стоит терять большую часть радостей... Макс, чего стоишь? Приступай!|Was, wenn sie sich eine Freundin sucht.... Dinge passieren. Ich weiß, du hast entschieden, dass du nur Jungs magst, aber glaub mir, du solltest dich nicht von dieser Welt des Vergnügens trennen.... Worauf wartest du, Max? Fang an!
 		05.les4.9^		<i>приступить</i>|<i>start</i>
@@ -1384,7 +1384,7 @@
 		05.les4.29^		<i>далее</i>|<i>fortfahren</i>
 
 	05.les4.29@114@Похоже, Макс сдал экзамен досрочно. Молодец. Справился на отлично. Ну что, в следующий раз вас ждёт кое-что ещё более интересное...|Sieht so aus, als hätte Max seine Prüfung beim ersten Versuch bestanden. Gute Arbeit, du bekommst eine Eins+. Nächstes Mal bekommst du etwas noch Besseres....
-		05.les4.30^		Ого. Это что?|What's that?
+		05.les4.30^		Ого. Это что?|Und was ist das?
 
 	05.les4.30@46@Только не секс. Я не хочу терять невинность таким образом, тётя Кира!|Nur kein Sex. Ich will meine Jungfräulichkeit nicht so verlieren, Tante Kira!
 		05.les4.31^		<i>далее</i>|<i>fortfahren</i>
@@ -1579,22 +1579,22 @@
 		05.les7.3^		<i>далее</i>|<i>fortfahren</i>
 
 	05.les7.3@112@m-k-44@Вот так... Сегодня тебе не удастся увернуться от огромного члена своего брата. Готовься морально, а Макс пока потренируется... Да, Макс?|So.... Du wirst dem riesigen Schwanz deines Bruders heute nicht entkommen können, also mach dich bereit, während Max übt.... Stimmt's, Max?
-		05.les7.4^		Поворачивайся, тётя Кира!|Turn around, aunt Kira!
+		05.les7.4^		Поворачивайся, тётя Кира!Dreh dich um, Tante Kira!
 
 	05.les7.4@46@m-k-47@Я всё-таки не уверена, что он сможет... что поместится такое... такой... во мне. Может быть, я не знаю, есть другие пробки, чтобы ещё потренироваться?|Ich bin mir immer noch nicht sicher, ob er in mich passt.... diesmal. Hast du noch andere Plugs zum trainieren?
 		05.les7.5^		Лиза!|Lisa!
 
 	05.les7.5@101@m-k-48@Макс, не обращай на неё внимание. Мы её предупредили, что если будет отказываться, изнасилуем. Верёвки и наручники у меня тоже есть... О да, Макс, быстрее!|Kümmere dich nicht um sie, Max. Wir haben sie gewarnt, wenn sie das heute nicht tut, nehmen wir sie uns einfach mit Gewalt. Ich habe Seile und Handschellen.... Ja, Max, schneller!
-		05.les7.6^		Конечно, тётя Кира!|Yes, aunt Kira!
+		05.les7.6^		Конечно, тётя Кира!|Natürlich, Tante Kira!
 
 	05.les7.6@113@m-k-51@Ну, Лиза, пришёл твой час... Пока вставай рядом, да, Макс... да...|Nun, Lisa, deine Zeit ist gekommen.... Komm hier rüber, neben mich.... Ja, Max....
 		05.les7.7^		<i>ускориться</i>|<i>mach schneller</i>
 
 	05.les7.7@114@m-k-52@Лиза, не бойся, тебе очень понравится! Я обещаю... да... очень... понравится... Ну всё, Макс, пока ты не кончил в мою попку, пора поработать над сестрёнкой!|Keine Sorge, Lisa, es wird dir gefallen! Ich verspreche.... Ja...! Du wirst es lieben.... Okay, Max, zieh dich zurück, bevor du wieder in meinen Arsch kommst. Jetzt ist deine Schwester dran!
-		05.les7.8^		Наконец-то!|Finally!
+		05.les7.8^		Наконец-то!|Na endlich!
 
 	05.les7.8@100@m-k-57@Так, Макс, не спеши... Смазки побольше и медленно-медленно, движениями туда-сюда постепенно проникай внутрь... А ты Лиза, чуть-чуть потерпи, пусть твоя попка расслабится...|Langsam und vorsichtig, Max. Mehr Gleitmittel und se-e-e-e-e-e-e-e-hr langsam beginnen tiefer zu schieben.... Du musst ein bisschen durchhalten, Lisa, bis dein Arsch sich genug dehnt....
-		05.les7.9^		<i>глубже</i>|<i>deeper</i>
+		05.les7.9^		<i>глубже</i>|<i>tiefer</i>
 
 	05.les7.9@101@m-k-53@Ну, Лиза, чувствуешь его член в себе? Это же не так страшно и больно, как ты думала?|Also, Lisa, kannst du seinen Schwanz in dir spüren? Das ist nicht so beängstigend und schmerzhaft, wie du dachtest, oder?
 		05.les7.10^		<i>продолжить</i>|<i>fortfahren</i>
@@ -2753,7 +2753,7 @@
 
 # --- 0.5: Макс ищет в ноуте какую либо информацию о Викторе Моро|Ich versuche, Victor Moro aufzusuchen.
 
-	05.aboutvic.0@0@m-social@<i>Ну, посмотрим, что у нас есть на этого Виктора в социальных сетях... Ого... сколько их всяких разных... Но по фото ни один не подходит. А как проверять тех, кто без фото? Может быть, он Эрик, всё-таки? Хм...</i>|<i>Lasst uns versuchen, diesen Victor in den sozialen Netzwerken zu finden.... Es gibt so viele von ihnen, aber sie sind nicht die, die ich brauche. Und wie soll ich die ohne die Protos überprüfen? Ist es möglich, dass er tatsächlich Eric ist?</i>
+	05.aboutvic.0@0@m-social@<i>Ну, посмотрим, что у нас есть на этого Виктора в социальных сетях... Ого... сколько их всяких разных... Но по фото ни один не подходит. А как проверять тех, кто без фото? Может быть, он Эрик, всё-таки? Хм...</i>|<i>Lasst uns versuchen, diesen Victor in den sozialen Netzwerken zu finden.... Es gibt so viele von ihnen, aber sie sind nicht die, die ich brauche. Und wie soll ich die ohne die Photos überprüfen? Ist es möglich, dass er tatsächlich Eric ist?</i>
 		05.aboutvic.1^		<i>Поискать в базах имён</i>|<i>Such ihn in einigen Datenbanken</i>
 
 	05.aboutvic.1@2@m-people@<i>Так, проверим разные телефонные справочники, базы данных различных документов... Должен же ты где-то засветиться... Ага... Да блин вас тут сотни. Как найти нужного? Не ясно... Ладно, попробуем что-то ещё...</i>|<i>Vielleicht sollte ich ihn im Telefonbuch und anderen Datenbanken nachschlagen.... Hm.... Scheiße, schon wieder hunderte von Ergebnissen. Die haben nicht einmal Fotos, wie soll ich das finden, wonach ich suche?</i>

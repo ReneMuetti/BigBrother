@@ -3120,7 +3120,7 @@
 		09.fa.liza.buy.bj.3^					<i>далее</i>|<i>fortfahren</i>
 
 	09.fa.liza.buy.bj.3@3@<i>Забавно... Она сказала, что вынуждена делать это именно так... Отличное решение! Ох... Я не могу себя сдерживать...</i>|<i>Komisch, dass sie sagte, sie müsse es tun, aber ich sehe keine Abneigung. Das ist eine tolle Lösung! Ich kann nicht mehr warten....</i>
-		09.fa.liza.buy.bj.4^					<i>кончить сестрёнке в рот</i>|<i>cum in Lisa's mouth!</i>
+		09.fa.liza.buy.bj.4^					<i>кончить сестрёнке в рот</i>|<i>in Lisa's Mund kommen</i>
 
 	09.fa.liza.buy.bj.4@4@f-scl-7@<i>Ого, полный рот спермы! Интересно, что она будет делать? Ух, кажется, она всё проглотила! О да...</i>|<i>Ihr Mund ist jetzt voll von meiner Ficksahne! Ich frage mich, was sie jetzt tun wird.... Sie hat geschluckt! Oh, Ja, ja.....</i>
 		09.fa.liza.buy.bj.5^					Спасибо, сестрёнка...|Danke, Schwesterchen!

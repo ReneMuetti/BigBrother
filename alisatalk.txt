@@ -708,7 +708,7 @@
 		alisa.throw.spider.sun.wtf.price^												А что мне за это будет?|Was bekomme ich dafür?
 		alisa.throw.spider.sun.good.1^													Сейчас помогу...|Lass mich dir helfen....
 
-	alisa.throw.spider.sun.wtf.price@34@Что угодно! Только убери его! А-а-а-а-а!!!|War auch immer du willst, nimm das Ding einfach von mir runter! A-a-a-a-a-a-a-a!!!!
+	alisa.throw.spider.sun.wtf.price@34@Что угодно! Только убери его! А-а-а-а-а!!!|Was auch immer du willst, nimm das Ding einfach von mir runter! A-a-a-a-a-a-a-a!!!!
 		alisa.throw.spider.sun.angry.1^													А конкретнее?|Sei genauer
 		alisa.throw.spider.sun.good.1^													Ладно, так помогу...|Schön, Ich werde dir helfen.
 
@@ -932,7 +932,7 @@
 # --- Пытаемся подсесть к Алисе, пока она смотрит ТВ|Abendveranstaltung mit Alice im Fernsehen
 
 	alisa.tv.try.init@0@Не возражаешь против компании?|Darf ich dir Gesellschaft leisten?
-	alisa.tv.try@20@Нет, садись. Тут места много...|Nein, setz dich, hier ist genug Platz.
+	alisa.tv.try@20@Нет, садись. Тут места много...|Klar, setz dich, hier ist genug Platz.
 		apun=0&alisa.tv.sit!set_dcd.alisatvtogether_1^						Хорошо. Что смотришь?|Was schaust du dir an?
 		apun>0&sexz=0&alisa.tv.sit!set_dcd.alisatvtogether_1^				Хорошо. Ч?о смотришь?|Was schaust du dir an?
 		apun>0&sexz>0&11.ea.0!set_sexz_0!set_dcd.alisatvtogether_1^					Хорошо. Что смотришь?|Was schaust du dir an?
@@ -960,7 +960,7 @@
 	alisa.tv.sit.together@15@<i>По телеку сегодня нет ничего интересного... Ни порнушки, ни даже эротики... А было бы забавно посмотреть такое с сестрёнкой...</i>|<i>Nichts Interessantes im Fernsehen heute.... Schade, ich würde mir gerne etwas Erotik oder sogar ein paar Pornos mit Schwesterchen ansehen....</i>
 		leave!time^																		Ладно, пойду я...|Okay, ich gehe jetzt....
 
-	alisa.tv.sit.massage.3@33@Дай-ка подумаю... Да! Я готова...|Hmmm... Sicher! I'm ready.
+	alisa.tv.sit.massage.3@33@Дай-ка подумаю... Да! Я готова...|Hmmm... Sicher! Ich bin bereit.
 		alisa.tv.mas.start!max_cam.4.grow_120!add_alisa.inf_-5^							Хорошо <i>(начать массаж)</i>|Okay <i>(Massage beginnen)</i>
 		dcd.alisa.tvchoco=0&item.choco=-5&alisa.tv.give.choco^							Может конфетку перед массажем?|Möchtest du vor der Massage etwas Süßes?
 		dcd.alisa.tvchoco>0&item.choco=-5&alisa.tv.give.choco.check^					Может конфетку перед массажем?|Möchtest du vor der Massage etwas Süßes?

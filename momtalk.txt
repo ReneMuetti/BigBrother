@@ -191,7 +191,7 @@
 	mom.suspect.smoke.no.nothing.next.sorry@23@Макс... А, ничего не буду говорить, бесполезно. Давай ужинать...|Max.... Ich will nicht darüber reden, lass uns einfach essen....
 		dinner.default^													Ага, пора.|Sicher, lass uns gehen.
 
-	mom.suspect.smoke.alisa@68@Что?! Ты уверен?|Was!? Sind Sie sicher?
+	mom.suspect.smoke.alisa@68@Что?! Ты уверен?|Was!? Bist Du Dir sicher?
 		mom.suspect.smoke.alisa.yes^									Да, но ей не говори, что это я её сдал!|Ja, aber sag ihr nicht, dass ich sie verpfiffen habe!
 		mom.suspect.smoke.alisa.yes^									Абсолютно. Сам видел. Днём курила у бассейна!|Ich habe sie selbst gesehen, sie hat am Pool geraucht.
 		mom.suspect.smoke.alisa.yes^									Может быть, мне показалось...|Vielleicht habe ich es mir vorgestellt....
@@ -269,7 +269,7 @@
 		needpunish=0&hour=9&breakfast.default^										<i>на?ать завтрак</i>|<i>Frühstück anfangen</i>
 		needpunish=0&hour=19&dinner.default^										<i>начать ужин</i>|<i>Essen anfangen</i>
 
-	pun.max.check@60@e-momabouts-1@Макс! Я вынуждена отчитать тебя перед всеми, так как у нас в семье не должно быть никаких секретов.|Max. Ich werde dich vor allen Leuten zur Schule schicken, weil wir keine Geheimnisse haben sollen.
+	pun.max.check@60@e-momabouts-1@Макс! Я вынуждена отчитать тебя перед всеми, так как у нас в семье не должно быть никаких секретов.|Max. Ich werde Dich vor allen die Verantwortung übernehmen lassen müssen, denn wir sollten keine Geheimnisse in unserer Familie haben.
 		max.warning=0&pun.max.check.1st!add_max.warning_1^							Я не виноват!|Es war nicht meine Schuld!
 		max.warning=1&pun.max.check.2nd!add_max.warning_1^							Я снова не виноват!|Es war nicht schon wieder meine Schuld!
 
@@ -643,7 +643,7 @@
 	mom.ask.kiss@62@Вот это вопрос, Макс. Неожиданный, я бы сказала... А зачем тебе? Нашёл девушку и хочешь её впечатлить?|Warum fragst du? Hast du eine Freundin?
 		mom.ask.kiss.next.1^				Да, точно!|Yep, das ist richtig!
 
-	mom.ask.kiss.next.1@75@Ого! Поздравляю, Макс. Наконец-то ты нашёл кого-то. Расскажи, какая она?|Wow! Glückwunsch, Max. Endlich hast du jemanden gefunden. Erzählen Sie mir von ihr.
+	mom.ask.kiss.next.1@75@Ого! Поздравляю, Макс. Наконец-то ты нашёл кого-то. Расскажи, какая она?|Wow! Herzlichen Glückwunsch, Max. Du hast endlich jemanden gefunden. Sag mir, wie ist sie so?
 		mom.ask.kiss.next.2a^				Да это не важно...|Es ist nicht wichtig.
 		mom.ask.kiss.next.2b^				Ну, красивая...|Nun, sie ist hübsch.
 
@@ -1075,7 +1075,7 @@
 		random.massage.5=0&mom.m.2.step.4.bad^			<i>продолжить</i> [skill.massage_5]|<i>fortsetzen</i> [skill.massage_5]
 
 	mom.m.2.step.4.bad@69@<color=orange><i>Маме не понравился массаж!</i></color>\nОй, Макс... Нет, в этот раз не так хорошо... Что-то даже мышцы немного больно стало. Давай в другой раз продолжим... Но всё равно спасибо!|<color=orange><i>Mom mochte die Massage nicht!</i></color>\nAu, Max.... Diesmal nicht so gut, fürchte ich.... Ich glaube, meine Muskeln tun jetzt sogar ein bisschen weh. Vielleicht machst du es nächstes Mal besser.... Aber trotzdem vielen Dank!
-		leave!set_dcd.momas_1^			Извини...|I'm sorry
+		leave!set_dcd.momas_1^			Извини...|Entschuldige, es tut mir leid...
 
 	mom.m.2.step.4.good@75@<color=lime><i>Маме понравился массаж!</i></color>\nОй, Макс! Это чудесно... Как хорошо, что ты у меня есть... Мне очень понравилось... Буду ждать следующего раза!|<color=lime><i>Mom mochte die Massage!</i></color>\nOh, Max! Das ist wunderbar.... Ich bin so froh, dich zu haben.... Ich habe es sehr genossen.... Ich warte auf ein nächstes Mal!
 		leave!add_momas_1!set_dcd.momas_1^			Я тоже!|Ich auch!

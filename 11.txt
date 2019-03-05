@@ -97,7 +97,7 @@
 		11.ab.17^		Это как же?|Wie?
 
 	11.ab.17@22@Ну как обычно нас мама наказывает... Но только обоих сразу. Конечно, не при свидетелях, мама не поймёт... Но получите оба, обещаю!|Wie in unserer Familie üblich, aber ich werde euch beide gleichzeitig bestrafen. Ich werde es nicht vor der ganzen Familie tun, ich sehe keinen Grund Mom einzubeziehen, aber.... Ihr werdet es beide bekommen!
-		11.ab.18^		Отст?й!|Mist!
+		11.ab.18^		Отстой!|Mist!
 
 	11.ab.18@21@Вот поэтому я бы не хотела, чтобы вы трахались без меня. Так у вас будет ещё больше желания, больше страсти! Ох... Лиза, ты - чудо!|Deshalb rate ich dir, nicht ohne mich zu ficken. Außerdem macht die Wartezeiten, das ficken um so vieles besser.... Oh.... Du bist unglaublich, Lisa!
 		11.ab.19^		<i>далее</i>|<i>fortfahren</i>
@@ -393,7 +393,7 @@
 		11.ba.13^		Ух...|Oh
 
 	11.ba.13@41@b-alisatrio-6@Вроде не сложная игра... Мне даже нравится. Макс, а тебе? Хотя, по твоей довольной физиономии и так всё понятно...|Klar, klingt lustig genug.... Und es sieht so aus, als würde Max auch unser kleines Spiel genießen.
-		11.ba.14^		<i>наслаж?аться</i>|<i>Genießen</i>
+		11.ba.14^		<i>наслаждаться</i>|<i>Genießen</i>
 
 	11.ba.14@25@b-alisatrio-5@Лиза, ну как ощущения, когда ты это делаешь перед камерой и на тебя смотрят тысячи похотливых зрителей? Заводит?|Also, was hältst du davon, das vor einem Haufen Fremder zu tun, Lisa?
 		11.ba.15^		<i>далее</i>|<i>fortfahren</i>
@@ -832,7 +832,7 @@
 		11.ca.9^		<i>продолжать</i>|<i>fortfahren</i>
 
 	11.ca.9@26@b-alisasleep-5@Да, Макс... да, да! Я... кончаю...|Yes, Max... Yes, yes! I'm... cumming...!
-		11.ca.10^		<i>зако?чить</i>|<i>beenden</i>
+		11.ca.10^		<i>закончить</i>|<i>beenden</i>
 
 	11.ca.10@21@y-pa-7@Ну всё, Макс... Мне понравилось, как ты меня «наказал». Буду ждать следующего раза... Похоже, тебе тоже понравилось? Не отвечай, всё и так видно. Ну всё, иди...|Thanks for the punishment, Max. Can't wait for the next one. I see that you liked it too. Not as much as I did, of course... You can go now.
 		leave!max_cam.1.grow_300!set_spun.alisa_0!time^			Эх...|Misst...
@@ -845,7 +845,7 @@
 		11.cb.1^		Алиса, иди сюда!|Come over here, Alice
 
 	11.cb.1@20@Знаешь, Макс... Я что-то не очень хочу, чтобы ты тратил время на это... Давай сделаем вид, что ты меня уже наказал. И моя попка цела и тебе не надо стараться...|You know, Max... I'm not in the mood today. Let's just pretend you've punished me and you can go.
-		11.cb.2^		Ну ла?но...|Schön...
+		11.cb.2^		Ну ладно...|Schön...
 		11.cb.2b^		Не, так не пойдёт!|No way!
 
 	11.cb.2b@21@Похоже, у тебя нет инстинкта самосохранения, Макс... Придётся мне воспользоваться последним аргументом... Конечно, если ты не передумаешь...|Don't you have any sense of self-preservation, Max? Why do I have to remind you about my final argument every time we have a conversation?

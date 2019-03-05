@@ -507,7 +507,7 @@
 		bf.5.next.1^					Ну что, как всё прошло?|Also, wie ist alles gelaufen?
 
 	bf.5.next.1@69@Ты о чём, Макс? Я не понимаю...|Wovon redest du, Max?
-		bf.5.next.2^					Как о чём? Про ночь с Эриком!|Ich rede von deinem Nacht mit Eric.
+		bf.5.next.2^					Как о чём? Про ночь с Эриком!|Ich rede von deiner Nacht mit Eric.
 		bf.5.next.2^					Я про визит к Эрику...|Wie war dein Abend?
 
 	bf.5.next.2@62@Всё в порядке, спасибо. Не думаю, что стоит это сейчас обсуждать...|Es war gut, danke. Ich denke nicht, dass wir darüber reden sollten.
@@ -754,7 +754,7 @@
 	bf.18.next.16@62@С каких пор ты носишь купальники? Ты меня удивляешь всё больше, Кира. Но я рада, что ты за ум взялась. К тому же, тут дети...|Seit wann trägst du einen Bikini? Schön, eine positive Veränderung zu sehen. Und ich bin froh, dass du dich um die Kinder kümmerst.
 		bf.18.next.17^					Я уже взрослый!|Wir sind keine Kinder mehr.
 
-	bf.18.next.17@103@Только из-за твоих детей и купила этот самый купальник. А так я не очень люблю все эти верёвки...|They are the only reason I bought it. I really hate all those strings.
+	bf.18.next.17@103@Только из-за твоих детей и купила этот самый купальник. А так я не очень люблю все эти верёвки...|Es ist nur wegen deiner Kinder, dass ich diesen Badeanzug gekauft habe. Und so mag ich all diese Strings nicht wirklich.....
 		bf.18.next.18^					Какие верёвки?|Strings?
 
 	bf.18.next.18@62@Верёвки? Наверняка, опять супермини-бикини? Ох, Кира... Я уж думала ты и правда повзрослела... Ладно, спасибо всем за завтрак. Пора собираеться на шоппинг.|Strings? Hast du dir wieder Superminibikini gekauft? Ich hatte gehofft, du wärst erwachsen geworden.... Jedenfalls, danke für das Frühstück. Machen wir uns bereit zum Einkaufen.
@@ -802,7 +802,7 @@
 		bf.19.next.8^			Не носишь нижнее бельё?|Du trägst keine Unterwäsche?
 
 	bf.19.next.8@62@Так и знала, что момент неудачный. Макса, как всегда, интересует только одно... Это выбор вашей тёти что носить, а что нет. И тебя точно не должно это всё интересовать...|Ich wusste, das ist nicht die Zeit, das zu diskutieren.... Natürlich Max kümmert sich nur um eine Sache. Die Kleidung deiner Tante ist ihre eigene Wahl und persönliche Angelegenheit, also sollte es dich in keiner Weise betreffen.
-		bf.19.next.9^			Но мам...|BAber Mom!
+		bf.19.next.9^			Но мам...|Aber Mom!
 
 	bf.19.next.9@114@Да всё в порядке. Ну мальчику интересно, почему бы и не ответить. Когда нет нижнего белья, то ощущения очень волнующие. Особенно, если кто-то знает, что его нет... И тогда...|Es ist okay, Neugier ist eine ganz natürliche Reaktion und ich habe keine Probleme mit seinen Fragen. Keine Unterwäsche zu tragen ist aufregend. Besonders, wenn jemand davon weiß....
 		bf.19.next.10^			<i>далее</i>|<i>fortfahren</i>

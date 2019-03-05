@@ -94,7 +94,7 @@
 	search.aboutblog.forum.top@6@Так, топовые комменты все сводятся к одному. Не может быть?|Alles Topkommentare scheinen sich um ein und dasselbe zudrehen, unmöglich?
 		search.aboutblog.final^										Сделать вывод...|Seine Schlüsse daraus ziehen.
 
-	search.aboutblog.final@3@Это что же получается. Неужели, всё так просто? Главное - сиськи! Не важно о чём блог, важно что на экране. И если там сиськи, всё в порядке с популярностью! Но я и так об этом догадывался...|Was ist da nur los, ist alles echt so simpel? Es geht echt nur um Titten! Der Inhalt eines Blog's ist ziemlich egal, wichtig sind die Bilder und was man dort sieht. Und natuerlich wenn es gen�gend Tittenbilder gibt ist alles in Ordnung mit der Popularitaet. Aber das war mir ja fast schon klar...
+	search.aboutblog.final@3@Это что же получается. Неужели, всё так просто? Главное - сиськи! Не важно о чём блог, важно что на экране. И если там сиськи, всё в порядке с популярностью! Но я и так об этом догадывался...|Das ist es, worum es hier geht. Ist es wirklich so einfach? Die Hauptsache sind Brüste! Es spielt keine Rolle, worum es im Blog geht, es spielt eine Rolle, was auf dem Bildschirm erscheint. Und wenn es Brüste gibt, ist alles in Ordnung mit Popularität! Aber das wusste ich schon.....
 		leave!set_poss.blog_2!time^									И зачем я только что-то изучал...|Warum hab ich mir nur trotzdem die Muehe gemacht...
 
 
@@ -137,7 +137,7 @@
 	read.aboutsim@2@e-noaccess-1@Так, попробуем погуглить как обойти защиту... Чёрт. Этот запрос блокируется провайдером! Параноики...|Ich google einfach mal, wie man die Firewall hacken kann...Oh scheisse, auch diese Anfrage ich geblockt!
 		read.aboutsim.next.1^						Ладно, попробуем иначе...|Okay, dann muss ich etwas anderes probieren...
 
-	read.aboutsim.next.1@6@e-noaccess-2@Попробую порыться на хакерском форуме. Уж тут-то точно есть какое-то решение... Любопытно... О, кажется, я понял!|Ich werde wohl in einem Hackerforum nachlesen m�ssen, hoffentlich finde ich dort etwas...Ha, hier ist es dich!
+	read.aboutsim.next.1@6@e-noaccess-2@Попробую порыться на хакерском форуме. Уж тут-то точно есть какое-то решение... Любопытно... О, кажется, я понял!|Ich werde wohl in einem Hackerforum nachlesen m?ssen, hoffentlich finde ich dort etwas...Ha, hier ist es dich!
 		read.aboutsim.next.2!set_can.buysimcard_1!set_poss.sed_14^	<i>далее</i>|<i>weiter</i>
 
 	read.aboutsim.next.2@4@e-noaccess-3@Вот же оно! Мне просто нужно найти и купить хитрую симку, уже взломанную! Достаточно просто порыться в интернет-магазине и найти то, что нужно...|Das ist es, ich muss nur eine gehackte Simkarte kaufen, das war einfach. Ich Könnte mir glatt eine mitbestellen, aber wozu braeuchte ich die mit all den hübschen halbnackten Frauen um mich herum!
@@ -209,7 +209,7 @@
 	spy.alisa.wtfblog.step.11@21@n-cam-1@Ну что, так лучше, Майк? И заметь, я сделала это бесплатно! Но если ты хочешь мне просто дать денег... Я буду рада.|Okay, ist es so besser Mike? Und hey, ich hab es sogar kostenlos gemacht für dich. Also wenn du mir trotzdem etwas dafür geben magst bin ich nicht abgeneigt...
 		spy.alisa.wtfblog.step.12^				Супер! И сколько ты хочешь?|Danke, wie viel willst du denn haben?
 
-	spy.alisa.wtfblog.step.12@22@Ну... Сколько не жалко. Я не попрошайка. Но от $30 не откажусь...|Hm...wieviel bist du denn bereit mir zugeben? Ich will hier nicht betteln m�ssen. So mit 30$ wäre ich schon zufrieden...
+	spy.alisa.wtfblog.step.12@22@Ну... Сколько не жалко. Я не попрошайка. Но от $30 не откажусь...|Hm...wieviel bist du denn bereit mir zugeben? Ich will hier nicht betteln m?ssen. So mit 30$ wäre ich schon zufrieden...
 		spy.alisa.wtfblog.step.13a^								Что?!|Wie bitte?!
 		money>29&spy.alisa.wtfblog.step.13b!add_money_-30^		Держи...|Okay, hier...
 
@@ -270,12 +270,12 @@
 		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich würde dir auch 150$ dafür geben, jetzt sofort!
 
 	pornocam.1.step.8b@22@Пытаешься меня купить? Хочешь, чтобы я за $70 поступилась моральными принципами?|Du willst also, dass ich für laecherliche 70$ meine Prinzipien über Bord werfe?
-		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich würde dir auch 150$ daf�r geben, jetzt sofort!
+		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich würde dir auch 150$ daf?r geben, jetzt sofort!
 
 	pornocam.1.step.8c@21@Давай! Только сначала деньги...|Hm na gut, aber zuerst das Geld!
 		pornocam.1.step.9^			А как же моральные принципы?|Und was wird jetzt mit deinen moralischen Bedenken?
 
-	pornocam.1.step.9@22@Так ты дашь денег или нет?|Willst du mich zum dr�ber nachdenken bringen oder bekomme ich das Geld jetzt?
+	pornocam.1.step.9@22@Так ты дашь денег или нет?|Willst du mich zum dr?ber nachdenken bringen oder bekomme ich das Geld jetzt?
 		money>149&pornocam.1.step.10!add_money_-150^		Ну, держи...|Na gut, okay...
 		pornocam.1.step.10b^								Нет!|Nope!
 
@@ -285,13 +285,13 @@
 	pornocam.1.step.10@31@Спасибо, Майк! Ты - настоящий мужчина. А не то, что эти...|Danke Mike, du bist ein richtiger Mann. Nicht wie all die Creeps hier...
 		pornocam.1.step.11b^		Так а где сиськи?|Darf ich deine Brueste sehen?
 
-	pornocam.1.step.11b@31@n-cam-4@Ах да, чуть не забыла... Ну, вот. Больше не покажу. Но я разделась для тебя. Ты мой первый... Нравится?|Oh, stimmt hier dein Preis...hätte es fast vergessen. Aber mehr bekommst du nicht zusehen, ich habe mich ja schon f�r dich ausgezogen. Magst du meine Brueste...du siehst sie hier als Erster!
+	pornocam.1.step.11b@31@n-cam-4@Ах да, чуть не забыла... Ну, вот. Больше не покажу. Но я разделась для тебя. Ты мой первый... Нравится?|Oh, stimmt hier dein Preis...hätte es fast vergessen. Aber mehr bekommst du nicht zusehen, ich habe mich ja schon f?r dich ausgezogen. Magst du meine Brueste...du siehst sie hier als Erster!
 		pornocam.1.step.12^			О да, ты - супер!|Ohja, du siehst geil aus!
 
 	pornocam.1.step.11a@22@n-cam-4@Ну... Ладно. Смотри. И заметь, я это сделала не за деньги! Так что бери свои слова насчёт... остальных!|Na gut, schau genau hin...und denk dran, ich habe es umsonst gemacht! Also nimm es zurueck, dass ich wie der Rest von denen bin!
 		pornocam.1.step.12^			Извини, ты и правда не такая!|Tut mir leid, du bist echt anders!
 
-	pornocam.1.step.12@21@Спасибо. Ну всё, мне пора... До встречи, Майк!|Danke, naja ich muss jetzt auch los...bid sp�ter Mike!
+	pornocam.1.step.12@21@Спасибо. Ну всё, мне пора... До встречи, Майк!|Danke, naja ich muss jetzt auch los...bid sp?ter Mike!
 		leave!set_alisablog_2!time^		Пока, Мелисса!|Tschuess, Melissa!
 
 
@@ -310,20 +310,20 @@
 	pornocam.2.step.5@22@Почему сразу кидают? Нет... Но я подумала, что если хочешь увидеть больше, то...|Kein Haken, aber wenn es dir gefallen hat und du vielleicht nich mehr sehen willst, dann...
 		pornocam.2.step.6^			Ага. Значит, это демо-версия...|Okay, also das war nur zum anfuettern...
 
-	pornocam.2.step.6@21@Не знаю что такое демо-версия, но думаю, что ты всё понял...|Keine Ahnung was du jetzt meinst, aber es sollte klar sein was ich daf�r moechte.
+	pornocam.2.step.6@21@Не знаю что такое демо-версия, но думаю, что ты всё понял...|Keine Ahnung was du jetzt meinst, aber es sollte klar sein was ich daf?r moechte.
 		pornocam.2.step.7^			И что я увижу?|Okay, aber was bekomme ich im Gegenzug?
 
 	pornocam.2.step.7@22@Смотря сколько заплатишь...|Das haengt natuerlich immer von der Hoehe deiner Spende ab...
-		pornocam.2.step.8^			Ты же ещё недавно говорила, что так говорят... проститутки?|Hast du nicht noch ebend gesagt, nur Schlampen w�rden sowas annehmen?
+		pornocam.2.step.8^			Ты же ещё недавно говорила, что так говорят... проститутки?|Hast du nicht noch ebend gesagt, nur Schlampen w?rden sowas annehmen?
 
-	pornocam.2.step.8@20@Ну, как хочешь... Я не настаиваю...|Na gut, es bleibt ja die �berlassen...
-		pornocam.2.step.9a^						Извини, денег нет...|Tut mir leider, aber aktuell hab ich kein Geld �ber.
-		money>49&pornocam.2.step.9b^			И что я увижу, допустим, за $50?|Und was zeigst du mir f�r sagen wir 50$?
+	pornocam.2.step.8@20@Ну, как хочешь... Я не настаиваю...|Na gut, es bleibt ja die ?berlassen...
+		pornocam.2.step.9a^						Извини, денег нет...|Tut mir leider, aber aktuell hab ich kein Geld ?ber.
+		money>49&pornocam.2.step.9b^			И что я увижу, допустим, за $50?|Und was zeigst du mir f?r sagen wir 50$?
 
 	pornocam.2.step.9a@20@Ладно, тогда до встречи. Мне пора...|Okay, schade. Ich muss eh los, tschuess...
 		leave!set_alisablog_3!time^			Стой!|Wait!
 
-	pornocam.2.step.9b@22@За $70 я покажу тебе чуть больше... Но если не хочешь...|Ich Könnte dir f�r 70$ etwas zeigen, aber das liegt ganz bei dir...
+	pornocam.2.step.9b@22@За $70 я покажу тебе чуть больше... Но если не хочешь...|Ich Könnte dir f?r 70$ etwas zeigen, aber das liegt ganz bei dir...
 		pornocam.2.step.9a^								Нет, не буду платить!|Nein, das ist mir zuviel!
 		money>69&pornocam.2.step.10!add_money_-70^		Ладно, вот тебе $70|Na gut, einverstanden. Hier die 70$!
 
@@ -336,7 +336,7 @@
 	pornocam.2.step.12@21@Конечно, нет. Ты нет, а вот он да... Ну что, доволен шоу?|Natuerlich nicht du sondern er ist nicht ganz der Hellste...wie fandest du eigentlich die Show?
 		pornocam.2.step.13^			Ну можно было бы больше показать...|Naja du hättest mir schon einbisschen mehr zeigen Können...
 
-	pornocam.2.step.13@31@Ты знаешь. В следующий раз я тебе покажу больше... Даже продемонстрирую новое бельишко... Если придёшь...|Okay, weisst du was, beim n�chsten Mal werde ich dir mehr zeigen...ich werde dir eine neue Lingerie von mir zeigen...aber nur wenn du auch da bist, versteht sich...
+	pornocam.2.step.13@31@Ты знаешь. В следующий раз я тебе покажу больше... Даже продемонстрирую новое бельишко... Если придёшь...|Okay, weisst du was, beim n?chsten Mal werde ich dir mehr zeigen...ich werde dir eine neue Lingerie von mir zeigen...aber nur wenn du auch da bist, versteht sich...
 		pornocam.2.step.14^			Конечно, приду!|Klar, das verpasse ich bestimmt nicht!
 
 	pornocam.2.step.14@21@Вот и договорились. А сейчас мне пора. До встречи!|Also haben wir einen Deal, ich muss jetzt los. Bis dann!
@@ -358,23 +358,23 @@
 		money>199&pornocam.3.step.6c!add_money_-200^	$200!|$200!
 		pornocam.3.step.5d^								Не интересно...|Nope, kein Interesse
 
-	pornocam.3.step.5d@21@Ах так? Ну, тогда пока. У меня ещё дела...|Achso, na gut. Bis sp�ter dann, ich muss noch Sachen erledigen...
+	pornocam.3.step.5d@21@Ах так? Ну, тогда пока. У меня ещё дела...|Achso, na gut. Bis sp?ter dann, ich muss noch Sachen erledigen...
 		leave!time^										Но...|Aber...
 
 	pornocam.3.step.5a@26@Вот так ты меня оцениваешь? Я готова ради тебя переодеться, показать кое-что, а ты... Эх, Майк...|Achso, das bin ich dir also Wert? Ich bin gewollt dir etwas neues zu zeigen und du...Oh,Mike...
 		money>149&pornocam.3.step.5b^					Ну, тогда $150!|Na gut, wie wäre es mit 150$ dann?
-		money>199&pornocam.3.step.6c!add_money_-200^	Может быть... $200!|Vielleicht f�r 200$?
+		money>199&pornocam.3.step.6c!add_money_-200^	Может быть... $200!|Vielleicht f?r 200$?
 		pornocam.3.step.5d^								Нет, не интересно...|Nein, kein Interesse.
 
-	pornocam.3.step.5b@33@Хм... предложение заманчивое... Я подумаю над ним... Может быть $200?|Hm...schon nicht schlecht...lass mich dar�ber nachdenken...vielleicht f�r 200$?
-		pornocam.3.step.6a^								Слишком дорого за картинку на экране...|Also das ist mir echt zuviel f�r einbisschen Haut auf der Bildschirm.
-		pornocam.3.step.6b^								Никто столько не платит за эротику через вебкамеры!|Niemand w�rde soviel f�r eine Webcam-Show ausgeben!
+	pornocam.3.step.5b@33@Хм... предложение заманчивое... Я подумаю над ним... Может быть $200?|Hm...schon nicht schlecht...lass mich dar?ber nachdenken...vielleicht f?r 200$?
+		pornocam.3.step.6a^								Слишком дорого за картинку на экране...|Also das ist mir echt zuviel f?r einbisschen Haut auf der Bildschirm.
+		pornocam.3.step.6b^								Никто столько не платит за эротику через вебкамеры!|Niemand w?rde soviel f?r eine Webcam-Show ausgeben!
 		money>199&pornocam.3.step.6c!add_money_-200^	Ладно, пусть $200|Na gut, hier deine 200$
 
-	pornocam.3.step.6a@22@n-cam-1@Значит, тебе жалко каких-то $200 для такой девушки как я? Эх, Майк... Я думала, что ты другой... Ладно. Удачи!|Also du willst echt nicht f�r so eine h�bsche Frau wie mich 200$ springen lassen? Ich hätte echt gedacht, dass du anders bist Mike...schade, eine gute Nacht dir.
+	pornocam.3.step.6a@22@n-cam-1@Значит, тебе жалко каких-то $200 для такой девушки как я? Эх, Майк... Я думала, что ты другой... Ладно. Удачи!|Also du willst echt nicht f?r so eine h?bsche Frau wie mich 200$ springen lassen? Ich hätte echt gedacht, dass du anders bist Mike...schade, eine gute Nacht dir.
 		leave!time^										Стой!|Warte!
 
-	pornocam.3.step.6b@22@n-cam-1@А я и не такая, как эти проститутки на соседних каналах... Ты разве этого не заметил? Эх ты... Ладно, подумай ещё. А мне пора...|Ich bin nicht wie die anderen Schlampen hier auf der Seite...das sollte dir doch wohl aufgefallen sein! Denk am Besten dar�ber nochmal an, ich gehe jetzt.
+	pornocam.3.step.6b@22@n-cam-1@А я и не такая, как эти проститутки на соседних каналах... Ты разве этого не заметил? Эх ты... Ладно, подумай ещё. А мне пора...|Ich bin nicht wie die anderen Schlampen hier auf der Seite...das sollte dir doch wohl aufgefallen sein! Denk am Besten dar?ber nochmal an, ich gehe jetzt.
 		leave!time^										Но...|Aber...
 
 	pornocam.3.step.6c@31@n-cam-3@Вот! Это другое дело! Так, сейчас я переоденусь и покажу тебе кое-что...|Yippie! Warte kurz, ich zieh mich schnell um...
@@ -386,10 +386,10 @@
 	pornocam.3.step.8@22@Наряд... Или я?|Was magst du mehr, die Unterwäsche oder mich...
 		pornocam.3.step.9^								И ты и наряд! А снять его можешь?|Beides ist geil, kannst du sie nicht noch ausziehen?
 
-	pornocam.3.step.9@31@Ой, Майк, у тебя никаких денег не хватит. Я и то свою грудь никому не планировала показывать... Но ты меня убедил. Что-то есть в тебе такое...|Dazu hast du nicht gen�gend Geld Mike! Eigentlich wollte ich mich hier nicht nackt zeigen...aber du hast mich ja schon �berzeugt meine Brueste zuzeigen. Hm, irgendwas hast du an dir...
-		pornocam.3.step.10^								Деньги?|gen�gend Geld?
+	pornocam.3.step.9@31@Ой, Майк, у тебя никаких денег не хватит. Я и то свою грудь никому не планировала показывать... Но ты меня убедил. Что-то есть в тебе такое...|Dazu hast du nicht gen?gend Geld Mike! Eigentlich wollte ich mich hier nicht nackt zeigen...aber du hast mich ja schon ?berzeugt meine Brueste zuzeigen. Hm, irgendwas hast du an dir...
+		pornocam.3.step.10^								Деньги?|gen?gend Geld?
 
-	pornocam.3.step.10@22@Всё, Майк, пока. Ты увидел достаточно... А мне пора...|Vielleicht...es ist aufjedenfall genug gewesen f�r heute Mike. Ich muss los.
+	pornocam.3.step.10@22@Всё, Майк, пока. Ты увидел достаточно... А мне пора...|Vielleicht...es ist aufjedenfall genug gewesen f?r heute Mike. Ich muss los.
 		leave!set_alisablog_4!time^						Пока...|Bye
 
 
@@ -399,13 +399,13 @@
 	pornocam.4.step.2@21@n-cam-2@Приветик, Майк! Я по тебе скучала...|Hi Mike, ich hab dich schon vermisst...
 		pornocam.4.step.3^								Я тоже...|Ich dich auch.
 
-	pornocam.4.step.3@31@Подожди, я для тебя переоденусь. Тебе же понравилось в прошлый раз?|Warte kurz, ich zieh mich f�r dich um. Du mochtest doch mein Outfit vom letzten Mal, oder?
+	pornocam.4.step.3@31@Подожди, я для тебя переоденусь. Тебе же понравилось в прошлый раз?|Warte kurz, ich zieh mich f?r dich um. Du mochtest doch mein Outfit vom letzten Mal, oder?
 		pornocam.4.step.4^								Конечно, жду...|Auf jeden Fall warte ich.
 
 	pornocam.4.step.4@33@n-cam-7@Так же намного лучше, верно?|So, das ist doch gleich viel besser?
 		pornocam.4.step.5^								Однозначно!|Ohhja, definitiv!
 
-	pornocam.4.step.5@31@Может быть... Я ещё могу тебе ещё как-то помочь?|Kann ich vielleicht noch mehr f�r dich tun?
+	pornocam.4.step.5@31@Может быть... Я ещё могу тебе ещё как-то помочь?|Kann ich vielleicht noch mehr f?r dich tun?
 		pornocam.4.step.6^								Ну, раздеться...|Ja, du Könntest es noch komplett ausziehen...
 
 	pornocam.4.step.6@22@n-cam-6@Майк... Тебе не стыдно предлагать такое девушке, ведь мы едва знакомы...|Hey, schaemst du dich den garnicht einer Dame sowas vorzuschlagen? Wir kennen uns ja kaum...
@@ -472,7 +472,7 @@
 
 	pornocam.5.step.6c@21@Для тебя со скидкой, как постоянному клиенту, это будет... $150. И не торгуйся!|für Stammkunden wie dich kann ich auch einbisschen weniger machen...einigen wir uns doch auf 150$.
 		money>149&pornocam.5.step.nude.1!add_money_-150^	Хорошо, раздевайся!|Okay, aber wie versprochen alles ausziehen.
-		pornocam.5.step.nomoney^							Давай в другой раз...|Heute her nicht...
+		pornocam.5.step.nomoney^							Давай в другой раз...|Heute eher nicht...
 
 	pornocam.5.step.notop.1@33@n-cam-4@Ну как, ты доволен, Майк? Хочешь ещё чего-нибудь?|So Mike, bist du jetzt zufrieden, oder magst du noch mehr?
 		pornocam.5.step.notop.2^							Покрутись-ка...|Dreh dich bitte um...

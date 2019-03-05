@@ -491,7 +491,7 @@
 	kt.8.next.11@112@e-ps2-t1@Молодец, Макс. Теперь сделай несколько снимков и развяжи меня.|Gute Arbeit, Max. Jetzt mach ein paar Schüsse und binde mich los.
 		kt.8.next.12^					<i>сделать снимок</i>|<i>ein paar Aufnahmen machen</i>
 
-	kt.8.next.12@104@Ну всё, Макс, теперь развязывай меня!|Okay, Max, you can untie me now
+	kt.8.next.12@104@Ну всё, Макс, теперь развязывай меня!|Okay, Max, du kannst mich jetzt wieder los binden.
 		kt.8.next.path.2^				Хорошо <i>(развязать)</i>|Okay <i>(sie losbinden)</i>
 		kt.8.next.13^					Зачем спешить?|Es gibt keinen Grund, sich zu beeilen.
 
@@ -540,7 +540,7 @@
 
 	kt.8.next.suck.4@112@Макс, ты же понимаешь, что только что кончил прямо в рот своей родной тёте? Не стыдно?|<i>Max, ist dir klar, dass du gerade in den Mund deiner eigenen Tante gekommen bist? Schämst du dich?</i>
 		kt.8.next.suck.5a^				Ну, так... <i>(застегнуть молнию)</i>|nun... <i>(Reißverschluss schließen)</i>
-		kt.8.next.suck.5b^				Ни капли! <i>(застегнуть молнию)</i>|Absolutely not! <i>(Reißverschluss schließen)</i>
+		kt.8.next.suck.5b^				Ни капли! <i>(застегнуть молнию)</i>|Ganz und  garnicht! <i>(Reißverschluss schließen)</i>
 
 	kt.8.next.suck.5a@114@e-ps2-zp1@А вот и зря! Мне очень понравилось... Я уже сомневалась, что ты воспользуешься ситуацией, но я рада, что ты уже большой и сообразительный мальчик... А теперь развязывай меня...|Das solltest du nicht! Ich habe es genossen.... Ich bezweifelte, dass du die Gelegenheit ergreifen wirst, aber ich bin froh, dass du es gemacht hast.... Jetzt binde mich los.
 		kt.8.next.untie.1^				<i>развязать Киру</i>|<i>Kira losbinden</i>

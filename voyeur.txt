@@ -439,7 +439,7 @@
 		mom.bath.undress^												Конечно! Я сам это хотел предложить|Natürlich! Ich wollte gerade dasselbe sagen!
 
 	mom.bath.knock.me.enter.in.need.closeeyes@67@e-Mom-bath-undress-1@Ну, хорошо. Только, не подглядывай. Замечу, сразу выгоню!|Okay, aber nicht gucken! Ich schmeiß dich raus, wenn du willst!
-		mom.bath.undress^												Да, мам...|Yes, Mom
+		mom.bath.undress^												Да, мам...|Ja, Mom
 
 	mom.bath.undress@69@e-Mom-bath-undress2-1@Как-то странно. Ты обычно в такое время ещё не ложишься... С тобой точно всё в порядке?\n\n<i>Вид голой мамы в метре от себя вас очень возбудил...</i>|Seltsam, normalerweise schläfst du nicht so früh....\nBist du sicher, dass es dir gut geht?\n\n<i>Der Anblick deiner nackten Mutter hat dich wirklich aufgeregt.</i>
 		mom.bath.undress.dont^											Ага, всё хорошо. Только, не подглядывай!|Ja, alles Gut. Schau einfach nicht hin!
@@ -468,7 +468,7 @@
 		mom.bath.undress.dont.good.you^									И что мне с этим делать сейчас?|Und was soll ich jetzt tun?
 		mom.bath.undress.dont.good.grow^								Ну как, я подрос с тех пор?|Also, bin ich gewachsen?
 
-	mom.bath.undress.dont.eyes@73@Я случайно открыла глаза, а тут... такое. Тебе срочно нужно найти девушку!|I opened my eyes on accident and saw... this. You need to get yourself a girlfriend!
+	mom.bath.undress.dont.eyes@73@Я случайно открыла глаза, а тут... такое. Тебе срочно нужно найти девушку!|Ich habe aus Versehen die Augen geöffnet, und dann..... Du musst sofort ein Mädchen finden!
 		mom.bath.undress.dont.good.now^									Где же мне её найти в такое время?|Wie bekomme ich jetzt eine?
 		mom.bath.undress.dont.good.you^									И что мне с этим делать сейчас?|Und was soll ich jetzt tun?
 		mom.bath.undress.dont.good.grow^								Ну как, я подрос с тех пор?|Also, bin ich seit dem letzten Mal gewachsen?
