@@ -1579,7 +1579,7 @@
 		05.les7.3^		<i>далее</i>|<i>fortfahren</i>
 
 	05.les7.3@112@m-k-44@Вот так... Сегодня тебе не удастся увернуться от огромного члена своего брата. Готовься морально, а Макс пока потренируется... Да, Макс?|So.... Du wirst dem riesigen Schwanz deines Bruders heute nicht entkommen können, also mach dich bereit, während Max übt.... Stimmt's, Max?
-		05.les7.4^		Поворачивайся, тётя Кира!Dreh dich um, Tante Kira!
+		05.les7.4^		Поворачивайся, тётя Кира!|Dreh dich um, Tante Kira!
 
 	05.les7.4@46@m-k-47@Я всё-таки не уверена, что он сможет... что поместится такое... такой... во мне. Может быть, я не знаю, есть другие пробки, чтобы ещё потренироваться?|Ich bin mir immer noch nicht sicher, ob er in mich passt.... diesmal. Hast du noch andere Plugs zum trainieren?
 		05.les7.5^		Лиза!|Lisa!

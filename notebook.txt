@@ -1,531 +1,531 @@
 # --- Макс открывает ноутбук|Max opens his notebook
 
-	open.notebook@122@e-note-1@Итак, чем интересным я займусь?|Also, was mache ich jetzt?
-		open_eshop^																							<i>интернет-магазин</i>|<i>Online Shop</i>
-		poss.cam>4&open_site^																				<i>свой сайт</i>|<i>Meine Webseite</i>
-		poss.cam=4&make.web.1^																				<i>заняться своим сайтом</i>|<i>Meine Webseite erstellen</i>
-		open_online^																						<i>онлайн-курсы</i>|<i>Online Kurse</i>
-		poss.blog=9&hour>19&hour<22&dcd.melissa=0&day?5&day?3&spy.alisa.keylogger^							<i>проследить за Алисой</i>|<i>Alice beobachten</i>
+	open.notebook@122@e-note-1@Итак, чем интересным я займусь?|Also, was soll ich tun?
+		open_eshop^																							<i>интернет-магазин</i>|<i>online Shop</i>
+		poss.cam>4&open_site^																				<i>свой сайт</i>|<i>Meine Seite</i>
+		poss.cam=4&make.web.1^																				<i>заняться своим сайтом</i>|<i>mich um Ihre Website kümmern</i>
+		open_online^																						<i>онлайн-курсы</i>|<i>online Kurse</i>
+		poss.blog=9&hour>19&hour<22&dcd.melissa=0&day?5&day?3&spy.alisa.keylogger^							<i>проследить за Алисой</i>|<i>Alice ausspionieren</i>
 		poss.blog=10&hour>19&hour<22&dcd.melissa=0&day?5&day?3&spy.alisa.wtfblog^							<i>изучить сайт Алисы</i>|<i>Alice's Seite besuchen</i>
-		poss.blog>10&hour>19&hour<22&dcd.melissa=0&day?5&day?3&spy.alisa.blog^								<i>сайт Алисы</i>|<i>Alice's Webseite</i>
-		poss.ganja>5&money>99&item.ganja=-1&open.notebook!add_money_-100!set_item.ganja_-3^					<i>купить травку $100</i>|<i>Gras kaufen</i>
-		poss.ganja>5&altway=2&money>499&item.bigganja=-1&open.notebook!add_money_-500!set_item.bigganja_-3!set_altway_3^	<i>купить большой пакет травки за $500</i>|<i>Ein grosses Packet Gras kaufen für 500$</i>
-		altway=4&05.mkd.1^																					<i>позвонить Катиной маме</i>|<i>Kate's Mum anrufen</i>
-		altway=6&dcd.katemom=0&05.mokd.1^																	<i>позвонить Катиной маме</i>|<i>Kate's Mum anrufen</i>
-		poss.wallet=53&ericplace=0&05.ahack.0^																<i>связаться с хакером</i>|<i>Den Hacker kontaktieren</i>
-		poss.wallet=54&dcd.ericphone=0&ericplace=0&05.ahack2.0^												<i>связаться с хакером</i>|<i>Victor's Feinde kontaktieren</i>
+		poss.blog>10&hour>19&hour<22&dcd.melissa=0&day?5&day?3&spy.alisa.blog^								<i>сайт Алисы</i>|<i>Alice's Seite</i>
+		poss.ganja>5&money>99&item.ganja=-1&open.notebook!add_money_-100!set_item.ganja_-3^					<i>купить травку $100</i>|<i>Grass kaufen für 100$</i>
+		poss.ganja>5&altway=2&money>499&item.bigganja=-1&open.notebook!add_money_-500!set_item.bigganja_-3!set_altway_3^	<i>купить большой пакет травки за $500</i>|<i>einen großen Beutel Gras für 500$ kaufen</i>
+		altway=4&05.mkd.1^																					<i>позвонить Катиной маме</i>|<i>Kate's Mom kontaktieren</i>
+		altway=6&dcd.katemom=0&05.mokd.1^																	<i>позвонить Катиной маме</i>|<i>Kate's Mom kontaktieren</i>
+		poss.wallet=53&ericplace=0&05.ahack.0^																<i>связаться с хакером</i>|<i>Hacker kontaktieren</i>
+		poss.wallet=54&dcd.ericphone=0&ericplace=0&05.ahack2.0^												<i>связаться с хакером</i>|<i>Hacker kontaktieren</i>
 		poss.wallet=55&dcd.ericphone=0&ericplace=0&05.badwolf.0^											<i>связаться с врагами Виктора</i>|<i>Victor's Feinde kontaktieren</i>
 		poss.wallet=57&dcd.ericphone=0&ericplace=1&05.badwolf.0^											<i>связаться с врагами Виктора</i>|<i>Victor's Feinde kontaktieren</i>
-		can.findmoro=1&poss.wallet<54&05.aboutvic.0^														<i>искать информацию о Викторе Моро</i>|<i>Nachforschungen über Victor Moro anstellen</i>
-		poss.ganja=1&search.aboutganja^																		<i>почитать о травке</i>|<i>Nach Gras suchen</i>
-		poss.cam=2&search.aboutcam^																			<i>почитать о камерах</i>|<i>Nachforschungen über überwachungskamera's anstellen</i>
+		can.findmoro=1&poss.wallet<54&05.aboutvic.0^														<i>искать информацию о Викторе Моро</i>|<i>suche nach Victor Moro</i>
+		poss.ganja=1&search.aboutganja^																		<i>почитать о травке</i>|<i>Informationen über Grass</i>
+		poss.cam=2&search.aboutcam^																			<i>почитать о камерах</i>|<i>etwas über Kameras lesen</i>
 		task.buyfood=1&money>49&note.orderfood^																<i>заказать продукты</i>|<i>Essen bestellen</i>
-		poss.blog=1&search.aboutblog^																		<i>читать о блогах</i>|<i>Sich über Blogs informieren</i>
-		poss.spiders=1&search.aboutspiders^																	<i>читать о пауках</i>|<i>Sich über Spinnen informieren</i>
-		poss.secretbook=2&google.book^																		<i>узнать о книге Алисы</i>|<i>Nachforschungen wegen Alice's Buch anstellen</i>
-		poss.sed=13&can.buysimcard=0&read.aboutsim^															<i>как обойти защиту провайдера?</i>|<i>Herausfinden wie man die Internetzensur umgehen kann</i>
+		poss.blog=1&search.aboutblog^																		<i>читать о блогах</i>|<i>etwas über Blogs lesen</i>
+		poss.spiders=1&search.aboutspiders^																	<i>читать о пауках</i>|<i>etwas über Spinnen lesen</i>
+		poss.secretbook=2&google.book^																		<i>узнать о книге Алисы</i>|<i>etwas über Alice's Buch lesen</i>
+		poss.sed=13&can.buysimcard=0&read.aboutsim^															<i>как обойти защиту провайдера?</i>|<i>Wie kann man den Schutz des Anbieters aushebelt?</i>
 		leave^																								<i>выключить</i>|<i>Ausschalten</i>
 
-	search.aboutcam@122@Так, любопытно... Эти камеры можно настроить так, чтобы они транслировали изображение в интернет!|Krass...die Kamera's kann man sogar so einstellen, dass man die Aufnahme ins Internet übertragen kann.
-		search.aboutcam.2^									<i>читать далее</i>|<i>mehr herausfinden</i>
+	search.aboutcam@122@Так, любопытно... Эти камеры можно настроить так, чтобы они транслировали изображение в интернет!|Okay, neugierig..... Diese Kameras können so eingestellt werden, dass sie das Bild ins Internet übertragen!
+		search.aboutcam.2^									<i>читать далее</i>|<i>weiter lesen</i>
 
-	search.aboutcam.2@122@Но что ещё интереснее, некоторые люди готовы платить за доступ к таким камерам...|Was weitaus interessanter ist, es gibt Leute welche willig sind Geld für den Zugriff auf diese Kameras zu bezahlen...
-		search.aboutcam.3^									<i>читать далее</i>|<i>mehr herausfinden</i>
+	search.aboutcam.2@122@Но что ещё интереснее, некоторые люди готовы платить за доступ к таким камерам...|Aber interessanterweise sind einige Leute bereit, für den Zugang zu diesen Kameras zu bezahlen.....
+		search.aboutcam.3^									<i>чита?ь далее</i>|<i>weiter lesen</i>
 
-	search.aboutcam.3@122@Может быть, мне сделать свой сайт и пусть люди мне платят за просмотр видео? Но я не умею ничего толком...|Ich sollte mir vielleicht eine Webseite erstellen und Leute bezahlen lassen für die Videos? Aber ich habe keine Ahnung wie man das macht...
-		leave!set_poss.cam_3!time^							<i>закончить</i>|<i>Ende</i>
+	search.aboutcam.3@122@Может быть, мне сделать свой сайт и пусть люди мне платят за просмотр видео? Но я не умею ничего толком...|Vielleicht sollte ich meine eigene Website erstellen und mich von den Leuten bezahlen lassen, um das Video zu sehen. Aber ich weiß nicht, wie ich das anstellen soll.....
+		leave!set_poss.cam_3!time^							<i>законч?ть</i>|<i>finish<</i>
 
-	note.orderfood@4@Так... Посмотрим список продуктов... Ага. Сейчас всё закажем... Готово. Да это же самая лёгкая задача!|Also...erstmal eine Liste was ich alles brauche...okay haben wir. Jezt alles bestellen...auch gemacht. Das war der einfache Part!
-		leave!set_task.buyfood_2!set_dcd.buyfood_2!add_mom.inf_-5!add_money_-50!add_mom.help.score_1!time^		<i>закончить</i>|<i>Ende</i>
+	note.orderfood@4@Так... Посмотрим список продуктов... Ага. Сейчас всё закажем... Готово. Да это же самая лёгкая задача!|Uns die Liste der Produkte sehen lassen..... Ja. Ja. Ja. Jetzt bestellen wir alles..... Es ist erledigt. Das ist das Einfachste, was man tun kann!
+		leave!set_task.buyfood_2!set_dcd.buyfood_2!add_mom.inf_-5!add_money_-50!add_mom.help.score_1!time^		<i>закончить</i>|<i>fertig</i>
 
-	google.book@122@Так... Сейчас погуглим. Как там она называлась? «Sugar Daddies?»... Любовный роман? И что в нём такого может быть?|Okay...ich sollte es googeln. Wie war der Titel gleich? "Sugar Daddies"? und das andere "Eine Liebesgeschichte"?. So um was geht es da wohl?
-		google.book.1^		<i>читать о книге</i>|<i>Sich einlesen in die Buchrezension</i>
+	google.book@122@Так... Сейчас погуглим. Как там она называлась? «Sugar Daddies?»... Любовный роман? И что в нём такого может быть?|Okay, also, äh..... Lass es uns googlen. Wie hieß es noch mal? "Sugar Daddies?" Eine Liebesaffäre? Und was könnte daran falsch sein?
+		google.book.1^		<i>читать о книге</i>|<i>etwas über das Buch lesen</i>
 
-	google.book.1@4@e-notebook-alisabook-1@Ого! Да это не простой любовный роман... Это же эротика. Да ещё какая! Теперь понятно, почему Алиса не хотела рассказывать, что читает...|Alles klar, das ist keine simple Liebergeschichte, sondern Erotik! Jetzt ist klar, warum Alice mir nichts davon erzählen wollte...
-		leave!set_poss.secretbook_3!set_next.availablebook_1!set_dcd.alisabook_1!time^		<i>закончить</i>|<i>Ende</i>
+	google.book.1@4@e-notebook-alisabook-1@Ого! Да это не простой любовный роман... Это же эротика. Да ещё какая! Теперь понятно, почему Алиса не хотела рассказывать, что читает...|Wow! Das ist nicht nur eine Liebesaffäre..... Es ist erotisch. Oh, und was für ein erotischer Roman! Jetzt ist klar, warum Alice mir nicht sagen wollte, was sie gelesen hat.....
+		leave!set_poss.secretbook_3!set_next.availablebook_1!set_dcd.alisabook_1!time^		<i>закончить</i>|<i>fertig</i>
 
 
-# --- Читаем о блогах|Sich über Blogs informieren
+# --- Читаем о блогах|reading about blogs
 
-	search.aboutblog@15@e-notebook-blog-1@Итак, попробуем что-то найти о блогах. С чего начать?|Also, ich will mich über Blog schlau machen, nur wo fange ich an?
-		search.aboutblog.statistics^								Собрать статистику|Ein paar Zahlen für Statistiken sammeln
-		search.aboutblog.top^										Просмотреть популярные блоги|Sich beliebte Blog's anschauen
-		search.aboutblog.forum^										Почитать комменты на блогах|Sich Kommentare bei den Blog's durchlesen
+	search.aboutblog@15@e-notebook-blog-1@Итак, попробуем что-то найти о блогах. С чего начать?|Also, lasst uns versuchen, etwas über Blogs zu finden. Wo soll ich anfangen?
+		search.aboutblog.statistics^								Собрать статистику|Statistiken erstellen
+		search.aboutblog.top^										Просмотреть популярные блоги|Beliebte Blogs ansehen
+		search.aboutblog.forum^										Почитать комменты на блогах|Kommentare zu Blogs lesen
 
-	search.aboutblog.statistics@8@Ох... Сколько цифр. Неужели, во всём этом можно разобраться?|Ohha...viel viele Zahlen. Damit kann man also einiges Auswerten.
-		search.aboutblog.statistics.analize^						Проанализировать результаты|Ein Resultat ermitteln
-		search.aboutblog.statistics.tab^							Построить таблицу|Eine Tabelle anfertigen
-		search.aboutblog.statistics.graph^							Нарисовать график|Ein Diagramm machen
+	search.aboutblog.statistics@8@Ох... Сколько цифр. Неужели, во всём этом можно разобраться?|Oh, äh..... Wie viele Zahlen. Ist es wirklich möglich, das alles zu verstehen?
+		search.aboutblog.statistics.analize^						Проанализировать результаты|Die Ergebnisse analysieren
+		search.aboutblog.statistics.tab^							Построить таблицу|Eine Tabelle erstellen
+		search.aboutblog.statistics.graph^							Нарисовать график|Diagramm erstellen
 
 	search.aboutblog.statistics.analize@6@Хм... Так... Ага. Это сюда запишем, это сюда...|Hmm...also...good. Schreiben wir es hier hin...
-		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung treffen.
-
-	search.aboutblog.statistics.tab@6@Так. Из этой таблицы мы делаем вывод. Ага. Вот это значит, что... Нет, не так. Вот. Вроде получилось...|Also zusammenfassend kann man von der Tabelle sagen. Ja es bedeutet dass...Nein ist es nicht. So scheint es zu funktionieren...
-		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung treffen.
-
-	search.aboutblog.statistics.graph@6@Рисователь графиков из меня ещё тот. Но попробуем. Так, это шкала популярности, это... Ага. Кажется, всё сходится...|Ich bin echt nicht gut im Graphen zeichnen, aber versuchen wir es mal. Also hier kommt die Skala für die Beliebtheit hin, hier die... Jupp es scheint alles zu konvergieren..
-		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung treffen.
-
-	search.aboutblog.top@4@Прикольно... Ага. Котики. Не, устарели. Киски. Ну, смотря какие...|Super...ohja Katzen. Immer noch Top aktuell, diese Pussies. Aber warum eigentlich...
-		search.aboutblog.top.list^									Составить список|Eine Liste erstellen.
-		search.aboutblog.top.sort^									Отсортировать...|Die Liste sortieren.
-		search.aboutblog.top.like^									Сравнить количество лайков...|Die Anzahl der Likes vergleichen...
-
-	search.aboutblog.top.list@6@Так, вычёркиваем из списка этих, вот этих и тех. Что тут у нас остаётся?|Also, wenn wir diese, das und jenes von der Liste loeschen, was bleibt dann uebrig?
-		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung anstellen.
-
-	search.aboutblog.top.sort@6@Так, сравниваем аудиторию. Время публикации... Исключаем сомнительный контент...|Jetzt vergleichen wir die Zuschaueranzahl, das Veroeffentlichungsdatum, bzw. die Zeit...loeschen noch unnuetzen Inhalt...
-		search.aboutblog.final^										Сделать вывод...|Und stelle eine Schlussfolgerung an.
-
-	search.aboutblog.top.like@6@Сортируем по количеству лайков. Убираем тех, кто с дизлайками больше этого процента...|Jetzt sortieren wir es an der Anzahl der Likes und entfernen alle welche so und so viele dislikes haben...
 		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
 
-	search.aboutblog.forum@2@Ух. Сколько гадости в комментах... Ладно, попробуем найти в этом крупицу смысла...|Wow, das ist eine Menge schlechter Kommentare. Ich sollte nach einen Sinn bzw. der Ursache schauen...
-		search.aboutblog.forum.find^								Воспользоваться поиском|Suchen
-		search.aboutblog.forum.all^									Читать всё подряд|Sich alles durchlesen
-		search.aboutblog.forum.top^									Выбрать лучшие комменты|Die besten Kommentare auswaehlen
+	search.aboutblog.statistics.tab@6@Так. Из этой таблицы мы делаем вывод. Ага. Вот это значит, что... Нет, не так. Вот. Вроде получилось...|Okay. (kichert) Aus dieser Tabelle ziehen wir eine Schlussfolgerung. Ja. Das bedeutet, dass..... Nein, nicht so. Hier. Es scheint sich herausgestellt zu haben.....
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
 
-	search.aboutblog.forum.find@6@Так, в поиске мы видим любопытные результаты. Так, выберем то что нам подходит...|Also, hier ergibt sich ein interessantes Suchresultat, welches gefällt mir am Besten...
-		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung anstellen.
+	search.aboutblog.statistics.graph@6@Рисователь графиков из меня ещё тот. Но попробуем. Так, это шкала популярности, это... Ага. Кажется, всё сходится...|Ich bin Grafiker. Aber lass es mich versuchen. Also, es ist eine Größenordnung der Popularität, es ist..... Ja. Alles scheint zu stimmen.....
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
 
-	search.aboutblog.forum.all@6@Ох. Всё оказалось ещё хуже. Кажется, тут нет ничего полезного... Хотя. Думаю, можно сделать даже какой-то вывод...|Na super, alles für die Katz. Hier ist nichts verwendbares dabei...aber selbst hier sollte ich etwas daraus schlussfolgern Können.
-		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung anstellen.
+	search.aboutblog.top@4@Прикольно... Ага. Котики. Не, устарели. Киски. Ну, смотря какие...|Es ist lustig..... Ja. Ja. Ja. Katzen. Nee, veraltet. Muschi. Nun, es kommt darauf an, welche Art von.....
+		search.aboutblog.top.list^									Составить список|Liste erstellen
+		search.aboutblog.top.sort^									Отсортировать...|Sortieren...
+		search.aboutblog.top.like^									Сравнить количество лайков...|Vergleich die Anzahl der Likes.....
 
-	search.aboutblog.forum.top@6@Так, топовые комменты все сводятся к одному. Не может быть?|Alles Topkommentare scheinen sich um ein und dasselbe zudrehen, unmöglich?
-		search.aboutblog.final^										Сделать вывод...|Seine Schlüsse daraus ziehen.
+	search.aboutblog.top.list@6@Так, вычёркиваем из списка этих, вот этих и тех. Что тут у нас остаётся?|Okay, wir streichen das von der Liste der hier, hier und da. Was haben wir hier noch übrig?
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
+
+	search.aboutblog.top.sort@6@Так, сравниваем аудиторию. Время публикации... Исключаем сомнительный контент...|Okay, vergleichen wir das Publikum. Veröffentlichungszeit..... Ohne fragwürdige Inhalte.....
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
+
+	search.aboutblog.top.like@6@Сортируем по количеству лайков. Убираем тех, кто с дизлайками больше этого процента...|Nach Anzahl der Likes sortieren. Wir entfernen diejenigen, die mehr als diesen Prozentsatz an Dis-Likes haben.....
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
+
+	search.aboutblog.forum@2@Ух. Сколько гадости в комментах... Ладно, попробуем найти в этом крупицу смысла...|Ooh. Uh...... Wie ekelhaft sind die Kommentare...... Okay, versuchen wir, einen Sinn darin zu finden.....
+		search.aboutblog.forum.find^								Воспользоваться поиском|Die Vorteile der Suche nutzen
+		search.aboutblog.forum.all^									Читать всё подряд|Alles lesen
+		search.aboutblog.forum.top^									Выбрать лучшие комменты|Die besten Kommentare auswählen
+
+	search.aboutblog.forum.find@6@Так, в поиске мы видим любопытные результаты. Так, выберем то что нам подходит...|Okay, wir suchen nach interessanten Ergebnissen. Also, wählen wir aus, was zu uns passt.....
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
+
+	search.aboutblog.forum.all@6@Ох. Всё оказалось ещё хуже. Кажется, тут нет ничего полезного... Хотя. Думаю, можно сделать даже какой-то вывод...|Oh. Oh. (Lacht) Es stellte sich heraus, dass es noch schlimmer war. Es scheint, dass es hier nichts Nützliches gibt..... Obwohl. Ich denke, wir können sogar eine Schlussfolgerung ziehen......
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
+
+	search.aboutblog.forum.top@6@Так, топовые комменты все сводятся к одному. Не может быть?|Okay, erstklassige Kommentare kommen nur auf eine Sache an. Das kann nicht sein?
+		search.aboutblog.final^										Сделать вывод...|Eine Schlussfolgerung ziehen.
 
 	search.aboutblog.final@3@Это что же получается. Неужели, всё так просто? Главное - сиськи! Не важно о чём блог, важно что на экране. И если там сиськи, всё в порядке с популярностью! Но я и так об этом догадывался...|Das ist es, worum es hier geht. Ist es wirklich so einfach? Die Hauptsache sind Brüste! Es spielt keine Rolle, worum es im Blog geht, es spielt eine Rolle, was auf dem Bildschirm erscheint. Und wenn es Brüste gibt, ist alles in Ordnung mit Popularität! Aber das wusste ich schon.....
-		leave!set_poss.blog_2!time^									И зачем я только что-то изучал...|Warum hab ich mir nur trotzdem die Muehe gemacht...
+		leave!set_poss.blog_2!time^									И зачем я только что-то изучал...|Und warum habe ich das gerade gemacht.....
 
 
 
-# --- Читаем о пауках|sich über Spinnen informieren
+# --- Читаем о пауках|reading about spiders
 
-	search.aboutspiders@122@e-notebook-spider-1@Так... Пауки. Ох, сколько видов... Какие же тут водятся...|Also Spinnen, wieviele Sorten es da gibt...oh was haben wir den hier...
-		search.aboutspiders.region^					Искать виды насекомых по регионам|Insekten nach Regionen suchen.
-		search.aboutspiders.type^					Читать где водятся какие пауки|Herausfinden wo man Spinnen finden kann.
-	search.aboutspiders.region@122@Ага, отлично. Выбираем наш регион, сортируем по видам пауков...|Okay, ich nehme meine Region und sortiere die Insekten nach Spinnen...
-		search.aboutspiders.got^					Так, и что у нас получается?|Also, was machen wir jetzt?
-	search.aboutspiders.type@122@Так, пауки. Смотрим какие водятся в этом климате...|Also Spinnen, welche in dieser Klimazone zufinden sind...
-		search.aboutspiders.got^					Так, и что у нас получается?|So, und was machen wir jetzt?
-	search.aboutspiders.got@3@Ну вот, подходит. Самый популярный паук в наших краях. Ага! Теперь узнаем как его поймать...|Okay das passt, dies ist die meinst vorkommende Spinnenart hier bei uns, interessant. Jetzt muss ich noch lernen wie man sie faengt...
-		search.aboutspiders.got.like^				Выяснить, чем питается...|Finde heraus wovon die Spinnen sich ernaehren...
-		search.aboutspiders.got.hunt^				Почитать о повадках...|über die Gewohnheiten der Spinnen nachlesen...
-	search.aboutspiders.got.like@15@Так, питается комарами и мошками. Как это обычно... нет, это ничего не даёт...|Also sie fressen Mosquitos und Muecken, wie immer steht hier nicht mehr...
-		search.aboutspiders.got.hunt^				Почитать о повадках...|über die Gewohnheiten der Spinnen nachlesen...
-	search.aboutspiders.got.hunt@4@Вот, отлично! Ночью отлично маскируются, значит, не подходит, а вот как только солнце начинает прогревать землю, выползают из травы проверить добычу. А это у нас часов 10-11?|Alles klar, also gegen Abends verkriechen sie sich und man trifft sie selten an. Aber fruehs sobald die Sonne anfaengt die Erde zu erwärmen kriechen sie aus dem Nest, es sollte so gegen 10-11Uhr sein.
-		leave!set_poss.spiders_2!time^				Будем искать!|Okay jetzt kann ich sie finden!
-
-
-
-# --- Делаем свой веб-сайт|Eine Webseite erstellen
-
-	make.web.1@15@e-web-0@Итак, пришло время заняться своим сайтом. Для начала нужно купить домен, хостинг, шаблон дизайна и оплатить услуги стримингового сервиса. На всё в сумме нужно $100|So, jetzt machen wir uns eine Webseite. Als erstes muss ich eine Packet für eine Domain, Hosting, Designvorlagen einkaufen, sowie für das Streaming bezahlen. Alles in allem sollten es 100$ sein.
-		money>99&make.web.1.pay!add_money_-100^		Оплатить всё ($100)|Die Kosten für die Webseite bezahlen (100$)
-		open.notebook^								В другой раз...|nächstes Mal...
-
-	make.web.1.pay@4@e-web-1@Отлично! Теперь у меня есть свой сайт и домен! Осталось только соединить поток данных от камеры со стриминговым сервисом...|Sehr geil! Jetzt habe ich meine eigene Webseite und Adresse! Jetzt muss ich nur noch die Daten von den Kameras einbinden im Streamingdienst..
-		make.web.1.pay.2^							Настроить работу сайта|Konfigurieren der Seiten Einstellungen
-
-	make.web.1.pay.2@16@Да! Всё работает! Теперь люди смогут заходить на мой сайт и смотреть шоу. Конечно, если они каким-то образом узнают про мой сайт... Ладно, подумаю ещё что можно сделать...|Top, alles funktioniert jetzt! Leute Können sich jetzt einloggen und die Liveshow geniessen. Natuerlich nur wenn sie meine Seite finden...hm, da muss ich mir noch etwas einfallen lassen...
-		leave!set_poss.cam_5!time^					<i>закончить</i>|<i>Ende</i>
+	search.aboutspiders@122@e-notebook-spider-1@Так... Пауки. Ох, сколько видов... Какие же тут водятся...|Okay, also, äh..... Spinnen. Oh, wie viele Spezies.... Wie sind sie hier.....
+		search.aboutspiders.region^					Искать виды насекомых по регионам|Suche nach Spinnenarten in dieser Region
+		search.aboutspiders.type^					Читать где водятся какие пауки|Lesen, wo sich die Spinnen befinden
+	search.aboutspiders.region@122@Ага, отлично. Выбираем наш регион, сортируем по видам пауков...|Ja, das ist großartig. Wir wählen unsere Region, sortieren nach Spinnenarten.....
+		search.aboutspiders.got^					Так, и что у нас получается?|Okay, also was machen wir jetzt?
+	search.aboutspiders.type@122@Так, пауки. Смотрим какие водятся в этом климате...|Okay, Spinnen. Mal sehen, wie sie in diesem Klima sind.....
+		search.aboutspiders.got^					Так, и что у нас получается?|Okay, also was machen wir jetzt?
+	search.aboutspiders.got@3@Ну вот, подходит. Самый популярный паук в наших краях. Ага! Теперь узнаем как его поймать...|Okay, los geht's. Die beliebteste Spinne in unserer Region. Aha! Jetzt weiß ich, wie ich sie fangen kann....
+		search.aboutspiders.got.like^				Выяснить, чем питается...|Finde heraus, was sie frisst.....
+		search.aboutspiders.got.hunt^				Почитать о повадках...|Mehr über die Gewohnheiten lesen.....
+	search.aboutspiders.got.like@15@Так, питается комарами и мошками. Как это обычно... нет, это ничего не даёт...|Okay, Moskitos und Fliegen. Wie auch immer..... Nein, es gibt nichts.....
+		search.aboutspiders.got.hunt^				Почитать о повадках...|Mehr über die Gewohnheiten lesen.....
+	search.aboutspiders.got.hunt@4@Вот, отлично! Ночью отлично маскируются, значит, не подходит, а вот как только солнце начинает прогревать землю, выползают из травы проверить добычу. А это у нас часов 10-11?|Hier, das ist großartig! Nachts sind sie perfekt getarnt, das bedeutet, dass sie nicht zu finden sind. Aber sobald die Sonne beginnt, den Boden zu erwärmen, kriechen sie aus dem Gras, um ihre Beute zu finden. Das ist so 10-11 Uhr?
+		leave!set_poss.spiders_2!time^				Будем искать!|Ich suche sie!
 
 
 
-# --- 0.3: Читаем о том, как обойти защиту провайдера|sich infomieren über die Firewall des Providers
+# --- Делаем свой веб-сайт|making a website
 
-	read.aboutsim@2@e-noaccess-1@Так, попробуем погуглить как обойти защиту... Чёрт. Этот запрос блокируется провайдером! Параноики...|Ich google einfach mal, wie man die Firewall hacken kann...Oh scheisse, auch diese Anfrage ich geblockt!
-		read.aboutsim.next.1^						Ладно, попробуем иначе...|Okay, dann muss ich etwas anderes probieren...
+	make.web.1@15@e-web-0@Итак, пришло время заняться своим сайтом. Для начала нужно купить домен, хостинг, шаблон дизайна и оплатить услуги стримингового сервиса. На всё в сумме нужно $100|Also, es ist an der Zeit, sich um eine Website zu kümmern. Zuerst muss man eine Domain kaufen, Hosting, Template entwerfen und für Streaming-Services bezahlen. Alles in allem kostet das $100.
+		money>99&make.web.1.pay!add_money_-100^		Оплатить всё ($100)|Alles bezahlen ($100)
+		open.notebook^								В другой раз...|ein anderes Mal...
 
-	read.aboutsim.next.1@6@e-noaccess-2@Попробую порыться на хакерском форуме. Уж тут-то точно есть какое-то решение... Любопытно... О, кажется, я понял!|Ich werde wohl in einem Hackerforum nachlesen m?ssen, hoffentlich finde ich dort etwas...Ha, hier ist es dich!
-		read.aboutsim.next.2!set_can.buysimcard_1!set_poss.sed_14^	<i>далее</i>|<i>weiter</i>
+	make.web.1.pay@4@e-web-1@Отлично! Теперь у меня есть свой сайт и домен! Осталось только соединить поток данных от камеры со стриминговым сервисом...|Okay, großartig! Jetzt habe ich meine eigene Website und Domain! Alles, was ich tun muss, ist, den von der Kamera kommenden Datenstrom mit dem Streaming-Service zu verbinden......
+		make.web.1.pay.2^							Настроить работу сайта|Funktionen auf der Webseite konfigurieren
 
-	read.aboutsim.next.2@4@e-noaccess-3@Вот же оно! Мне просто нужно найти и купить хитрую симку, уже взломанную! Достаточно просто порыться в интернет-магазине и найти то, что нужно...|Das ist es, ich muss nur eine gehackte Simkarte kaufen, das war einfach. Ich Könnte mir glatt eine mitbestellen, aber wozu braeuchte ich die mit all den hübschen halbnackten Frauen um mich herum!
-		open_eshop^									<i>открыть интернет-магазин</i>|<i>Den Online Shop oeffnen</i>
-
-
-# --- 0.4: Читаем о травке|sich über Gras informieren
-
-	search.aboutganja@2@n-gan-1@Так, почитаем что это за травка такая... Любопытно. Кажется, это не совсем легально. Но не везде... |Sich nach Gras umschauen im Netz, okay hier bei uns scheint es noch nicht legal zusein.
-		search.aboutganja.step.2^					Так, а как её купить?|Also wie komme ich nur an welches ran?
-
-	search.aboutganja.step.2@6@n-gan-2@Ой... Как-то это всё сомнительно. Платишь сейчас, привезут неизвестно когда и привезут ли... А вдруг это подстава и придёт полиция? Нет, опасно... Нужен другой способ...|Hm...schein auch kein guter Deal zusein, man muss erst bezahlen und bekommt dann irgendwann sein Gras...also wenn man Glueck hat. Oder aber die netten Herren von der Polizei statten dir einen Besuch ab. Das scheint alles sehr unsicher, ich sollte mich nach einen besseren Weg umschauen...
-		leave!set_poss.ganja_2!time^				<i>закончить</i>|<i>Ende</i>
+	make.web.1.pay.2@16@Да! Всё работает! Теперь люди смогут заходить на мой сайт и смотреть шоу. Конечно, если они каким-то образом узнают про мой сайт... Ладно, подумаю ещё что можно сделать...|Ja! Es funktioniert alles! Jetzt können die Leute auf meine Website gehen und sich die Show ansehen. Natürlich, wenn sie irgendwie meine Seite finden..... Okay, ich werde sehen, was ich sonst noch tun kann.....
+		leave!set_poss.cam_5!time^					<i>закончить</i>|<i>fertig</i>
 
 
 
-# --- 0.4: Следим за Алисой с помощью кейлоггера|Keylogger nutzen um Alice's Login herauszufinden
+# --- 0.3: Читаем о том, как обойти защиту провайдера|reading about evasion provider's firewall
 
-	spy.alisa.keylogger@6@n-keylogger-1@<i>Так... Сейчас Алиса сидит в своём блоге. Если немного подождать, то можно поймать момент, когда она введёт адрес сайта или что-то, что мне поможет...</i>|<i>Alice beschaeftit sich gerade mit ihrem Blog. Ich muss nur auf den richtigen Moment warten, solbald sie die Webseite besucht oder sich anmeldet, sollte ich alle noetigen Daten haben.</i>
+	read.aboutsim@2@e-noaccess-1@Так, попробуем погуглить как обойти защиту... Чёрт. Этот запрос блокируется провайдером! Параноики...|Okay, versuchen wir Google, wie wir die Sperren umgehen können..... Verdammt noch mal. Diese Anfrage wird vom Anbieter gesperrt! Paranoid.....
+		read.aboutsim.next.1^						Ладно, попробуем иначе...|Okay, lass uns das anders versuchen.....
+
+	read.aboutsim.next.1@6@e-noaccess-2@Попробую порыться на хакерском форуме. Уж тут-то точно есть какое-то решение... Любопытно... О, кажется, я понял!|Ich werde versuchen, das Hacker-Forum zu durchsuchen. Es gibt hier definitiv eine Lösung..... Neugierig..... Oh, ich glaube, ich verstehe!
+		read.aboutsim.next.2!set_can.buysimcard_1!set_poss.sed_14^	<i>далее</i>|<i>fortfahren</i>
+
+	read.aboutsim.next.2@4@e-noaccess-3@Вот же оно! Мне просто нужно найти и купить хитрую симку, уже взломанную! Достаточно просто порыться в интернет-магазине и найти то, что нужно...|So ist es gut, so ist es gut! Ich muss nur eine SIM-Karte finden und kaufen, die bereits gehackt wurde! Es reicht aus, durch den Online-Shop zu stöbern und herauszufinden, was Sie anbieten...
+		open_eshop^									<i>открыть интернет-магазин</i>|<i>online Shop öffnen</i>
+
+
+# --- 0.4: Читаем о травке|reading about weed
+
+	search.aboutganja@2@n-gan-1@Так, почитаем что это за травка такая... Любопытно. Кажется, это не совсем легально. Но не везде... |Okay, lasst uns darüber lesen, was für eine Art Gras es ist..... Neugierig. Es scheint, dass es nicht ganz legal ist. Aber nicht überall...
+		search.aboutganja.step.2^					Так, а как её купить?|Also, wie kaufe ich es?
+
+	search.aboutganja.step.2@6@n-gan-2@Ой... Как-то это всё сомнительно. Платишь сейчас, привезут неизвестно когда и привезут ли... А вдруг это подстава и придёт полиция? Нет, опасно... Нужен другой способ...|Oh, äh..... Es ist alles irgendwie zweifelhaft. Du bezahlst jetzt, sie werden dich kontaktieren, wann und ob sie dich beliefern werden..... Was ist, wenn es eine Falle ist und die Polizei kommt? Nein, es ist gefährlich..... Wir brauchen einen anderen Weg...
+		leave!set_poss.ganja_2!time^				<i>закончить</i>|<i>fertig</i>
+
+
+
+# --- 0.4: Следим за Алисой с помощью кейлоггера|using keylogger to find out Alice's login
+
+	spy.alisa.keylogger@6@n-keylogger-1@<i>Так... Сейчас Алиса сидит в своём блоге. Если немного подождать, то можно поймать момент, когда она введёт адрес сайта или что-то, что мне поможет...</i>|<i>Okay, also, äh..... Jetzt schreibt Alice auf ihrem Blog. Wenn ich ein wenig warte, kann ich den Moment mitbekommen, in dem sie die Adresse der Website eingibt oder etwas, das mir helfen wird.....</i>
 		spy.alisa.keylogger.step.2^				<i>ждать</i>|<i>Warten</i>
 
-	spy.alisa.keylogger.step.2@8@<i>Ничего не выходит. Она какую-то ерунду набирает... Может быть, антивирус снова включила? Как бы его выключить... Хотя, что я такое болтаю - при включенном антивирусе я бы вообще ничего не увидел...</i>|<i>Immer noch ist nichts passiert, sie hat nur nutzlosen Mist geschrieben. Hm...vielleicht hat sie ihre Antiviren-Software an, wie schalte ich diese nur ab? Stop stop, sie hat sie doch nicht an, ich kann sehen was sie schreibt...</i>
-		spy.alisa.keylogger.step.3^				<i>ещё подождать</i>|<i>Noch einbisschen mehr warten</i>
+	spy.alisa.keylogger.step.2@8@<i>Ничего не выходит. Она какую-то ерунду набирает... Может быть, антивирус снова включила? Как бы его выключить... Хотя, что я такое болтаю - при включенном антивирусе я бы вообще ничего не увидел...</i>|<i>Es funktioniert nicht. Sie macht nur Unsinn..... Vielleicht ist der Antivirus wieder eingeschaltet? Wie schaltet man es aus...... Obwohl, ich würde bei eingeschaltetem Antivirus überhaupt nichts sehen.....</i>
+		spy.alisa.keylogger.step.3^				<i>ещё подождать</i>|<i>Weiter warten</i>
 
-	spy.alisa.keylogger.step.3@4@<i>Ага! Вот оно! Сайт... Сейчас запишем... Ник... Melissa? Забавное имя. Похоже на Алиса. Так... Всё, разобрался. Теперь когда она в следующий раз зайдёт на этот сайт, я смогу войти сюда под видом зрителя и всё разузнать...</i>|<i>Hier haben wir es, okay das ist die Webseite...Ich sollte es mir aufschreiben und der Nutzername...ahh hier Melissa. Lustig, dass er einbisschen aussieht wie Alice. Aufjedenfall habe ich jetzt alle Info's die ich brauche um beim nächsten Mal sie als regulaere Zuschauer zusehen.</i>
-		leave!set_poss.blog_10!time^			<i>закончить</i>|<i>Ende</i>
+	spy.alisa.keylogger.step.3@4@<i>Ага! Вот оно! Сайт... Сейчас запишем... Ник... Melissa? Забавное имя. Похоже на Алиса. Так... Всё, разобрался. Теперь когда она в следующий раз зайдёт на этот сайт, я смогу войти сюда под видом зрителя и всё разузнать...</i>|<i>Aha! Das ist es! Website..... Werden ich mir gleich aufschreiben..... Nick..... Melissa? Lustiger Name. Sieht aus wie Alice. Also....... Okay, ich habe es verstanden. Jetzt, wenn sie das nächste Mal auf diese Seite geht, kann ich mich als Zuschauer einloggen und alles herausfinden...</i>
+		leave!set_poss.blog_10!time^			<i>закончить</i>|<i>fertig</i>
 
 
 
-# --- 0.4: Изучаем сайт Алисы|Sich Alice's Cam-Seite anschauen
+# --- 0.4: Изучаем сайт Алисы|Looking into Alice's site
 
-	spy.alisa.wtfblog@4@n-alisacams-1@<i>Так... Сейчас посмотрим что это за сайт и чем тут занимается Алиса под именем Мелисса...</i>|<i>Schauen wir uns doch die Seite mal an und was Alice hier genau macht...</i>
-		spy.alisa.wtfblog.step.2^				<i>изучать сайт</i>|<i>Die Seite durchstoebern</i>
+	spy.alisa.wtfblog@4@n-alisacams-1@<i>Так... Сейчас посмотрим что это за сайт и чем тут занимается Алиса под именем Мелисса...</i>|<i>Okay, also, äh..... Nun lassen mich sehen, was diese Seite ist und was Alice hier unter Melissas Namen macht.....</i>
+		spy.alisa.wtfblog.step.2^				<i>изучать сайт</i>|<i>umsehen</i>
 
-	spy.alisa.wtfblog.step.2@3@<i>Любопытно... Любой желающий может войти анонимно, выбрать себе любое имя и войти к любой девушке на канал, посмотреть что она делает...</i>|<i>Interessant...man muss sich nicht einmal anmelden, jeder kann sich einen zufaelligen Namen nehmen und dem Stream beitreten...</i>
-		spy.alisa.wtfblog.step.3^				<i>выбрать себе имя</i>|<i>Sich einen User-Namen aussuchen</i>
+	spy.alisa.wtfblog.step.2@3@<i>Любопытно... Любой желающий может войти анонимно, выбрать себе любое имя и войти к любой девушке на канал, посмотреть что она делает...</i>|<i>Ich bin neugierig..... Jeder kann anonym teilnehmen, einen beliebigen Namen wählen und den Kanal eines beliebiges Mädchen aufrufen, um zun sehen, was sie tut.....</i>
+		spy.alisa.wtfblog.step.3^				<i>выбрать себе имя</i>|<i>Usernamen auswählen</i>
 
-	spy.alisa.wtfblog.step.3@4@<i>Можалуй, Mike не слишком броское имя. Мне подойдёт. Ну что, регистрация минимальная. Ах вот... Ещё платёжная информация нужна. Ладно, пусть будет... Ну что, где там наша Мелисса</i>|<i>Ich werde "Mike" nehmen, das sollte gehen. Und mich gleich noch registrieren, alles in allem recht einfach...ich muss noch eine Bezahlmethode angeben...und fertig bin ich. So, wo ist nun unsere "Melissa"??</i>
-		spy.alisa.wtfblog.step.4^				<i>войти на канал Алисы</i>|<i>Alice's Channel beitreten</i>
+	spy.alisa.wtfblog.step.3@4@<i>Можалуй, Mike не слишком броское имя. Мне подойдёт. Ну что, регистрация минимальная. Ах вот... Ещё платёжная информация нужна. Ладно, пусть будет... Ну что, где там наша Мелисса</i>|<i>Vielleicht ist Mike kein sehr einprägsamer Name. Es ist gut für mich. Nun, die Registrierung ist minimal. Oh, los geht's..... Es werden weitere Zahlungsinformationen benötigt. Okay, lass es sein..... Nun, wo ist unsere "Melissa"?</i>
+		spy.alisa.wtfblog.step.4^				<i>войти на канал Алисы</i>|<i>den Kanal von Alice aufrufen</i>
 
-	spy.alisa.wtfblog.step.4@3@n-alisacams-2@<i>О, вот и моя сестрёнка! Мелисса Алиса... Ну давай пообщаемся...</i>|<i>Und da ist sie, meine Schwester! Quatschen wir doch eine Runde mit ihr...</i>
-		spy.alisa.wtfblog.step.5^				<i>начать чат</i>|<i>Anfangen mit Chatten</i>
+	spy.alisa.wtfblog.step.4@3@n-alisacams-2@<i>О, вот и моя сестрёнка! Мелисса Алиса... Ну давай пообщаемся...</i>|<i>Oh, da ist meine Schwester! Melissa Alice..... Lass uns reden.....</i>
+		spy.alisa.wtfblog.step.5^				<i>начать чат</i>|<i>beginnen zu chatten</i>
 
 	spy.alisa.wtfblog.step.5@31@n-cam-2@Приветик, Майк!|Hi, Mike!
 		spy.alisa.wtfblog.step.6a^				Привет, Мелисса!|Hi, Melissa!
 		spy.alisa.wtfblog.step.6b^				Привет, Алиса!|Hi, Alice!
 
-	spy.alisa.wtfblog.step.6b@30@Что?! Ты кто такой?|Was? Wer bist du?
-		spy.alisa.wtfblog.step.6c^				Я хотел написать Мелисса. Это T9!|Upps sorry, ich meinte Melissa, dumme Auto-Korrektur.
+	spy.alisa.wtfblog.step.6b@30@Что?! Ты кто такой?|Was?! Wer bist du?
+		spy.alisa.wtfblog.step.6c^				Я хотел написать Мелисса. Это T9!|Ich wollte Melissa schreiben. Es ist das T9!
 
-	spy.alisa.wtfblog.step.6c@32@Точно? Т9? Ладно... Как дела у тебя... Майк?|Hmmm... Fine. So, how are you,... Mike?
-		spy.alisa.wtfblog.step.7^				Супер! Покажи что-нибудь!|Great! Show me something!
+	spy.alisa.wtfblog.step.6c@32@Точно? Т9? Ладно... Как дела у тебя... Майк?|Bist du dir da sicher? Т9? Okay..... Wie läuft es bei dir..... Mike?
+		spy.alisa.wtfblog.step.7^				Супер! Покажи что-нибудь!|Fantastisch! Zeig mir etwas!
 
-	spy.alisa.wtfblog.step.6a@33@Как дела, Майк?|Hey Mike, wie geht's dir?
-		spy.alisa.wtfblog.step.7^				Супер! Покажи что-нибудь!|Super! Was zeigst du denn so hier?
+	spy.alisa.wtfblog.step.6a@33@Как дела, Майк?|Wie geht es dir, Mike?
+		spy.alisa.wtfblog.step.7^				Супер! Покажи что-нибудь!|Fantastisch! Zeig mir etwas!
 
-	spy.alisa.wtfblog.step.7@22@В каком смысле покажи?|Wie meinst du das?
-		spy.alisa.wtfblog.step.8^				Ну это же порно-чат? Покажи себя!|Wir sind hier auf einer Pornowebseite, also was zeigst du hier so?
+	spy.alisa.wtfblog.step.7@22@В каком смысле покажи?|Was meinst du damit, dir was zeigen?
+		spy.alisa.wtfblog.step.8^				Ну это же порно-чат? Покажи себя!|Das ist ein Porno-Chat, nicht wahr? Zeige dich!
 
-	spy.alisa.wtfblog.step.8@21@А, нет, я не такая. Я новенькая и ещё разбираюсь как тут и что...|Oh nein, du missverstehst das komplett. Ich bin noch neu hier und bin noch am herausfinden wie alles hier so geht...
-		spy.alisa.wtfblog.step.9^				Понятно... Очень жаль. Могла бы заработать...|Ja das sehe ich...zu schade, du Könttest gutes Geld verdienen...
+	spy.alisa.wtfblog.step.8@21@А, нет, я не такая. Я новенькая и ещё разбираюсь как тут и что...|Oh, nein, so bin ich nicht. Ich bin neu und weiß noch nicht, wie man es hier macht und was...
+		spy.alisa.wtfblog.step.9^				Понятно... Очень жаль. Могла бы заработать...|Okay, ich verstehe..... Zu schade. Du hättest dir was verdienen können.....
 
-	spy.alisa.wtfblog.step.9@32@Я не проститутка какая-нибудь! Я просто пришла пообщаться. Твоё счастье, что ты пока мой единственный зритель...|Ey! Ich bin dich keine Nutte, ich wollte mich hier nur nett unterhalten. Du hast echt Glueck, dass du mein einzigster Zuschauer bist...
-		spy.alisa.wtfblog.step.10^				Вот это мне повезло! Значит, деньги не нужны?|Oh also bin ich hier derjenige welcher Glueck hat, ahja. Und du brauchst also kein Geld?
+	spy.alisa.wtfblog.step.9@32@Я не проститутка какая-нибудь! Я просто пришла пообщаться. Твоё счастье, что ты пока мой единственный зритель...|Ich bin keine Prostituierte oder so! Ich bin nur gekommen, um zu reden. Du hast Glück, dass du mein einziger Zuschauer bist.....
+		spy.alisa.wtfblog.step.10^				Вот это мне повезло! Значит, деньги не нужны?|Das ist mein Glückstag! Also brauchst du das Geld nicht?
 
-	spy.alisa.wtfblog.step.10@22@Нужны. Но ничего такого я показывать не буду... Честно говоря, ещё не до конца уверена, что это всё моё...|Doch brauche ich schon, aber ich werde hier nichts von mir zeigen um ehrlich zusein. Ich bin mir eigentlich immer noch nicht sicher, ob ich das alles will...
-		spy.alisa.wtfblog.step.11^				Ну хоть камеру отодвинь, чтобы увидеть не только твою чудесную мордашку...|Okay, verstehe. Aber du konntest mir ja wenigstens noch drn Rest von dir zeigen, nicht nur dein hübsches Gesicht...
+	spy.alisa.wtfblog.step.10@22@Нужны. Но ничего такого я показывать не буду... Честно говоря, ещё не до конца уверена, что это всё моё...|Das tue ich doch. Aber so etwas werde ich nicht zeigen..... Offen gesagt, bin ich mir noch nicht sicher, ob es mir alles gefällt...
+		spy.alisa.wtfblog.step.11^				Ну хоть камеру отодвинь, чтобы увидеть не только твою чудесную мордашку...|Nun, zumindest solltest du die Kamera wegbewegen, um mehr als nur dein hübsches Gesicht zu zeigen.....
 
-	spy.alisa.wtfblog.step.11@21@n-cam-1@Ну что, так лучше, Майк? И заметь, я сделала это бесплатно! Но если ты хочешь мне просто дать денег... Я буду рада.|Okay, ist es so besser Mike? Und hey, ich hab es sogar kostenlos gemacht für dich. Also wenn du mir trotzdem etwas dafür geben magst bin ich nicht abgeneigt...
-		spy.alisa.wtfblog.step.12^				Супер! И сколько ты хочешь?|Danke, wie viel willst du denn haben?
+	spy.alisa.wtfblog.step.11@21@n-cam-1@Ну что, так лучше, Майк? И заметь, я сделала это бесплатно! Но если ты хочешь мне просто дать денег... Я буду рада.|Ist das besser, Mike? Und ich habe es umsonst gemacht! Aber wenn du mir doch Geld geben willst..... Das nehme ich es gerne.
+		spy.alisa.wtfblog.step.12^				Супер! И сколько ты хочешь?|Fantastisch! Und wie viel willst du?
 
-	spy.alisa.wtfblog.step.12@22@Ну... Сколько не жалко. Я не попрошайка. Но от $30 не откажусь...|Hm...wieviel bist du denn bereit mir zugeben? Ich will hier nicht betteln m?ssen. So mit 30$ wäre ich schon zufrieden...
-		spy.alisa.wtfblog.step.13a^								Что?!|Wie bitte?!
-		money>29&spy.alisa.wtfblog.step.13b!add_money_-30^		Держи...|Okay, hier...
+	spy.alisa.wtfblog.step.12@22@Ну... Сколько не жалко. Я не попрошайка. Но от $30 не откажусь...|Nun, ähm..... Wie auch immer, es tut mir leid. Ich bin kein Bettler. Aber ich will nicht auf 30 Dollar verzichten...
+		spy.alisa.wtfblog.step.13a^								Что?!|Was!?
+		money>29&spy.alisa.wtfblog.step.13b!add_money_-30^		Держи...|Hier, Bitte...
 
-	spy.alisa.wtfblog.step.13a@33@Так и знала, что ты жмот. Все такие... Вот поэтому я и сомневаюсь, что это всё моё... Тут не заработать...|Ich wusste du bist einfach billig, daher denke ich ist es die ganze Sache es garnicht erst wert...
-		money>29&spy.alisa.wtfblog.step.13b!add_money_-30^		Ладно, держи...|Alles klar, hier hast du es...
-		spy.alisa.wtfblog.step.13c^								Да заработать! Просто нужно хоть что-то показывать!|Eigentlich solltest du dein Geld damit verdienen auch wirklich etwas von dir zu zeigen.
+	spy.alisa.wtfblog.step.13a@33@Так и знала, что ты жмот. Все такие... Вот поэтому я и сомневаюсь, что это всё моё... Тут не заработать...|Ich wusste, dass du ein Idiot bist. Jeder ist so..... Deshalb denke ich, dass das alles von mir ist. Ich kann hier kein Geld verdienen.....
+		money>29&spy.alisa.wtfblog.step.13b!add_money_-30^		Ладно, держи...|Okay, hier ist es.....
+		spy.alisa.wtfblog.step.13c^								Да заработать! Просто нужно хоть что-то показывать!|Du willst Geld verdienen? Du musst einfach etwas zeigen!
 
-	spy.alisa.wtfblog.step.13b@31@Ой, спасибки! Ты первый, кто мне заплатил деньги!|Aw, vielen dank! Du bist der erste hier, der mir echt Geld gegeben hat!
-		spy.alisa.wtfblog.step.13c^								Вот показала бы что-то ещё, получила бы больше...|Ich hätte dir mehr gegeben, wenn du mir auch wirklich etwas gezeigt hättest...
+	spy.alisa.wtfblog.step.13b@31@Ой, спасибки! Ты первый, кто мне заплатил деньги!|Oh, danke schön! Du bist die Erste, die mir Geld zahlt! Oh, vielen Dank! Du bist die erste Person, die mir hier Geld gibt!
+		spy.alisa.wtfblog.step.13c^								Вот показала бы что-то ещё, получила бы больше...|Wenn Du mir noch etwas anderes zeigen würde, würde ich mehr geben.....
 
-	spy.alisa.wtfblog.step.13c@22@Например, что? Раздеваться я не буду!|Was z.b.? Ich werde mich hier ganz sicher nicht ausziehen!
-		spy.alisa.wtfblog.step.14^			Ну ты подумай ещё. Посмотри что твои коллеги на этом сайте показывают... Может быть передумаешь...|Okay, aber überleg es die nochmal. Und schau dir all deine Kolleginnen hier an, die einen Haufen Geld damit verdienen...vielleicht bringt dich das zum Umdenken...
+	spy.alisa.wtfblog.step.13c@22@Например, что? Раздеваться я не буду!|Was zum Beispiel? Ich werde mich nicht ausziehen!
+		spy.alisa.wtfblog.step.14^			Ну ты подумай ещё. Посмотри что твои коллеги на этом сайте показывают... Может быть передумаешь...|Nun, denk noch mal nach. Schau Dir, was Deine Kollegen auf dieser Seite zeigen... Vielleicht wirst du deine Meinung ändern...
 
-	spy.alisa.wtfblog.step.14@21@Ладно, пока, Майк!|Okay, Tschuess Mike!
-		leave!set_poss.blog_11!set_alisablog_1!time^			<i>выйти</i>|<i>Sich ausloggen</i>
-
-
-
-# --- 0.4: Основной вход на сайт Алисы|Anfang Alice's Stream
-
-	spy.alisa.blog@15@n-alisacams-1@<i>Так... Сайт, где Алиса пытается заработать... Ого, какие любопытные тут есть камеры... Но меня интересует Алиса-Мелисса...</i>|<i>Also das hier ist die Webseite auf der Alice "arbeitet"...eine Menge interessanter Sachen geschehen dort, aber ich bin primär wegen Alice hier.</i>
-		alisablog=1&pornocam.1.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>Alice's Channel beitreten</i>
-		alisablog=2&pornocam.2.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>Alice's Channel beitreten</i>
-		alisablog=3&pornocam.3.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>Alice's Channel beitreten</i>
-		alisablog=4&pornocam.4.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>Alice's Channel beitreten</i>
-		alisablog=5&pornocam.5.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>Alice's Channel beitreten</i>
+	spy.alisa.wtfblog.step.14@21@Ладно, пока, Майк!|Okay, bye, Mike!
+		leave!set_poss.blog_11!set_alisablog_1!time^			<i>выйти</i>|<i>Abmelden</i>
 
 
 
-# --- 0.4: Второе посещение сайта Алисы|2.Chat mit Alice
+# --- 0.4: Основной вход на сайт Алисы|Start of Alice's stream
 
-	pornocam.1.step.2@21@n-cam-2@Приветик, Майк! Как дела?|Hey Mike, wie geht's dir so?
-		pornocam.1.step.3^			Привет, Мелисса! Скучала?|Hallo Melissa, na hast du mich vermisst?
-
-	pornocam.1.step.3@31@n-cam-1@Очень! Тут так мало адекватных людей, да и зрителей в целом. Я думала, что приду, и на меня накинутся жадные взгляды... А вот фиг... Ну, что расскажешь?|Doch sehr! Ich habe selten normale Leute hier, oder allg. Zuschauer. Ich hätte gedacht, dass gleich von Anfang an eine ganze Horde von notgeilen Creeps mich belagert...aber egal. über was wollen wir reden?
-		pornocam.1.step.4^			А что рассказывать? Думал, ты что-то покажешь...|Ja worüber Könnten wir denn reden? Ich hatte gehofft du Könntest mir heute auch etwas zeigen...
-
-	pornocam.1.step.4@21@n-cam-3@Ну я посмотрела, конечно, другие каналы других девушек... Мне кажется, они все проститутки. Ну не может приличная девушка за деньги перед камерой ноги раздвигать!|Also ich hab mir die kanaele der anderen Mädels angeschaut und denke sie benehmen sich alle wie Schlampen! Richtige Frauen machen solche Sachen nicht für Geld und vor der Kamera!
-		pornocam.1.step.5a^			А ты приличная?|Und was bist du dann?
-		pornocam.1.step.5b^			Ты права!|Stimmt schon!
-
-	pornocam.1.step.5a@32@n-cam-2@Майк! Я сейчас обижусь... Вот, уже...|Mike! Sag mal willst du mich beleidigen!
-		pornocam.1.step.6^			Извини, я пошутил...|Tut mir leid, ich wollte nur witzig sein...
-
-	pornocam.1.step.5b@31@n-cam-2@Вот, я же говорила, что ты хороший зритель...|Okay, aber nicht nochmal und nur weil du ein guter Zuschauer bist!
-		pornocam.1.step.6^			Спасибо...|Danke.
-
-	pornocam.1.step.6@21@Ну что, есть мысли, чем займёмся сегодня?|Also was machst du heute noch so?
-		pornocam.1.step.7^			Покажи сиськи!|Los zeig mir deine Titten!
-
-	pornocam.1.step.7@22@Эх... А ты такой же, как все...|Du bist so wie die anderen, lass mich in Ruhe...
-		pornocam.1.step.8a^			Дам $30 прямо сейчас!|Ich würde dir auch 30$ dafür geben, jetzt sofort
-		pornocam.1.step.8b^			Дам $70 прямо сейчас!|Ich würde dir auch 70$ dafür geben, jetzt sofort!
-		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich würde dir auch 150$ dafür geben, jetzt sofort!
-
-	pornocam.1.step.8a@23@Я не проститутка какая-нибудь!|Ich bin doch keine Hure!
-		pornocam.1.step.8b^			Дам $70 прямо сейчас!|Ich würde dir auch 70$ dafür geben, jetzt sofort!
-		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich würde dir auch 150$ dafür geben, jetzt sofort!
-
-	pornocam.1.step.8b@22@Пытаешься меня купить? Хочешь, чтобы я за $70 поступилась моральными принципами?|Du willst also, dass ich für laecherliche 70$ meine Prinzipien über Bord werfe?
-		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich würde dir auch 150$ daf?r geben, jetzt sofort!
-
-	pornocam.1.step.8c@21@Давай! Только сначала деньги...|Hm na gut, aber zuerst das Geld!
-		pornocam.1.step.9^			А как же моральные принципы?|Und was wird jetzt mit deinen moralischen Bedenken?
-
-	pornocam.1.step.9@22@Так ты дашь денег или нет?|Willst du mich zum dr?ber nachdenken bringen oder bekomme ich das Geld jetzt?
-		money>149&pornocam.1.step.10!add_money_-150^		Ну, держи...|Na gut, okay...
-		pornocam.1.step.10b^								Нет!|Nope!
-
-	pornocam.1.step.10b@20@Нет? Почему?|Wie nein? Warum nicht?
-		pornocam.1.step.11a^		Потому, что ты торгуешься. И ничем не отличаешься от остальных...|Weil du mir nur das Geld aus den Taschen ziehen willst, du bist so wie die Schlampen vor denen du dich abgrenzen willst.
-
-	pornocam.1.step.10@31@Спасибо, Майк! Ты - настоящий мужчина. А не то, что эти...|Danke Mike, du bist ein richtiger Mann. Nicht wie all die Creeps hier...
-		pornocam.1.step.11b^		Так а где сиськи?|Darf ich deine Brueste sehen?
-
-	pornocam.1.step.11b@31@n-cam-4@Ах да, чуть не забыла... Ну, вот. Больше не покажу. Но я разделась для тебя. Ты мой первый... Нравится?|Oh, stimmt hier dein Preis...hätte es fast vergessen. Aber mehr bekommst du nicht zusehen, ich habe mich ja schon f?r dich ausgezogen. Magst du meine Brueste...du siehst sie hier als Erster!
-		pornocam.1.step.12^			О да, ты - супер!|Ohja, du siehst geil aus!
-
-	pornocam.1.step.11a@22@n-cam-4@Ну... Ладно. Смотри. И заметь, я это сделала не за деньги! Так что бери свои слова насчёт... остальных!|Na gut, schau genau hin...und denk dran, ich habe es umsonst gemacht! Also nimm es zurueck, dass ich wie der Rest von denen bin!
-		pornocam.1.step.12^			Извини, ты и правда не такая!|Tut mir leid, du bist echt anders!
-
-	pornocam.1.step.12@21@Спасибо. Ну всё, мне пора... До встречи, Майк!|Danke, naja ich muss jetzt auch los...bid sp?ter Mike!
-		leave!set_alisablog_2!time^		Пока, Мелисса!|Tschuess, Melissa!
+	spy.alisa.blog@15@n-alisacams-1@<i>Так... Сайт, где Алиса пытается заработать... Ого, какие любопытные тут есть камеры... Но меня интересует Алиса-Мелисса...</i>|<i>Okay, also, äh... Die Seite, auf der Alice versucht, Geld zu verdienen... Wow, wie interessant sind die Fotos hier... Aber ich interessiere mich für Alice Melissa.-></i>
+		alisablog=1&pornocam.1.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>den Kanal von Alice aufrufen</i>
+		alisablog=2&pornocam.2.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>den Kanal von Alice aufrufen</i>
+		alisablog=3&pornocam.3.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>den Kanal von Alice aufrufen</i>
+		alisablog=4&pornocam.4.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>den Kanal von Alice aufrufen</i>
+		alisablog=5&pornocam.5.step.2!set_dcd.melissa_1^			<i>Войти на канал Алисы</i>|<i>den Kanal von Alice aufrufen</i>
 
 
 
-# --- 0.4: Третий визит на сайт Алисы|3.Chat mit Alice
+# --- 0.4: Второе посещение сайта Алисы|2nd chat with Alice
 
-	pornocam.2.step.2@21@n-cam-2@Приветик! Как дела?|Hey, na wie geht's dir?
-		pornocam.2.step.3^			Супер! Ну, что сегодня покажешь?|Super! Was machst du heute in der Show?
+	pornocam.1.step.2@21@n-cam-2@Приветик, Майк! Как дела?|Hey, Mike! Wie geht es dir?
+		pornocam.1.step.3^			Привет, Мелисса! Скучала?|Hey, Melissa! Hast du mich vermisst?
 
-	pornocam.2.step.3@22@Вот так с порога? Не стыдно? Я тут сидела, тебя ждала, а ты... Но я тебя побалую сегодня. И заметь, совершенно бесплатно!|Wird das jetzt immer das Erste sein was du zusagen hast? Ich sitze hier schon eine Weile rum und du...naja egal. Ich wollte die heute einbisschen verfuehren, natuerlich ohne Gegenleistung.
-		pornocam.2.step.4^			Ого! Давай!|Wow! Das ist ja eine Begruessung!
+	pornocam.1.step.3@31@n-cam-1@Очень! Тут так мало адекватных людей, да и зрителей в целом. Я думала, что приду, и на меня накинутся жадные взгляды... А вот фиг... Ну, что расскажешь?|Sehr! Es gibt so wenige adäquate Leute hier und das Publikum als Ganzes. Ich dachte, Sie kommen und schauen mich gierig an... Aber hier ist die Sache... Nun, was kannst du mir sagen?
+		pornocam.1.step.4^			А что рассказывать? Думал, ты что-то покажешь...|Was gibt es da zu erzählen? Ich dachte, du würdest etwas zeigen.....
 
-	pornocam.2.step.4@21@n-cam-4@Вот. И не говори, что я проститутка... Всё абсолютно бесплатно!|Also gute, schau genau hin. Und wehe du vergleichst mich wieder mit den anderen Cam-Girl's. Es hat dich schliesslich nicht einen Cent gekostet!
-		pornocam.2.step.5^			А где кидают?|Und wo ist da der Haken?
+	pornocam.1.step.4@21@n-cam-3@Ну я посмотрела, конечно, другие каналы других девушек... Мне кажется, они все проститутки. Ну не может приличная девушка за деньги перед камерой ноги раздвигать!|Nun, ich habe natürlich die Kanäle der anderen anderer Mädchen gesehen..... Ich glaube, das sind alles Prostituierte. Nun, ein anständiges Mädchen kann ihre Beine nicht für Geld vor die Kamera breit machen!
+		pornocam.1.step.5a^			А ты приличная?|Bist du anständig?
+		pornocam.1.step.5b^			Ты права!|Du hast Recht!
 
-	pornocam.2.step.5@22@Почему сразу кидают? Нет... Но я подумала, что если хочешь увидеть больше, то...|Kein Haken, aber wenn es dir gefallen hat und du vielleicht nich mehr sehen willst, dann...
-		pornocam.2.step.6^			Ага. Значит, это демо-версия...|Okay, also das war nur zum anfuettern...
+	pornocam.1.step.5a@32@n-cam-2@Майк! Я сейчас обижусь... Вот, уже...|Mike! Du beleidigst mich..... Hier, schon wieder.....
+		pornocam.1.step.6^			Извини, я пошутил...|Es tut mir leid, ich habe nur Spaß gemacht.
 
-	pornocam.2.step.6@21@Не знаю что такое демо-версия, но думаю, что ты всё понял...|Keine Ahnung was du jetzt meinst, aber es sollte klar sein was ich daf?r moechte.
-		pornocam.2.step.7^			И что я увижу?|Okay, aber was bekomme ich im Gegenzug?
+	pornocam.1.step.5b@31@n-cam-2@Вот, я же говорила, что ты хороший зритель...|Ich habe dir doch gesagt, dass du ein guter Zuschauer bist.....
+		pornocam.1.step.6^			Спасибо...|Danke
 
-	pornocam.2.step.7@22@Смотря сколько заплатишь...|Das haengt natuerlich immer von der Hoehe deiner Spende ab...
-		pornocam.2.step.8^			Ты же ещё недавно говорила, что так говорят... проститутки?|Hast du nicht noch ebend gesagt, nur Schlampen w?rden sowas annehmen?
+	pornocam.1.step.6@21@Ну что, есть мысли, чем займёмся сегодня?|Also, eine Idee, was wir heute machen werden?
+		pornocam.1.step.7^			Покажи сиськи!|Zeig mir deine Brüste!
 
-	pornocam.2.step.8@20@Ну, как хочешь... Я не настаиваю...|Na gut, es bleibt ja die ?berlassen...
-		pornocam.2.step.9a^						Извини, денег нет...|Tut mir leider, aber aktuell hab ich kein Geld ?ber.
-		money>49&pornocam.2.step.9b^			И что я увижу, допустим, за $50?|Und was zeigst du mir f?r sagen wir 50$?
+	pornocam.1.step.7@22@Эх... А ты такой же, как все...|Oh, äh..... Und du bist genau wie alle anderen.....
+		pornocam.1.step.8a^			Дам $30 прямо сейчас!|Ich gebe dir sofort 30$!
+		pornocam.1.step.8b^			Дам $70 прямо сейчас!|Ich gebe dir sofort 70$!
+		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich gebe dir sofort 150$!
 
-	pornocam.2.step.9a@20@Ладно, тогда до встречи. Мне пора...|Okay, schade. Ich muss eh los, tschuess...
-		leave!set_alisablog_3!time^			Стой!|Wait!
+	pornocam.1.step.8a@23@Я не проститутка какая-нибудь!|Ich bin keine Prostituierte oder so!
+		pornocam.1.step.8b^			Дам $70 прямо сейчас!|Ich gebe dir sofort 70$!
+		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich gebe dir sofort 150$!
 
-	pornocam.2.step.9b@22@За $70 я покажу тебе чуть больше... Но если не хочешь...|Ich Könnte dir f?r 70$ etwas zeigen, aber das liegt ganz bei dir...
-		pornocam.2.step.9a^								Нет, не буду платить!|Nein, das ist mir zuviel!
-		money>69&pornocam.2.step.10!add_money_-70^		Ладно, вот тебе $70|Na gut, einverstanden. Hier die 70$!
+	pornocam.1.step.8b@22@Пытаешься меня купить? Хочешь, чтобы я за $70 поступилась моральными принципами?|Versuchst du, mich zu kaufen? Willst du, dass ich meine moralischen Prinzipien für 70$ aufgebe?
+		pornocam.1.step.8c^			Дам $150 прямо сейчас!|Ich gebe dir sofort 150$!
 
-	pornocam.2.step.10@31@n-cam-5@Молодец, Макс!Na toll Max!
+	pornocam.1.step.8c@21@Давай! Только сначала деньги...|Kommt schon! Kommt schon! Nur zuerst das Geld.....
+		pornocam.1.step.9^			А как же моральные принципы?|Was ist mit den moralischen Prinzipien?
+
+	pornocam.1.step.9@22@Так ты дашь денег или нет?|Also wirst du mir das Geld geben oder nicht?
+		money>149&pornocam.1.step.10!add_money_-150^		Ну, держи...|Nun, hier ist es...
+		pornocam.1.step.10b^								Нет!|Nein!
+
+	pornocam.1.step.10b@20@Нет? Почему?|Nein? Warum nicht?
+		pornocam.1.step.11a^		Потому, что ты торгуешься. И ничем не отличаешься от остальных...|Weil du verhandelt hast. Und du bist nicht anders als die anderen...
+
+	pornocam.1.step.10@31@Спасибо, Майк! Ты - настоящий мужчина. А не то, что эти...|Danke, Mike! Du bist ein echter Mann. Nicht, wie diese...
+		pornocam.1.step.11b^		Так а где сиськи?|Also, wo sind nun deine Brüste?
+
+	pornocam.1.step.11b@31@n-cam-4@Ах да, чуть не забыла... Ну, вот. Больше не покажу. Но я разделась для тебя. Ты мой первый... Нравится?|Oh, ja, das hätte ich fast vergessen. Nun, es geht los. Ich werde dir nicht mehr zeigen. Aber ich habe mich für dich ausgezogen. Du bist mein erster..... Gefällt es dir?
+		pornocam.1.step.12^			О да, ты - супер!|Oh, ja, du bist großartig!
+
+	pornocam.1.step.11a@22@n-cam-4@Ну... Ладно. Смотри. И заметь, я это сделала не за деньги! Так что бери свои слова насчёт... остальных!|Nun, ähm..... Okay. Okay. Okay. Sieh dir das an. Und ich habe es nicht für Geld getan! Nimm es einfach beim Wort..... Der Rest hier!
+		pornocam.1.step.12^			Извини, ты и правда не такая!|Es tut mir leid, du bist wirklich nicht so!
+
+	pornocam.1.step.12@21@Спасибо. Ну всё, мне пора... До встречи, Майк!|Oh, danke. Danke. Danke. Okay, ich muss gehen..... Bis später, Mike!
+		leave!set_alisablog_2!time^		Пока, Мелисса!|Bye, Melissa!
+
+
+
+# --- 0.4: Третий визит на сайт Алисы|3rd chat with Alice
+
+	pornocam.2.step.2@21@n-cam-2@Приветик! Как дела?|Hallo! Wie geht es dir?
+		pornocam.2.step.3^			Супер! Ну, что сегодня покажешь?|Fantastisch! Nun, was wirst du uns heute zeigen?
+
+	pornocam.2.step.3@22@Вот так с порога? Не стыдно? Я тут сидела, тебя ждала, а ты... Но я тебя побалую сегодня. И заметь, совершенно бесплатно!|Gleich mit der Tür ins Haus fallen? Schämst du dich nicht? Ich saß hier und wartete auf dich, und du..... Aber ich werde dich heute verwöhnen. Und beachte, absolut kostenlos!
+		pornocam.2.step.4^			Ого! Давай!|Whoa! Komm schon!
+
+	pornocam.2.step.4@21@n-cam-4@Вот. И не говори, что я проститутка... Всё абсолютно бесплатно!|Hier, bitte schön. (Lacht) Und sag mir nicht, dass ich eine Prostituierte bin..... Alles ist absolut kostenlos!
+		pornocam.2.step.5^			А где кидают?|Wo wirfst du es hin?
+
+	pornocam.2.step.5@22@Почему сразу кидают? Нет... Но я подумала, что если хочешь увидеть больше, то...|Warum sollte es sofort weg? Nein... Aber ich dachte, wenn du mehr sehen willst, dann...
+		pornocam.2.step.6^			Ага. Значит, это демо-версия...|Aha. Das ist also die Demo-Version.....
+
+	pornocam.2.step.6@21@Не знаю что такое демо-версия, но думаю, что ты всё понял...|Ich weiß nicht, was die Demo ist, aber ich denke, du verstehst...
+		pornocam.2.step.7^			И что я увижу?|Und was werde ich sehen?
+
+	pornocam.2.step.7@22@Смотря сколько заплатишь...|Hängt davon ab, wie viel du bezahlst.....
+		pornocam.2.step.8^			Ты же ещё недавно говорила, что так говорят... проститутки?|Ich dachte, das hast du vorhin gesagt hast... keine Prostituierte?
+
+	pornocam.2.step.8@20@Ну, как хочешь... Я не настаиваю...|Nun, was immer du willst.. Ich bestehe nicht darauf...
+		pornocam.2.step.9a^						Извини, денег нет...|Es tut mir leid, es ist kein Geld da...
+		money>49&pornocam.2.step.9b^			И что я увижу, допустим, за $50?|Und was werde ich sehen, sagen wir, für 50$?
+
+	pornocam.2.step.9a@20@Ладно, тогда до встречи. Мне пора...|Okay, wir sehen uns dann. Ich muss gehen...
+		leave!set_alisablog_3!time^			Стой!|Warte!
+
+	pornocam.2.step.9b@22@За $70 я покажу тебе чуть больше... Но если не хочешь...|Für 70$ zeige ich dir etwas mehr... Aber wenn du nicht willst...
+		pornocam.2.step.9a^								Нет, не буду платить!|Nein, ich zahle nicht!
+		money>69&pornocam.2.step.10!add_money_-70^		Ладно, вот тебе $70|Okay, hier sind $70 für dich
+
+	pornocam.2.step.10@31@n-cam-5@Молодец, Макс!|Gut gemacht, Max!
 		pornocam.2.step.11^			Макс?!|Max!?
 
-	pornocam.2.step.11@26@Ой, извини... Так зовут одного бестолкового... знакомого. Извини, Майк!|Oh, tut mir leid...das ist nur der Name eines dummen...Bekannten von mir. Stoer dich nicht weiter dran Mike.
-		pornocam.2.step.12^			Я не бестолковый!|Ich bin nicht bloed!
+	pornocam.2.step.11@26@Ой, извини... Так зовут одного бестолкового... знакомого. Извини, Майк!|Oh, es tut mir leid. Das ist der Name eines dummen..... eines Bekannte. Tut mir leid, Mike!
+		pornocam.2.step.12^			Я не бестолковый!|Ich bin nicht dumm!
 
-	pornocam.2.step.12@21@Конечно, нет. Ты нет, а вот он да... Ну что, доволен шоу?|Natuerlich nicht du sondern er ist nicht ganz der Hellste...wie fandest du eigentlich die Show?
-		pornocam.2.step.13^			Ну можно было бы больше показать...|Naja du hättest mir schon einbisschen mehr zeigen Können...
+	pornocam.2.step.12@21@Конечно, нет. Ты нет, а вот он да... Ну что, доволен шоу?|Natürlich nicht. Das bist du nicht, aber er ist..... Bist du mit der Show zufrieden?
+		pornocam.2.step.13^			Ну можно было бы больше показать...|Nun, du hättest mehr zeigen können...
 
-	pornocam.2.step.13@31@Ты знаешь. В следующий раз я тебе покажу больше... Даже продемонстрирую новое бельишко... Если придёшь...|Okay, weisst du was, beim n?chsten Mal werde ich dir mehr zeigen...ich werde dir eine neue Lingerie von mir zeigen...aber nur wenn du auch da bist, versteht sich...
-		pornocam.2.step.14^			Конечно, приду!|Klar, das verpasse ich bestimmt nicht!
+	pornocam.2.step.13@31@Ты знаешь. В следующий раз я тебе покажу больше... Даже продемонстрирую новое бельишко... Если придёшь...|Das weißt du doch. Nächstes Mal zeige ich dir mehr... Ich zeige dir sogar die neue Unterwäsche... Wenn du kommst...
+		pornocam.2.step.14^			Конечно, приду!|Natürlich werde ich das!
 
-	pornocam.2.step.14@21@Вот и договорились. А сейчас мне пора. До встречи!|Also haben wir einen Deal, ich muss jetzt los. Bis dann!
-		leave!set_alisablog_3!time^			Пока!|Ciao!
+	pornocam.2.step.14@21@Вот и договорились. А сейчас мне пора. До встречи!|Das ist der Deal. Und jetzt muss ich gehen. Wir sehen uns später!
+		leave!set_alisablog_3!time^			Пока!|Bye!
 
 
 
-# --- 0.4: Периодический эвент, пока Макс не заплатит $200 за то, чтобы Алиса переоделась в боди и не покрутилась перед ним|sich wiederholendes Event bis Max Alice bezahlt in den Body zuwechseln
+# --- 0.4: Периодический эвент, пока Макс не заплатит $200 за то, чтобы Алиса переоделась в боди и не покрутилась перед ним|periodic event until Max pays Alice to change into body
 
-	pornocam.3.step.2@21@n-cam-2@Приветик, Майк! Как дела?|Hallo Mike, wie fuehlst du dich heute?
-		pornocam.3.step.3^								Отлично! Чем сегодня порадуешь?|Mir geht es wie immer Top, was machst du heute?
+	pornocam.3.step.2@21@n-cam-2@Приветик, Майк! Как дела?|Hey, Mike! Wie geht es dir?
+		pornocam.3.step.3^								Отлично! Чем сегодня порадуешь?|Okay, großartig! Was wirst du heute tun?
 
-	pornocam.3.step.3@22@Ты знаешь, у меня есть кое-что из новой одежды... Красивое откровенное боди... тебе понравится. Но просто так я его тебе не покажу...|Ich hätte etwas neues zum zeigen...einen wunderschoenen und offenherzigen Body...den du lieben wirst. Den kann ich dir aber nicht einfach so zeigen...
-		pornocam.3.step.4^								Сколько?|Okay, wieviel willst du?
+	pornocam.3.step.3@22@Ты знаешь, у меня есть кое-что из новой одежды... Красивое откровенное боди... тебе понравится. Но просто так я его тебе не покажу...|Weißt du, ich habe ein paar neue Sachen... Schöne, offene Teile... du wirst es lieben. Aber ich werde es dir nicht einfach zeigen...
+		pornocam.3.step.4^								Сколько?|Wieviel?
 
-	pornocam.3.step.4@31@Сколько не жалко. Я не жадная...|Was ist es dir den wert? Ich bin ja nicht gierig.
+	pornocam.3.step.4@31@Сколько не жалко. Я не жадная...|Wie viel bist du bereit zu zahlen? Ich bin nicht gierig.
 		money>69&pornocam.3.step.5a^					$70!|$70!
 		money>149&pornocam.3.step.5b^					$150!|$150!
 		money>199&pornocam.3.step.6c!add_money_-200^	$200!|$200!
-		pornocam.3.step.5d^								Не интересно...|Nope, kein Interesse
+		pornocam.3.step.5d^								Не интересно...|Nicht interessiert...
 
-	pornocam.3.step.5d@21@Ах так? Ну, тогда пока. У меня ещё дела...|Achso, na gut. Bis sp?ter dann, ich muss noch Sachen erledigen...
+	pornocam.3.step.5d@21@Ах так? Ну, тогда пока. У меня ещё дела...|Oh, ja? Oh, ja. Nun, dann tschüss. Ich habe noch etwas zu erledigen.....
 		leave!time^										Но...|Aber...
 
-	pornocam.3.step.5a@26@Вот так ты меня оцениваешь? Я готова ради тебя переодеться, показать кое-что, а ты... Эх, Майк...|Achso, das bin ich dir also Wert? Ich bin gewollt dir etwas neues zu zeigen und du...Oh,Mike...
-		money>149&pornocam.3.step.5b^					Ну, тогда $150!|Na gut, wie wäre es mit 150$ dann?
-		money>199&pornocam.3.step.6c!add_money_-200^	Может быть... $200!|Vielleicht f?r 200$?
-		pornocam.3.step.5d^								Нет, не интересно...|Nein, kein Interesse.
+	pornocam.3.step.5a@26@Вот так ты меня оцениваешь? Я готова ради тебя переодеться, показать кое-что, а ты... Эх, Майк...|Bewertest du mich so? Ich bin bereit, meine Klamotten für dich zu wechseln, dir etwas zu zeigen, und du... Oh, Mike...
+		money>149&pornocam.3.step.5b^					Ну, тогда $150!|Wie wäre es dann mit 150$?
+		money>199&pornocam.3.step.6c!add_money_-200^	Может быть... $200!|Vielleicht 200$?
+		pornocam.3.step.5d^								Нет, не интересно...|Nicht interessiert...
 
-	pornocam.3.step.5b@33@Хм... предложение заманчивое... Я подумаю над ним... Может быть $200?|Hm...schon nicht schlecht...lass mich dar?ber nachdenken...vielleicht f?r 200$?
-		pornocam.3.step.6a^								Слишком дорого за картинку на экране...|Also das ist mir echt zuviel f?r einbisschen Haut auf der Bildschirm.
-		pornocam.3.step.6b^								Никто столько не платит за эротику через вебкамеры!|Niemand w?rde soviel f?r eine Webcam-Show ausgeben!
-		money>199&pornocam.3.step.6c!add_money_-200^	Ладно, пусть $200|Na gut, hier deine 200$
+	pornocam.3.step.5b@33@Хм... предложение заманчивое... Я подумаю над ним... Может быть $200?|Hmm. Ähm...... das Angebot ist verlockend...... Ich werde darüber nachdenken..... Vielleicht 200$?
+		pornocam.3.step.6a^								Слишком дорого за картинку на экране...|Zu viel für das Bild auf dem Bildschirm.....
+		pornocam.3.step.6b^								Никто столько не платит за эротику через вебкамеры!|Niemand bezahlt so viel für Erotik durch Webcams!
+		money>199&pornocam.3.step.6c!add_money_-200^	Ладно, пусть $200|Schön, hiert sind 200$
 
-	pornocam.3.step.6a@22@n-cam-1@Значит, тебе жалко каких-то $200 для такой девушки как я? Эх, Майк... Я думала, что ты другой... Ладно. Удачи!|Also du willst echt nicht f?r so eine h?bsche Frau wie mich 200$ springen lassen? Ich hätte echt gedacht, dass du anders bist Mike...schade, eine gute Nacht dir.
+	pornocam.3.step.6a@22@n-cam-1@Значит, тебе жалко каких-то $200 для такой девушки как я? Эх, Майк... Я думала, что ты другой... Ладно. Удачи!|Also tut es dir leid, dass ein Mädchen wie ich 200$ bekommt? Oh, Mike... Ich dachte, du wärst anders... Okay. Viel Glück!
 		leave!time^										Стой!|Warte!
 
-	pornocam.3.step.6b@22@n-cam-1@А я и не такая, как эти проститутки на соседних каналах... Ты разве этого не заметил? Эх ты... Ладно, подумай ещё. А мне пора...|Ich bin nicht wie die anderen Schlampen hier auf der Seite...das sollte dir doch wohl aufgefallen sein! Denk am Besten dar?ber nochmal an, ich gehe jetzt.
+	pornocam.3.step.6b@22@n-cam-1@А я и не такая, как эти проститутки на соседних каналах... Ты разве этого не заметил? Эх ты... Ладно, подумай ещё. А мне пора...|Und ich bin nicht wie die Prostituierten auf den anderen Kanälen... Hast du das nicht bemerkt? Oh, du.. die... Okay, denk noch mal nach. Und ich muss gehen...
 		leave!time^										Но...|Aber...
 
-	pornocam.3.step.6c@31@n-cam-3@Вот! Это другое дело! Так, сейчас я переоденусь и покажу тебе кое-что...|Yippie! Warte kurz, ich zieh mich schnell um...
-		pornocam.3.step.7^								Супер! Жду...|Ich bin gleich wieder da.
+	pornocam.3.step.6c@31@n-cam-3@Вот! Это другое дело! Так, сейчас я переоденусь и покажу тебе кое-что...|Na also! (Lacht) Das ist eine andere Sache! Okay, jetzt werde ich mich umziehen und dir etwas zeigen.....
+		pornocam.3.step.7^								Супер! Жду...|Fantastisch! Ich warte...
 
-	pornocam.3.step.7@21@n-cam-6@Ну, как тебе? Нравится?|Und wie findest du es?
-		pornocam.3.step.8^								О-очень!|Ohh, ja!
+	pornocam.3.step.7@21@n-cam-6@Ну, как тебе? Нравится?|Also, was denkst du? Gefällt es dir?
+		pornocam.3.step.8^								О-очень!|Oh, Fantastisch!
 
-	pornocam.3.step.8@22@Наряд... Или я?|Was magst du mehr, die Unterwäsche oder mich...
-		pornocam.3.step.9^								И ты и наряд! А снять его можешь?|Beides ist geil, kannst du sie nicht noch ausziehen?
+	pornocam.3.step.8@22@Наряд... Или я?|Das Outfit... Oder ich?
+		pornocam.3.step.9^								И ты и наряд! А снять его можешь?|Du und das Outfit! Kannst du es ausziehen?
 
-	pornocam.3.step.9@31@Ой, Майк, у тебя никаких денег не хватит. Я и то свою грудь никому не планировала показывать... Но ты меня убедил. Что-то есть в тебе такое...|Dazu hast du nicht gen?gend Geld Mike! Eigentlich wollte ich mich hier nicht nackt zeigen...aber du hast mich ja schon ?berzeugt meine Brueste zuzeigen. Hm, irgendwas hast du an dir...
-		pornocam.3.step.10^								Деньги?|gen?gend Geld?
+	pornocam.3.step.9@31@Ой, Майк, у тебя никаких денег не хватит. Я и то свою грудь никому не планировала показывать... Но ты меня убедил. Что-то есть в тебе такое...|Oh, Mike, du hast kein Geld. Ich hatte nicht einmal vor, meine Brüste jemandem zu zeigen... Aber du hast mich überzeugt. Da ist etwas an dir...
+		pornocam.3.step.10^								Деньги?|Geld?
 
-	pornocam.3.step.10@22@Всё, Майк, пока. Ты увидел достаточно... А мне пора...|Vielleicht...es ist aufjedenfall genug gewesen f?r heute Mike. Ich muss los.
+	pornocam.3.step.10@22@Всё, Майк, пока. Ты увидел достаточно... А мне пора...|Alles klar, Mike, tschüss. Du hast genug gesehen... Und ich muss gehen...
 		leave!set_alisablog_4!time^						Пока...|Bye
 
 
 
-# --- 0.4: Следующий периодический эвент, где Максу надо заплатить уже $500 за то, чтобы Алиса разделась|sich wiederholendes Event, Max muss 500$ zahlen damit sich Alice auszieht
+# --- 0.4: Следующий периодический эвент, где Максу надо заплатить уже $500 за то, чтобы Алиса разделась|next periodic event, Max has to pay $500 so Alice take her clothes off
 
-	pornocam.4.step.2@21@n-cam-2@Приветик, Майк! Я по тебе скучала...|Hi Mike, ich hab dich schon vermisst...
-		pornocam.4.step.3^								Я тоже...|Ich dich auch.
+	pornocam.4.step.2@21@n-cam-2@Приветик, Майк! Я по тебе скучала...|Hey, Mike! Ich habe dich vermisst...
+		pornocam.4.step.3^								Я тоже...|Ich Dich auch
 
-	pornocam.4.step.3@31@Подожди, я для тебя переоденусь. Тебе же понравилось в прошлый раз?|Warte kurz, ich zieh mich f?r dich um. Du mochtest doch mein Outfit vom letzten Mal, oder?
-		pornocam.4.step.4^								Конечно, жду...|Auf jeden Fall warte ich.
+	pornocam.4.step.3@31@Подожди, я для тебя переоденусь. Тебе же понравилось в прошлый раз?|Warte, ich ziehe mich für dich um. Letztes Mal hat es dir gefallen, nicht wahr?
+		pornocam.4.step.4^								Конечно, жду...|Natürlich, ich warte...
 
-	pornocam.4.step.4@33@n-cam-7@Так же намного лучше, верно?|So, das ist doch gleich viel besser?
-		pornocam.4.step.5^								Однозначно!|Ohhja, definitiv!
+	pornocam.4.step.4@33@n-cam-7@Так же намного лучше, верно?|Es ist so viel besser, nicht wahr?
+		pornocam.4.step.5^								Однозначно!|Auf jeden Fall!
 
-	pornocam.4.step.5@31@Может быть... Я ещё могу тебе ещё как-то помочь?|Kann ich vielleicht noch mehr f?r dich tun?
-		pornocam.4.step.6^								Ну, раздеться...|Ja, du Könntest es noch komplett ausziehen...
+	pornocam.4.step.5@31@Может быть... Я ещё могу тебе ещё как-то помочь?|Eventuell... Kann ich sonst noch etwas tun, um dir zu helfen?
+		pornocam.4.step.6^								Ну, раздеться...|Nun, du könntest Dich aussziehen...
 
-	pornocam.4.step.6@22@n-cam-6@Майк... Тебе не стыдно предлагать такое девушке, ведь мы едва знакомы...|Hey, schaemst du dich den garnicht einer Dame sowas vorzuschlagen? Wir kennen uns ja kaum...
-		pornocam.4.step.7^								Сколько?|Wieviel willst du denn dafür?
+	pornocam.4.step.6@22@n-cam-6@Майк... Тебе не стыдно предлагать такое девушке, ведь мы едва знакомы...|Mike, äh..... Schämst du dich nicht, ein Mädchen so anzugraben, denn wir kennen uns kaum.....
+		pornocam.4.step.7^								Сколько?|Wieviel?
 
 	pornocam.4.step.7@21@$350.|$350.
 		money>249&pornocam.4.step.8a!add_money_-350^	Отправляю $350...|Hier sind 350$...
-		pornocam.4.step.8b^								С ума сошла!|Bist du verrueckt?
-		pornocam.4.step.8c^								Да я за $350 проститутку сниму!|Dafür kann ich mir eine Hure kaufen!
-		pornocam.4.step.8d^								Ну $350 дорого. Может, 200?|Das ist doch einbisschen viel, warum einigen wir uns nicht auf 200$?
+		pornocam.4.step.8b^								С ума сошла!|Du bist verrückt!
+		pornocam.4.step.8c^								Да я за $350 проститутку сниму!|Ich bekomme eine Prostituierte für 350$!
+		pornocam.4.step.8d^								Ну $350 дорого. Может, 200?|Nun, 350$ sind teuer. Vielleicht 200$?
 
-	pornocam.4.step.8b@26@А я для тебя переодевалась... Почти разделась, а ты... Ладно, удачи...|Und ich ziehe mich extra für dich um...und bin fast nackt, aber du... Na gut, wie du willst, dann eben Tschuess.
-		leave!time^										Блин!|Mist!
+	pornocam.4.step.8b@26@А я для тебя переодевалась... Почти разделась, а ты... Ладно, удачи...|Und ich habe mich für dich umgezogen..... Fast ausgezogen, und du..... Nun, viel Glück.....
+		leave!time^										Блин!|Misst!
 
-	pornocam.4.step.8c@26@Так чего же ты ждёшь? Иди, заказывай, раз считаешь, что они лучше меня... А мне с тобой не о чем разговаривать...|Na worauf wartest du dann? Mach es doch, wenn du scheinbar damit besser dran bist als mit mir...Ich habe dir nichts mehr zusagen...
-		pornocam.4.step.8d^								Ну $350 дорого. Может, 200?|350$ ist schon eine Stange Geld, warum nicht 200$?
+	pornocam.4.step.8c@26@Так чего же ты ждёшь? Иди, заказывай, раз считаешь, что они лучше меня... А мне с тобой не о чем разговаривать...|Worauf wartest du noch? Bestellen Sie, wenn du denkst, dass sie besser sind als ich..... Und ich habe nichts, worüber ich mit dir reden könnte.....
+		pornocam.4.step.8d^								Ну $350 дорого. Может, 200?|Nun, 350$ sind teuer. Vielleicht 200$?
 
-	pornocam.4.step.8d@22@Нет, Майк. Я с тобой торговаться не буду. И то перед тобой сверкаю сиськами, хотя ты ничего мне сегодня не заплатил... Пойду я. Что-то настроение пропало...|Nein Mike! Ich werde hier nicht mit dir feilschen. Du hast meine Titen heute schon für lau gesehen und garnichts bezahlt...Ich sollte jetzt echt gehen, weil Lust mit dir zureden habe ich auch keine mehr...
-		leave!time^										Блин!|Upps, blöd gelaufen.
+	pornocam.4.step.8d@22@Нет, Майк. Я с тобой торговаться не буду. И то перед тобой сверкаю сиськами, хотя ты ничего мне сегодня не заплатил... Пойду я. Что-то настроение пропало...|Nein, Mike. Ich führe keine Verhandlungen mit dir. Und ich zeige dir meine Brüste, auch wenn du mir heute nichts bezahlt hast..... Ich werde gehen. Etwas ist passiert...
+		leave!time^										Блин!|Misst!
 
-	pornocam.4.step.8a@31@Майк, ты - настоящий мужчина! И сейчас я сделаю тебе приятно...|Du weisst wie man es macht Mike! Ich werde dir gleich etwas besonderes zeigen, sei gespannt...
-		pornocam.4.step.9^								Супер!|Geil!
+	pornocam.4.step.8a@31@Майк, ты - настоящий мужчина! И сейчас я сделаю тебе приятно...|Mike, du bist ein echter Mann! Und jetzt werde ich dir ein gutes Gefühl geben...
+		pornocam.4.step.9^								Супер!|Super!
 
-	pornocam.4.step.9@33@n-cam-9@Ты доволен, Майк? Я это делаю для тебя... и только для тебя!|Na bist du jetzt gluecklich Mike, alles deins!
-		pornocam.4.step.10!add_count.alisa.camnaked_1!max_poss.blog_12^	Я это ценю!|Ich bin hin und weg! Echt Sexy!
+	pornocam.4.step.9@33@n-cam-9@Ты доволен, Майк? Я это делаю для тебя... и только для тебя!|Bist du glücklich, Mike? Ich tue das für dich.... und nur für dich!
+		pornocam.4.step.10!add_count.alisa.camnaked_1!max_poss.blog_12^	Я это ценю!|Ich schätze das sehr!
 
-	pornocam.4.step.10@21@Приходи ещё на мой канал. Кто знает, может быть ты и не такое увидишь...|Du musst nur oefters zu mir auf den Kanal kommen, wer weis vielleicht wirst du noch viel mehr hier sehen...
-		pornocam.4.step.11^								Так покажи сейчас!|Wie wäre es mit einer kleinen Kostprobe schon jetzt?
+	pornocam.4.step.10@21@Приходи ещё на мой канал. Кто знает, может быть ты и не такое увидишь...|Komm zurück zu meinem Kanal. Wer weiß, vielleicht siehst du ja etwas Besonderes...
+		pornocam.4.step.11^								Так покажи сейчас!|Also zeig es mir jetzt!
 
-	pornocam.4.step.11@22@Боюсь, у тебя денег не хватит... Тебе нужно немного подкопить...|Ich denke, du kannst dir es gerade noch nicht leisten...spar einbisschen bis zum nächsten Mal...
-		pornocam.4.step.12^								Откуда ты знаешь? Всё у меня есть!|Woher willst du das denn wissen? Ich habe mehr als genug!
+	pornocam.4.step.11@22@Боюсь, у тебя денег не хватит... Тебе нужно немного подкопить...|Ich fürchte, du hast nicht genug Geld... Du musst etwas Geld sparen...
+		pornocam.4.step.12^								Откуда ты знаешь? Всё у меня есть!|Woher willst du das wissen? Ich habe genug!
 
-	pornocam.4.step.12@23@Ой... Кажется, кто-то идёт. Ну всё, мне пора! Целую, Майк!|Oh da scheint jemand zukommen, ich muss los. Küsschen Mike.
-		leave!set_alisablog_5!time^						Пока!|Ciao.
+	pornocam.4.step.12@23@Ой... Кажется, кто-то идёт. Ну всё, мне пора! Целую, Майк!|Oh, äh... Ich glaube, da kommt jemand. In Ordnung, ich muss los! Küsschen, Mike!
+		leave!set_alisablog_5!time^						Пока!|Bye
 
 
 
-# --- 0.4: Последний на данный момент комплексный периодический эвент, где можно попросить Алису переодеться, раздеться и всё такое|sich wiederholendes Event mit mehreren Auswahlmöglichkeiten
+# --- 0.4: Последний на данный момент комплексный периодический эвент, где можно попросить Алису переодеться, раздеться и всё такое|complex periodic event, Max can ask Alice to change, undress, and more
 
-	pornocam.5.step.2@21@n-cam-2@Приветик, Майк! Соскучился?|Hey Mike, na wartest du schon lange auf mich?
-		pornocam.5.step.3^									Ага... Что сегодня покажешь?|Jupp...was machen wir den heute so?
+	pornocam.5.step.2@21@n-cam-2@Приветик, Майк! Соскучился?|Hey, Mike, vermisst du mich?
+		pornocam.5.step.3^									Ага... Что сегодня покажешь?|Ja, ähm..... Was wirst du mir heute zeigen?
 
-	pornocam.5.step.3@31@Всё, что захочешь... Но в разумных пределах, конечно...|Alles was du magst...solange es im Rahmen bleibt.
-		pornocam.5.step.4^									А чего не раздеваешься?|Warum ziehst du dich dann nicht aus?
+	pornocam.5.step.3@31@Всё, что захочешь... Но в разумных пределах, конечно...|Alles, was du willst... Aber natürlich innerhalb vernünftiger Grenzen...
+		pornocam.5.step.4^									А чего не раздеваешься?|Warum ziehst du dich nicht aus?
 
-	pornocam.5.step.4@22@n-cam-1@Просто так? Ну не знаю... Может быть, если ты немного поможешь бедной девушке, то...|Einfach so? Ich weis nicht...vielleicht wenn du einen armen Mädchen helfen kannst...
-		pornocam.5.step.5^									Бедной?!|Wie armes Mädchen?
+	pornocam.5.step.4@22@n-cam-1@Просто так? Ну не знаю... Может быть, если ты немного поможешь бедной девушке, то...|Einfach so? Ich weiß nicht... Vielleicht, wenn du dem armen Mädchen ein wenig hilfst, dann...
+		pornocam.5.step.5^									Бедной?!|Armes Ding?!
 
-	pornocam.5.step.5@31@n-cam-3@Майк! Не прикапывайся к словам. У меня сейчас мало времени, так что я могу сделать только что-то одно... Но вот что никак не могу решить... Может быть, это сделаешь ты?|Tu nicht so Mike, du weisst was ich meine!\nIch habe heute auch nicht viel Zeit, also kannst ich nur einwas machen...aber ich kann mich nicht entscheiden, vielleicht kannst du mir ja dabei helfen?
-		pornocam.5.step.6a^									Сними верх...|Zieh dein Top aus...
-		pornocam.5.step.6b^									Надень тот боди|Zieh den Body an...
-		pornocam.5.step.6c^									Сними всё!|Zieh dich ganz aus...
+	pornocam.5.step.5@31@n-cam-3@Майк! Не прикапывайся к словам. У меня сейчас мало времени, так что я могу сделать только что-то одно... Но вот что никак не могу решить... Может быть, это сделаешь ты?|Mike! Verdreh den Sinn nicht.\nIch habe im Moment nicht viel Zeit, also kann ich nur eine Sache tun..... Aber hier ist, was ich nicht entscheiden kann..... Vielleicht kannst du es auch?
+		pornocam.5.step.6a^									Сними верх...|Zieh das Oberteil aus.....
+		pornocam.5.step.6b^									Надень тот боди|Zieh den Body an
+		pornocam.5.step.6c^									Сними всё!|Zieh alles aus!
 
-	pornocam.5.step.nomoney@22@Как скажешь, Майк. Но учти - другого раза может и не быть... Ладно, мне уже пора. Целую!|Na gut, wie du magst Mike, aber denk dran: vielleicht gibt es kein nächstes Mal...ich muss los, kuesschen!
-		leave!time^											Пока!|Tschuess
+	pornocam.5.step.nomoney@22@Как скажешь, Майк. Но учти - другого раза может и не быть... Ладно, мне уже пора. Целую!|Was immer du sagst, Mike. Aber denk daran, es gibt vielleicht kein anderes Mal..... Okay, ich muss jetzt gehen. Ein Kuss!
+		leave!time^											Пока!|Bye
 
-	pornocam.5.step.6a@21@Для тебя со скидкой, как постоянному клиенту, это будет... $30. И не торгуйся!|Gut, da du ja ein Stammkunde bist, bekommst du einen Rabatt...sagen wir 30$ als letzter Angebot!
-		money>29&pornocam.5.step.notop.1!add_money_-30^		Хорошо, снимай!|Okay Deal, zieh es aus.
-		pornocam.5.step.nomoney^							Давай в другой раз...|Vielleicht ein anderes Mal...
+	pornocam.5.step.6a@21@Для тебя со скидкой, как постоянному клиенту, это будет... $30. И не торгуйся!|Für dich mit einem Rabatt als Stammgast, wird es..... 30$. Und nicht verhandeln!
+		money>29&pornocam.5.step.notop.1!add_money_-30^		Хорошо, снимай!|Okay, zieh es aus!
+		pornocam.5.step.nomoney^							Давай в другой раз...|Machen wir es ein anderes Mal...
 
-	pornocam.5.step.6b@21@Для тебя со скидкой, как постоянному клиенту, это будет... $70. И не торгуйся!|Du bist ja ein guter Stammkunde, daher bekommst du auch einen Rabatt...70$ ist mein letztes Angebot.
-		money>69&pornocam.5.step.body.1!add_money_-70^		Хорошо, надевай!|Das ist okay, hier das Geld.
-		pornocam.5.step.nomoney^							Давай в другой раз...|Nein, ein andermal...
+	pornocam.5.step.6b@21@Для тебя со скидкой, как постоянному клиенту, это будет... $70. И не торгуйся!|Für dich mit einem Rabatt als Stammgast, wird es..... 70$. Und nicht verhandeln!
+		money>69&pornocam.5.step.body.1!add_money_-70^		Хорошо, надевай!|In Ordnung, zieh ihn an!
+		pornocam.5.step.nomoney^							Давай в другой раз...|Machen wir es ein anderes Mal...
 
-	pornocam.5.step.6c@21@Для тебя со скидкой, как постоянному клиенту, это будет... $150. И не торгуйся!|für Stammkunden wie dich kann ich auch einbisschen weniger machen...einigen wir uns doch auf 150$.
-		money>149&pornocam.5.step.nude.1!add_money_-150^	Хорошо, раздевайся!|Okay, aber wie versprochen alles ausziehen.
-		pornocam.5.step.nomoney^							Давай в другой раз...|Heute eher nicht...
+	pornocam.5.step.6c@21@Для тебя со скидкой, как постоянному клиенту, это будет... $150. И не торгуйся!|Für dich mit einem Rabatt als Stammgast, wird es..... 150$. Und nicht verhandeln!
+		money>149&pornocam.5.step.nude.1!add_money_-150^	Хорошо, раздевайся!|Okay, zieh dich aus!
+		pornocam.5.step.nomoney^							Давай в другой раз...|Machen wir es ein anderes Mal...
 
-	pornocam.5.step.notop.1@33@n-cam-4@Ну как, ты доволен, Майк? Хочешь ещё чего-нибудь?|So Mike, bist du jetzt zufrieden, oder magst du noch mehr?
-		pornocam.5.step.notop.2^							Покрутись-ка...|Dreh dich bitte um...
+	pornocam.5.step.notop.1@33@n-cam-4@Ну как, ты доволен, Майк? Хочешь ещё чего-нибудь?|Also, bist du glücklich, Mike? Willst du noch etwas anderes?
+		pornocam.5.step.notop.2^							Покрутись-ка...|Dreh Dich um...
 
-	pornocam.5.step.notop.2@31@n-cam-5@Нравится? Если захочешь ещё чего-то - ты знаешь, где меня искать...|Und magst du es? Wenn du mehr willst, weisst du ja wo ich zufinden bin...
-		pornocam.5.step.end^								Ага. Совершенно точно знаю где...|Jupp, ich weis genau wo ich dich finden kann...
+	pornocam.5.step.notop.2@31@n-cam-5@Нравится? Если захочешь ещё чего-то - ты знаешь, где меня искать...|Gefällt es dir? Wenn du etwas anderes willst, weißt du, wo du mich findest...
+		pornocam.5.step.end^								Ага. Совершенно точно знаю где...|Ja. Ich weiß genau, wo...
 
-	pornocam.5.step.body.1@33@n-cam-7@Это то, чего ты хотел, Майк? Может быть... Что-то ещё могу для тебя сделать?|Ist es so Recht Mike? Oder soll ich noch etwas anderes machen?
-		pornocam.5.step.body.2!add_count.alisa.camnaked_1!max_poss.blog_12^	Может быть...|Hm, vielleicht...
+	pornocam.5.step.body.1@33@n-cam-7@Это то, чего ты хотел, Майк? Может быть... Что-то ещё могу для тебя сделать?|Ist es das, was du wolltest, Mike? Vielleicht..... Gibt es sonst noch etwas, was ich für dich tun kann?
+		pornocam.5.step.body.2!add_count.alisa.camnaked_1!max_poss.blog_12^	Может быть...|Vielleicht...
 
-	pornocam.5.step.body.2@31@n-cam-6@Ты долго думаешь, Майк... А у меня так мало времени... Но ты всегда можешь меня найти. Ты знаешь как, верно?|Du brauchst wieder zulange Mike...ich habe heute nicht soviel Zeit...du weisst ja wo du mich finden kannst,oder?
-		pornocam.5.step.end^								О да. Я точно знаю как...|Ohh ja, ich weis wo du zufinden bist, na gut bis dann.
+	pornocam.5.step.body.2@31@n-cam-6@Ты долго думаешь, Майк... А у меня так мало времени... Но ты всегда можешь меня найти. Ты знаешь как, верно?|Du denkst lange nach, Mike.... Und ich habe so wenig Zeit..... Aber du kannst mich immer finden. Du weißt, wie das geht, oder?
+		pornocam.5.step.end^								О да. Я точно знаю как...|Oh, ja. Ich weiß genau, wie...
 
-	pornocam.5.step.nude.1@33@n-cam-10@Ну всё, Майк, я вся твоя. Скрывать почти нечего... Чем ещё я могу тебя порадовать?|So das war's Mike, ich bin ganz dein. Und es ist ja noch kaum etwas uebrig zum bedecken...kann ich sonst noch etwas tun?
-		pornocam.5.step.nude.2^								Может быть... ножки раздвинешь?|Könntest du vielleicht...deine Beine spreizen?
+	pornocam.5.step.nude.1@33@n-cam-10@Ну всё, Майк, я вся твоя. Скрывать почти нечего... Чем ещё я могу тебя порадовать?|In Ordnung, Mike, ich gehöre ganz dir. Es gibt fast nichts zu verbergen..... Was kann ich noch tun, um dich glücklich zu machen?
+		pornocam.5.step.nude.2^								Может быть... ножки раздвинешь?|Vielleicht..... Würdest du deine Beine spreizen?
 
-	pornocam.5.step.nude.2@21@Какой же ты джентльмен после этого, Майк... Но для тебя я готова сделать даже это!|Hey, das ist aber nicht sehr Gentlemen like, was du da willst Mike. Aber ich wäre bereit auch dies zumachen...
-		pornocam.5.step.nude.3^								Ого! Давай!|Wow! Na dann los!
+	pornocam.5.step.nude.2@21@Какой же ты джентльмен после этого, Майк... Но для тебя я готова сделать даже это!|Was für ein Gentleman du bist, Mike... Aber für dich bin ich bereit, auch das zu tun!
+		pornocam.5.step.nude.3^								Ого! Давай!|Whoa! Komm schon!
 
-	pornocam.5.step.nude.3@22@С тебя ещё $50...|Das kostet dich nochmal 50$...
-		money>49&pornocam.5.step.nude.4!add_money_-50^		Конечно, держи!|Klar, hier hast du es!
-		pornocam.5.step.end^								Ой, нет, в другой раз...|Upps, leider nicht heute, ein andermal vielleicht...
+	pornocam.5.step.nude.3@22@С тебя ещё $50...|Du schuldest mir noch 50$ ...
+		money>49&pornocam.5.step.nude.4!add_money_-50^		Конечно, держи!|Klar, hier!
+		pornocam.5.step.end^								Ой, нет, в другой раз...|Oh, nein, ein anderes Mal..
 
-	pornocam.5.step.nude.4@33@n-cam-11@Пожалуйста... Как я и обещала... Смотри...|Okay, wie versprochen...schau genau hin...
-		pornocam.5.step.nude.5^								Эй! Ничего же не видно!|Ey, ich kann garnichts sehen!
+	pornocam.5.step.nude.4@33@n-cam-11@Пожалуйста... Как я и обещала... Смотри...|Bitte, ähm... Wie ich versprochen habe... Schau...
+		pornocam.5.step.nude.5^								Эй! Ничего же не видно!|Hey! Man kann nichts sehen!
 
-	pornocam.5.step.nude.5@22@Да? Очень жаль... Видимо, камера слишком высоко... Но опустить её ниже стоит... Ой, не скажу...|Kannst du nicht? Huch, da muss wohl der Winkel der Webcam zu hoch sein...ich Könnte ihn ja verstellen...aber das kostet dich was...nur was sage ich dir heute nicht...
-		pornocam.5.step.nude.6a^							Верни мои деньги тогда!|Gib mir mein Geld wieder, das ist Betrug!
+	pornocam.5.step.nude.5@22@Да? Очень жаль... Видимо, камера слишком высоко... Но опустить её ниже стоит... Ой, не скажу...|Ja? Zu schade... Anscheinend ist die Kamera zu hoch... Aber es abzustellen ist es wert... Oh, ich würde nichts behaupten..
+		pornocam.5.step.nude.6a^							Верни мои деньги тогда!|Gib mir mein Geld zurück!
 		pornocam.5.step.nude.6b^							Очень жаль...|Zu schade...
 
-	pornocam.5.step.nude.6a@30@n-cam-10@Ах так? Это была честная сделка! Какой же ты скряга... Ладно, мне пора, Майк. Надеюсь, ты одумаешься в следующий раз...|Achja, das war ein fairer Deal! Du benimmst dich wie die anderen Gaffer...ich muss jetzt los. Hoffentlich machst du es beim nächsten Mal besser.
-		leave!time^											Блин...|Mist, ich hab's versaut...
+	pornocam.5.step.nude.6a@30@n-cam-10@Ах так? Это была честная сделка! Какой же ты скряга... Ладно, мне пора, Майк. Надеюсь, ты одумаешься в следующий раз...|Oh, ja? Oh, ja. Es war ein fairer Deal! Du bist so ein Geizhals.. Okay, ich muss los, Mike. Ich hoffe, du kommst das nächste Mal zur Besinnung...
+		leave!time^											Блин...|Misst...
 
-	pornocam.5.step.nude.6b@33@n-cam-10@Майк... Ты сегодня такой хладнокровный... Может быть, если я себя немного поласкаю, это тебя взбодрит?|Warum bist du heute so kalt zu mir Mike...kann ich dich vielleicht einbisschen aufwärmen, indem ich an mir rumspiele?
-		pornocam.5.step.nude.7!add_blot_1^					А ты не кинешь?|Und da ist kein Haken dran?
+	pornocam.5.step.nude.6b@33@n-cam-10@Майк... Ты сегодня такой хладнокровный... Может быть, если я себя немного поласкаю, это тебя взбодрит?|Mike, äh... Du bist heute so kaltschnäuzig... Vielleicht wird es dich aufheitern, wenn ich mich ein wenig streichle?
+		pornocam.5.step.nude.7!add_blot_1^					А ты не кинешь?|Willst du mich nicht abservieren?
 
-	pornocam.5.step.nude.7@31@n-cam-9@Конечно, нет, Майк! Я буду ласкать себя прямо здесь и сейчас... За дополнительные $150...|Was denkst du von mir Mike, natuerlich nicht! Ich fange sofort damit an...sagen wir für weitere 150$...
-		money>149&pornocam.5.step.nude.8!add_money_-150^	Хорошо, давай!|Okay, leg schon los!
-		blot>2&blop=0&07.aca.0^								Ты знаешь, меня тут по работе отвлекают... Давай в другой раз...|Tut mir leid, ich bin gerade beschaeftigt...morgen vielleicht.
-		pornocam.5.step.end^								Ой, нет, в другой раз...|Nein, heute nicht, wann anders...
+	pornocam.5.step.nude.7@31@n-cam-9@Конечно, нет, Майк! Я буду ласкать себя прямо здесь и сейчас... За дополнительные $150...|Natürlich nicht, Mike! Ich werde mich hier und jetzt streicheln... Für weitere 150$...
+		money>149&pornocam.5.step.nude.8!add_money_-150^	Хорошо, давай!|Okay, komm schon!
+		blot>2&blop=0&07.aca.0^								Ты знаешь, меня тут по работе отвлекают... Давай в другой раз...|Weißt du, ich bin abgelenkt von meiner Arbeit hier... Machen wir es ein anderes Mal...
+		pornocam.5.step.end^								Ой, нет, в другой раз...|Oh, nein, ein anderes Mal...
 
-	pornocam.5.step.nude.8@28@n-cam-8@Если ты... не понял... то я... уже начала... О да.. я думаю о тебе, Майк... как ты...|Falls du es noch nicht gemerkt hast Mike...ich bin schon voll dabei...mich hier...und da anzufassen...Ohhja Mike...ich kann nur an dich gerade denken...mmmhh...
-		pornocam.5.step.nude.9a^							Обломщица!|Ey, du ziehst mich nur wieder auf!
-		pornocam.5.step.nude.9b^							Так покажи что делаешь там!|Zeig mir wenigsten was du machst!
+	pornocam.5.step.nude.8@28@n-cam-8@Если ты... не понял... то я... уже начала... О да.. я думаю о тебе, Майк... как ты...|Wenn du... Ich verstehe es nicht... Ich.. habe bereits angefangen... Oh, ja.. Ich denke an dich, Mike... wie du...
+		pornocam.5.step.nude.9a^							Обломщица!|Schade!
+		pornocam.5.step.nude.9b^							Так покажи что делаешь там!|Also zeig mir, was du da machst!
 
-	pornocam.5.step.nude.9a@22@n-cam-10@Сам ты, Майк... обломщик... Я же начала себя ласкать, а ты...|Du musstest wieder alles kaputt machen Max, oder? Ich bin gerade in Fahrt gekommen, aber jetzt...
-		pornocam.5.step.end^								Так не видно же ничего!|Aber ich kann echt garnichts sehen!
+	pornocam.5.step.nude.9a@22@n-cam-10@Сам ты, Майк... обломщик... Я же начала себя ласкать, а ты...|Sie selbst, Mike... ein Versager... Ich fing an, mich selbst zu streicheln, aber du....
+		pornocam.5.step.end^								Так не видно же ничего!|Damit man nichts sieht!
 
-	pornocam.5.step.nude.9b@22@n-cam-10@Извини, Майк, но это личное. Могу лишь тебе сказать, что я на самом деле себя ласкала... пока ты меня не отвлёк... Вот теперь думай, что могло бы быть...|Tut mir leid Mike, aber das ist nicht für deine Augen bestimmt. Aber ich kann dir sagen, dass ich mich gerade selbstbefriedigt habe...bis du alles ruinieren musstest...du jetzt kannst du dir nur noch vorstellen was passieren hätte Können...
-		pornocam.5.step.end^								Эх...|Na toll...
+	pornocam.5.step.nude.9b@22@n-cam-10@Извини, Майк, но это личное. Могу лишь тебе сказать, что я на самом деле себя ласкала... пока ты меня не отвлёк... Вот теперь думай, что могло бы быть...|Es tut mir leid, Mike, aber das ist persönlich. Alles, was ich dir sagen kann, ist, dass ich mich tatsächlich selbst gestreichelt habe... bevor du mich ablenkst... Denke jetzt darüber nach, was hätte passieren können...
+		pornocam.5.step.end^								Эх...|Oh, äh.... (kichert)
 
-	pornocam.5.step.end@21@Ну всё, Майк. Мне пора бежать! Надеюсь, ещё увидимся? Целую тебя...|Ich sollte jetzt gehen Mike. Aber hoffentlich sehen wir uns bald wieder, Küsschen...
-		leave!time^											Ага, я тоже...|Ja, bis bald.
+	pornocam.5.step.end@21@Ну всё, Майк. Мне пора бежать! Надеюсь, ещё увидимся? Целую тебя...|In Ordnung, Mike. Ich muss los! Ich hoffe, wir sehen uns wieder? Ich küsse dich...
+		leave!time^											Ага, я тоже...|Ja, ich auch...
 
 
 
