@@ -2201,8 +2201,8 @@
 	10.dc.12@62@a-Momdressing-7@Макс! Опять пялишься на мою... на меня. И не отрицай, по твоим шортам всё видно... Опять же не сможешь решить свою проблему сам. А мне некогда... Так что, отвернись!|Du starrst schon wieder, Max! Und versuch nicht, es zu leugnen, ich kann die.... Beweise in deinen Shorts sehen. Was wirst du jetzt tun? Ich habe keine Zeit, dir zu helfen.... Dreh dich um!
 		10.dc.13^		Угу...|Okay
 
-	10.dc.13@67@a-Momdressing-10@Эй! Я же вижу, что ты не отвернулся. Ну вот, твои шорты больше ничего не скрывают... А если кто-то из девчонок увидит? Неужели, не стыдно?|I know you didn't turn around, Max. What if girls see you? Aren't you ashamed...
-		10.dc.14^		Типа того...|Ja...
+	10.dc.13@67@a-Momdressing-10@Эй! Я же вижу, что ты не отвернулся. Ну вот, твои шорты больше ничего не скрывают... А если кто-то из девчонок увидит? Неужели, не стыдно?|Hey! Ich kann sehen, dass du dich nicht umgedreht hast. Nun, deine Shorts verbergen nichts..... Was, wenn eine deiner Schwestern es sieht? Ist es nicht eine Schande?
+		10.dc.14^		Типа того...|Irgendwie schon...
 
 	10.dc.14@4@a-Momdressing-5b@<i>Да она же со мной флиртует! И что радует - совершенно меня не стесняется! Кажется, я на верном пути...</i>|<i>Sie flirtet mit mir! Und sie fühlt sich wohl, wenn ich sie ansehe, so viel ich will! Wir gehen in die richtige Richtung...</i>
 		10.dc.15^		<i>далее</i>|<i>fortfahren</i>

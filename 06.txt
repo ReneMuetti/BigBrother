@@ -2540,7 +2540,7 @@
 	06.lids.1@41@Ну да, если это можно так назвать... Хотя, больше похоже на какую-то оргию посреди ночи... Так что она там тебе поручила?|Wenn man es so nennen kann. Sieht für mich nach Mitternachtsorgien aus. Wie auch immer, welche Art von Übung hat sie dir gegeben?
 		06.lids.2^		Будет лучше, если я покажу...|Wie wäre es, wenn ich es dir stattdessen zeige.
 
-	06.lids.2@40@t-dishes-2@Что? Макс! Прекрати! Вдруг кто увидит? Ты же знаешь, что я трусики теперь дома не ношу!|War? Max! Halt! Was, wenn uns jemand sieht? Du weißt, dass ich kein Höschen mehr trage!
+	06.lids.2@40@t-dishes-2@Что? Макс! Прекрати! Вдруг кто увидит? Ты же знаешь, что я трусики теперь дома не ношу!|Was? Max! Halt! Was, wenn uns jemand sieht? Du weißt, dass ich kein Höschen mehr trage!
 		06.lids.3^		Конечно! Но никто не увидит, здесь никого кроме нас...|niemand wird es herausfinden.
 
 	06.lids.3@41@Блин, Макс! Я чувствую себя неловко. Как будто голая! Ах да, я практически голая! Опусти юбку!|Komm schon, Max. Da bin ich mir nicht sicher, ich fühle mich nackt. Was ich praktisch bin! Lass meinen Rock in Ruhe!

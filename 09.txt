@@ -1642,7 +1642,7 @@
 
 	09.ea.9a.3@43@41Ну я не знаю... Может быть на что-то большее. На такое большое, тёплое и светлое чувство... И всё с этим связанное. Я загадками говорю, да? Ладно, забей. В любом случае, выбор сделан и давай к этому не возвращаться.|Ich weiß nicht.... Etwas Größeres und Besseres.... Ich kann meine Gefühle nicht beschreiben. Wie auch immer, jetzt, wo du deine Wahl getroffen hast, lass uns nicht mehr zu diesem Gespräch zurückkehren.
 		leave!set_poss.sed_44!set_dcd.romt_7^			Ладно...|Schön...
-		09.ea.9a.3.b^	Постой!|Wait!
+		09.ea.9a.3.b^	Постой!|Warte!
 
 	09.ea.9a.3.b@40@Что? Только не говори, что я тебя заинтриговала и ты уже передумал. Если ты так быстро будешь менять своё решение, то мы ни к чему не придём... Ну так что?|Was? Bitte sag mir nicht, dass du deine Meinung geändert hast. Ich bin diejenige, die unbeständig sein soll, oder?
 		09.ea.9a.3.b.2^	Всё оставляем как есть, точно!|Ich bin Sicher, wir sollten alles so lassen, wie es jetzt ist!
@@ -2143,7 +2143,7 @@
 	09.ee.16@48@Да, теперь перейдём к самому главному. Ты ей показался симпатичным, но мне кажется, что это всё флирт, чтобы заманивать или хотя бы удерживать посетителей...|Hier ist ein Teil über dich. Ich schätze, sie mag dich vielleicht, aber ich glaube, sie hat nur mit dir geflirtet, also wirst du zu ihr zurückkommen.
 		09.ee.17^		Думаешь, в этом дело?|Denkst du, das ist der einzige Grund?
 
-	09.ee.17@41@Не знаю. Но у тебя есть шанс. Однако, я знаю как повысить эти самые шансы...Ich weiß nicht, aber ich denke, du hast eine geringe Chance, sonst wären wir jetzt nicht Hier. Und ich weiß, wie man seine Chancen erhöht.
+	09.ee.17@41@Не знаю. Но у тебя есть шанс. Однако, я знаю как повысить эти самые шансы...|Ich weiß nicht. Ich weiß es nicht. Aber du hast eine Chance. Aber ich weiß, wie man diese Chancen erhöht.....
 		09.ee.18^		Интересно, как?|Ich höre dir zu.
 
 	09.ee.18@40@Ты можешь попробовать себя в роли повара...\n\n<color=lime><i><b>Внимание:</b> Получена новая «возможность»!</i></color>|Du solltest dich als Koch im Laden versuchen.\n\n<color=lime><i><b>Achtung:</b> Du hast eine neue Gelegenheit gefunden!</i></color>
@@ -2396,7 +2396,7 @@
 	09.eg.35b@161@Ну ничего себе! Да ты мастер на все руки. Говорил, что учишься готовить, а теперь ты ещё и бармен, оказывается... Но всё дело же не в работе, верно? И я просила говорить правду...|Wow, du steckst voller Überraschungen. Hast du mir nicht gesagt, dass du kochen lernst? Aber du bist nicht an dem Job selbst interessiert, oder? Bitte sag mir die Wahrheit.
 		09.eg.35^		Верно...|Richtig...
 
-	09.eg.35@177@Макс, это так мило с твоей стороны... Но я вынуждена тебе отказать.|I'm flattered, Max, but... I'm gonna have to turn you down.
+	09.eg.35@177@Макс, это так мило с твоей стороны... Но я вынуждена тебе отказать.|Max, das ist so süß von dir..... Aber ich muss zu dir nein sagen.
 		09.eg.36^		Почему?|Warum?
 
 	09.eg.36@178@Ты ещё спрашиваешь? К тому же, папа говорит, что я распугала всех клиентов и сейчас кафе приносит одни убытки. Повар пока останется наш, хотя мне и не очень нравится как он готовит... А вот бармену платить я пока не могу...|Ist das dein Ernst? Außerdem sagt Dad, dass ich alle Kunden verschreckt habe und der Ort Geld verliert. Wir behalten den Koch, auch wenn ich seine Kochkünste nicht so sehr mag.... Also kann ich mir sowieso keinen Barkeeper leisten.
@@ -2448,7 +2448,7 @@
 	09.eh.1b@161@Не скажешь? Какой загадочный ты сегодня... Ну что же, тогда выпей кофе, он помогает...|Kann ich nicht sagen? Du bist heute so geheimnisvoll.... Ich hoffe, mein Kaffee hilft dir bei deinen versteckten Wünschen....
 		09.eh.1^		Спасибо, Вика...|Danke, Vicky
 
-	09.eh.1c@161@Ты считаешь, что уже готов поразить меня своим искусством?|Do you think you're ready to impress me with your mastery?
+	09.eh.1c@161@Ты считаешь, что уже готов поразить меня своим искусством?|Denkst du, du bist bereit, mich mit deiner Kunst zu beeindrucken?
 		09.eh.1c.2^		Нет, пока нет...|Nein, noch nicht
 
 	09.eh.1c.2@163@Ну что же, буду ждать. Интересно, на что ты способен...|Ich werde dann warten. Ich will sehen, wozu du fähig bist....
@@ -2584,7 +2584,7 @@
 		09.fa.mom.w.1^							Хорошо, мам...|Okay, Mom
 
 	09.fa.mom.w.1@4@f-shp-4@<i>Вот бы заглянуть, в каком она там виде? А вдруг голая? Было бы прикольно...</i>|<i>Wenn ich nur einen Blick darauf werfen könnte.... Was, wenn sie nackt ist? Das wäre schön....</i>
-		09.fa.mom.w.2^							Ну как, мам?|How is it, mom?
+		09.fa.mom.w.2^							Ну как, мам?|Wie läuft es, Mom?
 
 	09.fa.mom.e.0@68@f-cn-c@Макс? Я же попросила тебя ждать снаружи. Так неловко... Сделаем вид, что ничего не было...|Max? Ich habe dir gesagt, du sollst draußen warten. Tun wir so, als wäre nichts passiert.
 		09.fa.mom.w.1!mom.mood_-100^			Извини, мам...|Es tut mir leid, Mom.
